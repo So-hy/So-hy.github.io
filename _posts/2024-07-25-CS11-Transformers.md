@@ -69,13 +69,13 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 트랜스포머는 크게 두 종류가 있다.
 ![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
-Feed Forward 의 경우 Combination feature와 같은 특징을 추출하는 역할을 하고, 
+Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특징들을 결합하여 새로운 특징을 추출하는 역할을 하고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMzgzMTM2NCw1MDkxOTQyMzksLTkwOT
-cxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3Mzcs
-MTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMTEwMT
-c3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEwODQw
-NzQsNzg0NzE0NTI5LC01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMT
-c0MDk4Mjc2MCwtMTk3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQw
-OTAwMF19
+eyJoaXN0b3J5IjpbMTI2MjIzMDEzOCwyMTIzODMxMzY0LDUwOT
+E5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2
+LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MT
+U1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUw
+NTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2NywxNj
+Y2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3NjM2NjYsMTAyODU4
+MjUxNl19
 -->
