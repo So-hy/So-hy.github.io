@@ -29,13 +29,13 @@ layout: default
 
     fadeElements.forEach(element => {
       const rect = element.getBoundingClientRect();
-      const elementTop = rect.top + scrollTop;
-      const elementBottom = rect.bottom + scrollTop;
+      const elementTopRelative = rect.top;
+      const elementBottomRelative = rect.bottom;
 
-      if (elementTop < scrollTop + fadeThreshold) {
-        element.style.opacity = Math.max(1 - (scrollTop + fadeThreshold - elementTop) / fadeThreshold, 0.2);
-      } else if (elementBottom > scrollTop + windowHeight - fadeThreshold) {
-        element.style.opacity = Math.max(1 - (elementBottom - (scrollTop + windowHeight - fadeThreshold)) / fadeThreshold, 0.2);
+      if (elementTopRelative < fadeThreshold) {
+        element.style.opacity = Math.max(1 - (fadeThreshold - elementTopRelative) / fadeThreshold, 0.2);
+      } else if (elementBottomRelative > windowHeight - fadeThreshold) {
+        element.style.opacity = Math.max(1 - (elementBottomRelative - (windowHeight - fadeThreshold)) / fadeThreshold, 0.2);
       } else {
         element.style.opacity = 1;
       }
