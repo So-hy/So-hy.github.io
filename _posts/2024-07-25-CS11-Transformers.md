@@ -42,8 +42,9 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 위 이미지를 보면 입력 문장과 대상 문장이 동일한 시퀀스를 나타냄을 볼 수 있다.
 
 트랜스포머 모델은 이 두 가지 어텐션 메커니즘을 모두 사용한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg4MTE3OTE0LC0xNzQwOTgyNzYwLC0xOT
-c3NjM2NjYsMTAyODU4MjUxNiwxNTA2NDA5MDAwLC0yMDg4NzQ2
-NjEyXX0=
+eyJoaXN0b3J5IjpbLTc5NDMxMDMyOCwtMTc0MDk4Mjc2MCwtMT
+k3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0
+NjYxMl19
 -->
