@@ -67,16 +67,16 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 ### **Two Types of Transformers**
 트랜스포머는 크게 두 종류가 있다.
-![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698)
+![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
 
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzND
-U0NzQsLTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAs
-LTI5MzE0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3Mz
-A1MzMxNDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUy
-OSwtNTczNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLT
-E5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3
-NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NzkxNTMzMDksNTA5MTk0MjM5LC05MD
+k3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNjk0NzM3
+LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LDExMD
+E3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkxMDg0
+MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAxMzIsLT
+E3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MDY0
+MDkwMDBdfQ==
 -->
