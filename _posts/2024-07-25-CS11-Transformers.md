@@ -103,13 +103,13 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 ![스크린샷 2024-07-25 211603](https://github.com/user-attachments/assets/6f14e61b-029c-4262-a490-ec863d3a78e5){: .responsive-img .align-center}
 
 이 그림은 Attention is all you need 논문에 나온 것과 조금 다르긴 하지만 실제로 pytorch를 통해 구현할 때 어떤 식으로 되는 지에 가깝다. Q, K, V는 각각 Query Vector, Key Vector, Value Vector 을 의미한다.
-Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼리 벡터의 수와 키/값 벡터의 수는 충분히 다를 수 있다고 한다.(키/값 벡터의 개수는 무조건 같아야 한다.) 이런 경우는 Cross-Attention 시 발생할 수 있는데, 
+Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼리 벡터의 수와 키/값 벡터의 수는 충분히 다를 수 있다고 한다.(키/값 벡터의 개수는 무조건 같아야 한다.) 이런 경우는 Cross-Attention 시 발생할 수 있는데, 이전에 말한 것과 같이 디코더의 쿼리 벡터를 입력 시퀀스의 키와 값 벡터에 매핑하여 어텐션 스코어를 계산하는 과정이다. 이 때, 디코더가 현재 시점까지의 출력 시퀀스에 대한 정보를 기반으로, 전체 입력 시퀀스의 정보를 활용하여 다음 단어를 예측하기 때문에, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMTYzMDkxOSwxNTM4NTcxNjA0LC00Nj
-QzMjA4MSwtMTg5NjY4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0
-NzksNjczNjU2ODE3LDE0MTcwNzA5OTYsLTE3ODY1MDg5NjcsMj
-EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
-NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
-kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
-MzE0N119
+eyJoaXN0b3J5IjpbLTEyNjA2Mjk0MTQsMTUzODU3MTYwNCwtND
+Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
+NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LD
+IxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0
+NzQsLTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLT
+I5MzE0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1
+MzMxNDddfQ==
 -->
