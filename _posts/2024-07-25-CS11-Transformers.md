@@ -85,13 +85,17 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 
 ![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img}
 
-Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇게 쪼개진 subwords를 Dense Vector Space로 Embedding 한다.
+Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇게 쪼개진 subwords를 Dense Vector Space로 Embedding 한다. 
+그 다음으로 다룰 것은 Multi-head Attention이다.
+
+## **Multi-head Attention**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTg1ODUzODUsLTE3ODY1MDg5NjcsMj
-EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
-NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
-kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
-MzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC
-01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3
-NzYzNjY2XX0=
+eyJoaXN0b3J5IjpbMTk1MDM5MDg3MCwtMTc4NjUwODk2NywyMT
+IzODMxMzY0LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0
+LC0xODE1Njc1MDA2LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOT
+MxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMz
+MTQ3LDE5ODE4ODUwNTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLT
+U3MzQwMzA2NywxNjY2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3
+NjM2NjZdfQ==
 -->
