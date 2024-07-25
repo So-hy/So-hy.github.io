@@ -176,9 +176,9 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 
-그리고 이 인코딩 벡터를 다른 위치의 인코딩 벡터인 $P_{t'}$와 내적을 하여 유사성을 계산하고 그 값을 그림으로 나타내면 오른쪽 그림과 같이 나온다​
+그리고 이 인코딩 벡터를 다른 위치의 인코딩 벡터인 $P_{t'}$와 내적을 하여 유사성을 계산하고 그 값을 그림으로 나타내면 오른쪽 그림과 같이 나온다. 해당 히트맵의 각 셀은 두 위치 간의 유사성 값을 나타내고, 색상이 짙을 수록 높은 유사성을 나타내는데, 보이는 것과 같이 대각선은 항상 높은 유사성을 가지는 것을 볼 수 있다. (자기 자신과의 비교이기 때문)​ 그리고 두 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4MTMzMTE3NCwxMzcyMTY4MTkyLDEzNz
+eyJoaXN0b3J5IjpbLTI4MDM2Nzc2NywxMzcyMTY4MTkyLDEzNz
 k0NzI3OTYsLTE3OTA4MjM0OSwxMDM3NDI5NDA4LC0xMDE3NzU3
 NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3MzkyMDI4LD
 U3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtNDY0MzIw
