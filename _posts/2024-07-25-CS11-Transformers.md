@@ -69,13 +69,13 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 트랜스포머는 크게 두 종류가 있다.
 ![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
-Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특징들을 결합하여 새로운 특징을 추출하는 역할을 하고, Multi-head attention 블록의 경우 이전에 말한 어텐션에 대한 작업을 수행한다. (자세한 내용은 뒤에서 다룬다.) 디코더만 있는 모델은 크게 이 두 가지 부분만 있고 인코더-디코더 모델의 경우, Masked Multi-Attention 이라는 블록도 있다. (RNN의 어떤 점을 대체한다고 하는데, 아마 RNN이 이전의 결과를 토대로 현재의 결과를 계산하여야 하는 것과 같이 어텐션 작업을 할 때, 현재 토큰
+Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특징들을 결합하여 새로운 특징을 추출하는 역할을 하고, Multi-head attention 블록의 경우 이전에 말한 어텐션에 대한 작업을 수행한다. (자세한 내용은 뒤에서 다룬다.) 디코더만 있는 모델은 크게 이 두 가지 부분만 있고 인코더-디코더 모델의 경우, Masked Multi-Attention 이라는 블록도 있다. (RNN의 어떤 점을 대체한다고 하는데, 아마 RNN이 이전의 결과를 토대로 현재의 결과를 계산하여야 하는 것과 같이 시퀀스 "A, B, C" 를 처리한다고 가정할 때, 만약 현재 시퀀스에서 'A' 부분을 처리하고 있다면 뒤에 있는 ", B, C" 를 보지 못하게 한다는 뜻인 것 같다.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc2MTkyNTEsLTE3ODY1MDg5NjcsMj
-EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
-NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
-kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
-MzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC
-01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3
-NzYzNjY2XX0=
+eyJoaXN0b3J5IjpbMTU4NTQ4OTE4LC0xNzg2NTA4OTY3LDIxMj
+M4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQs
+LTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5Mz
+E0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMx
+NDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNT
+czNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2
+MzY2Nl19
 -->
