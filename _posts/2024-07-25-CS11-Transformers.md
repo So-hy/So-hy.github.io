@@ -58,18 +58,25 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 ![스크린샷 2024-07-25 211425](https://github.com/user-attachments/assets/e4745e50-770d-4daa-bb32-f129592fb326){: .responsive-img}
 
 그럼 위 그림에서 말하는 값 벡터(Value Vector)는 뭘까? 값 벡터는 키 벡터와 같은 토큰으로부터 생성되는 벡터이다. 하지만 다른 가중치를 통해 생성된다.
+
 만약 단어 별로 토큰화 되었다고 가정했을 때, "kono", "eiga", "ga", "kirai"는 각각 임베딩 벡터 $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3, \mathbf{e}_4$로 변환된다. 키 벡터의 경우 -   각 임베딩 벡터에 키 가중치 행렬 $\mathbf{W}_K$​를 곱하여 생성되고, ( $\mathbf{K}_i = \mathbf{W}_K \cdot \mathbf{e}_i$)이 벡터는 쿼리 벡터와의 유사도를 계산하는데 사용된다. 값 벡터의 경우 각 임베딩 벡터에 값 가중치 행렬 $\mathbf{W}_V$를 곱하여 생성되고, ( $\mathbf{V}_i = \mathbf{W}_V \cdot \mathbf{e}_i$) 이 벡터는 최종 어텐션 결과를 생성하는데 사용된다.
+
 어쨌든, 이전에 normalize 한 값(어텐션 가중치)을 각 값 벡터에 곱한 후, 이를 합산하여 최종 어텐션을 출력한다.  예를 들어, 값 벡터 $V_1, V_2, V_3$​와 어텐션 가중치 $\alpha_1, \alpha_2, \alpha_3$가 있을 때, 최종 출력은 $\alpha_1 V_1 + \alpha_2 V_2 + \alpha_3 V_3​$가 된다.
 
 ## **Transformers**
 트랜스포머 모델은 "Attention is All You Need" 라는 논문에서 처음 소개 되었다. 트랜스포머는 기본적으로 시퀀스 투 시퀀스(Sequence-to-Sequence) 모델로, 이 모델은 오직 어텐션 메커니즘만을 사용하여 시퀀스를 생성할 수 있음을 보여주었다. 기존의 RNN 기반의 모델도 어텐션을 사용하였으나 단지 Cross-Attention 만 사용하였다고 교수는 설명하고 있다. 트랜스포머는 이러한 Cross-attention 에 더해 RNN이 하는 역할을 Self-Attention 으로 대체한다.
+
 처음에 트랜스포머 모델은 기계 번역에 강한 모습을 보였지만, 지금은 대부분의 task에 있어 강한 모습을 보인다. 또한 트랜스포머 모델은 Matrix multiplications 만으로 구성되어 있기 때문에 빠르다는 강점도 있다. (RNN은 다음 계산을 위해 이전의 계산이 끝나기 까지 기다려야 한다는 병목 현상이 발생하기 때문이다.)
 
 ### **Two Types of Transformers**
 트랜스포머는 크게 두 종류가 있다.
+
 ![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
+
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
+
 Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특징들을 결합하여 새로운 특징을 추출하는 역할을 하고, Multi-head attention 블록의 경우 이전에 말한 어텐션에 대한 작업을 수행한다. (자세한 내용은 뒤에서 다룬다.) 디코더만 있는 모델은 크게 이 두 가지 부분만 있고 인코더-디코더 모델의 경우, Masked Multi-Attention 이라는 블록도 있다. (RNN의 어떤 점을 대체한다고 하는데, 아마 RNN이 이전의 결과를 토대로 현재의 결과를 계산하여야 하는 것과 같이 시퀀스 "A, B, C" 를 처리한다고 가정할 때, 만약 현재 시퀀스에서 'A' 부분을 처리하고 있다면 뒤에 있는 ", B, C" 를 보지 못하게 한다는 뜻인 것 같다.) 그리고 Multi-Head Attention 레이어가 하나 더 있는데 이는 Cross-Attention 을 담당한다.
+
 **인코더-디코더 모델**은 입력과 출력이 명확하게 구분되는 작업에 적합하며, 반면 **디코더 전용 모델**은 단일 모듈(디코더)만 사용하며, 입력과 출력의 구분이 모호한 작업에 적합하다.(ChatGpt 와 같이 입력과 출력이 명확히 정해지지 않는 느낌이다.) 옆에 작게 적힌 Nx 는 해당 인코더, 디코더 레이어가 몇 겹 존재하는지에 대한 것이다.
 
 ### **Core Transformer Concepts**
@@ -106,11 +113,11 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼리 벡터의 수와 키/값 벡터의 수는 충분히 다를 수 있다고 한다.(키/값 벡터의 개수는 무조건 같아야 한다.) 이런 경우는 Cross-Attention 시 발생할 수 있는데, Cross-Attention은 이전에 말한 것과 같이 디코더의 쿼리 벡터를 입력 시퀀스의 키와 값 벡터에 매핑하여 어텐션 스코어를 계산하는 과정이다. 이 때, 디코더가 현재 시점까지의 출력 시퀀스에 대한 정보를 기반으로, 전체 입력 시퀀스의 정보를 활용하여 다음 단어를 예측하기 때문에, 디코더가 현재 생성 중인 출력 시퀀스의 일부에 대해서만 쿼리 벡터를 생성할 수 있고, 이 때문에 개수가 달라질 수 있다는 것! (디코더의 출력 시퀀스의 길이와 관련이 있다는 뜻) 하지만 Self-Attention 의 경우, 동일한 시퀀스에 대해서 계산되는 것이기에, 당연 개수가 같아야 한다. (※ 행은 차원, 열은 시퀀스의 길이를 나타낸다고 보면 된다.)
 어쨌든, 각각의 벡터를 각각의 가중치 행렬과 곱셈 연산을 한다. 이 곱하는 과정이 위의 그림에서 Attention 괄호 안에 있는 친구들을 의미한다. 이렇게 곱한 후, 얘들을 분할 및 재구성하는 과정을 거친다. 말 그대로 Multi-head attention 이니까 여러 헤드에 이 값을 쪼개서 넣는 것이다. 그림에서는 두 개로 쪼갰는데 이 말은 Attention Head 가 두 개 있다는 것! 위의 식은 분할 후, Matrix Multiply 를 진행했지만 그림은 반대의 순서다. 이는 실제로는 식처럼 하는게 아니라 큰 곱셈을 먼저 해버리고 쪼개는게 쪼개서 잔잔한 곱셈을 여러번 하는 것보다 효율적이기 때문이라고 한다. 그래서 실제로 구현할 때는 그림대로 하는게 일반적이라고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4OD
-c4MjksMTUzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUs
-LTExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MD
-cwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5
-LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNj
-k0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1
-XX0=
+eyJoaXN0b3J5IjpbLTU4MTEyMjE4LDcyNzM5MjAyOCw1NzIyOD
+k4NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0x
+ODk2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NT
+Y4MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0
+LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Nj
+c1MDA2LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzNd
+fQ==
 -->
