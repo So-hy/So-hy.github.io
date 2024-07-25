@@ -36,10 +36,11 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
 <h3>**Self Attention**</h3>
-셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다.
+셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다. 즉, 쿼리와 키가 동일한 시퀀스에 대응되므로, 시퀀스 내의 요소 간의 관계를 모델링할 수 있다.
+
 
 위 이미지를 보면 입력 문장과 대상 문장이 동일한 시퀀스를 나타냄을 볼 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Nzg3MTA2MiwtMTk3NzYzNjY2LDEwMj
-g1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMD
+I4NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ==
 -->
