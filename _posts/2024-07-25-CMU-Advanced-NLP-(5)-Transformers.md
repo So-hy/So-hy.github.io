@@ -148,16 +148,14 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 ![스크린샷 2024-07-26 020605](https://github.com/user-attachments/assets/d98b1ef3-993d-4ebe-a3fe-6de75095e1d3){: .responsive-img .align-center}
 
-이 그림은 Multi-Head Attention 을 했을 때, 어텐션이 어떻게 적용되는가를 보여주는 예시이다. 
-
-
+이 그림은 Multi-Head Attention 을 했을 때, 어텐션이 어떻게 적용되는가를 보여주는 예시이다. making 이라는 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMzE5ODkwMSwtMTAxNzc1NzQyOSwtMT
-IxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4
-NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xOD
-k2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4
-MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LD
-UwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1
-MDA2XX0=
+eyJoaXN0b3J5IjpbLTE4MDM4NDgwODIsLTEwMTc3NTc0MjksLT
+EyMTA3MDMzODYsLTYwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5
+ODU0LDIyMjg4NzgyOSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMT
+g5NjY4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2
+ODE3LDE0MTcwNzA5OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NC
+w1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3
+NTAwNl19
 -->
