@@ -96,13 +96,13 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 -   **의미적 정보**: 어떤 단어는 문장의 의미를 이해하는 데 중요한 정보를 제공할 수 있다. 예를 들어, "run"이라는 단어는 "달리다"라는 물리적 의미뿐만 아니라 "사업을 운영하다"라는 비유적 의미도 가질 수 있다.
 -   **문맥적 중요성**: 어떤 단어는 특정 문맥에서 더 중요한 정보를 제공할 수 있다. 예를 들어, "bank"라는 단어는 문맥에 따라 "강둑" 또는 "은행"을 의미할 수 있다.
 
-단순히 ㄴ
+단순히 단일 Attention Head는 시퀀스의
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzOTE1MTI1LDY3MzY1NjgxNywxNDE3MD
-cwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5
-LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNj
-k0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1
-LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtND
-kxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAx
-MzJdfQ==
+eyJoaXN0b3J5IjpbMTg2NDA2MDExOSw2NzM2NTY4MTcsMTQxNz
+A3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5NDIz
+OSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMD
+Y5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5
+NSwxMTAxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLT
+Q5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2NywxNjY2ODQw
+MTMyXX0=
 -->
