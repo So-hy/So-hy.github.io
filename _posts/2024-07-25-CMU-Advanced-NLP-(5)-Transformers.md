@@ -168,9 +168,9 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 ![스크린샷 2024-07-26 040014](https://github.com/user-attachments/assets/0ab4598f-cdaf-4bdc-90f6-889c18dbbdee){: .responsive-img .align-center}
 
-이 수식은 각 위치 ttt에 대해 사인 및 코사인 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩합니다. 여기서 kkk는 위치 인덱스이고, ddd는 인코딩 차원의 크기입니다.
+이 수식은 각 위치 t에 대해 sin 및 cos 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩한다. 여기서 k는 위치 인덱스이고, d는 인코딩 차원의 크기다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5NTMwNzEwNywtMTc5MDgyMzQ5LDEwMz
+eyJoaXN0b3J5IjpbMTM3OTQ3Mjc5NiwtMTc5MDgyMzQ5LDEwMz
 c0Mjk0MDgsLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLTYwOTc3
 NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LDIyMjg4NzgyOSwxNT
 M4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4NjEyNSwtMTExODQ4
