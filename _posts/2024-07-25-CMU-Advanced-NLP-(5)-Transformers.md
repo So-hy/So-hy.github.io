@@ -144,9 +144,9 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
     return self.W_o(x)
 
 
-코드의 마지막을 보면 최종 결과의 W_o 
+코드의 마지막을 보면 최종 결과에 W_o 를 적용하는 것을 볼 수 있다. 이는 식에도 표현되어 있는데 이 $\mathbf{W_O}$ 는 최종 선형 레이어로, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzY3OTkzODIsLTEyMTA3MDMzODYsLT
+eyJoaXN0b3J5IjpbLTE2OTY1NTY1MzcsLTEyMTA3MDMzODYsLT
 YwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LDIyMjg4Nzgy
 OSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4NjEyNSwtMT
 ExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5
