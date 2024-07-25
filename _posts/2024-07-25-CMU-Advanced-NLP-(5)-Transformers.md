@@ -143,8 +143,10 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
             )
     return self.W_o(x)
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzE2NTI2NywtMTIxMDcwMzM4NiwtNj
+eyJoaXN0b3J5IjpbMjAxNTU3OTUyOSwtMTIxMDcwMzM4NiwtNj
 A5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5
 LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMT
 E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
