@@ -13,12 +13,10 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 대상 문장은 (kore, wa, rei, desu) 이다.
 각 셀의 색상은 어텐션 스코어를 나타낸다.
 
-어텐션 스코어란?
-
 > 어텐션 스코어란?
-> ⇒ 특정 
+> ⇒ 특정 쿼리와 모든 키 간의 유사도를 나타내는 값이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2NTE4NjM1MywxNTA2NDA5MDAwLC0yMD
+eyJoaXN0b3J5IjpbMTAyODU4MjUxNiwxNTA2NDA5MDAwLC0yMD
 g4NzQ2NjEyXX0=
 -->
