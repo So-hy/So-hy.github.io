@@ -1,36 +1,6 @@
 ---
-layout: default
-title: Reviews
+layout: review
+title: Review
 icon: fa-book
 order: 3
 ---
-{%- assign _reviews = site.reviews | sort: 'date' | reverse -%}
-{%- include header.html scrolly_nav=_reviews -%}
-<!-- Main -->
-<div id="main">
-    {%- if page.content != "" -%}
-        {%- include section.html title=page.title photo=page.cover-photo photo-alt=page.cover-photo-alt auto-header=page.auto-header content=page.content -%}
-    {%- endif -%}
-    <!-- Reviews List -->
-    {%- for _review in _reviews -%}
-        {%- assign review_date = _review.path | regex_replace: '^.*\\/(\\d{4})-(\\d{2})-(\\d{2})-.*$', '\\1-\\2-\\3' -%}
-        {%- capture _title -%}
-            <a href="{{ _review.url }}">{{ _review.title }}</a>
-        {%- endcapture -%}
-        {%- capture _subtitle -%}
-            {% if _review.author %}{{ _review.author }} | {% endif %}
-            {{ review_date | date: "%B %d, %Y" }}
-        {%- endcapture -%}
-        {%- capture _excerpt -%}
-            <p>{{ _review.excerpt | strip_html | truncatewords: 100 }}</p>
-        {%- endcapture -%}
-        {%- capture _link -%}
-            <a href="{{ _review.url }}">read more</a>
-        {%- endcapture -%}
-        {%- assign _content = _excerpt | append: _link -%}
-        {%- include section.html title=_title subtitle=_subtitle content=_content -%}
-    {%- endfor -%}
-    {%- if _reviews == empty -%}
-        <p>No reviews found.</p>
-    {%- endif -%}
-</div>
