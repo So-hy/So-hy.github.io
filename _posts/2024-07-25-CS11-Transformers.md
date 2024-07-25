@@ -23,10 +23,10 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 > 크로스 어텐션 과정을 간단하게 말하면 다음과 같다.
 > -   **쿼리와 키 설정**:
->     -   쿼리는 입력 문장의 각 단어들 ("this", "is", "an", "example")입니다.
->     -   키는 대상 문장의 각 단어들 ("kore", "wa", "rei", "desu")입니다.
+>     -   쿼리는 입력 문장의 각 단어들 ("this", "is", "an", "example")이다.
+>     -   키는 대상 문장의 각 단어들 ("kore", "wa", "rei", "desu")이다.
 > -   **어텐션 스코어 계산**:
->     -   쿼리 벡터와 키 벡터 간의 내적(dot product)을 통해 어텐션 스코어를 계산합니다.
+>     -   쿼리 벡터와 키 벡터 간의 내적(dot product)을 통해 어텐션 스코어를 계산한다.
 >     -   각 쿼리 단어에 대해 모든 키 단어와의 유사도를 계산하여 어텐션 스코어 행렬을 만든다.
 > -   **스코어 정규화**:
 >     -   소프트맥스(Softmax) 함수를 사용하여 어텐션 스코어를 정규화한다. 이는 각 스코어를 확률로 변환하여 모든 스코어의 합이 1이 되도록 한다.
@@ -35,6 +35,6 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjAzNTA2MjcsMTAyODU4MjUxNiwxNT
-A2NDA5MDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MD
+Y0MDkwMDAsLTIwODg3NDY2MTJdfQ==
 -->
