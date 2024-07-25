@@ -34,6 +34,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   각 키 단어에 해당하는 값 벡터에 어텐션 스코어를 곱한 후, 이를 합산하여 최종 어텐션 결과 벡터를 만든다.
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
+
 ### **Self Attention**
 
 셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다. 즉, 쿼리와 키가 동일한 시퀀스에 대응되므로, 시퀀스 내의 요소 간의 관계를 모델링할 수 있다.
@@ -182,11 +183,11 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 
 ### **Learned Encoding**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNT
-A3OTM3NSwxMzcyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0
-OSwxMDM3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC
-02MDk3NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4
-MjksMTUzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLT
-ExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcw
-OTk2XX0=
+eyJoaXN0b3J5IjpbLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MD
+M3NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5
+NiwtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLT
+EyMTA3MDMzODYsLTYwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5
+ODU0LDIyMjg4NzgyOSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMT
+g5NjY4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2
+ODE3XX0=
 -->
