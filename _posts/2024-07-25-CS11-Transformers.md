@@ -69,12 +69,12 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 트랜스포머는 크게 두 종류가 있다.
 ![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698)
 
-하나는 인코더-디코더로 이루어진 모델이고, 다른 하나는 디코더로만 이루어진 모델이다.
+하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMD
-Y5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5
-NSwxMTAxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLT
-Q5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2NywxNjY2ODQw
-MTMyLC0xNzQwOTgyNzYwLC0xOTc3NjM2NjYsMTAyODU4MjUxNi
-wxNTA2NDA5MDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbLTkwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNT
+Y3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMjkzMTQ3Nzcz
+LC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUzMzE0NywxOT
+gxODg1MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC01NzM0MDMw
+NjcsMTY2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3NzYzNjY2LD
+EwMjg1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
 -->
