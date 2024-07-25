@@ -83,7 +83,7 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 이러한 친구들이 트랜스포머 모델의 핵심이다.
 우선 디코더를 보면서 차근차근 살펴보자.
 
-![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img}
+![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img .align-center}
 
 Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇게 쪼개진 subwords를 Dense Vector Space로 Embedding 한다. 
 그 다음으로 다룰 것은 Multi-head Attention이다.
@@ -98,11 +98,11 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 
 단순히 단일 헤드 어텐션(Single-Head Attention)는 시퀀스의 특정 한 단어에 대해 다른 요소들과의 중요도가 어떤지를 측정하는 식으로 진행되는데 이때문에 모든 부분에 동시에 주의를 기울일 수 없어 특정 부분에 집중하게 되는 문제가 생긴다. 따라서 단일 헤드 어텐션은 중요한 정보를 선택할 때 "하드 디시전"을 내려야 하는 경우, 즉, 어떤 정보를 선택하고 어떤 정보를 무시할지 명확하게 결정해야 하는 경우가 발생한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MD
-cwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5
-LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNj
-k0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1
-LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtND
-kxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAx
-MzJdfQ==
+eyJoaXN0b3J5IjpbLTExMTg0ODAxNjIsLTkwODI3NDc5LDY3Mz
+Y1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEz
+NjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MT
+U2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3
+MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMT
+k4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAz
+MDY3XX0=
 -->
