@@ -182,12 +182,14 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 그리고 이 인코딩 벡터를 다른 위치의 인코딩 벡터인 $P_{t'}$와 내적을 하여 유사성을 계산하고 그 값을 그림으로 나타내면 오른쪽 그림과 같이 나온다. 해당 히트맵의 각 셀은 두 위치 간의 유사성 값을 나타내고, 색상이 짙을 수록 높은 유사성을 나타내는데, 보이는 것과 같이 대각선은 항상 높은 유사성을 가지는 것을 볼 수 있다.(자기 자신과의 비교이기 때문)​ 그리고 두 위치가 가까울 수록 값이 커지는 것을 볼 수 있다. 이 값이 어텐션 메커니즘에 영향(Bias)를 주는데, 이 값이 커질수록 당연히 어텐션 메커니즘에서 가중치를 조정하는데 더 큰 영향을 주게 된다. 즉, 두 위치가 가까울수록 어텐션 값(가중치)이 커지게 되고, 이로 인해 어텐션 메커니즘이 문맥을 이해할 때, 가까운 단어들 간의 관계를 더 잘 반영하게 하는 것이다. 거기에 더해 대각선 상의 셀은 위치 인코딩 벡터가 자기 자신과의 상관 관계를 나타내며, 이는 각 위치 인코딩 벡터가 고유함을 시각적으로 보여준다. 이러한 이유로 이런 function을 쓰게 된 것이다.
 
 ### **Learned Encoding**
+
+Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MD
-M3NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5
-NiwtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLT
-EyMTA3MDMzODYsLTYwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5
-ODU0LDIyMjg4NzgyOSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMT
-g5NjY4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2
-ODE3XX0=
+eyJoaXN0b3J5IjpbMjA0NTM4ODYxMywtNDAzMTkzMzk0LC02Nz
+I5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5
+MiwxMzc5NDcyNzk2LC0xNzkwODIzNDksMTAzNzQyOTQwOCwtMT
+AxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5
+MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLT
+Q2NDMyMDgxLC0xODk2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgy
+NzQ3OV19
 -->
