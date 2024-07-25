@@ -65,9 +65,13 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 트랜스포머 모델은 "Attention is All You Need" 라는 논문에서 처음 소개 되었다. 트랜스포머는 기본적으로 시퀀스 투 시퀀스(Sequence-to-Sequence) 모델로, 이 모델은 오직 어텐션 메커니즘만을 사용하여 시퀀스를 생성할 수 있음을 보여주었다. 기존의 RNN 기반의 모델도 어텐션을 사용하였으나 단지 Cross-Attention 만 사용하였다고 교수는 설명하고 있다. 트랜스포머는 이러한 Cross-attention 에 더해 RNN이 하는 역할을 Self-Attention 으로 대체한다.
 처음에 트랜스포머 모델은 기계 번역에 강한 모습을 보였지만, 지금은 대부분의 task에 있어 강한 모습을 보인다. 또한 트랜스포머 모델은 Matrix multiplications 만으로 구성되어 있기 때문에 빠르다는 강점도 있다. (RNN은 다음 계산을 위해 이전의 계산이 끝나기 까지 기다려야 한다는 병목 현상이 발생하기 때문이다.)
 
+### **Two Types of Transformers**
+트랜스포머는 크게 두 종류가 있다.
+![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698)
 
+하나는 인코더-디코더로 이루어진 모델이고, 다른 하나는 디코더로만 이루어진 모델이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMzk3OTc1LC0xODE1Njc1MDA2LDQzMD
+eyJoaXN0b3J5IjpbNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMD
 Y5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5
 NSwxMTAxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLT
 Q5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2NywxNjY2ODQw
