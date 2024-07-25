@@ -53,14 +53,14 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 위  그림은 크로스 어텐션을 계산하는 과정을 보여준다. 입력 벡터는 쿼리(Query) 벡터를 담당하고, 대상 벡터는 키(Key) 벡터를 담당한다.
 쿼리 벡터의 단어 "hate" 에 대해 모든 키 벡터의 단어와 어텐션 가중치 계산을 취하는 모습을 볼 수 있다.(⇒ 이는 쿼리 벡터와 키 벡터 간의 유사도를 계산하는 과정이라고 볼 수 있다.) 그리고 softmax를 취해 normalize 한 값을 모두 합산하여 최종 벡터를 만든다.
 
-입력 벡터와 대상 벡터, 그리고 쿼리 벡터와 키 벡터 라는 말이 계속 나오는데, 입력 벡터(쿼리 벡터)는 
+입력 벡터와 대상 벡터, 그리고 쿼리 벡터와 키 벡터 라는 말이 계속 나오는데, 입력 벡터(**쿼리 벡터**)는 디코더의 입력을 나타내고, 대상 벡터(**키 벡터**)는 인코더의 출력을 나타낸다. 즉, 해당 예시의 모델은 일본어(この映画が
 ![스크린샷 2024-07-25 211425](https://github.com/user-attachments/assets/e4745e50-770d-4daa-bb32-f129592fb326)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MzM5NjMwOCwtMjkzMTQ3NzczLC05OT
-E1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1
-MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC01NzM0MDMwNjcsMT
-Y2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3NzYzNjY2LDEwMjg1
-ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE2Mjg0MjcyMTMsLTI5MzE0Nzc3MywtOT
+kxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4
+NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LD
+E2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMDI4
+NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ==
 -->
