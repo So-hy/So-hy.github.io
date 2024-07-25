@@ -1,9 +1,9 @@
-# **Review Attention**
+## **Review Attention**
 
 어텐션(Attention) 메커니즘이란?
 어텐션 메커니즘은 입력 시퀀스의 각 요소가 출력 시퀀스의 각 요소에 얼마나 영향을 미치는지를 계산하는 방법이다. 이 메커니즘은 특히 번역, 텍스트 생성 등의 작업에서 중요한 역할을 한다.
 
-## **Cross Attention**
+### **Cross Attention**
 
 Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니즘이다. 하나의 시퀀스가 키(key) 역할을 하고, 다른 시퀀스가 쿼리(query) 역할을 한다.
 쿼리 벡터의 각 요소가 키 벡터의 각 요소에 대해 어텐션을 계산한다.
@@ -34,7 +34,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   각 키 단어에 해당하는 값 벡터에 어텐션 스코어를 곱한 후, 이를 합산하여 최종 어텐션 결과 벡터를 만든다.
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
-## **Self Attention**
+### **Self Attention**
 
 셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다. 즉, 쿼리와 키가 동일한 시퀀스에 대응되므로, 시퀀스 내의 요소 간의 관계를 모델링할 수 있다.
 
@@ -46,7 +46,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 (후술할 내용이지만 Decoder-Only Model들은 셀프 어텐션만 사용하고, Encoder-Decoder Model들은 두 가지 어텐션을 모두 사용한다.)
 
 
-## **Calculating Attention**
+### **Calculating Attention**
 
 ![스크린샷 2024-07-25 211412](https://github.com/user-attachments/assets/d4d57ae2-b943-42e8-86e5-d766b139a12c)
 
@@ -57,9 +57,9 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzE0Nzc3MywtOTkxNTU3NTk1LDExMD
-E3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkxMDg0
-MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAxMzIsLT
-E3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MDY0
-MDkwMDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTE1ODc5MTc4OTUsLTI5MzE0Nzc3MywtOT
+kxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4
+NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LD
+E2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMDI4
+NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ==
 -->
