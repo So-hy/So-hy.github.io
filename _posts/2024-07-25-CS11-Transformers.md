@@ -77,14 +77,18 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
  - Positional Encodings  
  - Multi-headed Attention 
  - Masked Attention 
- - Residual + layer normalization  Feed-forward layer
+ - Residual + layer normalization
+ - Feed-forward layer
+
+이러한 친구들이 트랜스포머 모델의 핵심이다.
+우선 디코더를 보면서 차근차근 살펴보자.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwMjkzMjE0LC0xNzg2NTA4OTY3LDIxMj
-M4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQs
-LTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5Mz
-E0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMx
-NDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNT
-czNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2
-MzY2Nl19
+eyJoaXN0b3J5IjpbLTE4ODUyODM4MjQsLTE3ODY1MDg5NjcsMj
+EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
+NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
+kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
+MzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC
+01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3
+NzYzNjY2XX0=
 -->
