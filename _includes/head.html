@@ -37,13 +37,7 @@
   <!--[if lte IE 9]><link rel="stylesheet" href="{{- 'assets/css/ie9.css' | relative_url -}}" /><![endif]-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
 
-  <!-- Scripts -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
-  <script src="{{- 'assets/js/jquery.scrolly.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/jquery.scrollzer.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/skel.min.js' | relative_url -}}" defer></script>
-  <script src="{{- 'assets/js/util.js' | relative_url -}}" defer></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <!-- MathJax 설정 -->
   <script type="text/javascript">
     window.MathJax = {
       tex: {
@@ -55,6 +49,15 @@
       }
     };
   </script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <!-- Scripts -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
+  <script src="{{- 'assets/js/jquery.scrolly.min.js' | relative_url -}}" defer></script>
+  <script src="{{- 'assets/js/jquery.scrollzer.min.js' | relative_url -}}" defer></script>
+  <script src="{{- 'assets/js/skel.min.js' | relative_url -}}" defer></script>
+  <script src="{{- 'assets/js/util.js' | relative_url -}}" defer></script>
+
   <!--[if lte IE 8]><script src="{{- 'assets/js/ie/respond.min.js' | relative_url -}}" defer></script><![endif]-->
   <script src="{{- 'assets/js/main.js' | relative_url -}}" defer></script>
 
