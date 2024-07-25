@@ -145,12 +145,14 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 
 코드의 마지막을 보면 최종 결과에 W_o 를 적용하는 것을 볼 수 있다. 이는 식에도 표현되어 있는데 이 $\mathbf{W_O}$ 는 최종 선형 레이어로, 영상에서는 나오지 않았지만, 합산된 정보를 일관된 표현으로 결합/변환 하거나, 혹은 차원을 축소하는 등의 역할을 한다고 한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwMzMxMzc0NSwtMTIxMDcwMzM4NiwtNj
-A5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5
-LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMT
-E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
-NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5NDIzOSwtOT
-A5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMDY5NDcz
-N119
+eyJoaXN0b3J5IjpbLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLT
+YwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LDIyMjg4Nzgy
+OSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4NjEyNSwtMT
+ExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5
+OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLT
+kwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3
+MzddfQ==
 -->
