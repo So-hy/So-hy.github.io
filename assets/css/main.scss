@@ -19,3 +19,23 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
 }
+
+.fade-text {
+  transition: opacity 0.5s;
+}
+
+.faded {
+  opacity: 0.2;
+}
+
+.top-fade, .bottom-fade {
+  position: relative;
+}
+
+.top-fade {
+  padding-top: 5%;
+}
+
+.bottom-fade {
+  padding-bottom: 5%;
+}
