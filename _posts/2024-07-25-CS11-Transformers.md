@@ -59,12 +59,12 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 그럼 위 그림에서 말하는 값 벡터(Value Vector)는 뭘까? 값 벡터는 키 벡터와 같은 토큰으로부터 생성되는 벡터이다. 하지만 다른 가중치를 통해 생성된다.
 만약 단어 별로 토큰화 되었다고 가정했을 때, "kono", "eiga", "ga", "kirai"는 각각 임베딩 벡터 e1,e2,e3,e4\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3, \mathbf{e}_4e1​,e2​,e3​,e4​로 변환된다. 키 벡터의 경우 -   각 임베딩 벡터에 키 가중치 행렬 WK\mathbf{W}_KWK​를 곱하여 생성되고, ( Ki=WK⋅ei\mathbf{K}_i = \mathbf{W}_K \cdot \mathbf{e}_iKi​=WK​⋅ei​ )이 벡터는 쿼리 벡터와의 유사도를 계산하는데 사용된다. 값 벡터의 경우 각 임베딩 벡터에 값 가중치 행렬 WV\mathbf{W}_VWV​를 곱하여 생성되고, ( Vi=WV⋅ei\mathbf{V}_i = \mathbf{W}_V \cdot \mathbf{e}_iVi​=WV​⋅ei​ ) 이 벡터는 최종 어텐션 결과를 생성하는데 사용된다.
-어쨌든, 이전에 normalize 한 값과 
+어쨌든, 이전에 normalize 한 값(어텐션 가중치)을 각 값 벡터에 곱한 후, 이를 합산하여 최종 어텐션을 출력한다.  예를 들어, 값 벡터 V1,V2,V3V_1, V_2, V_3V1​,V2​,V3​와 어텐션 가중치 α1,α2,α3\alpha_1, \alpha_2, \alpha_3α1​,α2​,α3​가 있을 때, 최종 출력은 α1V1+α2V2+α3V3\alpha_1 V_1 + \alpha_2 V_2 + \alpha_3 V_3α1​V1​+α2​V2​+α3​V3​가 됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3ODEyODA2NiwxNTAxNTQ1MzYwLC0yOT
-MxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMz
-MTQ3LDE5ODE4ODUwNTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLT
-U3MzQwMzA2NywxNjY2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3
-NjM2NjYsMTAyODU4MjUxNiwxNTA2NDA5MDAwLC0yMDg4NzQ2Nj
-EyXX0=
+eyJoaXN0b3J5IjpbNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5Mz
+E0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMx
+NDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNT
+czNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2
+MzY2NiwxMDI4NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MT
+JdfQ==
 -->
