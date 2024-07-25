@@ -5,7 +5,7 @@ layout: default
 
 <!-- Main -->
 <div id="main">
-    <!-- Post 아래의 article 에 fade-test 추가-->
+    <!-- Post -->
     <article class="shade-two fade-text">
         <div class="container">
             <header>
@@ -17,22 +17,9 @@ layout: default
     </article>
 </div>
 
-<!-- 아래에 잡다한거 추가 -->
 <style>
 .fade-text {
     transition: opacity 0.5s;
-}
-
-.top-fade, .bottom-fade {
-    position: relative;
-}
-
-.top-fade {
-    padding-top: 5%;
-}
-
-.bottom-fade {
-    padding-bottom: 5%;
 }
 </style>
 
@@ -40,12 +27,22 @@ layout: default
 document.addEventListener('scroll', function () {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
     const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+    const windowHeight = window.innerHeight;
 
-    const fadeElement = document.querySelector('.fade-text');
-    if (fadeElement) {
-        const topOpacity = Math.max(1 - (scrollTop / (window.innerHeight * 0.05)), 0.2);
-        const bottomOpacity = Math.max(1 - ((maxScroll - scrollTop) / (window.innerHeight * 0.05)), 0.2);
-        fadeElement.style.opacity = Math.min(topOpacity, bottomOpacity);
-    }
+    const fadeElements = document.querySelectorAll('.fade-text p, .fade-text h2, .fade-text h3, .fade-text h4, .fade-text h5, .fade-text h6');
+    fadeElements.forEach(element => {
+        const elementTop = element.getBoundingClientRect().top + scrollTop;
+        const elementHeight = element.clientHeight;
+        
+        if (elementTop < scrollTop + windowHeight * 0.05) {
+            // 상단 영역
+            element.style.opacity = Math.max(1 - (scrollTop + windowHeight * 0.05 - elementTop) / (windowHeight * 0.05), 0.2);
+        } else if (elementTop + elementHeight > scrollTop + windowHeight * 0.95) {
+            // 하단 영역
+            element.style.opacity = Math.max(1 - (elementTop + elementHeight - (scrollTop + windowHeight * 0.95)) / (windowHeight * 0.05), 0.2);
+        } else {
+            element.style.opacity = 1;
+        }
+    });
 });
 </script>
