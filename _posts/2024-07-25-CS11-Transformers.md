@@ -1,6 +1,3 @@
-<h2><b>Transformers</h2>
-
-
 <h3><b>Review Attention</h3>
 
 어텐션(Attention) 메커니즘이란?
@@ -53,7 +50,8 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 위  그림은 크로스 어텐션을 계산하는 과정을 보여준다. 입력 벡터는 쿼리(Query) 벡터를 담당하고, 대상 벡터는 키(Key) 벡터를 담당한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg0NzE0NTI5LC01NzM0MDMwNjcsMTY2Nj
-g0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3NzYzNjY2LDEwMjg1ODI1
-MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMzEzMjM5OTQwLDc4NDcxNDUyOSwtNTczND
+AzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2MzY2
+NiwxMDI4NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ
+==
 -->
