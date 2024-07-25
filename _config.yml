@@ -66,4 +66,4 @@ collections:
 # Collection settings
 reviews:
   output: true
-  permalink: /reviews/:title/
+  permalink: /reviews/:year/:month/:day/:title/
