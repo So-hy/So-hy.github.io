@@ -49,10 +49,12 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 ![스크린샷 2024-07-25 211412](https://github.com/user-attachments/assets/d4d57ae2-b943-42e8-86e5-d766b139a12c)
 
 위  그림은 크로스 어텐션을 계산하는 과정을 보여준다. 입력 벡터는 쿼리(Query) 벡터를 담당하고, 대상 벡터는 키(Key) 벡터를 담당한다.
-쿼리 벡터의 단어 "hate" 에 대해 모든 키 벡터의 단어와 어텐션 가중치 계산을 취하는 모습을 볼 수 있다.(⇒ 이는 )그리고  
+쿼리 벡터의 단어 "hate" 에 대해 모든 키 벡터의 단어와 어텐션 가중치 계산을 취하는 모습을 볼 수 있다.(⇒ 이는 쿼리 벡터와 키 벡터 간의 유사도를 계산하는 과정이라고 볼 수 있다.) 그리고 softmax를 취해 normalize 한 값을 모두 합산하여 최종 벡터를 만든다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU4Nzg0ODg1LC00OTEwODQwNzQsNzg0Nz
-E0NTI5LC01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4Mjc2
-MCwtMTk3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQwOTAwMCwtMj
-A4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4ND
+cxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3
+NjAsLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MDY0MDkwMDAsLT
+IwODg3NDY2MTJdfQ==
 -->
