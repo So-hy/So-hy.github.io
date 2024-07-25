@@ -42,12 +42,12 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 위 이미지를 보면 입력 문장과 대상 문장이 동일한 시퀀스를 나타냄을 볼 수 있다.
 트랜스포머 기반 모델은 이 두 가지 어텐션 메커니즘을 모두 사용하거나 셀프 어텐션만 사용한다.
-(ㅎ
+(후술할 내용이지만 Decoder-Only Model들은 셀프 어텐션만 사용하고, Encoder-Decoder Model들은 두 가지 어텐션을 모두 사용한다.)
 
 ![스크린샷 2024-07-25 211412](https://github.com/user-attachments/assets/d4d57ae2-b943-42e8-86e5-d766b139a12c)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MTQzNjA1MCwtMTc0MDk4Mjc2MCwtMT
+eyJoaXN0b3J5IjpbMTY2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMT
 k3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0
 NjYxMl19
 -->
