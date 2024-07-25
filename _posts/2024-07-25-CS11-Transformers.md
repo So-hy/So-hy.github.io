@@ -85,9 +85,9 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 
 ![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img}
 
-
+Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇게 쪼개진 subwords를 Dense Vector Space로 Embedding 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTMyNzg2NDAsLTE3ODY1MDg5NjcsMj
+eyJoaXN0b3J5IjpbLTEyMTg1ODUzODUsLTE3ODY1MDg5NjcsMj
 EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
 NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
 kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
