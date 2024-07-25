@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{%- assign _reviews = site.pages | where: "layout", "review_post" | sort: 'date' | reverse -%}
+{%- assign _reviews = site.review_posts | sort: 'date' | reverse -%}
 {%- include header.html scrolly_nav=_reviews -%}
 <!-- Main -->
 <div id="main">
