@@ -183,9 +183,9 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 
 ### **Learned Encoding**
 
-Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있다.
+Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있는 유연성을 가지고 있다. 하지만 큰 단점이 있으니 학습 데이터의 범위를 넘어서는 값에 대해 일반화하는 능력이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NTM4ODYxMywtNDAzMTkzMzk0LC02Nz
+eyJoaXN0b3J5IjpbLTk1OTAzNTUxNiwtNDAzMTkzMzk0LC02Nz
 I5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5
 MiwxMzc5NDcyNzk2LC0xNzkwODIzNDksMTAzNzQyOTQwOCwtMT
 AxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5
