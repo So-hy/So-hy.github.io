@@ -146,13 +146,18 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 코드의 마지막을 보면 최종 결과에 W_o 를 적용하는 것을 볼 수 있다. 이는 식에도 표현되어 있는데 이 $\mathbf{W_O}$ 는 최종 선형 레이어로, 영상에서는 나오지 않았지만, 합산된 정보를 일관된 표현으로 결합/변환 하거나, 혹은 차원을 축소하는 등의 역할을 한다고 한다.
 
+![스크린샷 2024-07-26 020605](https://github.com/user-attachments/assets/d98b1ef3-993d-4ebe-a3fe-6de75095e1d3){: .responsive-img .align-center}
+
+이 그림은 Multi-Head Attention 을 했을 때, 어텐션이 어떻게 적용되는가를 보여주는 예시이다. 
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLT
-YwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LDIyMjg4Nzgy
-OSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4NjEyNSwtMT
-ExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5
-OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLT
-kwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3
-MzddfQ==
+eyJoaXN0b3J5IjpbMTEyMzE5ODkwMSwtMTAxNzc1NzQyOSwtMT
+IxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4
+NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xOD
+k2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4
+MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LD
+UwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1
+MDA2XX0=
 -->
