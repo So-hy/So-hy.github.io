@@ -152,9 +152,9 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 ## **Positional Encoding**
 
-트랜스포머 모델은 순수하게 Attention에 집중을 한다. 그러다보니 동일한 단어(또는 subword)가 문장 내에 다른 위치에 있을 때, 이를 구별할 수가 없고 문장 내 어느 위치에 있던 동일한 Attention 값을 가지게 된다. 즉, 위치에 대한 정보가 없다는 것.  
+트랜스포머 모델은 순수하게 Attention에 집중을 한다. 그러다보니 동일한 단어(또는 subword)가 문장 내에 다른 위치에 있을 때, 이를 구별할 수가 없고 문장 내 어느 위치에 있던 동일한 Attention 값을 가지게 된다. 왜냐하면 해당 단어에 대한 벡터는 Identical 하기 때문이다. 즉, 위치에 대한 정보가 없다는 것.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MTc4Mjc2MywxMDM3NDI5NDA4LC0xMD
+eyJoaXN0b3J5IjpbMTk1MDI3MzgxNiwxMDM3NDI5NDA4LC0xMD
 E3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3Mzky
 MDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtND
 Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
