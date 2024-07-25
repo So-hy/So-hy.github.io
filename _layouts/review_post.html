@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- include header.html -%}
+
+<!-- Main -->
+<div id="main">
+    <!-- Review Post -->
+    <article class="shade-two">
+        <div class="container">
+            <header>
+                <h2>{{ page.title }}</h2>
+                <p>{% if page.author %}{{ page.author }}, {% endif %}{{ page.date | date: "%B %d, %Y" }}</p>
+            </header>
+            {{ content }}
+        </div>
+    </article>
+</div>
