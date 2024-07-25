@@ -103,12 +103,13 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 ![스크린샷 2024-07-25 211603](https://github.com/user-attachments/assets/6f14e61b-029c-4262-a490-ec863d3a78e5){: .responsive-img .align-center}
 
 이 그림은 Attention is all you need 논문에 나온 것과 조금 다르긴 하지만 실제로 pytorch를 통해 구현할 때 어떤 식으로 되는 지에 가깝다. Q, K, V는 각각 Query Vector, Key Vector, Value Vector 을 의미한다.
+Q벡터의 경우 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMT
-E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
-NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5NDIzOSwtOT
-A5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMDY5NDcz
-NywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5NSwxMT
-AxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLTQ5MTA4
-NDA3NF19
+eyJoaXN0b3J5IjpbOTUyNDQwMjgwLC00NjQzMjA4MSwtMTg5Nj
+Y4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3
+LDE0MTcwNzA5OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MD
+kxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAw
+Niw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OT
+E1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1
+MDUyXX0=
 -->
