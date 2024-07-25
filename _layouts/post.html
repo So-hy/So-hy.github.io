@@ -4,41 +4,39 @@ layout: default
   {%- include header.html -%}
   <div id="main">
     <article class="shade-two">
-      <div class="container fade-text">
+      <div class="container">
         <header>
           <h2>{{- page.title -}}</h2>
           <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
         </header>
+        <div class="fade-text">
         {{- content -}}
+        </div>
       </div>
     </article>
   </div>
 
   <script>
-  document.addEventListener('scroll', function () {
-    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const windowHeight = window.innerHeight;
-    const fadeThreshold = windowHeight * 0.05;
+    document.addEventListener('scroll', function () {
+      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+      const windowHeight = window.innerHeight;
+      const fadeThreshold = windowHeight * 0.05;
 
-    const fadeElement = document.querySelector('.fade-text');
-    const elementRect = fadeElement.getBoundingClientRect();
-    const elementTop = elementRect.top + scrollTop;
-    const elementBottom = elementTop + fadeElement.offsetHeight;
+      const fadeElement = document.querySelector('.fade-text');
+      const fadeElements = fadeElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div');
 
-    const fadeElements = fadeElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div');
+      fadeElements.forEach(element => {
+        const rect = element.getBoundingClientRect();
+        const elementTop = rect.top;
+        const elementBottom = rect.bottom;
 
-    fadeElements.forEach(element => {
-      const rect = element.getBoundingClientRect();
-      const elementTopRelative = rect.top;
-      const elementBottomRelative = rect.bottom;
-
-      if (elementTopRelative < fadeThreshold) {
-        element.style.opacity = Math.max(1 - (fadeThreshold - elementTopRelative) / fadeThreshold, 0.2);
-      } else if (elementBottomRelative > windowHeight - fadeThreshold) {
-        element.style.opacity = Math.max(1 - (elementBottomRelative - (windowHeight - fadeThreshold)) / fadeThreshold, 0.2);
-      } else {
-        element.style.opacity = 1;
-      }
+        if (elementTop < fadeThreshold) {
+          element.style.opacity = Math.max(1 - (fadeThreshold - elementTop) / fadeThreshold, 0.2);
+        } else if (elementBottom > windowHeight - fadeThreshold) {
+          element.style.opacity = Math.max(1 - (elementBottom - (windowHeight - fadeThreshold)) / fadeThreshold, 0.2);
+        } else {
+          element.style.opacity = 1;
+        }
+      });
     });
-  });
   </script>
