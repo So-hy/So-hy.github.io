@@ -1,4 +1,4 @@
-**Review Attention**
+**<h1>Review Attention**
 
 어텐션(Attention) 메커니즘이란?
 어텐션 메커니즘은 입력 시퀀스의 각 요소가 출력 시퀀스의 각 요소에 얼마나 영향을 미치는지를 계산하는 방법이다. 이 메커니즘은 특히 번역, 텍스트 생성 등의 작업에서 중요한 역할을 한다.
@@ -14,6 +14,6 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzEwODMzNDQsMTUwNjQwOTAwMCwtMj
+eyJoaXN0b3J5IjpbLTIxMDg0MTA4MDcsMTUwNjQwOTAwMCwtMj
 A4ODc0NjYxMl19
 -->
