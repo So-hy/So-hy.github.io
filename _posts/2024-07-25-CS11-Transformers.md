@@ -93,31 +93,37 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 ![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img .align-center}
 
 Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇게 쪼개진 subwords를 Dense Vector Space로 Embedding 한다. 
+
 그 다음으로 다룰 것은 Multi-head Attention이다.
 
 ## **Multi-head Attention**
 ![스크린샷 2024-07-25 211521](https://github.com/user-attachments/assets/3a75f06b-8f63-4b91-b523-384f748093bc){: .responsive-img .align-center}
 
 Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀스의 다른 부분의 정보는 서로 다르게 유용할 수 있다는 것이다. 이게 무슨 말일까..? 를 해석해보자면 문장이나 시퀀스 내의 각 단어 또는 요소가 서로 다른 역할과 의미를 가지고 있으며, 이 각각의 정보가 특정 문맥에서 다른 방식으로 유용할 수 있다는 것을 의미한다. 예를 들어..
+
 -   **문법적 역할**: 어떤 단어는 문법적으로 중요한 정보를 제공할 수 있다. 예를 들어, 주어와 동사는 문장 구조를 이해하는 데 중요한 역할을 한다.
 -   **의미적 정보**: 어떤 단어는 문장의 의미를 이해하는 데 중요한 정보를 제공할 수 있다. 예를 들어, "run"이라는 단어는 "달리다"라는 물리적 의미뿐만 아니라 "사업을 운영하다"라는 비유적 의미도 가질 수 있다. (Lexical Sementics)
 -   **문맥적 중요성**: 어떤 단어는 특정 문맥에서 더 중요한 정보를 제공할 수 있다. 예를 들어, "bank"라는 단어는 문맥에 따라 "강둑" 또는 "은행"을 의미할 수 있다.
 
 즉, 문장에서 단어의 의미를 명확히 하기 위해 사용하는 정보가 다를 수 있다는 것이다! (예를 들어 영어 문장을 보고 특정 단어가 무슨 뜻인지 맞추기 위해 그 문장에서 각 단어를 보는 것 보다 문장 전체를 볼 필요가 있다는 것.) 문법적인 관계를 보는 경우엔 영어에서는 근처의 context 를 참고하면 되긴 하지만, 의미적 정보를 파악하기 위해서는 좀 더 넓은 범위의 context를 참고해야 한다.
+
 단순히 단일 헤드 어텐션(Single-Head Attention)는 시퀀스의 특정 한 단어에 대해 다른 요소들과의 중요도가 어떤지를 측정하는 식으로 진행되는데 이때문에 모든 부분에 동시에 주의를 기울일 수 없어 특정 부분에 집중하게 되는 문제가 생긴다. 따라서 단일 헤드 어텐션은 중요한 정보를 선택할 때 "하드 디시전"을 내려야 하는 경우, 즉, 어떤 정보를 선택하고 어떤 정보를 무시할지 명확하게 결정해야 하는 경우가 발생한다. 이러한 이유 때문에 Multi-head Attention을 쓰는 것이다.
 
 그래서 Multi-Head Attention은 어떻게 작동하는 것일까? 아래의 그림을 보자.
+
 ![스크린샷 2024-07-25 211603](https://github.com/user-attachments/assets/6f14e61b-029c-4262-a490-ec863d3a78e5){: .responsive-img .align-center}
 
 이 그림은 Attention is all you need 논문에 나온 것과 조금 다르긴 하지만 실제로 pytorch를 통해 구현할 때 어떤 식으로 되는 지에 가깝다. Q, K, V는 각각 Query Vector, Key Vector, Value Vector 을 의미한다.
+
 Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼리 벡터의 수와 키/값 벡터의 수는 충분히 다를 수 있다고 한다.(키/값 벡터의 개수는 무조건 같아야 한다.) 이런 경우는 Cross-Attention 시 발생할 수 있는데, Cross-Attention은 이전에 말한 것과 같이 디코더의 쿼리 벡터를 입력 시퀀스의 키와 값 벡터에 매핑하여 어텐션 스코어를 계산하는 과정이다. 이 때, 디코더가 현재 시점까지의 출력 시퀀스에 대한 정보를 기반으로, 전체 입력 시퀀스의 정보를 활용하여 다음 단어를 예측하기 때문에, 디코더가 현재 생성 중인 출력 시퀀스의 일부에 대해서만 쿼리 벡터를 생성할 수 있고, 이 때문에 개수가 달라질 수 있다는 것! (디코더의 출력 시퀀스의 길이와 관련이 있다는 뜻) 하지만 Self-Attention 의 경우, 동일한 시퀀스에 대해서 계산되는 것이기에, 당연 개수가 같아야 한다. (※ 행은 차원, 열은 시퀀스의 길이를 나타낸다고 보면 된다.)
+
 어쨌든, 각각의 벡터를 각각의 가중치 행렬과 곱셈 연산을 한다. 이 곱하는 과정이 위의 그림에서 Attention 괄호 안에 있는 친구들을 의미한다. 이렇게 곱한 후, 얘들을 분할 및 재구성하는 과정을 거친다. 말 그대로 Multi-head attention 이니까 여러 헤드에 이 값을 쪼개서 넣는 것이다. 그림에서는 두 개로 쪼갰는데 이 말은 Attention Head 가 두 개 있다는 것! 위의 식은 분할 후, Matrix Multiply 를 진행했지만 그림은 반대의 순서다. 이는 실제로는 식처럼 하는게 아니라 큰 곱셈을 먼저 해버리고 쪼개는게 쪼개서 잔잔한 곱셈을 여러번 하는 것보다 효율적이기 때문이라고 한다. 그래서 실제로 구현할 때는 그림대로 하는게 일반적이라고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTEyMjE4LDcyNzM5MjAyOCw1NzIyOD
-k4NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0x
-ODk2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NT
-Y4MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0
-LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Nj
-c1MDA2LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzNd
-fQ==
+eyJoaXN0b3J5IjpbLTEyMTA3MDMzODYsNzI3MzkyMDI4LDU3Mj
+I4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtNDY0MzIwODEs
+LTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3NDc5LDY3Mz
+Y1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEz
+NjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MT
+U2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3
+M119
 -->
