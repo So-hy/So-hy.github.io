@@ -34,7 +34,7 @@
         {%- endif -%}
       {%- endfor -%}
       <!-- Review 메뉴 항목 추가 -->
-      <li><a href="{{ site.baseurl }}/review" id="navReview-link"><span class="icon fa-file-alt">Review</span></a></li>
+      
     {%- endunless -%}
     {%- assign _sections = include.section_items | where_exp: "section", "section.hide != true" -%}
     {%- if _pages[0] and _sections[0] -%}<hr>{%- endif -%}
