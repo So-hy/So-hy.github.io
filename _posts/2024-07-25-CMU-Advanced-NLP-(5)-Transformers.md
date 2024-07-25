@@ -162,17 +162,19 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2를 더해주고, 뒤쪽의 big 임베딩에는 Wpos6를 더해줌으로써 위치 정보를 부여하는 것이다.
  
- 이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 sin 을 활용한 인코딩이다.
+ 이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 sin을 활용한 인코딩이다.
 
 방식은 아래와 같다.
 
+![스크린샷 2024-07-26 040014](https://github.com/user-attachments/assets/0ab4598f-cdaf-4bdc-90f6-889c18dbbdee){: .responsive-img .align-center}
 
+이 수식은 각 위치 ttt에 대해 사인 및 코사인 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩합니다. 여기서 kkk는 위치 인덱스이고, ddd는 인코딩 차원의 크기입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTQzNzY2ODAsLTE3OTA4MjM0OSwxMD
-M3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3
-NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMT
-UzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0
-ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC
-0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3
-MTYzMV19
+eyJoaXN0b3J5IjpbLTY5NTMwNzEwNywtMTc5MDgyMzQ5LDEwMz
+c0Mjk0MDgsLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLTYwOTc3
+NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LDIyMjg4NzgyOSwxNT
+M4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4NjEyNSwtMTExODQ4
+MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5OTYsLT
+E3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcx
+NjMxXX0=
 -->
