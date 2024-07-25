@@ -59,4 +59,11 @@ google_analytics:
 
 # The following settings are NECESSARY for the Prologue theme to run:
 remote_theme: chrisbobbe/jekyll-theme-prologue
-collections: [sections]
+collections: 
+  - sections
+  - review_posts
+
+# Collection settings
+review_posts:
+  output: true
+  permalink: /reviews/:title/
