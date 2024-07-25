@@ -123,10 +123,28 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 위의 과정을 코드로 나타내면 아래와 같다.
 
-    enter code here
+    def forward(self, query, key, value, mask=None): 
+            nbatches = query.size(0)
+    # 1) Do all the linear projections
+            query = self.W_q(query) 
+            key = self.W_k(key) 
+            value = self.W_v(value)
+    # 2) Reshape to get h heads
+            query = query.view(nbatches, -1, self.heads, self.d_k).transpose(1, 2) 
+            key = key.view(nbatches, -1, self.heads, self.d_k).transpose(1, 2) 
+            value = value.view(nbatches, -1, self.heads, self.d_k).transpose(1, 2)
+    # 3) Apply attention on all the projected vectors in batch.
+            x, self.attn = attention(query, key, value)
+    # 4) "Concat" using a view and apply a final linear.
+            x = (
+                x.transpose(1, 2) 
+                .contiguous()
+                .view(nbatches, -1, self.h * self.d_k) 
+            )
+    return self.W_o(x)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzk2MTkzOCwtMTIxMDcwMzM4NiwtNj
+eyJoaXN0b3J5IjpbLTQzNzE2NTI2NywtMTIxMDcwMzM4NiwtNj
 A5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5
 LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMT
 E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
