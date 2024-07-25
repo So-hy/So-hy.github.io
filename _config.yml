@@ -63,6 +63,6 @@ collections:
   - sections
   - reviews
 
-# Collection settings
 reviews:
   output: true
+  permalink: /reviews/:path/
