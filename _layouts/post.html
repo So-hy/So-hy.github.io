@@ -15,28 +15,3 @@ layout: default
       </div>
     </article>
   </div>
-
- <script>
-    document.addEventListener('scroll', function () {
-      const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-      const windowHeight = window.innerHeight;
-      const fadeThreshold = windowHeight * 0.02;  // 위아래 2%로 범위를 줄임
-
-      const fadeElement = document.querySelector('.fade-text');
-      const fadeElements = fadeElement.querySelectorAll('p, h1, h2, h3, h4, h5, h6, div');
-
-      fadeElements.forEach(element => {
-        const rect = element.getBoundingClientRect();
-        const elementTop = rect.top;
-        const elementBottom = rect.bottom;
-
-        if (elementTop < fadeThreshold) {
-          element.style.opacity = Math.max(1 - (fadeThreshold - elementTop) / (fadeThreshold * 2), 0.5);  // 투명도를 더 느리게 조정
-        } else if (elementBottom > windowHeight - fadeThreshold) {
-          element.style.opacity = Math.max(1 - (elementBottom - (windowHeight - fadeThreshold)) / (fadeThreshold * 2), 0.5);  // 투명도를 더 느리게 조정
-        } else {
-          element.style.opacity = 1;
-        }
-      });
-    });
-  </script>
