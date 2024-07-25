@@ -102,12 +102,13 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 그래서 Multi-Head Attention은 어떻게 작동하는 것일까? 아래의 그림을 보자.
 ![스크린샷 2024-07-25 211603](https://github.com/user-attachments/assets/6f14e61b-029c-4262-a490-ec863d3a78e5){: .responsive-img .align-center}
 
+이 그림은 Attention is all you need 논문에 나온 것과 조금 다르긴 하지만 실제로 pytorch를 통해 구현할 때 어떤 식으로 되는 지에 가깝다. Q, K, V는 각
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTY2MTQ1NjcsLTE4OTY2ODYxMjUsLT
-ExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcw
-OTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC
-05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNjk0
-NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LD
-ExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkx
-MDg0MDc0XX0=
+eyJoaXN0b3J5IjpbLTExMjA4ODQ2MywtMTg5NjY4NjEyNSwtMT
+ExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5
+OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLT
+kwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3
+MzcsMTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMT
+EwMTc3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEw
+ODQwNzRdfQ==
 -->
