@@ -7,17 +7,17 @@
     {%- endif -%}
     <!-- Reviews List -->
     {%- for _review in _reviews -%}
-        {%- assign review_date = _review.path | regex_replace: '^.*\/(\d{4})-(\d{2})-(\d{2})-.*$', '\1-\2-\3' -%}
-        {%- assign review_slug = _review.path | regex_replace: '^.*\/\d{4}-\d{2}-\d{2}-(.*)\.md$', '\1' -%}
+        {%- assign review_date = _review.date | date: "%Y/%m/%d" -%}
+        {%- assign review_slug = _review.slug -%}
         {%- capture _title -%}
-            <a href="{{- site.baseurl -}}/reviews/{{ review_date | replace: '-', '/' }}/{{ review_slug }}.html">{{- _review.title -}}</a>
+            <a href="{{- site.baseurl -}}/reviews/{{ review_date }}/{{ review_slug }}.html">{{- _review.title -}}</a>
         {%- endcapture -%}
         {%- capture _subtitle -%}
             {% if _review.author -%}{{- _review.author }} | {% endif %}
-            {{- review_date | date: "%B %d, %Y" -}}
+            {{- _review.date | date: "%B %d, %Y" -}}
         {%- endcapture -%}
         {%- capture _excerpt -%}<p>{{- _review.excerpt | strip_html | truncatewords: 100 -}}</p>{%- endcapture -%}
-        {%- capture _link -%}<a href="{{- site.baseurl -}}/reviews/{{ review_date | replace: '-', '/' }}/{{ review_slug }}.html">read more</a>{%- endcapture -%}
+        {%- capture _link -%}<a href="{{- site.baseurl -}}/reviews/{{ review_date }}/{{ review_slug }}.html">read more</a>{%- endcapture -%}
         {%- assign _content = _excerpt | append: _link -%}
         {%- include section.html title=_title subtitle=_subtitle content=_content -%}
     {%- endfor -%}
