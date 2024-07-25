@@ -168,9 +168,9 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 ![스크린샷 2024-07-26 040014](https://github.com/user-attachments/assets/0ab4598f-cdaf-4bdc-90f6-889c18dbbdee){: .responsive-img .align-center}
 
-이 수식은 각 위치 $t$에 대해 $sin$ 및 $cos$ 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩한다. $Pt(i)​$ 는 $t$ 위치에 있는 단어의 $i$번째 차원의 Positional Encoding 값을 의미하며, 짝수 차원에는 $sin$, 그리고 홀수 차원에는 $cos$을 통해 값을 계산한다. $\omega_k = \frac{1}{10000^{2k/d}}$ 에서 $\omega_k$는 주파수, $d$는 인코딩 벡터의 차원 수를 나타낸
+이 수식은 각 위치 $t$에 대해 $sin$ 및 $cos$ 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩한다. $Pt(i)​$ 는 $t$ 위치에 있는 단어의 $i$번째 차원의 Positional Encoding 값을 의미하며, 짝수 차원에는 $sin$, 그리고 홀수 차원에는 $cos$을 통해 값을 계산한다. $\omega_k = \frac{1}{10000^{2k/d}}$ 에서 $\omega_k$는 주파수, $d$는 인코딩 벡터의 차원 수를 나타낸다. 이 임베딩은 아래의 그림과 같은 모양으로 보이는데 세로축은 sequence 내의 위치, 가로축은 임베딩 크기를 의미한다. 사실 이 방식을 왜
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDY5MDg2MCwxMzc5NDcyNzk2LC0xNz
+eyJoaXN0b3J5IjpbMjExMzg3MzU2MSwxMzc5NDcyNzk2LC0xNz
 kwODIzNDksMTAzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIxMDcw
 MzM4NiwtNjA5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMj
 IyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2
