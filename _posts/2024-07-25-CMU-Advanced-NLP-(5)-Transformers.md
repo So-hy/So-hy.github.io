@@ -186,13 +186,13 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 ### **Learned Encoding**
 
 
-Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있는 유연성을 가지고 있다. 하지만 큰 단점이 있으니 학습 데이터의 범위를 넘어서는 값에 대해 일반화하는 것이 불가능하다. 즉, 모델이 학습한 시퀀스 길이보다 더 긴 시퀀스가 입력되면, 해당 위치에 대한 인코딩 값을 학습한 적이 없기 때문에 적절히 처리할 수 없다. 이는 모델이 더 긴 시퀀스를 잘 이해하지 못하게 만들 수 있다. 하지만 Sinusoidal Encoding의 경우 단순히 $k$ 값을 크게 해주면 된다. 그래서 모델이 학습하지 않은 더 긴 시퀀스에도 일반화할 수 있다.
+Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있는 유연성을 가지고 있다. 하지만 큰 단점이 있으니 학습 데이터의 범위를 넘어서는 값에 대해 일반화하는 것이 불가능하다. 즉, 모델이 학습한 시퀀스 길이보다 더 긴 시퀀스가 입력되면, 해당 위치에 대한 인코딩 값을 학습한 적이 없기 때문에 적절히 처리할 수 없다. 이는 모델이 더 긴 시퀀스를 잘 이해하지 못하게 만들 수 있다. 하지만 Sinusoidal Encoding의 경우 단순히 $k$ 값을 크게 해주면 된다. 그래서 모델이 학습하지 않은 더 긴 시퀀스에도 일반화할 수 있다. rmf
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MD
-MxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3
-NSwxMzcyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMD
-M3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3
-NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMT
-UzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0
-ODAxNjJdfQ==
+eyJoaXN0b3J5IjpbMTkzMjcxNTk4NSwtMTM2MjQ4Mzg3NiwyND
+M4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYw
+NiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMT
+c5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLTEyMTA3
+MDMzODYsLTYwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5ODU0LD
+IyMjg4NzgyOSwxNTM4NTcxNjA0LC00NjQzMjA4MSwtMTg5NjY4
+NjEyNV19
 -->
