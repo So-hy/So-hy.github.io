@@ -99,14 +99,15 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 즉, 문장에서 단어의 의미를 명확히 하기 위해 사용하는 정보가 다를 수 있다는 것이다! (예를 들어 영어 문장을 보고 특정 단어가 무슨 뜻인지 맞추기 위해 그 문장에서 각 단어를 보는 것 보다 문장 전체를 볼 필요가 있다는 것.) 문법적인 관계를 보는 경우엔 영어에서는 근처의 context 를 참고하면 되긴 하지만, 의미적 정보를 파악하기 위해서는 좀 더 넓은 범위의 context를 참고해야 한다.
 단순히 단일 헤드 어텐션(Single-Head Attention)는 시퀀스의 특정 한 단어에 대해 다른 요소들과의 중요도가 어떤지를 측정하는 식으로 진행되는데 이때문에 모든 부분에 동시에 주의를 기울일 수 없어 특정 부분에 집중하게 되는 문제가 생긴다. 따라서 단일 헤드 어텐션은 중요한 정보를 선택할 때 "하드 디시전"을 내려야 하는 경우, 즉, 어떤 정보를 선택하고 어떤 정보를 무시할지 명확하게 결정해야 하는 경우가 발생한다. 이러한 이유 때문에 Multi-head Attention을 쓰는 것이다.
 
-그래서 Multi-Head Attention은 어떻게 작동하는 것일까?
-일단 식은 아래와 같다.
+그래서 Multi-Head Attention은 어떻게 작동하는 것일까? 아래의 그림을 보자.
+![스크린샷 2024-07-25 211603](https://github.com/user-attachments/assets/6f14e61b-029c-4262-a490-ec863d3a78e5){: .responsive-img .align-center}
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzNzEwNzU2LC0xODk2Njg2MTI1LC0xMT
-E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
-NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5NDIzOSwtOT
-A5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMDY5NDcz
-NywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5NSwxMT
-AxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLTQ5MTA4
-NDA3NF19
+eyJoaXN0b3J5IjpbLTIwMTY2MTQ1NjcsLTE4OTY2ODYxMjUsLT
+ExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcw
+OTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC
+05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNjk0
+NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LD
+ExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkx
+MDg0MDc0XX0=
 -->
