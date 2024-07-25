@@ -5,14 +5,47 @@ layout: default
 
 <!-- Main -->
 <div id="main">
-	<!-- Post -->
-	<article class="shade-two">
-	  <div class="container">
-			<header>
-				<h2>{{- page.title -}}</h2>
-				<p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-			</header>
-	    {{- content -}}
-	  </div>
-	</article>
+    <!-- Post 아래의 article 에 fade-test 추가-->
+    <article class="shade-two fade-text">
+        <div class="container">
+            <header>
+                <h2>{{- page.title -}}</h2>
+                <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+            </header>
+            {{- content -}}
+        </div>
+    </article>
 </div>
+
+<!-- 아래에 잡다한거 추가 -->
+<style>
+.fade-text {
+    transition: opacity 0.5s;
+}
+
+.top-fade, .bottom-fade {
+    position: relative;
+}
+
+.top-fade {
+    padding-top: 5%;
+}
+
+.bottom-fade {
+    padding-bottom: 5%;
+}
+</style>
+
+<script>
+document.addEventListener('scroll', function () {
+    const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
+
+    const fadeElement = document.querySelector('.fade-text');
+    if (fadeElement) {
+        const topOpacity = Math.max(1 - (scrollTop / (window.innerHeight * 0.05)), 0.2);
+        const bottomOpacity = Math.max(1 - ((maxScroll - scrollTop) / (window.innerHeight * 0.05)), 0.2);
+        fadeElement.style.opacity = Math.min(topOpacity, bottomOpacity);
+    }
+});
+</script>
