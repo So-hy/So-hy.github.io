@@ -153,6 +153,7 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 ## **Positional Encoding**
 
+
 트랜스포머 모델은 순수하게 Attention에 집중을 한다. 그러다보니 동일한 단어(또는 subword)가 문장 내에 다른 위치에 있을 때, 이를 구별할 수가 없고 문장 내 어느 위치에 있던 동일한 Attention 값을 가지게 된다. 왜냐하면 해당 단어에 대한 벡터는 Identical 하기 때문이다. 즉, 위치에 대한 정보가 없다는 것이다.
 
 이러한 문제를 해결하기 위해 RNN 같이 위치 정보에 민감한 모델을 쓰면 되지만 Transformer 논문에서는 RNN을 쓰지 않았다. 대신 이를 해결하기 위해 Positional Encoding 이라는 기법을 도입했다.
@@ -164,6 +165,7 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2를 더해주고, 뒤쪽의 big 임베딩에는 Wpos6를 더해줌으로써 위치 정보를 부여하는 것이다.
 
 ### **Sinusoidal Encoding**
+
  
  이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 $sin$을 활용한 인코딩이다.
 
@@ -183,13 +185,14 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 
 ### **Learned Encoding**
 
+
 Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설정하여, 모델이 학습 과정에서 최적의 위치 인코딩 값을 찾아내도록 하는 방법이다. 따라서 앞의 Sinusoidal Encoding 보다 쉽고, 모델이 학습 데이터에 맞춰 최적의 위치 인코딩 값을 찾을 수 있어, 데이터에 특화된 인코딩 값을 사용할 수 있는 유연성을 가지고 있다. 하지만 큰 단점이 있으니 학습 데이터의 범위를 넘어서는 값에 대해 일반화하는 것이 불가능하다. 즉, 모델이 학습한 시퀀스 길이보다 더 긴 시퀀스가 입력되면, 해당 위치에 대한 인코딩 값을 학습한 적이 없기 때문에 적절히 처리할 수 없다. 이는 모델이 더 긴 시퀀스를 잘 이해하지 못하게 만들 수 있다. 하지만 Sinusoidal Encoding의 경우 단순히 $k$ 값을 크게 해주면 된다. 그래서 모델이 학습하지 않은 더 긴 시퀀스에도 일반화할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3Mj
-kwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3NSwxMzcyMTY4MTky
-LDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMDM3NDI5NDA4LC0xMD
-E3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3Mzky
-MDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtND
-Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
-NDc5XX0=
+eyJoaXN0b3J5IjpbLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MD
+MxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3
+NSwxMzcyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMD
+M3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3
+NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMT
+UzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0
+ODAxNjJdfQ==
 -->
