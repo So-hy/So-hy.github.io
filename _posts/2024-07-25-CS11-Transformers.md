@@ -89,7 +89,7 @@ Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇�
 그 다음으로 다룰 것은 Multi-head Attention이다.
 
 ## **Multi-head Attention**
-![스크린샷 2024-07-25 211521](https://github.com/user-attachments/assets/3a75f06b-8f63-4b91-b523-384f748093bc){: .responsive-img}
+![스크린샷 2024-07-25 211521](https://github.com/user-attachments/assets/3a75f06b-8f63-4b91-b523-384f748093bc){: .responsive-img .align-center}
 
 Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀스의 다른 부분의 정보는 서로 다르게 유용할 수 있다는 것이다. 이게 무슨 말일까..? 를 해석해보자면 문장이나 시퀀스 내의 각 단어 또는 요소가 서로 다른 역할과 의미를 가지고 있으며, 이 각각의 정보가 특정 문맥에서 다른 방식으로 유용할 수 있다는 것을 의미한다. 예를 들어..
 -   **문법적 역할**: 어떤 단어는 문법적으로 중요한 정보를 제공할 수 있다. 예를 들어, 주어와 동사는 문장 구조를 이해하는 데 중요한 역할을 한다.
@@ -98,11 +98,11 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 
 단순히 단일 헤드 어텐션(Single-Head Attention)는 시퀀스의 특정 한 단어에 대해 다른 요소들과의 중요도가 어떤지를 측정하는 식으로 진행되는데 이때문에 모든 부분에 동시에 주의를 기울일 수 없어 특정 부분에 집중하게 되는 문제가 생긴다. 따라서 단일 헤드 어텐션은 중요한 정보를 선택할 때 "하드 디시전"을 내려야 하는 경우, 즉, 어떤 정보를 선택하고 어떤 정보를 무시할지 명확하게 결정해야 하는 경우가 발생한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTg0ODAxNjIsLTkwODI3NDc5LDY3Mz
-Y1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEz
-NjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MT
-U2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3
-MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMT
-k4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAz
-MDY3XX0=
+eyJoaXN0b3J5IjpbLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLT
+kwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4
+OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1Mj
+AzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUz
+NjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLT
+E3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcx
+NDUyOV19
 -->
