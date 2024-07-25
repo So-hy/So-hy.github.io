@@ -6,7 +6,7 @@
 어텐션(Attention) 메커니즘이란?
 어텐션 메커니즘은 입력 시퀀스의 각 요소가 출력 시퀀스의 각 요소에 얼마나 영향을 미치는지를 계산하는 방법이다. 이 메커니즘은 특히 번역, 텍스트 생성 등의 작업에서 중요한 역할을 한다.
 
-<h3>**Cross Attention**</h3>
+<h3>Cross Attention</h3>
 Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니즘이다. 하나의 시퀀스가 키(key) 역할을 하고, 다른 시퀀스가 쿼리(query) 역할을 한다.
 쿼리 벡터의 각 요소가 키 벡터의 각 요소에 대해 어텐션을 계산한다.
 
@@ -53,7 +53,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 위  그림은 크로스 어텐션을 계산하는 과정을 보여준다. 입력 벡터는 쿼리(Query) 벡터를 담당하고, 대상 벡터는 키(Key) 벡터를 담당한다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzQwMzA2NywxNjY2ODQwMTMyLC0xNz
-QwOTgyNzYwLC0xOTc3NjM2NjYsMTAyODU4MjUxNiwxNTA2NDA5
-MDAwLC0yMDg4NzQ2NjEyXX0=
+eyJoaXN0b3J5IjpbOTIzNTU0NTAxLC01NzM0MDMwNjcsMTY2Nj
+g0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3NzYzNjY2LDEwMjg1ODI1
+MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
 -->
