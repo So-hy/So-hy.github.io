@@ -65,3 +65,12 @@ collections:
   reviews:
     output: true
     permalink: /reviews/:path/
+
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  math_engine: mathjax
+  math_engine_opts:
+    mathjax:
+      src: 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
