@@ -62,12 +62,12 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 어쨌든, 이전에 normalize 한 값(어텐션 가중치)을 각 값 벡터에 곱한 후, 이를 합산하여 최종 어텐션을 출력한다.  예를 들어, 값 벡터 $V_1, V_2, V_3$​와 어텐션 가중치 $\alpha_1, \alpha_2, \alpha_3$가 있을 때, 최종 출력은 $\alpha_1 V_1 + \alpha_2 V_2 + \alpha_3 V_3​$가 된다.
 
 ## **Transformers**
-트랜스포머 모델은 "Attention is All You Need" 라는 논문에서 처음 소개 되었다. 트랜스포머는 기본적으로 시퀀스 투 시퀀스(Sequence-to-Sequence) 모델로, 이 모델은 오직 어텐션 메커니즘만을 사용하여 시퀀스를 생성할 수 있음을 보여주었다. 기존의 RNN 기반의 모델도 어텐션을 사용하였으나 단지 Cross-Attention 만 사용하였다고 교수는 설명하고 있다. 트랜스포머는 RNN이 하는 역할을 self-attention 으로 대체
+트랜스포머 모델은 "Attention is All You Need" 라는 논문에서 처음 소개 되었다. 트랜스포머는 기본적으로 시퀀스 투 시퀀스(Sequence-to-Sequence) 모델로, 이 모델은 오직 어텐션 메커니즘만을 사용하여 시퀀스를 생성할 수 있음을 보여주었다. 기존의 RNN 기반의 모델도 어텐션을 사용하였으나 단지 Cross-Attention 만 사용하였다고 교수는 설명하고 있다. 트랜스포머는 이러한 Cross-attention 에 더해 RNN이 하는 역할을 Self-Attention 으로 대체한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDgzOTgwNCw0MzA2OTQ3MzcsMTUwMT
-U0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2
-MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNz
-g0NzE0NTI5LC01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4
-Mjc2MCwtMTk3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQwOTAwMC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTEyMzI5MjM0NzMsNDMwNjk0NzM3LDE1MD
+E1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1
+NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LD
+c4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5
+ODI3NjAsLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MDY0MDkwMD
+AsLTIwODg3NDY2MTJdfQ==
 -->
