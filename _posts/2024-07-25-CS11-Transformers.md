@@ -35,8 +35,11 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   각 키 단어에 해당하는 값 벡터에 어텐션 스코어를 곱한 후, 이를 합산하여 최종 어텐션 결과 벡터를 만든다.
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
-<h3>**Cross Attention**</h3>
+<h3>**Self Attention**</h3>
+셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다.
+
+위 이미지를 보면 입력 문장과 대상 문장이 동일한 시퀀스를 나타냄을 볼 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDY5Nzk3NjMsLTE5Nzc2MzY2NiwxMD
-I4NTgyNTE2LDE1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbLTQ0Nzg3MTA2MiwtMTk3NzYzNjY2LDEwMj
+g1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
 -->
