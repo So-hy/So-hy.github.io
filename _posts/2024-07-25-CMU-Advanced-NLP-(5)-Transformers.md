@@ -162,13 +162,17 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2를 더해주고, 뒤쪽의 big 임베딩에는 Wpos6를 더해줌으로써 위치 정보를 부여하는 것이다.
  
- 이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 sin 을 활용한 인코딩이다. 
+ 이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 sin 을 활용한 인코딩이다.
+
+방식은 아래와 같다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTA4MjM0OSwxMDM3NDI5NDA4LC0xMD
-E3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3Mzky
-MDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtND
-Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
-NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LD
-IxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0
-NzRdfQ==
+eyJoaXN0b3J5IjpbLTE4MTQzNzY2ODAsLTE3OTA4MjM0OSwxMD
+M3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3
+NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMT
+UzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0
+ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC
+0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3
+MTYzMV19
 -->
