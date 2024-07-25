@@ -119,9 +119,9 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 어쨌든, 각각의 벡터를 각각의 가중치 행렬과 곱셈 연산을 한다. 이 곱하는 과정이 위의 그림에서 Attention 괄호 안에 있는 친구들을 의미한다. 이렇게 곱한 후, 얘들을 분할 및 재구성하는 과정을 거친다. 말 그대로 Multi-head attention 이니까 여러 헤드에 이 값을 쪼개서 넣는 것이다. 그림에서는 두 개로 쪼갰는데 이 말은 Attention Head 가 두 개 있다는 것! 위의 식은 분할 후, Matrix Multiply 를 진행했지만 그림은 반대의 순서다. 이는 실제로는 식처럼 하는게 아니라 큰 곱셈을 먼저 해버리고 쪼개는게 쪼개서 잔잔한 곱셈을 여러번 하는 것보다 효율적이기 때문이라고 한다. 그래서 실제로 구현할 때는 그림대로 하는게 일반적이라고 한다.
 
-이렇게 분할된 각각의 헤드에 대해 어텐션 메커니즘을 실행한다. 이 어텐션 메커니즘은 한번에 병렬적으로 처리하게 된다. 그리고 결과를 출력하게 된다.
+이렇게 분할된 각각의 헤드에 대해 어텐션 메커니즘을 실행한다. 이 어텐션 메커니즘은 한번에 병렬적으로 처리하게 된다. 그리고 결과를 출력하게 된다. 당연히 결과의 열은 Q의 열과 같게 된다. (쿼리에 대해 계산하기 때문..) 그리고 아까 쪼겠던 것들을 다시 연결함으로써 최종적으로 결과가 도출된ㄷ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjA0MTM3MywtMTIxMDcwMzM4NiwtNj
+eyJoaXN0b3J5IjpbMTU2MzcyMzgxNywtMTIxMDcwMzM4NiwtNj
 A5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5
 LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMT
 E4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5
