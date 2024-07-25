@@ -96,14 +96,15 @@ Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀�
 -   **의미적 정보**: 어떤 단어는 문장의 의미를 이해하는 데 중요한 정보를 제공할 수 있다. 예를 들어, "run"이라는 단어는 "달리다"라는 물리적 의미뿐만 아니라 "사업을 운영하다"라는 비유적 의미도 가질 수 있다. (Lexical Sementics)
 -   **문맥적 중요성**: 어떤 단어는 특정 문맥에서 더 중요한 정보를 제공할 수 있다. 예를 들어, "bank"라는 단어는 문맥에 따라 "강둑" 또는 "은행"을 의미할 수 있다.
 
-즉, 문장에서 단어의 의미를 명확히 하기 위해 사용하는 정보가 다를 수 있다는 것이다! (예를 들어 영어 문장을 보고 특정 단어가 무슨 뜻인지 맞추기 위해 그 문장에서 각 단어를 보는 것 보다 문장 전체를 볼 필요가 있다는 것) 문법적인 관계를 보는 경우엔 영어에서는 근처의 context 를 참고하면 되긴 하지만, 의미적 정보를 파악하기 위해서는 좀 더 넓은 범윙
+즉, 문장에서 단어의 의미를 명확히 하기 위해 사용하는 정보가 다를 수 있다는 것이다! (예를 들어 영어 문장을 보고 특정 단어가 무슨 뜻인지 맞추기 위해 그 문장에서 각 단어를 보는 것 보다 문장 전체를 볼 필요가 있다는 것.) 문법적인 관계를 보는 경우엔 영어에서는 근처의 context 를 참고하면 되긴 하지만, 의미적 정보를 파악하기 위해서는 좀 더 넓은 범위의 context를 참고해야 한다.
 단순히 단일 헤드 어텐션(Single-Head Attention)는 시퀀스의 특정 한 단어에 대해 다른 요소들과의 중요도가 어떤지를 측정하는 식으로 진행되는데 이때문에 모든 부분에 동시에 주의를 기울일 수 없어 특정 부분에 집중하게 되는 문제가 생긴다. 따라서 단일 헤드 어텐션은 중요한 정보를 선택할 때 "하드 디시전"을 내려야 하는 경우, 즉, 어떤 정보를 선택하고 어떤 정보를 무시할지 명확하게 결정해야 하는 경우가 발생한다.
+이러한 이유 때문에 Multi-head Attention을 쓰는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODg1OTUyOCwtMTg5NjY4NjEyNSwtMT
-ExODQ4MDE2MiwtOTA4Mjc0NzksNjczNjU2ODE3LDE0MTcwNzA5
-OTYsLTE3ODY1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLT
-kwOTcxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3
-MzcsMTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMT
-EwMTc3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEw
-ODQwNzRdfQ==
+eyJoaXN0b3J5IjpbLTEyMjA2OTgyNDUsLTE4OTY2ODYxMjUsLT
+ExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcw
+OTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0MjM5LC
+05MDk3MTYzMSw1MjAzNDU0NzQsLTE4MTU2NzUwMDYsNDMwNjk0
+NzM3LDE1MDE1NDUzNjAsLTI5MzE0Nzc3MywtOTkxNTU3NTk1LD
+ExMDE3Nzk1NjIsLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtNDkx
+MDg0MDc0XX0=
 -->
