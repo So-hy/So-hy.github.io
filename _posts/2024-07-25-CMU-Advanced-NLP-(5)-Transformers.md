@@ -156,13 +156,18 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 이러한 문제를 해결하기 위해 RNN 같이 위치 정보에 민감한 모델을 쓰면 되지만 Transformer 논문에서는 RNN을 쓰지 않았다. 대신 이를 해결하기 위해 Positional Encoding 이라는 기법을 도입했다.
 
-Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 임베딩에 더하는 것이다. 
+Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 임베딩에 더하는 것이다.
+
+![스크린샷 2024-07-26 035417](https://github.com/user-attachments/assets/50797d4a-cd4a-42a1-a171-2e36e5144d1d){: .responsive-img .align-center}
+
+예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2 를 더해주고, 뒤쪽의 big 이
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQwMDA1MjAsMTAzNzQyOTQwOCwtMT
-AxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5
-MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLT
-Q2NDMyMDgxLC0xODk2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgy
-NzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2Ny
-wyMTIzODMxMzY0LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1
-NDc0XX0=
+eyJoaXN0b3J5IjpbLTQ0MTE4MDg2MCwxMDM3NDI5NDA4LC0xMD
+E3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3Mzky
+MDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtND
+Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
+NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC0xNzg2NTA4OTY3LD
+IxMjM4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0
+NzRdfQ==
 -->
