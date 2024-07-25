@@ -150,13 +150,13 @@ Q벡터의 경우 열이 3개고, 나머지는 열이 4개인데, 이렇게 쿼�
 
 이 그림은 Multi-Head Attention 을 했을 때, 어텐션이 어떻게 적용되는가를 보여주는 예시이다. making 이라는 단어에 대한 각 어텐션 헤드가 입력 시퀀스의 어느 부분에 주의를 기울이는지 확인할 수 있다. 
 
-
+## **Positional Encoding**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjQxMzMxNzAsMTAzNzQyOTQwOCwtMT
-AxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5
-MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5LDE1Mzg1NzE2MDQsLT
-Q2NDMyMDgxLC0xODk2Njg2MTI1LC0xMTE4NDgwMTYyLC05MDgy
-NzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5NiwtMTc4NjUwODk2Ny
-wyMTIzODMxMzY0LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1
-NDc0XX0=
+eyJoaXN0b3J5IjpbNzE0OTYyODk1LDEwMzc0Mjk0MDgsLTEwMT
+c3NTc0MjksLTEyMTA3MDMzODYsLTYwOTc3NTY2MCw3MjczOTIw
+MjgsNTcyMjg5ODU0LDIyMjg4NzgyOSwxNTM4NTcxNjA0LC00Nj
+QzMjA4MSwtMTg5NjY4NjEyNSwtMTExODQ4MDE2MiwtOTA4Mjc0
+NzksNjczNjU2ODE3LDE0MTcwNzA5OTYsLTE3ODY1MDg5NjcsMj
+EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
+NF19
 -->
