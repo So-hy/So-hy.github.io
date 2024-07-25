@@ -21,21 +21,26 @@ body {
 }
 
 .fade-text {
-  transition: opacity 0.5s;
-}
-
-.faded {
-  opacity: 0.2;
-}
-
-.top-fade, .bottom-fade {
   position: relative;
+  overflow: hidden;
 }
 
-.top-fade {
-  padding-top: 5%;
+.fade-text::before,
+.fade-text::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 5%;
+  z-index: 1;
 }
 
-.bottom-fade {
-  padding-bottom: 5%;
+.fade-text::before {
+  top: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.fade-text::after {
+  bottom: 0;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
 }
