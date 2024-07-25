@@ -44,7 +44,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 (후술할 내용이지만 Decoder-Only Model들은 셀프 어텐션만 사용하고, Encoder-Decoder Model들은 두 가지 어텐션을 모두 사용한다.)
 
 
-###**Calculating Attention**
+**Calculating Attention**
 
 ![스크린샷 2024-07-25 211412](https://github.com/user-attachments/assets/d4d57ae2-b943-42e8-86e5-d766b139a12c)
 
@@ -53,8 +53,8 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzA1MzMxNDcsMTk4MTg4NTA1MiwtND
-kxMDg0MDc0LDc4NDcxNDUyOSwtNTczNDAzMDY3LDE2NjY4NDAx
-MzIsLTE3NDA5ODI3NjAsLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LD
-E1MDY0MDkwMDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbOTA0Mzk2MzQ2LC0xNzMwNTMzMTQ3LDE5OD
+E4ODUwNTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2
+NywxNjY2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3NjM2NjYsMT
+AyODU4MjUxNiwxNTA2NDA5MDAwLC0yMDg4NzQ2NjEyXX0=
 -->
