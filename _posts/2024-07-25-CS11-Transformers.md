@@ -70,8 +70,9 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 ![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MDI2Mjg3Nyw1MDkxOTQyMzksLTkwOT
+eyJoaXN0b3J5IjpbMjA3MzIxMjg3NSw1MDkxOTQyMzksLTkwOT
 cxNjMxLDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3Mzcs
 MTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMTEwMT
 c3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEwODQw
