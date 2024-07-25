@@ -83,8 +83,11 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 이러한 친구들이 트랜스포머 모델의 핵심이다.
 우선 디코더를 보면서 차근차근 살펴보자.
 
+![스크린샷 2024-07-25 211459](https://github.com/user-attachments/assets/b58a23c8-f900-4c6c-825b-304ca27c4bad){: .responsive-img}
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODUyODM4MjQsLTE3ODY1MDg5NjcsMj
+eyJoaXN0b3J5IjpbLTExNTMyNzg2NDAsLTE3ODY1MDg5NjcsMj
 EyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMxLDUyMDM0NTQ3
 NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMTU0NTM2MCwtMj
 kzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUz
