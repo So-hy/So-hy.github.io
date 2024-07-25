@@ -196,9 +196,9 @@ Absolute Positional Encoding은 입력에 인코딩 값을 추가하여 상대�
 Relative Positional Encoding의 경우 각 단어의 위치를 절대적인 값으로 인코딩하는 대신, 각 단어 간의 상대적인 위치 정보를 인코딩한다. 즉, 특정 단어가 다른 단어와 얼마나 떨어져 있는지를 인코딩하는 방식이다.
 (예: key embedding 은 query embedding 으로 부터 5칸 떨어져있다.) Relative Positional Encoding은 단어 간의 거리(상대적 위치)를 직접적으로 인코딩하여, 문장 내 단어들의 상대적 위치 정보를 명시적으로 포함한다. 이러한 이유 덕분에 문장의 길이가 달라져도(더 길거나 짧아져도) 상대적 위치 정보를 유지할 수 있어, 모델이 더 유연하게 문장을 이해할 수 있도록 돕는다. 하지만 두 가지 문제점이 있는데 **Learnable Parameter**의 추가와 **Computational Cost**의 증가이다.
 
-Relative PE는 각 단어 쌍의 상대적 위치를 학습 가능한 파라미터로 인코딩한다. 이는 모델이 학습 과정에서 최적의 상대적 위치 인코딩 값을 찾아내도록 합니다.
+Relative PE는 각 단어 쌍의 상대적 위치를 학습 가능한 파라미터로 인코딩한다. 이는 모델이 학습 과정에서 최적의 상대적 위치 인코딩 값을 찾아내도록 한다. 이 과정에서 각 단어 쌍마다 상대적 위치를 나타내는 파라미터가 추가된다. 특히 긴 시퀀스의 경우 단어 쌍의 수가 기하급수적으로 증가하므로, 필요한 파라미터의 수가 매우 많아질 수 있다. 이로 인해 모델의 복잡도를 증가시키고, 학습 과정에서 더 많은 메모리와 계산 자원이 필요하게 된다. 학습할 때마다 어텐션 매트릭스를 매번 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDUzMjA4OSw1MDU2MTgwMDEsNTA1Nj
+eyJoaXN0b3J5IjpbMTkzNjA1MzU1OCw1MDU2MTgwMDEsNTA1Nj
 E4MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3
 NiwyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MD
 M3NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5
