@@ -58,11 +58,13 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 ![스크린샷 2024-07-25 211425](https://github.com/user-attachments/assets/e4745e50-770d-4daa-bb32-f129592fb326)
 
 그럼 위 그림에서 말하는 값 벡터(Value Vector)는 뭘까? 값 벡터는 키 벡터와 같은 토큰으로부터 생성되는 벡터이다. 하지만 다른 가중치를 통해 생성된다.
-만약 단어 별로 토큰화 되었다고 가정했을 때, "kono", "eiga", "ga", "kirai"는 각각 임베딩 벡터 e1,e2,e3,e4\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3, \mathbf{e}_4e1​,e2​,e3​,e4​로 변환된다. 
+만약 단어 별로 토큰화 되었다고 가정했을 때, "kono", "eiga", "ga", "kirai"는 각각 임베딩 벡터 e1,e2,e3,e4\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3, \mathbf{e}_4e1​,e2​,e3​,e4​로 변환된다. 키 벡터의 경우 -   각 임베딩 벡터에 키 가중치 행렬 WK\mathbf{W}_KWK​를 곱하여 생성되고,
+-   Ki=WK⋅ei\mathbf{K}_i = \mathbf{W}_K \cdot \mathbf{e}_iKi​=WK​⋅ei​ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMTU0NTM2MCwtMjkzMTQ3NzczLC05OT
-E1NTc1OTUsMTEwMTc3OTU2MiwtMTczMDUzMzE0NywxOTgxODg1
-MDUyLC00OTEwODQwNzQsNzg0NzE0NTI5LC01NzM0MDMwNjcsMT
-Y2Njg0MDEzMiwtMTc0MDk4Mjc2MCwtMTk3NzYzNjY2LDEwMjg1
-ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbLTE3NTQzNDQyNSwxNTAxNTQ1MzYwLC0yOT
+MxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMz
+MTQ3LDE5ODE4ODUwNTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLT
+U3MzQwMzA2NywxNjY2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3
+NjM2NjYsMTAyODU4MjUxNiwxNTA2NDA5MDAwLC0yMDg4NzQ2Nj
+EyXX0=
 -->
