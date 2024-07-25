@@ -71,7 +71,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 ### **Two Types of Transformers**
 트랜스포머는 크게 두 종류가 있다.
 
-![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img}
+![스크린샷 2024-07-25 211449](https://github.com/user-attachments/assets/5649112f-9211-4b6b-8da1-c0e1a1808698){: .responsive-img .align-center}
 
 하나는 인코더-디코더로 이루어진 모델이고(T5, MBART), 다른 하나는 디코더로만 이루어진 모델이다(GPT, LLaMa).
 
@@ -178,11 +178,11 @@ $Pt​=[sin(ω0​⋅t),cos(ω0​⋅t),sin(ω1​⋅t),cos(ω1​⋅t),...]$
 
 그리고 이 인코딩 벡터를 다른 위치의 인코딩 벡터인 $P_{t'}$와 내적을 하여 유사성을 계산하고 그 값을 그림으로 나타내면 오른쪽 그림과 같이 나온다. 해당 히트맵의 각 셀은 두 위치 간의 유사성 값을 나타내고, 색상이 짙을 수록 높은 유사성을 나타내는데, 보이는 것과 같이 대각선은 항상 높은 유사성을 가지는 것을 볼 수 있다.(자기 자신과의 비교이기 때문)​ 그리고 두 위치가 가까울 수록 값이 커지는 것을 볼 수 있다. 이 값이 어텐션 메커니즘에 영향(Bias)를 주는데, 이 값이 커질수록 당연히 어텐션 메커니즘에서 가중치를 조정하는데 더 큰 영향을 주게 된다. 즉, 두 위치가 가까울수록 어텐션 값(가중치)이 커지게 되고, 이로 인해 어텐션 메커니즘이 문맥을 이해할 때, 가까운 단어들 간의 관계를 더 잘 반영하게 하는 것이다. 거기에 더해 대각선 상의 셀은 위치 인코딩 벡터가 자기 자신과의 상관 관계를 나타내며, 이는 각 위치 인코딩 벡터가 고유함을 시각적으로 보여준다. 이러한 이유로 이런 function을 쓰게 된 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTUyNzE5MTksMTkxNTA3OTM3NSwxMz
-cyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMDM3NDI5
-NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2Nj
-AsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3
-MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNj
-IsLTkwODI3NDc5LDY3MzY1NjgxNywxNDE3MDcwOTk2LC0xNzg2
-NTA4OTY3XX0=
+eyJoaXN0b3J5IjpbNjUwMzc3NjA2LDE5MTUwNzkzNzUsMTM3Mj
+E2ODE5MiwxMzc5NDcyNzk2LC0xNzkwODIzNDksMTAzNzQyOTQw
+OCwtMTAxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLD
+cyNzM5MjAyOCw1NzIyODk4NTQsMjIyODg3ODI5LDE1Mzg1NzE2
+MDQsLTQ2NDMyMDgxLC0xODk2Njg2MTI1LC0xMTE4NDgwMTYyLC
+05MDgyNzQ3OSw2NzM2NTY4MTcsMTQxNzA3MDk5NiwtMTc4NjUw
+ODk2N119
 -->
