@@ -66,4 +66,4 @@ collections:
 # Collection settings
 review_posts:
   output: true
-  permalink: /reviews/:title/
+  permalink: /review/:title/
