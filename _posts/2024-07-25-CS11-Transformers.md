@@ -73,12 +73,13 @@ Feed Forward 의 경우 어텐션 메커니즘에 의해 계산된 다양한 특
 **인코더-디코더 모델**은 입력과 출력이 명확하게 구분되는 작업에 적합하며, 반면 **디코더 전용 모델**은 단일 모듈(디코더)만 사용하며, 입력과 출력의 구분이 모호한 작업에 적합하다.(ChatGpt 와 같이 입력과 출력이 명확히 정해지지 않는 느낌이다.) 옆에 작게 적힌 Nx 는 해당 인코더, 디코더 레이어가 몇 겹 존재하는지에 대한 것이다.
 
 ### **Core Transformer Concepts**
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY4OTk5NDcxLC0xNzg2NTA4OTY3LDIxMj
-M4MzEzNjQsNTA5MTk0MjM5LC05MDk3MTYzMSw1MjAzNDU0NzQs
-LTE4MTU2NzUwMDYsNDMwNjk0NzM3LDE1MDE1NDUzNjAsLTI5Mz
-E0Nzc3MywtOTkxNTU3NTk1LDExMDE3Nzk1NjIsLTE3MzA1MzMx
-NDcsMTk4MTg4NTA1MiwtNDkxMDg0MDc0LDc4NDcxNDUyOSwtNT
-czNDAzMDY3LDE2NjY4NDAxMzIsLTE3NDA5ODI3NjAsLTE5Nzc2
-MzY2Nl19
+eyJoaXN0b3J5IjpbMjAzMzYzNDYxNSwtMTc4NjUwODk2NywyMT
+IzODMxMzY0LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0
+LC0xODE1Njc1MDA2LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOT
+MxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMz
+MTQ3LDE5ODE4ODUwNTIsLTQ5MTA4NDA3NCw3ODQ3MTQ1MjksLT
+U3MzQwMzA2NywxNjY2ODQwMTMyLC0xNzQwOTgyNzYwLC0xOTc3
+NjM2NjZdfQ==
 -->
