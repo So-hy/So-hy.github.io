@@ -193,12 +193,13 @@ Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설
 
 Absolute Positional Encoding은 입력에 인코딩 값을 추가하여 상대적 위치 정보도 캡처할 수 있기를 기대하는 방식이다. 각 단어의 위치를 절대적인 값으로 인코딩합니다. 즉, 문장 내에서 단어가 몇 번째 위치에 있는지를 나타내는 값을 사용다.
 (예: 첫 번째 단어는 위치 1, 두 번째 단어는 위치 2 등.)
+E
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNj
-Q4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4
-LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNT
-A3OTM3NSwxMzcyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0
-OSwxMDM3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAzMzg2LC
-02MDk3NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMjI4ODc4
-MjldfQ==
+eyJoaXN0b3J5IjpbLTkzMjQ4NzQ3Miw1MDU2MTgwMDEsNTA1Nj
+E4MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3
+NiwyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MD
+M3NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5
+NiwtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLT
+EyMTA3MDMzODYsLTYwOTc3NTY2MCw3MjczOTIwMjgsNTcyMjg5
+ODU0XX0=
 -->
