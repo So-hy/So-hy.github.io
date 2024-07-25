@@ -91,13 +91,13 @@ Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇�
 ## **Multi-head Attention**
 ![스크린샷 2024-07-25 211521](https://github.com/user-attachments/assets/3a75f06b-8f63-4b91-b523-384f748093bc){: .responsive-img}
 
-교수는 Multi-head attention의 기본 직관을 다음과 같이 설명한다.
+Multi-Head Attention 의 기저에 깔린 기본 개념은 문장이나 시퀀스의 다른 부분의 정보는 서로 다르게 유용할 수 있다는 것이다. 이게 무슨ㅁ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjczNjU2ODE3LDE0MTcwNzA5OTYsLTE3OD
-Y1MDg5NjcsMjEyMzgzMTM2NCw1MDkxOTQyMzksLTkwOTcxNjMx
-LDUyMDM0NTQ3NCwtMTgxNTY3NTAwNiw0MzA2OTQ3MzcsMTUwMT
-U0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2
-MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNz
-g0NzE0NTI5LC01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4
-Mjc2MF19
+eyJoaXN0b3J5IjpbLTIwMzA5NzQxNSw2NzM2NTY4MTcsMTQxNz
+A3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5NDIz
+OSwtOTA5NzE2MzEsNTIwMzQ1NDc0LC0xODE1Njc1MDA2LDQzMD
+Y5NDczNywxNTAxNTQ1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5
+NSwxMTAxNzc5NTYyLC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLT
+Q5MTA4NDA3NCw3ODQ3MTQ1MjksLTU3MzQwMzA2NywxNjY2ODQw
+MTMyXX0=
 -->
