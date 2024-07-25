@@ -2,47 +2,41 @@
 layout: default
 ---
 {%- include header.html -%}
-
-<!-- Main -->
-<div id="main">
-    <!-- Post -->
+  <div id="main">
     <article class="shade-two fade-text">
-        <div class="container">
-            <header>
-                <h2>{{- page.title -}}</h2>
-                <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
-            </header>
-            {{- content -}}
-        </div>
+      <div class="container">
+        <header>
+          <h2>{{- page.title -}}</h2>
+          <p>{% if page.author %}{{ page.author }}, {% endif %}{{- page.date | date_to_long_string -}}</p>
+        </header>
+        {{- content -}}
+      </div>
     </article>
-</div>
+  </div>
 
-<style>
-.fade-text {
-    transition: opacity 0.5s;
-}
-</style>
-
-<script>
-document.addEventListener('scroll', function () {
+  <script>
+  document.addEventListener('scroll', function () {
     const scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
-    const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
     const windowHeight = window.innerHeight;
+    const fadeThreshold = windowHeight * 0.05;
 
-    const fadeElements = document.querySelectorAll('.fade-text p, .fade-text h2, .fade-text h3, .fade-text h4, .fade-text h5, .fade-text h6');
+    const fadeElement = document.querySelector('.fade-text');
+    const fadeElements = fadeElement.querySelectorAll('*');
+
     fadeElements.forEach(element => {
-        const elementTop = element.getBoundingClientRect().top + scrollTop;
-        const elementHeight = element.clientHeight;
-        
-        if (elementTop < scrollTop + windowHeight * 0.05) {
-            // 상단 영역
-            element.style.opacity = Math.max(1 - (scrollTop + windowHeight * 0.05 - elementTop) / (windowHeight * 0.05), 0.2);
-        } else if (elementTop + elementHeight > scrollTop + windowHeight * 0.95) {
-            // 하단 영역
-            element.style.opacity = Math.max(1 - (elementTop + elementHeight - (scrollTop + windowHeight * 0.95)) / (windowHeight * 0.05), 0.2);
-        } else {
-            element.style.opacity = 1;
-        }
+      const rect = element.getBoundingClientRect();
+      const elementTop = rect.top + scrollTop;
+      const elementBottom = rect.bottom + scrollTop;
+
+      if (elementTop < scrollTop + fadeThreshold) {
+        // 상단 영역에 있을 때
+        element.style.opacity = Math.max(1 - (scrollTop + fadeThreshold - elementTop) / fadeThreshold, 0.2);
+      } else if (elementBottom > scrollTop + windowHeight - fadeThreshold) {
+        // 하단 영역에 있을 때
+        element.style.opacity = Math.max(1 - (elementBottom - (scrollTop + windowHeight - fadeThreshold)) / fadeThreshold, 0.2);
+      } else {
+        element.style.opacity = 1;
+      }
     });
-});
-</script>
+  });
+  </script>
