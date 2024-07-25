@@ -168,13 +168,13 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 ![스크린샷 2024-07-26 040014](https://github.com/user-attachments/assets/0ab4598f-cdaf-4bdc-90f6-889c18dbbdee){: .responsive-img .align-center}
 
-이 수식은 각 위치 $t$에 대해 $sin$ 및 $cos$ 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩한다. $Pt(i)​$ 는 $t$ 위치에 있는 단어의 $i$번째 차원의 Positional Encoding 값을 의미하며, 짝수 차원에는 $sin$, 그리고 홀수 차원에는 $cos$을 통해 값을 계산한다. $\omega_k = \frac{1}{10000^{2k/d}}$ 에서 오
+이 수식은 각 위치 $t$에 대해 $sin$ 및 $cos$ 값을 계산하여, 단어 위치를 고유한 벡터로 인코딩한다. $Pt(i)​$ 는 $t$ 위치에 있는 단어의 $i$번째 차원의 Positional Encoding 값을 의미하며, 짝수 차원에는 $sin$, 그리고 홀수 차원에는 $cos$을 통해 값을 계산한다. $\omega_k = \frac{1}{10000^{2k/d}}$ 에서 $\omega_k$는 주파수, $d$는 인코딩 벡터의 차원 수를 나타낸
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEzODY5NzQ5LDEzNzk0NzI3OTYsLTE3OT
-A4MjM0OSwxMDM3NDI5NDA4LC0xMDE3NzU3NDI5LC0xMjEwNzAz
-Mzg2LC02MDk3NzU2NjAsNzI3MzkyMDI4LDU3MjI4OTg1NCwyMj
-I4ODc4MjksMTUzODU3MTYwNCwtNDY0MzIwODEsLTE4OTY2ODYx
-MjUsLTExMTg0ODAxNjIsLTkwODI3NDc5LDY3MzY1NjgxNywxND
-E3MDcwOTk2LC0xNzg2NTA4OTY3LDIxMjM4MzEzNjQsNTA5MTk0
-MjM5XX0=
+eyJoaXN0b3J5IjpbLTQxMDY5MDg2MCwxMzc5NDcyNzk2LC0xNz
+kwODIzNDksMTAzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIxMDcw
+MzM4NiwtNjA5Nzc1NjYwLDcyNzM5MjAyOCw1NzIyODk4NTQsMj
+IyODg3ODI5LDE1Mzg1NzE2MDQsLTQ2NDMyMDgxLC0xODk2Njg2
+MTI1LC0xMTE4NDgwMTYyLC05MDgyNzQ3OSw2NzM2NTY4MTcsMT
+QxNzA3MDk5NiwtMTc4NjUwODk2NywyMTIzODMxMzY0LDUwOTE5
+NDIzOV19
 -->
