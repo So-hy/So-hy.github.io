@@ -61,11 +61,13 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 만약 단어 별로 토큰화 되었다고 가정했을 때, "kono", "eiga", "ga", "kirai"는 각각 임베딩 벡터 $\mathbf{e}_1, \mathbf{e}_2, \mathbf{e}_3, \mathbf{e}_4$로 변환된다. 키 벡터의 경우 -   각 임베딩 벡터에 키 가중치 행렬 $\mathbf{W}_K$​를 곱하여 생성되고, ( $\mathbf{K}_i = \mathbf{W}_K \cdot \mathbf{e}_i$)이 벡터는 쿼리 벡터와의 유사도를 계산하는데 사용된다. 값 벡터의 경우 각 임베딩 벡터에 값 가중치 행렬 $\mathbf{W}_V$를 곱하여 생성되고, ( $\mathbf{V}_i = \mathbf{W}_V \cdot \mathbf{e}_i$) 이 벡터는 최종 어텐션 결과를 생성하는데 사용된다.
 어쨌든, 이전에 normalize 한 값(어텐션 가중치)을 각 값 벡터에 곱한 후, 이를 합산하여 최종 어텐션을 출력한다.  예를 들어, 값 벡터 $V_1, V_2, V_3$​와 어텐션 가중치 $\alpha_1, \alpha_2, \alpha_3$가 있을 때, 최종 출력은 $\alpha_1 V_1 + \alpha_2 V_2 + \alpha_3 V_3​$가 된다.
 
+## **Transformers**
+트랜스포머 모델은 "Attention is All You N
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTUyOTA2OSw0MzA2OTQ3MzcsMTUwMT
-U0NTM2MCwtMjkzMTQ3NzczLC05OTE1NTc1OTUsMTEwMTc3OTU2
-MiwtMTczMDUzMzE0NywxOTgxODg1MDUyLC00OTEwODQwNzQsNz
-g0NzE0NTI5LC01NzM0MDMwNjcsMTY2Njg0MDEzMiwtMTc0MDk4
-Mjc2MCwtMTk3NzYzNjY2LDEwMjg1ODI1MTYsMTUwNjQwOTAwMC
-wtMjA4ODc0NjYxMl19
+eyJoaXN0b3J5IjpbMjE4MjkwMTE1LDQzMDY5NDczNywxNTAxNT
+Q1MzYwLC0yOTMxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYy
+LC0xNzMwNTMzMTQ3LDE5ODE4ODUwNTIsLTQ5MTA4NDA3NCw3OD
+Q3MTQ1MjksLTU3MzQwMzA2NywxNjY2ODQwMTMyLC0xNzQwOTgy
+NzYwLC0xOTc3NjM2NjYsMTAyODU4MjUxNiwxNTA2NDA5MDAwLC
+0yMDg4NzQ2NjEyXX0=
 -->
