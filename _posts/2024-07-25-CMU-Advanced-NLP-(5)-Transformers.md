@@ -160,10 +160,11 @@ Positional Encoding은 단어의 위치에 기반한 다른 임베딩을 입력 
 
 ![스크린샷 2024-07-26 035417](https://github.com/user-attachments/assets/50797d4a-cd4a-42a1-a171-2e36e5144d1d){: .responsive-img .align-center}
 
-예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2 를 더해주고, 뒤쪽의 big 이
+예를 들어 위 문장 두 개에서 서로 다른 위치의 big에 대해 앞쪽의 big의 임베딩에는 Wpos2를 더해주고, 뒤쪽의 big 임베딩에는 Wpos6를 더해줌으로써 위치 정보를 부여하는 것이다.
  
+ 이러한 Positional Encoding을 구현하기 위한 방법에는 여러가지가 있다. 그 중, 트랜스포머 논문에서 사용한 기법은 Sinusoidal Encoding, 즉 sin 을 활용한 인코딩이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTE4MDg2MCwxMDM3NDI5NDA4LC0xMD
+eyJoaXN0b3J5IjpbLTE3OTA4MjM0OSwxMDM3NDI5NDA4LC0xMD
 E3NzU3NDI5LC0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3Mzky
 MDI4LDU3MjI4OTg1NCwyMjI4ODc4MjksMTUzODU3MTYwNCwtND
 Y0MzIwODEsLTE4OTY2ODYxMjUsLTExMTg0ODAxNjIsLTkwODI3
