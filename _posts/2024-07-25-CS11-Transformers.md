@@ -89,9 +89,11 @@ Inputs, 즉 입력은 보통 subwords 단위로 쪼개진다. 그리고 이렇�
 그 다음으로 다룰 것은 Multi-head Attention이다.
 
 ## **Multi-head Attention**
+![스크린샷 2024-07-25 211521](https://github.com/user-attachments/assets/3a75f06b-8f63-4b91-b523-384f748093bc){: .responsive-img}
 
+Multi-head attention 은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1MDM5MDg3MCwtMTc4NjUwODk2NywyMT
+eyJoaXN0b3J5IjpbMTQxNzA3MDk5NiwtMTc4NjUwODk2NywyMT
 IzODMxMzY0LDUwOTE5NDIzOSwtOTA5NzE2MzEsNTIwMzQ1NDc0
 LC0xODE1Njc1MDA2LDQzMDY5NDczNywxNTAxNTQ1MzYwLC0yOT
 MxNDc3NzMsLTk5MTU1NzU5NSwxMTAxNzc5NTYyLC0xNzMwNTMz
