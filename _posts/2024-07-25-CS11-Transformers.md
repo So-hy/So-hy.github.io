@@ -9,7 +9,8 @@
 Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니즘이다. 하나의 시퀀스가 키(key) 역할을 하고, 다른 시퀀스가 쿼리(query) 역할을 한다.
 쿼리 벡터의 각 요소가 키 벡터의 각 요소에 대해 어텐션을 계산한다.
 
-![enter image description here](https://github.com/So-hy/So-hy.github.io/blob/gh-pages/assets/images/blog/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-25%20204512.png?raw=true)
+![enter image description here](!%5B%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202024-07-25%20204512%5D%28https://github.com/user-attachments/assets/40b99aa1-8428-4af6-a35a-d3ce3970e4a3%29)
+
 위 그림에서 입력 문장은 (this, is, an, example) 이고
 대상 문장은 (kore, wa, rei, desu) 이다.
 각 셀의 색상은 어텐션 스코어를 나타낸다.
@@ -35,6 +36,6 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Nzc2MzY2NiwxMDI4NTgyNTE2LDE1MD
-Y0MDkwMDAsLTIwODg3NDY2MTJdfQ==
+eyJoaXN0b3J5IjpbMTcyNjk1MjAwNywtMTk3NzYzNjY2LDEwMj
+g1ODI1MTYsMTUwNjQwOTAwMCwtMjA4ODc0NjYxMl19
 -->
