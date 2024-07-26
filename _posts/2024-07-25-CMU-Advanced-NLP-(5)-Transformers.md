@@ -305,8 +305,11 @@ $$Residual(x,F)=F(x)+x$$
 
 이 잔차 연결은 멀티헤드 어텐션에도 영향을 주는데, 잔차 연결을 사용하면 입력 정보를 출력에 직접 추가하기 때문에 어텐션 메커니즘이 자기 자신에게 집중할 필요가 줄어든다. 따라서 어텐션 메커니즘이 더 주변의 다른 입력 정보에 집중하게 되고, 이를 통해 더 많은 컨텍스트 정보를 학습할 수 있게 된다.
 
+### **Post- vs. Pre- Layer Norm **
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MTkyMDk3OCwtMTk4NTE5NTQwOCwtNT
+eyJoaXN0b3J5IjpbMTkyMDE1NTM1OCwtMTk4NTE5NTQwOCwtNT
 czMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzEx
 MjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOT
 AxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAz
