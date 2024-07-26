@@ -218,12 +218,17 @@ $$f_q(x_m, m) \cdot f_k(x_n, n) = g(x_m, x_n, m - n)$$
 
 위의 그림이 RoPE의 인코딩 방법을 수학적으로 표현한 것이다. 각 요소에 대해 간단히 살펴보자면
 
+$$\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ \vdots \\ x_{d-1} \\ x_d \end{pmatrix}$$
+
+-   여기서 $x$는 입력 벡터로, 각 요소$x_i$는 시퀀스 내의 각 위치에 해당하는 값이다. 벡터의 차원은 $d$다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMT
-kzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMw
-MzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOT
-g1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMz
-OTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3NSwxMz
-cyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMDM3NDI5
-NDA4XX0=
+eyJoaXN0b3J5IjpbLTY2MTIwNDMwNCw5ODc5NDMxMzQsLTc4Mz
+A2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEy
+MywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNT
+E2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1
+MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOT
+E1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMTc5MDgy
+MzQ5XX0=
 -->
