@@ -326,11 +326,10 @@ $$Residual(x,F)=F(x)+x$$
 
 Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻게 미치는 걸까?
 
-Identity 함수(단순한 덧셈 등)는 그라디언트를 변화시키지 않지만, 다른 함수들은 그라디언트를 변화시킨다.
- Layer Norm의 표준 편차로 값을 나누어 정규화하기 때문에, 이는 그라디언트를 변화시켜 전파 과정에서 그라디언트를 작게 만들 수 있습니다.
-- 특히 표준 편차가 큰 경우, Layer Norm은 그라디언트를 더 작게 만들어 그라디언트 소실 문제를 일으킬 수 있습니다.
+> Identity 함수(단순한 덧셈 등)는 그라디언트를 변화시키지 않지만, 다른 함수들은 그라디언트를 변화시킨다.  LayerNorm의 표준 편차로 값을 나누어 정규화하기 때문에, 이는 그라디언트를 변화시켜 전파 과정에서 그라디언트를 작게 만들 수 있다. 특히 표준 편차가 큰 경우, Layer Norm은 그라디언트를 더 작게 만들어 그라디언트 소실 문제를 일으킬 수있다. 따라서 이는 그라디언트 전파에 충분히 영향을 끼칠 수 있다는 의미가 된다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDgwMjczNjIsMTkyMDE1NTM1OCwtMT
+eyJoaXN0b3J5IjpbLTEyNjY0MzI3NDgsMTkyMDE1NTM1OCwtMT
 k4NTE5NTQwOCwtNTczMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYw
 Mzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLT
 c4MzA2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQw
