@@ -203,13 +203,15 @@ Relative Positional Encoding은 각 단어 쌍의 상대적 위치를 학습 가
 ### **Rotary Positional Encodings**
 
 
-Rotary Positional Encoding의 경우 Absolute Positional Encoding과 Relative Positional Encoding의 결합하여 사용함으로써 두 인코딩의 장점을 모두 취하는 방식이다. 
+Rotary Positional Encoding(RoPE)의 경우 Absolute Positional Encoding과 Relative Positional Encoding의 결합하여 사용함으로써 두 인코딩의 장점을 모두 취하는 방식이다.
+
+RoPE의 핵심 아이디어는 임베딩의 내적이 상대적인 위치의 함수가 되도록 하는 ㄱ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMT
-k3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgy
-MCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1MzgsLT
-QwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOTE1MDc5
-Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMTc5MDgyMzQ5LD
-EwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLTYw
-OTc3NTY2MF19
+eyJoaXN0b3J5IjpbLTkzMTMwMTA0MywtMjEzNzYzODI2MywyMD
+IxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgw
+MDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LD
+I0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3
+NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5MiwxMzc5NDcyNzk2LC
+0xNzkwODIzNDksMTAzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIx
+MDcwMzM4Nl19
 -->
