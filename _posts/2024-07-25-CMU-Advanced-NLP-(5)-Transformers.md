@@ -223,8 +223,11 @@ $$\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ \vdots \\ x_{d-1} \\ x_d \end{pmat
 -   여기서 $x$는 입력 벡터로, 각 요소$x_i$는 시퀀스 내의 각 위치에 해당하는 값이다. 벡터의 차원은 $d$다.
 
 
+$$\begin{pmatrix} \cos m \theta_1 \\ \cos m \theta_1 \\ \cos m \theta_2 \\ \cos m \theta_2 \\ \vdots \\ \cos m \theta_{d/2} \\ \cos m \theta_{d/2} \end{pmatrix}​$$
+
+-  $\cos m \theta_i$는 위치 mmm에서의 코사인 값을 나타내며, θ\thetaθ는 특정 파라미터입니다. 이 값들은 각 입력 벡터의 요소에 곱해져 위치 인코딩을 생성합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTIwNDMwNCw5ODc5NDMxMzQsLTc4Mz
+eyJoaXN0b3J5IjpbLTc1MTczNjgxNyw5ODc5NDMxMzQsLTc4Mz
 A2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEy
 MywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNT
 E2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1
