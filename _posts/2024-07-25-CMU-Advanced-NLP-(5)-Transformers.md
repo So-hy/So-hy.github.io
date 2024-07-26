@@ -309,13 +309,17 @@ $$Residual(x,F)=F(x)+x$$
 
 트랜스포머 모델에 있어서 또다른 개선 중 하나는 바로 이 Post, Pre-Layer Norm 에 관한 것이다.
 
-원래 Transformer 모델에서는 Multi-Head Attention과 Feed Forward Network 뒤에 Layer Norm이 위치해 있었다고 한다. 이는 위의 그림에서 왼쪽과
+![스크린샷 2024-07-26 133031](https://github.com/user-attachments/assets/064ba852-62d0-4935-816e-8a666afc5384){: .responsive-img .align-center}
+
+
+원래 Transformer 모델에서는 Multi-Head Attention과 Feed Forward Network 뒤에 Layer Norm이 위치해 있었다고 한다. 이는 위의 그림에서 왼쪽과 같다. 
+이런 구조의 문제점이 무엇이냐면 잔차 연결(Residual Connection)을 중간에서 끊어버리는 효과가 있습니다. 즉, Layer Norm이 잔차 연결 경로에 위치해 있어, 잔차 연결의 본래 목적을 방해하게 됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNDE4MDM5MSwxOTIwMTU1MzU4LC0xOT
-g1MTk1NDA4LC01NzMyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAz
-NzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNz
-gzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2
-MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMj
-E1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0Mzgz
-MDUzOF19
+eyJoaXN0b3J5IjpbLTU5Mjc3ODE1LDE5MjAxNTUzNTgsLTE5OD
+UxOTU0MDgsLTU3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3
+OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03OD
+MwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYx
+MjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMT
+UxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMw
+NTM4XX0=
 -->
