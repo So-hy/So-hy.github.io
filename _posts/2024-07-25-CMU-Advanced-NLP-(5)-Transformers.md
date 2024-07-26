@@ -246,12 +246,14 @@ $x$의 벡터가 입력 벡터이고 둘 중에 하나가 쿼리 벡터 또는 �
 ## **Layer Normalization and Residual Connections**
 
 Transformer 모델에서의 학습 안정성을 유지하기 위한 레이어 정규화(Layer Normalization)와 잔차 연결(Residual Connections)은 중요하다. 
+
+이전에 RNN에서  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2MjU3ODcwLDQ2MDM2MDM3OSwtMjYzNj
-cxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcs
-MTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5Nz
-AwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAs
-LTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MD
-MxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3
-NV19
+eyJoaXN0b3J5IjpbMTgzOTkwNzM3Miw0NjAzNjAzNzksLTI2Mz
+Y3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3
+LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOT
+cwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIw
+LC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtND
+AzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkz
+NzVdfQ==
 -->
