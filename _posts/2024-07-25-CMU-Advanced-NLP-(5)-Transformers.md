@@ -251,13 +251,13 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 ![스크린샷 2024-07-26 123121](https://github.com/user-attachments/assets/051742d6-512f-4117-97ae-fa60e45c7073){: .responsive-img .align-center}
 
-이전에 본 디코더 모델이다. 
+이전에 본 디코더 모델이다. 트랜스포머 모델은 다중 레이어 구조로 이루어져있다. 해당 이미지의 Nx 가 레이어의 개수 만큼 반복한다는 것을 의미한다고 했었다. 근데 이러한 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAzOTUzOTY3NywtOTExODQ1OTk5LDQ2MD
-M2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0
-LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMj
-E0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAw
-MSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMj
-QzODMwNTM4LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTEzMzMxMDI1MzUsLTkxMTg0NTk5OSw0Nj
+AzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEz
+NCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMD
+IxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgw
+MDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LD
+I0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3
+NjA2XX0=
 -->
