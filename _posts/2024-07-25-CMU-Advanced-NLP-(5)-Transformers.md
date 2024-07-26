@@ -205,13 +205,17 @@ Relative Positional Encoding은 각 단어 쌍의 상대적 위치를 학습 가
 
 Rotary Positional Encoding(RoPE)의 경우 Absolute Positional Encoding과 Relative Positional Encoding의 결합하여 사용함으로써 두 인코딩의 장점을 모두 취하는 방식이다.
 
-RoPE의 핵심 아이디어는 임베딩의 내적이 상대적인 위치의 함수가 되도록 하는 ㄱ
+RoPE의 핵심 아이디어는 임베딩의 내적이 상대적인 위치의 함수가 되도록 하는 것이다. 이를 식으로 표현하면 아래와 같다. 
+
+$$f_q(x_m, m) \cdot f_k(x_n, n) = g(x_m, x_n, m - n)$$
+
+여기서 $f_q$와 $f_k$는 각각 쿼리와 키 임베딩 함수를 나타내고, $x_m$과 $x_n$은 입려
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMTMwMTA0MywtMjEzNzYzODI2MywyMD
-IxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgw
-MDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LD
-I0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3
-NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5MiwxMzc5NDcyNzk2LC
-0xNzkwODIzNDksMTAzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIx
-MDcwMzM4Nl19
+eyJoaXN0b3J5IjpbLTEwMTM2NTYyMzgsLTIxMzc2MzgyNjMsMj
+AyMTQwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4
+MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3Ni
+wyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3
+NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5Ni
+wtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLTEy
+MTA3MDMzODZdfQ==
 -->
