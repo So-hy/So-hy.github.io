@@ -264,13 +264,15 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 이 두 개를 구한 후 벡터의 각 요소에서 평균을 빼고 표준 편차로 나눔으로써 벡터의 값을 정규화한다. 이렇게 하면 벡터의 평균이 0이 되고, 표준 편차가 1이 된다.
 
-이러한 정규화 후, 게인 $g$을 곱하고 바이어스 $b$를 더해준다. 이는 벡터를 표준 범위로 이동시킨 후, 다시 원하는 범위로 조정하는 과정이다. 이렇게 함으로써, 모든 벡터가 일관된 공간에 위치하게 된다. 이 위치와 범위는 $g$과  $b$에 의해 결정됩니다.
+정규화 후, 게인 $g$을 곱하고 바이어스 $b$를 더해준다. 이는 벡터를 표준 범위로 이동시킨 후, 다시 원하는 범위로 조정하는 과정이다. 이렇게 함으로써, 모든 벡터가 일관된 공간에 위치하게 된다. 이 위치와 범위는 $g$과  $b$에 의해 결정됩니다.
+
+이러한 레이어 정규화를 통해, 각 레이어의 출력이 예측 가능한 범위 내에 있게 된다. 이는 학습 과정에서 일관성을 유지하고, 예측 가능한 출력을 얻을 수 있도록 도와준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMjg0MzQ0LC05MTE4NDU5OTksNDYwMz
-YwMzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQs
-LTc4MzA2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMT
-QwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAx
-LDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyND
-M4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYw
-Nl19
+eyJoaXN0b3J5IjpbLTU3MzI3ODM4NywtOTExODQ1OTk5LDQ2MD
+M2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0
+LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMj
+E0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAw
+MSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMj
+QzODMwNTM4LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2
+MDZdfQ==
 -->
