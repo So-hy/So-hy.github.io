@@ -243,13 +243,15 @@ $$\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{p
 $x$의 벡터가 입력 벡터이고 둘 중에 하나가 쿼리 벡터 또는 키 벡터가 된다.  강의에서는 코사인 쪽을 쿼리 벡터로 설명을 한다. 하나의 벡터는 순서대로 나열되어 있지만 다른 하나의 벡터는 순서가 바뀌어 있고, 반전되어 있다. 그리고 각각의 벡터에 $\cos m \theta$ 들과 $\sin m \theta$ 를 곱한다. 이걸 더함으로써 Positional Encoding에 대한 특징을 얻어낼 수 있다고 한다. 위의 곱셈 및, 벡터 변환을 통해 절대 위치 정보를 제거하고, 상대 위치 정보만을 얻어내 사용한다고 한다. 이로 인해 범위를 넘어선 새로운 데이터에 대해서도 잘 대응한다. 이러한 방식은 LLaMa에서 사용 중이라고 한다.
 
 
+## **Positional Encoding**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODM5NDU2MTIsNDYwMzYwMzc5LC0yNj
-M2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIy
-NywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMT
-k3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgy
-MCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1MzgsLT
-QwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOTE1MDc5
-Mzc1XX0=
+eyJoaXN0b3J5IjpbLTY5ODAzNTg4Nyw0NjAzNjAzNzksLTI2Mz
+Y3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3
+LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOT
+cwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIw
+LC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtND
+AzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkz
+NzVdfQ==
 -->
