@@ -209,13 +209,13 @@ RoPE의 핵심 아이디어는 임베딩의 내적이 상대적인 위치의 함
 
 $$f_q(x_m, m) \cdot f_k(x_n, n) = g(x_m, x_n, m - n)$$
 
-여기서 $f_q$와 $f_k$는 각각 쿼리와 키 임베딩 함수를 나타내고, $x_m$과 $x_n$은 입려
+여기서 $f_q$와 $f_k$는 각각 쿼리와 키 임베딩 함수를 나타내고, $x_m$과 $x_n$은 입력 벡터, $m$과 $n$은 위치를 나타낸다. $g$는 상대 위치의 함수이다. 이렇게 함으로써 Absolute Position 에 대한 정보는 잃게 되고, 이것으로 부터 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTM2NTYyMzgsLTIxMzc2MzgyNjMsMj
-AyMTQwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4
-MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3Ni
-wyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3
-NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5Ni
-wtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLTEy
-MTA3MDMzODZdfQ==
+eyJoaXN0b3J5IjpbMTYwMzM0ODkxNywtMjEzNzYzODI2MywyMD
+IxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgw
+MDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LD
+I0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3
+NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5MiwxMzc5NDcyNzk2LC
+0xNzkwODIzNDksMTAzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIx
+MDcwMzM4Nl19
 -->
