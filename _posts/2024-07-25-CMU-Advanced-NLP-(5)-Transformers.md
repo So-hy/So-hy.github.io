@@ -260,13 +260,13 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 ![스크린샷 2024-07-26 123127](https://github.com/user-attachments/assets/ebf9f66a-7501-46fd-949a-053510da3d60){: .responsive-img .align-center}
 
-위 식을 설
+위 식을 설명하자면 우선 입력 벡터의 모든 요소를 더한 후 요소의 개수로 나눈다. 즉, 벡터의 평균을 계산한다. 그 후 Standard deviation 표준 편차를 계산한다. 각 요소에서 평균을 뺀 값을 제곱한 후, 이를 다시 더한 후 평균을 구한 다음, 그 결과의 제곱근을 취합니다. 즉, 벡터의 표준 편차를 계산합니다. $$\sigma(x) = \sqrt{\frac{1}{n} \sum_{i=1}^n (x_i - \mu)^2}$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzNjc5ODU4NSwtOTExODQ1OTk5LDQ2MD
-M2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0
-LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMj
-E0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAw
-MSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMj
-QzODMwNTM4LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2
-MDZdfQ==
+eyJoaXN0b3J5IjpbLTE0Mzk5NTA0NDQsLTkxMTg0NTk5OSw0Nj
+AzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEz
+NCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMD
+IxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgw
+MDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LD
+I0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3
+NjA2XX0=
 -->
