@@ -301,13 +301,13 @@ RC는 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 �
 
 $$Residual(x,F)=F(x)+x$$
 
-단순히 더하기만 하는 심플한 방식이며 이는 그라디언트 소실을 방지하고, 입력과 출력 간의 차이를 학습하는 데 도움을 준다.
+단순히 더하기만 하는 심플한 방식이며 이는 그라디언트 소실을 방지하고, 입력과 출력 간의 차이를 학습하는 데 도움을 준다. 두 값이 얼마나 일치하는가 보단 두 값이 얼마나 차이나는가를 중점적으로 학습하여 출력에 어떤 것을 적용해야 할까를 학습하
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4NjA4NDM1LC0xOTg1MTk1NDA4LC01Nz
-MyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEy
-NiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MD
-E5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMz
-MDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMT
-k4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkz
-Mzk0XX0=
+eyJoaXN0b3J5IjpbLTE1MTA2NTgyMzEsLTE5ODUxOTU0MDgsLT
+U3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcx
+MTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMT
+kwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAw
+MzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLT
+ExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMx
+OTMzOTRdfQ==
 -->
