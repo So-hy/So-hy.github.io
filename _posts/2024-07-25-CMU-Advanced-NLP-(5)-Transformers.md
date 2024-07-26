@@ -267,12 +267,14 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 정규화 후, 게인 $g$을 곱하고 바이어스 $b$를 더해준다. 이는 벡터를 표준 범위로 이동시킨 후, 다시 원하는 범위로 조정하는 과정이다. 이렇게 함으로써, 모든 벡터가 일관된 공간에 위치하게 된다. 이 위치와 범위는 $g$과  $b$에 의해 결정됩니다.
 
 이러한 레이어 정규화를 통해, 각 레이어의 출력이 예측 가능한 범위 내에 있게 된다. 이는 학습 과정에서 일관성을 유지하고, 예측 가능한 출력을 얻을 수 있도록 도와준다.
+
+여
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MzI3ODM4NywtOTExODQ1OTk5LDQ2MD
-M2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0
-LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMj
-E0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAw
-MSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMj
-QzODMwNTM4LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NTAzNzc2
-MDZdfQ==
+eyJoaXN0b3J5IjpbMjMwNjAwNTQzLC01NzMyNzgzODcsLTkxMT
+g0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcy
+LDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNz
+YzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAw
+MSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMz
+YyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgw
+MzZdfQ==
 -->
