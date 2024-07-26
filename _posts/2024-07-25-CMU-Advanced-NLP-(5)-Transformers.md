@@ -340,8 +340,8 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
 2.  **피드포워드 네트워크의 구조**:
     
     -   피드포워드 네트워크는 두 개의 선형 변환과 그 사이에 비선형 활성화 함수를 포함합니다.
-    -   일반적인 수식: FFN(x)=f(W2⋅f(W1⋅x+b1)+b2)\text{FFN}(x) = f(W_2 \cdot f(W_1 \cdot x + b_1) + b_2)FFN(x)=f(W2​⋅f(W1​⋅x+b1​)+b2​)
-    -   여기서 fff는 비선형 활성화 함수입니다.
+    -   일반적인 수식: $$\text{FFN}(x) = f(W_2 \cdot f(W_1 \cdot x + b_1) + b_2)$$
+    -   여기서 $f$는 비선형 활성화 함수입니다.
 3.  **바이어스 제거**:
     
     -   최신 연구에서는 피드포워드 네트워크에서 바이어스(bias) 항을 제거하는 것이 일반적입니다. 이는 파라미터 수를 줄이고, 학습의 안정성을 높이기 위함입니다.
@@ -371,11 +371,11 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDA0MzEzODUsLTE3ODc4MTkzOTQsMT
-kyMDE1NTM1OCwtMTk4NTE5NTQwOCwtNTczMjc4Mzg3LC05MTE4
-NDU5OTksNDYwMzYwMzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3Mi
-w5ODc5NDMxMzQsLTc4MzA2MjIyNywxOTAxOTMyNzIsLTIxMzc2
-MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgwMD
-EsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2
-MjQ4Mzg3Nl19
+eyJoaXN0b3J5IjpbLTQwMTU0MjU2MSwtMTc4NzgxOTM5NCwxOT
+IwMTU1MzU4LC0xOTg1MTk1NDA4LC01NzMyNzgzODcsLTkxMTg0
+NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLD
+k4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYz
+ODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMS
+w1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYy
+NDgzODc2XX0=
 -->
