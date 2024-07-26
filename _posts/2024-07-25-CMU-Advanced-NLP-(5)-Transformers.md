@@ -199,12 +199,16 @@ Relative Positional Encoding의 경우 각 단어의 위치를 절대적인 값�
 Relative PE는 각 단어 쌍의 상대적 위치를 학습 가능한 파라미터로 인코딩한다. 이는 모델이 학습 과정에서 최적의 상대적 위치 인코딩 값을 찾아내도록 한다. 이 과정에서 각 단어 쌍마다 상대적 위치를 나타내는 파라미터가 추가된다. 특히 긴 시퀀스의 경우 단어 쌍의 수가 기하급수적으로 증가하므로, 필요한 파라미터의 수가 매우 많아질 수 있다. 이로 인해 모델의 복잡도를 증가시키고, 학습 과정에서 더 많은 메모리와 계산 자원이 필요하게 된다. 학습할 때마다 어텐션 매트릭스에 위치 파라미터 또한 계속 업데이트 해주어야 하며, 이 과정을 모든 레이어에 적용해야 한다.
 
 
+### **Rotary Positional Encodings**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNT
-YxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLTEzNjI0ODM4
-NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3MjkwODAzNiw2NT
-AzNzc2MDYsMTkxNTA3OTM3NSwxMzcyMTY4MTkyLDEzNzk0NzI3
-OTYsLTE3OTA4MjM0OSwxMDM3NDI5NDA4LC0xMDE3NzU3NDI5LC
-0xMjEwNzAzMzg2LC02MDk3NzU2NjAsNzI3MzkyMDI4LDU3MjI4
-OTg1NF19
+eyJoaXN0b3J5IjpbNDM2NTE3MzM3LC0xOTcwMDMzMDM5LDUwNT
+YxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3
+LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC02Nz
+I5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5
+MiwxMzc5NDcyNzk2LC0xNzkwODIzNDksMTAzNzQyOTQwOCwtMT
+AxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5Nzc1NjYwLDcyNzM5
+MjAyOF19
 -->
