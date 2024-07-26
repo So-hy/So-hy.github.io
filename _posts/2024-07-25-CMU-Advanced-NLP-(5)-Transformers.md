@@ -292,12 +292,17 @@ RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규�
 
 
 ### **Residual Connections**
+
+![스크린샷 2024-07-26 131617](https://github.com/user-attachments/assets/875ebfce-2071-4764-ba33-14a4e0fc9d3d){: .responsive-img .align-center}
+
+Residual Connections(RC) 가 나타내는 것은 위 그림에서 빨간 네모박스가 쳐저있는 저기다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODUxOTU0MDgsLTU3MzI3ODM4NywtOT
-ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
-NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
-M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
-MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLT
-EzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3Mjkw
-ODAzNl19
+eyJoaXN0b3J5IjpbMjc0ODM1MTk2LC0xOTg1MTk1NDA4LC01Nz
+MyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEy
+NiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MD
+E5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMz
+MDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMT
+k4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkz
+Mzk0XX0=
 -->
