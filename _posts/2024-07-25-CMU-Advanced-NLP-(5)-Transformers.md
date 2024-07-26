@@ -283,8 +283,12 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 
 ### **RMS Norm**
+
+기존 레이어 정규화에서 개선이 이루어진 버전인 RMS Normalization 이라는 것도 있다.(Route-Mean-Square)
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc4NDcyNzgsLTU3MzI3ODM4NywtOT
+eyJoaXN0b3J5IjpbLTEyODkwNTg4MTksLTU3MzI3ODM4NywtOT
 ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
 NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
 M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
