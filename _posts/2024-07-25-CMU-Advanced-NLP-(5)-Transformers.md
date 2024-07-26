@@ -352,12 +352,12 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
 1.  **ReLU (Rectified Linear Unit)**:
     
     -   ReLU는 입력이 0보다 작으면 0을 출력하고, 0보다 크면 그 값을 그대로 출력합니다.
-    -   수식: ReLU(x)=max⁡(0,x)\text{ReLU}(x) = \max(0, x)ReLU(x)=max(0,x)
+    -   수식: $$\text{ReLU}(x) = \max(0, x)$$
     -   ReLU의 문제점: 입력 값이 0보다 작으면 그라디언트가 0이 되어, 학습이 멈출 수 있습니다 (Dead Neurons).
 2.  **SiLU (Sigmoid Linear Unit) 또는 Swish**:
     
     -   SiLU는 ReLU와 유사하지만, 입력이 0보다 작아도 그라디언트가 0이 되지 않습니다.
-    -   수식: SiLU(x)=x⋅σ(x)\text{SiLU}(x) = x \cdot \sigma(x)SiLU(x)=x⋅σ(x) 여기서 σ(x)\sigma(x)σ(x)는 시그모이드 함수입니다.
+    -   수식: $$\text{SiLU}(x) = x \cdot \sigma(x)$$여기서 $\sigma(x)$는 시그모이드 함수입니다.
     -   SiLU는 입력이 음수일 때도 작은 그라디언트를 유지하므로, ReLU의 단점을 보완합니다.
 
 ### 피드포워드 네트워크의 특징 추출
@@ -371,11 +371,11 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNTQ3OTcwNSwtNDAxNTQyNTYxLC0xNz
-g3ODE5Mzk0LDE5MjAxNTUzNTgsLTE5ODUxOTU0MDgsLTU3MzI3
-ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC
-00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkz
-MjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMz
-ksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1
-NTA3NzddfQ==
+eyJoaXN0b3J5IjpbMzE1NjE2OTM4LC00MDE1NDI1NjEsLTE3OD
+c4MTkzOTQsMTkyMDE1NTM1OCwtMTk4NTE5NTQwOCwtNTczMjc4
+Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzExMjYsLT
+QwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOTAxOTMy
+NzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAzMzAzOS
+w1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMTE5ODU1
+MDc3N119
 -->
