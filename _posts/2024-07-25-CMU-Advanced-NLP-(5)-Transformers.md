@@ -213,7 +213,7 @@ $$f_q(x_m, m) \cdot f_k(x_n, n) = g(x_m, x_n, m - n)$$
 
 어쨌든 이런 것을 구현하기 위해서 많은 수학적 기법이 사용되며, 구체적으로는 복소수와 삼각법이 활용된다. 이러한 수학적 접근 방식을 통해 절대 위치 정보를 복구할 수 없게 하고, 상대 위치 정보에만 의존하도록 한다.
 
-![스크린샷 2024-07-26 114114](https://github.com/user-attachments/assets/0af90193-1650-4bc6-b79f-99403a910be8)
+![스크린샷 2024-07-26 114114](https://github.com/user-attachments/assets/0af90193-1650-4bc6-b79f-99403a910be8){: .responsive-img .align-center}
 
 
 위의 그림이 RoPE의 인코딩 방법을 수학적으로 표현한 것이다. 각 요소에 대해 간단히 살펴보자면
@@ -229,13 +229,20 @@ $$\begin{pmatrix} \cos m \theta_1 \\ \cos m \theta_1 \\ \cos m \theta_2 \\ \cos 
 
     
   $$\begin{pmatrix} \sin m \theta_1 \\ \sin m \theta_1 \\ \sin m \theta_2 \\ \sin m \theta_2 \\ \vdots \\ \sin m \theta_{d/2} \\ \sin m \theta_{d/2} \end{pmatrix}​$$
-    - $\sin m \theta_i$는 위치 $m$에서의 사인 값을 나타내며, 역시 각 입력 벡터의 요소에 곱해진다.
+   
+
+ - $\sin m \theta_i$는 위치 $m$에서의 사인 값을 나타내며, 역시 각 입력 벡터의 요소에 곱해진다.
 
     
 $$\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{pmatrix}​$$
-    원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는 부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
+   
+
+ - 원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는
+   부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
+
+이 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3NDA1OTM1MywtNDAzNzY3NTcyLDk4Nz
+eyJoaXN0b3J5IjpbMTgwMjI2NzU0NywtNDAzNzY3NTcyLDk4Nz
 k0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2
 MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MD
 U2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgz
