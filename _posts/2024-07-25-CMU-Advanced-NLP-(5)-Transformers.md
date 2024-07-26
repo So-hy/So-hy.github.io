@@ -303,9 +303,10 @@ $$Residual(x,F)=F(x)+x$$
 
 단순히 더하기만 하는 심플한 방식이며 이는 그라디언트 소실을 방지하고, 입력과 출력 간의 차이를 학습하는 데 도움을 준다. 두 값이 얼마나 일치하는가 보단 두 값이 얼마나 차이나는가를 중점적으로 학습하여 출력에 어떤 것을 적용해야 할까를 학습하는 느낌이다.
 
-이 잔차 연결은 멀티헤드 어텐션에도 영향을 주는데 
+이 잔차 연결은 멀티헤드 어텐션에도 영향을 주는데, 잔차 연결을 사용하면 입력 정보를 출력에 직접 추가하기 때문에 어텐션 메커니즘이 자기 자신에게 집중할 필요가 줄어든다. 따라서 어텐션 메커니즘이 더 주변의 다른 입력 정보에 집중하게 되고, 이를 통해 더 많은 컨텍스트 정보를 학습할 수 있게 된다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMDQ0NDI3MywtMTk4NTE5NTQwOCwtNT
+eyJoaXN0b3J5IjpbMTA3MTkyMDk3OCwtMTk4NTE5NTQwOCwtNT
 czMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzEx
 MjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOT
 AxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAz
