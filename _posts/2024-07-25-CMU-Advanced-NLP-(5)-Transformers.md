@@ -280,8 +280,11 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
     -   각 샘플 독립적으로 정규화.
     -   배치 크기에 의존하지 않으며, 일관된 출력을 제공.
     -   배치 통계가 필요 없으므로 추론 시에도 사용 가능.
+
+
+### **RMS Norm**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjQxNDc2MDcsLTU3MzI3ODM4NywtOT
+eyJoaXN0b3J5IjpbLTExNzc4NDcyNzgsLTU3MzI3ODM4NywtOT
 ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
 NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
 M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
