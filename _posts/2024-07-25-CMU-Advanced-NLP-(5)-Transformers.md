@@ -345,7 +345,7 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
 3.  **바이어스 제거**:
     
     -   최신 연구에서는 피드포워드 네트워크에서 바이어스(bias) 항을 제거하는 것이 일반적입니다. 이는 파라미터 수를 줄이고, 학습의 안정성을 높이기 위함입니다.
-    -   바이어스를 제거하면 수식은 다음과 같이 단순화됩니다: FFN(x)=W2⋅f(W1⋅x)\text{FFN}(x) = W_2 \cdot f(W_1 \cdot x)FFN(x)=W2​⋅f(W1​⋅x)
+    -   바이어스를 제거하면 수식은 다음과 같이 단순화됩니다: $$\text{FFN}(x) = W_2 \cdot f(W_1 \cdot x)$$
 
 ### 활성화 함수
 
@@ -371,11 +371,11 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTU0MjU2MSwtMTc4NzgxOTM5NCwxOT
-IwMTU1MzU4LC0xOTg1MTk1NDA4LC01NzMyNzgzODcsLTkxMTg0
-NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLD
-k4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYz
-ODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMS
-w1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYy
-NDgzODc2XX0=
+eyJoaXN0b3J5IjpbMjEyNTQ3OTcwNSwtNDAxNTQyNTYxLC0xNz
+g3ODE5Mzk0LDE5MjAxNTUzNTgsLTE5ODUxOTU0MDgsLTU3MzI3
+ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC
+00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkz
+MjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMz
+ksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1
+NTA3NzddfQ==
 -->
