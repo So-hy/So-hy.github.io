@@ -233,13 +233,13 @@ $$\begin{pmatrix} \cos m \theta_1 \\ \cos m \theta_1 \\ \cos m \theta_2 \\ \cos 
 
     
 $$\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{pmatrix}​$$
-    -   원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는 부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
+    원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는 부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4Mz
-A2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEy
-MywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNT
-E2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1
-MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOT
-E1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMTc5MDgy
-MzQ5XX0=
+eyJoaXN0b3J5IjpbMTA3NDA1OTM1MywtNDAzNzY3NTcyLDk4Nz
+k0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2
+MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MD
+U2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgz
+ODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNj
+UwMzc3NjA2LDE5MTUwNzkzNzUsMTM3MjE2ODE5MiwxMzc5NDcy
+Nzk2XX0=
 -->
