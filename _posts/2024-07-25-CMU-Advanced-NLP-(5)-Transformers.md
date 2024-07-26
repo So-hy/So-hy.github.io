@@ -240,9 +240,9 @@ $$\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{p
  - 원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는
    부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
 
-이 
+첫 번째 $x$의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMjI2NzU0NywtNDAzNzY3NTcyLDk4Nz
+eyJoaXN0b3J5IjpbLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nz
 k0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2
 MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MD
 U2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgz
