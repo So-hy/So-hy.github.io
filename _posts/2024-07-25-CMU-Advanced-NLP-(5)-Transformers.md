@@ -365,13 +365,13 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
 1.  **특징 벡터**:
     
     -   피드포워드 네트워크는 입력 벡터를 더 큰 차원의 벡터로 확장하여 많은 특징을 추출한다.
-    -   이러한 특징들은 Transformer 모델이 학습한 정보와 직접적으로 관련이 있습니다.
+    -   이러한 특징들은 Transformer 모델이 학습한 정보와 직접적으로 관련이 있다.
 2.  **특징 해석**:
     
-    -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
-    -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
+    -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석한다.
+    -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAwNTQ3OTEsMzE1NjE2OTM4LC00MD
+eyJoaXN0b3J5IjpbLTE3OTgzMTg5MTIsMzE1NjE2OTM4LC00MD
 E1NDI1NjEsLTE3ODc4MTkzOTQsMTkyMDE1NTM1OCwtMTk4NTE5
 NTQwOCwtNTczMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC
 0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2
