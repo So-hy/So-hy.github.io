@@ -291,13 +291,13 @@ RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규�
 이러한 RMS Norm은 레이어 정규화보다 더 낫거나 그러진 않고 비슷한 결과를 제공하지만, 계산이 더 간단하고 빠르다. 여러 파라미터가 빠졌기 때문! 따라서 Layer Norm 보다 효율적이기 때문에 사용된다. 
 
 
-
+### **Residual Connections**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgzODUyNzQzLC01NzMyNzgzODcsLTkxMT
-g0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcy
-LDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNz
-YzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAw
-MSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMz
-YyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgw
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTE5ODUxOTU0MDgsLTU3MzI3ODM4NywtOT
+ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
+NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
+M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
+MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLT
+EzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3Mjkw
+ODAzNl19
 -->
