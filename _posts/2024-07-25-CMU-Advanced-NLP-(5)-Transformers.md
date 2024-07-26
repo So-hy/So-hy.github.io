@@ -286,13 +286,13 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 기존 레이어 정규화에서 개선이 이루어진 버전인 RMS Normalization 이라는 것도 있다.(Route-Mean-Square)
 
-
+RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규화와 달리 평균(normalization step)을 계산하고 빼는 과정이 없다. 대신 각 요소의 스프레드(분포)를 조정합니다. 즉, 각 요소 간의 상대적인 크기만을 정규화합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODkwNTg4MTksLTU3MzI3ODM4NywtOT
-ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
-NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
-M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
-MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLT
-EzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3Mjkw
-ODAzNl19
+eyJoaXN0b3J5IjpbLTk1MTMyMTA1MCwtNTczMjc4Mzg3LC05MT
+E4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3
+Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOTAxOTMyNzIsLTIxMz
+c2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgw
+MDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMT
+M2MjQ4Mzg3NiwyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4
+MDM2XX0=
 -->
