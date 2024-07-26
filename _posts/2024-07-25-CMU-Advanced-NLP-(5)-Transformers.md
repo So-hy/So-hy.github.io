@@ -297,11 +297,11 @@ RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규�
 
 Residual Connections(RC) 가 나타내는 것은 위 그림에서 빨간 네모박스가 쳐저있는 저기다.
 
-RC는 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 추가되는 연결이다.
+RC는 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 추가되는 연결이다. 이걸 식으로 표현하면 다음과 같다.
 
-
+Residual(x,F)=F(x)+x
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzg3MTY5MTAsLTE5ODUxOTU0MDgsLT
+eyJoaXN0b3J5IjpbLTEwNzQ3OTQ2OTksLTE5ODUxOTU0MDgsLT
 U3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcx
 MTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMT
 kwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAw
