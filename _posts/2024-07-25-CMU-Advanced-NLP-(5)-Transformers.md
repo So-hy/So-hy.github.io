@@ -307,13 +307,15 @@ $$Residual(x,F)=F(x)+x$$
 
 ### **Post- vs. Pre- Layer Norm **
 
+트랜스포머 모델에 있어서 또다른 개선 중 하나는 바로 이 Post, Pre-Layer Norm 에 관한 것이다.
 
+원래 Transformer 모델에서는 Multi-Head Attention과 Feed Forward Network 뒤에 Layer Norm이 위치해 있었다고 한다. 이는 위의 그림에서 왼쪽과
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMDE1NTM1OCwtMTk4NTE5NTQwOCwtNT
-czMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzEx
-MjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOT
-AxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAz
-MzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMT
-E5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1MzgsLTQwMzE5
-MzM5NF19
+eyJoaXN0b3J5IjpbLTQwNDE4MDM5MSwxOTIwMTU1MzU4LC0xOT
+g1MTk1NDA4LC01NzMyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAz
+NzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNz
+gzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2
+MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMj
+E1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0Mzgz
+MDUzOF19
 -->
