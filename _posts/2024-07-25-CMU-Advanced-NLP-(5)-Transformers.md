@@ -295,19 +295,21 @@ RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규�
 
 ![스크린샷 2024-07-26 131617](https://github.com/user-attachments/assets/875ebfce-2071-4764-ba33-14a4e0fc9d3d){: .responsive-img .align-center}
 
-Residual Connections(RC) 가 나타내는 것은 위 그림에서 빨간 네모박스가 쳐저있는 저기다.
+Residual Connections(잔차 연결) 가 나타내는 것은 위 그림에서 빨간 네모박스가 쳐저있는 저기다.
 
-RC는 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 추가되는 연결이다. 이걸 식으로 표현하면 다음과 같다.
+잔차 연결은 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 추가되는 연결이다. 이걸 식으로 표현하면 다음과 같다.
 
 $$Residual(x,F)=F(x)+x$$
 
-단순히 더하기만 하는 심플한 방식이며 이는 그라디언트 소실을 방지하고, 입력과 출력 간의 차이를 학습하는 데 도움을 준다. 두 값이 얼마나 일치하는가 보단 두 값이 얼마나 차이나는가를 중점적으로 학습하여 출력에 어떤 것을 적용해야 할까를 학습하
+단순히 더하기만 하는 심플한 방식이며 이는 그라디언트 소실을 방지하고, 입력과 출력 간의 차이를 학습하는 데 도움을 준다. 두 값이 얼마나 일치하는가 보단 두 값이 얼마나 차이나는가를 중점적으로 학습하여 출력에 어떤 것을 적용해야 할까를 학습하는 느낌이다.
+
+이 잔차 연결은 멀티헤드 어텐션에도 영향을 주는데 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTA2NTgyMzEsLTE5ODUxOTU0MDgsLT
-U3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcx
-MTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMT
-kwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAw
-MzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLT
-ExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMx
-OTMzOTRdfQ==
+eyJoaXN0b3J5IjpbLTQzMDQ0NDI3MywtMTk4NTE5NTQwOCwtNT
+czMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzEx
+MjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOT
+AxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAz
+MzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMT
+E5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1MzgsLTQwMzE5
+MzM5NF19
 -->
