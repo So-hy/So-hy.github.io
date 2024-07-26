@@ -255,9 +255,10 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 ### **Layer Normalization**
 
-첫
+첫 번째는 레이어 정규화이다. 얘는 그라디언트 소실 문제를 해결하기 보단 그라디언트 폭발을 방지하거나 값이 불안정해지는 것을 방지하는 역할을 한다.
+출력 값을 일정한 범위로 정규화하여 학습 과정에서 값의 변동을 줄임으로써 학
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NTkzNTA4NiwtOTExODQ1OTk5LDQ2MD
+eyJoaXN0b3J5IjpbMTI2NDQ5ODA2NywtOTExODQ1OTk5LDQ2MD
 M2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0
 LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMj
 E0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAw
