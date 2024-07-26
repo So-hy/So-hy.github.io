@@ -240,13 +240,13 @@ $$\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{p
  - 원래 벡터 $x$의 요소들이 교환되고 반전된 형태이다. 예를 들어, $x_1$​과 $x_2$가 위치를 바꾸고, $x_2$​는
    부호가 반전된다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성한다.
 
-$x$의 벡터가 입력 벡터이고 둘 중에 하나가 쿼리 벡터 또는 키 벡터가 된다.  강의에서는 코사인 쪽을 쿼리 벡터로 설명을 한다. 어쨌든, 하나의 벡터는 순서대로 나열되어 있지만 다른 하나의 벡터는 순서가 바뀌어 있고, 반전되어 있다. 이러한 변환을 통해 절대 위치 정보를 제거하고, 상대 위치 정보만을 유지하도록 한다고 한다. 
+$x$의 벡터가 입력 벡터이고 둘 중에 하나가 쿼리 벡터 또는 키 벡터가 된다.  강의에서는 코사인 쪽을 쿼리 벡터로 설명을 한다. 하나의 벡터는 순서대로 나열되어 있지만 다른 하나의 벡터는 순서가 바뀌어 있고, 반전되어 있다. 이러한 변환을 통해 절대 위치 정보를 제거하고, 상대 위치 정보만을 유지하도록 한다고 한다. 어쨌든, 각각의 벡터에 $\cos m \theta$ 들과 $\sin m \theta$ 를 곱한 뒤, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDI1MzczNSwtMjYzNjcxMTI2LC00MD
-M3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcy
-LC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNT
-A1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3
-NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLT
-Y3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3NSwxMzcyMTY4
-MTkyXX0=
+eyJoaXN0b3J5IjpbLTE3MzI1MzU1MjAsLTI2MzY3MTEyNiwtND
+AzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3
+MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LD
+UwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUw
+Nzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC
+02NzI5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkzNzUsMTM3MjE2
+ODE5Ml19
 -->
