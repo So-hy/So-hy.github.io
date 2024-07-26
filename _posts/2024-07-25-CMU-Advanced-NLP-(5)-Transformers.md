@@ -335,47 +335,47 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
 
 1.  **피드포워드 네트워크의 기능**:
     
-    -   피드포워드 네트워크는 어텐션 메커니즘에서 얻은 출력을 독립적으로 처리하여 새로운 특징(feature)을 추출합니다.
-    -   각 벡터에 대해 독립적으로 작동하므로, 시퀀스의 각 벡터에 대해 동일한 피드포워드 네트워크가 적용됩니다.
+    -   피드포워드 네트워크는 어텐션 메커니즘에서 얻은 출력을 독립적으로 처리하여 새로운 특징(feature)을 추출한다.
+    -   각 벡터에 대해 독립적으로 작동하므로, 시퀀스의 각 벡터에 대해 동일한 피드포워드 네트워크가 적용된다.
 2.  **피드포워드 네트워크의 구조**:
     
-    -   피드포워드 네트워크는 두 개의 선형 변환과 그 사이에 비선형 활성화 함수를 포함합니다.
+    -   피드포워드 네트워크는 두 개의 선형 변환과 그 사이에 비선형 활성화 함수를 포함한다.
     -   일반적인 수식: $$\text{FFN}(x) = f(W_2 \cdot f(W_1 \cdot x + b_1) + b_2)$$
-    -   여기서 $f$는 비선형 활성화 함수입니다.
+    -   여기서 $f$는 비선형 활성화 함수이다.
 3.  **바이어스 제거**:
     
-    -   최신 연구에서는 피드포워드 네트워크에서 바이어스(bias) 항을 제거하는 것이 일반적입니다. 이는 파라미터 수를 줄이고, 학습의 안정성을 높이기 위함입니다.
-    -   바이어스를 제거하면 수식은 다음과 같이 단순화됩니다: $$\text{FFN}(x) = W_2 \cdot f(W_1 \cdot x)$$
+    -   최신 연구에서는 피드포워드 네트워크에서 바이어스(bias) 항을 제거하는 것이 일반적이다. 이는 파라미터 수를 줄이고, 학습의 안정성을 높이기 위함이다.
+    -   바이어스를 제거하면 수식은 다음과 같이 단순화된다: $$\text{FFN}(x) = W_2 \cdot f(W_1 \cdot x)$$
 
 ### 활성화 함수
 
 1.  **ReLU (Rectified Linear Unit)**:
     
-    -   ReLU는 입력이 0보다 작으면 0을 출력하고, 0보다 크면 그 값을 그대로 출력합니다.
+    -   ReLU는 입력이 0보다 작으면 0을 출력하고, 0보다 크면 그 값을 그대로 출력한다.
     -   수식: $$\text{ReLU}(x) = \max(0, x)$$
-    -   ReLU의 문제점: 입력 값이 0보다 작으면 그라디언트가 0이 되어, 학습이 멈출 수 있습니다 (Dead Neurons).
+    -   ReLU의 문제점: 입력 값이 0보다 작으면 그라디언트가 0이 되어, 학습이 멈출 수 있다 (Dead Neurons).
 2.  **SiLU (Sigmoid Linear Unit) 또는 Swish**:
     
-    -   SiLU는 ReLU와 유사하지만, 입력이 0보다 작아도 그라디언트가 0이 되지 않습니다.
-    -   수식: $$\text{SiLU}(x) = x \cdot \sigma(x)$$여기서 $\sigma(x)$는 시그모이드 함수입니다.
-    -   SiLU는 입력이 음수일 때도 작은 그라디언트를 유지하므로, ReLU의 단점을 보완합니다.
+    -   SiLU는 ReLU와 유사하지만, 입력이 0보다 작아도 그라디언트가 0이 되지 않는다.
+    -   수식: $$\text{SiLU}(x) = x \cdot \sigma(x)$$여기서 $\sigma(x)$는 시그모이드 함수다.
+    -   SiLU는 입력이 음수일 때도 작은 그라디언트를 유지하므로, ReLU의 단점을 보완한다.
 
 ### 피드포워드 네트워크의 특징 추출
 
 1.  **특징 벡터**:
     
-    -   피드포워드 네트워크는 입력 벡터를 더 큰 차원의 벡터로 확장하여 많은 특징을 추출합니다.
+    -   피드포워드 네트워크는 입력 벡터를 더 큰 차원의 벡터로 확장하여 많은 특징을 추출한다.
     -   이러한 특징들은 Transformer 모델이 학습한 정보와 직접적으로 관련이 있습니다.
 2.  **특징 해석**:
     
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3MzEwMDU0LDMxNTYxNjkzOCwtNDAxNT
-QyNTYxLC0xNzg3ODE5Mzk0LDE5MjAxNTUzNTgsLTE5ODUxOTU0
-MDgsLTU3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMj
-YzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIy
-MjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLT
-E5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4
-MjBdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAwNTQ3OTEsMzE1NjE2OTM4LC00MD
+E1NDI1NjEsLTE3ODc4MTkzOTQsMTkyMDE1NTM1OCwtMTk4NTE5
+NTQwOCwtNTczMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC
+0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2
+MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMy
+wtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2
+NDgyMF19
 -->
