@@ -319,11 +319,18 @@ $$Residual(x,F)=F(x)+x$$
 > -   Layer Norm이 잔차 연결 경로에 위치하면, 그라디언트 전파가 원활하지 않게 된다
 
 이런 문제를 해결, 수정하기 위해 개선된 방식이 Pre-Layer Norm 방식이다. 이는 위의 그림에서 오른쪽과 같다. 개선된 Transformer 모델에서는 Layer Norm이 각 레이어의 앞에 위치한다.
+
 이렇게 하면 Layer Norm이 잔차 연결 경로에 위치하지 않게 되어, 잔차 연결이 입력과 출력을 직접 연결하게 된다.
 
--   이는 그라디언트 전파가 더 원활하게 이루어지게 하여 학습을 더 안정적이고 효과적으로 만듭니다.
+> -   이는 그라디언트 전파가 더 원활하게 이루어지게 하여 학습을 더 안정적이고 효과적으로 만든다.
+
+Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻게 미치는 걸까?
+
+Identity 함수(단순한 덧셈 등)는 그라디언트를 변화시키지 않지만, 다른 함수들은 그라디언트를 변화시킨다.
+ Layer Norm의 표준 편차로 값을 나누어 정규화하기 때문에, 이는 그라디언트를 변화시켜 전파 과정에서 그라디언트를 작게 만들 수 있습니다.
+- 특히 표준 편차가 큰 경우, Layer Norm은 그라디언트를 더 작게 만들어 그라디언트 소실 문제를 일으킬 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTIxNDIwMzIsMTkyMDE1NTM1OCwtMT
+eyJoaXN0b3J5IjpbLTEzMDgwMjczNjIsMTkyMDE1NTM1OCwtMT
 k4NTE5NTQwOCwtNTczMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYw
 Mzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLT
 c4MzA2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQw
