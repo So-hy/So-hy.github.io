@@ -211,13 +211,19 @@ $$f_q(x_m, m) \cdot f_k(x_n, n) = g(x_m, x_n, m - n)$$
 
 여기서 $f_q$와 $f_k$는 각각 쿼리와 키 임베딩 함수를 나타내고, $x_m$과 $x_n$은 입력 벡터, $m$과 $n$은 위치를 나타낸다. $g$는 상대 위치의 함수이다. 이렇게 함으로써 Absolute Position에 대한 정보는 잃게 되고, 이것으로부터 Relative Position에 대한 정보를 얻게 된다. 뭔가 단순해 보이는 느낌이지만 기본적으로 오직 상대 위치에만 의존하도록 해야 하기 때문에 절대 위치를 복구할 수 없는 방식이 필요하다고 한다. RoPE가 절대 위치를 복구할 수 없도록 설계된 이유는, 모델이 상대 위치 정보에만 의존하게 하여 새로운 입력 데이터에 대해 더 잘 일반화할 수 있도록 하기 위함이다.
 
-어쨌든 이런 것을 구현하기 위해서 많은 수학적 기법이 사용되며, 구체적으로는 복소수와 삼각법이 활용된다. 이러한 수학적 접근 방식을 통해 절대 위치 정보를 복구할 수 없게 하고, 상대 위치 정보에만 의존하도록 한.
+어쨌든 이런 것을 구현하기 위해서 많은 수학적 기법이 사용되며, 구체적으로는 복소수와 삼각법이 활용된다. 이러한 수학적 접근 방식을 통해 절대 위치 정보를 복구할 수 없게 하고, 상대 위치 정보에만 의존하도록 한다.
+
+![스크린샷 2024-07-26 114114](https://github.com/user-attachments/assets/0af90193-1650-4bc6-b79f-99403a910be8)
+
+
+위의 그림이 RoPE의 인코딩 방법을 수학적으로 표현한 것이다. 각 요소에 대해 간단히 살펴보자면
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzA2MjIyNywxOTAxOTMyNzIsLTIxMz
-c2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAzMzAzOSw1MDU2MTgw
-MDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMTE5ODU1MDc3NywtMT
-M2MjQ4Mzg3NiwyNDM4MzA1MzgsLTQwMzE5MzM5NCwtNjcyOTA4
-MDM2LDY1MDM3NzYwNiwxOTE1MDc5Mzc1LDEzNzIxNjgxOTIsMT
-M3OTQ3Mjc5NiwtMTc5MDgyMzQ5LDEwMzc0Mjk0MDgsLTEwMTc3
-NTc0MjldfQ==
+eyJoaXN0b3J5IjpbOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMT
+kzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMw
+MzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOT
+g1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMz
+OTQsLTY3MjkwODAzNiw2NTAzNzc2MDYsMTkxNTA3OTM3NSwxMz
+cyMTY4MTkyLDEzNzk0NzI3OTYsLTE3OTA4MjM0OSwxMDM3NDI5
+NDA4XX0=
 -->
