@@ -264,7 +264,7 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 이 두 개를 구한 후 벡터의 각 요소에서 평균을 빼고 표준 편차로 나눔으로써 벡터의 값을 정규화한다. 이렇게 하면 벡터의 평균이 0이 되고, 표준 편차가 1이 된다.
 
-정규화 후, 게인 $g$을 곱하고 바이어스 $b$를 더해준다. 이는 벡터를 표준 범위로 이동시킨 후, 다시 원하는 범위로 조정하는 과정이다. 이렇게 함으로써, 모든 벡터가 일관된 공간에 위치하게 된다. 이 위치와 범위는 $g$과  $b$에 의해 결정됩니다.
+정규화 후, 게인 $g$을 곱하고 바이어스 $b$를 더해준다. 이는 벡터를 표준 범위로 이동시킨 후, 다시 원하는 범위로 조정하는 과정이다. 이렇게 함으로써, 모든 벡터가 일관된 공간에 위치하게 된다. 이 위치와 범위는 $g$과  $b$에 의해 결정된다.
 
 이러한 레이어 정규화를 통해, 각 레이어의 출력이 예측 가능한 범위 내에 있게 된다. 이는 학습 과정에서 일관성을 유지하고, 예측 가능한 출력을 얻을 수 있도록 도와준다.
 
@@ -297,12 +297,15 @@ RMS Norm은 레이어 정규화를 단순화한 형태이다. 레이어 정규�
 
 Residual Connections(RC) 가 나타내는 것은 위 그림에서 빨간 네모박스가 쳐저있는 저기다.
 
+RC는 입력과 출력을 더해주는 방식으로 입력이 출력에 직접 추가되는 연결이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc0ODM1MTk2LC0xOTg1MTk1NDA4LC01Nz
-MyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEy
-NiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MD
-E5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMz
-MDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMT
-k4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkz
-Mzk0XX0=
+eyJoaXN0b3J5IjpbLTIwNzg3MTY5MTAsLTE5ODUxOTU0MDgsLT
+U3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcx
+MTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMT
+kwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAw
+MzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLT
+ExOTg1NTA3NzcsLTEzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMx
+OTMzOTRdfQ==
 -->
