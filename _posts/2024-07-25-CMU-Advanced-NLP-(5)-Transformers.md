@@ -225,13 +225,21 @@ $$\begin{pmatrix} x_1 \\ x_2 \\ x_3 \\ x_4 \\ \vdots \\ x_{d-1} \\ x_d \end{pmat
 
 $$\begin{pmatrix} \cos m \theta_1 \\ \cos m \theta_1 \\ \cos m \theta_2 \\ \cos m \theta_2 \\ \vdots \\ \cos m \theta_{d/2} \\ \cos m \theta_{d/2} \end{pmatrix}​$$
 
--  $\cos m \theta_i$는 위치 mmm에서의 코사인 값을 나타내며, θ\thetaθ는 특정 파라미터입니다. 이 값들은 각 입력 벡터의 요소에 곱해져 위치 인코딩을 생성합니다.
+-   $\cos m \theta_i$는 위치 $m$에서의 코사인 값을 나타내며, $\theta$는 특정 파라미터이다. 이 값들은 각 입력 벡터의 요소에 곱해져 위치 인코딩을 생성한다.
+
+    
+  $$\begin{pmatrix} \sin m \theta_1 \\ \sin m \theta_1 \\ \sin m \theta_2 \\ \sin m \theta_2 \\ \vdots \\ \sin m \theta_{d/2} \\ \sin m \theta_{d/2} \end{pmatrix}​$$
+    - $\sin m \theta_i$는 위치 $m$에서의 사인 값을 나타내며, 역시 각 입력 벡터의 요소에 곱해진다.
+
+    
+\begin{pmatrix} -x_2 \\ x_1 \\ -x_4 \\ x_3 \\ \vdots \\ -x_d \\ x_{d-1} \end{pmatrix}​−x2​x1​−x4​x3​⋮−xd​xd−1​​​
+    -   원래 벡터 xxx의 요소들이 교환되고 반전된 형태입니다. 예를 들어, x1x_1x1​과 x2x_2x2​가 위치를 바꾸고, x2x_2x2​는 부호가 반전됩니다. 이는 사인 요소와 결합되어 새로운 인코딩을 생성합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1MTczNjgxNyw5ODc5NDMxMzQsLTc4Mz
-A2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEy
-MywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNT
-E2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1
-MzgsLTQwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOT
-E1MDc5Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMTc5MDgy
-MzQ5XX0=
+eyJoaXN0b3J5IjpbODY1NTc3MzE5LDk4Nzk0MzEzNCwtNzgzMD
+YyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIz
+LC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MT
+Y0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUz
+OCwtNDAzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3NjA2LDE5MT
+UwNzkzNzUsMTM3MjE2ODE5MiwxMzc5NDcyNzk2LC0xNzkwODIz
+NDldfQ==
 -->
