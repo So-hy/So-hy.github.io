@@ -268,13 +268,24 @@ Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언
 
 이러한 레이어 정규화를 통해, 각 레이어의 출력이 예측 가능한 범위 내에 있게 된다. 이는 학습 과정에서 일관성을 유지하고, 예측 가능한 출력을 얻을 수 있도록 도와준다.
 
-여
+여기서 잠깐 간단하게 Batch Normalization 과 Layer Normalization 의 차이에 대해 설명한다.
+
+-   **Batch Normalization**:
+    
+    -   배치 내 모든 샘플을 사용하여 정규화.
+    -   배치 크기에 따라 통계가 달라질 수 있으며, 추론 시 배치 통계가 필요함.
+    -   학습 속도 향상과 그라디언트 소실/폭발 문제 완화.
+-   **Layer Normalization**:
+    
+    -   각 샘플 독립적으로 정규화.
+    -   배치 크기에 의존하지 않으며, 일관된 출력을 제공.
+    -   배치 통계가 필요 없으므로 추론 시에도 사용 가능.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMwNjAwNTQzLC01NzMyNzgzODcsLTkxMT
-g0NTk5OSw0NjAzNjAzNzksLTI2MzY3MTEyNiwtNDAzNzY3NTcy
-LDk4Nzk0MzEzNCwtNzgzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNz
-YzODI2MywyMDIxNDA2MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAw
-MSw1MDU2MTgwMDEsMjE1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMz
-YyNDgzODc2LDI0MzgzMDUzOCwtNDAzMTkzMzk0LC02NzI5MDgw
-MzZdfQ==
+eyJoaXN0b3J5IjpbLTIxMjQxNDc2MDcsLTU3MzI3ODM4NywtOT
+ExODQ1OTk5LDQ2MDM2MDM3OSwtMjYzNjcxMTI2LC00MDM3Njc1
+NzIsOTg3OTQzMTM0LC03ODMwNjIyMjcsMTkwMTkzMjcyLC0yMT
+M3NjM4MjYzLDIwMjE0MDYxMjMsLTE5NzAwMzMwMzksNTA1NjE4
+MDAxLDUwNTYxODAwMSwyMTUxNjQ4MjAsLTExOTg1NTA3NzcsLT
+EzNjI0ODM4NzYsMjQzODMwNTM4LC00MDMxOTMzOTQsLTY3Mjkw
+ODAzNl19
 -->
