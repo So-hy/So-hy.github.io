@@ -203,13 +203,13 @@ Relative Positional Encoding은 각 단어 쌍의 상대적 위치를 학습 가
 ### **Rotary Positional Encodings**
 
 
-Rotary Positional Encoding의 경우 Absolute Positional Encoding과 Relative Positional Encoding의 장점을 결합하여 사용하는 방법론이다. 
+Rotary Positional Encoding의 경우 Absolute Positional Encoding과 Relative Positional Encoding의 결합하여 사용함으로써 두 인코딩의 장점을 모두 취하는 방식이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNjQ2MDAzNCwyMDIxNDA2MTIzLC0xOT
-cwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIw
-LC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0MzgzMDUzOCwtND
-AzMTkzMzk0LC02NzI5MDgwMzYsNjUwMzc3NjA2LDE5MTUwNzkz
-NzUsMTM3MjE2ODE5MiwxMzc5NDcyNzk2LC0xNzkwODIzNDksMT
-AzNzQyOTQwOCwtMTAxNzc1NzQyOSwtMTIxMDcwMzM4NiwtNjA5
-Nzc1NjYwXX0=
+eyJoaXN0b3J5IjpbLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMT
+k3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgy
+MCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4MzA1MzgsLT
+QwMzE5MzM5NCwtNjcyOTA4MDM2LDY1MDM3NzYwNiwxOTE1MDc5
+Mzc1LDEzNzIxNjgxOTIsMTM3OTQ3Mjc5NiwtMTc5MDgyMzQ5LD
+EwMzc0Mjk0MDgsLTEwMTc3NTc0MjksLTEyMTA3MDMzODYsLTYw
+OTc3NTY2MF19
 -->
