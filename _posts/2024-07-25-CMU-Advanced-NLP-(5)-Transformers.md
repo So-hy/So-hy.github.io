@@ -192,10 +192,10 @@ Learned Encoding은 위치 인코딩 값을 학습 가능한 파라미터로 설
 ### **Absolute vs. Relative Encodings**
 
 
-Absolute Positional Encoding은 입력에 인코딩 값을 추가하여 상대적 위치 정보도 캡처할 수 있기를 기대하는 방식이다. 각 단어의 위치를 절대적인 값으로 인코딩합니다. 즉, 문장 내에서 단어가 몇 번째 위치에 있는지를 나타내는 값을 사용다.
+Absolute Positional Encoding은 입력에 인코딩 값을 추가하여 상대적 위치 정보도 캡처할 수 있기를 기대하는 방식이다. 각 단어의 위치를 절대적인 값으로 인코딩합니다. 즉, 문장 내에서 단어가 몇 번째 위치에 있는지를 나타내는 값을 사용하며, 가까운 친구들일수록 더 강한 어텐션을 적용하기 때문에 거리가 먼 단어의 경우 상대적으로 어텐션이 약해져 전체적으로 어텐션을 주지 못한다는 문제가 있다.
 (예: 첫 번째 단어는 위치 1, 두 번째 단어는 위치 2 등.)
 Relative Positional Encoding의 경우 각 단어의 위치를 절대적인 값으로 인코딩하는 대신, 각 단어 간의 상대적인 위치 정보를 인코딩한다. 즉, 특정 단어가 다른 단어와 얼마나 떨어져 있는지를 인코딩하는 방식이다.
-(예: key embedding 은 query embedding 으로 부터 5칸 떨어져있다.) Relative Positional Encoding은 단어 간의 거리(상대적 위치)를 직접적으로 인코딩하여, 문장 내 단어들의 상대적 위치 정보를 명시적으로 포함한다. 이러한 이유 덕분에 문장의 길이가 달라져도(더 길거나 짧아져도) 상대적 위치 정보를 유지할 수 있어, 모델이 더 유연하게 문장을 이해할 수 있도록 돕는다. 하지만 두 가지 문제점이 있는데 **Learnable Parameter**의 추가와 **Computational Cost**의 증가이다.
+(예: key embedding 은 query embedding 으로 부터 5칸 떨어져있다.) Relative Positional Encoding은 단어 간의 거리(상대적 위치)를 직접적으로 인코딩하여, 문장 내 단어들의 상대적 위치 정보를 명시적으로 포함한다. 이러한 이유 덕분에 문장의 길이가 달라져도(더 길거나 짧아져도) 상대적 위치 정보를 유지할 수 있어, 모델이 더 유연하게 문장을 이해할 수 있도록 돕는다. 또한 하지만 두 가지 문제점이 있는데 **Learnable Parameter**의 추가와 **Computational Cost**의 증가이다.
 
 Relative Positional Encoding은 각 단어 쌍의 상대적 위치를 학습 가능한 파라미터로 인코딩한다. 이는 모델이 학습 과정에서 최적의 상대적 위치 인코딩 값을 찾아내도록 한다. 이 과정에서 각 단어 쌍마다 상대적 위치를 나타내는 파라미터가 추가된다. 특히 긴 시퀀스의 경우 단어 쌍의 수가 기하급수적으로 증가하므로, 필요한 파라미터의 수가 매우 많아질 수 있다. 이로 인해 모델의 복잡도를 증가시키고, 학습 과정에서 더 많은 메모리와 계산 자원이 필요하게 된다. 학습할 때마다 어텐션 매트릭스에 위치 파라미터 또한 계속 업데이트 해주어야 하며, 이 과정을 모든 레이어에 적용해야 한다.
 
@@ -371,11 +371,11 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석합니다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE1NjE2OTM4LC00MDE1NDI1NjEsLTE3OD
-c4MTkzOTQsMTkyMDE1NTM1OCwtMTk4NTE5NTQwOCwtNTczMjc4
-Mzg3LC05MTE4NDU5OTksNDYwMzYwMzc5LC0yNjM2NzExMjYsLT
-QwMzc2NzU3Miw5ODc5NDMxMzQsLTc4MzA2MjIyNywxOTAxOTMy
-NzIsLTIxMzc2MzgyNjMsMjAyMTQwNjEyMywtMTk3MDAzMzAzOS
-w1MDU2MTgwMDEsNTA1NjE4MDAxLDIxNTE2NDgyMCwtMTE5ODU1
-MDc3N119
+eyJoaXN0b3J5IjpbLTEwNzE0MzYwLDMxNTYxNjkzOCwtNDAxNT
+QyNTYxLC0xNzg3ODE5Mzk0LDE5MjAxNTUzNTgsLTE5ODUxOTU0
+MDgsLTU3MzI3ODM4NywtOTExODQ1OTk5LDQ2MDM2MDM3OSwtMj
+YzNjcxMTI2LC00MDM3Njc1NzIsOTg3OTQzMTM0LC03ODMwNjIy
+MjcsMTkwMTkzMjcyLC0yMTM3NjM4MjYzLDIwMjE0MDYxMjMsLT
+E5NzAwMzMwMzksNTA1NjE4MDAxLDUwNTYxODAwMSwyMTUxNjQ4
+MjBdfQ==
 -->
