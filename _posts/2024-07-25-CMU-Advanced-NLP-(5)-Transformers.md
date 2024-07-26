@@ -35,6 +35,7 @@ Cross Attention은 다른 문장 또는 시퀀스를 어텐션하는 메커니�
 >     -   이 과정은 입력 문장의 각 단어에 대해 반복된다.
 
 
+
 ### **Self Attention**
 
 셀프 어텐션은 크로스 어텐션과는 달리 동일한 시퀀스 내에서 어텐션을 계산한다. 즉, 쿼리와 키가 동일한 시퀀스에 대응되므로, 시퀀스 내의 요소 간의 관계를 모델링할 수 있다.
@@ -367,7 +368,7 @@ Layer Norm 이 그라디언트 전파에 영향을 미친다고 하는데 어떻
     -   연구자들은 Transformer 모델을 해석할 때, 피드포워드 네트워크에서 추출된 특징 벡터를 분석한다.
     -   예를 들어, 특정 사실(예: 미국 대통령이 누구인지)을 모델이 어떻게 기억하는지 분석할 때, 피드포워드 네트워크의 출력 벡터를 조사한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDA4NDk2NCwzMTU2MTY5MzgsLTQwMT
+eyJoaXN0b3J5IjpbLTc4MzE0OTc0MiwzMTU2MTY5MzgsLTQwMT
 U0MjU2MSwtMTc4NzgxOTM5NCwxOTIwMTU1MzU4LC0xOTg1MTk1
 NDA4LC01NzMyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAzNzksLT
 I2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYy
