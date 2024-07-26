@@ -318,14 +318,16 @@ $$Residual(x,F)=F(x)+x$$
 > -   잔차 연결은 입력을 그대로 출력에 더해줌으로써 그라디언트 소실 문제를 방지하고, 입력과 출력 간의 직접적인 연결을 유지한다.
 > -   Layer Norm이 잔차 연결 경로에 위치하면, 그라디언트 전파가 원활하지 않게 된다
 
-.
+이런 문제를 해결, 수정하기 위해 개선된 방식이 Pre-Layer Norm 방식이다. 이는 위의 그림에서 오른쪽과 같다. 개선된 Transformer 모델에서는 Layer Norm이 각 레이어의 앞에 위치한다.
+이렇게 하면 Layer Norm이 잔차 연결 경로에 위치하지 않게 되어, 잔차 연결이 입력과 출력을 직접 연결하게 된다.
 
+-   이는 그라디언트 전파가 더 원활하게 이루어지게 하여 학습을 더 안정적이고 효과적으로 만듭니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMDc3MDk0NCwxOTIwMTU1MzU4LC0xOT
-g1MTk1NDA4LC01NzMyNzgzODcsLTkxMTg0NTk5OSw0NjAzNjAz
-NzksLTI2MzY3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNz
-gzMDYyMjI3LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2
-MTIzLC0xOTcwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMj
-E1MTY0ODIwLC0xMTk4NTUwNzc3LC0xMzYyNDgzODc2LDI0Mzgz
-MDUzOF19
+eyJoaXN0b3J5IjpbLTIwOTIxNDIwMzIsMTkyMDE1NTM1OCwtMT
+k4NTE5NTQwOCwtNTczMjc4Mzg3LC05MTE4NDU5OTksNDYwMzYw
+Mzc5LC0yNjM2NzExMjYsLTQwMzc2NzU3Miw5ODc5NDMxMzQsLT
+c4MzA2MjIyNywxOTAxOTMyNzIsLTIxMzc2MzgyNjMsMjAyMTQw
+NjEyMywtMTk3MDAzMzAzOSw1MDU2MTgwMDEsNTA1NjE4MDAxLD
+IxNTE2NDgyMCwtMTE5ODU1MDc3NywtMTM2MjQ4Mzg3NiwyNDM4
+MzA1MzhdfQ==
 -->
