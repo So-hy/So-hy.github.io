@@ -247,9 +247,14 @@ $x$의 벡터가 입력 벡터이고 둘 중에 하나가 쿼리 벡터 또는 �
 
 
 이전에 RNN에서 역전파 과정 중 그라디언트가 점점 작아지다 소실(또는 폭발)하는 문제가 발생한다고 하였다. 그리고 이러한 문제는 트랜스포머 모델에서도 발생할 수 있다고 설명한다.
-Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언트 소실 문제가 발생할 수 있었지만, 최근에 와서 이러한 문제를 해결하였다고 한다. 이 방법에 대해 
+Transformer 모델에서도 초기 버전에서는 RNN과 유사한 그라디언트 소실 문제가 발생할 수 있었지만, 최근에 와서 이러한 문제를 해결하였다고 한다. 이 방법에 대해 지금부터 설명을 할 예정이다.
+
+![스크린샷 2024-07-26 123121](https://github.com/user-attachments/assets/051742d6-512f-4117-97ae-fa60e45c7073){: .responsive-img .align-center}
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NjA3NzU5Miw0NjAzNjAzNzksLTI2Mz
+eyJoaXN0b3J5IjpbLTkxMTg0NTk5OSw0NjAzNjAzNzksLTI2Mz
 Y3MTEyNiwtNDAzNzY3NTcyLDk4Nzk0MzEzNCwtNzgzMDYyMjI3
 LDE5MDE5MzI3MiwtMjEzNzYzODI2MywyMDIxNDA2MTIzLC0xOT
 cwMDMzMDM5LDUwNTYxODAwMSw1MDU2MTgwMDEsMjE1MTY0ODIw
