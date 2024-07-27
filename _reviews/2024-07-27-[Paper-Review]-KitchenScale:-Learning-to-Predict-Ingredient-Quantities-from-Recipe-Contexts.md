@@ -12,7 +12,7 @@ date: 2024-07-27
 ![스크린샷 2024-07-27 225922](https://github.com/user-attachments/assets/7d0ecb9a-df9b-4560-a551-9183479c0fe2)
 
 
-위 사진은 ChatGPT 4o 한테 숫자 비교를 시킨 것인데
+위 사진은 ChatGPT 4o 한테 숫자 비교를 시킨 것인데, 이러한 단순 비교에서도 제대로 못하는 모습을 보여준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjU4NzUxNjVdfQ==
+eyJoaXN0b3J5IjpbMTI1NjU0MTQ2N119
 -->
