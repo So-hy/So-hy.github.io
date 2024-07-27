@@ -43,11 +43,13 @@ date: 2024-07-27
 
 이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(**DExp**) 방법을 채택했다고 한다.
 
-간단하게 실험 설정과 결과에 대해 언급하였는데 새로 구축한 데이터셋과 추천 예제를 통해 KitchenScale의 다양한 레시피 문맥에 대한 이해와 재료 양 예측의 일반화 가능성을 실험했고, KitchenScale의 기능을 시연하기 위해 웹 애플리케이션을 구현했다고 한다. 이 애플리케이션은 숫자(예: 2)와 단위(예: 온스)로 표현된 재료 양을 추천하는 기능을 제공한다. 
+간단하게 실험 설정과 결과에 대해 언급하였는데 새로 구축한 데이터셋과 추천 예제를 통해 KitchenScale의 다양한 레시피 문맥에 대한 이해와 재료 양 예측의 일반화 가능성을 실험했고, KitchenScale의 기능을 시연하기 위해 웹 애플리케이션을 구현했다고 한다. 이 애플리케이션은 숫자(예: 2)와 단위(예: 온스)로 표현된 재료 양을 추천하는 기능을 제공한다.
+
+ㅎ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODk5ODUwLC0xNDY2MTEzNDEwLC0xNT
-A0OTM5NDYzLC0zMTAyMTY1ODMsNjk1MzE1NzU5LDE1NzUxOTI5
-NDQsLTIwMzUxMDEzNiw2NjA3MTI4NTYsLTEwNjAxMDU3MjQsLT
-E5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNTQ2
-MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ==
+eyJoaXN0b3J5IjpbMTQwNDE0MTc0MCwtMTQ2NjExMzQxMCwtMT
+UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
+OTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC
+0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0
+NjI5MTAsMzUxMjI1ODIwLC0xNzczODM1NzQ3XX0=
 -->
