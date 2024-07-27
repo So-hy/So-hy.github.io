@@ -32,9 +32,14 @@ date: 2024-07-27
 
 ## Introduction
 
+해당 연구의 서론을 간단하게 설명하면,
 
+-   **중요성**: 요리에서 적절한 재료의 양을 결정하는 것은 맛을 풍부하게 하고 건강을 증진시키는 데 중요한 요소이다.
+-   **목표**: 이를 해결하기 위해 레시피 문맥을 기반으로 특정 재료의 양과 측정 단위를 예측하는 모델, KitchenScale을 소개한다.
+
+위와 같다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNz
-E1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4
-MjAsLTE3NzM4MzU3NDddfQ==
+eyJoaXN0b3J5IjpbNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOT
+Q1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0NjI5
+MTAsMzUxMjI1ODIwLC0xNzczODM1NzQ3XX0=
 -->
