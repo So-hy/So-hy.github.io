@@ -3,7 +3,7 @@
 ---
 @import "jekyll-theme-prologue";
 
-@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
+//@import url('https://fonts.googleapis.com/earlyaccess/nanumgothic.css');
 
 
 @font-face {
@@ -24,9 +24,7 @@
   margin-right: auto;
 }
 
-body {
-  font-family: 'Nanum Gothic', sans-serif;
-}
+
 
 .fade-text {
   position: relative;
