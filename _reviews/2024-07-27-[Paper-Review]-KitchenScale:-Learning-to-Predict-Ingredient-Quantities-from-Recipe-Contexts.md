@@ -32,7 +32,7 @@ date: 2024-07-27
 
 ## Introduction
 
-기존의 SHARE 연구나 레시피와 같은 연구는
+기존의 SHARE[] 연구나 레시피와 같은 연구는
 해당 연구의 서론을 간단하게 설명하면,
 
 -   **중요성**: 요리에서 적절한 재료의 양을 결정하는 것은 맛을 풍부하게 하고 건강을 증진시키는 데 중요한 요소이다.
@@ -42,8 +42,8 @@ date: 2024-07-27
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MzA1Nzg3Miw2NjA3MTI4NTYsLTEwNj
-AxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMyMDQ1
-MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ
-==
+eyJoaXN0b3J5IjpbLTIwNDI2NzU3MjYsNjYwNzEyODU2LC0xMD
+YwMTA1NzI0LC0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0
+NTIsLTE1MjU0NjI5MTAsMzUxMjI1ODIwLC0xNzczODM1NzQ3XX
+0=
 -->
