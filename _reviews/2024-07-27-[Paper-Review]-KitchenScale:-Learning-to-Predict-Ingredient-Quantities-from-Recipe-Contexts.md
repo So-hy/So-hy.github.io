@@ -9,6 +9,10 @@ date: 2024-07-27
 
 실제로 LLM은 숫자를 다룰 때, 뭔가 나사가 빠진 모습을 보일 때가 많다. 이는 이들을 숫자 보단 텍스트로 취급하고 모델이 학습하기 때문이다.
 
+![스크린샷 2024-07-27 225922](https://github.com/user-attachments/assets/7d0ecb9a-df9b-4560-a551-9183479c0fe2)
+
+
+위 사진은 ChatGPT 4o 한테 숫자 비교를 시킨 것인데
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjM5Njg1M119
+eyJoaXN0b3J5IjpbLTE2NjU4NzUxNjVdfQ==
 -->
