@@ -14,7 +14,10 @@ date: 2024-07-27
 
 위 사진은 ChatGPT 4o 한테 숫자 비교를 시킨 것인데, 이러한 단순 비교에서도 제대로 못하는 모습을 보여준다.
 
-이러한 문제는 레시피를 다룰 때도 나타난다. 이전에 동일하게 ChatGPT 4o 로 브라우니 레시피 생성 후, 이를 저당 레시피로 바꿔달라고 요청을 해보았는데, 설탕을 스테비아로 변환하는 것 까지는 ㅇ
+이러한 문제는 레시피를 다룰 때도 나타난다. 이전에 동일하게 ChatGPT 4o 로 브라우니 레시피 생성 후, 이를 저당 레시피로 바꿔달라고 요청을 해보았는데, 설탕을 스테비아로 변환하는 것 까지는 잘하지만 설탕 200g을 스테비아 200g 으로 대체해버리는 등, Quantity에 대한 처리는 잘 하지 못하는 모습을 보여주었다.
+
+이 논문에서는 이를 DEx
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMjkxNzc3NiwtMTc3MzgzNTc0N119
+eyJoaXN0b3J5IjpbLTEyMDYzNDk3MDEsLTE3NzM4MzU3NDddfQ
+==
 -->
