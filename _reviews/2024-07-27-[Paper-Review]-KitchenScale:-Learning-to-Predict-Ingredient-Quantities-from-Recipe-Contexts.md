@@ -51,10 +51,13 @@ date: 2024-07-27
 -   **데이터셋 구축**: 레시피 텍스트를 기반으로 대규모 데이터셋을 구축하여 모델을 학습시켰다.
 -   **실험 결과**: KitchenScale의 다양한 레시피 문맥에 대한 이해와 재료 양 예측 능력을 실험을 통해 검증했다.
 -   **웹 애플리케이션 구현**: KitchenScale의 기능을 시연하기 위한 웹 기반 애플리케이션을 구현했다.
+
+5 가지의 기여점이 있다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMT
-UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
-OTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC
-0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0
-NjI5MTAsMzUxMjI1ODIwLC0xNzczODM1NzQ3XX0=
+eyJoaXN0b3J5IjpbMTA5NTQ3ODUzMywtOTM3NjEwOTcwLC0xND
+Y2MTEzNDEwLC0xNTA0OTM5NDYzLC0zMTAyMTY1ODMsNjk1MzE1
+NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEzNiw2NjA3MTI4NTYsLT
+EwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMy
+MDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3ND
+ddfQ==
 -->
