@@ -39,10 +39,11 @@ date: 2024-07-27
 -   **목표**: 이를 해결하기 위해 레시피 문맥을 기반으로 특정 재료의 양과 측정 단위를 예측하는 모델, KitchenScale을 소개한다.
 
 위와 같다.
+
 [^1]SHARE: a System for Hierarchical Assistive Recipe Editing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MTEwMjc3NCw2NjA3MTI4NTYsLTEwNj
+eyJoaXN0b3J5IjpbLTIwMzUxMDEzNiw2NjA3MTI4NTYsLTEwNj
 AxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMyMDQ1
 MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ
 ==
