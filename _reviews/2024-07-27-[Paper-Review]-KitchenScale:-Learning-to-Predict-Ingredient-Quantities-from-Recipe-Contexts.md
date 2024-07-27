@@ -32,8 +32,9 @@ date: 2024-07-27
 
 ## Introduction
 
-기존의 SHARE[^1] 연구나 레시피와 관련된 연구들은 레시피 재료의 대체, 또는 레시피 생성에 집중을 하고 양과 관련된 문제의 경우 Limitation으로 기술되어 있는 경우가 대부분이었다. 기존에는 재료의 양의 경우 비율로 제안하거나 숫자와 단위를 단순히 텍스트로 취급하는 방법을 사용하는 방시
-해당 연구의 서론을 간단하게 설명하면,
+기존의 SHARE[^1] 연구나 레시피와 관련된 연구들은 레시피 재료의 대체, 또는 레시피 생성에 집중을 하고 양과 관련된 문제의 경우 Limitation으로 기술되어 있는 경우가 대부분이었다. 기존에는 재료의 양의 경우 비율로 제안하거나 숫자와 단위를 단순히 텍스트로 취급하는 방법을 사용하는 방식을 취하였다. 따라서 본 연구는 이러한 부분에 초점을 맞추었다.
+
+해당 연구의 중요성과 목표를 간단하게 설명하면,
 
 -   **중요성**: 요리에서 적절한 재료의 양을 결정하는 것은 맛을 풍부하게 하고 건강을 증진시키는 데 중요한 요소이다.
 -   **목표**: 이를 해결하기 위해 레시피 문맥을 기반으로 특정 재료의 양과 측정 단위를 예측하는 모델, KitchenScale을 소개한다.
@@ -42,9 +43,11 @@ date: 2024-07-27
 
 [^1]:SHARE: a System for Hierarchical Assistive Recipe Editing
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2MzgxODA0MSwxNTc1MTkyOTQ0LC0yMD
-M1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOTQ1OTI5
-MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0NjI5MTAsMz
-UxMjI1ODIwLC0xNzczODM1NzQ3XX0=
+eyJoaXN0b3J5IjpbNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIwMz
+UxMDEzNiw2NjA3MTI4NTYsLTEwNjAxMDU3MjQsLTE5NDU5Mjkw
+NzQsNzE1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNTQ2MjkxMCwzNT
+EyMjU4MjAsLTE3NzM4MzU3NDddfQ==
 -->
