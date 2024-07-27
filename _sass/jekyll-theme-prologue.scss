@@ -61,9 +61,9 @@
 
 	body {
 		background: #fff;
-		font-family: 'GmarketSansMedium', sans-serif;
+		font-family: 'GmarketSansLight', sans-serif;
 		font-size: 17pt;
-		font-weight: 300 !important;
+		font-weight: 300;
 		line-height: 1.75em;
 		color: #777;
 
@@ -81,9 +81,16 @@
 		color: #777;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1 {
+		font-family: 'GmarketSansBold', sans-serif;
+		font-weight: 300;
+		color: #222;
+		line-height: 1.5em;
+	}
+
+	h2, h3, h4, h5, h6 {
 		font-family: 'GmarketSansMedium', sans-serif;
-		font-weight: 500;
+		font-weight: 300;
 		color: #333;
 		line-height: 1.5em;
 	}
@@ -188,7 +195,6 @@
 	}
 
 	p, ul, ol, dl, table {
-		font-weight: 100;
 		margin-bottom: 2em;
 	}
 
