@@ -24,10 +24,12 @@ date: 2024-07-27
 
 해당 논문에서 제시한 KitchenScale 모델을 효과적으로 학습시키기 위해 연구진은 다음과 같은 세 가지의 하위 작업으로 재료 양 측정 문제를 구성했다.
 
-1. 재료 측정 유형 분류 : 재료가 부피로 측정되는지, 중량으로 측정되는지를 분류
-2. 단위 분류: 재료의 측정 단위를 예측(Oz, Cup, Spoon, etc.)
-3. 
+1. **재료 측정 유형 분류**(Measurement Type Classification): 재료가 부피로 측정되는지, 중량으로 측정되는지를 분류
+2. **단위 분류**(Unit Classification): 재료의 측정 단위를 예측(Oz, Cup, Spoon, etc.)
+3. **양 회귀 작업**(Quantity Regression): 재료의 정확한 양 예측
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjU0NjI5MTAsMzUxMjI1ODIwLC0xNz
-czODM1NzQ3XX0=
+eyJoaXN0b3J5IjpbODEyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MT
+IyNTgyMCwtMTc3MzgzNTc0N119
 -->
