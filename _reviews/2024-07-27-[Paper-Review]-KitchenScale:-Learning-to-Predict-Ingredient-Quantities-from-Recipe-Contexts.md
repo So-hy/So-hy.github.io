@@ -40,11 +40,11 @@ date: 2024-07-27
 
 위와 같다.
 
-[^1]SHARE: a System for Hierarchical Assistive Recipe Editing
+[^1]:SHARE: a System for Hierarchical Assistive Recipe Editing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzUxMDEzNiw2NjA3MTI4NTYsLTEwNj
-AxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMyMDQ1
-MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ
-==
+eyJoaXN0b3J5IjpbMTEyNDk4NzU5OCwtMjAzNTEwMTM2LDY2MD
+cxMjg1NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2MDky
+OTQsODEyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MTIyNTgyMCwtMT
+c3MzgzNTc0N119
 -->
