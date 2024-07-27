@@ -43,10 +43,11 @@ date: 2024-07-27
 
 [^1]:SHARE: a System for Hierarchical Assistive Recipe Editing
 
-KitchenScale 모델을 효과적으로 학습시키기 위해 앞서 설명한 세 가지 작업으로 나누어 1.재료 측정 진행한다.
+KitchenScale 모델을 효과적으로 학습시키기 위해 앞서 설명한 세 가지 작업 **(1.재료 측정 유형 분류,  2.단위 분류, 3.양 회귀 작업)** 으로 나누어 진행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMDIxNjU4Myw2OTUzMTU3NTksMTU3NT
-E5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcy
-NCwtMTk0NTkyOTA3NCw3MTU2MDkyOTQsODEyMzIwNDUyLC0xNT
-I1NDYyOTEwLDM1MTIyNTgyMCwtMTc3MzgzNTc0N119
+eyJoaXN0b3J5IjpbNDM4Mjk4OTAxLC0zMTAyMTY1ODMsNjk1Mz
+E1NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEzNiw2NjA3MTI4NTYs
+LTEwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMj
+MyMDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3
+NDddfQ==
 -->
