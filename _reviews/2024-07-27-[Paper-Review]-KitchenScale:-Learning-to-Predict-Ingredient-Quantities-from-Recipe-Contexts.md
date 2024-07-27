@@ -18,7 +18,7 @@ date: 2024-07-27
 
 이러한 문제는 레시피를 다룰 때도 나타난다. 이전에 동일하게 ChatGPT 4o 로 브라우니 레시피 생성 후, 이를 저당 레시피로 바꿔달라고 요청을 해보았는데, 설탕을 스테비아로 변환하는 것 까지는 잘하지만 설탕 200g을 스테비아 200g 으로 대체해버리는 등, Quantity에 대한 처리는 잘 하지 못하는 모습을 보여주었다.
 
-이 논문에서는 이를 해결하기 위해 DExp(Discrete Latent Exponential) 이라는 방법을 사용했다고 하는데, 이에 관심이 생겨 해당 논문을 읽어보았다.
+이 논문에서는 이를 해결하기 위해 DExp(Discrete Latent Exponent) 이라는 방법을 사용했다고 하는데, 이에 관심이 생겨 해당 논문을 읽어보았다.
 
 ## Abstract
 
@@ -30,6 +30,6 @@ date: 2024-07-27
 
 이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(DExp) 방법을 채택했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMjI2NTQ2OCw4MTIzMjA0NTIsLTE1Mj
-U0NjI5MTAsMzUxMjI1ODIwLC0xNzczODM1NzQ3XX0=
+eyJoaXN0b3J5IjpbNzE1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNT
+Q2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ==
 -->
