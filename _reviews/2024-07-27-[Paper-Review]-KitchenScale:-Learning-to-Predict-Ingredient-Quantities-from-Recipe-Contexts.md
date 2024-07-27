@@ -13,6 +13,8 @@ date: 2024-07-27
 
 
 위 사진은 ChatGPT 4o 한테 숫자 비교를 시킨 것인데, 이러한 단순 비교에서도 제대로 못하는 모습을 보여준다.
+
+이러한 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTU5MjY5NDBdfQ==
+eyJoaXN0b3J5IjpbMTAwODYzMzIyMF19
 -->
