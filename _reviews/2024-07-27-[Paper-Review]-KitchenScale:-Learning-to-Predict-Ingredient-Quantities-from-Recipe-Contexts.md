@@ -28,8 +28,9 @@ date: 2024-07-27
 2. **단위 분류**(Unit Classification): 재료의 측정 단위를 예측(Oz, Cup, Spoon, etc.)
 3. **양 회귀 작업**(Quantity Regression): 재료의 정확한 양 예측
 
-이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(DExp) 방법을 채택했다.
+이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(**DExp**) 방법을 채택했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNT
-Q2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3NDddfQ==
+eyJoaXN0b3J5IjpbLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMj
+MyMDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4MjAsLTE3NzM4MzU3
+NDddfQ==
 -->
