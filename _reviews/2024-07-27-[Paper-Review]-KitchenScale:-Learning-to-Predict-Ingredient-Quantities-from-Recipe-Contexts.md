@@ -5,6 +5,7 @@ author: Sohyun
 date: 2024-07-27
 ---
 
+## 여는 글
 
 해당 논문은 레시피 문맥을 기반으로 목표 재료의 양과 단위를 예측하는 것을 목표로 하는 사전 학습된 모델(PLM)인 Kitchen Scale 이라는 언어 모델을 소개한다. 여기서 주목한 것은 양에 대한 예측이다. 실제로 이전의 여러 실험에서는 주로 비율로 성분 조성을 제안하거나 숫자와 단위를 텍스트로 취급하는 방식으로 재료의 양을 다루어서 양을 정확하게 예측하는 데 한계가 있다.
 
@@ -19,7 +20,9 @@ date: 2024-07-27
 
 이 논문에서는 이를 해결하기 위해 DExp(Discrete Latent Exponential) 이라는 방법을 사용했다고 하는데, 이에 관심이 생겨 해당 논문을 읽어보았다.
 
+## Abstract
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzk2NTM1NiwtMTc3MzgzNTc0N119
+eyJoaXN0b3J5IjpbMzUxMjI1ODIwLC0xNzczODM1NzQ3XX0=
 -->
