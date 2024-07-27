@@ -32,7 +32,7 @@ date: 2024-07-27
 
 ## Introduction
 
-기존의 SHARE[^1] 연구나 레시피와 같은 연구는
+기존의 SHARE[^1] 연구나 레시피와 같은 연구는 레시피 재료의 
 해당 연구의 서론을 간단하게 설명하면,
 
 -   **중요성**: 요리에서 적절한 재료의 양을 결정하는 것은 맛을 풍부하게 하고 건강을 증진시키는 데 중요한 요소이다.
@@ -43,7 +43,7 @@ date: 2024-07-27
 [^1]:SHARE: a System for Hierarchical Assistive Recipe Editing
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNDk4NzU5OCwtMjAzNTEwMTM2LDY2MD
+eyJoaXN0b3J5IjpbMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MD
 cxMjg1NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2MDky
 OTQsODEyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MTIyNTgyMCwtMT
 c3MzgzNTc0N119
