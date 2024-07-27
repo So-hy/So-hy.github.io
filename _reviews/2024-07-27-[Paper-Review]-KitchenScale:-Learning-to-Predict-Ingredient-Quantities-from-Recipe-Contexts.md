@@ -45,9 +45,14 @@ date: 2024-07-27
 
 간단하게 실험 설정과 결과에 대해 언급하였는데 새로 구축한 데이터셋과 추천 예제를 통해 KitchenScale의 다양한 레시피 문맥에 대한 이해와 재료 양 예측의 일반화 가능성을 실험했고, KitchenScale의 기능을 시연하기 위해 웹 애플리케이션을 구현했다고 한다. 이 애플리케이션은 숫자(예: 2)와 단위(예: 온스)로 표현된 재료 양을 추천하는 기능을 제공한다.
 
-ㅎ
+해당 연구의 기여는.. 조금 많은데
+-   **재료 양 예측 작업 정의**: 재료 측정 유형 분류, 단위 분류, 양 회귀의 세 가지 하위 작업으로 구성된 재료 양 예측 작업을 정의했다.
+-   **KitchenScale 개발**: PLM을 활용하여 재료 양 예측 작업을 수행하는 KitchenScale 모델을 개발했다.
+-   **데이터셋 구축**: 레시피 텍스트를 기반으로 대규모 데이터셋을 구축하여 모델을 학습시켰다.
+-   **실험 결과**: KitchenScale의 다양한 레시피 문맥에 대한 이해와 재료 양 예측 능력을 실험을 통해 검증했다.
+-   **웹 애플리케이션 구현**: KitchenScale의 기능을 시연하기 위한 웹 기반 애플리케이션을 구현했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDE0MTc0MCwtMTQ2NjExMzQxMCwtMT
+eyJoaXN0b3J5IjpbLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMT
 UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
 OTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC
 0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0
