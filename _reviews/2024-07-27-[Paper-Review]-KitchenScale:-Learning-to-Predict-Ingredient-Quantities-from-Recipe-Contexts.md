@@ -20,15 +20,6 @@ date: 2024-07-27
 
 이 논문에서는 이를 해결하기 위해 DExp(Discrete Latent Exponent) 이라는 방법을 사용했다고 하는데, 이에 관심이 생겨 해당 논문을 읽어보았다.
 
-## Abstract
-
-해당 논문에서 제시한 KitchenScale 모델을 효과적으로 학습시키기 위해 연구진은 다음과 같은 세 가지의 하위 작업으로 재료 양 측정 문제를 구성했다.
-
-1. **재료 측정 유형 분류**(Measurement Type Classification): 재료가 부피로 측정되는지, 중량으로 측정되는지를 분류
-2. **단위 분류**(Unit Classification): 재료의 측정 단위를 예측(Oz, Cup, Spoon, etc.)
-3. **양 회귀 작업**(Quantity Regression): 재료의 정확한 양 예측
-
-이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(**DExp**) 방법을 채택했다고 한다.
 
 ## Introduction
 
@@ -43,14 +34,18 @@ date: 2024-07-27
 
 [^1]:SHARE: a System for Hierarchical Assistive Recipe Editing
 
-KitchenScale 모델을 효과적으로 학습시키기 위해 앞서 설명한 세 가지 작업 **(1.재료 측정 유형 분류,  2.단위 분류, 3.양 회귀 작업)** 으로 나누어 진행한다.
 
-사전 학습된 모델을 활용, 전이 학습을 통해 요리에 대한 지식을 레시피 텍스트로부터 학습하였고
+해당 논문에서 제시한 KitchenScale 모델을 효과적으로 학습시키기 위해 연구진은 다음과 같은 세 가지의 하위 작업으로 재료 양 측정 문제를 구성했다.
 
+1. **재료 측정 유형 분류**(Measurement Type Classification): 재료가 부피로 측정되는지, 중량으로 측정되는지를 분류
+2. **단위 분류**(Unit Classification): 재료의 측정 단위를 예측(Oz, Cup, Spoon, etc.)
+3. **양 회귀 작업**(Quantity Regression): 재료의 정확한 양 예측
+
+이 모델은 레시피 텍스트에서 요리 지식을 학습하는 전이 학습 방법을 사용하여 개발되었고, 레시피 데이터의 수치적 변동성을 효과적으로 처리하기 위해 이산 잠재 지수(**DExp**) 방법을 채택했다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OT
-UzMTU3NTksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1
-NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2MDkyOTQsOD
-EyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MTIyNTgyMCwtMTc3Mzgz
-NTc0N119
+eyJoaXN0b3J5IjpbMTc1NjI5NDc0NywtMTUwNDkzOTQ2MywtMz
+EwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC0yMDM1MTAx
+MzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOTQ1OTI5MDc0LD
+cxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0NjI5MTAsMzUxMjI1
+ODIwLC0xNzczODM1NzQ3XX0=
 -->
