@@ -84,7 +84,7 @@
 	h1, h2, h3, h4, h5, h6 {
 		font-family: 'GmarketSansMedium', sans-serif;
 		font-weight: 500;
-		color: #555;
+		color: #333;
 		line-height: 1.5em;
 	}
 
@@ -188,6 +188,7 @@
 	}
 
 	p, ul, ol, dl, table {
+		font-weight: 100;
 		margin-bottom: 2em;
 	}
 
