@@ -92,15 +92,15 @@ Linguistics, Association for Computational Linguistics, Florence, Italy. pp.
 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
 18653/v1/P19- 1388.
 
-그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다.
+그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mj
-c5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3
-MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mz
-c2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIx
-NjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LD
-Y2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2
-MDkyOTRdfQ==
+eyJoaXN0b3J5IjpbLTE4MjQ1ODQ4NDMsLTc2Mjk2MjI1NCwtOD
+A0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2
+ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMD
+k1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5
+Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NC
+wtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0
+NTkyOTA3NF19
 -->
