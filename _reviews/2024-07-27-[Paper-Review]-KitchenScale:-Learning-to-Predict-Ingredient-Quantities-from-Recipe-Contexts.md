@@ -57,7 +57,7 @@ date: 2024-07-27
 ## Related Works
 
 
-### 수치 추론과 언어 모델링
+### Numerical Reasoning & Language Modeling
 
 PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 사용되고 있다. BERT나 GPT가 그 예이다.
 
@@ -76,10 +76,7 @@ Zhang et al., 2020[^3]
 
 
 
-
-
-
-### 수치 추론과 언어 모델링
+### Application with Food Recipes
 
 
 
@@ -96,11 +93,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMz
-AxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5
-NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyOD
-AsLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMw
-MjI1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OT
-QwMzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0
-NjYxMTM0MTBdfQ==
+eyJoaXN0b3J5IjpbLTc2OTIwMjcyMSwtMTEyMDAwNTMzOSwtOD
+Q3Mjg4MDQyLDEzMDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3
+MTUsLTE2MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MS
+wtMTQ0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgy
+NzkzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4Mz
+cxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkz
+NzYxMDk3MF19
 -->
