@@ -107,13 +107,15 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까? 
 
 선형 회귀(Linear Regression):
-가장 
+-   가장 단순한 회귀 모델로, 독립 변수와 종속 변수 간의 선형 관계를 가정.
+-   손실 함수로 보통 평균 제곱 오차(MSE)를 사용.
+-   예: $$y = \beta_0 + \beta_1 x + \epsilon$$, 여기서 $\epsilon$은 오차항이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDY1OTEwNiwtMTQ0NTY5OTI4MCwtNz
-YyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUz
-Mzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMi
-w3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjEx
-MzQxMCwtMTUwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OS
-wxNTc1MTkyOTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYw
-MTA1NzI0XX0=
+eyJoaXN0b3J5IjpbLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLT
+c2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1
+MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMz
+IsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYx
+MTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NT
+ksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2
+MDEwNTcyNF19
 -->
