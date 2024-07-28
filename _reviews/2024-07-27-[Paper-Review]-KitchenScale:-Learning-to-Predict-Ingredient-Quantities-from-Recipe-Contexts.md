@@ -128,13 +128,18 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
 가능도 기반 회귀(Likelihood-Based Regression)는 모델이 주어진 데이터에 얼마나 잘 맞는지를 나타내는 가능도(likelihood)를 최대화하는 방향으로 매개변수를 조정하는 방법이다. 해당 전략의 주요 특징은 아래와 같다.
 
-모델의 가능도 함수(Like
+모델의 가능도 함수(Likelihood Function):
+데이터가 특정 모델로부터 생성될 가능성을 나타내는 함수이다.
+매개변수를 조정하여 이 가능도 함수를 최대화한다.
+이런 느낌으로 작성할 수 있다.
+$$L(θ∣X)=P(X∣θ)$$
+여기서 $\theta$는 모델의 매개변수, $X$는 관찰된 데이터이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMT
-AxMTE0NTc4MSwtMTQ0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3
-ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4Nz
-M4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0
-Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkzOT
-Q2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC0y
-MDM1MTAxMzZdfQ==
+eyJoaXN0b3J5IjpbLTEwNzk3NTM2NzQsLTE2MjUyOTk3ODMsLT
+Q5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4MCwtNzYy
+OTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUzMz
+c3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3
+MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMz
+QxMCwtMTUwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwx
+NTc1MTkyOTQ0XX0=
 -->
