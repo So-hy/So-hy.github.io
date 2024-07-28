@@ -62,13 +62,13 @@ date: 2024-07-27
 
 PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 사용되고 있다. BERT나 GPT가 그 예이다.
 
-최근 들어, 자연어 처리(NLP) 분야에서 숫자를 다루는 작업이 중요하게 다루어지기 시작했다고 한다. 수치 지식과 수치 임베딩과 관련된 탐구
+최근 들어, 자연어 처리(NLP) 분야에서 숫자를 다루는 작업이 중요하게 다루어지기 시작했다고 한다. 아래의 예수치 지식과 수치 임베딩과 관련된 탐구들이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzM0NDcsLTE4NjA2Njg3MzgsLTM5Mj
-gzNzE0NiwxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3ODUzMywt
-OTM3NjEwOTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5NDYzLC0zMT
-AyMTY1ODMsNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEz
-Niw2NjA3MTI4NTYsLTEwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNz
-E1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4
-MjBdfQ==
+eyJoaXN0b3J5IjpbNjg1NjI3NzAxLC0xODYwNjY4NzM4LC0zOT
+I4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0Nzg1MzMs
+LTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkzOTQ2MywtMz
+EwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC0yMDM1MTAx
+MzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOTQ1OTI5MDc0LD
+cxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0NjI5MTAsMzUxMjI1
+ODIwXX0=
 -->
