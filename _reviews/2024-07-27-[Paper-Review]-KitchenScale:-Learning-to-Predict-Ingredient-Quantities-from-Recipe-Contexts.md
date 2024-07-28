@@ -104,13 +104,13 @@ Methods in Natural Language Processing (EMNLP), Association for Compu-
 tational Linguistics, Online. URL: https://aclanthology.org/2020. 
 emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
-여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까>
+여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzQ3MzY1MzQsLTE0NDU2OTkyODAsLT
-c2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1
-MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMz
-IsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYx
-MTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NT
-ksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2
-MDEwNTcyNF19
+eyJoaXN0b3J5IjpbMTkyMTM4NDI2NywtMTQ0NTY5OTI4MCwtNz
+YyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUz
+Mzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMi
+w3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjEx
+MzQxMCwtMTUwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OS
+wxNTc1MTkyOTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYw
+MTA1NzI0XX0=
 -->
