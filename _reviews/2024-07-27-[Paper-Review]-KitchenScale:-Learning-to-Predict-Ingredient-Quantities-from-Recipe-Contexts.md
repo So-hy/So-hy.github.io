@@ -116,11 +116,12 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
 #### **비선형 회귀(Non-Linear Regression):**
 
- - 데이터가 선형 관계가 아닌 경우, 비선형 함수를 사용하여 모델링하는 경우이다. (ex: $/tanh)
+ - 데이터가 선형 관계가 아닌 경우, 비선형 함수를 사용하여 모델링하는 경우이다. (ex: $\tanh x$)
  - 특정 함수 형태(예: 다항식, 지수 함수 등)를 가정하고 데이터를 피팅한다.
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2MzY1OTA4NSwtMTAxMTE0NTc4MSwtMT
+eyJoaXN0b3J5IjpbLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMT
 Q0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkz
 OTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxND
 YsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYx
