@@ -82,13 +82,22 @@ Linguistics, Association for Computational Linguistics, Florence, Italy. pp.
 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
 18653/v1/P19- 1388.
 
+또다른 연구는 PLM이 일반적으로 숫자의 크기를 학습할 수 있다고 말한다.
 
+Zhang et al., 2020[^3]
+
+[^3]: Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
+How large are lions? inducing distributions over quantitative attributes, in: 
+Proceedings of the 57th Annual Meeting of the Association for Computational 
+Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 
+3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
+18653/v1/P19- 1388.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xOD
-YwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMz
-LDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMT
-UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
-OTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC
-0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0
-NjI5MTBdfQ==
+eyJoaXN0b3J5IjpbNjMxNDM0MjA4LDE4Mjc5Mzk2MDQsMTMwMj
+I1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQw
+MzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0Nj
+YxMTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3
+NTksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMT
+A2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2MDkyOTQsODEyMzIw
+NDUyXX0=
 -->
