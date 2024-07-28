@@ -80,11 +80,9 @@ Zhang et al., 2020[^3]
 
 레시피와 관련된 연구도 다양한 접근법이 제안되었다.
 
-레시피 임베딩부터 재료 추천, 레시피 추천, 레시피 검색 등의 접근법이 있었고, GPT와 같은 생성 모델이 시피 생성에 사용되기 시작했다.
+레시피 임베딩부터 재료 추천, 레시피 추천, 레시피 검색 등의 접근법이 있었고, GPT와 같은 생성 모델이 시피 생성에 사용되기 시작했다. 그러나 이러한 생성 모델들은 숫자를 단어처럼 처리하여, 숫자 값의 차이를 제대로 처리하지 못한다.
 
-그러나 이러한 생성 모델들은 숫자를 단어처럼 처리하여, 숫자 값의 차이를 제대로 처리하지 못한다.
-
-
+이런 제안 뿐만 아니라 레시피 모델의 학습에 쓰일 데이터셋을 구축하는 연구도 있었다. Recipe1
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
 How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
@@ -98,7 +96,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MzYxMDg3MCwtMTEyMDAwNTMzOSwtOD
+eyJoaXN0b3J5IjpbLTUwNDgwMTAzMywtMTEyMDAwNTMzOSwtOD
 Q3Mjg4MDQyLDEzMDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3
 MTUsLTE2MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MS
 wtMTQ0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgy
