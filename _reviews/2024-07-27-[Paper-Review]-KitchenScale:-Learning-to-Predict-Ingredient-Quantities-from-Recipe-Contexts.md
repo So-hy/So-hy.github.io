@@ -105,8 +105,11 @@ tational Linguistics, Online. URL: https://aclanthology.org/2020.
 emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
 여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까? 
+
+선형 회귀(Linear Regression):
+가장 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyMTM4NDI2NywtMTQ0NTY5OTI4MCwtNz
+eyJoaXN0b3J5IjpbMTM2NDY1OTEwNiwtMTQ0NTY5OTI4MCwtNz
 YyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUz
 Mzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMi
 w3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjEx
