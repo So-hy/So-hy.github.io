@@ -142,13 +142,14 @@ $$L(θ∣X)=P(X∣θ)$$
 수치 데이터의 분포와 특성을 더 잘 반영하기 위해, 다양한 분포(예: Gaussian Mixture Model, Log-Laplace 등)를 사용한다.
 특히, 높은 분산과 다중 모달 분포를 효과적으로 처리할 수 있다.
 
-두 방식의 차이점은 매개변수를 최적화 할 때 기존의 회귀 방법의 경우 MSE와 같은 loss function 을 사용하지만, 가능도 기반 회귀는 다중 모달 분포와 높
+두 방식의 차이점은 매개변수를 최적화 할 때 기존의 회귀 방법의 경우 MSE와 같은 loss function 을 사용하지만, 가능도 기반 회귀는 가능도 함수를 최대화하는 방향으로 최적화를 한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDQ2NTk5NSwxNjA1Mjc3NzE1LC0xNj
-I1Mjk5NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2
-OTkyODAsLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MD
-QsMTMwMjI1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEz
-MjM2OTQwMzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5Nz
-AsLTE0NjYxMTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2
-OTUzMTU3NTldfQ==
+eyJoaXN0b3J5IjpbNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2Mj
+UyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5
+OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNC
+wxMzAyMjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMy
+MzY5NDAzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MC
+wtMTQ2NjExMzQxMCwtMTUwNDkzOTQ2MywtMzEwMjE2NTgzLDY5
+NTMxNTc1OV19
 -->
