@@ -104,54 +104,16 @@ Methods in Natural Language Processing (EMNLP), Association for Compu-
 tational Linguistics, Online. URL: https://aclanthology.org/2020. 
 emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
-여기서 말하는 기존의 회귀, 그리고 가능도 기반 회귀는 뭘까? 
 
-기존의 회귀 방법에는 다음과 같은 것이 있다.
-
-#### **선형 회귀(Linear Regression):**
-
--   가장 단순한 회귀 모델로, 독립 변수와 종속 변수 간의 선형 관계를 가정.
--   손실 함수로 보통 평균 제곱 오차(MSE)를 사용.
--   예: $$y = \beta_0 + \beta_1 x + \epsilon$$, 여기서 $\epsilon$은 오차항이다.
-
-#### **비선형 회귀(Non-Linear Regression):**
-
- - 데이터가 선형 관계가 아닌 경우, 비선형 함수를 사용하여 모델링하는 경우이다. (ex: $\tanh x$)
- - 특정 함수 형태(예: 다항식, 지수 함수 등)를 가정하고 데이터를 피팅한다.
-
-#### **회귀 트리 및 앙상블 방법**
-
-
--   결정 트리, 랜덤 포레스트, 그라디언트 부스팅 등 다양한 앙상블 기법을 사용하여 복잡한 데이터 관계를 모델링.
--   이러한 방법은 여러 모델을 결합하여 예측 성능을 향상시킨다.
-
-
-가능도 기반 회귀(Likelihood-Based Regression)는 모델이 주어진 데이터에 얼마나 잘 맞는지를 나타내는 가능도(likelihood)를 최대화하는 방향으로 매개변수를 조정하는 방법이다. 해당 전략의 주요 특징은 아래와 같다.
-
-모델의 가능도 함수(Likelihood Function):
-
- - 데이터가 특정 모델로부터 생성될 가능성을 나타내는 함수이다.
- -  매개변수를 조정하여 이 가능도 함수를 최대화한다.
-
-이런 느낌으로 작성할 수 있다.
-$$L(θ∣X)=P(X∣θ)$$
-여기서 $\theta$는 모델의 매개변수, $X$는 관찰된 데이터이다.\
-
-수치적 데이터의 특성 반영:
-
-수치 데이터의 분포와 특성을 더 잘 반영하기 위해, 다양한 분포(예: Gaussian Mixture Model, Log-Laplace 등)를 사용한다.
-특히, 높은 분산과 다중 모달 분포를 효과적으로 처리할 수 있다.
-
-두 방식의 차이점은 매개변수를 최적화 할 때 기존의 회귀 방법의 경우 MSE와 같은 loss function 을 사용하지만, 가능도 기반 회귀는 가능도 함수를 최대화하는 방향으로 최적화를 한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTMyMDkxNCw3NjY0OTAzNTgsMTYwNT
-I3NzcxNSwtMTYyNTI5OTc4MywtNDk2ODYyMjkyLC0xMDExMTQ1
-NzgxLC0xNDQ1Njk5MjgwLC03NjI5NjIyNTQsLTgwNDc4NzYwMy
-wxODI3OTM5NjA0LDEzMDIyNTMzNzcsLTE4NjA2Njg3MzgsLTM5
-MjgzNzE0NiwxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3ODUzMy
-wtOTM3NjEwOTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5NDYzLC0z
-MTAyMTY1ODNdfQ==
+eyJoaXN0b3J5IjpbLTg0NzI4ODA0MiwxMzAxMzIwOTE0LDc2Nj
+Q5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5NzgzLC00OTY4NjIy
+OTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLTc2Mjk2MjI1NC
+wtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2
+MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMy
+wxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1
+MDQ5Mzk0NjNdfQ==
 -->
