@@ -94,14 +94,21 @@ Linguistics, Association for Computational Linguistics, Florence, Italy. pp.
 
 그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)이 더 효과적이다는 것을 밝혔다고 한다.(Spithourakis and Riedel, 2018)[^4] 그러한 방법 중 하나가 바로 해당 연구에서 사용하는 DExp 방법이다.(Spokoyny and Berg-Kirkpatrick, 2020)[^5]
 
-[^4]:
-[^5]:
+[^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and 
+improving their ability to predict numbers, in: Proceedings of the 56th Annual 
+Meeting of the Association for Computational Linguistics (Volume 1: Long 
+Papers), pp. 2104–2115
+[^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextu- 
+alized number prediction, in: Proceedings of the 2020 Conference on Empirical 
+Methods in Natural Language Processing (EMNLP), Association for Compu- 
+tational Linguistics, Online. URL: https://aclanthology.org/2020. 
+emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzY1Njk3MCwtNzYyOTYyMjU0LC04MD
-Q3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4
-NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOT
-U0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkz
-OTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC
-0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOTQ1
-OTI5MDc0XX0=
+eyJoaXN0b3J5IjpbLTE0NDU2OTkyODAsLTc2Mjk2MjI1NCwtOD
+A0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2
+ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMD
+k1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5
+Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NC
+wtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0
+NTkyOTA3NF19
 -->
