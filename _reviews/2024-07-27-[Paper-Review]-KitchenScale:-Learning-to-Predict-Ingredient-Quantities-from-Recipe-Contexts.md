@@ -85,17 +85,12 @@ Linguistics, Association for Computational Linguistics, Florence, Italy. pp.
 
 Zhang et al., 2020[^3]
 
-[^3]: Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
-How large are lions? inducing distributions over quantitative attributes, in: 
-Proceedings of the 57th Annual Meeting of the Association for Computational 
-Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 
-3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
-18653/v1/P19- 1388.
+[^3]: Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. How large are lions? inducing distributions over quantitative attributes, in: 
+Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10.18653/v1/P19- 1388.
 
 그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)이 더 효과적이다는 것을 밝혔다고 한다.(Spithourakis and Riedel, 2018)[^4] 그러한 방법 중 하나가 바로 해당 연구에서 사용하는 DExp 방법이다.(Spokoyny and Berg-Kirkpatrick, 2020)[^5]
 
-[^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and 
-improving their ability to predict numbers, in: Proceedings of the 56th Annual 
+[^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and improving their ability to predict numbers, in: Proceedings of the 56th Annual 
 Meeting of the Association for Computational Linguistics (Volume 1: Long 
 Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextu- 
@@ -109,11 +104,11 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
 ### 수치 추론과 언어 모델링
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMjgzMzUzOCwtODQ3Mjg4MDQyLDEzMD
-EzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOTk3
-ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4MC
-wtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAy
-MjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5ND
-AzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2
-NjExMzQxMF19
+eyJoaXN0b3J5IjpbNjUxMDY1MTkyLC04NDcyODgwNDIsMTMwMT
+MyMDkxNCw3NjY0OTAzNTgsMTYwNTI3NzcxNSwtMTYyNTI5OTc4
+MywtNDk2ODYyMjkyLC0xMDExMTQ1NzgxLC0xNDQ1Njk5MjgwLC
+03NjI5NjIyNTQsLTgwNDc4NzYwMywxODI3OTM5NjA0LDEzMDIy
+NTMzNzcsLTE4NjA2Njg3MzgsLTM5MjgzNzE0NiwxMzIzNjk0MD
+MyLDczMTcwMzMsMTA5NTQ3ODUzMywtOTM3NjEwOTcwLC0xNDY2
+MTEzNDEwXX0=
 -->
