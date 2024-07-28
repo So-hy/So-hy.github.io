@@ -92,12 +92,16 @@ Proceedings of the 57th Annual Meeting of the Association for Computational
 Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 
 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
 18653/v1/P19- 1388.
+
+그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNDM0MjA4LDE4Mjc5Mzk2MDQsMTMwMj
-I1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQw
-MzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0Nj
-YxMTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3
-NTksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMT
-A2MDEwNTcyNCwtMTk0NTkyOTA3NCw3MTU2MDkyOTQsODEyMzIw
-NDUyXX0=
+eyJoaXN0b3J5IjpbLTgwNDc4NzYwMywxODI3OTM5NjA0LDEzMD
+IyNTMzNzcsLTE4NjA2Njg3MzgsLTM5MjgzNzE0NiwxMzIzNjk0
+MDMyLDczMTcwMzMsMTA5NTQ3ODUzMywtOTM3NjEwOTcwLC0xND
+Y2MTEzNDEwLC0xNTA0OTM5NDYzLC0zMTAyMTY1ODMsNjk1MzE1
+NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEzNiw2NjA3MTI4NTYsLT
+EwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNzE1NjA5Mjk0LDgxMjMy
+MDQ1Ml19
 -->
