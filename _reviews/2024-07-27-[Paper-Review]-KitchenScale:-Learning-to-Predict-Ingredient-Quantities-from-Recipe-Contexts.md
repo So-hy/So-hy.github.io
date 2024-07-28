@@ -65,21 +65,10 @@ PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 �
 
 Lin et al. (2020), Yamane et al. (2020), Elazar et al. (2019)[^2]
 
-[^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: 
-Probing Numerical Commonsense Knowledge of Pre-Trained Language Mod- 
-els, in: Proceedings of the 2020 Conference on Empirical Methods in Natu- 
-ral Language Processing (EMNLP), Association for Computational Linguis- 
-tics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. 
-emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557.
-Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a 
-word embedding approach effective? URL: https://openreview.net/ 
-forum?id=B1xbTlBKwB
-Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
-How large are lions? inducing distributions over quantitative attributes, in: 
-Proceedings of the 57th Annual Meeting of the Association for Computational 
-Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 
-3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
-18653/v1/P19- 1388.
+[^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
+forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
+How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
+Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 18653/v1/P19- 1388.
 
 또다른 연구는 PLM이 일반적으로 숫자의 크기를 학습할 수 있다고 말한다.
 
@@ -99,11 +88,11 @@ Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)
 
 ### 수치 추론과 언어 모델링
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NjgwMzA4LC04NDcyODgwNDIsMTMwMT
-MyMDkxNCw3NjY0OTAzNTgsMTYwNTI3NzcxNSwtMTYyNTI5OTc4
-MywtNDk2ODYyMjkyLC0xMDExMTQ1NzgxLC0xNDQ1Njk5MjgwLC
-03NjI5NjIyNTQsLTgwNDc4NzYwMywxODI3OTM5NjA0LDEzMDIy
-NTMzNzcsLTE4NjA2Njg3MzgsLTM5MjgzNzE0NiwxMzIzNjk0MD
-MyLDczMTcwMzMsMTA5NTQ3ODUzMywtOTM3NjEwOTcwLC0xNDY2
-MTEzNDEwXX0=
+eyJoaXN0b3J5IjpbLTUzOTkxNTA5NywtODQ3Mjg4MDQyLDEzMD
+EzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOTk3
+ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4MC
+wtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAy
+MjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5ND
+AzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2
+NjExMzQxMF19
 -->
