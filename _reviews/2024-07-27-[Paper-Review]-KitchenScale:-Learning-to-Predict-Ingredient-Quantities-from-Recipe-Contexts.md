@@ -60,14 +60,15 @@ date: 2024-07-27
 
 ### 수치 추론과 언어 모델링
 
-PLM(Pre-trained Lzn)은 이미 많은 자연어 처리 작업에서 사용되고 있다. BERT나 GPT가 그 예이다.
+PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 사용되고 있다. BERT나 GPT가 그 예이다.
 
+최근 들어, 자연어 처리(NLP) 분야에서 숫자를 다루는 작업이 중요하게 다루어지기 시작했다고 한다. 수치 지식과 수치 임베딩과 관련된 탐구
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNTUyNzc4MiwtMTg2MDY2ODczOCwtMz
-kyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMDk1NDc4NTMz
-LC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5Mzk0NjMsLT
-MxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NCwtMjAzNTEw
-MTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NC
-w3MTU2MDkyOTQsODEyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MTIy
-NTgyMF19
+eyJoaXN0b3J5IjpbMTc2NzM0NDcsLTE4NjA2Njg3MzgsLTM5Mj
+gzNzE0NiwxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3ODUzMywt
+OTM3NjEwOTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5NDYzLC0zMT
+AyMTY1ODMsNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEz
+Niw2NjA3MTI4NTYsLTEwNjAxMDU3MjQsLTE5NDU5MjkwNzQsNz
+E1NjA5Mjk0LDgxMjMyMDQ1MiwtMTUyNTQ2MjkxMCwzNTEyMjU4
+MjBdfQ==
 -->
