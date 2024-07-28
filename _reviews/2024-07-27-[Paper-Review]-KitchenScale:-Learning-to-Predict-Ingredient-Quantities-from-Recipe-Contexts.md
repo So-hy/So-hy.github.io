@@ -126,13 +126,15 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 -   이러한 방법은 여러 모델을 결합하여 예측 성능을 향상시킨다.
 
 
-가능도 기반 회귀는 모델이 주어지
+가능도 기반 회귀(Likelihood-Based Regression)는 모델이 주어진 데이터에 얼마나 잘 맞는지를 나타내는 가능도(likelihood)를 최대화하는 방향으로 매개변수를 조정하는 방법이다. 해당 전략의 주요 특징은 아래와 같다.
+
+모델의 가능도 함수(Like
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTMzNTc4NSwtNDk2ODYyMjkyLC0xMD
-ExMTQ1NzgxLC0xNDQ1Njk5MjgwLC03NjI5NjIyNTQsLTgwNDc4
-NzYwMywxODI3OTM5NjA0LDEzMDIyNTMzNzcsLTE4NjA2Njg3Mz
-gsLTM5MjgzNzE0NiwxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3
-ODUzMywtOTM3NjEwOTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5ND
-YzLC0zMTAyMTY1ODMsNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIw
-MzUxMDEzNl19
+eyJoaXN0b3J5IjpbLTE2MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMT
+AxMTE0NTc4MSwtMTQ0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3
+ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4Nz
+M4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0
+Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkzOT
+Q2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC0y
+MDM1MTAxMzZdfQ==
 -->
