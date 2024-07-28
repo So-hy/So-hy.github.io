@@ -66,13 +66,18 @@ PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 �
 
 Lin et al. (2020), Yamane et al. (2020), Elazar et al. (2019)[^2]
 
-[^2]: 
+[^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: 
+Probing Numerical Commonsense Knowledge of Pre-Trained Language Mod- 
+els, in: Proceedings of the 2020 Conference on Empirical Methods in Natu- 
+ral Language Processing (EMNLP), Association for Computational Linguis- 
+tics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. 
+emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMjI1MzM3NywtMTg2MDY2ODczOCwtMz
-kyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMDk1NDc4NTMz
-LC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5Mzk0NjMsLT
-MxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NCwtMjAzNTEw
-MTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0NTkyOTA3NC
-w3MTU2MDkyOTQsODEyMzIwNDUyLC0xNTI1NDYyOTEwLDM1MTIy
-NTgyMF19
+eyJoaXN0b3J5IjpbMTk4MjIxMzIwNywxMzAyMjUzMzc3LC0xOD
+YwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMz
+LDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMT
+UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
+OTQ0LC0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC
+0xOTQ1OTI5MDc0LDcxNTYwOTI5NCw4MTIzMjA0NTIsLTE1MjU0
+NjI5MTBdfQ==
 -->
