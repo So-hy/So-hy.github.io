@@ -65,34 +65,42 @@ PLM(Pre-trained Language Model)은 이미 많은 자연어 처리 작업에서 �
 
 Lin et al. (2020), Yamane et al. (2020), Elazar et al. (2019)[^2]
 
-[^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
-forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
-How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
-Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 18653/v1/P19- 1388.
 
 또다른 연구는 PLM이 일반적으로 숫자의 크기를 학습할 수 있다고 말한다.
 
 Zhang et al., 2020[^3]
 
-[^3]: Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. How large are lions? inducing distributions over quantitative attributes, in: 
-Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10.18653/v1/P19- 1388.
+
 
 그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)이 더 효과적이다는 것을 밝혔다고 한다.(Spithourakis and Riedel, 2018)[^4] 그러한 방법 중 하나가 바로 해당 연구에서 사용하는 DExp 방법이다.(Spokoyny and Berg-Kirkpatrick, 2020)[^5]
 
-[^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and improving their ability to predict numbers, in: Proceedings of the 56th Annual 
-Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
-[^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
+
 
 
 
 
 ### 수치 추론과 언어 모델링
+
+
+
+[^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
+forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
+How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
+Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 18653/v1/P19- 1388.
+
+[^3]: Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. How large are lions? inducing distributions over quantitative attributes, in: 
+Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10.18653/v1/P19- 1388.
+
+
+[^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and improving their ability to predict numbers, in: Proceedings of the 56th Annual 
+Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
+[^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzOTkxNTA5NywtODQ3Mjg4MDQyLDEzMD
-EzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOTk3
-ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4MC
-wtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYwNCwxMzAy
-MjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5ND
-AzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2
-NjExMzQxMF19
+eyJoaXN0b3J5IjpbLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMz
+AxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5
+NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyOD
+AsLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMw
+MjI1MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OT
+QwMzIsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0
+NjYxMTM0MTBdfQ==
 -->
