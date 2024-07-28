@@ -92,15 +92,14 @@ Linguistics, Association for Computational Linguistics, Florence, Italy. pp.
 3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
 18653/v1/P19- 1388.
 
-그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)
-
+그러나 특정 도메인의 데이터 셋에서는 숫자의 분포 특성 때문에 회귀(숫자 예측) 작업에서 어려움을 겪을 수 있다. 전통적인 선형 회귀 방법으로 간단한 숫자 값을 예측하려는 연구가 있었으나, 고차원 수치에 대한 예측은 가능도 기반 회귀(Likelihood-Based Regression)이 더 효과적이다는 것을 밝혔다고 한다.(Spithourakis and Riedel, 2018) 그러한 가능도 기반 회귀 전략 중 하나인 DExp 방법을 도입하여 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjQ1ODQ4NDMsLTc2Mjk2MjI1NCwtOD
-A0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2
-ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMD
-k1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5
-Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NC
-wtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0
-NTkyOTA3NF19
+eyJoaXN0b3J5IjpbMTQ4MjQyNzc1MywtNzYyOTYyMjU0LC04MD
+Q3ODc2MDMsMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4
+NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOT
+U0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkz
+OTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC
+0yMDM1MTAxMzYsNjYwNzEyODU2LC0xMDYwMTA1NzI0LC0xOTQ1
+OTI5MDc0XX0=
 -->
