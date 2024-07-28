@@ -119,13 +119,20 @@ emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
  - 데이터가 선형 관계가 아닌 경우, 비선형 함수를 사용하여 모델링하는 경우이다. (ex: $\tanh x$)
  - 특정 함수 형태(예: 다항식, 지수 함수 등)를 가정하고 데이터를 피팅한다.
 
+#### **회귀 트리 및 앙상블 방법**
 
+
+-   결정 트리, 랜덤 포레스트, 그라디언트 부스팅 등 다양한 앙상블 기법을 사용하여 복잡한 데이터 관계를 모델링.
+-   이러한 방법은 여러 모델을 결합하여 예측 성능을 향상시킨다.
+
+
+가능도 기반 회귀는 모델이 주어지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMT
-Q0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkz
-OTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4MzcxND
-YsMTMyMzY5NDAzMiw3MzE3MDMzLDEwOTU0Nzg1MzMsLTkzNzYx
-MDk3MCwtMTQ2NjExMzQxMCwtMTUwNDkzOTQ2MywtMzEwMjE2NT
-gzLDY5NTMxNTc1OSwxNTc1MTkyOTQ0LC0yMDM1MTAxMzYsNjYw
-NzEyODU2XX0=
+eyJoaXN0b3J5IjpbMTU0MTMzNTc4NSwtNDk2ODYyMjkyLC0xMD
+ExMTQ1NzgxLC0xNDQ1Njk5MjgwLC03NjI5NjIyNTQsLTgwNDc4
+NzYwMywxODI3OTM5NjA0LDEzMDIyNTMzNzcsLTE4NjA2Njg3Mz
+gsLTM5MjgzNzE0NiwxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3
+ODUzMywtOTM3NjEwOTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5ND
+YzLC0zMTAyMTY1ODMsNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIw
+MzUxMDEzNl19
 -->
