@@ -103,12 +103,14 @@ alized number prediction, in: Proceedings of the 2020 Conference on Empirical
 Methods in Natural Language Processing (EMNLP), Association for Compu- 
 tational Linguistics, Online. URL: https://aclanthology.org/2020. 
 emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
+
+여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU2OTkyODAsLTc2Mjk2MjI1NCwtOD
-A0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2
-ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMD
-k1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYxMTM0MTAsLTE1MDQ5
-Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NTksMTU3NTE5Mjk0NC
-wtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2MDEwNTcyNCwtMTk0
-NTkyOTA3NF19
+eyJoaXN0b3J5IjpbLTIxMzQ3MzY1MzQsLTE0NDU2OTkyODAsLT
+c2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1
+MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMz
+IsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYx
+MTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NT
+ksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2
+MDEwNTcyNF19
 -->
