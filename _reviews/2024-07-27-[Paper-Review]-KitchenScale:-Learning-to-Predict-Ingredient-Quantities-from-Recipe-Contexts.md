@@ -72,8 +72,19 @@ els, in: Proceedings of the 2020 Conference on Empirical Methods in Natu-
 ral Language Processing (EMNLP), Association for Computational Linguis- 
 tics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. 
 emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557.
+Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a 
+word embedding approach effective? URL: https://openreview.net/ 
+forum?id=B1xbTlBKwB
+Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
+How large are lions? inducing distributions over quantitative attributes, in: 
+Proceedings of the 57th Annual Meeting of the Association for Computational 
+Linguistics, Association for Computational Linguistics, Florence, Italy. pp. 
+3973–3983. URL: https://aclanthology.org/P19- 1388, doi:10. 
+18653/v1/P19- 1388.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MjIxMzIwNywxMzAyMjUzMzc3LC0xOD
+eyJoaXN0b3J5IjpbMTgyNzkzOTYwNCwxMzAyMjUzMzc3LC0xOD
 YwNjY4NzM4LC0zOTI4MzcxNDYsMTMyMzY5NDAzMiw3MzE3MDMz
 LDEwOTU0Nzg1MzMsLTkzNzYxMDk3MCwtMTQ2NjExMzQxMCwtMT
 UwNDkzOTQ2MywtMzEwMjE2NTgzLDY5NTMxNTc1OSwxNTc1MTky
