@@ -104,18 +104,27 @@ Methods in Natural Language Processing (EMNLP), Association for Compu-
 tational Linguistics, Online. URL: https://aclanthology.org/2020. 
 emnlp- main.385, doi:10.18653/v1/2020.emnlp- main.385.
 
-여기서 말하는 선형 회귀, 그리고 가능도 기반 회귀는 뭘까? 
+여기서 말하는 기존의 회귀, 그리고 가능도 기반 회귀는 뭘까? 
 
-선형 회귀(Linear Regression):
+기존의 회귀 방법에는 다음과 같은 것이 있다.
+
+#### **선형 회귀(Linear Regression):**
+
 -   가장 단순한 회귀 모델로, 독립 변수와 종속 변수 간의 선형 관계를 가정.
 -   손실 함수로 보통 평균 제곱 오차(MSE)를 사용.
 -   예: $$y = \beta_0 + \beta_1 x + \epsilon$$, 여기서 $\epsilon$은 오차항이다.
+
+#### **비선형 회귀(Non-Linear Regression):**
+
+ - 선형 관계가 아닌 경우, 비선형 함수를 사용하여 모델링합니다. 
+ - 특정 함수 형태(예: 다항식, 지수 함수 등)를 가정하고 데이터를 피팅합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLT
-c2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1
-MzM3NywtMTg2MDY2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMz
-IsNzMxNzAzMywxMDk1NDc4NTMzLC05Mzc2MTA5NzAsLTE0NjYx
-MTM0MTAsLTE1MDQ5Mzk0NjMsLTMxMDIxNjU4Myw2OTUzMTU3NT
-ksMTU3NTE5Mjk0NCwtMjAzNTEwMTM2LDY2MDcxMjg1NiwtMTA2
-MDEwNTcyNF19
+eyJoaXN0b3J5IjpbNTc2NjE4ODc0LC0xMDExMTQ1NzgxLC0xND
+Q1Njk5MjgwLC03NjI5NjIyNTQsLTgwNDc4NzYwMywxODI3OTM5
+NjA0LDEzMDIyNTMzNzcsLTE4NjA2Njg3MzgsLTM5MjgzNzE0Ni
+wxMzIzNjk0MDMyLDczMTcwMzMsMTA5NTQ3ODUzMywtOTM3NjEw
+OTcwLC0xNDY2MTEzNDEwLC0xNTA0OTM5NDYzLC0zMTAyMTY1OD
+MsNjk1MzE1NzU5LDE1NzUxOTI5NDQsLTIwMzUxMDEzNiw2NjA3
+MTI4NTZdfQ==
 -->
