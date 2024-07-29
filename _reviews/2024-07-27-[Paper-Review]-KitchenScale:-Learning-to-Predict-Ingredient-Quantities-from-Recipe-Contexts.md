@@ -140,21 +140,21 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 측정 단위(cup, Tablespoon 등)를 예측한다.
-    -   모델링:$P(u | C, i_{t\_d})$, 여기서 $u$는 측정 단위, $C$는 레시피 문맥, $i_{t\_d}$는 측정 유형을 의미한다.
+    -   모델링: $P(u | C, i_{t\_d})$, 여기서 $u$ 는 측정 단위, $C$ 는 레시피 문맥, $i_{t\_d}$ 는 측정 유형을 의미한다.
    
 
  3. **재료 양 회귀 (Ingredient Quantity Regression)**:
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 정확한 양을 예측하는 단계다.
-    -   모델링: $P(q | C, i_{t\_d})$, 여기서 $q$는 재료의 양, $C$는 레시피 문맥, $i_{t\_d}$​는 측정 유형을 의미한다.
+    -   모델링: $P(q | C, i_{t\_d})$ , 여기서 $q$ 는 재료의 양, $C$ 는 레시피 문맥, $i_{t\_d}$​ 는 측정 유형을 의미한다.
 
 
-위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$의 텍스트 요소에 대한 정의도 설명하고 있다.
+위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$ 의 텍스트 요소에 대한 정의도 설명하고 있다.
 
 #### 타겟 재료의 텍스트 요소 정의
 
-1.  **설명 이름(Descriptive Name) ${t\_DescName}$​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름이다. 설명 단어가 제거된 타겟 재료 이름은 ${t\_Name}$​으로 표시된다.
+1.  **설명 이름(Descriptive Name) ${t\_DescName}$​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름이다. 설명 단어가 제거된 타겟 재료 이름은 ${t\_Name}$​ 으로 표시된다.
     
 2.  **측정 유형(Measurement Type) $i_{t\_d}$**: 측정 방법을 결정하는 재료 속성이다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용한다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjMxNzE1MiwxNTA4MzEyMTA2LDUxNT
-I0OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMw
-LDUwOTUwODEzMSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nz
-k2NzQwMSwtMTUwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkxMjY1
-NjYwMiwtMjEwNTM3OTUyMSwtMTI3MTYyNTE2NCwtMTUwMjEwNz
-AzMywtNjYwMDYzNTEwLDIwMDcyMjg4NDgsLTE4NTc1NjUwMTQs
-LTk0Njg2NjE3M119
+eyJoaXN0b3J5IjpbLTE0MzcxMTY0MTAsMTUwODMxMjEwNiw1MT
+UyNDk4NTcsMTUwODMxMjEwNiwxNTg1MTI1NTYwLDI1NTMyMjQz
+MCw1MDk1MDgxMzEsNTk1MzkwNTk4LC0yMjIwOTUzMjQsLTEwOD
+c5Njc0MDEsLTE1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLTE5MTI2
+NTY2MDIsLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1MDIxMD
+cwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1MDE0
+LC05NDY4NjYxNzNdfQ==
 -->
