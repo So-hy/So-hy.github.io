@@ -181,6 +181,8 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
 
 예) RecipeDB에 "2 cups of flour" 라는 정보가 있을 때, 원본 레시피 텍스트에도 동일한 정보가 포함되어 있을 수 있다.
 마스킹 과정에서 RecipeDB에 저장된 수치 값과 단위를 원본 텍스트에서 찾아서 일치시키는 작업을 수행한다. 즉, RecipeDB의 "2 cups" 와 원본 텍스트의 "2 cups" 을 일치 시킨다.
+일치된 수치 값과 단위를 마스킹합니다. 이는 모델이 해당 정보를 학습하지 않고 예측하도록 하기 위함이다. 예를 들어, "2 cups of flour 라는 텍스트에서 "2 cups" 부분을 마스킹하여 "__ cups of flour" 로 변환한다.
+
 
 -   **측정 단위 정규화**:
     
@@ -207,11 +209,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MzkwNTk4LC0yMjIwOTUzMjQsLTEwOD
-c5Njc0MDEsLTE1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLTE5MTI2
-NTY2MDIsLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1MDIxMD
-cwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1MDE0
-LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1LDEzMD
-QxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMTM3MjUz
-Nzg3LC0xMzE4NTM5NzM0XX0=
+eyJoaXN0b3J5IjpbNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMD
+k1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3
+OTExLC0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MT
+Y0LC0xNTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIyODg0OCwt
+MTg1NzU2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzODksMTI5Mj
+YzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4NjAsLTEwMTI1OTEx
+OTMsLTEzNzI1Mzc4N119
 -->
