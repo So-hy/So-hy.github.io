@@ -97,13 +97,13 @@ Zhang et al., 2020[^3]
     
 -   **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합입니다.$|I_o\cap \{i_t\}| = 0$이고, $I_o\cup \{i_t\} = I$입니다.
     
--   **제목 eee**: 최종 요리를 간략히 설명하는 레시피의 제목입니다.
+-   **제목 $e$**: 최종 요리를 간략히 설명하는 레시피의 제목입니다.
     
--   **태그 BBB**: 요리의 지역, 요리 시간, 요리 카테고리 등의 특정 정보를 제공하는 m개의 태그입니다. B={b0,b1,...,bm−1}B = \{b_0, b_1, ... , b_{m-1}\}B={b0​,b1​,...,bm−1​}로 표현되며, ∣B∣=m|B| = m∣B∣=m입니다.
+-   **태그 $B$**: 요리의 지역, 요리 시간, 요리 카테고리 등의 특정 정보를 제공하는 m개의 태그입니다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$입니다.
     
--   **서빙 수 sss**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정할 수 있는 스칼라 값입니다.
+-   **서빙 수 $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정할 수 있는 스칼라 값입니다.
     
--   **레시피 문맥 질의 구성 CCC**: 소스 레시피 RRR에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의입니다. 각 수치 탐구 과제는 C={it,Io,B,e,s}C = \{i_t, I_o, B, e, s\}C={it​,Io​,B,e,s}를 입력으로 사용합니다.
+-   **레시피 문맥 질의 구성 $C$**: 소스 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의입니다. 각 수치 탐구 과제는$C = \{i_t, I_o, B, e, s\}$를 입력으로 사용합니다.
 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -119,11 +119,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1OTEwMDkwMiwtMTM3MjUzNzg3LC0xMz
-E4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIwMDA1MzM5LC04NDcy
-ODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAzNTgsMTYwNTI3NzcxNS
-wtMTYyNTI5OTc4MywtNDk2ODYyMjkyLC0xMDExMTQ1NzgxLC0x
-NDQ1Njk5MjgwLC03NjI5NjIyNTQsLTgwNDc4NzYwMywxODI3OT
-M5NjA0LDEzMDIyNTMzNzcsLTE4NjA2Njg3MzgsLTM5MjgzNzE0
-NiwxMzIzNjk0MDMyXX0=
+eyJoaXN0b3J5IjpbLTEwMTI1OTExOTMsLTEzNzI1Mzc4NywtMT
+MxODUzOTczNCwtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwtODQ3
+Mjg4MDQyLDEzMDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MT
+UsLTE2MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwt
+MTQ0NTY5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNz
+kzOTYwNCwxMzAyMjUzMzc3LC0xODYwNjY4NzM4LC0zOTI4Mzcx
+NDYsMTMyMzY5NDAzMl19
 -->
