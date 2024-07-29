@@ -133,14 +133,14 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
     
     -   주어진 레시피 문맥과 타겟 재료를 기반으로, 해당 재료의 측정 유형(부피 또는 무게)을 예측하는 단계이다.
-    -   모델링: $P(d | C)$ , 여기서 $d$ 는 측정 유형, $C$ 는 레시피 문맥을 의미한다.
+    -   모델링: $P(d$ | $C)$ , 여기서 $d$ 는 측정 유형, $C$ 는 레시피 문맥을 의미한다.
    
   
  2. **재료 측정 단위 분류 (Ingredient Measurement Unit Classification)**:
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 측정 단위(cup, Tablespoon 등)를 예측한다.
-    -   모델링: $P(u | C, i_{t\_d})$, 여기서 $u$ 는 측정 단위, $C$ 는 레시피 문맥, $i_{t\_d}$ 는 측정 유형을 의미한다.
+    -   모델링: $P(u$ | $C, i_{t\_d})$, 여기서 $u$ 는 측정 단위, $C$ 는 레시피 문맥, $i_{t\_d}$ 는 측정 유형을 의미한다.
    
 
  3. **재료 양 회귀 (Ingredient Quantity Regression)**:
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTE2MjM4OTgsOTU1NjcyMDcwLDIxMz
-E1MjAzOCwtMTQzNzExNjQxMCwxNTA4MzEyMTA2LDUxNTI0OTg1
-NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMwLDUwOT
-UwODEzMSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nzk2NzQw
-MSwtMTUwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkxMjY1NjYwMi
-wtMjEwNTM3OTUyMSwtMTI3MTYyNTE2NCwtMTUwMjEwNzAzMywt
-NjYwMDYzNTEwXX0=
+eyJoaXN0b3J5IjpbMTA1MjU4OTQxNCwtMTQ5MTYyMzg5OCw5NT
+U2NzIwNzAsMjEzMTUyMDM4LC0xNDM3MTE2NDEwLDE1MDgzMTIx
+MDYsNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNT
+UzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0
+LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC
+0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0x
+NTAyMTA3MDMzXX0=
 -->
