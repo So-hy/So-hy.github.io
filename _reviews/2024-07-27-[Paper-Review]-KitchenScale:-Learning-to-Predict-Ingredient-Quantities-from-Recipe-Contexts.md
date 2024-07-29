@@ -108,14 +108,13 @@ Zhang et al., 2020[^3]
 수치 탐구 과제..?(Numeracy probing task) 라는 말이 나오는데 처음 보는 말이라 따로 찾아보았다.
 
 > 수치 탐구 과제는 NLP에서 모델이 수치를 얼마나 잘 이해하고 예측할 수 있는지를 평가하기 위한 특정 과제를 의미한다. 쉽게 말해, 모델이 숫자 데이터를 다루는 능력을 시험하고 강화하는 과제이다.
->
 > 
-> 수치 탐구 과제는 모델이 수치적 데이터를 처리하고 예측하는 능력을 평가하는 여러 작업을 포함합니다. 이런 과제는 다음과 같은
-> 요소들을 포함할 수 있습니다:
+> 수치 탐구 과제는 모델이 수치적 데이터를 처리하고 예측하는 능력을 평가하는 여러 작업을 포함한다. 
+> 이런 과제는 다음과 같은 요소들을 포함할 수 있습니다:
 > 
 > 1.  **수치 데이터의 이해**:
 >     
->     -   모델이 숫자와 그 의미를 이해하는 능력을 평가합니다.
+>     -   모델이 숫자와 그 의미를 이해하는 능력을 평가한다.
 >     -   예: 텍스트에서 "3 apples"라는 구문을 이해하고, 숫자 3과 사과를 연결하는 능력.
 > 2.  **수치 데이터의 예측**:
 >     
@@ -139,11 +138,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM5MTEyMDU3LC05NDY4NjYxNzMsLTE1MT
-g4NjM4OSwxMjkyNjMyOTc1LDEzMDQxMjA3OTMsLTEyNTY4NTg2
-MCwtMTAxMjU5MTE5MywtMTM3MjUzNzg3LC0xMzE4NTM5NzM0LC
-0xODM2NDkzNzE2LC0xMTIwMDA1MzM5LC04NDcyODgwNDIsMTMw
-MTMyMDkxNCw3NjY0OTAzNTgsMTYwNTI3NzcxNSwtMTYyNTI5OT
-c4MywtNDk2ODYyMjkyLC0xMDExMTQ1NzgxLC0xNDQ1Njk5Mjgw
-LC03NjI5NjIyNTRdfQ==
+eyJoaXN0b3J5IjpbMTk4MzYwNDc4NywtOTQ2ODY2MTczLC0xNT
+E4ODYzODksMTI5MjYzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4
+NjAsLTEwMTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUzOTczNC
+wtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEz
+MDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOT
+k3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4
+MCwtNzYyOTYyMjU0XX0=
 -->
