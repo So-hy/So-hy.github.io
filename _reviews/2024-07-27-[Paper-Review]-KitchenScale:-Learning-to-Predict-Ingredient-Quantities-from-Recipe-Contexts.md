@@ -84,6 +84,11 @@ Zhang et al., 2020[^3]
 
 이런 제안 뿐만 아니라 레시피 모델의 학습에 쓰일 데이터셋을 구축하는 연구도 있었다. Recipe1M은 100만개 이상의 요리 레시피와 1,300만 개의 음식 이미지를 포함하는 다중 모달 데이터셋이다. 여러 연구들이 이 데이터셋을 활용해 레시피 마이닝을 수행했고 RecipeDB와 Reciptor는 더 구조화된 데이터 요소를 도입했다. 본 연구에서는 위의 두 데이터셋을 통합하여 보다 포괄적이고 구조화된 데이터셋을 구축했다.
 
+##  Ingredient Quantity  Prediction  Task
+
+
+
+
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -98,11 +103,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzY0OTM3MTYsLTExMjAwMDUzMzksLT
-g0NzI4ODA0MiwxMzAxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3
-NzE1LC0xNjI1Mjk5NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3OD
-EsLTE0NDU2OTkyODAsLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4
-Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MDY2ODczOCwtMzkyOD
-M3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywxMDk1NDc4NTMzLC05
-Mzc2MTA5NzBdfQ==
+eyJoaXN0b3J5IjpbLTEzMTg1Mzk3MzQsLTE4MzY0OTM3MTYsLT
+ExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIwOTE0LDc2NjQ5
+MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5NzgzLC00OTY4NjIyOT
+IsLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLTc2Mjk2MjI1NCwt
+ODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3NywtMTg2MD
+Y2ODczOCwtMzkyODM3MTQ2LDEzMjM2OTQwMzIsNzMxNzAzMywx
+MDk1NDc4NTMzXX0=
 -->
