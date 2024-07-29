@@ -89,7 +89,7 @@ Zhang et al., 2020[^3]
 
 이 섹션에서는 요리 레시피에서 사용되는 다양한 의미 요소들에 대해 정의하고, 제안된 재료 양 예측 과제를 설명한다.
 
--   **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미(sementics)를 설명하는 레시피다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그? $B$, 그리고 몇 인분에 대한 값 $s$로 구성됩니다.
+-   **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미(sementics)를 설명하는 레시피다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그? $B$, 그리고 몇 인분에 대한 값 $s$로 구성ㄷ다.
     
 -   **재료 $I$**: 레시피의 n가지 기본 요소로, 최종 요리의 맛과 질감을 결정합니다. 각 재료는 $I = \{i_0, i_1, ... , i_{n-1}\}$로 표현되며, $|I| = n$입니다.
     
@@ -119,11 +119,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDEyMDc5MywtMTI1Njg1ODYwLC0xMD
-EyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLTE4MzY0
-OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIwOT
-E0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5NzgzLC00
-OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLTc2Mj
-k2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2MDQsMTMwMjI1MzM3
-NywtMTg2MDY2ODczOF19
+eyJoaXN0b3J5IjpbLTcyODA3MzY3NywxMzA0MTIwNzkzLC0xMj
+U2ODU4NjAsLTEwMTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUz
+OTczNCwtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MD
+QyLDEzMDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2
+MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NT
+Y5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYw
+NCwxMzAyMjUzMzc3XX0=
 -->
