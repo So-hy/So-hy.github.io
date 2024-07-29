@@ -116,6 +116,7 @@ Zhang et al., 2020[^3]
 >     
 >     -   모델이 숫자와 그 의미를 이해하는 능력을 평가한다.
 >     -   예: 텍스트에서 "3 apples"라는 구문을 이해하고, 숫자 3과 사과를 연결하는 능력.
+>     
 > 2.  **수치 데이터의 예측**:
 >     
 >     -   주어진 문맥에서 올바른 숫자를 예측하는 능력을 평가합니다.
@@ -138,11 +139,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MzYwNDc4NywtOTQ2ODY2MTczLC0xNT
-E4ODYzODksMTI5MjYzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4
-NjAsLTEwMTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUzOTczNC
-wtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEz
-MDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOT
-k3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4
-MCwtNzYyOTYyMjU0XX0=
+eyJoaXN0b3J5IjpbLTIxMjk5MTg0ODksLTk0Njg2NjE3MywtMT
+UxODg2Mzg5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1
+ODYwLC0xMDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3Mz
+QsLTE4MzY0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0Miwx
+MzAxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mj
+k5NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTky
+ODAsLTc2Mjk2MjI1NF19
 -->
