@@ -158,9 +158,9 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
     
 2.  **측정 유형 $i_{t\_d}$**: 측정 방법을 결정하는 재료 속성입니다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용합니다.
     
-3.  **측정 단위 it_ui_{t\_u}it_u​**: 타겟 재료의 물리적 성분을 표현하는 표준 단위입니다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용합니다.
+3.  **측정 단위 $i_{t\_u}$**: 타겟 재료의 물리적 성분을 표현하는 표준 단위입니다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용합니다.
     
-4.  **양 it_qi_{t\_q}it_q​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값입니다.
+4.  **양 $i_{t\_q}$​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값입니다.
 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -176,11 +176,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDEwNTA3MjkyLC0yMTA1Mzc5NTIxLC0xMj
-cxNjI1MTY0LC0xNTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIy
-ODg0OCwtMTg1NzU2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzOD
-ksMTI5MjYzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4NjAsLTEw
-MTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUzOTczNCwtMTgzNj
-Q5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEzMDEzMjA5
-MTQsNzY2NDkwMzU4XX0=
+eyJoaXN0b3J5IjpbLTE5MTg5Nzc2OSwtMjEwNTM3OTUyMSwtMT
+I3MTYyNTE2NCwtMTUwMjEwNzAzMywtNjYwMDYzNTEwLDIwMDcy
+Mjg4NDgsLTE4NTc1NjUwMTQsLTk0Njg2NjE3MywtMTUxODg2Mz
+g5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1ODYwLC0x
+MDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLTE4Mz
+Y0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIw
+OTE0LDc2NjQ5MDM1OF19
 -->
