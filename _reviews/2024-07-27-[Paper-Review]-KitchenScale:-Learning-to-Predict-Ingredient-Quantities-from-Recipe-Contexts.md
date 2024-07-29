@@ -160,7 +160,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
     
 3.  **측정 단위(Measurement Unit) $i_{t\_u}$** : 타겟 재료의 물리적 성분을 표현하는 표준 단위다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용한다.
     
-4.  **양(Quantity) $i_{t\_q}$​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값이다.
+4.  **양(Quantity) $i_{t\_q}$​** : 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값이다.
 
 
 이번엔 본 연구에서 사용된 데이터셋을 확인해보자.
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzIwOTE4OTAyLC0xNjI1MzMwOTU2LDExNj
-U5NjM3NTAsLTE0OTE2MjM4OTgsOTU1NjcyMDcwLDIxMzE1MjAz
-OCwtMTQzNzExNjQxMCwxNTA4MzEyMTA2LDUxNTI0OTg1NywxNT
-A4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMwLDUwOTUwODEz
-MSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nzk2NzQwMSwtMT
-UwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkxMjY1NjYwMiwtMjEw
-NTM3OTUyMV19
+eyJoaXN0b3J5IjpbMTg1MDEyNTY5MiwtMTYyNTMzMDk1NiwxMT
+Y1OTYzNzUwLC0xNDkxNjIzODk4LDk1NTY3MjA3MCwyMTMxNTIw
+MzgsLTE0MzcxMTY0MTAsMTUwODMxMjEwNiw1MTUyNDk4NTcsMT
+UwODMxMjEwNiwxNTg1MTI1NTYwLDI1NTMyMjQzMCw1MDk1MDgx
+MzEsNTk1MzkwNTk4LC0yMjIwOTUzMjQsLTEwODc5Njc0MDEsLT
+E1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLTIx
+MDUzNzk1MjFdfQ==
 -->
