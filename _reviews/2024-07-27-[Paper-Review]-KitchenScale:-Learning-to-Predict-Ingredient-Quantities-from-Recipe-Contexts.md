@@ -154,7 +154,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
 #### 타겟 재료의 텍스트 요소 정의
 
-1.  **설명 이름(Descriptive Name) ${t\_DescName}$​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름이다. 설명 단어가 제거된 타겟 재료 이름은 ${t\_Name}$​ 으로 표시된다.
+1.  **설명 이름(Descriptive Name) ${t\_DescName}$​** : '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름이다. 설명 단어가 제거된 타겟 재료 이름은 ${t\_Name}$​ 으로 표시된다.
     
 2.  **측정 유형(Measurement Type) $i_{t\_d}$**: 측정 방법을 결정하는 재료 속성이다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용한다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjUzMzA5NTYsMTE2NTk2Mzc1MCwtMT
-Q5MTYyMzg5OCw5NTU2NzIwNzAsMjEzMTUyMDM4LC0xNDM3MTE2
-NDEwLDE1MDgzMTIxMDYsNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMT
-U4NTEyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5
-OCwtMjIyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC
-0yMTQxMDU3OTExLC0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0x
-MjcxNjI1MTY0XX0=
+eyJoaXN0b3J5IjpbMTQyNDY2NDA2MiwtMTYyNTMzMDk1NiwxMT
+Y1OTYzNzUwLC0xNDkxNjIzODk4LDk1NTY3MjA3MCwyMTMxNTIw
+MzgsLTE0MzcxMTY0MTAsMTUwODMxMjEwNiw1MTUyNDk4NTcsMT
+UwODMxMjEwNiwxNTg1MTI1NTYwLDI1NTMyMjQzMCw1MDk1MDgx
+MzEsNTk1MzkwNTk4LC0yMjIwOTUzMjQsLTEwODc5Njc0MDEsLT
+E1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLTIx
+MDUzNzk1MjFdfQ==
 -->
