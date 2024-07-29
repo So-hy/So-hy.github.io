@@ -191,7 +191,7 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
     -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 추출했다.
     -   그 후, 단위의 혼동을 피하기 위해 약어를 명확히 하고, 복수형 표현을 단수형으로 정규화했다(예: pounds를 lb로 변환).
     -   국제단위계(SI) 기준에 따라 14개의 측정 단위와 2개의 측정 유형(부피, 무게)을 사용했다. 부피의 기본 단위는 ml, 무게의 기본 단위는 g로 설정했다.
-    -   타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했다.
+    -   또한 타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했다.
    
     
 -   **수치 값 정규화**:
@@ -213,11 +213,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjIyNTc5NDc0LDEzMjQwODY0NDQsLTExND
-EzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC0xNjI1MzMw
-OTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OTgsOTU1NjcyMDcwLD
-IxMzE1MjAzOCwtMTQzNzExNjQxMCwxNTA4MzEyMTA2LDUxNTI0
-OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMwLD
-UwOTUwODEzMSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nzk2
-NzQwMV19
+eyJoaXN0b3J5IjpbLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMT
+E0MTM1NjkyMiwtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUz
+MzA5NTYsMTE2NTk2Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNz
+AsMjEzMTUyMDM4LC0xNDM3MTE2NDEwLDE1MDgzMTIxMDYsNTE1
+MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0Mz
+AsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0LC0xMDg3
+OTY3NDAxXX0=
 -->
