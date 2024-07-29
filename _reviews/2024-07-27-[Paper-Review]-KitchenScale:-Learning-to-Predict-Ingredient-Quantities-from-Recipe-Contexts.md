@@ -179,6 +179,9 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
     -   타겟 재료와 관련된 수치 정보를 재료 양 예측 과제에 맞게 마스킹했다.
     -   마스킹 과정은 RecipeDB와 원본 재료 텍스트의 숫자 값과 단위를 일치시키는 방식으로 수행되었다.
 
+예) RecipeDB에 "2 cups of flour" 라는 정보가 있을 때, 원본 레시피 텍스트에도 동일한 정보가 포함되어 있을 수 있다.
+마스킹 과정에서 RecipeDB에 저장된 수치 값과 단위를 원본 텍스트에서 찾아서 일
+
 -   **측정 단위 정규화**:
     
     -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 사용했습니다.
@@ -204,11 +207,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMjc2MjU1MCwtMjIyMDk1MzI0LC0xMD
-g3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC0xOTEy
-NjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0xNTAyMT
-A3MDMzLC02NjAwNjM1MTAsMjAwNzIyODg0OCwtMTg1NzU2NTAx
-NCwtOTQ2ODY2MTczLC0xNTE4ODYzODksMTI5MjYzMjk3NSwxMz
-A0MTIwNzkzLC0xMjU2ODU4NjAsLTEwMTI1OTExOTMsLTEzNzI1
-Mzc4NywtMTMxODUzOTczNF19
+eyJoaXN0b3J5IjpbLTE4NzUyMDExNzMsLTIyMjA5NTMyNCwtMT
+A4Nzk2NzQwMSwtMTUwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkx
+MjY1NjYwMiwtMjEwNTM3OTUyMSwtMTI3MTYyNTE2NCwtMTUwMj
+EwNzAzMywtNjYwMDYzNTEwLDIwMDcyMjg4NDgsLTE4NTc1NjUw
+MTQsLTk0Njg2NjE3MywtMTUxODg2Mzg5LDEyOTI2MzI5NzUsMT
+MwNDEyMDc5MywtMTI1Njg1ODYwLC0xMDEyNTkxMTkzLC0xMzcy
+NTM3ODcsLTEzMTg1Mzk3MzRdfQ==
 -->
