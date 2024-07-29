@@ -188,10 +188,10 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
 
 -   **측정 단위 정규화**:
     
-    -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 사용했다.
-    -   단위의 혼동을 피하기 위해 약어를 명확히 하고, 복수형 표현을 단수형으로 정규화했습니다(예: pounds를 lb로 변환).
-    -   국제단위계(SI) 기준에 따라 14개의 측정 단위와 2개의 측정 유형(부피, 무게)을 사용했습니다. 부피의 기본 단위는 ml, 무게의 기본 단위는 g입니다.
-    -   타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했습니다.
+    -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 추출했다.
+    -   그 후, 단위의 혼동을 피하기 위해 약어를 명확히 하고, 복수형 표현을 단수형으로 정규화했다(예: pounds를 lb로 변환).
+    -   국제단위계(SI) 기준에 따라 14개의 측정 단위와 2개의 측정 유형(부피, 무게)을 사용했다. 부피의 기본 단위는 ml, 무게의 기본 단위는 g입니다.
+    -   타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했다.
 -   **수치 값 정규화**:
     
     -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했습니다.
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxOD
-UwMTI1NjkyLC0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2
-MjM4OTgsOTU1NjcyMDcwLDIxMzE1MjAzOCwtMTQzNzExNjQxMC
-wxNTA4MzEyMTA2LDUxNTI0OTg1NywxNTA4MzEyMTA2LDE1ODUx
-MjU1NjAsMjU1MzIyNDMwLDUwOTUwODEzMSw1OTUzOTA1OTgsLT
-IyMjA5NTMyNCwtMTA4Nzk2NzQwMSwtMTUwMTc0Mzc1MywtMjE0
-MTA1NzkxMV19
+eyJoaXN0b3J5IjpbLTE1Mzg0MzU4NCwtMTE0MTM1NjkyMiwtMz
+M0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NTYsMTE2NTk2
+Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNzAsMjEzMTUyMDM4LC
+0xNDM3MTE2NDEwLDE1MDgzMTIxMDYsNTE1MjQ5ODU3LDE1MDgz
+MTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLD
+U5NTM5MDU5OCwtMjIyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAx
+NzQzNzUzXX0=
 -->
