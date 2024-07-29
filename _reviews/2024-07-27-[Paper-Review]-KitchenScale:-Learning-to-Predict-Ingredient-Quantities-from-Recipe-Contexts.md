@@ -95,7 +95,7 @@ Zhang et al., 2020[^3]
     
 - **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료이다 ($i_t \in I$).
     
-- **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합이다.$|I_o\cap \{i_t\}| = 0$이고, $I_o\cup \{i_t\} = I$이다.
+- **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합이다.$|I_o\cap\{i_t\}|=0$이고, $I_o\cup\{i_t\} = I$이다.
     
 - **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk4OTg2OTYsMTU4NTEyNTU2MCwyNT
-UzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0
-LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC
-0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0x
-NTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIyODg0OCwtMTg1Nz
-U2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzODksMTI5MjYzMjk3
-NSwxMzA0MTIwNzkzXX0=
+eyJoaXN0b3J5IjpbMTUwODMxMjEwNiwxNTg1MTI1NTYwLDI1NT
+MyMjQzMCw1MDk1MDgxMzEsNTk1MzkwNTk4LC0yMjIwOTUzMjQs
+LTEwODc5Njc0MDEsLTE1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLT
+E5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1
+MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NT
+Y1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1
+LDEzMDQxMjA3OTNdfQ==
 -->
