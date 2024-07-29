@@ -91,7 +91,7 @@ Zhang et al., 2020[^3]
 
 -   **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미를 설명하는 레시피입니다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그 $B$, 그리고 서빙 수 $s$로 구성됩니다.
     
--   **재료 $I$**: 레시피의 n가지 기본 요소로, 최종 요리의 맛과 질감을 결정합니다. 각 재료는 $I = \{i_0, i_1, ... , i_{n-1}\}I={i0​,i1​,...,in−1​}로 표현되며, ∣I∣=n|I| = n∣I∣=n입니다.
+-   **재료 $I$**: 레시피의 n가지 기본 요소로, 최종 요리의 맛과 질감을 결정합니다. 각 재료는 $I = \{i_0, i_1, ... , i_{n-1}\}$로 표현되며, $|I| = n$입니다.
     
 -   **타겟 재료 iti_tit​**: 수치 탐구 과제를 위해 III에서 지정된 하나의 재료입니다 (it∈Ii_t \in Iit​∈I).
     
@@ -211,7 +211,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzEyMjc3Mzk3LDE1MDgzMTIxMDYsMTU4NT
+eyJoaXN0b3J5IjpbNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NT
 EyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwt
 MjIyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMT
 QxMDU3OTExLC0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcx
