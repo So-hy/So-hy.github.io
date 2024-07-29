@@ -154,9 +154,9 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
 #### 타겟 재료의 텍스트 요소 정의
 
-1.  **설명 이름 it_DescNamei_{t\_DescName}it_DescName​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름입니다. 설명 단어가 제거된 타겟 재료 이름은 it_Namei_{t\_Name}it_Name​으로 표시됩니다.
+1.  **설명 이름 ${t\_DescName}$​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름입니다. 설명 단어가 제거된 타겟 재료 이름은 ${t\_Name}$​으로 표시됩니다.
     
-2.  **측정 유형 it_di_{t\_d}it_d​**: 측정 방법을 결정하는 재료 속성입니다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용합니다.
+2.  **측정 유형 $i_{t\_d}$**: 측정 방법을 결정하는 재료 속성입니다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용합니다.
     
 3.  **측정 단위 it_ui_{t\_u}it_u​**: 타겟 재료의 물리적 성분을 표현하는 표준 단위입니다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용합니다.
     
@@ -176,11 +176,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLT
-E1MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3
-NTY1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOT
-c1LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5Mywt
-MTM3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMT
-IwMDA1MzM5LC04NDcyODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAz
-NTgsMTYwNTI3NzcxNV19
+eyJoaXN0b3J5IjpbNDEwNTA3MjkyLC0yMTA1Mzc5NTIxLC0xMj
+cxNjI1MTY0LC0xNTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIy
+ODg0OCwtMTg1NzU2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzOD
+ksMTI5MjYzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4NjAsLTEw
+MTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUzOTczNCwtMTgzNj
+Q5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEzMDEzMjA5
+MTQsNzY2NDkwMzU4XX0=
 -->
