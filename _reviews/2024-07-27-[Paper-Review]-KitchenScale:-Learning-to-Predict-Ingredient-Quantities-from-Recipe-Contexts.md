@@ -133,19 +133,21 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
     
     -   주어진 레시피 문맥과 타겟 재료를 기반으로, 해당 재료의 측정 유형(부피 또는 무게)을 예측하는 과제입니다.
-    -   모델링: P(d∣C)P(d | C)P(d∣C), 여기서 ddd는 측정 유형, CCC는 레시피 문맥입니다.
+    -   모델링: $P(d | C)$, 여기서 $d$는 측정 유형, $C$는 레시피 문맥입니다.
    
   
  2. **재료 측정 단위 분류 (Ingredient Measurement Unit Classification)**:
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 측정 단위(컵, 테이블스푼 등)를 예측하는 과제입니다.
-    -   모델링: P(u∣C,it_d)P(u | C, i_{t\_d})P(u∣C,it_d​), 여기서 uuu는 측정 단위, CCC는 레시피 문맥, it_di_{t\_d}it_d​는 측정 유형입니다.
-    - 
--   **재료 양 회귀 (Ingredient Quantity Regression)**:
+    -   모델링:$P(u | C, i_{t\_d})$, 여기서 $u$는 측정 단위, $C$는 레시피 문맥, $i_{t\_d}$는 측정 유형입니다.
+   
+
+ 3. **재료 양 회귀 (Ingredient Quantity Regression)**:
+
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 정확한 양을 예측하는 과제입니다.
-    -   모델링: P(q∣C,it_d)P(q | C, i_{t\_d})P(q∣C,it_d​), 여기서 qqq는 재료의 양, CCC는 레시피 문맥, it_di_{t\_d}it_d​는 측정 유형입니다.
+    -   모델링: $P(q | C, i_{t\_d})$, 여기서 $q$는 재료의 양, $C$는 레시피 문맥, $i_{t\_d}$​는 측정 유형입니다.
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -160,11 +162,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzM2NjY4NjIsMjAwNzIyODg0OCwtMT
-g1NzU2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzODksMTI5MjYz
-Mjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4NjAsLTEwMTI1OTExOT
-MsLTEzNzI1Mzc4NywtMTMxODUzOTczNCwtMTgzNjQ5MzcxNiwt
-MTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEzMDEzMjA5MTQsNzY2ND
-kwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOTk3ODMsLTQ5Njg2MjI5
-MiwtMTAxMTE0NTc4MV19
+eyJoaXN0b3J5IjpbLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xOD
+U3NTY1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMy
+OTc1LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5My
+wtMTM3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0x
+MTIwMDA1MzM5LC04NDcyODgwNDIsMTMwMTMyMDkxNCw3NjY0OT
+AzNTgsMTYwNTI3NzcxNSwtMTYyNTI5OTc4MywtNDk2ODYyMjky
+LC0xMDExMTQ1NzgxXX0=
 -->
