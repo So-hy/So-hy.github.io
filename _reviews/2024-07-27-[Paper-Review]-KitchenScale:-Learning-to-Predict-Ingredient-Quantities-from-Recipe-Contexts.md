@@ -99,7 +99,7 @@ Zhang et al., 2020[^3]
     
 - **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
     
-- **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$ 로 표현되며, $|B| = m$ 이다.
+- **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$ 로 표현되며, |$B$|$ = m$ 이다.
     
 - **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU1NjcyMDcwLDIxMzE1MjAzOCwtMTQzNz
-ExNjQxMCwxNTA4MzEyMTA2LDUxNTI0OTg1NywxNTA4MzEyMTA2
-LDE1ODUxMjU1NjAsMjU1MzIyNDMwLDUwOTUwODEzMSw1OTUzOT
-A1OTgsLTIyMjA5NTMyNCwtMTA4Nzk2NzQwMSwtMTUwMTc0Mzc1
-MywtMjE0MTA1NzkxMSwtMTkxMjY1NjYwMiwtMjEwNTM3OTUyMS
-wtMTI3MTYyNTE2NCwtMTUwMjEwNzAzMywtNjYwMDYzNTEwLDIw
-MDcyMjg4NDhdfQ==
+eyJoaXN0b3J5IjpbLTE0OTE2MjM4OTgsOTU1NjcyMDcwLDIxMz
+E1MjAzOCwtMTQzNzExNjQxMCwxNTA4MzEyMTA2LDUxNTI0OTg1
+NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMwLDUwOT
+UwODEzMSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nzk2NzQw
+MSwtMTUwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkxMjY1NjYwMi
+wtMjEwNTM3OTUyMSwtMTI3MTYyNTE2NCwtMTUwMjEwNzAzMywt
+NjYwMDYzNTEwXX0=
 -->
