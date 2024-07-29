@@ -175,8 +175,8 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
 
 -   **타겟 재료 선택**:
     
-    -   각 레시피에서 사용된 재료 목록 중에서 임의로 타겟 재료를 선택했습니다.
-    -   타겟 재료와 관련된 수치 정보를 재료 양 예측 과제에 맞게 마스킹했습니다.
+    -   각 레시피에서 사용된 재료 목록 중에서 임의로 타겟 재료를 선택했다.
+    -   타겟 재료와 관련된 수치 정보를 재료 양 예측 과제에 맞게 마스킹했다.
     -   마스킹 과정은 RecipeDB와 원본 재료 텍스트의 숫자 값과 단위를 일치시키는 방식으로 수행되었습니다.
 -   **측정 단위 정규화**:
     
@@ -203,11 +203,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLT
-E5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1
-MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NT
-Y1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1
-LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMT
-M3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIw
-MDA1MzM5LC04NDcyODgwNDJdfQ==
+eyJoaXN0b3J5IjpbLTEwODc5Njc0MDEsLTE1MDE3NDM3NTMsLT
+IxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLTEy
+NzE2MjUxNjQsLTE1MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3Mj
+I4ODQ4LC0xODU3NTY1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4
+OSwxMjkyNjMyOTc1LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMT
+AxMjU5MTE5MywtMTM3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2
+NDkzNzE2LC0xMTIwMDA1MzM5XX0=
 -->
