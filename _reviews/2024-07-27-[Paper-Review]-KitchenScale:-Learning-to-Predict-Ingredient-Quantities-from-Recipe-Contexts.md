@@ -101,9 +101,9 @@ Zhang et al., 2020[^3]
     
 - **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$이다.
     
--   **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
+- **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
--   **레시피 문맥 질의 구성 $C$**: Source 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의다. 각 수치 탐구 과제에서 $C = \{i_t, I_o, B, e, s\}$를 입력으로 사용한다.
+- **레시피 문맥 질의 구성 $C$**: Source 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의다. 각 수치 탐구 과제에서 $C = \{i_t, I_o, B, e, s\}$를 입력으로 사용한다.
 
 수치 탐구 과제..?(Numeracy probing task) 라는 말이 나오는데 처음 보는 말이라 따로 찾아보았다.
 
@@ -211,7 +211,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MjAyNDc2ODgsMTU4NTEyNTU2MCwyNT
+eyJoaXN0b3J5IjpbLTE1Njk4OTg2OTYsMTU4NTEyNTU2MCwyNT
 UzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0
 LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC
 0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0x
