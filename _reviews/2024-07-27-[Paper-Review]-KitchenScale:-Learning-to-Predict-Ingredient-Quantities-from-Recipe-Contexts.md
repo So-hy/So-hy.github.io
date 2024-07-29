@@ -133,7 +133,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
     
     -   주어진 레시피 문맥과 타겟 재료를 기반으로, 해당 재료의 측정 유형(부피 또는 무게)을 예측하는 단계이다.
-    -   모델링: $P(d | C)$, 여기서 $d$는 측정 유형, $C$는 레시피 문맥을 의미한다.
+    -   모델링: $P(d | C)$ , 여기서 $d$ 는 측정 유형, $C$ 는 레시피 문맥을 의미한다.
    
   
  2. **재료 측정 단위 분류 (Ingredient Measurement Unit Classification)**:
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQwMzk1MTY4LDE1MDgzMTIxMDYsNTE1Mj
-Q5ODU3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0MzAs
-NTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0LC0xMDg3OT
-Y3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC0xOTEyNjU2
-NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0xNTAyMTA3MD
-MzLC02NjAwNjM1MTAsMjAwNzIyODg0OCwtMTg1NzU2NTAxNCwt
-OTQ2ODY2MTczXX0=
+eyJoaXN0b3J5IjpbLTYxNjMxNzE1MiwxNTA4MzEyMTA2LDUxNT
+I0OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1MzIyNDMw
+LDUwOTUwODEzMSw1OTUzOTA1OTgsLTIyMjA5NTMyNCwtMTA4Nz
+k2NzQwMSwtMTUwMTc0Mzc1MywtMjE0MTA1NzkxMSwtMTkxMjY1
+NjYwMiwtMjEwNTM3OTUyMSwtMTI3MTYyNTE2NCwtMTUwMjEwNz
+AzMywtNjYwMDYzNTEwLDIwMDcyMjg4NDgsLTE4NTc1NjUwMTQs
+LTk0Njg2NjE3M119
 -->
