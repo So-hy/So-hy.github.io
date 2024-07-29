@@ -105,6 +105,7 @@ Zhang et al., 2020[^3]
     
 -   **레시피 문맥 질의 구성 $C$**: Source 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의다. 각 수리력 검사 작업에서 $C = \{i_t, I_o, B, e, s\}$를 입력으로 사용한다.
 
+수리력 검사 작업..?(Numeracy probing task) 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -119,7 +120,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjY5MDQ2NiwtMTUxODg2Mzg5LDEyOT
+eyJoaXN0b3J5IjpbLTk0Njg2NjE3MywtMTUxODg2Mzg5LDEyOT
 I2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1ODYwLC0xMDEyNTkx
 MTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLTE4MzY0OTM3MT
 YsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIwOTE0LDc2
