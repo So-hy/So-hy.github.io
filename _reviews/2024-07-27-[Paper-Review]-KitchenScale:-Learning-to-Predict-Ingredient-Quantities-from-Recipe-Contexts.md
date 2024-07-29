@@ -95,11 +95,11 @@ Zhang et al., 2020[^3]
     
 - **타겟 재료 $i_t$** : 수치 탐구 과제를 위해 $I$ 에서 지정된 하나의 재료이다 ( $i_t \in I$ ).
     
-- **기타 재료 $I_o$​** : 타겟 재료를 제외한 재료들의 집합이다. | $I_o\cap\{i_t\}$ | $=0$ 이고, $I_o\cup\{i_t\} = I$ 이다.
+- **기타 재료 $I_o$​** : 타겟 재료를 제외한 재료들의 집합이다. \| $I_o\cap\{i_t\}$ \| $=0$ 이고, $I_o\cup\{i_t\} = I$ 이다.
     
 - **제목 $e$** : 요리를 간략히 설명하는 레시피의 제목이다.
     
-- **태그 $B$** : 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$ 로 표현되며, |$B$|$ = m$ 이다.
+- **태그 $B$** : 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$ 로 표현되며, \|$B$\|$ = m$ 이다.
     
 - **몇 인분에 대한 값(제공량) $s$** : 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
@@ -133,21 +133,21 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
     
     -   주어진 레시피 문맥과 타겟 재료를 기반으로, 해당 재료의 측정 유형(부피 또는 무게)을 예측하는 단계이다.
-    -   모델링: $P(d$ | $C)$ , 여기서 $d$ 는 측정 유형, $C$ 는 레시피 문맥을 의미한다.
+    -   모델링: $P(d$ \| $C)$ , 여기서 $d$ 는 측정 유형, $C$ 는 레시피 문맥을 의미한다.
    
   
  2. **재료 측정 단위 분류 (Ingredient Measurement Unit Classification)**:
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 측정 단위(cup, Tablespoon 등)를 예측한다.
-    -   모델링: $P(u$ | $C, i_{t\_d})$, 여기서 $u$ 는 측정 단위, $C$ 는 레시피 문맥, $i_{t\_d}$ 는 측정 유형을 의미한다.
+    -   모델링: $P(u$ \| $C, i_{t\_d})$, 여기서 $u$ 는 측정 단위, $C$ 는 레시피 문맥, $i_{t\_d}$ 는 측정 유형을 의미한다.
    
 
  3. **재료 양 회귀 (Ingredient Quantity Regression)**:
 
     
     -   주어진 레시피 문맥, 측정 유형, 타겟 재료를 기반으로, 해당 재료의 정확한 양을 예측하는 단계다.
-    -   모델링: $P(q$ | $C, i_{t\_d})$ , 여기서 $q$ 는 재료의 양, $C$ 는 레시피 문맥, $i_{t\_d}$​ 는 측정 유형을 의미한다.
+    -   모델링: $P(q$ \| $C, i_{t\_d})$ , 여기서 $q$ 는 재료의 양, $C$ 는 레시피 문맥, $i_{t\_d}$​ 는 측정 유형을 의미한다.
 
 
 위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$ 의 텍스트 요소에 대한 정의도 설명하고 있다.
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5ODI4ODcxMCwtMzM0NDc0NjE4LDE4NT
-AxMjU2OTIsLTE2MjUzMzA5NTYsMTE2NTk2Mzc1MCwtMTQ5MTYy
-Mzg5OCw5NTU2NzIwNzAsMjEzMTUyMDM4LC0xNDM3MTE2NDEwLD
-E1MDgzMTIxMDYsNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NTEy
-NTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMj
-IyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQx
-MDU3OTExXX0=
+eyJoaXN0b3J5IjpbLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxOD
+UwMTI1NjkyLC0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2
+MjM4OTgsOTU1NjcyMDcwLDIxMzE1MjAzOCwtMTQzNzExNjQxMC
+wxNTA4MzEyMTA2LDUxNTI0OTg1NywxNTA4MzEyMTA2LDE1ODUx
+MjU1NjAsMjU1MzIyNDMwLDUwOTUwODEzMSw1OTUzOTA1OTgsLT
+IyMjA5NTMyNCwtMTA4Nzk2NzQwMSwtMTUwMTc0Mzc1MywtMjE0
+MTA1NzkxMV19
 -->
