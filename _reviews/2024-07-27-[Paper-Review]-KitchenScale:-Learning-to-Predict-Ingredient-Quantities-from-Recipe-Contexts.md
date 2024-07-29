@@ -107,24 +107,26 @@ Zhang et al., 2020[^3]
 
 수치 탐구 과제..?(Numeracy probing task) 라는 말이 나오는데 처음 보는 말이라 따로 찾아보았다.
 
-이 용어는 NLP에서 모델이 수치를 얼마나 잘 이해하고 예측할 수 있는지를 평가하기 위한 특정 과제를 의미합니다. 쉽게 말해, 모델이 숫자 데이터를 다루는 능력을 시험하고 강화하는 과제입니다.
-
-### 수치 탐구 과제의 의미
-
-수치 탐구 과제는 모델이 수치적 데이터를 처리하고 예측하는 능력을 평가하는 여러 작업을 포함합니다. 이런 과제는 다음과 같은 요소들을 포함할 수 있습니다:
-
-1.  **수치 데이터의 이해**:
-    
-    -   모델이 숫자와 그 의미를 이해하는 능력을 평가합니다.
-    -   예: 텍스트에서 "3 apples"라는 구문을 이해하고, 숫자 3과 사과를 연결하는 능력.
-2.  **수치 데이터의 예측**:
-    
-    -   주어진 문맥에서 올바른 숫자를 예측하는 능력을 평가합니다.
-    -   예: 레시피 문맥에서 "얼마나 많은 설탕이 필요한가?"라는 질문에 대해 정확한 양을 예측하는 능력.
-3.  **수치 데이터의 분류**:
-    
-    -   수치 데이터가 주어졌을 때, 이를 적절한 범주로 분류하는 능력을 평가합니다.
-    -   예: 재료의 양이 주어졌을 때, 이를 부피 또는 무게 단위로 분류하는 능력.
+> 이 용어는 NLP에서 모델이 수치를 얼마나 잘 이해하고 예측할 수 있는지를 평가하기 위한 특정 과제를 의미합니다. 쉽게 말해,
+> 모델이 숫자 데이터를 다루는 능력을 시험하고 강화하는 과제입니다.
+> 
+> ### 수치 탐구 과제의 의미
+> 
+> 수치 탐구 과제는 모델이 수치적 데이터를 처리하고 예측하는 능력을 평가하는 여러 작업을 포함합니다. 이런 과제는 다음과 같은
+> 요소들을 포함할 수 있습니다:
+> 
+> 1.  **수치 데이터의 이해**:
+>     
+>     -   모델이 숫자와 그 의미를 이해하는 능력을 평가합니다.
+>     -   예: 텍스트에서 "3 apples"라는 구문을 이해하고, 숫자 3과 사과를 연결하는 능력.
+> 2.  **수치 데이터의 예측**:
+>     
+>     -   주어진 문맥에서 올바른 숫자를 예측하는 능력을 평가합니다.
+>     -   예: 레시피 문맥에서 "얼마나 많은 설탕이 필요한가?"라는 질문에 대해 정확한 양을 예측하는 능력.
+> 3.  **수치 데이터의 분류**:
+>     
+>     -   수치 데이터가 주어졌을 때, 이를 적절한 범주로 분류하는 능력을 평가합니다.
+>     -   예: 재료의 양이 주어졌을 때, 이를 부피 또는 무게 단위로 분류하는 능력.
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -139,11 +141,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIyMDEzMjMsLTk0Njg2NjE3MywtMT
-UxODg2Mzg5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1
-ODYwLC0xMDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3Mz
-QsLTE4MzY0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0Miwx
-MzAxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mj
-k5NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTky
-ODAsLTc2Mjk2MjI1NF19
+eyJoaXN0b3J5IjpbOTM2MzMwMjcsLTk0Njg2NjE3MywtMTUxOD
+g2Mzg5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1ODYw
+LC0xMDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLT
+E4MzY0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAx
+MzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5Nz
+gzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyODAs
+LTc2Mjk2MjI1NF19
 -->
