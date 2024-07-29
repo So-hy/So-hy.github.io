@@ -91,11 +91,11 @@ Zhang et al., 2020[^3]
 
 - **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미(sementics)를 설명하는 레시피다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그? $B$, 그리고 몇 인분에 대한 값 $s$로 구성된다.
     
-- **재료 $I$** : 레시피의 $n$ 가지 기본 요소로, 최종 요리의 맛과 질감을 결정한다. 각 재료는 $I =\{i_0, i_1,...,i_{n-1}\}$ 로 표현되며, |$I$|$=n$ 이다.
+- **재료 $I$** : 레시피의 $n$ 가지 기본 요소로, 최종 요리의 맛과 질감을 결정한다. 각 재료는 $I =\{i_0, i_1,...,i_{n-1}\}$ 로 표현되며, | $I$ | $=n$ 이다.
     
 - **타겟 재료 $i_t$** : 수치 탐구 과제를 위해 $I$ 에서 지정된 하나의 재료이다 ( $i_t \in I$ ).
     
-- **기타 재료 $I_o$​** : 타겟 재료를 제외한 재료들의 집합이다. |$I_o\cap\{i_t\}$|$=0$ 이고, $I_o\cup\{i_t\} = I$ 이다.
+- **기타 재료 $I_o$​** : 타겟 재료를 제외한 재료들의 집합이다. | $I_o\cap\{i_t\}$ | $=0$ 이고, $I_o\cup\{i_t\} = I$ 이다.
     
 - **제목 $e$** : 요리를 간략히 설명하는 레시피의 제목이다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MDc1NzgxOCwxMTY1OTYzNzUwLC0xND
-kxNjIzODk4LDk1NTY3MjA3MCwyMTMxNTIwMzgsLTE0MzcxMTY0
-MTAsMTUwODMxMjEwNiw1MTUyNDk4NTcsMTUwODMxMjEwNiwxNT
-g1MTI1NTYwLDI1NTMyMjQzMCw1MDk1MDgxMzEsNTk1MzkwNTk4
-LC0yMjIwOTUzMjQsLTEwODc5Njc0MDEsLTE1MDE3NDM3NTMsLT
-IxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLTEy
-NzE2MjUxNjRdfQ==
+eyJoaXN0b3J5IjpbLTE2MjUzMzA5NTYsMTE2NTk2Mzc1MCwtMT
+Q5MTYyMzg5OCw5NTU2NzIwNzAsMjEzMTUyMDM4LC0xNDM3MTE2
+NDEwLDE1MDgzMTIxMDYsNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMT
+U4NTEyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5
+OCwtMjIyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC
+0yMTQxMDU3OTExLC0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0x
+MjcxNjI1MTY0XX0=
 -->
