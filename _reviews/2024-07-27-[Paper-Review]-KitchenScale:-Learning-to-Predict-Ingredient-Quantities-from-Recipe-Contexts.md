@@ -119,8 +119,9 @@ Zhang et al., 2020[^3]
 >     
 > 2.  **수치 데이터의 예측**:
 >     
->     -   주어진 문맥에서 올바른 숫자를 예측하는 능력을 평가합니다.
+>     -   주어진 문맥에서 올바른 숫자를 예측하는 능력을 평가한다.
 >     -   예: 레시피 문맥에서 "얼마나 많은 설탕이 필요한가?"라는 질문에 대해 정확한 양을 예측하는 능력.
+>     
 > 3.  **수치 데이터의 분류**:
 >     
 >     -   수치 데이터가 주어졌을 때, 이를 적절한 범주로 분류하는 능력을 평가합니다.
@@ -139,7 +140,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjk5MTg0ODksLTk0Njg2NjE3MywtMT
+eyJoaXN0b3J5IjpbLTE0NjA0MTgyMzgsLTk0Njg2NjE3MywtMT
 UxODg2Mzg5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1
 ODYwLC0xMDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3Mz
 QsLTE4MzY0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0Miwx
