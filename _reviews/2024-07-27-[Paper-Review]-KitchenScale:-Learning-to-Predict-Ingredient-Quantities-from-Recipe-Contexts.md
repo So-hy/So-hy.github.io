@@ -99,11 +99,11 @@ Zhang et al., 2020[^3]
     
 -   **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
     
--   **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$입니다.
+-   **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$이다.
     
--   **서빙 수 $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정할 수 있는 스칼라 값입니다.
+-   **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
--   **레시피 문맥 질의 구성 $C$**: 소스 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의입니다. 각 수치 탐구 과제는$C = \{i_t, I_o, B, e, s\}$를 입력으로 사용합니다.
+-   **레시피 문맥 질의 구성 $C$**: Source 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의입니다. 각 수치 탐구 과제는$C = \{i_t, I_o, B, e, s\}$를 입력으로 사용합니다.
 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -119,11 +119,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzM5Mzc4MiwtMTUxODg2Mzg5LDEyOT
-I2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1ODYwLC0xMDEyNTkx
-MTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLTE4MzY0OTM3MT
-YsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIwOTE0LDc2
-NjQ5MDM1OCwxNjA1Mjc3NzE1LC0xNjI1Mjk5NzgzLC00OTY4Nj
-IyOTIsLTEwMTExNDU3ODEsLTE0NDU2OTkyODAsLTc2Mjk2MjI1
-NCwtODA0Nzg3NjAzXX0=
+eyJoaXN0b3J5IjpbNTM4ODMxOTczLC0xNTE4ODYzODksMTI5Mj
+YzMjk3NSwxMzA0MTIwNzkzLC0xMjU2ODU4NjAsLTEwMTI1OTEx
+OTMsLTEzNzI1Mzc4NywtMTMxODUzOTczNCwtMTgzNjQ5MzcxNi
+wtMTEyMDAwNTMzOSwtODQ3Mjg4MDQyLDEzMDEzMjA5MTQsNzY2
+NDkwMzU4LDE2MDUyNzc3MTUsLTE2MjUyOTk3ODMsLTQ5Njg2Mj
+I5MiwtMTAxMTE0NTc4MSwtMTQ0NTY5OTI4MCwtNzYyOTYyMjU0
+LC04MDQ3ODc2MDNdfQ==
 -->
