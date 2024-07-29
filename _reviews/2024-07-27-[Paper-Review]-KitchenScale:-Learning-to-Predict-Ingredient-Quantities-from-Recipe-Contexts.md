@@ -197,8 +197,25 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
 -   **수치 값 정규화**:
     
     -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했다.
-    -   분수 기반의 수치를 소수 값으로 변환하여 ㄷ했습니다(예: ‘1 1/2’를 1.5로 변환).
-    -   각 측정 유형의 단위에 따라 소수 값을 정규화했습니다.
+    -   분수 기반의 수치를 소수 값으로 변환하여 데이터를 정규화하였다. (예: ‘1 1/2’를 1.5로 변환).
+    -   각 측정 유형의 단위에 따라 소수 값을 정규화했다.
+
+
+#### 최종 데이터셋 구성
+
+-   **데이터 인스턴스**: 최종적으로 98,725개의 데이터 인스턴스를 얻었습니다. 각 데이터 인스턴스는 다음과 같이 정의됩니다:
+    
+    K={d,u,q,c}K = \{d, u, q, c\}K={d,u,q,c}
+    
+    여기서 ccc는 {it_DescName,Io,e,B,s}\{i_{t\_DescName}, I_o, e, B, s\}{it_DescName​,Io​,e,B,s}를 포함합니다.
+    
+-   **데이터 분할**: KitchenScale 데이터셋의 데이터 인스턴스는 학습 데이터(D_train), 검증 데이터(D_valid), 테스트 데이터(D_test)로 8:1:1 비율로 분할되었습니다.
+    
+
+#### 데이터 통계
+
+-   **Table 1**: 타겟 재료의 수치 통계를 나타냅니다. 여기에는 각 타겟 재료의 수치 값 분포에 대한 정보가 포함됩니다.
+
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -213,11 +230,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA3NTQzMjUyLC0yMDc3NDEwOTk2LDEzMj
-QwODY0NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1
-NjkyLC0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OT
-gsOTU1NjcyMDcwLDIxMzE1MjAzOCwtMTQzNzExNjQxMCwxNTA4
-MzEyMTA2LDUxNTI0OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1Nj
-AsMjU1MzIyNDMwLDUwOTUwODEzMSw1OTUzOTA1OTgsLTIyMjA5
-NTMyNF19
+eyJoaXN0b3J5IjpbMTA4MjY5ODg5NiwtMjA3NzQxMDk5NiwxMz
+I0MDg2NDQ0LC0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMTg1MDEy
+NTY5MiwtMTYyNTMzMDk1NiwxMTY1OTYzNzUwLC0xNDkxNjIzOD
+k4LDk1NTY3MjA3MCwyMTMxNTIwMzgsLTE0MzcxMTY0MTAsMTUw
+ODMxMjEwNiw1MTUyNDk4NTcsMTUwODMxMjEwNiwxNTg1MTI1NT
+YwLDI1NTMyMjQzMCw1MDk1MDgxMzEsNTk1MzkwNTk4LC0yMjIw
+OTUzMjRdfQ==
 -->
