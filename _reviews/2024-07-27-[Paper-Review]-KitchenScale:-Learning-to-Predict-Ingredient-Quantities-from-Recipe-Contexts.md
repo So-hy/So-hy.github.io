@@ -150,7 +150,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
     -   모델링: $P(q | C, i_{t\_d})$, 여기서 $q$는 재료의 양, $C$는 레시피 문맥, $i_{t\_d}$​는 측정 유형을 의미한다.
 
 
-
+위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$의 ㅌ
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
 How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
@@ -164,11 +164,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzE2MjUxNjQsLTE1MDIxMDcwMzMsLT
-Y2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1MDE0LC05NDY4
-NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1LDEzMDQxMjA3OT
-MsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMTM3MjUzNzg3LC0x
-MzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIwMDA1MzM5LC04ND
-cyODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAzNTgsMTYwNTI3Nzcx
-NSwtMTYyNTI5OTc4M119
+eyJoaXN0b3J5IjpbMzg1OTE5NjQsLTEyNzE2MjUxNjQsLTE1MD
+IxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1
+MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1LD
+EzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMTM3
+MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIwMD
+A1MzM5LC04NDcyODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAzNTgs
+MTYwNTI3NzcxNV19
 -->
