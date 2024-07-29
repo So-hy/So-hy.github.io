@@ -127,7 +127,9 @@ Zhang et al., 2020[^3]
 >     -   수치 데이터가 주어졌을 때, 이를 적절한 범주로 분류하는 능력을 평가다.
 >     -   예: 재료의 양이 주어졌을 때, 이를 부피 또는 무게 단위로 분류하는 능력.
 
-KitchenScale 모델에서의 수치 탐구 과제는 다음의 ㅅ
+KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요 작업으로 나뉘어 진행된다.
+
+
 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -143,7 +145,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MDQwMzU0OCwtMTg1NzU2NTAxNCwtOT
+eyJoaXN0b3J5IjpbMjAwNzIyODg0OCwtMTg1NzU2NTAxNCwtOT
 Q2ODY2MTczLC0xNTE4ODYzODksMTI5MjYzMjk3NSwxMzA0MTIw
 NzkzLC0xMjU2ODU4NjAsLTEwMTI1OTExOTMsLTEzNzI1Mzc4Ny
 wtMTMxODUzOTczNCwtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwt
