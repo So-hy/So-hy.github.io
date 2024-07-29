@@ -93,13 +93,13 @@ Zhang et al., 2020[^3]
     
 - **재료 $I$**: 레시피의 $n$가지 기본 요소로, 최종 요리의 맛과 질감을 결정한다. 각 재료는 $I =\{i_0, i_1,...,i_{n-1}\}$로 표현되며, $|I|=n$이다.
     
--   **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료이다 ($i_t \in I$).
+- **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료이다 ($i_t \in I$).
     
--   **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합이다.$|I_o\cap \{i_t\}| = 0$이고, $I_o\cup \{i_t\} = I$이다.
+- **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합이다.$|I_o\cap \{i_t\}| = 0$이고, $I_o\cup \{i_t\} = I$이다.
     
--   **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
+- **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
     
--   **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$이다.
+- **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$이다.
     
 -   **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NTEyNTU2MCwyNTUzMjI0MzAsNTA5NT
-A4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0LC0xMDg3OTY3NDAx
-LC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC0xOTEyNjU2NjAyLC
-0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0xNTAyMTA3MDMzLC02
-NjAwNjM1MTAsMjAwNzIyODg0OCwtMTg1NzU2NTAxNCwtOTQ2OD
-Y2MTczLC0xNTE4ODYzODksMTI5MjYzMjk3NSwxMzA0MTIwNzkz
-LC0xMjU2ODU4NjBdfQ==
+eyJoaXN0b3J5IjpbLTE4MjAyNDc2ODgsMTU4NTEyNTU2MCwyNT
+UzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0
+LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMTQxMDU3OTExLC
+0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcxNjI1MTY0LC0x
+NTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIyODg0OCwtMTg1Nz
+U2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzODksMTI5MjYzMjk3
+NSwxMzA0MTIwNzkzXX0=
 -->
