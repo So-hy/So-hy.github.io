@@ -196,8 +196,8 @@ KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)�
     
 -   **수치 값 정규화**:
     
-    -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했습니다.
-    -   분수 기반의 수치를 소수 값으로 변환했습니다(예: ‘1 1/2’를 1.5로 변환).
+    -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했다.
+    -   분수 기반의 수치를 소수 값으로 변환하여 ㄷ했습니다(예: ‘1 1/2’를 1.5로 변환).
     -   각 측정 유형의 단위에 따라 소수 값을 정규화했습니다.
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -213,11 +213,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMT
-E0MTM1NjkyMiwtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUz
-MzA5NTYsMTE2NTk2Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNz
-AsMjEzMTUyMDM4LC0xNDM3MTE2NDEwLDE1MDgzMTIxMDYsNTE1
-MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0Mz
-AsNTA5NTA4MTMxLDU5NTM5MDU5OCwtMjIyMDk1MzI0LC0xMDg3
-OTY3NDAxXX0=
+eyJoaXN0b3J5IjpbNDA3NTQzMjUyLC0yMDc3NDEwOTk2LDEzMj
+QwODY0NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1
+NjkyLC0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OT
+gsOTU1NjcyMDcwLDIxMzE1MjAzOCwtMTQzNzExNjQxMCwxNTA4
+MzEyMTA2LDUxNTI0OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1Nj
+AsMjU1MzIyNDMwLDUwOTUwODEzMSw1OTUzOTA1OTgsLTIyMjA5
+NTMyNF19
 -->
