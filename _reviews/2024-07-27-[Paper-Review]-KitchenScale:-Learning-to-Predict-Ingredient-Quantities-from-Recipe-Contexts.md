@@ -150,7 +150,19 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
     -   모델링: $P(q | C, i_{t\_d})$, 여기서 $q$는 재료의 양, $C$는 레시피 문맥, $i_{t\_d}$​는 측정 유형을 의미한다.
 
 
-위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$의 ㅌ
+위의 과정을 통해 레시피 문맥에서 재료의 측정 유형, 단위, 양을 정확하게 예측하는 능력을 개발하고 평가한다. 추가로 타겟 재료 $i_t$의 텍스트 요소에 대한 정의도 설명하고 있다.
+
+#### 타겟 재료의 텍스트 요소 정의
+
+1.  **설명 이름 it_DescNamei_{t\_DescName}it_DescName​**: '다진', '슬라이스'와 같은 설명 단어를 포함한 타겟 재료의 이름입니다. 설명 단어가 제거된 타겟 재료 이름은 it_Namei_{t\_Name}it_Name​으로 표시됩니다.
+    
+2.  **측정 유형 it_di_{t\_d}it_d​**: 측정 방법을 결정하는 재료 속성입니다. 이 작업에서는 '부피'와 '무게' 두 가지 레이블을 사용합니다.
+    
+3.  **측정 단위 it_ui_{t\_u}it_u​**: 타겟 재료의 물리적 성분을 표현하는 표준 단위입니다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용합니다.
+    
+4.  **양 it_qi_{t\_q}it_q​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값입니다.
+
+
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
 How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
@@ -164,11 +176,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg1OTE5NjQsLTEyNzE2MjUxNjQsLTE1MD
-IxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1
-MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1LD
-EzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMTM3
-MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIwMD
-A1MzM5LC04NDcyODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAzNTgs
-MTYwNTI3NzcxNV19
+eyJoaXN0b3J5IjpbLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLT
+E1MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3
+NTY1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOT
+c1LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5Mywt
+MTM3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMT
+IwMDA1MzM5LC04NDcyODgwNDIsMTMwMTMyMDkxNCw3NjY0OTAz
+NTgsMTYwNTI3NzcxNV19
 -->
