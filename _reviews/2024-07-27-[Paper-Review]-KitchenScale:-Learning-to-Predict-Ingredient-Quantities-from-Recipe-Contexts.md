@@ -93,7 +93,7 @@ Zhang et al., 2020[^3]
     
 -   **재료 $I$**: 레시피의 $n$가지 기본 요소로, 최종 요리의 맛과 질감을 결정한다. 각 재료는 $I = \{i_0, i_1, ... , i_{n-1}\}$로 표현되며, $|I| = n$이다.
     
--   **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료입다 ($i_t \in I$).
+-   **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료이다 ($i_t \in I$).
     
 -   **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합입니다.$|I_o\cap \{i_t\}| = 0$이고, $I_o\cup \{i_t\} = I$입니다.
     
@@ -119,11 +119,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjM3OTg4ODAsMTMwNDEyMDc5MywtMT
-I1Njg1ODYwLC0xMDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1
-Mzk3MzQsLTE4MzY0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4OD
-A0MiwxMzAxMzIwOTE0LDc2NjQ5MDM1OCwxNjA1Mjc3NzE1LC0x
-NjI1Mjk5NzgzLC00OTY4NjIyOTIsLTEwMTExNDU3ODEsLTE0ND
-U2OTkyODAsLTc2Mjk2MjI1NCwtODA0Nzg3NjAzLDE4Mjc5Mzk2
-MDQsMTMwMjI1MzM3N119
+eyJoaXN0b3J5IjpbMTI5MjYzMjk3NSwxMzA0MTIwNzkzLC0xMj
+U2ODU4NjAsLTEwMTI1OTExOTMsLTEzNzI1Mzc4NywtMTMxODUz
+OTczNCwtMTgzNjQ5MzcxNiwtMTEyMDAwNTMzOSwtODQ3Mjg4MD
+QyLDEzMDEzMjA5MTQsNzY2NDkwMzU4LDE2MDUyNzc3MTUsLTE2
+MjUyOTk3ODMsLTQ5Njg2MjI5MiwtMTAxMTE0NTc4MSwtMTQ0NT
+Y5OTI4MCwtNzYyOTYyMjU0LC04MDQ3ODc2MDMsMTgyNzkzOTYw
+NCwxMzAyMjUzMzc3XX0=
 -->
