@@ -160,7 +160,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
     
 3.  **측정 단위(Measurement Unit) $i_{t\_u}$**: 타겟 재료의 물리적 성분을 표현하는 표준 단위다. 이 작업에서는 '컵', '테이블스푼', '티스푼', '파운드', '온스', '그램', '밀리리터', '핀치', '대시', '킬로그램', '파인트', '쿼트', '드롭', '갤런'의 14가지 단위를 사용한다.
     
-4.  **양(Quantity) $i_{t\_q}$​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값다.
+4.  **양(Quantity) $i_{t\_q}$​**: 레시피에서 사용되는 타겟 재료의 양을 나타내는 연속 값이다.
 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
@@ -176,11 +176,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDI1MDA3MiwtMjEwNTM3OTUyMSwtMT
-I3MTYyNTE2NCwtMTUwMjEwNzAzMywtNjYwMDYzNTEwLDIwMDcy
-Mjg4NDgsLTE4NTc1NjUwMTQsLTk0Njg2NjE3MywtMTUxODg2Mz
-g5LDEyOTI2MzI5NzUsMTMwNDEyMDc5MywtMTI1Njg1ODYwLC0x
-MDEyNTkxMTkzLC0xMzcyNTM3ODcsLTEzMTg1Mzk3MzQsLTE4Mz
-Y0OTM3MTYsLTExMjAwMDUzMzksLTg0NzI4ODA0MiwxMzAxMzIw
-OTE0LDc2NjQ5MDM1OF19
+eyJoaXN0b3J5IjpbLTE5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLT
+EyNzE2MjUxNjQsLTE1MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3
+MjI4ODQ4LC0xODU3NTY1MDE0LC05NDY4NjYxNzMsLTE1MTg4Nj
+M4OSwxMjkyNjMyOTc1LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwt
+MTAxMjU5MTE5MywtMTM3MjUzNzg3LC0xMzE4NTM5NzM0LC0xOD
+M2NDkzNzE2LC0xMTIwMDA1MzM5LC04NDcyODgwNDIsMTMwMTMy
+MDkxNCw3NjY0OTAzNThdfQ==
 -->
