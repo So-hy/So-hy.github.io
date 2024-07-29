@@ -168,7 +168,27 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
 ##  Dataset
 
+KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)와 Reciptor(Li and Zaki, 2020) 데이터셋을 사용하여 데이터셋을 구축했다. 두 원본 데이터셋을 하나의 데이터셋으로 병합하여 레시피 정보와 태그를 포함시켰으며, 병합된 레시피 수는 총 101,573개 라고 한다.
 
+데이터 전처리는 아래와 같은 과정으로 진행되었다.
+
+
+-   **타겟 재료 선택**:
+    
+    -   각 레시피에서 사용된 재료 목록 중에서 임의로 타겟 재료를 선택했습니다.
+    -   타겟 재료와 관련된 수치 정보를 재료 양 예측 과제에 맞게 마스킹했습니다.
+    -   마스킹 과정은 RecipeDB와 원본 재료 텍스트의 숫자 값과 단위를 일치시키는 방식으로 수행되었습니다.
+-   **측정 단위 정규화**:
+    
+    -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 사용했습니다.
+    -   단위의 혼동을 피하기 위해 약어를 명확히 하고, 복수형 표현을 단수형으로 정규화했습니다(예: pounds를 lb로 변환).
+    -   국제단위계(SI) 기준에 따라 14개의 측정 단위와 2개의 측정 유형(부피, 무게)을 사용했습니다. 부피의 기본 단위는 ml, 무게의 기본 단위는 g입니다.
+    -   타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했습니다.
+-   **수치 값 정규화**:
+    
+    -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했습니다.
+    -   분수 기반의 수치를 소수 값으로 변환했습니다(예: ‘1 1/2’를 1.5로 변환).
+    -   각 측정 유형의 단위에 따라 소수 값을 정규화했습니다.
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -183,11 +203,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLT
-IxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1MDIxMDcwMzMsLTY2
-MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NTY1MDE0LC05NDY4Nj
-YxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1LDEzMDQxMjA3OTMs
-LTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMTM3MjUzNzg3LC0xMz
-E4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIwMDA1MzM5LC04NDcy
-ODgwNDIsMTMwMTMyMDkxNF19
+eyJoaXN0b3J5IjpbLTE1MDE3NDM3NTMsLTIxNDEwNTc5MTEsLT
+E5MTI2NTY2MDIsLTIxMDUzNzk1MjEsLTEyNzE2MjUxNjQsLTE1
+MDIxMDcwMzMsLTY2MDA2MzUxMCwyMDA3MjI4ODQ4LC0xODU3NT
+Y1MDE0LC05NDY4NjYxNzMsLTE1MTg4NjM4OSwxMjkyNjMyOTc1
+LDEzMDQxMjA3OTMsLTEyNTY4NTg2MCwtMTAxMjU5MTE5MywtMT
+M3MjUzNzg3LC0xMzE4NTM5NzM0LC0xODM2NDkzNzE2LC0xMTIw
+MDA1MzM5LC04NDcyODgwNDJdfQ==
 -->
