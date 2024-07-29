@@ -89,21 +89,21 @@ Zhang et al., 2020[^3]
 
 이 섹션에서는 요리 레시피에서 사용되는 다양한 의미 요소들에 대해 정의하고, 제안된 재료 양 예측 과제를 설명한다.
 
--   **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미를 설명하는 레시피입니다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그 $B$, 그리고 서빙 수 $s$로 구성됩니다.
+- **레시피 $R$**: 요리를 위해 사용자가 필요한 다양한 음식 관련 의미(sementics)를 설명하는 레시피다. 레시피는 레시피 제목 $e$, 재료 $I$, 설명 태그? $B$, 그리고 몇 인분에 대한 값 $s$로 구성된다.
     
--   **재료 $I$**: 레시피의 n가지 기본 요소로, 최종 요리의 맛과 질감을 결정합니다. 각 재료는 $I = \{i_0, i_1, ... , i_{n-1}\}$로 표현되며, $|I| = n$입니다.
+- **재료 $I$**: 레시피의 $n$가지 기본 요소로, 최종 요리의 맛과 질감을 결정한다. 각 재료는 $I =\{i_0, i_1,...,i_{n-1}\}$로 표현되며, $|I|=n$이다.
     
--   **타겟 재료 iti_tit​**: 수치 탐구 과제를 위해 III에서 지정된 하나의 재료입니다 (it∈Ii_t \in Iit​∈I).
+- **타겟 재료$i_t$**: 수치 탐구 과제를 위해 $I$에서 지정된 하나의 재료이다 ($i_t \in I$).
     
--   **기타 재료 IoI_oIo​**: 타겟 재료를 제외한 재료들의 집합입니다. ∣Io∩{it}∣=0|I_o \cap \{i_t\}| = 0∣Io​∩{it​}∣=0이고, Io∪{it}=II_o \cup \{i_t\} = IIo​∪{it​}=I입니다.
+- **기타 재료 $I_o$​**: 타겟 재료를 제외한 재료들의 집합이다.$|I_o\cap\{i_t\}|=0$이고, $I_o\cup\{i_t\} = I$이다.
     
--   **제목 eee**: 최종 요리를 간략히 설명하는 레시피의 제목입니다.
+- **제목 $e$**: 요리를 간략히 설명하는 레시피의 제목이다.
     
--   **태그 BBB**: 요리의 지역, 요리 시간, 요리 카테고리 등의 특정 정보를 제공하는 m개의 태그입니다. B={b0,b1,...,bm−1}B = \{b_0, b_1, ... , b_{m-1}\}B={b0​,b1​,...,bm−1​}로 표현되며, ∣B∣=m|B| = m∣B∣=m입니다.
+- **태그 $B$**: 요리의 지역?(어느 나라 요리인가를 의미하는 것 같다.), 요리 시간, 카테고리 등의 특정 정보를 제공하는 m개의 태그이다. $B = \{b_0, b_1, ... , b_{m-1}\}$로 표현되며, $|B| = m$이다.
     
--   **서빙 수 sss**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정할 수 있는 스칼라 값입니다.
+- **몇 인분에 대한 값(제공량) $s$**: 동일한 요리를 만들 때 사용되는 재료의 양을 조정하기 위한 스칼라 값이다. Number of Servings 라고 표기되어 있다.
     
--   **레시피 문맥 질의 구성 CCC**: 소스 레시피 RRR에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의입니다. 각 수치 탐구 과제는 C={it,Io,B,e,s}C = \{i_t, I_o, B, e, s\}C={it​,Io​,B,e,s}를 입력으로 사용합니다.
+- **레시피 문맥 질의 구성 $C$**: Source 레시피 $R$에서 추출한 텍스트 요소들로 구성된 레시피 문맥 질의다. 각 수치 탐구 과제에서 $C = \{i_t, I_o, B, e, s\}$를 입력으로 사용한다.
 
 수치 탐구 과제..?(Numeracy probing task) 라는 말이 나오는데 처음 보는 말이라 따로 찾아보았다.
 
@@ -211,11 +211,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MjQ5ODU3LDE1MDgzMTIxMDYsMTU4NT
-EyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5MDU5OCwt
-MjIyMDk1MzI0LC0xMDg3OTY3NDAxLC0xNTAxNzQzNzUzLC0yMT
-QxMDU3OTExLC0xOTEyNjU2NjAyLC0yMTA1Mzc5NTIxLC0xMjcx
-NjI1MTY0LC0xNTAyMTA3MDMzLC02NjAwNjM1MTAsMjAwNzIyOD
-g0OCwtMTg1NzU2NTAxNCwtOTQ2ODY2MTczLC0xNTE4ODYzODks
-MTI5MjYzMjk3NV19
+eyJoaXN0b3J5IjpbMTUwODMxMjEwNiw1MTUyNDk4NTcsMTUwOD
+MxMjEwNiwxNTg1MTI1NTYwLDI1NTMyMjQzMCw1MDk1MDgxMzEs
+NTk1MzkwNTk4LC0yMjIwOTUzMjQsLTEwODc5Njc0MDEsLTE1MD
+E3NDM3NTMsLTIxNDEwNTc5MTEsLTE5MTI2NTY2MDIsLTIxMDUz
+Nzk1MjEsLTEyNzE2MjUxNjQsLTE1MDIxMDcwMzMsLTY2MDA2Mz
+UxMCwyMDA3MjI4ODQ4LC0xODU3NTY1MDE0LC05NDY4NjYxNzMs
+LTE1MTg4NjM4OV19
 -->
