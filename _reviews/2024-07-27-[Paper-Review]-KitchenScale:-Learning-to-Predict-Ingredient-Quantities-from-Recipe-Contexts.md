@@ -218,7 +218,9 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 
 •	train 인스턴스: 78,984개
 • valid 인스턴스: 9,873개
-•	test 인스턴스: 9,868개타겟 재료 수량에 대한 통계:
+•	test 인스턴스: 9,868개
+
+**타겟 재료 수량에 대한 통계**:
 •	평균: 185.93 (train), 187.29 (valid), 182.36 (test)
 •	표준 편차: 384.88 (train), 383.83 (valid), 385.41 (test)
 •	최소: 0.05
@@ -237,11 +239,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MjEzMzEyMiwtMTI3Mzg0NDUwNiwtNz
-M2OTI5MjcsMTEzMTYxMTY4OCwxNTEzNjE4NDUwLDIzNjY3NTcw
-MCwxMDE0ODYwODA0LC0xMjQ2MTk0OTc4LDkzMjM4NzU4MiwxNT
-Q2OTExNTIsLTE0MDcwMjMxOTAsMjY1ODAwMTE1LDEwODI2OTg4
-OTYsLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1NjkyMi
-wtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NTYsMTE2
-NTk2Mzc1MF19
+eyJoaXN0b3J5IjpbLTE1NTEwODQ4OTgsLTEyNzM4NDQ1MDYsLT
+czNjkyOTI3LDExMzE2MTE2ODgsMTUxMzYxODQ1MCwyMzY2NzU3
+MDAsMTAxNDg2MDgwNCwtMTI0NjE5NDk3OCw5MzIzODc1ODIsMT
+U0NjkxMTUyLC0xNDA3MDIzMTkwLDI2NTgwMDExNSwxMDgyNjk4
+ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0NDQsLTExNDEzNTY5Mj
+IsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC0xNjI1MzMwOTU2LDEx
+NjU5NjM3NTBdfQ==
 -->
