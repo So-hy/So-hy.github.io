@@ -173,6 +173,24 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 **타겟 재료 선택 및 마스킹:**
 데이터셋의 각 레시피에서 무작위로 타겟 재료를 선택했다. 그런 다음 이 타겟 재료와 관련된 수치 정보를 예측 작업을 위해 마스킹했다. 이는 RecipeDB의 숫자 값과 단위를 원본 재료 텍스트와 일치시키는 과정을 포함한다.
 
+
+원본 레시피와 RecipeDB의 차이는 아래의 예시로 확인할 수 있다.
+
+1. **원본 레시피**:
+
+•  사용자가 작성한 레시피로, 자연어 형식으로 되어 있다.
+
+•  예: “2 cups of sugar”, “1/2 teaspoon of salt”, “500g of chicken breast” 등의 형태로 재료와 양, 단위가 적혀 있습니다.
+
+2. **RecipeDB**:
+
+•  원본 레시피의 구조화된 버전입니다.
+
+•  각 레시피의 재료, 양, 단위 등의 정보를 데이터베이스 형식으로 정리하여 저장합니다.
+
+•  예: {“ingredient”: “sugar”, “quantity”: 2, “unit”: “cups”}, {“ingredient”: “salt”, “quantity”: 0.5, “unit”: “teaspoon”}, {“ingredient”: “chicken breast”, “quantity”: 500, “unit”: “g”} 등의 형태로 저장됩니다.
+
+
 **측정 단위 및 전처리:**
 데이터셋에는 다양한 재료의 측정 단위가 포함되어 있었습니다. 이 중 100번 이상 등장하는 74개의 단위를 선택했습니다. 단위는 약어를 표준화하고(예: “pounds”를 “lb”로 변환) 복수형 표현을 단수형으로 표준화하는(예: “tablespoons”를 “tablespoon”으로 변환) 방식으로 정리했습니다. 국제 단위계(SI)에 따라 14개의 측정 단위가 사용되었으며, 두 가지 측정 유형(부피와 무게)으로 분류되었습니다. 부피는 밀리리터(ml), 무게는 그램(g)을 기본 단위로 사용했습니다. 알 수 없거나 비표준 단위가 있는 데이터 인스턴스는 삭제되었습니다.
 
@@ -213,11 +231,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDcwMjMxOTAsMjY1ODAwMTE1LDEwOD
-I2OTg4OTYsLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1
-NjkyMiwtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NT
-YsMTE2NTk2Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNzAsMjEz
-MTUyMDM4LC0xNDM3MTE2NDEwLDE1MDgzMTIxMDYsNTE1MjQ5OD
-U3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0MzAsNTA5
-NTA4MTMxXX0=
+eyJoaXN0b3J5IjpbNDgxMjczMzk4LC0xNDA3MDIzMTkwLDI2NT
+gwMDExNSwxMDgyNjk4ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0
+NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC
+0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OTgsOTU1
+NjcyMDcwLDIxMzE1MjAzOCwtMTQzNzExNjQxMCwxNTA4MzEyMT
+A2LDUxNTI0OTg1NywxNTA4MzEyMTA2LDE1ODUxMjU1NjAsMjU1
+MzIyNDMwXX0=
 -->
