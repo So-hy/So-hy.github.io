@@ -226,6 +226,8 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 •	최소: 0.05
 •	최대: 30,283.28 (train), 15,141.64 (valid), 11,356.32 (test) 
 
+
+
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
 How large are lions? inducing distributions over quantitative attributes, in: Proceedings of the 57th Annual Meeting of the Association for Computational 
@@ -239,11 +241,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTEwODQ4OTgsLTEyNzM4NDQ1MDYsLT
-czNjkyOTI3LDExMzE2MTE2ODgsMTUxMzYxODQ1MCwyMzY2NzU3
-MDAsMTAxNDg2MDgwNCwtMTI0NjE5NDk3OCw5MzIzODc1ODIsMT
-U0NjkxMTUyLC0xNDA3MDIzMTkwLDI2NTgwMDExNSwxMDgyNjk4
-ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0NDQsLTExNDEzNTY5Mj
-IsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC0xNjI1MzMwOTU2LDEx
-NjU5NjM3NTBdfQ==
+eyJoaXN0b3J5IjpbMTI5OTc2ODMxNCwtMTI3Mzg0NDUwNiwtNz
+M2OTI5MjcsMTEzMTYxMTY4OCwxNTEzNjE4NDUwLDIzNjY3NTcw
+MCwxMDE0ODYwODA0LC0xMjQ2MTk0OTc4LDkzMjM4NzU4MiwxNT
+Q2OTExNTIsLTE0MDcwMjMxOTAsMjY1ODAwMTE1LDEwODI2OTg4
+OTYsLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1NjkyMi
+wtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NTYsMTE2
+NTk2Mzc1MF19
 -->
