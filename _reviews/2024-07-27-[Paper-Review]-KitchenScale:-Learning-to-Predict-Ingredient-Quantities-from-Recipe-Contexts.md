@@ -233,13 +233,13 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 
 [^4]: Spithourakis, G., Riedel, S., 2018. Numeracy for language models: Evaluating and improving their ability to predict numbers, in: Proceedings of the 56th Annual 
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
-[^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
+[^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMyMzg3NTgyLDE1NDY5MTE1MiwtMTQwNz
-AyMzE5MCwyNjU4MDAxMTUsMTA4MjY5ODg5NiwtMjA3NzQxMDk5
-NiwxMzI0MDg2NDQ0LC0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMT
-g1MDEyNTY5MiwtMTYyNTMzMDk1NiwxMTY1OTYzNzUwLC0xNDkx
-NjIzODk4LDk1NTY3MjA3MCwyMTMxNTIwMzgsLTE0MzcxMTY0MT
-AsMTUwODMxMjEwNiw1MTUyNDk4NTcsMTUwODMxMjEwNiwxNTg1
-MTI1NTYwXX0=
+eyJoaXN0b3J5IjpbLTEyNDYxOTQ5NzgsOTMyMzg3NTgyLDE1ND
+Y5MTE1MiwtMTQwNzAyMzE5MCwyNjU4MDAxMTUsMTA4MjY5ODg5
+NiwtMjA3NzQxMDk5NiwxMzI0MDg2NDQ0LC0xMTQxMzU2OTIyLC
+0zMzQ0NzQ2MTgsMTg1MDEyNTY5MiwtMTYyNTMzMDk1NiwxMTY1
+OTYzNzUwLC0xNDkxNjIzODk4LDk1NTY3MjA3MCwyMTMxNTIwMz
+gsLTE0MzcxMTY0MTAsMTUwODMxMjEwNiw1MTUyNDk4NTcsMTUw
+ODMxMjEwNl19
 -->
