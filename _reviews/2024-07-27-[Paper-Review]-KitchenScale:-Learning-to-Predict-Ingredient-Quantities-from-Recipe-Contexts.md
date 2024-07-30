@@ -168,54 +168,39 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
 ##  Dataset
 
-KitchenScale의 재료 양 예측 과제를 위해 RecipeDB(Batra et al., 2020)와 Reciptor(Li and Zaki, 2020) 데이터셋을 사용하여 데이터셋을 구축했다. 두 원본 데이터셋을 하나의 데이터셋으로 병합하여 레시피 정보와 태그를 포함시켰으며, 병합된 레시피 수는 총 101,573개 라고 한다.
+4.1 데이터셋 구성
 
-데이터 전처리는 아래와 같은 과정으로 진행되었다.
+KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batra et al., 2020)와 Reciptor(Li and Zaki, 2020)에서 레시피와 그 속성을 병합하여 생성되었습니다. 결합된 데이터셋은 총 101,573개의 레시피 정보를 포함하고 있습니다.
 
+타겟 재료 선택 및 마스킹:
+데이터셋의 각 레시피에서 무작위로 타겟 재료를 선택했습니다. 그런 다음 이 타겟 재료와 관련된 수치 정보를 예측 작업을 위해 마스킹했습니다. 이는 RecipeDB의 숫자 값과 단위를 원본 재료 텍스트와 일치시키는 과정을 포함했습니다.
 
--   **타겟 재료 선택**:
-    
-    -   각 레시피에서 사용된 재료 목록 중에서 임의로 타겟 재료를 선택했다.
-    -   타겟 재료와 관련된 수치 정보를 재료 양 예측 과제에 맞게 마스킹했다.
-    -   마스킹 과정은 RecipeDB와 원본 재료 텍스트의 숫자 값과 단위를 일치시키는 방식으로 수행되었다.
+측정 단위 및 전처리:
+데이터셋에는 다양한 재료의 측정 단위가 포함되어 있었습니다. 이 중 100번 이상 등장하는 74개의 단위를 선택했습니다. 단위는 약어를 표준화하고(예: “pounds”를 “lb”로 변환) 복수형 표현을 단수형으로 표준화하는(예: “tablespoons”를 “tablespoon”으로 변환) 방식으로 정리했습니다. 국제 단위계(SI)에 따라 14개의 측정 단위가 사용되었으며, 두 가지 측정 유형(부피와 무게)으로 분류되었습니다. 부피는 밀리리터(ml), 무게는 그램(g)을 기본 단위로 사용했습니다. 알 수 없거나 비표준 단위가 있는 데이터 인스턴스는 삭제되었습니다.
 
-> 예) RecipeDB에 "2 cups of flour" 라는 정보가 있을 때, 원본 레시피 텍스트에도 동일한 정보가 포함되어
-> 있을 수 있다. 마스킹 과정에서 RecipeDB에 저장된 수치 값과 단위를 원본 텍스트에서 찾아서 일치시키는 작업을 수행한다.
-> 즉, RecipeDB의 "2 cups" 와 원본 텍스트의 "2 cups" 을 일치 시킨다. 일치된 수치 값과 단위를
-> 마스킹합니다. 이는 모델이 해당 정보를 학습하지 않고 예측하도록 하기 위함이다. 예를 들어, "2 cups of flour
-> 라는 텍스트에서 "2 cups" 부분을 마스킹하여 "__ cups of flour" 로 변환한다.
+수치 변환 및 정규화:
+타겟 재료의 수치량을 정규화된 부동 소수점 값으로 변환했습니다. 분수로 된 숫자는 소수 값으로 변환했습니다(예: ‘1 1/2’을 1.5로 변환). 이러한 정규화된 값은 재료 양 예측 문제를 회귀 문제로 구성하는 데 사용되었습니다.
 
+최종 데이터셋 구성:
+최종 처리된 데이터셋은 98,725개의 데이터 인스턴스를 포함하고 있습니다. 데이터셋의 각 인스턴스는  K = \{d, u, q, c\} 로 정의됩니다. 여기서:
 
--   **측정 단위 정규화**:
-    
-    -   각 재료의 양을 설명하기 위해 다양한 측정 단위가 사용되었으나, 발생 빈도가 100회 이상인 74개의 단위만 추출했다.
-    -   그 후, 단위의 혼동을 피하기 위해 약어를 명확히 하고, 복수형 표현을 단수형으로 정규화했다(예: pounds를 lb로 변환).
-    -   국제단위계(SI) 기준에 따라 14개의 측정 단위와 2개의 측정 유형(부피, 무게)을 사용했다. 부피의 기본 단위는 ml, 무게의 기본 단위는 g로 설정했다.
-    -   또한 타겟 재료의 측정 단위가 알려지지 않았거나 선택된 14개의 단위 중 하나가 아닌 경우 데이터를 제외했다.
-   
-    
--   **수치 값 정규화**:
-    
-    -   각 레시피의 타겟 재료의 수치 양을 정규화된 부동 소수점 값으로 변환했다.
-    -   분수 기반의 수치를 소수 값으로 변환하여 데이터를 정규화하였다. (예: ‘1 1/2’를 1.5로 변환).
-    -   각 측정 유형의 단위에 따라 소수 값을 정규화했다.
+	•	 d 는 측정 유형을 나타냅니다.
+	•	 u 는 측정 단위를 나타냅니다.
+	•	 q 는 정규화된 수량을 나타냅니다.
+	•	 c 는 레시피 맥락을 나타내며, 여기에는 타겟 재료의 설명 이름 ( iDescNamet ), 다른 재료 ( Io ), 태그 ( B ), 제목 ( e ), 서빙 수 ( s )가 포함됩니다.
 
+데이터는 훈련, 검증, 테스트 세트로 각각 8:1:1 비율로 분할되었습니다. 문서의 표 1은 데이터셋에 있는 타겟 재료의 수량에 대한 통계 세부 정보를 제공합니다.
 
-#### 최종 데이터셋 구성
+데이터셋 통계 요약:
 
--   **데이터 인스턴스**: 최종적으로 98,725개의 데이터 인스턴스를 얻었습니다. 각 데이터 인스턴스는 다음과 같이 정의됩니다:
-    
-    K={d,u,q,c}K = \{d, u, q, c\}K={d,u,q,c}
-    
-    여기서 ccc는 {it_DescName,Io,e,B,s}\{i_{t\_DescName}, I_o, e, B, s\}{it_DescName​,Io​,e,B,s}를 포함합니다.
-    
--   **데이터 분할**: KitchenScale 데이터셋의 데이터 인스턴스는 학습 데이터(D_train), 검증 데이터(D_valid), 테스트 데이터(D_test)로 8:1:1 비율로 분할되었습니다.
-    
-
-#### 데이터 통계
-
--   **Table 1**: 타겟 재료의 수치 통계를 나타냅니다. 여기에는 각 타겟 재료의 수치 값 분포에 대한 정보가 포함됩니다.
-
+	•	훈련 인스턴스: 78,984개
+	•	검증 인스턴스: 9,873개
+	•	테스트 인스턴스: 9,868개
+	•	타겟 재료 수량에 대한 통계:
+	•	평균: 185.93 (훈련), 187.29 (검증), 182.36 (테스트)
+	•	표준 편차: 384.88 (훈련), 383.83 (검증), 385.41 (테스트)
+	•	최소: 0.05
+	•	최대: 30,283.28 (훈련), 15,141.64 (검증), 11,356.32 (테스트) 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -230,11 +215,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MjY5ODg5NiwtMjA3NzQxMDk5NiwxMz
-I0MDg2NDQ0LC0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMTg1MDEy
-NTY5MiwtMTYyNTMzMDk1NiwxMTY1OTYzNzUwLC0xNDkxNjIzOD
-k4LDk1NTY3MjA3MCwyMTMxNTIwMzgsLTE0MzcxMTY0MTAsMTUw
-ODMxMjEwNiw1MTUyNDk4NTcsMTUwODMxMjEwNiwxNTg1MTI1NT
-YwLDI1NTMyMjQzMCw1MDk1MDgxMzEsNTk1MzkwNTk4LC0yMjIw
-OTUzMjRdfQ==
+eyJoaXN0b3J5IjpbMjY1ODAwMTE1LDEwODI2OTg4OTYsLTIwNz
+c0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1NjkyMiwtMzM0NDc0
+NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NTYsMTE2NTk2Mzc1MC
+wtMTQ5MTYyMzg5OCw5NTU2NzIwNzAsMjEzMTUyMDM4LC0xNDM3
+MTE2NDEwLDE1MDgzMTIxMDYsNTE1MjQ5ODU3LDE1MDgzMTIxMD
+YsMTU4NTEyNTU2MCwyNTUzMjI0MzAsNTA5NTA4MTMxLDU5NTM5
+MDU5OF19
 -->
