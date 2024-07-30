@@ -202,7 +202,7 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 타겟 재료의 수치량을 정규화된 부동 소수점 값으로 변환했다. 분수로 된 숫자는 소수 값으로 변환했다(예: ‘1 1/2’을 1.5로 변환). 이러한 정규화된 값은 재료 양 예측 문제를 회귀 문제로 구성하는 데 사용되었다.
 
 최종 데이터셋 구성:
-최종 처리된 데이터셋은 98,725개의 데이터 인스턴스를 포함하고 있습니다. 데이터셋의 각 인스턴스는  K = \{d, u, q, c\} 로 정의됩니다. 여기서:
+최종 처리된 데이터셋은 98,725개의 데이터 인스턴스를 포함하고 있다. 데이터셋의 각 인스턴스는  $K = \{d, u, q, c\}$ 로 정의된다. 여기서:
 
 	•	 d 는 측정 유형을 나타냅니다.
 	•	 u 는 측정 단위를 나타냅니다.
@@ -235,11 +235,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDg2MDgwNCwtMTI0NjE5NDk3OCw5Mz
-IzODc1ODIsMTU0NjkxMTUyLC0xNDA3MDIzMTkwLDI2NTgwMDEx
-NSwxMDgyNjk4ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0NDQsLT
-ExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC0xNjI1
-MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OTgsOTU1NjcyMD
-cwLDIxMzE1MjAzOCwtMTQzNzExNjQxMCwxNTA4MzEyMTA2LDUx
-NTI0OTg1N119
+eyJoaXN0b3J5IjpbMjM2Njc1NzAwLDEwMTQ4NjA4MDQsLTEyND
+YxOTQ5NzgsOTMyMzg3NTgyLDE1NDY5MTE1MiwtMTQwNzAyMzE5
+MCwyNjU4MDAxMTUsMTA4MjY5ODg5NiwtMjA3NzQxMDk5NiwxMz
+I0MDg2NDQ0LC0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMTg1MDEy
+NTY5MiwtMTYyNTMzMDk1NiwxMTY1OTYzNzUwLC0xNDkxNjIzOD
+k4LDk1NTY3MjA3MCwyMTMxNTIwMzgsLTE0MzcxMTY0MTAsMTUw
+ODMxMjEwNl19
 -->
