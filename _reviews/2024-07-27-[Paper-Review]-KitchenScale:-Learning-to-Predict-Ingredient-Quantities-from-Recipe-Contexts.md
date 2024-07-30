@@ -180,15 +180,15 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 
 •  사용자가 작성한 레시피로, 자연어 형식으로 되어 있다.
 
-•  예: “2 cups of sugar”, “1/2 teaspoon of salt”, “500g of chicken breast” 등의 형태로 재료와 양, 단위가 적혀 있습니다.
+•  예: “2 cups of sugar”, “1/2 teaspoon of salt”, “500g of chicken breast” 등의 형태로 재료와 양, 단위가 적혀 있다.
 
 2. **RecipeDB**:
 
-•  원본 레시피의 구조화된 버전입니다.
+•  원본 레시피의 구조화된 버전이다.
 
-•  각 레시피의 재료, 양, 단위 등의 정보를 데이터베이스 형식으로 정리하여 저장합니다.
+•  각 레시피의 재료, 양, 단위 등의 정보를 데이터베이스 형식으로 정리하여 저장한다.
 
-•  예: {“ingredient”: “sugar”, “quantity”: 2, “unit”: “cups”}, {“ingredient”: “salt”, “quantity”: 0.5, “unit”: “teaspoon”}, {“ingredient”: “chicken breast”, “quantity”: 500, “unit”: “g”} 등의 형태로 저장됩니다.
+•  예: {“ingredient”: “sugar”, “quantity”: 2, “unit”: “cups”}, {“ingredient”: “salt”, “quantity”: 0.5, “unit”: “teaspoon”}, {“ingredient”: “chicken breast”, “quantity”: 500, “unit”: “g”} 등의 형태로 저장된다.
 
 
 **측정 단위 및 전처리:**
@@ -231,7 +231,7 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgxMjczMzk4LC0xNDA3MDIzMTkwLDI2NT
+eyJoaXN0b3J5IjpbMTI0MDg0MzkyLC0xNDA3MDIzMTkwLDI2NT
 gwMDExNSwxMDgyNjk4ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0
 NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC
 0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OTgsOTU1
