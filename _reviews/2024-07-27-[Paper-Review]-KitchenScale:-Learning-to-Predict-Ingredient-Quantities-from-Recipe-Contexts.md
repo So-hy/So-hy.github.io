@@ -209,7 +209,7 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 •	$q$ 는 정규화된 수량을 나타낸다.
 •	 $c$ 는 레시피 맥락을 나타내며, 여기에는 타겟 재료의 설명 이름 ( $iDescNamet$ ), 다른 재료 ( $Io$ ), 태그 ( $B$ ), 제목 ( $e$ ), 몇 인분( $s$ )에 대한 정보가 포함됩니다.
 
-데이터는 훈련, 검증, 테스트 세트로 각각 8:1:1 비율로 분할되었습니다. 문서의 표 1은 데이터셋에 있는 타겟 재료의 수량에 대한 통계 세부 정보를 제공합니다.
+데이터는 훈련, 검증, 테스트 세트로 각각 8:1:1 비율로 분할되었다. 아래의 표는 데이터셋에 있는 타겟 재료의 수량에 대한 통계 세부 정보를 제공한다.
 
 데이터셋 통계 요약:
 
@@ -235,11 +235,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMTYxMTY4OCwxNTEzNjE4NDUwLDIzNj
-Y3NTcwMCwxMDE0ODYwODA0LC0xMjQ2MTk0OTc4LDkzMjM4NzU4
-MiwxNTQ2OTExNTIsLTE0MDcwMjMxOTAsMjY1ODAwMTE1LDEwOD
-I2OTg4OTYsLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1
-NjkyMiwtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NT
-YsMTE2NTk2Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNzAsMjEz
-MTUyMDM4XX0=
+eyJoaXN0b3J5IjpbLTczNjkyOTI3LDExMzE2MTE2ODgsMTUxMz
+YxODQ1MCwyMzY2NzU3MDAsMTAxNDg2MDgwNCwtMTI0NjE5NDk3
+OCw5MzIzODc1ODIsMTU0NjkxMTUyLC0xNDA3MDIzMTkwLDI2NT
+gwMDExNSwxMDgyNjk4ODk2LC0yMDc3NDEwOTk2LDEzMjQwODY0
+NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOCwxODUwMTI1NjkyLC
+0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0OTE2MjM4OTgsOTU1
+NjcyMDcwXX0=
 -->
