@@ -170,8 +170,7 @@ KitchenScale 모델에서의 수치 탐구 과제는 다음의 세 가지 주요
 
 KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batra et al., 2020)와 Reciptor(Li and Zaki, 2020)에서 레시피와 그 속성을 병합하여 생성되었다. 결합된 데이터셋은 총 101,573개의 레시피 정보를 포함하고 있습니다.
 
-#### 타겟 재료 선택 및 마스킹:
-
+**타겟 재료 선택 및 마스킹:**
 데이터셋의 각 레시피에서 무작위로 타겟 재료를 선택했다. 그런 다음 이 타겟 재료와 관련된 수치 정보를 예측 작업을 위해 마스킹했다. 이는 RecipeDB의 숫자 값과 단위를 원본 재료 텍스트와 일치시키는 과정을 포함한다.
 
 **측정 단위 및 전처리:**
@@ -214,11 +213,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MDM2MTAwOCwyNjU4MDAxMTUsMTA4Mj
-Y5ODg5NiwtMjA3NzQxMDk5NiwxMzI0MDg2NDQ0LC0xMTQxMzU2
-OTIyLC0zMzQ0NzQ2MTgsMTg1MDEyNTY5MiwtMTYyNTMzMDk1Ni
-wxMTY1OTYzNzUwLC0xNDkxNjIzODk4LDk1NTY3MjA3MCwyMTMx
-NTIwMzgsLTE0MzcxMTY0MTAsMTUwODMxMjEwNiw1MTUyNDk4NT
-csMTUwODMxMjEwNiwxNTg1MTI1NTYwLDI1NTMyMjQzMCw1MDk1
-MDgxMzFdfQ==
+eyJoaXN0b3J5IjpbLTE0MDcwMjMxOTAsMjY1ODAwMTE1LDEwOD
+I2OTg4OTYsLTIwNzc0MTA5OTYsMTMyNDA4NjQ0NCwtMTE0MTM1
+NjkyMiwtMzM0NDc0NjE4LDE4NTAxMjU2OTIsLTE2MjUzMzA5NT
+YsMTE2NTk2Mzc1MCwtMTQ5MTYyMzg5OCw5NTU2NzIwNzAsMjEz
+MTUyMDM4LC0xNDM3MTE2NDEwLDE1MDgzMTIxMDYsNTE1MjQ5OD
+U3LDE1MDgzMTIxMDYsMTU4NTEyNTU2MCwyNTUzMjI0MzAsNTA5
+NTA4MTMxXX0=
 -->
