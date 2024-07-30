@@ -214,16 +214,16 @@ KitchenScale의 재료 양 예측 작업을 위한 데이터셋은 RecipeDB(Batr
 ![스크린샷 2024-07-31 050539](https://github.com/user-attachments/assets/f0fdffa5-2055-441a-8d45-40dc6e1b6449){: .responsive-img .align-center}
 
 
-데이터셋 통계 요약:
+**데이터셋 통계 요약:**
 
-	•	훈련 인스턴스: 78,984개
-	•	검증 인스턴스: 9,873개
-	•	테스트 인스턴스: 9,868개
-	•	타겟 재료 수량에 대한 통계:
-	•	평균: 185.93 (훈련), 187.29 (검증), 182.36 (테스트)
-	•	표준 편차: 384.88 (훈련), 383.83 (검증), 385.41 (테스트)
-	•	최소: 0.05
-	•	최대: 30,283.28 (훈련), 15,141.64 (검증), 11,356.32 (테스트) 
+•	train 인스턴스: 78,984개
+• valid 인스턴스: 9,873개
+•	test 인스턴스: 9,868개
+•	타겟 재료 수량에 대한 통계:
+•	평균: 185.93 (train), 187.29 (valid), 182.36 (test)
+•	표준 편차: 384.88 (train), 383.83 (valid), 385.41 (test)
+•	최소: 0.05
+•	최대: 30,283.28 (train), 15,141.64 (valid), 11,356.32 (test) 
 
 [^2]: Lin, B.Y., Lee, S., Khanna, R., Ren, X., 2020. Birds have four legs?! NumerSense: Probing Numerical Commonsense Knowledge of Pre-Trained Language Models, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. pp. 6862–6868. URL: https://aclanthology.org/2020. emnlp- main.557, doi:10.18653/v1/2020.emnlp- main.557. Yamane, H., Lin, C.Y., Harada, T., 2020. Measuring numerical common sense: Is a word embedding approach effective? URL: https://openreview.net/ 
 forum?id=B1xbTlBKwB Elazar, Y., Mahabal, A., Ramachandran, D., Bedrax-Weiss, T., Roth, D., 2019. 
@@ -238,11 +238,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.//////////////
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4Njk2NDQyNCwtNzM2OTI5MjcsMTEzMT
-YxMTY4OCwxNTEzNjE4NDUwLDIzNjY3NTcwMCwxMDE0ODYwODA0
-LC0xMjQ2MTk0OTc4LDkzMjM4NzU4MiwxNTQ2OTExNTIsLTE0MD
-cwMjMxOTAsMjY1ODAwMTE1LDEwODI2OTg4OTYsLTIwNzc0MTA5
-OTYsMTMyNDA4NjQ0NCwtMTE0MTM1NjkyMiwtMzM0NDc0NjE4LD
-E4NTAxMjU2OTIsLTE2MjUzMzA5NTYsMTE2NTk2Mzc1MCwtMTQ5
-MTYyMzg5OF19
+eyJoaXN0b3J5IjpbLTEyNzM4NDQ1MDYsLTczNjkyOTI3LDExMz
+E2MTE2ODgsMTUxMzYxODQ1MCwyMzY2NzU3MDAsMTAxNDg2MDgw
+NCwtMTI0NjE5NDk3OCw5MzIzODc1ODIsMTU0NjkxMTUyLC0xND
+A3MDIzMTkwLDI2NTgwMDExNSwxMDgyNjk4ODk2LC0yMDc3NDEw
+OTk2LDEzMjQwODY0NDQsLTExNDEzNTY5MjIsLTMzNDQ3NDYxOC
+wxODUwMTI1NjkyLC0xNjI1MzMwOTU2LDExNjU5NjM3NTAsLTE0
+OTE2MjM4OThdfQ==
 -->
