@@ -15,8 +15,10 @@ layout: post
 $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI2NjgwOTAsLTEzMDYxNzAwMDYsNT
+eyJoaXN0b3J5IjpbLTE2ODI0NDE0MzgsLTEzMDYxNzAwMDYsNT
 g4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5OCwtMTAyMTMx
 OTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
 -->
