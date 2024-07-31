@@ -4,8 +4,12 @@ author: Sohyun
 layout: post
 ---
 
-위 강의에서는 생성 알고리즘(Generation Algo)
+위 강의에서는 여러 생성 알고리즘(Generation Algorithms)과, 이와 관련된 배경 이론을 설명하고 있다.
+
+교수는 먼저 하나의 모델 $M$을 가정하고 강의를 시작한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NzM5OTU4LDUxNTM2MzMyMiwxMDg5OT
-U0NzcyXX0=
+eyJoaXN0b3J5IjpbLTEwMjEzMTk2NDUsNTE1MzYzMzIyLDEwOD
+k5NTQ3NzJdfQ==
 -->
