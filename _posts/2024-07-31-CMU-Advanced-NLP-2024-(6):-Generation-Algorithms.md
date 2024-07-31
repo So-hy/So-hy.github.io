@@ -4,7 +4,8 @@ author: Sohyun
 layout: post
 ---
 
-ryhrt
+위 강의에서는 생성 알고리즘(Generation Algo)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
+eyJoaXN0b3J5IjpbMTM1NzM5OTU4LDUxNTM2MzMyMiwxMDg5OT
+U0NzcyXX0=
 -->
