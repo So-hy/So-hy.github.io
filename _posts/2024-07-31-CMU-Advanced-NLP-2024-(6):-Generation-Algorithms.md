@@ -10,9 +10,9 @@ layout: post
 
 해당 모델은 70억 개의 매개변수로 이루어져있고, 가장 최신의 아키텍쳐로 사전 학습된 모델이며, 수 조개의 텍스트 토큰으로 사전 학습되었다. 또한, 여러 리더보드에서 최고의 성능을 자랑하는 매우 유명한 모델이라고 말한다.
 
-하지만 모델 M을 자세히 살펴보면, 사실 이 모델은 단순한 조건부 확률 분포이다.
+하지만 모델 $M$을 자세히 살펴보면, 사실 이 모델은 조건부 확률 분포를 정의한다. 모델이 조건부 확률 분포를 정의한다는 것은, 모델이 특정 조건 $X$가 주어졌을 때 다른 변수 $Y$의 분포를 예측하거나 설명할 수 있다는 의미이다. 모델에 입력 $X$를 넣으면, 관심 있는 시퀀스에 대한 확률을 출력합니다. 특히, M은 어휘의 모든 토큰에 대한 확률 분포를 제공하여 다음에 어떤 토큰을 출력할지 예측합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3ND
-I4OTE5OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3
-Ml19
+eyJoaXN0b3J5IjpbNDc1MjQzMDk4LDU4ODIyMTAwLC0xMjA2ND
+kyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNTE1MzYzMzIy
+LDEwODk5NTQ3NzJdfQ==
 -->
