@@ -12,9 +12,10 @@ layout: post
 
 하지만 모델 $M$을 자세히 살펴보면, 사실 이 모델은 조건부 확률 분포를 정의한다. 모델이 조건부 확률 분포를 정의한다는 것은, 모델이 특정 조건 $X$가 주어졌을 때 다른 변수 $Y$의 분포를 예측하거나 설명할 수 있다는 의미이다. 모델에 입력 $X$를 넣으면, 관심 있는 시퀀스에 대한 확률을 출력한다. 특히, $M$은 어휘의 모든 토큰에 대한 확률 분포를 제공하여 다음에 어떤 토큰을 출력할지 예측한다. 이러한 의미를 아래의 식이 내포한다.
 
-$$\P(Y \| X) = \prod_{j=1}^{J} P(y_j \| X, y_1, \ldots, y_{j-1})\$$
+$$
+P(Y \| X) = \prod_{j=1}^{J} P(y_j \| X, y_1, \ldots, y_{j-1})$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NDU3MjIwMiw1ODgyMjEwMCwtMTIwNj
-Q5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5NjQ1LDUxNTM2MzMy
-MiwxMDg5OTU0NzcyXX0=
+eyJoaXN0b3J5IjpbNjM0MDUxMDA0LDU4ODIyMTAwLC0xMjA2ND
+kyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNTE1MzYzMzIy
+LDEwODk5NTQ3NzJdfQ==
 -->
