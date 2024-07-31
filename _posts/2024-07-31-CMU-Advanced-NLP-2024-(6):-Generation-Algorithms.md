@@ -21,8 +21,10 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 즉, 이 고급 모델은 단순히 조건부 확률 분포에 불과하다.
 
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3Nzc0OTM0LDEwNzkxNDUxMjAsLTEzMD
+eyJoaXN0b3J5IjpbNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMD
 YxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5
 OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
 -->
