@@ -14,11 +14,15 @@ layout: post
 
 $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
+•  **입력과 예측**: 입력 X와 지금까지 예측한 모든 것을 기반으로 다음 토큰 YJ의 확률을 제공합니다.
 
+•  **확률 계산**: 시퀀스 내 모든 확률을 곱하면, 입력 X에 대한 출력 Y의 확률을 계산할 수 있습니다.
+
+•  **본질**: 즉, 이 고급 모델은 단순히 조건부 확률 분포에 불과합니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODI0NDE0MzgsLTEzMDYxNzAwMDYsNT
-g4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5OCwtMTAyMTMx
-OTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
+eyJoaXN0b3J5IjpbMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1OD
+gyMjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5
+NjQ1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
 -->
