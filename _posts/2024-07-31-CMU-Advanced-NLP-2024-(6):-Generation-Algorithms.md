@@ -75,13 +75,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다. 즉 만약 $\epsilon$이 0.05 일 경우, 해당 확률을 넘는 토큰들만 샘플링 대상에 포함하는 것이다. 이렇게 함으로써 확률이 매우 낮은 토큰을 배제하여 샘플링의 품질을 높일 수 있다. 하지만 반대로 낮은 확률의 토큰이 필요한 경우(즉 확률이 낮지만 정답일 경우), 이를 배제해버릴 수 있다.
 
 
-샘플링에 있어 긴 꼬리 분포만이 고려되어야 할 점은 아니다.  **온도** 또한 주목하여야 한다. 확률 분포에서 온도는 샘플링 시 모델의 확률 분포를 조정하여 생성되는 텍스트의 다양성과 결정성을 제어하는데 사용되는 파라미터이다. 온도 파라미터를 분포를 평평하게 하거나 더 날카롭게 만들 수 있는데, 온도를 크게 할 경우(T>1) 분포가 평평해지고 반대로 온도를 작게 할 경우(T<1) 분포가 날카로워진다. 이야기 생성 모델과 같은 경우 분포를 넓게 하는 즉, 온도를 높이는 것이 좋을 것이고, 반대로 수학 문제를 푸는 것과 같은 경우에는 온도를 낮추는 것이 더 좋기 때문에 상황에 따라 잘 조절하여야 한다. 이러한 온도에 대한 처리는 Softmax 를 취하기 이전에 모델의 마지막 레이어에서 나온 출력, 즉 모델이 예측한 로짓에다가 처리를 하게 된다. 이 처리된 로짓에 Softmax를 취해서 최종 확률 분포를 구하게 된다. 이걸 식으로 표현하면 다음과 같다. $$zi′​=T \div zi$$​​
+샘플링에 있어 긴 꼬리 분포만이 고려되어야 할 점은 아니다.  **온도** 또한 주목하여야 한다. 확률 분포에서 온도는 샘플링 시 모델의 확률 분포를 조정하여 생성되는 텍스트의 다양성과 결정성을 제어하는데 사용되는 파라미터이다. 온도 파라미터를 분포를 평평하게 하거나 더 날카롭게 만들 수 있는데, 온도를 크게 할 경우(T>1) 분포가 평평해지고 반대로 온도를 작게 할 경우(T<1) 분포가 날카로워진다. 이야기 생성 모델과 같은 경우 분포를 넓게 하는 즉, 온도를 높이는 것이 좋을 것이고, 반대로 수학 문제를 푸는 것과 같은 경우에는 온도를 낮추는 것이 더 좋기 때문에 상황에 따라 잘 조절하여야 한다. 이러한 온도에 대한 처리는 Softmax 를 취하기 이전에 모델의 마지막 레이어에서 나온 출력, 즉 모델이 예측한 로짓에다가 처리를 하게 된다. 이 처리된 로짓에 Softmax를 취해서 최종 확률 분포를 구하게 된다. 이걸 식으로 표현하면 다음과 같다. $$z_i^′​=\frac{z_i}{T}$$​​
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzYwNjIzNzQsLTEyODg3NDQzMTUsOD
-c4MTY0NjA5LDY2MzI5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2
-NDIwLDc2NzM3NzM5NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5My
-wtOTAxODY0MzU1LDE3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5
-NTgwNjUyNSwzNDUwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1ND
-U4LDEwNzkxNDUxMjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEy
-MDY0OTI2NzNdfQ==
+eyJoaXN0b3J5IjpbODM1OTQwMzA1LC0xMjg4NzQ0MzE1LDg3OD
+E2NDYwOSw2NjMyOTAzODMsLTEwOTk2Mzg0NTcsLTIyNTEzNjQy
+MCw3NjczNzczOTcsLTE5Mzk0NTkxNTksLTEzMDM3NjU3OTMsLT
+kwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2NzkyNjA4LC0xOTU4
+MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LDUzMzk4NTQ1OC
+wxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIyMTAwLC0xMjA2
+NDkyNjczXX0=
 -->
