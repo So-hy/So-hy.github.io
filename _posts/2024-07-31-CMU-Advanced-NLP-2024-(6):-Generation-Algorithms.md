@@ -89,9 +89,12 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 대비 디코딩의 과정은 다음과 같다.
 
-1. 먼저 두 모델(작은 
+1. 먼저 두 모델(작은 모델과 큰 모델)이 동일한 입력에 대해 각각의 확률 분포를 생성한다.
+2. 그 후 두 모델의 확률 값 차이를 계산한다.
+
+$$Contrastive Score(xi​)=logPlarge​(xi​)−logPsmall​(xi​)$$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTUwNjU0MCwtNjMwNjEwNjU5LC0xMj
+eyJoaXN0b3J5IjpbMTA1MzE4OTk2MiwtNjMwNjEwNjU5LC0xMj
 g4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOTk2Mzg0
 NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkxNTksLT
 EzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2
