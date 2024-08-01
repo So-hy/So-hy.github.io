@@ -133,11 +133,11 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 > 
 > -   **가중 평균 계산**: 두 모델의 출력을 조합하여 새로운 확률을 계산합니다. 큰 모델의 출력을 더 많이 반영하거나, 작은 모델이 중요한 역할을 할 경우 더 평등하게 반영합니다.
 >     
->     Pcombined(xi)=α⋅Plarge(xi)+(1−α)⋅Psmall(xi)P_{\text{combined}}(x_i) =
+>    $$P_{\text{combined}}(x_i) =
 > \alpha \cdot P_{\text{large}}(x_i) + (1 - \alpha) \cdot
-> P_{\text{small}}(x_i)Pcombined​(xi​)=α⋅Plarge​(xi​)+(1−α)⋅Psmall​(xi​)
+> P_{\text{small}}(x_i)$$
 >     
->     여기서 α\alphaα는 가중치를 조절하는 파라미터로, 일반적으로 0.5에서 1 사이의 값을 가질 수 있습니다.
+>     여기서 $\alpha$는 가중치를 조절하는 파라미터로, 일반적으로 0.5에서 1 사이의 값을 가질 수 있습니다.
 >     
 > -   **유연성 제공**: 이 접근법은 두 모델 간의 상호작용을 유연하게 조정할 수 있어, 상황에 따라 큰 모델의 영향력을 높이거나 작은 모델의 의견을 더 반영할 수 있습니다.
 >     
@@ -158,7 +158,7 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 
 즉, 두 모델 간의 대비 점수가 클 때는, 단순히 큰 모델의 예측만을 신뢰하기보다는 다양한 방법을 통해 최종 출력을 결정하는 것이 중요합니다. 이는 모델의 예측을 더욱 신뢰성 있게 만들고, 다양한 시나리오에서 더 높은 품질의 출력을 제공할 수 있도록 돕습니다. 각각의 상황에 맞는 최적의 전략을 선택하는 것이 모델 성능을 극대화하는 데 중요합니다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODY1NTMxNiwxMzkzODI0MTYsLTYzMD
+eyJoaXN0b3J5IjpbMTI3OTg5MDYzNiwxMzkzODI0MTYsLTYzMD
 YxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgz
 LC0xMDk5NjM4NDU3LC0yMjUxMzY0MjAsNzY3Mzc3Mzk3LC0xOT
 M5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1
