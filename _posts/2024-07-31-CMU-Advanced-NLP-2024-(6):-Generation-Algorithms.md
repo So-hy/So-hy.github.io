@@ -174,13 +174,15 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 해당 강의에서 또다른 질문에 대해 다루었는데 긴 시퀀스를 생성할 때 Contrastive Decoding을 사용하는 방법이 무엇인가에 대한 것이다. 
 
-긴 시퀀스를 생성할 땐 contrastive decoding은 각 개별 시점에서 적용된다. 큰 모델은 각 시점에서 다음 토큰을 예측하고, 작은 모델의 확률을 빼서 다음 출력을 선택합니다. 이렇게 하면 긴 시퀀스를 생성할 때에도 작은 모델의 오류를 보완하고, 큰 모델의 장점을 활용하여 보다 정확한 출력을 생성할 수 있습니다. 각 단계에서 이러한 과정을 반복하여 최종 출력을 얻습니다.
+긴 시퀀스를 생성할 땐 contrastive decoding은 각 개별 시점에서 적용된다. 큰 모델은 각 시점에서 다음 토큰을 예측하고, 작은 모델의 확률을 빼서 다음 출력을 선택한다. 이렇게 하면 긴 시퀀스를 생성할 때에도 작은 모델의 오류를 보완하고, 큰 모델의 장점을 활용하여 보다 정확한 출력을 생성할 수 있다. 각 단계에서 이러한 과정을 반복하여 최종 출력을 얻는다.
+
+또한 작은 모델과 큰 모델 간의 적절한 차이
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMD
-kzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkz
-MCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4Nz
-gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
-MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC
-05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1
-ODA2NTI1XX0=
+eyJoaXN0b3J5IjpbMTE5NjQzNTg5MiwxMjUzODk2OTk5LC02OT
+k0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNjQ5MTQy
+MTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5LC0xMj
+g4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOTk2Mzg0
+NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkxNTksLT
+EzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2
+NzkyNjA4XX0=
 -->
