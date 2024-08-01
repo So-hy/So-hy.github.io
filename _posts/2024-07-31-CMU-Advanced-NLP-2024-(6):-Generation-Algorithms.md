@@ -180,7 +180,7 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 
 
-### **모드 찾기 검색 (Mode-Seeking Search)**
+## **모드 찾기 검색 (Mode-Seeking Search)**
 
 이번에 살펴볼 것은 Mode-Seeking Search 이다. 이는 주어진 입력에 대해 가장 확률이 높은 단일 출력을 찾는 방법이다.
 
@@ -190,12 +190,15 @@ $\hat{Y} = \underset{argmax}{Y} P(Y \| X)$
 
 ### 그리디 디코딩(Greedy Decoding)
 
+Mode-seeking Search의 한 종류로 각 단계(timestep)에서 가장 확률이 높은 토큰을 선택하는 방법이다. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDM0MzUzOSw2ODAyMzA0NzEsODY0OD
-Q2NzQzLDEwNzAxMDg5MTIsLTIwMjE2Njg3NiwxMTk2NDM1ODky
-LDEyNTM4OTY5OTksLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMD
-YxMTcyNTM0LDE2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2
-LC02MzA2MTA2NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2Mz
-I5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5
-N119
+eyJoaXN0b3J5IjpbMTczMTAzOTk4NywtODcwMzQzNTM5LDY4MD
+IzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2
+LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMD
+kzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkz
+MCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4Nz
+gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
+MjBdfQ==
 -->
