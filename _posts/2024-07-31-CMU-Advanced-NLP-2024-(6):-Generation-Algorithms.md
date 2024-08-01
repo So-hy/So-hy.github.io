@@ -207,9 +207,16 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 ![4](https://github.com/user-attachments/assets/e9703b48-11a7-4b64-86d2-3e379c1e7ebc){: .responsive-img .align-center}
 
 
-결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 보여준다. 또한 빔서치와 Temperture sampling은 디코딩시 꽤 광범위하게 사용된다고 한다. 하지만 이런식으로 최대값이나 높은 확률의 토큰만 샘플링하게 된다면 출력에서 다양성을 잃게 된다. 또한 빔서치 후 최종 생성된 결과들은 굉장히 유사한 결과를 보인다. 만약 더 다양한 출력을 얻고 싶다면 빔
+결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 보여준다. 또한 빔서치와 Temperture sampling은 디코딩시 꽤 광범위하게 사용된다고 한다. 하지만 이런식으로 최대값이나 높은 확률의 토큰만 선택하게 된다면 출력에서 다양성을 잃게 된다. 또한 빔서치 후 최종 생성된 결과들은 굉장히 유사한 결과를 보인다. 만약 더 다양한 출력을 얻고 싶다면 빔서치의 종류 중 다른 방법을 사용할 수 있다. 
+
+
+### Diverse Beam Search & Stochastic Beam Search
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDQ5OTQ3NTQsLTU2MDU5MTM5Myw5Mj
+eyJoaXN0b3J5IjpbLTExNTk2MjYzMzEsLTU2MDU5MTM5Myw5Mj
 AwMzg0ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1LC05ODY1ODA4
 MzgsMzg0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNjc1NzUyMDksLT
 E1MzQyMzAxNTUsLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIz
