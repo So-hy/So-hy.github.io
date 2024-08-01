@@ -67,12 +67,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ### Top-P(or Nucleus) 샘플링
 
-이 방법은 
+이 방법은 샘플링할 집합을 뽑을 때, 갯수가 아닌 확률 질량의 총합을 기준으로 뽑는 방법이다. 여기서 p가 해당 확률을 나타내는 값이고, 만약 p 가 0.94 즉, 94%라면 가장 확률이 높은 토큰부터 시작해, 누적 확률이 94%에 도달할 때까지 집합에 토큰을 추가한 후, 해당 집합에서 샘플링을 진행하는 방법이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMz
-AzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5
-MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Ni
-w1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgy
-MjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5Nj
-Q1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
+eyJoaXN0b3J5IjpbLTE4NTk2MDg3NDIsNzY3Mzc3Mzk3LC0xOT
+M5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1
+ODIxNCwtMTA5Njc5MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OS
+wtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMw
+NjE3MDAwNiw1ODgyMjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MT
+k4LC0xMDIxMzE5NjQ1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
+
 -->
