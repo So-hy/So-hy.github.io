@@ -225,13 +225,15 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 여기에서 샘플링하는 방법에는 다양한 방법이 있을 수 있는데, 단순히 기존의 Ancestral Sampling 처럼 모델이 제공하는 확률 분포에서 직접 샘플링을 수행하는(모델의 예측 확률에 따라 각 토큰을 선택하는 방식) 방식도 있고, 이전에 논의된 다양한 샘플링 방법을 사용하여 후보를 확장할 수도 있다. 이러한 방법들은 다양성을 더욱 증가시킬 수 있다.
 
-확률적 빔 검색의 목적은 모델의 출력 공간을 더 넓게 탐색하는 것이다. 이를 통해 더 다양하고 창의적인 출력을 생성할 수 있다. 또한 전통적인 빔 거
+확률적 빔 검색의 목적은 모델의 출력 공간을 더 넓게 탐색하는 것이다. 이를 통해 더 다양하고 창의적인 출력을 생성할 수 있다. 또한 전통적인 빔 검색은 유사한 결과들이 반복적으로 생성될 수 있지만, 확률적으로 접근함으로써 이러한 경향을 줄이고 더욱 독창적인 결과를 얻을 수 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0OTE0NjUyNCwtMTk1OTM2OTUxOCw5ND
-E0NTIxMSwtMTE1OTYyNjMzMSwtNTYwNTkxMzkzLDkyMDAzODQ4
-MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLTk4NjU4MDgzOCwzOD
-QyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3NTIwOSwtMTUzNDIz
-MDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMwNDcxLD
-g2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMTE5NjQz
-NTg5Ml19
+eyJoaXN0b3J5IjpbLTE5MDI3NjgxODMsLTE5NTkzNjk1MTgsOT
+QxNDUyMTEsLTExNTk2MjYzMzEsLTU2MDU5MTM5Myw5MjAwMzg0
+ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1LC05ODY1ODA4MzgsMz
+g0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNjc1NzUyMDksLTE1MzQy
+MzAxNTUsLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIzMDQ3MS
+w4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2LDExOTY0
+MzU4OTJdfQ==
 -->
