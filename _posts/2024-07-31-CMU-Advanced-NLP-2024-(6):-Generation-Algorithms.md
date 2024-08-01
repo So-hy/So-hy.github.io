@@ -79,13 +79,17 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ​​이런 온도를 적용하고 이전에 쓴 Top-k 나 Top-p 를 쓸 수 있지만, 보통은 온도만 적용하고 단순히 샘플링한다고 한다. 이러한 샘플링을 Temperture Sampling 이라고 한다.
 
+이제부턴 조금 더 복잡한 샘플링 방법에 대해 알아보자.
 
+### 대비 디코딩(Contrastive Decoding)
+
+대비 디코딩은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MzgyODgyOSwtMTI4ODc0NDMxNSw4Nz
-gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
-MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC
-05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1
-ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NT
-gsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIw
-NjQ5MjY3M119
+eyJoaXN0b3J5IjpbMjI4NTY4NTMsLTEyODg3NDQzMTUsODc4MT
+Y0NjA5LDY2MzI5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2NDIw
+LDc2NzM3NzM5NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOT
+AxODY0MzU1LDE3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgw
+NjUyNSwzNDUwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LD
+EwNzkxNDUxMjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0
+OTI2NzNdfQ==
 -->
