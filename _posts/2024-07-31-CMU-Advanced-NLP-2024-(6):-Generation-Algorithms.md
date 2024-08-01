@@ -48,18 +48,18 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 **긴 꼬리 분포 문제란?** 
 
-긴 꼬리 분포는 높은 확률을 가진 토큰이 일부이고, 많은 토큰들이 낮은 확률을 가지지만, 이들이 모여서 전체 확률의 절반을 차지하는 모양의 분포를 의미한다. 
+긴 꼬리 분포는 높은 확률을 가진 토큰이 일부이고, 많은 토큰들이 낮은 확률을 가지지만, 이들이 모여서 전체 확률의 절반 가까이를 차지하는 모양의 분포를 의미한다. 
 
 ![3](https://github.com/user-attachments/assets/98fbf138-489d-4ae9-aa56-ff9ac794a723){: .responsive-img .align-center}
 
 대충 이런 모양의 분포이다.
 
-결과적으로, 샘플링할 때 이러한 낮은 확률의 토큰이 선택될 가능성이 높아집니다.
+이러한 분포의 문제는 결과적으로, 샘플링할 때 이러한 낮은 확률의 토큰이 선택될 가능성이 높다는 것이다. 위의 그림에서 녹색 부분과 노란 부분은 각각 절반 정도의 비율을 차지하는데, 녹색 부분이 더 정답에 가까운 친구들임에도 단순 샘플링을 통해 샘플링을 진행할 경우, 50%의 확률
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNz
-k0MDU4MjE0LC0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2
-ODU5LC0xNzQyOTMxNTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC
-0xMzA2MTcwMDA2LDU4ODIyMTAwLC0xMjA2NDkyNjczLC00NzQy
-ODkxOTgsLTEwMjEzMTk2NDUsNTE1MzYzMzIyLDEwODk5NTQ3Nz
-JdfQ==
+eyJoaXN0b3J5IjpbNjczMTAxMzQ4LC0xMzAzNzY1NzkzLC05MD
+E4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1ODA2
+NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMT
+A3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIwNjQ5
+MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5NjQ1LDUxNTM2MzMyMi
+wxMDg5OTU0NzcyXX0=
 -->
