@@ -75,13 +75,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다. 즉 만약 $\epsilon$이 0.05 일 경우, 해당 확률을 넘는 토큰들만 샘플링 대상에 포함하는 것이다. 이렇게 함으로써 확률이 매우 낮은 토큰을 배제하여 샘플링의 품질을 높일 수 있다. 하지만 반대로 낮은 확률의 토큰이 필요한 경우(즉 확률이 낮지만 정답일 경우), 이를 배제해버릴 수 있다.
 
 
-샘플링에 있어 긴 꼬리 분포만이 고려되어야 할 점은 아니다.  **온도** 또한 주목하여야 한다. 확률 분포에서 온도는 샘플링 시 모델의 확률 분포를 조정하여 생성되는 텍스트의 다양성과 결정성을 제어하는데 사용되는 기법이다. 
+샘플링에 있어 긴 꼬리 분포만이 고려되어야 할 점은 아니다.  **온도** 또한 주목하여야 한다. 확률 분포에서 온도는 샘플링 시 모델의 확률 분포를 조정하여 생성되는 텍스트의 다양성과 결정성을 제어하는데 사용되는 파라미터이다. 온도 파라미터를 분포를 평평하게 하거나 더 날카롭게 만들 수 있는데, 온도를 크게 할 경우(T>1) 분포가 평평해지고 반대로 온도를 작게 할 경우(T<1) 분포가 날카로워진다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2Mz
-I5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5
-NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LD
-E3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUw
-MjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMj
-AsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3
-NDI4OTE5OF19
+eyJoaXN0b3J5IjpbMTU3MzI5MDkxMiwtMTI4ODc0NDMxNSw4Nz
+gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
+MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC
+05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1
+ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NT
+gsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIw
+NjQ5MjY3M119
 -->
