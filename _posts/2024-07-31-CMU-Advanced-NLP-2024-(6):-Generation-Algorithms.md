@@ -200,15 +200,15 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 ### 빔 서치(Beam Search)
 
-빔서치는 가장 유명한 디코딩 메서드 중 하나이다. 여러 후보를 유지하며 검색을 진행하며, 각 단계마다 가장 확률이 높은 몇 개의 후보를 선택하여 다음 단계로 넘어간다. 그리디 디코딩보다 더 나은 결과를 제공하지만, 후보수가 많아지면 계산 비용이 증가한다는 단점이 있다. 이는 BFS(Breadth-first search,넓이우선검색)의 한 종류이며, 
+빔서치는 가장 유명한 디코딩 메서드 중 하나이다. 여러 후보를 유지하며 검색을 진행하며, 각 단계마다 가장 확률이 높은 몇 개의 후보를 선택하여 다음 단계로 넘어간다. 그리디 디코딩보다 더 나은 결과를 제공하지만, 후보수가 많아지면 계산 비용이 증가한다는 단점이 있다. 이는 BFS(Breadth-first search,너비우선탐색)의 한 종류이며, 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NzU3NTIwOSwtMTUzNDIzMDE1NSwtOT
-kxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMwNDcxLDg2NDg0Njc0
-MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMj
-UzODk2OTk5LC02OTk0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3
-MjUzNCwxNjQ5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNj
-MwNjEwNjU5LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAz
-ODNdfQ==
+eyJoaXN0b3J5IjpbLTE1OTMxNjkwMjIsLTM2NzU3NTIwOSwtMT
+UzNDIzMDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMw
+NDcxLDg2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMT
+E5NjQzNTg5MiwxMjUzODk2OTk5LC02OTk0MDI4OTIsLTEwOTMz
+MjUzMTgsMTA2MTE3MjUzNCwxNjQ5MTQyMTgwLDIwMTY0OTMwLD
+EzOTM4MjQxNiwtNjMwNjEwNjU5LC0xMjg4NzQ0MzE1LDg3ODE2
+NDYwOV19
 -->
