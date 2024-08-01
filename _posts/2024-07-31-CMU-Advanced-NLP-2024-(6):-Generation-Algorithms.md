@@ -192,13 +192,15 @@ $\hat{Y} = \underset{argmax}{Y} P(Y \| X)$
 
 Mode-seeking Search의 한 종류로 각 단계(timestep)의 확률 분포에서 가장 확률이 높은 토큰을 선택하는 방법이다. 
 
+$$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MD
-IzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2
-LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMD
-kzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkz
-MCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4Nz
-gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
-MjBdfQ==
+eyJoaXN0b3J5IjpbMjEzODkyMjQ1OCwtOTkxMzgyMDU0LC04Nz
+AzNDM1MzksNjgwMjMwNDcxLDg2NDg0Njc0MywxMDcwMTA4OTEy
+LC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMjUzODk2OTk5LC02OT
+k0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNjQ5MTQy
+MTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5LC0xMj
+g4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOTk2Mzg0
+NTddfQ==
 -->
