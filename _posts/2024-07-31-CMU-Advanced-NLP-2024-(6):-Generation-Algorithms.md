@@ -107,6 +107,7 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 -   **결과**: 예를 들어, 큰 모델은 "Barack Obama was born in 1961."이라는 정확한 출력을 제공할 수 있다.
 
+이러한 대조적인 학습을 통해 큰 모델이 가진 장점을 활용해 출력을 더욱 정확하게 만들 수 있으며, 작은 모델이 자주 겪는 반복이나 오류를 줄일 수 있다.
 
 강의에선 단순히 큰 모델의 지식을 활용하여 더 정확한 출력을 얻는다고 까지만 설명하는데, 이 부분이 잘 이해가 안되었다. 결국 큰 모델을 기반으로 하고 큰 모델이 더 정확한 결과를 쓴다고 가정을 했다면, 굳이 작은 모델을 쓰는 이유가 있을까? 단순히 큰 모델을 활용하면 끝나는 것이 아닐까? 실제로 대비 디코딩은 모델을 두 개 사용하기 때문에 이로인한 추가적인 비용과 복잡성을 피할 수 없다. 그럼에도 사용하는 이유는 다음과 같다고 한다.
 
@@ -173,11 +174,11 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNj
-Q5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5
-LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOT
-k2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkx
-NTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC
-0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQy
-OTMxNTc2XX0=
+eyJoaXN0b3J5IjpbLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMD
+YxMTcyNTM0LDE2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2
+LC02MzA2MTA2NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2Mz
+I5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5
+NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LD
+E3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUw
+MjY4NTldfQ==
 -->
