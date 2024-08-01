@@ -184,9 +184,9 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 이번에 살펴볼 것은 Mode-Seeking Search 이다. 이는 주어진 입력에 대해 가장 확률이 높은 단일 출력을 찾는 방법이다.
 
-$\hat{Y} = $
+$\hat{Y} = \arg \max_Y$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTYyMDQ3OTYwLDg2NDg0Njc0MywxMDcwMT
+eyJoaXN0b3J5IjpbNzM5NDM1NTYwLDg2NDg0Njc0MywxMDcwMT
 A4OTEyLC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMjUzODk2OTk5
 LC02OTk0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNj
 Q5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5
