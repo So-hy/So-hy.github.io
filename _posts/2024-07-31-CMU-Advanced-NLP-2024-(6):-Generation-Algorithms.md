@@ -65,9 +65,11 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 이 경우 위와 같은 긴 꼬리 분포를 띄는 상황에서 확률 질량의 대부분을 차지하는 토큰들만 샘플링하여 긴 꼬리의 영향을 줄일 수 있다. 하지만 때로는 상위 K개의 토큰만으로 충분하지 않을 수 있고, 만약 분포가 평평할 경우, 상위 K개의 토큰이 전체 확률의 대부분을 차지하지 않을 수 있다.
 
+### Top-P(or Nucleus) 샘플링
 
+이 방법은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQwMjIwMjcyLC0xOTM5NDU5MTU5LC0xMz
+eyJoaXN0b3J5IjpbNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMz
 AzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5
 MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Ni
 w1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgy
