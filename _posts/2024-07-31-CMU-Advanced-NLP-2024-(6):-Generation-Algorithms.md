@@ -198,14 +198,17 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 단일 단계에서, 즉 단일 토큰 출력에서는 정확히 우리가 원하는 출력을 주지만, 여러 단계에 걸친 최적의 출력을 보장하지 않는다. 예를 들어, 첫 번째 단계에서 가장 확률이 높은 토큰이 전체 시퀀스에서 최적이 아닐 수 있다.
 
+### 빔 서치(Beam Search)
+
+빔서치는 가장 유명한 디코딩 메서드 중 하나이다. 여러 후보를 유지하며 검색을 진행하며, 각 단계마다 가장 확률이 높은 몇 개의 후보를 선택하여 다음 단계로 넘어간다. 그리디
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjUzODE5NTMsLTE1MzQyMzAxNTUsLT
-k5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIzMDQ3MSw4NjQ4NDY3
-NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2LDExOTY0MzU4OTIsMT
-I1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMDkzMzI1MzE4LDEwNjEx
-NzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkzMCwxMzkzODI0MTYsLT
-YzMDYxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkw
-MzgzXX0=
+eyJoaXN0b3J5IjpbMTgwOTMzMDgwNywtMTUzNDIzMDE1NSwtOT
+kxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMwNDcxLDg2NDg0Njc0
+MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMj
+UzODk2OTk5LC02OTk0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3
+MjUzNCwxNjQ5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNj
+MwNjEwNjU5LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAz
+ODNdfQ==
 -->
