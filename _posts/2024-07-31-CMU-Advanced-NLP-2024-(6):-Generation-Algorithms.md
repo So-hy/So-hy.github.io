@@ -207,13 +207,13 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 ![4](https://github.com/user-attachments/assets/e9703b48-11a7-4b64-86d2-3e379c1e7ebc){: .responsive-img .align-center}
 
 
-결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 보여준다. 또한 빔서치와 Temperture sampling은 디코딩시 꽤 광범위하게 사용된다고 한다. 하지만 이런식으로 최대값이나 높은 확률의 토큰만 샘플링하게 된다면 출력
+결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 보여준다. 또한 빔서치와 Temperture sampling은 디코딩시 꽤 광범위하게 사용된다고 한다. 하지만 이런식으로 최대값이나 높은 확률의 토큰만 샘플링하게 된다면 출력에서 다양성을 잃게 된다. 또한 빔서치 후 최종 생성된 결과들은 굉장히 유사한 결과를 보인다. 만약 더 다양한 출력을 얻고 싶다면 빔
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzODUwNDUzMiwtNTYwNTkxMzkzLDkyMD
-AzODQ4MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLTk4NjU4MDgz
-OCwzODQyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3NTIwOSwtMT
-UzNDIzMDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMw
-NDcxLDg2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMT
-E5NjQzNTg5MiwxMjUzODk2OTk5LC02OTk0MDI4OTIsLTEwOTMz
-MjUzMThdfQ==
+eyJoaXN0b3J5IjpbLTE5MDQ5OTQ3NTQsLTU2MDU5MTM5Myw5Mj
+AwMzg0ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1LC05ODY1ODA4
+MzgsMzg0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNjc1NzUyMDksLT
+E1MzQyMzAxNTUsLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIz
+MDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2LD
+ExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMDkz
+MzI1MzE4XX0=
 -->
