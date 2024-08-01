@@ -186,10 +186,11 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 $\hat{Y} = \underset{argmax}{Y} P(Y \| X)$
 
-왜 이름이 모드 찾기 검색이냐면 통계학에서 모드(mode) 라는 용어가 의미하는 것이 확률 분포에서 가장 많이 등장하는 값, 즉 가장 가능성이 넢은 값을 의미하기 때문이다. 모드 찾기 검색은 생성 모델이 만들어낼 수 있는 모든 가능한 출력 시퀀스를 많이 샘플링했을 때, 그 중에서 가장 높은 확률을 가진 단일 시퀀스를 찾는 방법입니다.
-	•	이 시퀀스를  \hat{y} 라고 부릅니다. 이는 주어진 입력에 대해 모델이 생성할 수 있는 가장 가능성이 높은(즉, 가장 높은 확률을 가진) 출력 시퀀스입니다.
+왜 이름이 모드 찾기 검색이냐면 통계학에서 모드(mode) 라는 용어가 의미하는 것이 확률 분포에서 가장 많이 등장하는 값, 즉 가장 가능성이 넢은 값을 의미하기 때문이다. 모드 찾기 검색은 생성 모델이 만들어낼 수 있는 모든 가능한 출력 시퀀스를 많이 샘플링했을 때, 그 중에서 가장 높은 확률을 가진 단일 시퀀스를 찾는 방법이다. 이 시퀀스를  $\hat{y}$ 라고 부르며, 이는 주어진 입력에 대해 모델이 생성할 수 있는 가장 가능성이 높은(즉, 가장 높은 확률을 가진) 출력 시퀀스이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NDQxMTgzNiw2ODAyMzA0NzEsODY0OD
+eyJoaXN0b3J5IjpbMTk0NTg5MDA3Myw2ODAyMzA0NzEsODY0OD
 Q2NzQzLDEwNzAxMDg5MTIsLTIwMjE2Njg3NiwxMTk2NDM1ODky
 LDEyNTM4OTY5OTksLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMD
 YxMTcyNTM0LDE2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2
