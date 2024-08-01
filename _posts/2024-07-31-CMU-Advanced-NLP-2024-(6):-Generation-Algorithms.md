@@ -28,11 +28,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 모델이 단순한 확률 분포로 작동할 때의 좋은 점은 모델이 예측의 확신도(confidence)를 제공할 수 있다는 것이다. 예를 들어 "2 + 2 = ?"라는 입력에 대해 모델이 '4'에 높은 확률을 부여하면, 모델이 매우 확신하고 있음을 알 수 있다. 반면, "교수가 좋아하는 색깔은?" 같은 질문에 대해서는 분포가 평평하게 나타나 확신도가 낮음을 알 수 있다.
 
 
+![2](https://github.com/user-attachments/assets/2b8033f2-0f0e-4a86-af23-65dfb49dea94){: .responsive-img .align-center}
 
 
+그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 일정한 비확률을 가지고 잘못되거나 불쾌한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MjI3MjUyNywtMTc0MjkzMTU3Niw1Mz
-M5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEw
-MCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5NjQ1LD
-UxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
+eyJoaXN0b3J5IjpbODYzNDU1MzY4LC0xNzQyOTMxNTc2LDUzMz
+k4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIyMTAw
+LC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNT
+E1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
 -->
