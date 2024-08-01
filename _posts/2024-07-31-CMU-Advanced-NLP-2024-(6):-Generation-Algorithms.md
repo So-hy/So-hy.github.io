@@ -96,13 +96,43 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 
 3. 대비 점수가 높은 토큰을 선택하여 최종 출력을 생성한다. 큰 모델의 출력을 기본으로 하되, 작은 모델이 주는 추가적인 단서를 고려하여 조정한다. 
 
-강의에선 단순히 큰 모델의 지식을 활용하여 더 정확한 출력을 얻는다고 까지만 설명하는데, 이 부분이 잘 이해가 안되었다. 결국 큰 모델을 기반으로 하고 큰 모델이 더 정확한 결과를 쓴다고 가정을 했다면, 굳이 작은 모델을 쓰는 이유가 있을까? 단순히 큰 모델을 활용하면 끝나는 것이 아닐까? 실제로 대비 디코딩은 모델을 두 개 사용하기 때문에 이로인한 추가적인 비용과 복잡성을 
+강의에선 단순히 큰 모델의 지식을 활용하여 더 정확한 출력을 얻는다고 까지만 설명하는데, 이 부분이 잘 이해가 안되었다. 결국 큰 모델을 기반으로 하고 큰 모델이 더 정확한 결과를 쓴다고 가정을 했다면, 굳이 작은 모델을 쓰는 이유가 있을까? 단순히 큰 모델을 활용하면 끝나는 것이 아닐까? 실제로 대비 디코딩은 모델을 두 개 사용하기 때문에 이로인한 추가적인 비용과 복잡성을 피할 수 없다. 그럼에도 사용하는 이유는 다음과 같다고 한다.
+
+> ### 1. 오류 탐지 및 보완
+> 
+> -   **오류 탐지**: 작은 모델과 큰 모델 간의 출력 차이를 비교함으로써 큰 모델이 실수할 가능성이 있는 부분을 식별할 수 있습니다. 큰 모델이 항상 옳지 않을 수 있으며, 작은 모델의 간단한 예측이 오히려 적합한 경우도 있습니다.
+>     
+> -   **보완 효과**: 대비 점수를 통해 큰 모델이 놓치는 작은 모델의 간단한 패턴을 발견할 수 있으며, 이를 통해 더 정교한 출력을 생성할 수 있습니다.
+>     
+> 
+> ### 2. 비용 효율성
+> 
+> -   **부분적 사용**: 작은 모델을 먼저 사용하여 많은 후보를 생성하고, 이 후보 중 일부에만 큰 모델을 적용함으로써 전체적인 비용을 줄일 수 있습니다. 이는 큰 모델을 모든 후보에 적용하는 것보다 효율적일 수 있습니다.
+>     
+> -   **스마트한 자원 사용**: 큰 모델을 항상 사용하는 것이 아니라 필요한 경우에만 사용하는 전략을 통해 계산 비용을 최적화할 수 있습니다.
+>     
+> 
+> ### 3. 예비 필터링 및 속도 향상
+> 
+> -   **빠른 초기 처리**: 작은 모델을 사용하여 빠르게 초기 예측을 수행하고, 중요한 예측만 큰 모델로 자세히 분석함으로써 전체적인 처리 시간을 줄일 수 있습니다.
+>     
+> -   **실시간 시스템에서의 사용**: 작은 모델로 실시간 응답을 처리하고, 큰 모델로 배치 후처리하는 구조를 사용할 수 있습니다.
+>     
+> 
+> ### 4. 모델 결합의 추가 장점
+> 
+> -   **다양성 유지**: 작은 모델과 큰 모델의 결합은 출력에서 다양한 관점을 반영할 수 있게 하며, 이는 텍스트 생성에서 더 창의적이고 인간적인 출력을 만들어낼 수 있습니다.
+>     
+> -   **모델 신뢰도 개선**: 두 모델 간의 대비를 통해 얻는 정보는 모델의 신뢰도를 높이는 데 기여할 수 있습니다. 대비 디코딩은 모델의 불확실성을 줄이고 더 나은 결과를 제공할 수 있습니다.
+
+
+그런데 이럼에도 이해가 되지 않는 것이 대비 점수가 클 경우 모델이 이를 어떻게 판단하는지가 잘 감이 오지 않았다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTMyODU1MCwxMzkzODI0MTYsLTYzMD
-YxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgz
-LC0xMDk5NjM4NDU3LC0yMjUxMzY0MjAsNzY3Mzc3Mzk3LC0xOT
-M5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1
-ODIxNCwtMTA5Njc5MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OS
-wtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMw
-NjE3MDAwNl19
+eyJoaXN0b3J5IjpbLTEyMzA3OTg5NjcsMTM5MzgyNDE2LC02Mz
+A2MTA2NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4
+MywtMTA5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5NywtMT
+kzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LDE3OTQw
+NTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4NT
+ksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEz
+MDYxNzAwMDZdfQ==
 -->
