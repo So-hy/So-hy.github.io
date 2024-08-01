@@ -207,13 +207,13 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 ![4](https://github.com/user-attachments/assets/e9703b48-11a7-4b64-86d2-3e379c1e7ebc){: .responsive-img .align-center}
 
 
-결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당),
+결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTIwMDM4NDgyLDE0Nzc2MTc1NzcsLTk3Nz
-I3NDE0NSwtOTg2NTgwODM4LDM4NDI5MTM0MiwtMTU5MzE2OTAy
-MiwtMzY3NTc1MjA5LC0xNTM0MjMwMTU1LC05OTEzODIwNTQsLT
-g3MDM0MzUzOSw2ODAyMzA0NzEsODY0ODQ2NzQzLDEwNzAxMDg5
-MTIsLTIwMjE2Njg3NiwxMTk2NDM1ODkyLDEyNTM4OTY5OTksLT
-Y5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMDYxMTcyNTM0LDE2NDkx
-NDIxODBdfQ==
+eyJoaXN0b3J5IjpbLTU2MDU5MTM5Myw5MjAwMzg0ODIsMTQ3Nz
+YxNzU3NywtOTc3Mjc0MTQ1LC05ODY1ODA4MzgsMzg0MjkxMzQy
+LC0xNTkzMTY5MDIyLC0zNjc1NzUyMDksLTE1MzQyMzAxNTUsLT
+k5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIzMDQ3MSw4NjQ4NDY3
+NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2LDExOTY0MzU4OTIsMT
+I1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMDkzMzI1MzE4LDEwNjEx
+NzI1MzRdfQ==
 -->
