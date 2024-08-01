@@ -221,7 +221,7 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 #### Stochastic Beam Search
 
-확률적 빔 검색(SBS)의 경우 기존 빔 검색의 점수 계산 방식을 그대로 유지한다. 즉, 각 후보의 점수는 동일한 방식으로 계산된다. 하지만 확장을 하는 방식에 변화가 있는데, 기존의 빔 검색에서는 각 빔을 확장할 때, 가장 확률이 높은 상위 N개의 토큰(예를 들어, 상위 3개) 만을 선택한다. 반면, 확률적 빔 검색에서는 이러한 제한된 선택 대신에, 가능한 토큰들 중에서 확률적으로 샘플링을 통해 선택한다.
+확률적 빔 검색(SBS)의 경우 기존 빔 검색의 점수 계산 방식을 그대로 유지한다. 즉, 각 후보의 점수는 동일한 방식으로 계산된다. 하지만 확장을 하는 방식에 변화가 있는데, 기존의 빔 검색에서는 각 빔을 확장할 때, 가장 확률이 높은 상위 N개의 토큰(예를 들어, 상위 3개) 만을 선택한다. 반면, 확률적 빔 검색에서는 이러한 제한된 선택 대신에, 가능한 토큰들 중에서 **확률적으로 샘플링**을 통해 선택한다.
 
 여기에서 샘플링하는 방법에는 다양한 방법이 있을 수 있는데, 단순히 기존의 Ancestral Sampling 처럼 모델이 제공하는 확률 분포에서 직접 샘플링을 수행하는(모델의 예측 확률에 따라 각 토큰을 선택하는 방식) 방식도 있고, 이전에 논의된 다양한 샘플링 방법을 사용하여 후보를 확장할 수도 있다. 이러한 방법들은 다양성을 더욱 증가시킬 수 있다.
 
@@ -229,7 +229,7 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NTM2Njc5MywtMTkwMjc2ODE4MywtMT
+eyJoaXN0b3J5IjpbMTY3NTQ0NTgzMywtMTkwMjc2ODE4MywtMT
 k1OTM2OTUxOCw5NDE0NTIxMSwtMTE1OTYyNjMzMSwtNTYwNTkx
 MzkzLDkyMDAzODQ4MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLT
 k4NjU4MDgzOCwzODQyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3
