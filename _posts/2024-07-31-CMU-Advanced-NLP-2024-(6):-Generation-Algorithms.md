@@ -176,9 +176,9 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 긴 시퀀스를 생성할 땐 contrastive decoding은 각 개별 시점에서 적용된다. 큰 모델은 각 시점에서 다음 토큰을 예측하고, 작은 모델의 확률을 빼서 다음 출력을 선택한다. 이렇게 하면 긴 시퀀스를 생성할 때에도 작은 모델의 오류를 보완하고, 큰 모델의 장점을 활용하여 보다 정확한 출력을 생성할 수 있다. 각 단계에서 이러한 과정을 반복하여 최종 출력을 얻는다.
 
-또한 작은 모델과 큰 모델 간의 적절한 차이가 
+또한 작은 모델과 큰 모델 간의 적절한 차이가 어느정도 인가에 관련된 질문도 있었는데 Contrastive Decoding에서 두 모델 간의 성능 차이가 너무 크지 않으면서도 적당히 커야, 작은 모델이 잘못된 확률을 부여할 때 큰 모델의 정확성을 활용할 수 있다고 한다. 일반적으로는 작은 모델이 큰 모델보다 덜 복잡하고, 데이터 양이 적게 훈련된 모델을 선택한다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NTM3NjIzNiwxMTk2NDM1ODkyLDEyNT
+eyJoaXN0b3J5IjpbLTIwMjE2Njg3NiwxMTk2NDM1ODkyLDEyNT
 M4OTY5OTksLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMDYxMTcy
 NTM0LDE2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2LC02Mz
 A2MTA2NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4
