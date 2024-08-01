@@ -48,9 +48,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 **긴 꼬리 분포 문제란?** 
 
-긴 꼬리 분포는 높은 확률을 가진 토큰이 일부이고, 많은 토큰들이 낮은 확률을 가지지만, 이들이 모여서 전체 확률의 절반을 차지하는 모양의 분포를 의미한다있습니다. 결과적으로, 샘플링할 때 이러한 낮은 확률의 토큰이 선택될 가능성이 높아집니다.
+긴 꼬리 분포는 높은 확률을 가진 토큰이 일부이고, 많은 토큰들이 낮은 확률을 가지지만, 이들이 모여서 전체 확률의 절반을 차지하는 모양의 분포를 의미한다. 
+
+![3](https://github.com/user-attachments/assets/98fbf138-489d-4ae9-aa56-ff9ac794a723)
+
+결과적으로, 샘플링할 때 이러한 낮은 확률의 토큰이 선택될 가능성이 높아집니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2ODg3ODgxMSwtOTAxODY0MzU1LDE3OT
+eyJoaXN0b3J5IjpbMjA0MDUyMTc4NCwtOTAxODY0MzU1LDE3OT
 QwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4
 NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLT
 EzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4
