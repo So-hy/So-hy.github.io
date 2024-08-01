@@ -190,11 +190,11 @@ $\hat{Y} = \underset{argmax}{Y} P(Y \| X)$
 
 ### 그리디 디코딩(Greedy Decoding)
 
-Mode-seeking Search의 한 종류로 각 단계(timestep)에서 가장 확률이 높은 토큰을 선택하는 방법이다. 
+Mode-seeking Search의 한 종류로 각 단계(timestep)의 확률 분포에서 가장 확률이 높은 토큰을 선택하는 방법이다. 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMTAzOTk4NywtODcwMzQzNTM5LDY4MD
+eyJoaXN0b3J5IjpbLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MD
 IzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2
 LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMD
 kzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkz
