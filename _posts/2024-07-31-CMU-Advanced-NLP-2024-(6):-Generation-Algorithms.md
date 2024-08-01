@@ -207,9 +207,9 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 ![4](https://github.com/user-attachments/assets/e9703b48-11a7-4b64-86d2-3e379c1e7ebc){: .responsive-img .align-center}
 
 
-결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 ㅂ
+결과적으로 보았을 때, 항상 최고의 결과를 내는 것은 아니지만(중간에 가지치기 당할 수 있음), 그리디 디코딩 보다는 훨씬 나은 결과를 보여준다. 또한 빔서치와 Temperture sampling은 디코꽤 광범위하게
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzM1NTY2OTE1LC01NjA1OTEzOTMsOTIwMD
+eyJoaXN0b3J5IjpbMzAxNTMxOTk4LC01NjA1OTEzOTMsOTIwMD
 M4NDgyLDE0Nzc2MTc1NzcsLTk3NzI3NDE0NSwtOTg2NTgwODM4
 LDM4NDI5MTM0MiwtMTU5MzE2OTAyMiwtMzY3NTc1MjA5LC0xNT
 M0MjMwMTU1LC05OTEzODIwNTQsLTg3MDM0MzUzOSw2ODAyMzA0
