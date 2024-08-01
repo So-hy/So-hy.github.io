@@ -92,13 +92,15 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 1. 먼저 두 모델(작은 모델과 큰 모델)이 동일한 입력에 대해 각각의 확률 분포를 생성한다.
 2. 그 후 두 모델의 확률 값 차이를 계산한다.
 
-$$Contrastive Score(xi​)=\log P_large​ (x_i​) − \log P_small​(xi​)$$
+$$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
+
+3. 대비 점수가 높은 토큰을 선택하여 최종 출력을 생성한다. 큰 모델의 출력을 기본으로 하되, 작은 모델이 주는 추가적인 단서를 고려하여 조정한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODE0MjQ0NDUsLTYzMDYxMDY1OSwtMT
-I4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4
-NDU3LC0yMjUxMzY0MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC
-0xMzAzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5
-Njc5MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMT
-U3Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1
-ODgyMjEwMF19
+eyJoaXN0b3J5IjpbMTM5MzgyNDE2LC02MzA2MTA2NTksLTEyOD
+g3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4MywtMTA5OTYzODQ1
+NywtMjI1MTM2NDIwLDc2NzM3NzM5NywtMTkzOTQ1OTE1OSwtMT
+MwMzc2NTc5MywtOTAxODY0MzU1LDE3OTQwNTgyMTQsLTEwOTY3
+OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4NTksLTE3NDI5MzE1Nz
+YsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMDYxNzAwMDYsNTg4
+MjIxMDBdfQ==
 -->
