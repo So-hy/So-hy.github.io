@@ -72,13 +72,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ### 앱실론 $\epsilon$ 샘플링
 
-앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다. 즉 만약 
+앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다. 즉 만약 $\epsilon$이 0.05 일 경우, 해당 확률을 넘는 토큰들만 샘플링 대상에 포함하는 것이다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4OTY2MTgyOCwtMjI1MTM2NDIwLDc2Nz
-M3NzM5NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOTAxODY0
-MzU1LDE3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNS
-wzNDUwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkx
-NDUxMjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2Nz
-MsLTQ3NDI4OTE5OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4
-OTk1NDc3Ml19
+eyJoaXN0b3J5IjpbLTEwOTk2Mzg0NTcsLTIyNTEzNjQyMCw3Nj
+czNzczOTcsLTE5Mzk0NTkxNTksLTEzMDM3NjU3OTMsLTkwMTg2
+NDM1NSwxNzk0MDU4MjE0LC0xMDk2NzkyNjA4LC0xOTU4MDY1Mj
+UsMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LDUzMzk4NTQ1OCwxMDc5
+MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIyMTAwLC0xMjA2NDkyNj
+czLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNTE1MzYzMzIyLDEw
+ODk5NTQ3NzJdfQ==
 -->
