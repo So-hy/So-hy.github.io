@@ -38,11 +38,14 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ## 샘플링(Sampling for LMs)
 
-모델에서 좋은 출력을 얻기 위한 방법
+모델에서 좋은 출력을 얻기 위한 방법 중 하나가 바로 샘플링이다. 다양한 샘플링 기법들이 있으며, 각 방법은 모델의 확률 분포에서 토큰을 선택하는 방법에 따라 다르다.
+
+첫 번째로 소개하는 것은 단순 샘플링(Ancestral Sampling)이다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjA3NDMxNDMsLTE5NTgwNjUyNSwzND
-UwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUx
-MjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLT
-Q3NDI4OTE5OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1
-NDc3Ml19
+eyJoaXN0b3J5IjpbMjAyNDUxODMxNywtMTk1ODA2NTI1LDM0NT
+AyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEy
+MCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIwNjQ5MjY3MywtND
+c0Mjg5MTk4LC0xMDIxMzE5NjQ1LDUxNTM2MzMyMiwxMDg5OTU0
+NzcyXX0=
 -->
