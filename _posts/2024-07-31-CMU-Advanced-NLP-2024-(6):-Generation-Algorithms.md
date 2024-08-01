@@ -62,11 +62,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 ### Top-k 샘플링
 
 이 방법은 상위 K개의 토큰, 즉 가장 확률이 높은 K개의 토큰만 선택하여 이들 중에서 샘플링하는 것이다. K의 경우 사용자가 지정할 수 있다. 예를 들어 K가 6일 경우, 상위 6개의 토큰 중에서 샘플링을 하는 것이다.
+
+이 경우 위와 같은 긴 꼬리 분포를 띄는 상황에서 확률 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Mzk0NTkxNTksLTEzMDM3NjU3OTMsLT
-kwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2NzkyNjA4LC0xOTU4
-MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LDUzMzk4NTQ1OC
-wxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIyMTAwLC0xMjA2
-NDkyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNTE1MzYzMz
-IyLDEwODk5NTQ3NzJdfQ==
+eyJoaXN0b3J5IjpbNjEwMDI5NzYsLTE5Mzk0NTkxNTksLTEzMD
+M3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2Nzky
+NjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LD
+UzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIy
+MTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2ND
+UsNTE1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
 -->
