@@ -68,8 +68,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 ### Top-P(or Nucleus) 샘플링
 
 이 방법은 샘플링할 집합을 뽑을 때, 갯수가 아닌 확률 질량의 총합을 기준으로 뽑는 방법이다. 여기서 p가 해당 확률을 나타내는 값이고, 만약 p 가 0.94 즉, 94%라면 가장 확률이 높은 토큰부터 시작해, 누적 확률이 94%에 도달할 때까지 집합에 토큰을 추가한 후, 해당 집합에서 샘플링을 진행하는 방법이다. 이 방법의 장점은 분포의 형태에 따라 동적으로 토큰 집합을 구성하여, 상위 K 샘플링보다 유연하게 작동한다는 것이다. 또한 정말 필요없는 토큰들을 확실히 배제할 수 있다. 하지만 상황에 따라 확률 질량의 누적 합이 P에 도달하기 전까지 많은 토큰을 포함해야 할 수 있다.
+
+
+### 앱실론 $\epsilon$ 샘플링
+
+앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NzUyNjc3Nyw3NjczNzczOTcsLTE5Mz
+eyJoaXN0b3J5IjpbLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mz
 k0NTkxNTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4
 MjE0LC0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC
 0xNzQyOTMxNTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2
