@@ -84,12 +84,14 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 ### 대비 디코딩(Contrastive Decoding)
 
 대비 디코딩은 디코딩 시 추가 정보를 활용하여 더 나은 출력을 생성하는 방법이다. 다른 분포나 다른 데이터를 활용할 수도 있지만, 여기서는 추가 모델을 활용한다.
+
+작은 모델은 종종 잘못된 출력을 생성하는 경향이 있다. 큰 모델이 높은 확률을 부여한 토큰이 작은 모델에서는 낮은 확률을 가질 때, 이는 큰 모델이 작은 모델보다 더 많은 것을 학습했다는 신호일 수 있다.(즉, 작은 모델이 모르거나 덜 아는 정보일 수 있다.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTEyNjcwMzEsLTEyODg3NDQzMTUsOD
-c4MTY0NjA5LDY2MzI5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2
-NDIwLDc2NzM3NzM5NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5My
-wtOTAxODY0MzU1LDE3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5
-NTgwNjUyNSwzNDUwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1ND
-U4LDEwNzkxNDUxMjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEy
-MDY0OTI2NzNdfQ==
+eyJoaXN0b3J5IjpbLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4Nz
+gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
+MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC
+05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1
+ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NT
+gsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIw
+NjQ5MjY3M119
 -->
