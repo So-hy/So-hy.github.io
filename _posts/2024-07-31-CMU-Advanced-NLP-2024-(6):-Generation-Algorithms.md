@@ -223,13 +223,15 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 확률적 빔 검색(SBS)의 경우 기존 빔 검색의 점수 계산 방식을 그대로 유지한다. 즉, 각 후보의 점수는 동일한 방식으로 계산된다. 하지만 확장을 하는 방식에 변화가 있는데, 기존의 빔 검색에서는 각 빔을 확장할 때, 가장 확률이 높은 상위 N개의 토큰(예를 들어, 상위 3개) 만을 선택한다. 반면, 확률적 빔 검색에서는 이러한 제한된 선택 대신에, 가능한 토큰들 중에서 확률적으로 샘플링을 통해 선택한다.
 
-여기에서 샘플링하는 방법에는 다양한 방법이 있을 수 있는데, 단순히 기존의 Ancestral Sampling 처럼 모델의 확률 분포
+여기에서 샘플링하는 방법에는 다양한 방법이 있을 수 있는데, 단순히 기존의 Ancestral Sampling 처럼 모델이 제공하는 확률 분포에서 직접 샘플링을 수행하는(모델의 예측 확률에 따라 각 토큰을 선택하는 방식) 방식도 있고, 이전에 논의된 다양한 샘플링 방법을 사용하여 후보를 확장할 수도 있다. 이러한 방법들은 다양성을 더욱 증가시킬 수 있다.
+
+확률적 빔 검색의 목적은 모델의 출력 공간을 더 넓게 탐색하는 것이다. 이를 통해 더 다양하고 창의적인 출력을 생성할 수 있다. 또한 전통적인 빔 거
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0MzkwNjYyLC0xOTU5MzY5NTE4LDk0MT
-Q1MjExLC0xMTU5NjI2MzMxLC01NjA1OTEzOTMsOTIwMDM4NDgy
-LDE0Nzc2MTc1NzcsLTk3NzI3NDE0NSwtOTg2NTgwODM4LDM4ND
-I5MTM0MiwtMTU5MzE2OTAyMiwtMzY3NTc1MjA5LC0xNTM0MjMw
-MTU1LC05OTEzODIwNTQsLTg3MDM0MzUzOSw2ODAyMzA0NzEsOD
-Y0ODQ2NzQzLDEwNzAxMDg5MTIsLTIwMjE2Njg3NiwxMTk2NDM1
-ODkyXX0=
+eyJoaXN0b3J5IjpbLTI0OTE0NjUyNCwtMTk1OTM2OTUxOCw5ND
+E0NTIxMSwtMTE1OTYyNjMzMSwtNTYwNTkxMzkzLDkyMDAzODQ4
+MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLTk4NjU4MDgzOCwzOD
+QyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3NTIwOSwtMTUzNDIz
+MDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1MzksNjgwMjMwNDcxLD
+g2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIxNjY4NzYsMTE5NjQz
+NTg5Ml19
 -->
