@@ -42,8 +42,9 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 첫 번째로 소개하는 것은 단순 샘플링(Ancestral Sampling)이다.
 
+단
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDUxODMxNywtMTk1ODA2NTI1LDM0NT
+eyJoaXN0b3J5IjpbLTQxNTQ2NTkzNSwtMTk1ODA2NTI1LDM0NT
 AyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEy
 MCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIwNjQ5MjY3MywtND
 c0Mjg5MTk4LC0xMDIxMzE5NjQ1LDUxNTM2MzMyMiwxMDg5OTU0
