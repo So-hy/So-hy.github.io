@@ -169,16 +169,16 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 > -   **피드백 루프**: 모델이 잘못된 예측을 할 경우, 해당 예측을 학습 데이터에 반영하여 모델의 성능을 점진적으로 개선할 수 있는 피드백 루프를 구성합니다.
 
 
-즉, 두 모델 간의 대비 점수가 클 때는, 단순히 큰 모델의 예측만을 신뢰하기보다는 다양한 방법을 통해 최종 출력을 결정하는 것이 중요하다고 한다. 이는 모델의 예측을 더욱 신뢰성 있게 만들고, 다양한 시나리오에서 더 높은 품질의 출력을 제공할 수 있도록 한다.
+즉, 두 모델 간의 대비 점수가 클 때는, 단순히 큰 모델의 예측만을 신뢰하기보다는 다양한 방법을 통해 최종 출력을 결정하는 것이 중요하다고 한다. 즉, 단순 점수 비교를 넘어 두 모델의 예측을 종합적으로 고려하여 더 나은 결정을 내리는 것이다. 이는 모델의 예측을 더욱 신뢰성 있게 만들고, 다양한 시나리오에서 더 높은 품질의 출력을 제공할 수 있도록 한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMD
-YxMTcyNTM0LDE2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2
-LC02MzA2MTA2NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2Mz
-I5MDM4MywtMTA5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5
-NywtMTkzOTQ1OTE1OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LD
-E3OTQwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUw
-MjY4NTldfQ==
+eyJoaXN0b3J5IjpbLTQyNzA4NzI1MywtNjk5NDAyODkyLC0xMD
+kzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkz
+MCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4Nz
+gxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0
+MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC
+05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1
+ODA2NTI1XX0=
 -->
