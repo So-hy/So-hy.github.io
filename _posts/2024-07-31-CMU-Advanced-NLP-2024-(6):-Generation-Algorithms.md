@@ -31,10 +31,12 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 ![2](https://github.com/user-attachments/assets/2b8033f2-0f0e-4a86-af23-65dfb49dea94){: .responsive-img .align-center}
 
 
-그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 잘못된 답변에도 0이 아닌 적은 확률을 할당하기 때문에  잘못되거나 이상한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있다. 이러한 문제를 할루시네이션(Hallucination)이라고 한다.
+그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 잘못된 단어에도 0이 아닌 적은 확률을 할당하기 때문에 예측 시, 잘못되거나 이상한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있다. 이러한 문제를 할루시네이션(Hallucination)이라고 한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE0NjU3NTU1LDM0NTAyNjg1OSwtMTc0Mj
-kzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAw
-Niw1ODgyMjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMD
-IxMzE5NjQ1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
+eyJoaXN0b3J5IjpbLTE5NTgwNjUyNSwzNDUwMjY4NTksLTE3ND
+I5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMDYxNzAw
+MDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5OCwtMT
+AyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
 -->
