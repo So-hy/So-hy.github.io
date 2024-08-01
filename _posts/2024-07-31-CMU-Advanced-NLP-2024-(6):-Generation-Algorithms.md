@@ -216,7 +216,7 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 #### Diverse Beam Search
 
-기존 빔 검색에서는 후보의 확률(likelihood)을 기반으로 점수를 매긴다. 다양성 빔 검색에서는 이 점수 계산 단계를 수정하여, 단순히 확률 높은 후보를 선택하는 것뿐만 아니라 후보들 사이의 유사성도 고려한다. 이를 통해 너무 비슷한 친구들을 선택하는 것을 피하고 후보의 다양성을 극대화한다. 예를 들어, 9개의 후보(빔) 중에서 3개를 선택해야 한다고 가정했을 때, 가장 높은 확률을 가진 시퀀스가 하나 있고(시퀀스 A), 다른 후보 중에는 시퀀스 A와 매우 유사하지만 확률은 조금 낮은 시퀀스가 있고, 또 다른 후보는 확률은 더 낮지만 시퀀스 A와는 매우 다른 특성을 가지고 있을 때, 다양성 빔 검색(DBS)은 유사한 시퀀스보다는 다르면서 확률이 조금 낮은 시퀀스를 선택할 수 있다. 이는 후보 집합 전체의 다양성을 증가시키고, 생성 과정에서 더 넓은 범위의 옵션을 탐색할 수 있게 한다.
+기존 빔 검색에서는 후보의 확률(likelihood)을 기반으로 점수를 매긴다. 다양성 빔 검색에서는 이 점수 계산 단계를 수정하여, 단순히 확률 높은 후보를 선택하는 것뿐만 아니라 후보들 사이의 **유사성**도 고려한다. 이를 통해 너무 비슷한 친구들을 선택하는 것을 피하고 후보의 다양성을 극대화한다. 예를 들어, 9개의 후보(빔) 중에서 3개를 선택해야 한다고 가정했을 때, 가장 높은 확률을 가진 시퀀스가 하나 있고(시퀀스 A), 다른 후보 중에는 시퀀스 A와 매우 유사하지만 확률은 조금 낮은 시퀀스가 있고, 또 다른 후보는 확률은 더 낮지만 시퀀스 A와는 매우 다른 특성을 가지고 있을 때, 다양성 빔 검색(DBS)은 유사한 시퀀스보다는 다르면서 확률이 조금 낮은 시퀀스를 선택할 수 있다. 이는 후보 집합 전체의 다양성을 증가시키고, 생성 과정에서 더 넓은 범위의 옵션을 탐색할 수 있게 한다.
 
 
 #### Stochastic Beam Search
@@ -229,11 +229,11 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDI3NjgxODMsLTE5NTkzNjk1MTgsOT
-QxNDUyMTEsLTExNTk2MjYzMzEsLTU2MDU5MTM5Myw5MjAwMzg0
-ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1LC05ODY1ODA4MzgsMz
-g0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNjc1NzUyMDksLTE1MzQy
-MzAxNTUsLTk5MTM4MjA1NCwtODcwMzQzNTM5LDY4MDIzMDQ3MS
-w4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAyMTY2ODc2LDExOTY0
-MzU4OTJdfQ==
+eyJoaXN0b3J5IjpbMTM2NTM2Njc5MywtMTkwMjc2ODE4MywtMT
+k1OTM2OTUxOCw5NDE0NTIxMSwtMTE1OTYyNjMzMSwtNTYwNTkx
+MzkzLDkyMDAzODQ4MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLT
+k4NjU4MDgzOCwzODQyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3
+NTIwOSwtMTUzNDIzMDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1Mz
+ksNjgwMjMwNDcxLDg2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIx
+NjY4NzZdfQ==
 -->
