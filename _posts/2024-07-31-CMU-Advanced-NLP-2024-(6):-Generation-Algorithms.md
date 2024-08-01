@@ -196,13 +196,13 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 이렇게 토큰을 선택하면서 end of seq 토큰이 나올 때까지 이 과정을 반복한다.
 
-단일 단계에서, 즉 다
+단일 단계에서, 즉 단일 토큰 출력에서는 정확히 우리가 원하는 출력을 주지만, 여러 단계에 걸친 최적의 출력을 보장하지 않는다. 예를 들어, 첫 번째 단계에서 가장 확률이 높은 토큰이 전체 시퀀스에서 최적이 아닐 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA3MDc3MjIwLC05OTEzODIwNTQsLTg3MD
-M0MzUzOSw2ODAyMzA0NzEsODY0ODQ2NzQzLDEwNzAxMDg5MTIs
-LTIwMjE2Njg3NiwxMTk2NDM1ODkyLDEyNTM4OTY5OTksLTY5OT
-QwMjg5MiwtMTA5MzMyNTMxOCwxMDYxMTcyNTM0LDE2NDkxNDIx
-ODAsMjAxNjQ5MzAsMTM5MzgyNDE2LC02MzA2MTA2NTksLTEyOD
-g3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4MywtMTA5OTYzODQ1
-N119
+eyJoaXN0b3J5IjpbLTE1MzQyMzAxNTUsLTk5MTM4MjA1NCwtOD
+cwMzQzNTM5LDY4MDIzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkx
+MiwtMjAyMTY2ODc2LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNj
+k5NDAyODkyLC0xMDkzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0
+MjE4MCwyMDE2NDkzMCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMT
+I4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4
+NDU3XX0=
 -->
