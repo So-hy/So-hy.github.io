@@ -184,13 +184,13 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 이번에 살펴볼 것은 Mode-Seeking Search 이다. 이는 주어진 입력에 대해 가장 확률이 높은 단일 출력을 찾는 방법이다.
 
-$\hat{Y} = \underset{argmax}{Y} P(Y\| X)$
+$\hat{Y} = \underset{argmax}{Y} P(Y \| X)$
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE0OTcxNjI3LDg2NDg0Njc0MywxMDcwMT
-A4OTEyLC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMjUzODk2OTk5
-LC02OTk0MDI4OTIsLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNj
-Q5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5
-LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOT
-k2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkx
-NTldfQ==
+eyJoaXN0b3J5IjpbLTExODkzNzExNTcsODY0ODQ2NzQzLDEwNz
+AxMDg5MTIsLTIwMjE2Njg3NiwxMTk2NDM1ODkyLDEyNTM4OTY5
+OTksLTY5OTQwMjg5MiwtMTA5MzMyNTMxOCwxMDYxMTcyNTM0LD
+E2NDkxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2LC02MzA2MTA2
+NTksLTEyODg3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4MywtMT
+A5OTYzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5NywtMTkzOTQ1
+OTE1OV19
 -->
