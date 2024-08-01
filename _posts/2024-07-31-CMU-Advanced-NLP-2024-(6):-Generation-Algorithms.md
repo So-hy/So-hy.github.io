@@ -212,11 +212,14 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 ### Diverse Beam Search & Stochastic Beam Search
 
-이 두 가지 종류의 빔 서치는 이전의 샘플링의 이점을 빔 서치 과정 사이에 추가해보자는 생각에서 만들어 졌다.
+이 두 가지 종류의 빔 서치는 이전의 샘플링의 이점을 빔 서치 과정 사이(높은 확률을 가지는 썸띵을 찾는 과정)에 추가해보자는 생각에서 만들어 졌다.
+
+#### Diverse Beam Search
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU2MzAxMTAsLTExNTk2MjYzMzEsLTU2MD
+eyJoaXN0b3J5IjpbOTQxNDUyMTEsLTExNTk2MjYzMzEsLTU2MD
 U5MTM5Myw5MjAwMzg0ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1
 LC05ODY1ODA4MzgsMzg0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNj
 c1NzUyMDksLTE1MzQyMzAxNTUsLTk5MTM4MjA1NCwtODcwMzQz
