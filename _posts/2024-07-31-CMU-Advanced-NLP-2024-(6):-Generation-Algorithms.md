@@ -96,13 +96,13 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 
 3. 대비 점수가 높은 토큰을 선택하여 최종 출력을 생성한다. 큰 모델의 출력을 기본으로 하되, 작은 모델이 주는 추가적인 단서를 고려하여 조정한다. 
 
-강의에선 단순히 큰 모델의 지식을 활용하여 더 정확한 출력을 얻는다고 까지만 서
+강의에선 단순히 큰 모델의 지식을 활용하여 더 정확한 출력을 얻는다고 까지만 설명하는데, 이 부분이 잘 이해가 안되었다. 결국 큰 모델을 기반으로 하고 큰 모델이 더 정확한 결과를 쓴다고 가정을 했다면, 굳이 작은 모델을 쓰는 이유가 있을까? 단순히 큰 모델을 활용하면 끝나는 것이 아닐까? 실제로 대비 디코딩은 모델을 두 개 사용하기 때문에 이로인한 추가적인 비용과 복잡성을 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0MzQwODA5LDEzOTM4MjQxNiwtNjMwNj
-EwNjU5LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMs
-LTEwOTk2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mz
-k0NTkxNTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4
-MjE0LC0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC
-0xNzQyOTMxNTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2
-MTcwMDA2XX0=
+eyJoaXN0b3J5IjpbMTQ3NTMyODU1MCwxMzkzODI0MTYsLTYzMD
+YxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgz
+LC0xMDk5NjM4NDU3LC0yMjUxMzY0MjAsNzY3Mzc3Mzk3LC0xOT
+M5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1
+ODIxNCwtMTA5Njc5MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OS
+wtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMw
+NjE3MDAwNl19
 -->
