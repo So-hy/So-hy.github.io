@@ -177,12 +177,15 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 긴 시퀀스를 생성할 땐 contrastive decoding은 각 개별 시점에서 적용된다. 큰 모델은 각 시점에서 다음 토큰을 예측하고, 작은 모델의 확률을 빼서 다음 출력을 선택한다. 이렇게 하면 긴 시퀀스를 생성할 때에도 작은 모델의 오류를 보완하고, 큰 모델의 장점을 활용하여 보다 정확한 출력을 생성할 수 있다. 각 단계에서 이러한 과정을 반복하여 최종 출력을 얻는다.
 
 또한 작은 모델과 큰 모델 간의 적절한 차이가 어느정도 인가에 관련된 질문도 있었는데 Contrastive Decoding에서 두 모델 간의 성능 차이가 너무 크지 않으면서도 적당히 커야, 작은 모델이 잘못된 확률을 부여할 때 큰 모델의 정확성을 활용할 수 있다고 한다. 작은 모델은 너무 약하지 않아야 하며, 일부 유용한 정보를 학습했어야 하고, 큰 모델은 작은 모델에 비해 더 많은 데이터를 학습하고, 파라미터 수가 많아야 한다. 일반적으로는 작은 모델이 큰 모델보다 덜 복잡하고, 데이터 양이 적게 훈련된 모델을 선택한다고 한다. 또한 이 차이는 어떤 task를 하는지에 따라 다르다고 한다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA3MDEwODkxMiwtMjAyMTY2ODc2LDExOT
-Y0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAyODkyLC0xMDkzMzI1
-MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MCwyMDE2NDkzMCwxMz
-kzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2
-MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0MjAsNz
-Y3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4
-NjQzNTVdfQ==
+eyJoaXN0b3J5IjpbLTE3NzY1MDU2MDYsMTA3MDEwODkxMiwtMj
+AyMTY2ODc2LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAy
+ODkyLC0xMDkzMzI1MzE4LDEwNjExNzI1MzQsMTY0OTE0MjE4MC
+wyMDE2NDkzMCwxMzkzODI0MTYsLTYzMDYxMDY1OSwtMTI4ODc0
+NDMxNSw4NzgxNjQ2MDksNjYzMjkwMzgzLC0xMDk5NjM4NDU3LC
+0yMjUxMzY0MjAsNzY3Mzc3Mzk3LC0xOTM5NDU5MTU5LC0xMzAz
+NzY1NzkzXX0=
 -->
