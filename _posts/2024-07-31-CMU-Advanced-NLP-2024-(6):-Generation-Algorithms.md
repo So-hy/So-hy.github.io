@@ -83,9 +83,9 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ### 대비 디코딩(Contrastive Decoding)
 
-대비 디코딩은 디코딩 시 추가 정보를 활용하여 더 나은 출력을 생성하는 방법이다. 다른 분포나 다른 데이터를 활용할 수도 있지만, 여기서는 추가 모델을 활용한다. 여기서
+대비 디코딩은 디코딩 시 추가 정보를 활용하여 더 나은 출력을 생성하는 방법이다. 다른 분포나 다른 데이터를 활용할 수도 있지만, 여기서는 추가 모델을 활용한다. 여기서는 대규모 언어 모델과 소규모 언어 모델을 동시에 사용하여 출력을 생성하고, 두 모델 간의 차이를 활용해 출력을 개선한다.
 
-작은 모델은 종종 잘못된 출력을 생성하는 경향이 있다. 큰 모델이 높은 확률을 부여한 토큰이 작은 모델에서는 낮은 확률을 가질 때, 이는 큰 모델이 작은 모델보다 더 많은 것을 학습했다는 신호일 수 있다.(즉, 작은 모델이 모르거나 덜 아는 정보일 수 있다.)
+작은 모델(gpt2 small 등)은 종종 반복적인 출력을 생성하거나 잘못된 출력을 제공할 수 있다. 큰 모델(gpt2 XL 등)은 더 많은 데이터로 훈련되어 이러한 문제를 덜 겪습니다.
 
 대비 디코딩의 과정은 다음과 같다.
 
@@ -161,11 +161,11 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTM5ODI2NiwyMDE2NDkzMCwxMzkzOD
-I0MTYsLTYzMDYxMDY1OSwtMTI4ODc0NDMxNSw4NzgxNjQ2MDks
-NjYzMjkwMzgzLC0xMDk5NjM4NDU3LC0yMjUxMzY0MjAsNzY3Mz
-c3Mzk3LC0xOTM5NDU5MTU5LC0xMzAzNzY1NzkzLC05MDE4NjQz
-NTUsMTc5NDA1ODIxNCwtMTA5Njc5MjYwOCwtMTk1ODA2NTI1LD
-M0NTAyNjg1OSwtMTc0MjkzMTU3Niw1MzM5ODU0NTgsMTA3OTE0
-NTEyMF19
+eyJoaXN0b3J5IjpbLTgwMjM5MTE4LDIwMTY0OTMwLDEzOTM4Mj
+QxNiwtNjMwNjEwNjU5LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2
+NjMyOTAzODMsLTEwOTk2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNz
+czOTcsLTE5Mzk0NTkxNTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1
+NSwxNzk0MDU4MjE0LC0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMz
+Q1MDI2ODU5LC0xNzQyOTMxNTc2LDUzMzk4NTQ1OCwxMDc5MTQ1
+MTIwXX0=
 -->
