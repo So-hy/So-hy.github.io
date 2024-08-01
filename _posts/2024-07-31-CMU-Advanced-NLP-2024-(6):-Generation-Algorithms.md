@@ -44,11 +44,11 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ### 단순 샘플링(Ancestral Sampling)
 
-단순 샘플링은 단순히 확률 분포에 따라 토큰을 무작위로 선택하는 방법이다. 확률이 높은 ㅌ
+단순 샘플링은 단순히 확률 분포에 따라 토큰을 무작위로 선택하는 방법이다. 확률이 높은 토큰일수록 고를 확률이 높기 때문에 당연히 선택될 확률도 높다. 각 시간 단계(time step)마다 토큰을 하나씩 샘플링하며, 모델 분포에 따라 샘플링하기 때문에 분포에 맞는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyNzI2NDUwMywxNzk0MDU4MjE0LC0xMD
-k2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMx
-NTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LD
-U4ODIyMTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEz
-MTk2NDUsNTE1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
+eyJoaXN0b3J5IjpbNDY0ODcxMTYsMTc5NDA1ODIxNCwtMTA5Nj
+c5MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3
+Niw1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1OD
+gyMjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5
+NjQ1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
 -->
