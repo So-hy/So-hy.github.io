@@ -44,9 +44,11 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 ### 단순 샘플링(Ancestral Sampling)
 
-단순 샘플링은 단순히 확률 분포에 따라 토큰을 무작위로 선택하는 방법이다. 확률이 높은 토큰일수록 고를 확률이 높기 때문에 당연히 선택될 확률도 높다. 각 시간 단계(time step)마다 토큰을 하나씩 샘플링하며, 모델 분포에 따라 샘플링하기 때문에 분포에 맞는 샘플, 즉, 많은 샘플을 선택하다 보면 모델 분포와 거의 일치하는 결과를 얻을 수 있다. 이로 인해, 확률이 낮은 토큰도 선택 가능성이 있으며, 다양한 결과를 얻을 수 있다. 하지만 이 샘플링은 긴 꼬리 분포 문제를 겪게 되
+단순 샘플링은 단순히 확률 분포에 따라 토큰을 무작위로 선택하는 방법이다. 확률이 높은 토큰일수록 고를 확률이 높기 때문에 당연히 선택될 확률도 높다. 각 시간 단계(time step)마다 토큰을 하나씩 샘플링하며, 모델 분포에 따라 샘플링하기 때문에 분포에 맞는 샘플, 즉, 많은 샘플을 선택하다 보면 모델 분포와 거의 일치하는 결과를 얻을 수 있다. 이로 인해, 확률이 낮은 토큰도 선택 가능성이 있으며, 다양한 결과를 얻을 수 있다. 하지만 이 샘플링은 긴 꼬리 분포 문제를 겪게 된다.
+
+긴 꼬리 분포 문제란? 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTc0NjIyNCwxNzk0MDU4MjE0LC0xMD
+eyJoaXN0b3J5IjpbLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMD
 k2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMx
 NTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LD
 U4ODIyMTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEz
