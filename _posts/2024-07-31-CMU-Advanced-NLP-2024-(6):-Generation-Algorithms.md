@@ -63,12 +63,14 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 이 방법은 상위 K개의 토큰, 즉 가장 확률이 높은 K개의 토큰만 선택하여 이들 중에서 샘플링하는 것이다. K의 경우 사용자가 지정할 수 있다. 예를 들어 K가 6일 경우, 상위 6개의 토큰 중에서 샘플링을 하는 것이다.
 
-이 경우 위와 같은 긴 꼬리 분포를 띄는 상황에서 확률 
+이 경우 위와 같은 긴 꼬리 분포를 띄는 상황에서 확률 질량의 대부분을 차지하는 토큰들만 샘플링하여 긴 꼬리의 영향을 줄일 수 있다. 하지만 때로는 상위 K개의 토큰만으로 충분하지 않을 수 있고, 만약 분포가 평평할 경우, 상위 K개의 토큰이 전체 확률의 대부분을 차지하지 않을 수 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEwMDI5NzYsLTE5Mzk0NTkxNTksLTEzMD
-M3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMDk2Nzky
-NjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LD
-UzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIy
-MTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2ND
-UsNTE1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
+eyJoaXN0b3J5IjpbMjQwMjIwMjcyLC0xOTM5NDU5MTU5LC0xMz
+AzNzY1NzkzLC05MDE4NjQzNTUsMTc5NDA1ODIxNCwtMTA5Njc5
+MjYwOCwtMTk1ODA2NTI1LDM0NTAyNjg1OSwtMTc0MjkzMTU3Ni
+w1MzM5ODU0NTgsMTA3OTE0NTEyMCwtMTMwNjE3MDAwNiw1ODgy
+MjEwMCwtMTIwNjQ5MjY3MywtNDc0Mjg5MTk4LC0xMDIxMzE5Nj
+Q1LDUxNTM2MzMyMiwxMDg5OTU0NzcyXX0=
 -->
