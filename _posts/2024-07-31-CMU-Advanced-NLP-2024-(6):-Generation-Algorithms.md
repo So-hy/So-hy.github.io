@@ -98,7 +98,8 @@ $$Contrastive Score(x_i​)=\log P_l (x_i​) − \log P_s(x_i​)$$
 
 Contrastive decoding의 작동 방식은 다음과 같다.
 
-![Screenshot 2024-08-01 at 7:13:07 PM](https://github.com/user-attachments/assets/b0e73a8a-8aa1-4b90-a28e-62ed3b23fee5)
+![Screenshot 2024-08-01 at 7:13:07 PM](https://github.com/user-attachments/assets/b0e73a8a-8aa1-4b90-a28e-62ed3b23fee5){: .responsive-img .align-center}
+
 
 -   **입력 예시**: "Barack Obama was born in Hawaii. He was born in L..."와 같은 입력이 주어졌을 때, 작은 모델은 종종 반복적인 출력을 생성하거나, 잘못된 사실을 출력할 수 있다.
 
@@ -172,11 +173,11 @@ Contrastive decoding의 작동 방식은 다음과 같다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNTIyODEzMywxMDYxMTcyNTM0LDE2ND
-kxNDIxODAsMjAxNjQ5MzAsMTM5MzgyNDE2LC02MzA2MTA2NTks
-LTEyODg3NDQzMTUsODc4MTY0NjA5LDY2MzI5MDM4MywtMTA5OT
-YzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5NywtMTkzOTQ1OTE1
-OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LDE3OTQwNTgyMTQsLT
-EwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4NTksLTE3NDI5
-MzE1NzZdfQ==
+eyJoaXN0b3J5IjpbLTEwOTMzMjUzMTgsMTA2MTE3MjUzNCwxNj
+Q5MTQyMTgwLDIwMTY0OTMwLDEzOTM4MjQxNiwtNjMwNjEwNjU5
+LC0xMjg4NzQ0MzE1LDg3ODE2NDYwOSw2NjMyOTAzODMsLTEwOT
+k2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkx
+NTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC
+0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQy
+OTMxNTc2XX0=
 -->
