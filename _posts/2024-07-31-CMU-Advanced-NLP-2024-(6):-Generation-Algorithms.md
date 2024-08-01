@@ -216,14 +216,15 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 
 #### Diverse Beam Search
 
+기존 빔 검색에서는 후보의 확률(likelihood)을 기반으로 점수를 매긴다. 다양성 빔 검색에서는 이 점수 계산 단계를 수정하여, 단순히 확률 높은 후보를 선택하는 것뿐만 아니라 후보들 사이의 유사성도 고려한다. 이를 통해 너무 비슷한 친구들을 선택하는 것을 피하고 다양성을 극대화한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxNDUyMTEsLTExNTk2MjYzMzEsLTU2MD
-U5MTM5Myw5MjAwMzg0ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1
-LC05ODY1ODA4MzgsMzg0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNj
-c1NzUyMDksLTE1MzQyMzAxNTUsLTk5MTM4MjA1NCwtODcwMzQz
-NTM5LDY4MDIzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMj
-AyMTY2ODc2LDExOTY0MzU4OTIsMTI1Mzg5Njk5OSwtNjk5NDAy
-ODkyXX0=
+eyJoaXN0b3J5IjpbLTIwMTQxNTQ2OSw5NDE0NTIxMSwtMTE1OT
+YyNjMzMSwtNTYwNTkxMzkzLDkyMDAzODQ4MiwxNDc3NjE3NTc3
+LC05NzcyNzQxNDUsLTk4NjU4MDgzOCwzODQyOTEzNDIsLTE1OT
+MxNjkwMjIsLTM2NzU3NTIwOSwtMTUzNDIzMDE1NSwtOTkxMzgy
+MDU0LC04NzAzNDM1MzksNjgwMjMwNDcxLDg2NDg0Njc0MywxMD
+cwMTA4OTEyLC0yMDIxNjY4NzYsMTE5NjQzNTg5MiwxMjUzODk2
+OTk5XX0=
 -->
