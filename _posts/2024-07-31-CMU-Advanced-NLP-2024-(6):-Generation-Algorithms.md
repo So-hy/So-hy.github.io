@@ -18,13 +18,16 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 •  **확률 계산**: 시퀀스 내 모든 확률을 곱하면, 입력 $X$에 대한 출력 $Y$의 확률을 계산할 수 있다.
 
-즉, 이 고급 모델은 단순히 조건부 확률 분포에 불과하다.
+즉, 이 고급 모델은 단순히 조건부 확률 분포에 불과하다. 그럼에도 불구하고, 이를 활용하여 번역, 요약, 추론 등 다양한 NLP 작업을 수행할 수 있다. 입력 X와 출력 Y의 정의를 바꾸는 것만으로도 다양한 작업에 적용할 수 있다. 아래는 그 예시이다.
 
+
+![제목 없음](https://github.com/user-attachments/assets/f49d05b4-2125-4730-916c-e4b2280b2ea6)
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMD
-YxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5
-OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
+eyJoaXN0b3J5IjpbLTYwNzYzNjAzMSw1MzM5ODU0NTgsMTA3OT
+E0NTEyMCwtMTMwNjE3MDAwNiw1ODgyMjEwMCwtMTIwNjQ5MjY3
+MywtNDc0Mjg5MTk4LC0xMDIxMzE5NjQ1LDUxNTM2MzMyMiwxMD
+g5OTU0NzcyXX0=
 -->
