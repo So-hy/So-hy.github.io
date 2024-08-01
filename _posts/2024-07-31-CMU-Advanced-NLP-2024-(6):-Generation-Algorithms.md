@@ -31,9 +31,9 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 ![2](https://github.com/user-attachments/assets/2b8033f2-0f0e-4a86-af23-65dfb49dea94){: .responsive-img .align-center}
 
 
-그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 일정한 비확률을 가지고 잘못되거나 불쾌한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있습니다.
+그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 일정한 비확률을 가지고 잘못되거나 불쾌한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있다. 이러한 문제를 할루시네이션(Hallucination)이라고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYzNDU1MzY4LC0xNzQyOTMxNTc2LDUzMz
+eyJoaXN0b3J5IjpbMzQ1MDI2ODU5LC0xNzQyOTMxNTc2LDUzMz
 k4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LDU4ODIyMTAw
 LC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEzMTk2NDUsNT
 E1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
