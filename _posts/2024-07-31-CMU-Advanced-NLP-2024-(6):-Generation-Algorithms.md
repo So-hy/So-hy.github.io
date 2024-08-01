@@ -75,13 +75,13 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 앱실론 샘플링의 경우 최소 확률이 $\epsilon$ 이상인 토큰들만 샘플링하는 방법이다. 즉 만약 $\epsilon$이 0.05 일 경우, 해당 확률을 넘는 토큰들만 샘플링 대상에 포함하는 것이다. 이렇게 함으로써 확률이 매우 낮은 토큰을 배제하여 샘플링의 품질을 높일 수 있다. 하지만 반대로 낮은 확률의 토큰이 필요한 경우(즉 확률이 낮지만 정답일 경우), 이를 배제해버릴 수 있다.
 
 
-샘플링에 있어 긴 꼬리 분포만이 고렫
+샘플링에 있어 긴 꼬리 분포만이 고려되어야 할 점은 아니다.  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3NTE2ODI3MCw2NjMyOTAzODMsLTEwOT
-k2Mzg0NTcsLTIyNTEzNjQyMCw3NjczNzczOTcsLTE5Mzk0NTkx
-NTksLTEzMDM3NjU3OTMsLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC
-0xMDk2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQy
-OTMxNTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMD
-A2LDU4ODIyMTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEw
-MjEzMTk2NDVdfQ==
+eyJoaXN0b3J5IjpbODc4MTY0NjA5LDY2MzI5MDM4MywtMTA5OT
+YzODQ1NywtMjI1MTM2NDIwLDc2NzM3NzM5NywtMTkzOTQ1OTE1
+OSwtMTMwMzc2NTc5MywtOTAxODY0MzU1LDE3OTQwNTgyMTQsLT
+EwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4NTksLTE3NDI5
+MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMDYxNzAwMD
+YsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5OCwtMTAy
+MTMxOTY0NV19
 -->
