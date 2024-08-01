@@ -33,10 +33,16 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 그러나 이러한 확률 분포 모델은 잘못된 출력을 생성할 수도 있다. 모델은 잘못된 단어에도 0이 아닌 적은 확률을 할당하기 때문에 예측 시, 잘못되거나 이상한 출력을 생성할 가능성이 있다. 이러한 문제는 모델이 훈련된 데이터가 완벽하더라도 발생할 수 있다. 이러한 문제를 할루시네이션(Hallucination)이라고 한다.
 
+이러한 문제를 해결할 방법으로 해당 강의에서는 **샘플링**을 소개한다.
 
+
+## 샘플링(Sampling for LMs)
+
+모델에서 좋은 출력을 얻기 위한 방법
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTgwNjUyNSwzNDUwMjY4NTksLTE3ND
-I5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLTEzMDYxNzAw
-MDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4OTE5OCwtMT
-AyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml19
+eyJoaXN0b3J5IjpbLTE5NjA3NDMxNDMsLTE5NTgwNjUyNSwzND
+UwMjY4NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUx
+MjAsLTEzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLT
+Q3NDI4OTE5OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1
+NDc3Ml19
 -->
