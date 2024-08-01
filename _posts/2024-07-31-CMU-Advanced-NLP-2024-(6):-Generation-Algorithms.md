@@ -228,12 +228,17 @@ $$y_j = \argmax P(y_j|X, y_1,...,y_{j-1}$$
 확률적 빔 검색의 목적은 모델의 출력 공간을 더 넓게 탐색하는 것이다. 이를 통해 더 다양하고 창의적인 출력을 생성할 수 있다. 또한 전통적인 빔 검색은 유사한 결과들이 반복적으로 생성될 수 있지만, 확률적으로 접근함으로써 이러한 경향을 줄이고 더욱 독창적인 결과를 얻을 수 있다.
 
 
+
+## 최소 베이즈 위험 디코딩 (Minimum Bayes Risk Decoding, MBR)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NTQ0NTgzMywtMTkwMjc2ODE4MywtMT
-k1OTM2OTUxOCw5NDE0NTIxMSwtMTE1OTYyNjMzMSwtNTYwNTkx
-MzkzLDkyMDAzODQ4MiwxNDc3NjE3NTc3LC05NzcyNzQxNDUsLT
-k4NjU4MDgzOCwzODQyOTEzNDIsLTE1OTMxNjkwMjIsLTM2NzU3
-NTIwOSwtMTUzNDIzMDE1NSwtOTkxMzgyMDU0LC04NzAzNDM1Mz
-ksNjgwMjMwNDcxLDg2NDg0Njc0MywxMDcwMTA4OTEyLC0yMDIx
-NjY4NzZdfQ==
+eyJoaXN0b3J5IjpbLTEyNDE0NzQyOTYsLTE5MDI3NjgxODMsLT
+E5NTkzNjk1MTgsOTQxNDUyMTEsLTExNTk2MjYzMzEsLTU2MDU5
+MTM5Myw5MjAwMzg0ODIsMTQ3NzYxNzU3NywtOTc3Mjc0MTQ1LC
+05ODY1ODA4MzgsMzg0MjkxMzQyLC0xNTkzMTY5MDIyLC0zNjc1
+NzUyMDksLTE1MzQyMzAxNTUsLTk5MTM4MjA1NCwtODcwMzQzNT
+M5LDY4MDIzMDQ3MSw4NjQ4NDY3NDMsMTA3MDEwODkxMiwtMjAy
+MTY2ODc2XX0=
 -->
