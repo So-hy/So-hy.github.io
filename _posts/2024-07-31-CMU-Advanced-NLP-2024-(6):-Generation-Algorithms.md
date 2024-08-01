@@ -46,11 +46,14 @@ $$P(Y | X) = \prod_{j=1}^{J} P(y_j | X, y_1, \ldots, y_{j-1})$$
 
 단순 샘플링은 단순히 확률 분포에 따라 토큰을 무작위로 선택하는 방법이다. 확률이 높은 토큰일수록 고를 확률이 높기 때문에 당연히 선택될 확률도 높다. 각 시간 단계(time step)마다 토큰을 하나씩 샘플링하며, 모델 분포에 따라 샘플링하기 때문에 분포에 맞는 샘플, 즉, 많은 샘플을 선택하다 보면 모델 분포와 거의 일치하는 결과를 얻을 수 있다. 이로 인해, 확률이 낮은 토큰도 선택 가능성이 있으며, 다양한 결과를 얻을 수 있다. 하지만 이 샘플링은 긴 꼬리 분포 문제를 겪게 된다.
 
-긴 꼬리 분포 문제란? 
+**긴 꼬리 분포 문제란?** 
+
+긴 꼬리 분포는 높은 확률을 가진 토큰이 일부이고, 많은 토큰들이 낮은 확률을 가지지만, 이들이 모여서 전체 확률의 절반을 차지할 수 있습니다. 결과적으로, 샘플링할 때 이러한 낮은 확률의 토큰이 선택될 가능성이 높아집니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMTg2NDM1NSwxNzk0MDU4MjE0LC0xMD
-k2NzkyNjA4LC0xOTU4MDY1MjUsMzQ1MDI2ODU5LC0xNzQyOTMx
-NTc2LDUzMzk4NTQ1OCwxMDc5MTQ1MTIwLC0xMzA2MTcwMDA2LD
-U4ODIyMTAwLC0xMjA2NDkyNjczLC00NzQyODkxOTgsLTEwMjEz
-MTk2NDUsNTE1MzYzMzIyLDEwODk5NTQ3NzJdfQ==
+eyJoaXN0b3J5IjpbMTg0NDk5NjA0MCwtOTAxODY0MzU1LDE3OT
+QwNTgyMTQsLTEwOTY3OTI2MDgsLTE5NTgwNjUyNSwzNDUwMjY4
+NTksLTE3NDI5MzE1NzYsNTMzOTg1NDU4LDEwNzkxNDUxMjAsLT
+EzMDYxNzAwMDYsNTg4MjIxMDAsLTEyMDY0OTI2NzMsLTQ3NDI4
+OTE5OCwtMTAyMTMxOTY0NSw1MTUzNjMzMjIsMTA4OTk1NDc3Ml
+19
 -->
