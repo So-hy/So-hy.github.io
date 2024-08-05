@@ -5,8 +5,6 @@ author: Sohyun
 date: 2024-07-27
 ---
 
-## 여는 글
-
 해당 논문은 레시피 문맥을 기반으로 목표 재료의 양과 단위를 예측하는 것을 목표로 하는 사전 학습된 모델(PLM)인 Kitchen Scale 이라는 언어 모델을 소개한다. 여기서 주목한 것은 양에 대한 예측이다. 실제로 이전의 여러 실험에서는 주로 비율로 성분 조성을 제안하거나 숫자와 단위를 텍스트로 취급하는 방식으로 재료의 양을 다루어서 양을 정확하게 예측하는 데 한계가 있다.
 
 실제로 LLM은 숫자를 다룰 때, 뭔가 나사가 빠진 모습을 보일 때가 많다. 이는 이들을 숫자 보단 텍스트로 취급하고 모델이 학습하기 때문이다.
@@ -241,11 +239,11 @@ Proceedings of the 57th Annual Meeting of the Association for Computational Ling
 Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pp. 2104–2115
 [^5]: Spokoyny, D., Berg-Kirkpatrick, T., 2020. An empirical investigation of contextualized number prediction, in: Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP), Association for Computational Linguistics, Online. URL: https://aclanthology.org/2020.emnlp-main.385, doi:10.18653/v1/2020.emnlp- main.385.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUyNzIxNzM4MiwxMjk5NzY4MzE0LC0xMj
-czODQ0NTA2LC03MzY5MjkyNywxMTMxNjExNjg4LDE1MTM2MTg0
-NTAsMjM2Njc1NzAwLDEwMTQ4NjA4MDQsLTEyNDYxOTQ5NzgsOT
-MyMzg3NTgyLDE1NDY5MTE1MiwtMTQwNzAyMzE5MCwyNjU4MDAx
-MTUsMTA4MjY5ODg5NiwtMjA3NzQxMDk5NiwxMzI0MDg2NDQ0LC
-0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMTg1MDEyNTY5MiwtMTYy
-NTMzMDk1Nl19
+eyJoaXN0b3J5IjpbLTE1OTA4MTE4MzQsLTUyNzIxNzM4MiwxMj
+k5NzY4MzE0LC0xMjczODQ0NTA2LC03MzY5MjkyNywxMTMxNjEx
+Njg4LDE1MTM2MTg0NTAsMjM2Njc1NzAwLDEwMTQ4NjA4MDQsLT
+EyNDYxOTQ5NzgsOTMyMzg3NTgyLDE1NDY5MTE1MiwtMTQwNzAy
+MzE5MCwyNjU4MDAxMTUsMTA4MjY5ODg5NiwtMjA3NzQxMDk5Ni
+wxMzI0MDg2NDQ0LC0xMTQxMzU2OTIyLC0zMzQ0NzQ2MTgsMTg1
+MDEyNTY5Ml19
 -->
