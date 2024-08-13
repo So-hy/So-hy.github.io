@@ -11,7 +11,7 @@ date: 2024-08-12
 ## Introduction
 
 
-NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업이다.이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었다.
+NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업이다. 이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었다.
 
  
 반구조화된 테이블 추론을 위한 자연어 추론(NLI) 작업의 훈련 데이터를 구축할 때, 현재 두 가지 주요 접근 방식이 있다. 하나는 **크라우드소싱(Crowdsourcing)** 방식이고, 다른 하나는 **자동화 방법(Automatic Methods)** 이다.
@@ -19,6 +19,8 @@ NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesi
 크라우드 소싱은 사람이 데이터셋을 생성하는 방식이다. 따라서 인간의 지식과 판단력을 활용하여 데이터에 주석을 달고, 복잡한 논리적 추론이 요구되는 문제에 대한 인간의 이해를 반영할 수 있다. 하지만 비용이 많이 들고 시간이 많이 소요되어 확장성에 한계가 있다. TABFACT 와 INFOTABS와 같은 데이터셋이 있다. 이들은 데이터의 품질이 높고 정확도가 보장된 데이터셋을 제공하기 때문에 유용하지만, 규모에 제한이 있으며 종종 주석 편향(개인에 경험이나 선입견에 의거)과 허위 상관의 문제를 겪는다.
 
 자동화 방법은 컴퓨터 알고리즘을 사용하여 대량의 데이터를 자동으로 생성하고 주석을 달아 데이터셋을 구축하는 방식이다. 알고리즘으로 빠르게 생성하기 때문에 많은 양의 데이터를 생성할 수 있어, 큰 규모의 데이터셋 구축이 가능하다. 또한 인간 주석자를 필요로 하지 않기 때문에, 상대적으로 비용이 적게 들고 시간도 절약된다. 하지만 자동화된 방법으로 생성된 데이터는 종종 단순하고 반복적이며, 복잡한 논리적 추론이나 상황에 대한 이해가 부족할 수 있다. 그리고 사실 정확성이 떨어질 수 있고, 주제에 대한 깊이 있는 커버리지가 부족할 수 있다.
+
+TABFACT와 INFOTABS 같은 데이터셋은 인간에 의해 큐레이션되어 최근 연구에 큰 기여를 했지만, 이 데이터셋들은 규모가 작아 대규모 언어 모델을 학습하기에는 부족합니다. 또한, 이러한 데이터셋은 주석 편향(annotation bias)과 허위 상관(spurious correlation) 문제를 겪고 있습니다.
 
 이러한 제한을 해결하기 위해, 저자들은 테이블 추론에서 데이터 증강을 위한 반자동화 프레임워크를 제안한다.
 
@@ -29,7 +31,7 @@ NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesi
 제안된 프레임워크의 주요 목표는 제한된 감독 시나리오에서 특히 테이블 추론 작업을 위한 훈련 데이터 증강을 향상시키는 것으로, 인간과 같은 추론 예제를 생성하는 것이다. 이 접근 방식은 엔터티 중심의 테이블 추론 데이터셋인 INFOTABS에 적용된다​.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMjQ0ODY5LDIwMjQ0NzM4MTUsLTEyMD
+eyJoaXN0b3J5IjpbNTczMDkxNzY1LDIwMjQ0NzM4MTUsLTEyMD
 UxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5
 NjY5LDE2NzQ3MDM0NzNdfQ==
 -->
