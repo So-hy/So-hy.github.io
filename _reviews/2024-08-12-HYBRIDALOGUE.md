@@ -74,13 +74,16 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 반사실 테이블 생성 시, 중요한 논리적 제약을 유지한다. 예를 들어, 사람의 출생일과 사망일 사이에 논리적으로 타당한 순서를 유지해야 한다. 즉, 사망일은 출생일보다 늦은 날짜여야 한다.  이러한 제약을 따르지 않을 경우, 생성된 테이블이 논리적으로 부정확하거나 모순되는 정보를 담게 된다.
 
 
-전제 테이블의 패러프레이징
+### 전제 테이블의 패러프레이징
+
+
+문법 기반 데이터 생성 방법에서 언어적 다양성의 부족은 중요한 문제 중 하나다. 따라서 해당 논문에서는 다양성 문제를 해결하기 위해 자동화된 방법과 인간의 패러프레이징을 모두 사용하여 전제 테이플을 재구성한다. 주어진 카테고리의 각 키에 대해, 해당 키에 특화된 템플릿을 기반으로 최소 세개에서 다섯개의 간단한 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNTkxNDQyNywtMTU4OTQ3ODgxOCwxMz
-MyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1
-Mzc4MiwtNTY2NDY5ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5Nj
-Y4Mjk0NzksLTIwNjQ5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMy
-MDU2LDc5NjI4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC
-0xNDM2NjI3ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0
-NzAzNDczXX0=
+eyJoaXN0b3J5IjpbMjM0NjEyNjEsLTE1ODk0Nzg4MTgsMTMzMj
+U2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3
+ODIsLTU2NjQ2OTg4LDY1MjYyNDI2OCw4ODg1NDkwMjksOTY2OD
+I5NDc5LC0yMDY0OTIzNjAzLC02MTY0MTkxNTksMTgzMDIzMjA1
+Niw3OTYyODQxMjEsMjAyNDQ3MzgxNSwtMTIwNTE0OTI0NCwtMT
+QzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5ODk2NjksMTY3NDcw
+MzQ3M119
 -->
