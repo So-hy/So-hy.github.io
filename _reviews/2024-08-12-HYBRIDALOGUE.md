@@ -51,11 +51,15 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 각 카테고리의 테이블(예: 영화)에는 공통적으로 나타나는 속성이 있다. (예: 길이, 제작자, 감독 등). 이러한 공통적인 속성들은 해당 카테고리의 테이블이 가지는 일관성을 보여준다.
 
-이러한 공통 속성을 바탕으로 논리적인 문장을 만들 수 있는 규칙(템플릿)을 설정한다. 예를 들어, 영화의 경우 '개봉일' 을 이용하여 "<영화명>은 <개봉일>에 개봉했다." 와 같은 템플릿을 만들 수 있다. 이 템플릿은 추후 비슷한 다른 테이블에도 적용 가능하여 유연하게 ㅅ
+이러한 공통 속성을 바탕으로 논리적인 문장을 만들 수 있는 규칙(템플릿)을 설정한다. 예를 들어, 영화의 경우 '개봉일' 을 이용하여 "<영화명>은 <개봉일>에 개봉했다." 와 같은 템플릿을 만들 수 있다. 이 템플릿은 추후 비슷한 다른 테이블에도 적용 가능하여 유연하게 사용될 수 있다.
+
+생성되는 규칙은 여러 유형의 규칙이 될 수 있는데 논문에서 다룬 규칙은 시간적 추론, 수치적 추론, 공간적 추론, 상식적 추론의 유형이 있다고 한다. 
+
+또한 생성된 템플릿은 다양한 방식으로 다양한 방식으로 표현될 수 있다. 예를 들어 위의 영화의 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA1MDU0NjAsLTU2NjQ2OTg4LDY1Mj
-YyNDI2OCw4ODg1NDkwMjksOTY2ODI5NDc5LC0yMDY0OTIzNjAz
-LC02MTY0MTkxNTksMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyND
-Q3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0
-ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
+eyJoaXN0b3J5IjpbNzY1OTQzNjkwLC01NjY0Njk4OCw2NTI2Mj
+QyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMywt
+NjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0Nz
+M4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgx
+LC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ==
 -->
