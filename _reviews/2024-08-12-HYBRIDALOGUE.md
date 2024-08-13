@@ -87,13 +87,13 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 이런 방식으로 문장의 템플릿을 최소한으로 변경하여, 서로 어휘적으로 겹치면서도 논리적으로 상반되는 ‘entail’ (참을 의미)과 ‘contradict’ (거짓을 의미) 쌍을 생성한다. 이 방식은 향후 모델이 잘못된 상관 관계를 학습하는 것을 방지하고, 테이블 기반 자연어 추론(NLI) 데이터에서 발생할 수 있는 가설 편향 문제를 최소화한다고 한다.
 
-이렇게 생성된 쌍의 예를 간단히 들자면, 
+이렇게 생성된 쌍의 예를 간단히 들자면, 영화 “Ironman”의 경우, 예산과 박스오피스 수입을 바탕으로 템플릿 “\<Ironman> was a ‘hit if  −  else flop’“을 사용하여 “Ironman은 흥행했다”와 “Ironman은 실패했다”라는 상반된 가설을 생성할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQ2NjgxOTgsLTgxMjMzNjU2MCwxNT
-U4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcx
-Mzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwOD
-ksMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01NjY0Njk4OCw2NTI2
-MjQyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMy
-wtNjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0
-NzM4MTVdfQ==
+eyJoaXN0b3J5IjpbLTE0MzU3OTE0MiwtODEyMzM2NTYwLDE1NT
+g4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEz
+OTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OS
+wxODAxMzg1NjYwLDE2MTEzNTM3ODIsLTU2NjQ2OTg4LDY1MjYy
+NDI2OCw4ODg1NDkwMjksOTY2ODI5NDc5LC0yMDY0OTIzNjAzLC
+02MTY0MTkxNTksMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyNDQ3
+MzgxNV19
 -->
