@@ -104,13 +104,16 @@ INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 �
 
 데이터셋을 만들기 위해 문장을 구성할 때 대부분의 추가적인 인간 노동은 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약사항 설정에 사용된다. 이는 데이터의 품질을 높이기 위한 중요한 과정이다. 생성된 반사실적 테이블 데이터는 논리적으로 일관되어 있으며, 자체적인 모순이 없다. 이는 데이터가 실제로 활용될 때 오류 없이 정확하게 작동할 수 있음을 의미한다.
 
+![Screenshot 2024-08-14 at 2 15 50 AM](https://github.com/user-attachments/assets/057ade56-5558-4e8a-8053-43c1f8da0a7c)
 
+
+위 표에서는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMT
-U3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3
-ODUwMCwtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOS
-wtMTM5OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4
-OTQ3ODgxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzOD
-U2NjAsMTYxMTM1Mzc4MiwtNTY2NDY5ODgsNjUyNjI0MjY4LDg4
-ODU0OTAyOV19
+eyJoaXN0b3J5IjpbMTYyOTU2NzY3NiwtMTc3MjcwMTAyNSwtMT
+Y4MDMzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4
+OTY4NTIsLTYwMTc4NTAwLC04NDM2ODg4MjgsLTgxMjMzNjU2MC
+wxNTU4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4
+NDcxMzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLTE0NzU5Nz
+EwODksMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01NjY0Njk4OCw2
+NTI2MjQyNjhdfQ==
 -->
