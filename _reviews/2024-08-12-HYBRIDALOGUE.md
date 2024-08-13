@@ -42,10 +42,12 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 3. 전제 테이블의 패러프레이징 **(Paraphrasing of Premise Tables)**
 4. 자동 테이블-가설 생성 **(Automatic Table-Hypothesis Generation)**
 
+![Screenshot 2024-08-13 at 7 39 27 PM](https://github.com/user-attachments/assets/88342200-a2af-4974-a5fb-4a2e35497d37)
 
+해당 이미지의 Section2.1, 2.2 이부분이 위의 구성요소와 매치된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5Nj
-I4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3
-ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0NzAzNDczXX
-0=
+eyJoaXN0b3J5IjpbMTc3NDcyOTM1OSwtNjE2NDE5MTU5LDE4Mz
+AyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUxNDky
+NDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5NjY5LD
+E2NzQ3MDM0NzNdfQ==
 -->
