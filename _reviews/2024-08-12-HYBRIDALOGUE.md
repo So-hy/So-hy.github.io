@@ -49,11 +49,13 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 **가설 템플릿 생성**
 
-각 카테고리의 테이블(예: 영화)에서 행 속성(즉, 키)들은 대부분의 테이블에서 겹친다. (예: 길이, 제작자, 감독 등). 따라서 이러한 일관성은 특정 테이블 범주에 특화된 키 기반 규칙을 작성하여 논리적인 가설 문장을 생성하는데 도움이 된다.
+각 카테고리의 테이블(예: 영화)에는 공통적으로 나타나는 속성이 있다. (예: 길이, 제작자, 감독 등). 이러한 공통적인 속성들은 해당 카테고리의 테이블이 가지는 일관성을 보여준다.
+
+이러한 공통 속성을 바탕으로 논리적인 문장을 만들 수 있는 규칙(템플릿)을 설정한다. 예를 들어, 영화의 경우 '개봉일' 을 이용하여 "<영화명>은 <개봉일>에 개봉했다." 와 같은 템플릿
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyODA0NzQzNCwtNTY2NDY5ODgsNjUyNj
-I0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNjQ5MjM2MDMs
-LTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEyMSwyMDI0ND
-czODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3ODI3LC04NzAxMTQ4
-MSwtMTc5NDk4OTY2OSwxNjc0NzAzNDczXX0=
+eyJoaXN0b3J5IjpbLTE4NTI3Nzk2NzAsLTU2NjQ2OTg4LDY1Mj
+YyNDI2OCw4ODg1NDkwMjksOTY2ODI5NDc5LC0yMDY0OTIzNjAz
+LC02MTY0MTkxNTksMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyND
+Q3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0
+ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
 -->
