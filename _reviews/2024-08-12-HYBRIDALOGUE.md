@@ -102,13 +102,13 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 문장을 생성하는 경향이 있다. 예를 들어, ‘회사’ 카테고리에서 주석자들은 ‘웹사이트’ 키보다 ‘창립자’ 키에 대해 더 많은 문장을 생성하며, 이는 데이터셋에 내재된 가설 편향을 초래했다. AUTO-TNLI 템플릿을 생성할 때는 각 키마다 최소 두 가지의 가설과 세 가지 이상의 전제 패러프레이즈를 만들도록 하여 이러한 가설 편향을 완화한다. 또한, 추론 클래스의 불균형 라벨링 문제를 해결하기 위해, 대략적으로 ‘ENTAIL’과 ‘CONTRADICT’ 가설을 1:1 비율로 구성한다.
 
-문장 생성 과정에서 대부분의 인간 노동이 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약에 초점을 맞추고 있다. 이는 데이터의 질을 유지하고 표준화하기 위한 필수적인 과정이다.
+데이터셋을 만들기 위해 문장을 구성할 때 대부분의 추가적인 인간 노동은 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약사항 설정에 사용됩니다. 이는 데이터의 품질을 높이기 위한 중요한 과정입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xND
-AxODk2ODUyLC02MDE3ODUwMCwtODQzNjg4ODI4LC04MTIzMzY1
-NjAsMTU1ODgxODcxOSwtMTM5OTkxNDkyMiwxNzAxODY2MTcwLC
-05ODQ3MTM5OSwtMTU4OTQ3ODgxOCwxMzMyNTYxMTA2LC0xNDc1
-OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1Mzc4MiwtNTY2NDY5OD
-gsNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNjQ5
-MjM2MDNdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwxNj
+AwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMCwtODQzNjg4
+ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5OTkxNDkyMi
+wxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3ODgxOCwxMzMy
+NTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1Mz
+c4MiwtNTY2NDY5ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4
+Mjk0NzldfQ==
 -->
