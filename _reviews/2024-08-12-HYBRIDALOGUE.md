@@ -49,11 +49,11 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 **가설 템플릿 생성**
 
-각 테이블 카테고리는 공통적인 행 속성을 가질 수 있다. 예를 들어 영화와 관련된 테이블이라면, '상영 길이', '제작자', '감독' 등의 키를 포함할 수 있다. 이런 공통 적인 키를 사용하여 카테고리별로 특화된 추론 규칙을 만든다. 이 규칙은 가설 템플릿 생성에 상
+각 테이블 카테고리는 공통적인 행 속성을 가질 수 있다. 예를 들어 영화와 관련된 테이블이라면, '상영 길이', '제작자', '감독' 등의 키를 포함할 수 있다. 이런 공통 적인 키를 사용하여 카테고리별로 특화된 추론 규칙을 만든다. 이 규칙은 가설 템플릿 생성에 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1Mjg5OTk0OCw4ODg1NDkwMjksOTY2OD
-I5NDc5LC0yMDY0OTIzNjAzLC02MTY0MTkxNTksMTgzMDIzMjA1
-Niw3OTYyODQxMjEsMjAyNDQ3MzgxNSwtMTIwNTE0OTI0NCwtMT
-QzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5ODk2NjksMTY3NDcw
-MzQ3M119
+eyJoaXN0b3J5IjpbNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4Mj
+k0NzksLTIwNjQ5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMyMDU2
+LDc5NjI4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC0xND
+M2NjI3ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0NzAz
+NDczXX0=
 -->
