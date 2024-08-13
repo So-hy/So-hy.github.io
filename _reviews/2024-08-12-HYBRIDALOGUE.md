@@ -96,13 +96,13 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 > AUTO-TNLI 데이터셋의 생성 및 관리 방법을 설명할 것이다. AUTO-TNLI 데이터셋은 특정 인스턴스에 대한 자연어 추론(NLI)을 위한 데이터셋으로, INFOTABS 데이터셋을 확장하여 생성되었다. 여기에는 테이블 데이터를 기반으로 한 가설문 생성이 중요한 역할을 한다.
 
 
-AUTO-TNLI 데이터셋은 INFOTABS 데이터셋을 확장하여, 원본 테이블 뿐만 아니라 각 원본 테이블에 해당하는 다섯 개의 반사실 테이블을 포함하여 총 10,182개의 테이블로 구성되었다. 이 데이터셋은 134개의 고유 키와 660개의 템플릿을 사용하여 총 1,478,662개의 문장을 생성한다.
+AUTO-TNLI 데이터셋은 INFOTABS 데이터셋을 확장하여, 원본 테이블 뿐만 아니라 각 원본 테이블에 해당하는 다섯 개의 반사실 테이블을 포함하여 총 10,182개의 테이블로 구성되었다. 이 데이터셋은 134개의 고유 키와 660개의 템플릿을 사용하여 총 1,478,662개의 문장을 생성하였다.
 
 INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 라벨만을 포함한다. (뉴럴, 즉 중립이 없다)
 
-INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 문장을 생성하는 경향이 있음
+INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 문장을 생성하는 경향이 있었다. 예를 들어, ‘회사’ 카테고리에서 주석자들은 ‘웹사이트’ 키보다 ‘창립자’ 키에 대해 더 많은 문장을 생성하며, 이는 데이터셋에 내재된 가설 편향을 초래하였다. AUTO-TNLI 템플릿을 생성할 때는 각 키마다 최소 두 가지의 가설과 세 가지 이상의 전제 패러프레이즈를 만들도록 하여 이러한 가설 편향을 완화하려고 시도했다. 또한, 추론 클래스의 불균형 라벨링 문제를 해결하기 위해, 대략적으로 ‘ENTAIL’과 ‘CONTRADICT’ 가설을 1:1 비율로 구성하여ㅕㅆ다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTk3MjEyMSwtNjAxNzg1MDAsLTg0Mz
+eyJoaXN0b3J5IjpbMjA3MTI5MzU2MSwtNjAxNzg1MDAsLTg0Mz
 Y4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5
 MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMT
 MzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEz
