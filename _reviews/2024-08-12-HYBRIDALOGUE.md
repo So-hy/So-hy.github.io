@@ -98,10 +98,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 AUTO-TNLI 데이터셋은 INFOTABS 데이터셋을 확장하여, 원본 테이블 뿐만 아니라 각 원본 테이블에 해당하는 다섯 개의 반사실 테이블을 포함하여 총 10,182개의 테이블로 구성되었다. 이 데이터셋은 134개의 고유 키와 660개의 템플릿을 사용하여 총 1,478,662개의 문장을 생성한다.
 
-INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 라벨만을 포함한다. (뉴럴, 즉 중립이 읎다)
+INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 라벨만을 포함한다. (뉴럴, 즉 중립이 없다)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzI5MDE3NTQsLTg0MzY4ODgyOCwtOD
+eyJoaXN0b3J5IjpbLTEwMDc3NjQyMTAsLTg0MzY4ODgyOCwtOD
 EyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2
 NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNi
 wtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3ODIsLTU2
