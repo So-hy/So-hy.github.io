@@ -26,14 +26,14 @@ NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesi
 
 이 프레임워크는 테이블의 구조적 패턴을 활용하여 유사한 테이블에 적용할 수 있는 가설 템플릿을 생성한다. 예를 들어, 인물에 관한 테이블에서 '출생', '사망', '자녀'와 같은 공통 속성을 기반으로 템플릿을 만들고, 이를 통해 다양한 가설을 생성할 수 있다. 또한 반사실 데이터(counterfactual data)를 생성하여 모델의 견고성을 향상시키는 방법을 사용한다. 이는 반사실적인 엔티티 기반 테이블을 포함한 대규모 합성 데이터인 AUTO-TNLI를 만들어서 이루어진다.
 
-INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과 134개의 고유 테이블 키를 사용해 1,478,662개의 테이블-가설 쌍을 포함한 AUTO-TNLI를 생성했다. 이 데이터셋은 벤치마킹 및 데이터 증강을 위한 잠재적인 데이터셋으로 사용되며, 제한된 감독 환경에서도 모델의 추론 능력을 평가할 수 있다.
+INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과 134개의 고유 테이블 키를 사용해 1,478,662개의 테이블-가설 쌍을 포함한 AUTO-TNLI를 생성했다. 또한, 이 데이터셋은 벤치마킹 및 데이터 증강을 위한 잠재적인 데이터셋으로 사용되며, 제한된 감독 환경에서도 모델의 추론 능력을 평가할 수 있다.
 
 논문의 기여는 다음과 같다.
 
 -   테이블 구조 패턴을 활용한 가설 생성 반자동화 프레임워크를 제안하였고, 이를 통해 대규모 인간과 유사한 합성 데이터를 생성하였다.
 -   AUTO-TNLI를 활용한 실험을 통해, 이 데이터셋이 벤치마킹 및 데이터 증강에 효과적임을 입증하였다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYyMjY1MDQsNzk2Mjg0MTIxLDIwMj
-Q0NzM4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDEx
-NDgxLC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ==
+eyJoaXN0b3J5IjpbMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyND
+Q3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0
+ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
 -->
