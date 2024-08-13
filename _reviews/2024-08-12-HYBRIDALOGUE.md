@@ -65,12 +65,12 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 또한 테이블을 토대로 반사실 테이블을 만든다. 기존 테이블에서 특정 내용을 삭제하거나 변형하여 만든 가상의 테이블이며, 이는 데이터의 다양성을 증가시키고, 학습 모델의 견고성을 향상시키는 데 사용된다.
 
-반사실 테이블은 원본 테이블의 키에 해당하는 값들을 변경하여 생성한다. 이 테이블은 비사실적이며 현실과 다르지만 내부 데이터는 모순되지 않는 일관성을 유지합니다. 이러한 테이블을 사용하여 훈련된 언어 모델은 더 큰 견고성을 나타내고, 과적합을 방지하여 실제 상황에서의 성능을 개선할 수 있습니다.
+반사실 테이블은 원본 테이블의 키에 해당하는 값들을 변경하여 생성한다. 이 테이블은 비사실적이며 실제와 다르지만 내부 데이터는 모순되지 않는 일관성을 유지한다. 이러한 테이블을 사용하여 훈련된 언어 모델은 더 큰 견고성을 나타내고, 과적합을 방지하여 실제 상황에서의 성능을 개선할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01Nj
-Y0Njk4OCw2NTI2MjQyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwt
-MjA2NDkyMzYwMywtNjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mj
-g0MTIxLDIwMjQ0NzM4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4
-MjcsLTg3MDExNDgxLC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ
-==
+eyJoaXN0b3J5IjpbLTE0NzU5NzEwODksMTgwMTM4NTY2MCwxNj
+ExMzUzNzgyLC01NjY0Njk4OCw2NTI2MjQyNjgsODg4NTQ5MDI5
+LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMywtNjE2NDE5MTU5LDE4Mz
+AyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUxNDky
+NDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5NjY5LD
+E2NzQ3MDM0NzNdfQ==
 -->
