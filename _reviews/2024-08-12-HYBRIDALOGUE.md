@@ -83,9 +83,11 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ### 자동 테이블-가설 생성
 
 
-가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다. 합리적인 가설 뿐만 아니라 모순되는 문장을 생성하기 위해, 모든 테이블에 공통적으로 존재하는 키 값들 중에서 임의의 값을 선택하여 템플릿의 빈칸을 채운다. 이렇게 함으로써, 생성된 문장이 해당 데이터 테이블의 다른 사실들과 모순을 이루게 된다.
+가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다. 합리적인 가설 뿐만 아니라 모순되는 문장을 생성하기 위해, 모든 테이블에 공통적으로 존재하는 키 값들 중에서 임의의 값을 선택하여 템플릿의 빈칸을 채운다. 이렇게 함으로써, 생성된 문장이 해당 데이터 테이블의 다른 사실들과 모순을 이루게 된다. 여기서 임의로 선택된 값으로 빈칸을 채울 때, 키-값의 유형과 같은 특정 제약 조건을 준수하며 이를 대체한다. 이는 데이터의 일관성을 유지하면서도 정확한 정보를 반영할 수 있도록 한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjI2NDk3MywxNTU4ODE4NzE5LC0xMz
+eyJoaXN0b3J5IjpbLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMz
 k5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4
 ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MC
 wxNjExMzUzNzgyLC01NjY0Njk4OCw2NTI2MjQyNjgsODg4NTQ5
