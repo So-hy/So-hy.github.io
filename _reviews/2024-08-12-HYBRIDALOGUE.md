@@ -49,6 +49,7 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 ### **가설 템플릿 생성**
 
+
 각 카테고리의 테이블(예: 영화)에는 공통적으로 나타나는 속성이 있다. (예: 길이, 제작자, 감독 등). 이러한 공통적인 속성들은 해당 카테고리의 테이블이 가지는 일관성을 보여준다.
 
 이러한 공통 속성을 바탕으로 논리적인 문장을 만들 수 있는 규칙(템플릿)을 설정한다. 예를 들어, 영화의 경우 '개봉일' 을 이용하여 "<영화명>은 <개봉일>에 개봉했다." 와 같은 템플릿을 만들 수 있다. 이 템플릿은 추후 비슷한 다른 테이블에도 적용 가능하여 유연하게 사용될 수 있다.
@@ -63,6 +64,7 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 ### 합리적인 반사실 테이블 생성
 
+
 또한 테이블을 토대로 반사실 테이블을 만든다. 기존 테이블에서 특정 내용을 삭제하거나 변형하여 만든 가상의 테이블이며, 이는 데이터의 다양성을 증가시키고, 학습 모델의 견고성을 향상시키는 데 사용된다.
 
 반사실 테이블은 원본 테이블의 키에 해당하는 값들을 변경하여 생성한다. 이 테이블은 비사실적이며 실제와 다르지만 내부 데이터는 모순되지 않는 일관성을 유지한다. 즉 너무 얼토당토안은 데이터로 변형되는 것은 아니란 것이다. 이러한 테이블을 사용하여 훈련된 언어 모델은 더 큰 견고성을 나타내고, 과적합을 방지하여 실제 상황에서의 성능을 개선할 수 있다.
@@ -72,11 +74,13 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 반사실 테이블 생성 시, 중요한 논리적 제약을 유지한다. 예를 들어, 사람의 출생일과 사망일 사이에 논리적으로 타당한 순서를 유지해야 한다. 즉, 사망일은 출생일보다 늦은 날짜여야 한다.  이러한 제약을 따르지 않을 경우, 생성된 테이블이 논리적으로 부정확하거나 모순되는 정보를 담게 된다.
 
 
+전제 테이블의 패러프레이징
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNiwtMT
-Q3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3ODIsLTU2NjQ2
-OTg4LDY1MjYyNDI2OCw4ODg1NDkwMjksOTY2ODI5NDc5LC0yMD
-Y0OTIzNjAzLC02MTY0MTkxNTksMTgzMDIzMjA1Niw3OTYyODQx
-MjEsMjAyNDQ3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNy
-wtODcwMTE0ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
+eyJoaXN0b3J5IjpbMTIxNTkxNDQyNywtMTU4OTQ3ODgxOCwxMz
+MyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1
+Mzc4MiwtNTY2NDY5ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5Nj
+Y4Mjk0NzksLTIwNjQ5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMy
+MDU2LDc5NjI4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC
+0xNDM2NjI3ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0
+NzAzNDczXX0=
 -->
