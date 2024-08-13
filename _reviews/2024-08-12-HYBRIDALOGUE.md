@@ -83,9 +83,9 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ### 자동 테이블-가설 생성
 
 
-가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성g
+가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4Mjc5MTg3MCwtMTM5OTkxNDkyMiwxNz
+eyJoaXN0b3J5IjpbMTU1ODgxODcxOSwtMTM5OTkxNDkyMiwxNz
 AxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3ODgxOCwxMzMyNTYx
 MTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1Mzc4Mi
 wtNTY2NDY5ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0
