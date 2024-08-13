@@ -95,8 +95,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 > AUTO-TNLI 데이터셋의 생성 및 관리 방법을 설명할 것이다. AUTO-TNLI 데이터셋은 특정 인스턴스에 대한 자연어 추론(NLI)을 위한 데이터셋으로, INFOTABS 데이터셋을 확장하여 생성되었다. 여기에는 테이블 데이터를 기반으로 한 가설문 생성이 중요한 역할을 한다.
 
+
+AUTO-TNLI 데이터셋은 INFOTABS 데이터셋을 확장하여, 원본 테이블 뿐만 아니라 각 원본 테이블에 해당하는 다섯 개의 반사실 테이블을 포함하여 총 10,182개의 테이블로 구성되었다. 이 데이터셋은 134개의 고유 키와 660개의 템플릿을 사용하여 총 1,478,662개의 문장을 생성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwOTI1MTEwLC04NDM2ODg4MjgsLTgxMj
+eyJoaXN0b3J5IjpbNzI1MDA3NTc1LC04NDM2ODg4MjgsLTgxMj
 MzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYx
 NzAsLTk4NDcxMzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLT
 E0NzU5NzEwODksMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01NjY0
