@@ -49,10 +49,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 **가설 템플릿 생성**
 
-각 테이블 카텔
+각 테이블 카테고리는 공통적인 행 속성을 가질 수 있다. 예를 들어 영화와 관련된 테이블이라면, '상영 길이', '제작자', '감독' 등의 키를 포함할 수 있다. 이런 공통 적인 키를 사용하여
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NzIxMDM2NSw5NjY4Mjk0NzksLTIwNj
-Q5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEy
-MSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3ODI3LC
-04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0NzAzNDczXX0=
+eyJoaXN0b3J5IjpbODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMjA2ND
+kyMzYwMywtNjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0MTIx
+LDIwMjQ0NzM4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLT
+g3MDExNDgxLC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ==
 -->
