@@ -1,6 +1,6 @@
 ---
 layout: review_post
-title: "[Paper Review] HYBRIDIALOGUE: An Information-Seeking Dialogue Dataset Grounded on Tabular and Textual Data"
+title: "[Paper Review] Realistic Data Augmentation Framework for Enhancing Tabular ReasoningTabular and Textual Data"
 author: Sohyun
 date: 2024-08-12
 ---
@@ -34,7 +34,7 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 -   테이블 구조 패턴을 활용한 가설 생성 반자동화 프레임워크를 제안하였고, 이를 통해 대규모 인간과 유사한 합성 데이터를 생성하였습니다.
 -   AUTO-TNLI를 활용한 실험을 통해, 이 데이터셋이 벤치마킹 및 데이터 증강에 효과적임을 입증하였습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMD
-UxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5
-NjY5LDE2NzQ3MDM0NzNdfQ==
+eyJoaXN0b3J5IjpbLTgyMTczMTU2NSw3OTYyODQxMjEsMjAyND
+Q3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0
+ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
 -->
