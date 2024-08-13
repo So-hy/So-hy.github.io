@@ -93,13 +93,14 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ## AUTO-TNLI
 
 
-AUTO-TNLI 데이터셋의 생성 및 관리 방법을 설명할 것이다. AUTO-TNLI 데이터셋은 특정 인스턴스에 대한 자연어 추론(NLI)을 위한 데이터셋으로, INFOTABS 데이터셋을 확장하여 생성되었다. 여기에는 테이블 데이터를 기반으로 한 가설문 생성이 중요한 역할을 한다. 
+> AUTO-TNLI 데이터셋의 생성 및 관리 방법을 설명할 것이다. AUTO-TNLI 데이터셋은 특정 인스턴스에 대한 자연어 추론(NLI)을 위한 데이터셋으로, INFOTABS 데이터셋을 확장하여 생성되었다. 여기에는 테이블 데이터를 기반으로 한 가설문 생성이 중요한 역할을 한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDk1Mzg3NDIsLTg0MzY4ODgyOCwtOD
-EyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2
-NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNi
-wtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3ODIsLTU2
-NjQ2OTg4LDY1MjYyNDI2OCw4ODg1NDkwMjksOTY2ODI5NDc5LC
-0yMDY0OTIzNjAzLC02MTY0MTkxNTksMTgzMDIzMjA1Niw3OTYy
-ODQxMjFdfQ==
+eyJoaXN0b3J5IjpbODkwOTI1MTEwLC04NDM2ODg4MjgsLTgxMj
+MzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYx
+NzAsLTk4NDcxMzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLT
+E0NzU5NzEwODksMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01NjY0
+Njk4OCw2NTI2MjQyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMj
+A2NDkyMzYwMywtNjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0
+MTIxXX0=
 -->
