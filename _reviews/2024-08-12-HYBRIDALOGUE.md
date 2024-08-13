@@ -10,8 +10,10 @@ date: 2024-08-12
 
 ## Introduction
 
+반구조화된 테이블 추론을 위한 자연어 추론(NLI) 작업의 훈련 데이터를 구축할 때, 현재 두 가지 주요 접근 방식이 있다. 하나는 **크라우드소싱** 방식이고, 다른 하나는 **자동화 방법**이다.
 
+크라우드 소싱은 사람이 데이터셋을 생성하는 방식이다. 따라서 비용이 많이 들고 시간이 많이 소요되어 확장성에 한계가 있다. TABFACT 와 INFOTABS
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2OTYwMDUwMywtMTc5NDk4OTY2OSwxNj
-c0NzAzNDczXX0=
+eyJoaXN0b3J5IjpbMzI2OTIzMDEwLC0xNzk0OTg5NjY5LDE2Nz
+Q3MDM0NzNdfQ==
 -->
