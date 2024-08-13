@@ -90,10 +90,12 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 이렇게 생성된 쌍의 예를 간단히 들자면, 영화 “Ironman”의 경우, 예산과 박스오피스 수입을 바탕으로 템플릿 “\<Ironman> was a ‘hit if  −  else flop’“을 사용하여 “Ironman은 흥행했다”와 “Ironman은 실패했다”라는 상반된 가설을 생성할 수 있다.
 
 
+## AUTO-TNLI
 
 
+AUTO-TNLI 데이터셋의 생성 및 관리 방법을 설명할 것이다. AUTO-TNLI 데이터셋은 특정 인스턴스에 대한 자연어 추론(NLI)을 위한 데이터셋으로, INFOTABS 데이터셋을 확장하여 생성되었다. 여기에는 테이블 데이터를 기반으로 한 가설문 생성이 중요한 역할을 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTc1MjYzNTAsLTg0MzY4ODgyOCwtOD
+eyJoaXN0b3J5IjpbLTEzNDk1Mzg3NDIsLTg0MzY4ODgyOCwtOD
 EyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2
 NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNi
 wtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3ODIsLTU2
