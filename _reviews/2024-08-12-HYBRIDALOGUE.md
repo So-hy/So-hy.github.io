@@ -32,8 +32,17 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 -   테이블 구조 패턴을 활용한 가설 생성 반자동화 프레임워크를 제안하였고, 이를 통해 대규모 인간과 유사한 합성 데이터를 생성하였다.
 -   AUTO-TNLI를 활용한 실험을 통해, 이 데이터셋이 벤치마킹 및 데이터 증강에 효과적임을 입증하였다.
+
+
+
+해당 프레임워크는 네 가지 주요 구성 요소를 포함한다.
+
+1. 가설 템플릿 생성
+2. 합리적인 반사실 테이블 생성
+3. 전제 테이블
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyND
-Q3MzgxNSwtMTIwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0
-ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
+eyJoaXN0b3J5IjpbLTI1Nzk5MTE2NSwxODMwMjMyMDU2LDc5Nj
+I4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3
+ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0NzAzNDczXX
+0=
 -->
