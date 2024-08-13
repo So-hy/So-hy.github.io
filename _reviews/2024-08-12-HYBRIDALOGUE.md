@@ -107,9 +107,9 @@ INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 �
 ![Screenshot 2024-08-14 at 2 15 50 AM](https://github.com/user-attachments/assets/057ade56-5558-4e8a-8053-43c1f8da0a7c)
 
 
-위 표에서는 AUTO-TNLI 데이터셋의 다양한 통계 정보를 볼 수 있다. 이 정보에는 고유 키의 수, 각 테이블의 최소, 최대, 평균 키 수, 그리고 각 테이블 당 생성된 문장의 총 수가 포함됩니다.
+위 표에서는 AUTO-TNLI 데이터셋의 다양한 통계 정보를 볼 수 있다. 이 정보에는 고유 키의 수, 각 테이블의 최소, 최대, 평균 키 수, 그리고 각 테이블 당 생성된 문장의 총 수가 포함되어 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTg4OTg3MjksLTE3NzI3MDEwMjUsLT
+eyJoaXN0b3J5IjpbLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLT
 E2ODAzMzA5NDksMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAx
 ODk2ODUyLC02MDE3ODUwMCwtODQzNjg4ODI4LC04MTIzMzY1Nj
 AsMTU1ODgxODcxOSwtMTM5OTkxNDkyMiwxNzAxODY2MTcwLC05
