@@ -47,7 +47,7 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 해당 이미지의 Section2.1, 2.2 이부분이 위의 구성요소와 매치된다.
 
 
-**가설 템플릿 생성**
+### **가설 템플릿 생성**
 
 각 카테고리의 테이블(예: 영화)에는 공통적으로 나타나는 속성이 있다. (예: 길이, 제작자, 감독 등). 이러한 공통적인 속성들은 해당 카테고리의 테이블이 가지는 일관성을 보여준다.
 
@@ -60,8 +60,11 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 일부 템플릿 규칙은 최소한의 수정으로 다른 범주에도 적용할 수 있다. 예를 들어, ‘개봉일’ 규칙은 ‘설립일’이나 ‘출생일’에도 적용 가능하여, 영화뿐만 아니라 대학이나 인물 등의 테이블에도 활용될 수 있다.
 
 이렇게 생성된 규칙과 템플릿은 데이터의 일관성과 다양성을 보장하면서, 다양한 카테고리의 테이블 데이터를 이해하고 가설을 만드는 데 중요한 역할을 한다. 
+
+### 합리적인 반사실 테이블 생성
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4ODM4NjU3MiwtNTY2NDY5ODgsNjUyNj
+eyJoaXN0b3J5IjpbMTYxMTM1Mzc4MiwtNTY2NDY5ODgsNjUyNj
 I0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNjQ5MjM2MDMs
 LTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEyMSwyMDI0ND
 czODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3ODI3LC04NzAxMTQ4
