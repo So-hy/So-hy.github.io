@@ -6,7 +6,6 @@ date: 2024-08-12
 ---
 
 
-해당 논문은 구조화된 테이블 데이터와 비구조화된 텍스트 데이터를 모두 처리할 수 있는 대화 시스템을 개발하기 위해 새로운 데이터셋을 소개한다. 즉, 해당 논문은 대화 시스템의 성능을 향상시키기 위한 효율적인 데이터셋, HYBRIDIALOGUE를 만드는 데 중점을 두고 있다.
 
 ## Introduction
 
@@ -31,10 +30,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 논문의 기여는 다음과 같다.
 
--   테이블 구조 패턴을 활용한 가설 생성 반자동화 프레임워크를 제안하였고, 이를 통해 대규모 인간과 유사한 합성 데이터를 생성하였습니다.
--   AUTO-TNLI를 활용한 실험을 통해, 이 데이터셋이 벤치마킹 및 데이터 증강에 효과적임을 입증하였습니다.
+-   테이블 구조 패턴을 활용한 가설 생성 반자동화 프레임워크를 제안하였고, 이를 통해 대규모 인간과 유사한 합성 데이터를 생성하였다.
+-   AUTO-TNLI를 활용한 실험을 통해, 이 데이터셋이 벤치마킹 및 데이터 증강에 효과적임을 입증하였다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTExOTg5NjAsNzk2Mjg0MTIxLDIwMj
+eyJoaXN0b3J5IjpbLTIwMjYyMjY1MDQsNzk2Mjg0MTIxLDIwMj
 Q0NzM4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDEx
 NDgxLC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ==
 -->
