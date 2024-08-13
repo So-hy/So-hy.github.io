@@ -66,8 +66,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 또한 테이블을 토대로 반사실 테이블을 만든다. 기존 테이블에서 특정 내용을 삭제하거나 변형하여 만든 가상의 테이블이며, 이는 데이터의 다양성을 증가시키고, 학습 모델의 견고성을 향상시키는 데 사용된다.
 
 반사실 테이블은 원본 테이블의 키에 해당하는 값들을 변경하여 생성한다. 이 테이블은 비사실적이며 실제와 다르지만 내부 데이터는 모순되지 않는 일관성을 유지한다. 즉 너무 얼토당토안은 데이터로 변형되는 것은 아니란 것이다. 이러한 테이블을 사용하여 훈련된 언어 모델은 더 큰 견고성을 나타내고, 과적합을 방지하여 실제 상황에서의 성능을 개선할 수 있다.
+
+반사실 테이블을 생성하기위해, 주어진 카테고리에 대해 정의된 키
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MjUwMDI5MywtMTQ3NTk3MTA4OSwxOD
+eyJoaXN0b3J5IjpbMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxOD
 AxMzg1NjYwLDE2MTEzNTM3ODIsLTU2NjQ2OTg4LDY1MjYyNDI2
 OCw4ODg1NDkwMjksOTY2ODI5NDc5LC0yMDY0OTIzNjAzLC02MT
 Y0MTkxNTksMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyNDQ3Mzgx
