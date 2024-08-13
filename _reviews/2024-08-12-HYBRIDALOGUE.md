@@ -18,8 +18,8 @@ date: 2024-08-12
 
 이러한 제한을 해결하기 위해, 저자들은 테이블 추론에서 데이터 증강을 위한 반자동화 프레임워크를 제안한다.
 
-이 프레임워크는 유사한 테이블에 적용할 수 있는 가설 템플릿을 생성하고, 논리적 제약 조건과 전제의 패러프레이징을 활용하여 합리적인 반사실 테이블을 만든다.
+이 프레임워크는 유사한 테이블에 적용할 수 있는 가설 템플릿을 생성하고, 논리적 제약 조건과 전제의 패러프레이징을 활용하여 합리적인 반사실 테이블을 만드는 것을 목표로 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4ODYyNDg2MiwtMTQzNjYyNzgyNywtOD
-cwMTE0ODEsLTE3OTQ5ODk2NjksMTY3NDcwMzQ3M119
+eyJoaXN0b3J5IjpbLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLT
+g3MDExNDgxLC0xNzk0OTg5NjY5LDE2NzQ3MDM0NzNdfQ==
 -->
