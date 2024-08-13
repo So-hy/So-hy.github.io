@@ -37,11 +37,14 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 해당 프레임워크는 네 가지 주요 구성 요소를 포함한다.
 
-1. 가설 템플릿 생성
-2. 합리적인 반사실 테이블 생성
-3. 전제 테이블
+1. 가설 템플릿 생성 **(Hypothesis Template Creation)**
+2. 합리적인 반사실 테이블 생성 **(Rational Counterfactual Table Creation)**
+3. 전제 테이블의 패러프레이징 **(Paraphrasing of Premise Tables)**
+4. 자동 테이블-가설 생성 **(Automatic Table-Hypothesis Generation)**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1Nzk5MTE2NSwxODMwMjMyMDU2LDc5Nj
+eyJoaXN0b3J5IjpbLTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5Nj
 I4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3
 ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OSwxNjc0NzAzNDczXX
 0=
