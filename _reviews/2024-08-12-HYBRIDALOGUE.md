@@ -57,9 +57,11 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 또한 생성된 템플릿은 다양한 방식으로 다양한 방식으로 표현될 수 있다. 예를 들어 위의 영화의 경우, "<영화명>이 개봉된 날짜는 <개봉일> 이다." 처럼 다른 방식으로도 표현할 수 있다. 이런 식으로 페러프레이징을 통해 어휘 다양성을 증진시켜 데이터셋을 풍부하게 만들고 언어적 다양성을 증가시킬 수 있다.
 
-일부 템플릿 규칙은 최소한의 수정으로 다른 범주에도 적용할 수 있다. 예를 들어, ‘개봉일’ 규칙은 ‘설립일’이나 ‘출생일’에도 적용 가능하여, 영화뿐만 아니라 대학이나 인물 등의 테이블에도 활용될 수 있다. 
+일부 템플릿 규칙은 최소한의 수정으로 다른 범주에도 적용할 수 있다. 예를 들어, ‘개봉일’ 규칙은 ‘설립일’이나 ‘출생일’에도 적용 가능하여, 영화뿐만 아니라 대학이나 인물 등의 테이블에도 활용될 수 있다.
+
+이렇게 생성된 규칙과 템플릿은 데이터의 일관성과 다양성을 보장하면서, 다양한 카테고리의 테이블 데이터를 이해하고 가설을 만드는 데 중요한 역할을 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxNDM1MDU3MiwtNTY2NDY5ODgsNjUyNj
+eyJoaXN0b3J5IjpbMTk4ODM4NjU3MiwtNTY2NDY5ODgsNjUyNj
 I0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNjQ5MjM2MDMs
 LTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEyMSwyMDI0ND
 czODE1LC0xMjA1MTQ5MjQ0LC0xNDM2NjI3ODI3LC04NzAxMTQ4
