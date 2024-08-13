@@ -77,13 +77,15 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ### 전제 테이블의 패러프레이징
 
 
-문법 기반 데이터 생성 방법에서 언어적 다양성의 부족은 중요한 문제 중 하나다. 따라서 해당 논문에서는 다양성 문제를 해결하기 위해 자동화된 방법과 인간의 패러프레이징을 모두 사용하여 전제 테이플을 재구성한다.주어진 카테고리의 각 키(예: 인물의 학력 정보)에 대해, 적어도 세 개 이상의 간단하고 다양한 문장을 생성한다. 이 과정에서 하나의 정보를 여러 다른 방식으로 표현하여, 같은 내용도 다르게 이해하고 학습할 수 있도록 한다. 예를 들어, "인물" 카테고리에서 "Alma Mater"라는 키에 대해 "은 ~에서 학위를 받았다", "은 ~의 졸업생이다", "는 ~의 모교이다" 등의 문장을 생성하여, 같은 사실을
+문법 기반 데이터 생성 방법에서 언어적 다양성의 부족은 중요한 문제 중 하나다. 따라서 해당 논문에서는 다양성 문제를 해결하기 위해 자동화된 방법과 인간의 패러프레이징을 모두 사용하여 전제 테이플을 재구성한다.주어진 카테고리의 각 키(예: 인물의 학력 정보)에 대해, 적어도 세 개 이상의 간단하고 다양한 문장을 생성한다. 이 과정에서 하나의 정보를 여러 다른 방식으로 표현하여, 같은 내용도 다르게 이해하고 학습할 수 있도록 한다. 예를 들어, "인물" 카테고리에서 "Alma Mater"라는 키에 대해 "은 ~에서 학위를 받았다", "은 ~의 졸업생이다", "는 ~의 모교이다" 등의 문장을 생성하여, 같은 사실을 다르게 표현할 수 있음을 보여준다. 실제로 저자들은 패러프레이징을 통해 데이터의 변이성이 증가함을 관찰할 수 있었다고 하였다. 이는 모델이 더 다양한 표현을 학습함으로써, 실제 언어 사용 상황에서의 유연성과 적응력을 개선할 수 있도록 돕는다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4NDcxMzk5LC0xNTg5NDc4ODE4LDEzMz
-I1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MCwxNjExMzUz
-NzgyLC01NjY0Njk4OCw2NTI2MjQyNjgsODg4NTQ5MDI5LDk2Nj
-gyOTQ3OSwtMjA2NDkyMzYwMywtNjE2NDE5MTU5LDE4MzAyMzIw
-NTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUxNDkyNDQsLT
-E0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5NjY5LDE2NzQ3
-MDM0NzNdfQ==
+eyJoaXN0b3J5IjpbLTY3OTExMjY4MSwtOTg0NzEzOTksLTE1OD
+k0Nzg4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1
+NjYwLDE2MTEzNTM3ODIsLTU2NjQ2OTg4LDY1MjYyNDI2OCw4OD
+g1NDkwMjksOTY2ODI5NDc5LC0yMDY0OTIzNjAzLC02MTY0MTkx
+NTksMTgzMDIzMjA1Niw3OTYyODQxMjEsMjAyNDQ3MzgxNSwtMT
+IwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5
+ODk2NjldfQ==
 -->
