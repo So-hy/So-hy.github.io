@@ -69,8 +69,9 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 반사실 테이블을 생성하기위해, 주어진 카테고리에 대해 정의된 값을 다양한 방식으로 수정한다. 이는 키 값을 그대로 두거나, 새로운 값을 추가하거나, 기존 값을 다른 데이터로 대체하거나, 특정 키-값 쌍을 삭제하는 등의 작업을 포함할 수 있다. 또한, 테이블에 존재하지 않는 새로운 키나 행을 추가하기도 합니다. 이 과정에서 각 행에 대해 무작위로 선택된 작업이 수행된다.
 
+반사실 테이블 생성 시, 중요한 논리적 제약을 유지한다. 예를 들어, 사람의 출생일과 사망일 사이에 논리적으로 타당한 순서를 유지해야 한다. 즉, 사망일은 출생일보다 늦은 날짜여야 한다.  이러한 제약을 따르지 않을 경우, 생성된 테이블이 논리적으로 부정확하거나 모순되는 정보를 담게 됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNzUyMDA2NCwxMzMyNTYxMTA2LC0xND
+eyJoaXN0b3J5IjpbLTg3OTc5MzI3NywxMzMyNTYxMTA2LC0xND
 c1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1Mzc4MiwtNTY2NDY5
 ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNj
 Q5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEy
