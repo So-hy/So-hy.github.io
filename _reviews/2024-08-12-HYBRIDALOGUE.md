@@ -49,9 +49,9 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 **가설 템플릿 생성**
 
-특정 범주의 테이블(예: 영화)에서 행 속성(즉, 키)들은 대부분의 테이블에서 겹친다. (예: 길이, 제작자, 감독 등). 따라서 이러한 일관성은 테이블 범주에 특화된 
+특정 범주의 테이블(예: 영화)에서 행 속성(즉, 키)들은 대부분의 테이블에서 겹친다. (예: 길이, 제작자, 감독 등). 따라서 이러한 일관성은 특정 테이블 범주에 특화된 키 기반 규칙을 작성하여 논리적인 가설 문장을 생성하는데 도움이 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTM5Mjc4NTg0LC01NjY0Njk4OCw2NTI2Mj
+eyJoaXN0b3J5IjpbMzI2OTc2MDU1LC01NjY0Njk4OCw2NTI2Mj
 QyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMywt
 NjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0Nz
 M4MTUsLTEyMDUxNDkyNDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgx
