@@ -10,6 +10,10 @@ date: 2024-08-12
 
 ## Introduction
 
+
+NLI는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업입니다.이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었습니다.
+
+ 
 반구조화된 테이블 추론을 위한 자연어 추론(NLI) 작업의 훈련 데이터를 구축할 때, 현재 두 가지 주요 접근 방식이 있다. 하나는 **크라우드소싱(Crowdsourcing)** 방식이고, 다른 하나는 **자동화 방법(Automatic Methods)** 이다.
 
 크라우드 소싱은 사람이 데이터셋을 생성하는 방식이다. 따라서 인간의 지식과 판단력을 활용하여 데이터에 주석을 달고, 복잡한 논리적 추론이 요구되는 문제에 대한 인간의 이해를 반영할 수 있다. 하지만 비용이 많이 들고 시간이 많이 소요되어 확장성에 한계가 있다. TABFACT 와 INFOTABS와 같은 데이터셋이 있다. 이들은 데이터의 품질이 높고 정확도가 보장된 데이터셋을 제공하기 때문에 유용하지만, 규모에 제한이 있으며 종종 주석 편향(개인에 경험이나 선입견에 의거)과 허위 상관의 문제를 겪는다.
@@ -25,7 +29,7 @@ date: 2024-08-12
 제안된 프레임워크의 주요 목표는 제한된 감독 시나리오에서 특히 테이블 추론 작업을 위한 훈련 데이터 증강을 향상시키는 것으로, 인간과 같은 추론 예제를 생성하는 것이다. 이 접근 방식은 엔터티 중심의 테이블 추론 데이터셋인 INFOTABS에 적용된다​.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyNDQ3MzgxNSwtMTIwNTE0OTI0NCwtMT
-QzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5ODk2NjksMTY3NDcw
-MzQ3M119
+eyJoaXN0b3J5IjpbLTE4MTk1OTAzNTQsMjAyNDQ3MzgxNSwtMT
+IwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5
+ODk2NjksMTY3NDcwMzQ3M119
 -->
