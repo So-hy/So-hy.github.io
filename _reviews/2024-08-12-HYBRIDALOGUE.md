@@ -11,7 +11,7 @@ date: 2024-08-12
 ## Introduction
 
 
-NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업입니다.이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었습니다.
+NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업이다.이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었습니다.
 
  
 반구조화된 테이블 추론을 위한 자연어 추론(NLI) 작업의 훈련 데이터를 구축할 때, 현재 두 가지 주요 접근 방식이 있다. 하나는 **크라우드소싱(Crowdsourcing)** 방식이고, 다른 하나는 **자동화 방법(Automatic Methods)** 이다.
@@ -29,7 +29,7 @@ NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesi
 제안된 프레임워크의 주요 목표는 제한된 감독 시나리오에서 특히 테이블 추론 작업을 위한 훈련 데이터 증강을 향상시키는 것으로, 인간과 같은 추론 예제를 생성하는 것이다. 이 접근 방식은 엔터티 중심의 테이블 추론 데이터셋인 INFOTABS에 적용된다​.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1OTg1MDY0NSwyMDI0NDczODE1LC0xMj
-A1MTQ5MjQ0LC0xNDM2NjI3ODI3LC04NzAxMTQ4MSwtMTc5NDk4
-OTY2OSwxNjc0NzAzNDczXX0=
+eyJoaXN0b3J5IjpbLTE1Mjk4MDI1NzgsMjAyNDQ3MzgxNSwtMT
+IwNTE0OTI0NCwtMTQzNjYyNzgyNywtODcwMTE0ODEsLTE3OTQ5
+ODk2NjksMTY3NDcwMzQ3M119
 -->
