@@ -83,13 +83,13 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ### 자동 테이블-가설 생성
 
 
-가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다. 합
+가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다. 합리적인 가설 뿐만 아니라 모순되는 문장을 생성하기 위해, 모든 테이블에 공통적으로 존재하는 키 값들 중에서 임의의 값을 선택하여 템플릿의 빈칸을 채운다. 이렇게 함으로써, 생성된 문장이 해당 데이터 테이블의 다른 사실들과 모순을 이루게 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDU3OTk0OTgsMTU1ODgxODcxOSwtMT
-M5OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3
-ODgxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2Nj
-AsMTYxMTM1Mzc4MiwtNTY2NDY5ODgsNjUyNjI0MjY4LDg4ODU0
-OTAyOSw5NjY4Mjk0NzksLTIwNjQ5MjM2MDMsLTYxNjQxOTE1OS
-wxODMwMjMyMDU2LDc5NjI4NDEyMSwyMDI0NDczODE1LC0xMjA1
-MTQ5MjQ0XX0=
+eyJoaXN0b3J5IjpbMjEyMjI2NDk3MywxNTU4ODE4NzE5LC0xMz
+k5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4
+ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MC
+wxNjExMzUzNzgyLC01NjY0Njk4OCw2NTI2MjQyNjgsODg4NTQ5
+MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMywtNjE2NDE5MTU5LD
+E4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUx
+NDkyNDRdfQ==
 -->
