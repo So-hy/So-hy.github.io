@@ -45,9 +45,11 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 ![Screenshot 2024-08-13 at 7 39 27 PM](https://github.com/user-attachments/assets/88342200-a2af-4974-a5fb-4a2e35497d37)
 
 해당 이미지의 Section2.1, 2.2 이부분이 위의 구성요소와 매치된다.
+
+1. 가설 템플릿 생성은 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3NDcyOTM1OSwtNjE2NDE5MTU5LDE4Mz
-AyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUxNDky
-NDQsLTE0MzY2Mjc4MjcsLTg3MDExNDgxLC0xNzk0OTg5NjY5LD
-E2NzQ3MDM0NzNdfQ==
+eyJoaXN0b3J5IjpbLTIwNjQ5MjM2MDMsLTYxNjQxOTE1OSwxOD
+MwMjMyMDU2LDc5NjI4NDEyMSwyMDI0NDczODE1LC0xMjA1MTQ5
+MjQ0LC0xNDM2NjI3ODI3LC04NzAxMTQ4MSwtMTc5NDk4OTY2OS
+wxNjc0NzAzNDczXX0=
 -->
