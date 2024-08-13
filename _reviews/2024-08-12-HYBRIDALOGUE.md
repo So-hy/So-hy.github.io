@@ -67,9 +67,10 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 반사실 테이블은 원본 테이블의 키에 해당하는 값들을 변경하여 생성한다. 이 테이블은 비사실적이며 실제와 다르지만 내부 데이터는 모순되지 않는 일관성을 유지한다. 즉 너무 얼토당토안은 데이터로 변형되는 것은 아니란 것이다. 이러한 테이블을 사용하여 훈련된 언어 모델은 더 큰 견고성을 나타내고, 과적합을 방지하여 실제 상황에서의 성능을 개선할 수 있다.
 
-반사실 테이블을 생성하기위해, 주어진 카테고리에 대해 정의된 값을 다양한 방식으로 수정한다. 이는 
+반사실 테이블을 생성하기위해, 주어진 카테고리에 대해 정의된 값을 다양한 방식으로 수정한다. 이는 키 값을 그대로 두거나, 새로운 값을 추가하거나, 기존 값을 다른 데이터로 대체하거나, 특정 키-값 쌍을 삭제하는 등의 작업을 포함할 수 있다. 또한, 테이블에 존재하지 않는 새로운 키나 행을 추가하기도 합니다. 이 과정에서 각 행에 대해 무작위로 선택된 작업이 수행된다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwMjYzNDg0MiwxMzMyNTYxMTA2LC0xND
+eyJoaXN0b3J5IjpbMTYyNzUyMDA2NCwxMzMyNTYxMTA2LC0xND
 c1OTcxMDg5LDE4MDEzODU2NjAsMTYxMTM1Mzc4MiwtNTY2NDY5
 ODgsNjUyNjI0MjY4LDg4ODU0OTAyOSw5NjY4Mjk0NzksLTIwNj
 Q5MjM2MDMsLTYxNjQxOTE1OSwxODMwMjMyMDU2LDc5NjI4NDEy
