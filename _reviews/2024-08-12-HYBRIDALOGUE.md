@@ -85,13 +85,15 @@ INFOTABS 데이터셋을 확장하여 660개의 인간이 작성한 템플릿과
 
 가설 템플릿이 구축이 되면, 이를 사용하여 고려 중인 테이블의 항목에서 빈칸을 자동으로 채워 논리적으로 합리적인 가설 문장을 생성한다. 합리적인 가설 뿐만 아니라 모순되는 문장을 생성하기 위해, 모든 테이블에 공통적으로 존재하는 키 값들 중에서 임의의 값을 선택하여 템플릿의 빈칸을 채운다. 이렇게 함으로써, 생성된 문장이 해당 데이터 테이블의 다른 사실들과 모순을 이루게 된다. 여기서 임의로 선택된 값으로 빈칸을 채울 때, 키-값의 유형과 같은 특정 제약 조건을 준수하며 이를 대체한다. 이는 데이터의 일관성을 유지하면서도 정확한 정보를 반영할 수 있도록 한다.
 
+이런 방식으로 문장의 템플릿을 최소한으로 변경하여, 서로 어휘적으로 겹치면서도 논리적으로 상반되는 ‘entail’ (참을 의미)과 ‘contradict’ (거짓을 의미) 쌍을 생성한다. 이 방식은 향후 모델이 잘못된 상관 관계를 학습하는 것을 방지하고, 테이블 기반 자연어 추론(NLI) 데이터에서 발생할 수 있는 가설 편향 문제를 최소화한다고 한다.
 
+이렇게 생성된 쌍의 예를 간단히 들자면, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMz
-k5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4
-ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MC
-wxNjExMzUzNzgyLC01NjY0Njk4OCw2NTI2MjQyNjgsODg4NTQ5
-MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMywtNjE2NDE5MTU5LD
-E4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0NzM4MTUsLTEyMDUx
-NDkyNDRdfQ==
+eyJoaXN0b3J5IjpbLTE4NjQ2NjgxOTgsLTgxMjMzNjU2MCwxNT
+U4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcx
+Mzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwOD
+ksMTgwMTM4NTY2MCwxNjExMzUzNzgyLC01NjY0Njk4OCw2NTI2
+MjQyNjgsODg4NTQ5MDI5LDk2NjgyOTQ3OSwtMjA2NDkyMzYwMy
+wtNjE2NDE5MTU5LDE4MzAyMzIwNTYsNzk2Mjg0MTIxLDIwMjQ0
+NzM4MTVdfQ==
 -->
