@@ -27,12 +27,12 @@ layout: post
 
 이런 멀티태스크 학습을 하는 가장 간단한 방법 중 하나는 모델을 훈련시키고, 하나의 작업에 대해 미니 배치(mini-batch)를 샘플링한 후, 다른 작업에 대해 또 다른 미니 배치를 샘플링하는 것이다. 즉, 모델이 첫 번째 작업에 대한 훈련 데이터를 사용하여 학습한 다음, 두 번째 작업에 대한 훈련 데이터를 사용하여 학습하는 방식을 의미한다. 이렇게 번갈아 가며 작업을 샘플링하거나, 모든 데이터를 혼합할 수도 있습니다. 만약 모든 데이터가 텍스트 기반이라면, 미니 배치에 대해 걱정할 필요도 없다. 텍스트 기반의 데이터는 일반적으로 동일한 형식을 가지기 때문에, 여러 작업에서 나오는 데이터를 쉽게 결합할 수 있기 때문!
 
-이와는 별도로 
+이와는 별도로 Pre-trained and Fine-tune이라는 방법이 있다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3Njg0NjI5MywxNTI1MTQyNzQ3LDk0MD
-EyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAw
-MSw1ODUwOTIzMDksMTU2Mjc2Nzg5OCw3MDQxOTMyNjAsLTEwND
-A1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMTU0ODUz
-OTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNyw0MzY4MzkxOTksND
-cyOTMwOTc0LC0yMDUwNzI5MDkwLC04MjczNDU2MjFdfQ==
+eyJoaXN0b3J5IjpbLTEzMzQ3MjUwNDAsMTUyNTE0Mjc0Nyw5ND
+AxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMzIw
+MDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYwLC0xMD
+QwNTAyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5MDcsLTE1NDg1
+Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2ODM5MTk5LD
+Q3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIxXX0=
 -->
