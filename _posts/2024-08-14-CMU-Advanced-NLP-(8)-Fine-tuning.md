@@ -23,11 +23,11 @@ layout: post
 ## Standard Multi-task Learning
 
 
-여기서부터 교수는 여러가지 
+여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTIxMDA0MDQsMTU2Mjc2Nzg5OCw3MD
-QxOTMyNjAsLTEwNDA1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5
-NjkwNywtMTU0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNy
-w0MzY4MzkxOTksNDcyOTMwOTc0LC0yMDUwNzI5MDkwLC04Mjcz
-NDU2MjFdfQ==
+eyJoaXN0b3J5IjpbNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MT
+kzMjYwLC0xMDQwNTAyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5
+MDcsLTE1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsND
+M2ODM5MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1
+NjIxXX0=
 -->
