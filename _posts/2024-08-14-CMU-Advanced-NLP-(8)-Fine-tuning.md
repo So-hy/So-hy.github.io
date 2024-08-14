@@ -23,12 +23,12 @@ layout: post
 ## Standard Multi-task Learning
 
 
-여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것이다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들이 여러 작업을 할때 일부 공유된 파라미터를 사용해야 한다는 것이다. 만약 큰 언어 모델을 훈련 중이라면, 아마 모든 파라미터를 공유하게 될 것이다. 예를 들어, BERT나 GPT와 같은 모델을 프리트레이닝(pre-training)한 후 파인 튜닝(fine-tuning)을 할 때, 모델의 몸체(body)를 여러 작업에 걸쳐 훈련하지만, 각 작업에 대한 분류기(classifier)는 별도로 설정할 수 있습니다. 여러 가지 방법이 있을 수 있지만, 기본 개념은 여러 작업에서 공유된 파라미터를 가지고 있다는 것입니다.
+여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것이다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들이 여러 작업을 할때 일부 공유된 파라미터를 사용해야 한다는 것이다. 만약 큰 언어 모델을 훈련 중이라면, 아마 모든 파라미터를 공유하게 될 것이다. 예를 들어, BERT나 GPT와 같은 모델을 프리트레이닝(pre-training)한 후 파인 튜닝(fine-tuning)을 할 때, 모델의 몸체(body)를 여러 작업에 걸쳐 훈련하지만, 각 작업에 대한 분류기(classifier)는 별도로 설정할 수 있다. 여러 가지 방법이 있을 수 있지만, 기본 개념은 여러 작업에서 공유된 파라미터를 가지고 있다는 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzU5Mzc5OTYsMTg1MzgyOTcxNCwtOT
-A4MDMyMDAxLDU4NTA5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2
-MCwtMTA0MDUwMjUzMSwtNjQ4NjI1NDY0LC0xMjE2MDk2OTA3LC
-0xNTQ4NTM5NDc4LC02OTkxNDY1MjEsOTQ4MzEyNzM3LDQzNjgz
-OTE5OSw0NzI5MzA5NzQsLTIwNTA3MjkwOTAsLTgyNzM0NTYyMV
-19
+eyJoaXN0b3J5IjpbMTM5OTg4NDk5MywxODUzODI5NzE0LC05MD
+gwMzIwMDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYw
+LC0xMDQwNTAyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5MDcsLT
+E1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2ODM5
+MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIxXX
+0=
 -->
