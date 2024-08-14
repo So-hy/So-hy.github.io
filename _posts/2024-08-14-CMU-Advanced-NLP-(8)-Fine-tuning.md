@@ -19,9 +19,11 @@ layout: post
 
 그런데 최근 몇 년간 언어 모델을 훈련하는 패러다임에서 흥미로운 점 중 하나는 텍스트만을 사용하여 매우 많은 작업에서 모델을 성공적으로 작동시킬 수 있었다는 것이다. (WOW~) 예를 들어 라마(Llama)나 초기의 GPT 모델들을 텍스트만을 사용하여 훈련했다. 즉, 라벨이 없는 비지도 학습(unsupervised learning) 방식을 사용하여 훈련되었다는 것이다. 이들은 거의 감독된 훈련 데이터(supervised training data)가 없이도 이루어졌다. 인터넷에 이미 존재하는 방대한 양의 텍스트 데이터(예: 웹 페이지, 블로그, 뉴스 기사 등)가 라벨이 없는 형태로 제공되었으며, 이 데이터를 이용해 모델이 언어 구조와 패턴을 학습할 수 있도록 한 것이다. 실제로 Searching for Needles in a Haystack: On the Role of Incidental Bilingualism in PaLM's Translation Capability(ACL)이라는 논문에서 언어 모델이 웹에서 무작위로 수집된 데이터를 기반으로 훈련되었음에도 불구하고, 44개 이상의 언어에서 3천만 개 이상의 번역 쌍을 발견했다는 내용을 다루고 있다.
 
+근데 여기에 문제가 있는게 이 텍스트 데이터가 인터넷에서 나온 것이다 보니, 누가 이상하게 쓴 글을 학습하게 된다면 출력이 굉장히 이상하게 나올 수 도 있다는 것이다. 대부분의 경우에는 잘 나오지만, 낮은 확률로 오답을 출력하거나 완전히 다른 이야기를 해버리는 것이다.
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4OTk5MTIyNCw3MDQxOTMyNjAsLTEwND
+eyJoaXN0b3J5IjpbMTU2Mjc2Nzg5OCw3MDQxOTMyNjAsLTEwND
 A1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMTU0ODUz
 OTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNyw0MzY4MzkxOTksND
 cyOTMwOTc0LC0yMDUwNzI5MDkwLC04MjczNDU2MjFdfQ==
