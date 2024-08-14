@@ -23,12 +23,14 @@ layout: post
 ## Standard Multi-task Learning
 
 
-여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것이다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들이 여러 작업을 할때 일부 공유된 파라미터를 사용해야 한다는 것이다. 만약 큰 언어 모델을 훈련 중이라면, 아마 모든 파라미터를 공유하게 될 것이다. 예를 들어, BERT나 GPT와 같은 모델을 프리트레이닝(pre-training)한 후 파인 튜닝(fine-tuning)을 할 때, 모델의 몸체(body)를 여러 작업에 걸쳐 훈련하지만, 각 작업에 대한 분류기(classifier)는 별도로 설정할 수 있다. 예를 들어, 하나의 모델이 이미지 분류와 텍스트 분류 작업을 동시에 수행하도록 훈련될 때, 이미지 분류를 위한 별도의 분류기와 텍스트 분류를 위한 별도의 분류기를 각각 가질 수 있다는 것이다. 이렇게 하면 모델의 주요 부분은 여러 작업에서 공통적으로 사용되지만, 작업별로 특화된 분류기는 각 작업에 맞는 출력을 생성하게 된다. 어쨋든, 역여러 가지 방법이 있을 수 있지만, 기본 개념은 여러 작업에서 공유된 파라미터를 가지고 있다는 것이다. 
+여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것이다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들이 여러 작업을 할때 일부 공유된 파라미터를 사용해야 한다는 것이다. 만약 큰 언어 모델을 훈련 중이라면, 아마 모든 파라미터를 공유하게 될 것이다. 예를 들어, BERT나 GPT와 같은 모델을 프리트레이닝(pre-training)한 후 파인 튜닝(fine-tuning)을 할 때, 모델의 몸체(body)를 여러 작업에 걸쳐 훈련하지만, 각 작업에 대한 분류기(classifier)는 별도로 설정할 수 있다. 예를 들어, 하나의 모델이 이미지 분류와 텍스트 분류 작업을 동시에 수행하도록 훈련될 때, 이미지 분류를 위한 별도의 분류기와 텍스트 분류를 위한 별도의 분류기를 각각 가질 수 있다는 것이다. 이렇게 하면 모델의 주요 부분은 여러 작업에서 공통적으로 사용되지만, 작업별로 특화된 분류기는 각 작업에 맞는 출력을 생성하게 된다. 어쨋든, 여기에는 여러 가지 방법이 있을 수 있지만, 기본 개념은 여러 작업에서 공유된 파라미터를 가지고 있다는 것이다.
+
+ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzNzQxNzYxMCwtNDIxODcwMDcyLDE4NT
-M4Mjk3MTQsLTkwODAzMjAwMSw1ODUwOTIzMDksMTU2Mjc2Nzg5
-OCw3MDQxOTMyNjAsLTEwNDA1MDI1MzEsLTY0ODYyNTQ2NCwtMT
-IxNjA5NjkwNywtMTU0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMx
-MjczNyw0MzY4MzkxOTksNDcyOTMwOTc0LC0yMDUwNzI5MDkwLC
-04MjczNDU2MjFdfQ==
+eyJoaXN0b3J5IjpbLTE5MTMwNzk3OTMsLTQyMTg3MDA3MiwxOD
+UzODI5NzE0LC05MDgwMzIwMDEsNTg1MDkyMzA5LDE1NjI3Njc4
+OTgsNzA0MTkzMjYwLC0xMDQwNTAyNTMxLC02NDg2MjU0NjQsLT
+EyMTYwOTY5MDcsLTE1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5NDgz
+MTI3MzcsNDM2ODM5MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MC
+wtODI3MzQ1NjIxXX0=
 -->
