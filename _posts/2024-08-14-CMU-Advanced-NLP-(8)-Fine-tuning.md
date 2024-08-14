@@ -12,9 +12,9 @@ layout: post
 
 일부 NLP작업에선 특별히 사람이 데이터를 만들 필요가 없는 경우도 있다. 예를 들어, 기계 번역 작업에서는 사람들이 이미 다른 언어로 번역해놓은 텍스트 데이터를 사용할 수 있다. 이런 데이터를 Naturally occuring data(자연적으로 발생한 데이터) 라고 부를 수 있다.
 
-기계 번역 데이터가 풍부한 이유는 
+기계 번역 데이터가 풍부한 이유는 당연히 사람들이 번역 작업을 계속하기 때문이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2OD
-M5MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIx
-XX0=
+eyJoaXN0b3J5IjpbLTE1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5ND
+gzMTI3MzcsNDM2ODM5MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5
+MCwtODI3MzQ1NjIxXX0=
 -->
