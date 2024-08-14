@@ -14,8 +14,10 @@ layout: post
 (기계 번역 데이터가 풍부한 이유는 당연히 사람들이 번역 작업을 계속하기 때문이다.)
 
 또다른 형태의 데이터는 수작업으로 라벨링된 데이터다. 이는 질문-답변(Question Answering)이나 이름 엔디디 인식(Named Entity Recognition)과 같은 작업에 사용되는 데이터다. 이러한 데이터는 자연적으로 발생하지 않기 때문에, 훈련을 위해 수작업으로 데이터를 생성해야 한다.
+
+여기서 쪼끔 헷갈리는 부분이 생기는데, 결국 위의 세 데이터 모두 텍스트 데이터이다. 처음에 언어 모델링 작업의 경우 주로 텍스트 데이터만을 사용한다고 했는데, 여기
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MzEyNjEwNDMsLTEyMTYwOTY5MDcsLT
+eyJoaXN0b3J5IjpbLTE5NDQ1OTUwMTksLTEyMTYwOTY5MDcsLT
 E1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2ODM5
 MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIxXX
 0=
