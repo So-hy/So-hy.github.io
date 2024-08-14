@@ -10,9 +10,11 @@ layout: post
 언어 모델링 작업의 경우 주로 텍스트 데이터만을 사용한다. (언어 모델링은 문장에서 다음 단어를 예측하거나 문장을 생성하는 작업을 의미한다.)
 이런 작업에서는 단순히 텍스트 데이터만 있으면 된다.
 
-일부 NLP작업에선 트
+일부 NLP작업에선 특별히 사람이 데이터를 만들 필요가 없는 경우도 있다. 예를 들어, 기계 번역 작업에서는 사람들이 이미 다른 언어로 번역해놓은 텍스트 데이터를 사용할 수 있다. 이런 데이터를 Naturally occuring data(자연적으로 발생한 데이터) 라고 부를 수 있다.
+
+기계 번역 데이터가 풍부한 이유는 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ5Mjk1NTc1LDk0ODMxMjczNyw0MzY4Mz
-kxOTksNDcyOTMwOTc0LC0yMDUwNzI5MDkwLC04MjczNDU2MjFd
-fQ==
+eyJoaXN0b3J5IjpbLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2OD
+M5MTk5LDQ3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIx
+XX0=
 -->
