@@ -23,11 +23,11 @@ layout: post
 ## Standard Multi-task Learning
 
 
-여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 
+여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것입니다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있습니다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들 간에 일부 공유된 파라미터가 있어야 한다는 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODAzMjAwMSw1ODUwOTIzMDksMTU2Mj
-c2Nzg5OCw3MDQxOTMyNjAsLTEwNDA1MDI1MzEsLTY0ODYyNTQ2
-NCwtMTIxNjA5NjkwNywtMTU0ODUzOTQ3OCwtNjk5MTQ2NTIxLD
-k0ODMxMjczNyw0MzY4MzkxOTksNDcyOTMwOTc0LC0yMDUwNzI5
-MDkwLC04MjczNDU2MjFdfQ==
+eyJoaXN0b3J5IjpbMTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NT
+A5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2MCwtMTA0MDUwMjUz
+MSwtNjQ4NjI1NDY0LC0xMjE2MDk2OTA3LC0xNTQ4NTM5NDc4LC
+02OTkxNDY1MjEsOTQ4MzEyNzM3LDQzNjgzOTE5OSw0NzI5MzA5
+NzQsLTIwNTA3MjkwOTAsLTgyNzM0NTYyMV19
 -->
