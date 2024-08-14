@@ -26,11 +26,13 @@ layout: post
 여기서부터 교수는 멀티태스크 학습이라는 범주에 속하는 여러가지 방법들을 소개한다. 멀티태스크 학습은 모델이 여러 작업을 동시에 잘 수행하도록 훈련하는 것이다. 예를 들어, 텍스트 모델링을 하는 것과 동시에 태깅 작업을 훈련할 수도 있다. 어떻게 이를 수행할지에 따라 다양한 방법이 있을 수 있지만, 중요한 것은 모든 작업에서 훈련된 모델들이 여러 작업을 할때 일부 공유된 파라미터를 사용해야 한다는 것이다. 만약 큰 언어 모델을 훈련 중이라면, 아마 모든 파라미터를 공유하게 될 것이다. 예를 들어, BERT나 GPT와 같은 모델을 프리트레이닝(pre-training)한 후 파인 튜닝(fine-tuning)을 할 때, 모델의 몸체(body)를 여러 작업에 걸쳐 훈련하지만, 각 작업에 대한 분류기(classifier)는 별도로 설정할 수 있다. 예를 들어, 하나의 모델이 이미지 분류와 텍스트 분류 작업을 동시에 수행하도록 훈련될 때, 이미지 분류를 위한 별도의 분류기와 텍스트 분류를 위한 별도의 분류기를 각각 가질 수 있다는 것이다. 이렇게 하면 모델의 주요 부분은 여러 작업에서 공통적으로 사용되지만, 작업별로 특화된 분류기는 각 작업에 맞는 출력을 생성하게 된다. 어쨋든, 여기에는 여러 가지 방법이 있을 수 있지만, 기본 개념은 여러 작업에서 공유된 파라미터를 가지고 있다는 것이다.
 
 이런 멀티태스크 학습을 하는 가장 간단한 방법 중 하나는 모델을 훈련시키고, 하나의 작업에 대해 미니 배치(mini-batch)를 샘플링한 후, 다른 작업에 대해 또 다른 미니 배치를 샘플링하는 것이다. 즉, 모델이 첫 번째 작업에 대한 훈련 데이터를 사용하여 학습한 다음, 두 번째 작업에 대한 훈련 데이터를 사용하여 학습하는 방식을 의미한다. 이렇게 번갈아 가며 작업을 샘플링하거나, 모든 데이터를 혼합할 수도 있습니다. 만약 모든 데이터가 텍스트 기반이라면, 미니 배치에 대해 걱정할 필요도 없다. 텍스트 기반의 데이터는 일반적으로 동일한 형식을 가지기 때문에, 여러 작업에서 나오는 데이터를 쉽게 결합할 수 있기 때문!
+
+이와는 별도로 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzYxMTE3NjUsMTUyNTE0Mjc0Nyw5ND
-AxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMzIw
-MDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYwLC0xMD
-QwNTAyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5MDcsLTE1NDg1
-Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2ODM5MTk5LD
-Q3MjkzMDk3NCwtMjA1MDcyOTA5MCwtODI3MzQ1NjIxXX0=
+eyJoaXN0b3J5IjpbLTQ3Njg0NjI5MywxNTI1MTQyNzQ3LDk0MD
+EyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAw
+MSw1ODUwOTIzMDksMTU2Mjc2Nzg5OCw3MDQxOTMyNjAsLTEwND
+A1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMTU0ODUz
+OTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNyw0MzY4MzkxOTksND
+cyOTMwOTc0LC0yMDUwNzI5MDkwLC04MjczNDU2MjFdfQ==
 -->
