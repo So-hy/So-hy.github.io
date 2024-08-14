@@ -15,10 +15,10 @@ layout: post
 
 또다른 형태의 데이터는 수작업으로 라벨링된 데이터다. 이는 질문-답변(Question Answering)이나 이름 엔디디 인식(Named Entity Recognition)과 같은 작업에 사용되는 데이터다. 이러한 데이터는 자연적으로 발생하지 않기 때문에, 훈련을 위해 수작업으로 데이터를 생성해야 한다.
 
-여기서 쪼끔 헷갈리는 부분이 생기는데, 결국 위의 세 데이터 모두 텍스트 데이터이다. 처음에 언어 모델링 작업의 경우 주로 텍스트 데이터만을 사용한다고 했는데, 여기서 말하는 텍스트 데이터는 일반적으로 인터넷이나 책과 같은 곳에서 자연스럽게 생성된, 즉 사람이 일상적으로 생성하는 텍스트 데이터를 
+여기서 쪼끔 헷갈리는 부분이 생기는데, 결국 위의 세 데이터 모두 텍스트 데이터이다. 처음에 언어 모델링 작업의 경우 주로 텍스트 데이터만을 사용한다고 했는데, 여기서 말하는 텍스트 데이터는 일반적으로 인터넷이나 책과 같은 곳에서 자연스럽게 생성된, 즉 사람이 일상적으로 생성하는 텍스트 데이터를 의미한다. 하지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMT
-U0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNyw0MzY4Mzkx
-OTksNDcyOTMwOTc0LC0yMDUwNzI5MDkwLC04MjczNDU2MjFdfQ
-==
+eyJoaXN0b3J5IjpbMTYzOTAzNjEwMiwtNjQ4NjI1NDY0LC0xMj
+E2MDk2OTA3LC0xNTQ4NTM5NDc4LC02OTkxNDY1MjEsOTQ4MzEy
+NzM3LDQzNjgzOTE5OSw0NzI5MzA5NzQsLTIwNTA3MjkwOTAsLT
+gyNzM0NTYyMV19
 -->
