@@ -17,10 +17,10 @@ layout: post
 
 여기서 쪼끔 헷갈리는 부분이 생기는데, 결국 위의 세 데이터 모두 텍스트 데이터이다. 처음에 언어 모델링 작업의 경우 주로 텍스트 데이터만을 사용한다고 했는데, 여기서 말하는 텍스트 데이터는 일반적으로 인터넷이나 책과 같은 곳에서 자연스럽게 생성된, 즉 사람이 일상적으로 생성하는 텍스트 데이터를 의미한다. 하지만 나머지 두 종류는 텍스트지만 특정 목적이 존재한다. 이런 목적이 존재하는 것 중, 자연적으로 발생한 데이터의 경우, 사람이 자연스럽게 만들던(번역 작업은 옛날부터 했으니까) 데이터를 의미하고, 수작업으로 라벨링된 데이터는 진짜 무슨 작업을 하려고 아무 데이터도 없는 상태에서 어쩔 수 없이 만드는 고런 느낌이다. 금융 분석 같은 그런거.
 
-그런데 최근 몇 년간 언어 모델을 훈련하는 패러다임에서 흥미로운 점 중 하나는 텍스트만을 사용하여 매우 많은 작업에서 모델을 성공적으로 작동시킬 수 있었다는 것이다. (WOW~) 예를 들어 라마(Llama)나 초기의 GPT 모델들을 텍스트만을 사용하여 훈련했다. 즉, 라벨이 없는 비지도 학습(unsupervised learning) 방식을 사용하여 훈련되었다는 것이다. 이들은 거의 감독된 훈련 데이터(supervised training data)가 없이도 이루어졌다.
+그런데 최근 몇 년간 언어 모델을 훈련하는 패러다임에서 흥미로운 점 중 하나는 텍스트만을 사용하여 매우 많은 작업에서 모델을 성공적으로 작동시킬 수 있었다는 것이다. (WOW~) 예를 들어 라마(Llama)나 초기의 GPT 모델들을 텍스트만을 사용하여 훈련했다. 즉, 라벨이 없는 비지도 학습(unsupervised learning) 방식을 사용하여 훈련되었다는 것이다. 이들은 거의 감독된 훈련 데이터(supervised training data)가 없이도 이루어졌다. 인터넷에 이미 존재하는 방대한 양의 텍스트 데이터(예: 웹 페이지, 블로그, 뉴스 기사 등)가 라벨이 없는 형태로 제공되었으며, 이 데이터를 이용해 모델이 언어 구조와 패턴을 학습할 수 있도록 한 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzMxNzIxMywtNjQ4NjI1NDY0LC0xMj
-E2MDk2OTA3LC0xNTQ4NTM5NDc4LC02OTkxNDY1MjEsOTQ4MzEy
-NzM3LDQzNjgzOTE5OSw0NzI5MzA5NzQsLTIwNTA3MjkwOTAsLT
-gyNzM0NTYyMV19
+eyJoaXN0b3J5IjpbLTEwNDA1MDI1MzEsLTY0ODYyNTQ2NCwtMT
+IxNjA5NjkwNywtMTU0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMx
+MjczNyw0MzY4MzkxOTksNDcyOTMwOTc0LC0yMDUwNzI5MDkwLC
+04MjczNDU2MjFdfQ==
 -->
