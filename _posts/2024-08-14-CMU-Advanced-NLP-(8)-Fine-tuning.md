@@ -106,6 +106,22 @@ layout: post
 
 추가로 계산 그래프 체크포인팅(Checkpointing)이라는 기법도 있다. 이 기법은 계산 그래프의 일부를 계산한 후, 중간 상태를 버리고, 나중에 필요할 때 다시 계산하는 방식이다. 예를 들어, 그래프의 일부를 따라 포워드 패스(forward pass)를 수행하고, 중간 계산 상태를 버린 다음, 백워드 패스(backward pass)를 수행할 때 다시 그 상태를 계산할 수 있다. 이렇게 하면 메모리 사용을 더욱 효율적으로 관리할 수 있다고 한다.
 
+
+
+**Adapter Fusion**
+
+
+![Screenshot 2024-08-15 at 8 07 38 PM](https://github.com/user-attachments/assets/d3fdcd32-8aec-4e38-857c-645c4a9b9e15)
+
+기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것이다.
+
+어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습된다. 예를 들어, 많은 질문-응답(QA) 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지로 학습할 수 있다.
+
+그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 됩니다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
+
+어느 정도 이건 전문가 모델(Mixture of Experts)과 유사하다고 한다.
+
+
 **LoRa(Low-Rank Adaptation)**
 
 
@@ -122,26 +138,12 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 학습이 완료된 후, 학습된 저랭크 근사는 사전 학습된 가중치에 추가된다. 이 방법의 장점은 새로운 구성 요소나 레이어를 모델에 추가할 필요가 없다는 점이다. 대신, 기존의 가중치에 새로 학습된 정보를 효율적으로 통합하여 수정한다.
 
 그러니까 쉽게 말하자면 저랭크 근사치를 통해 추가적인 가중치 "업데이트"를 학습한다는 것. 이 추가적인 가중치 업데이트는 기존의 가중치와 별도로 관리되며, 학습이 끝난 후, 이 업데이트와 기존의 pre-trained 가중치를 결합하여 최종 모델을 구성한다.
-
-
-**Adapter Fusion**
-
-
-![Screenshot 2024-08-15 at 8 07 38 PM](https://github.com/user-attachments/assets/d3fdcd32-8aec-4e38-857c-645c4a9b9e15)
-
-기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것이다.
-
-어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습된다. 예를 들어, 많은 질문-응답(QA) 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지로 학습할 수 있다.
-
-그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 됩니다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
-
-어느 정도 이건 전문가 모델(Mixture of Experts)과 유사하다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODY0NjAyMzQsLTE2MzgwMjY1NjgsLT
-E4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3
-ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1Mz
-gsLTExNTIyMzExNTQsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTEx
-NjYxNjkzNTMsODExMzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MT
-M3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0
-MTA4ODU1MDhdfQ==
+eyJoaXN0b3J5IjpbNjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xOD
+A5OTIzNTYwLC0xODkyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0
+NTY0NywtNjg3NDMyODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC
+0xMTUyMjMxMTU0LDEwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2
+MTY5MzUzLDgxMTM2MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNz
+MsMzU0OTUwNzM4LC0xODEyNDY5NTU5LDEyMjU5MjU2OTYsNDEw
+ODg1NTA4XX0=
 -->
