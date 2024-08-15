@@ -59,9 +59,9 @@ layout: post
 
 예를 들어, 65억 개의 파라미터를 가진 모델을 훈련한다고 가정했을 때, 이 경우 16비트 혼합 정밀도를 사용하면 메모리 요구량이 매우 높아진다. 65억 개의 파라미터에 각각 2Byte(16but)를 할당했을 때,이는 130GB(65 * 2)의 메모리가 필요하다. 그리고 그라디언트(gradient)를 저장하기 위해 또 다른 130GB의 메모리가 필요합니다. 옵티마이저(optimizer)도 메모리를 차지하며(언더-오버플로우 이슈때문에 심지어 얘들은 각 부분에 4b씩 할당함, 그리고 편차와 분산때문에 두 개의 order을 저장하고, 16비트 파라미터를 32비트로 저장할 공간도 필요. 즉, 65*4*3 이라는 미친 용량이 됌), 이는 모델 훈련을 위해 필요한 메모리의 총량을 더욱 증가시킨다. 심지어 이는 파라미터에 대한 용량이고 거기에 더해, 순전파와 역전파가 일어나는 pass에 대한 용량도 추가로 필요하다. 대충 이렇게 계산하면 1,000 에서 1,400GB의 GPU메모리가 필요하다.
 
-(물론 2019년 이후 몇 가지 최적화 방법이 발전했기 ㄸ. 예를 들어, BF16(Brain Float 16)이라는 새로운 숫자 형식을 사용하면 더 작은 메모리로 더 안정적인 훈련이 가능
+(물론 2019년 이후 몇 가지 최적화 방법이 발전했기 때문에, 예를 들어, BF16(Brain Float 16)이라는 새로운 숫자 형식을 사용하면 더 작은 메모리로 더 안정적인 훈련이 가능하다. 또한, 이 방법을 통해 추가적인 파라미터 사본을 필요로 하지 않으며, 메모리 요구량을 줄일 수 있다. 그러나 여전히 많은 메모리가 필요하며, 이는 단일 GPU로는 처리하기 어렵다.)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMjc3MTc1NiwxMTYyNzY4NjE5LC01ND
+eyJoaXN0b3J5IjpbMTIxNTQ3Mjg4OSwxMTYyNzY4NjE5LC01ND
 AyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkxODUy
 NCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MDA3NT
 c1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcs
