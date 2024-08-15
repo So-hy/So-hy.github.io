@@ -242,14 +242,14 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 그래서 Q-LoRA 의 특징을 다시 요약하자면..
 
 -   **효율적인 자원 사용**: 저랭크 적응으로 파라미터의 차원을 줄이고, 양자화로 메모리 사용을 더욱 줄인다. 이 두 기법의 결합으로 대규모 모델을 더 적은 자원으로 처리할 수 있다.
--   **성능 저하 최소화**: 양자화만 사용하면 성능이 일부 저하될 수 있지만, 저랭크 적응을 병행하면 성능 저하를 최소화하면서도 자원 효율성을 극대화할 수 있습니다.
+-   **성능 저하 최소화**: 양자화만 사용하면 성능이 일부 저하될 수 있지만, 저랭크 적응을 병행하면 성능 저하를 최소화하면서도 자원 효율성을 극대화할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNjEzNDUxMiwtMjgzNDA2OTQsOTkxMD
-U0NTA5LC0xMDUxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5OTks
-NDU1NzI4MjM1LDY2NjgyNjY2OCwtMTYzODAyNjU2OCwtMTgwOT
-kyMzU2MCwtMTg5MjAwNzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2
-NDcsLTY4NzQzMjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMT
-E1MjIzMTE1NCwxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2
-OTM1M119
+eyJoaXN0b3J5IjpbLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MT
+A1NDUwOSwtMTA1MTk3ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5
+LDQ1NTcyODIzNSw2NjY4MjY2NjgsLTE2MzgwMjY1NjgsLTE4MD
+k5MjM1NjAsLTE4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1
+NjQ3LC02ODc0MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLT
+ExNTIyMzExNTQsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNjYx
+NjkzNTNdfQ==
 -->
