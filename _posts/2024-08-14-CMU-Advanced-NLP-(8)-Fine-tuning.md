@@ -252,13 +252,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 
-위의 다양한 PEFT에 대한 자세한 내용을 다룬 논문 "A Unified View of PEFT"(He et al. 2021) 에서 이에 대해 자세히 살펴볼 수 있으며, 여기서 
+위의 다양한 PEFT에 대한 자세한 내용을 다룬 논문 "A Unified View of PEFT"(He et al. 2021) 에서 이에 대해 자세히 살펴볼 수 있으며, 여기서 각 방법들이 어떻게 상호작용하는지 이해할 수 있다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NTk1NjgyMCwtMjExNTM2MzMyOSwtMT
-QzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4
-NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2Nj
-gyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAw
-NzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNi
-wxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3
-ODI5OTE0XX0=
+eyJoaXN0b3J5IjpbLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xND
+M1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3
+NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUsNjY2OD
+I2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xODkyMDA3
+OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMyODM2LD
+E2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMxMTU0LDEwMjc4
+Mjk5MTRdfQ==
 -->
