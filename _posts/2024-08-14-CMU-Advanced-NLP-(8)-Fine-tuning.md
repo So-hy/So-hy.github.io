@@ -447,13 +447,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성된 테스트로 GPT-3을 미세 조정하여 모델 자체를 개선할 수 있다는 것이다. 다른 최근 예시로는 Tuning for Chain of Thought 가 있다. ORCA는 이러한 예 중 하나로, 모델이 특정 결정을 내린 이유를 설명하는 description(설명)을 생성하고, 이를 사용해 모델의 추론 능력을 증가시키는 훈련을 하는 데 사용하는 것이다.
 
-또 다른 흥미로운 예시는 Evol Instruct이다. 이 방법의 기본 아이디어는, 사용하고자 하는 데이터셋에서  Seed set of Instructions를 시작으로, 이를 더 복잡하게 만들기 위해 지침을 수정하는 것이다. 그러니까, 이렇게 하는건 너무 쉬운 것 같으니 이걸 좀더 어렵게 해보자! 라는 식으로 이렇게 하면 모델이 복잡한 문제를 해결하는 능력을 개선할 수 있습니다. 이 주제는 현재 매우 인기 있는 연구 분야로, 이 한 슬라이드로 충분히 다룰 수 없을 것입니다. 나중에 더 자세히 다룰 것입니다.
+또 다른 흥미로운 예시는 Evol Instruct이다. 이 방법의 기본 아이디어는, 사용하고자 하는 데이터셋에서  Seed set of Instructions를 시작으로, 이를 더 복잡하게 만들기 위해 인스트럭션을 수정하는 것이다. 그러니까, 이렇게 하는건 너무 쉬운 것 같으니 이걸 좀더 어렵게 해보자! 라는 식으로 인스트럭션을 수정하는 것이다. 이렇게 하면 모델이 복잡한 문제를 해결하는 능력을 개선할 수 있습니다. 이 주제는 현재 매우 인기 있는 연구 분야로, 이 한 슬라이드로 충분히 다룰 수 없을 것입니다. 나중에 더 자세히 다룰 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5NTg3NDkwOSwxNjk1MzY5MjI4LDE5NT
-g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
-MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
-wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
-OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
-YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
-LTI4MzQwNjk0XX0=
+eyJoaXN0b3J5IjpbLTE5MzIzNDQ4NDMsMTY5NTM2OTIyOCwxOT
+U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
+NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
+ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
+NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
+M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
+LC0yODM0MDY5NF19
 -->
