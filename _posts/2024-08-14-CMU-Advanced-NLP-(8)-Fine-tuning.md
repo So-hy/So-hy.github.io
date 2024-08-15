@@ -318,13 +318,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Summarization
 
 
-또 다른 작업으로 요약 작업이 있다. 요약 작업에는 몇 가지 종류가 있습니다. 하나는 단일 문서 요약(single document summarization)이고, 또 다른 하나는 다중 문서 요약(multi-document summarization)입니다. 단일 문서 요약은 긴 문서를 짧은 요약으로 압축하는 것이며, 다중 문서 요약은 여러 문서를 하나로 압축하는 것입니다.
+또 다른 작업으로 요약 작업이 있다. 요약 작업에는 몇 가지 종류가 있다. 하나는 단일 문서 요약(single document summarization)이고, 또 다른 하나는 다중 문서 요약(multi-document summarization)입니다. 단일 문서 요약은 긴 문서를 짧은 요약으로 압축하는 것이며, 다중 문서 요약은 여러 문서를 하나로 압축하는 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MTQyMTQ1LC0yMjYzNTY1NDQsLTE5Mj
-Q0MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1
-MzAzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NS
-wyMzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUz
-NjMzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOS
-wtMTA1MTk3ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcy
-ODIzNV19
+eyJoaXN0b3J5IjpbMTA4MTA3ODU0MiwtMjI2MzU2NTQ0LC0xOT
+I0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1
+NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2Nz
+UsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1
+MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MD
+ksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3
+MjgyMzVdfQ==
 -->
