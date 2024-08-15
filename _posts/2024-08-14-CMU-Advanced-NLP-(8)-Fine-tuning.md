@@ -427,13 +427,15 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 -   **인-컨텍스트 학습을 위한 지침 튜닝 (Instruction Tuning for In-Context Learning)**: 이 방법은 단순히 프롬프트를 제공하는 것이 아니라, 입력에 여러 학습 예시를 포함시켜 모델이 컨텍스트 내에서 학습할 수 있도록 하는 방식이다. 이는 모델이 컨텍스트 내 학습을 더 잘 수행할 수 있도록 도와주며, 컨텍스트에 학습 예시를 추가하여 모델을 훈련시키는 방식이다.
 
 
-이러한 지침 튜닝의 두 가지 기본적인 방법이 거의 동시에 등장했다.
+이러한 지침 튜닝의 두 가지 기본적인 방법이 거의 동시에 등장했다. 또한 여러 데이터셋들이 컴파일되었으며, 지침 튜닝을 하려면 이러한 데이터셋 중 하나를 사용하는 것이 좋다.
+
+강력히 추천하는 논문은 FLAN 컬렉션에 관한 논문입니다. 이 논문은 좋은 개요를 제공하며, 데이터셋 이름, 학습 데이터 크기, 프롬프트 사용 여부(제로 샷, 몇 샷 등), 작업 수, 세부 방법 등을 기준으로 표로 정리해 놓았습니다. 이 논문에서 소개된 데이터셋 중 많은 사람들이 사용하는 인기 있는 데이터셋은 FLAN 컬렉션, Natural Instructions, Self-Instruct 등이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4OTg1NTYzLDE2OTUzNjkyMjgsMTk1OD
-czODIwMCwxNzE5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQx
-MDQsLTIyNjM1NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC
-01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5
-NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNj
-E1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwt
-MjgzNDA2OTRdfQ==
+eyJoaXN0b3J5IjpbMTY0OTkzOTE3NSwxNjk1MzY5MjI4LDE5NT
+g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
+MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
+wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
+OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
+YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
+LTI4MzQwNjk0XX0=
 -->
