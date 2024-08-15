@@ -124,13 +124,15 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 그러니까 쉽게 말하자면 저랭크 근사치를 통해 추가적인 가중치 "업데이트"를 학습한다는 것. 이 추가적인 가중치 업데이트는 기존의 가중치와 별도로 관리되며, 학습이 끝난 후, 이 업데이트와 기존의 pre-trained 가중치를 결합하여 최종 모델을 구성한다.
 
 
+**Adapter Fusion**
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NzQzMjgzNiwxNjU0NDI1MTIyLDQ5ND
-U3MDUzOCwtMTE1MjIzMTE1NCwxMDI3ODI5OTE0LDQ3MzA0NTM0
-OSwtMTE2NjE2OTM1Myw4MTEzNjA3MjQsMTE3NzM1NzYyLC0xNj
-g5MTYxMzczLDM1NDk1MDczOCwtMTgxMjQ2OTU1OSwxMjI1OTI1
-Njk2LDQxMDg4NTUwOCwtMTc0MjE5ODExNSwtMzIzMjIzNDQwLD
-c3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2NTU4LDE3NTIz
-ODc5ODBdfQ==
+eyJoaXN0b3J5IjpbODY4OTM1NjgzLC02ODc0MzI4MzYsMTY1ND
+QyNTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNTQsMTAyNzgyOTkx
+NCw0NzMwNDUzNDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNz
+czNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1
+NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLT
+MyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5
+NjU1OF19
 -->
