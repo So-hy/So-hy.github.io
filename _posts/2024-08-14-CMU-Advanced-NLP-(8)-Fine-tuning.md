@@ -334,13 +334,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Translation
 
 
-또한 번역 작업도 있다. 이 작업에 대해서는 굳이 설명할 필요가 없긴 하다. 이는 한 언어에서 다른 언어로 번역하는 작업이다. 번역과 요약 작업 모두 평가가 다소 까다롭다. 일단 기본적으로는 참조(reference)와의 유사성을 기반으로 평가하게 됩니다. 예를 들어, Flores라는 데이터셋은 여러 개의 위키피디아 기사를 101개의 언어로 번역한 것입니다. 저는 이 데이터셋을 좋아하는데, 그 이유는 모든 언어로 번역할 수 있다면, 전 세계적으로 정보 전달을 돕고 정보 접근을 더욱 공평하게 만들 수 있기 때문입니다.
+또한 번역 작업도 있다. 이 작업에 대해서는 굳이 설명할 필요가 없긴 하다. 이는 한 언어에서 다른 언어로 번역하는 작업이다. 번역과 요약 작업 모두 평가가 다소 까다롭다. 일단 기본적으로는 참조(reference)와의 유사성을 기반으로 평가하게 된다. 예를 들어, Flores라는 데이터셋은 여러 개의 위키피디아 기사를 101개의 언어로 번역한 것입니다. 저는 이 데이터셋을 좋아하는데, 그 이유는 모든 언어로 번역할 수 있다면, 전 세계적으로 정보 전달을 돕고 정보 접근을 더욱 공평하게 만들 수 있기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDMwMjQyMzUsLTEyMjc0NTQxMDQsLT
-IyNjM1NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5
-ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNj
-g3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01
-MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzND
-A2OTQsOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOTg1NjE5MSw4
-MzkxMTM5OTldfQ==
+eyJoaXN0b3J5IjpbMTc3NTUzMDkyNiwtMTIyNzQ1NDEwNCwtMj
+I2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4
+NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2OD
+csLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUx
+Njc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MD
+Y5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgz
+OTExMzk5OV19
 -->
