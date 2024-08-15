@@ -191,12 +191,59 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 > 
 > •  Q-LoRa는 큰 모델을 작은 크기로 압축해서 더 다양한 하드웨어에서 실행할 수 있게 만드는 기술입니다. 모델의 정밀도를 낮추면서도 성능을 유지할 수 있는 방법을 제공하여, 특히 제한된 하드웨어 환경에서도 큰 모델을 효율적으로 훈련할 수 있습니다.
 
+
+또한 양자화에 대해서도 간단히 알아보았다.
+
+> **양자화(Quantization)란?**
+> 
+>   
+> 
+> •  **양자화**는 모델의 가중치와 같은 숫자 데이터를 더 적은 비트로 표현하는 과정입니다. 예를 들어, 원래는 16비트로 표현된 숫자들을 4비트로 표현하게 되는 거죠.
+> 
+>   
+> 
+> **어떻게 양자화가 이루어지나요?**
+> 
+>   
+> 
+> 1. **비트 수 줄이기**:
+> 
+> •  원래 모델의 가중치나 활성화 값은 일반적으로 16비트 또는 32비트로 표현됩니다. 양자화는 이 숫자들을 더 작은 비트(예: 4비트)로 표현하는 과정입니다.
+> 
+> •  16비트로 표현되던 숫자들은 더 정밀하게 다양한 값을 가질 수 있지만, 4비트로 줄이면 표현할 수 있는 값의 범위가  좁아집니다. 하지만 여전히 중요한 정보는 유지할 수 있도록 양자화 과정에서 값을 잘 조정합니다.
+> 
+> 2. **양자화의 단계**:
+> 
+> •  먼저, 기존의 16비트 가중치를 가져옵니다.
+> 
+> •  그 다음, 이 가중치들을 더 작은 범위의 숫자로 변환합니다. 예를 들어, 16비트 가중치의 값이 0에서 65535 사이에 있었다면, 4비트 가중치는 0에서 15 사이의 숫자로 변환됩니다.
+> 
+> •  이렇게 변환된 작은 범위의 숫자들은 실제 계산에서 사용되며, 이 과정을 통해 모델이 차지하는 메모리 크기를 줄일 수 있습니다.
+> 
+>   
+> 
+> **Q-LoRa와의 연결:**
+> 
+>   
+> 
+> •  Q-LoRa는 이 양자화된(4비트) 모델을 사용하면서도 LoRA 기술을 적용해, 모델의 가중치를 효율적으로 업데이트합니다.
+> 
+> •  양자화를 통해 모델의 크기를 대폭 줄이고, LoRA를 통해 필요한 정보만 효율적으로 학습하게 합니다.
+> 
+>   
+> 
+> **요약:**
+> 
+>   
+> 
+> •  **양자화(Quantization)**는 모델의 가중치를 더 적은 비트로 표현하는 기술입니다. Q-LoRa에서는 모델을 4비트로 압축(양자화)하여 크기를 줄이고, 이 압축된 모델을 이용해 제한된 하드웨어에서도 큰 모델을 효율적으로 실행할 수 있게 합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTM2MjkwMzAsOTkxMDU0NTA5LC0xMD
-UxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1
-LDY2NjgyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMT
-g5MjAwNzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQz
-MjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NC
-wxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MTEz
-NjA3MjRdfQ==
+eyJoaXN0b3J5IjpbLTY1OTc0MDkzMiw5OTEwNTQ1MDksLTEwNT
+E5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUs
+NjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xOD
+kyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMy
+ODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMxMTU0LD
+EwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLDgxMTM2
+MDcyNF19
 -->
