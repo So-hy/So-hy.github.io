@@ -312,13 +312,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Code Generation
 
 
-두 번째로 많이 이야기하는 작업은 코드 생성(code generation)이다. 이는 단순히 자연어 명령에서 Python, SQL 코드를 생성하는 것이다. 가장 인기 있는 데이터셋은 humanEval이다. 이 데이터셋에는 Python 표준 라이브러리와 관련된 질문들이 포함되어 있으며, 예를 들어 '요소들이 1씩 증가된 리스트를 반환하세요'와 같은 질문이 있습니다.
+두 번째로 많이 이야기하는 작업은 코드 생성(code generation)이다. 이는 단순히 자연어 명령에서 Python, SQL 코드를 생성하는 것이다. 가장 인기 있는 데이터셋은 humanEval이다. 이 데이터셋에는 Python 표준 라이브러리와 관련된 질문들이 포함되어 있으며, 예를 들어 '요소들이 1씩 증가된 리스트를 반환하세요'와 같은 질문이 있다. 이 데이터셋은 텍스트와 입력 및 출력 예시를 제공하며, 프로그램을 작성하는 것이 요구됩니다. 이것은 이 작업의 간단한 버전이며, 더 복잡한 데이터셋들도 있습니다. 참고로, 저는 코드 생성에 대해 많은 연구를 하고 있으며, humanEval은 매우 간단한 예시입니다. 외부 라이브러리나 컨텍스트를 사용하지 않으며, 이 외에도 더 흥미로운 데이터셋들이 많이 있습니다. 코드 생성 작업을 하고 있다면, 이 데이터셋들을 추천할 수 있으며, 나중에 수업에서 자세히 다룰 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDg4NzY3MzQsLTE5MjQ0MzM0MiwtMT
-UxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3
-NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMD
-EsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0
-MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3OD
-c3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4
-MjY2NjhdfQ==
+eyJoaXN0b3J5IjpbMTgyMzM4MjA3OSwtMTkyNDQzMzQyLC0xNT
+ExMDI2NDQ5LC01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1
+OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMS
+wxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQz
+NTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4Nz
+czLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2Njgy
+NjY2OF19
 -->
