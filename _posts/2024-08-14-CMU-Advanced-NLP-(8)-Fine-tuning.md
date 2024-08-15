@@ -289,14 +289,17 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이 뒤에서 다루는 내용은 실제 산업에서 NLP 모델을 활용할 때 매우 중요한 작업들이며, 또 하나는 사람들이 생성 모델(특히 GPT 논문이나 Gemini 논문)을 평가할 때 사용되는 작업들에 대한 것이다.예를 들어, 그들이 모델이 잘 작동하는지 증명하기 위해 사용하는 작업들입니다.
 
+
 ### Context-free question answering
 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODAyODIxOTcsLTE1NzQ0NTUzMDMsLT
-EzNjc1OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1
-NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjExNTM2MzMyOS
-wtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUx
-OTc4NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LD
-Y2NjgyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5
-MjAwNzkyOF19
+eyJoaXN0b3J5IjpbLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMT
+M2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3
+MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC
+0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5
+Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUsNj
+Y2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xODky
+MDA3OTI4XX0=
 -->
