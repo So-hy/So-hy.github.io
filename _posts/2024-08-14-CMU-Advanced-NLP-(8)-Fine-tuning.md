@@ -108,6 +108,9 @@ layout: post
 
 **LoRa(Low-Rank Adaptation)**
 
+
+![Screenshot 2024-08-15 at 7 26 05 PM](https://github.com/user-attachments/assets/80ef796b-9b17-4bd6-b4eb-89fbc923b60f)
+
 어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다. LoRA에서는 파라미터 매트릭스를 조정할 때, 이를 효율적으로 다루기 위해 두 개의 작은 매트릭스를 사용한다. 하나는 입력 차원을 줄이는 다운스케일링(downscaling) 매트릭스이고, 다른 하나는 다시 원래 차원으로 확장하는 업스케일링(upscaling) 매트릭스이다.
 
 
@@ -117,11 +120,11 @@ layout: post
 
 LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행렬  A 와  B 를 도입하여 사전 학습된 가중치와 업데이트된 가중치 간의 차이를 근사한다. 여기서 행렬  A 는 정규 분포에서 초기화되고, 행렬  B 는 0으로 초기화됩니다. 이 방법은 학습해야 할 파라미터 수를 줄여 미세 조정 과정의 효율성을 높입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTIyMzExNTQsMTAyNzgyOTkxNCw0Nz
-MwNDUzNDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNzczNTc2
-MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMT
-IyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIy
-MzQ0MCw3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OC
-wxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQw
-Mjk0ODk3XX0=
+eyJoaXN0b3J5IjpbNDk0NTcwNTM4LC0xMTUyMjMxMTU0LDEwMj
+c4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLDgxMTM2MDcy
+NCwxMTc3MzU3NjIsLTE2ODkxNjEzNzMsMzU0OTUwNzM4LC0xOD
+EyNDY5NTU5LDEyMjU5MjU2OTYsNDEwODg1NTA4LC0xNzQyMTk4
+MTE1LC0zMjMyMjM0NDAsNzc1OTE4MzQ4LC0xMDYzODM5NDQxLC
+05NTkwOTY1NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLDExNjI3
+Njg2MTldfQ==
 -->
