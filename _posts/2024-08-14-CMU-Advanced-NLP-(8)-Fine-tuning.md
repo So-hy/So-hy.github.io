@@ -114,12 +114,14 @@ layout: post
 •  **업스케일링 매트릭스 초기화**: 업스케일링을 위해 사용하는 매트릭스를 초기화할 때, 이 매트릭스를 0으로 초기화한다. 이렇게 하면 만약 학습 과정에서 이 매트릭스를 조정하지 않더라도, 이 매트릭스가 모델의 다른 파라미터에 영향을 미치지 않도록 할 수 있다. 즉, 매트릭스가 0으로 유지되므로 아무런 조정도 이루어지지 않은 상태로 남게 된다.
 
 •  **다운스케일링 매트릭스 초기화**: 다운스케일링 매트릭스는 0으로 초기화하거나 무작위(random)로 초기화할 수 있다. 다만, 이 매트릭스는 보통 무작위로 초기화된다. 다운스케일링 매트릭스가 무작위로 초기화되는 이유는 모델이 학습하면서 입력 차원을 조정하기 위해 필요로 하는 유연성을 제공하기 위함이다.
+
+l
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNj
-YxNjkzNTMsODExMzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3
-MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MT
-A4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3NzU5MTgz
-NDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3OTgwLD
-E3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMjU3
-MzY2MF19
+eyJoaXN0b3J5IjpbMTYzODg0NzQxMCwxMDI3ODI5OTE0LDQ3Mz
+A0NTM0OSwtMTE2NjE2OTM1Myw4MTEzNjA3MjQsMTE3NzM1NzYy
+LC0xNjg5MTYxMzczLDM1NDk1MDczOCwtMTgxMjQ2OTU1OSwxMj
+I1OTI1Njk2LDQxMDg4NTUwOCwtMTc0MjE5ODExNSwtMzIzMjIz
+NDQwLDc3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2NTU4LD
+E3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4NjE5LC01NDAy
+OTQ4OTddfQ==
 -->
