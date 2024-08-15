@@ -129,6 +129,7 @@ layout: post
 
 어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다. LoRA에서는 파라미터 매트릭스를 조정할 때, 이를 효율적으로 다루기 위해 두 개의 작은 매트릭스를 사용한다. 하나는 입력 차원을 줄이는 다운스케일링(downscaling) 매트릭스이고, 다른 하나는 다시 원래 차원으로 확장하는 업스케일링(upscaling) 매트릭스이다.
 
+위 그림에서는 LoRA는 Pre-Trained 와는 별도의 계산 경로로 표현되어 있다. 보통 행렬을 사용한 후 LoRA 행렬을 별도로 사용하는 것으로 표현되어 있지만, 실제로는 이 두 행렬을 더하면 동일한 결과를 얻을 수 있습니다. 이 행렬을 원래 가중치에 추가하면 별도로 계산하고 나중에 더한 것과 동일한 결과를 얻습니다.
 
 •  **업스케일링 매트릭스 초기화**: 업스케일링을 위해 사용하는 매트릭스를 초기화할 때, 이 매트릭스를 0으로 초기화한다. 이렇게 하면 만약 학습 과정에서 이 매트릭스를 조정하지 않더라도, 이 매트릭스가 모델의 다른 파라미터에 영향을 미치지 않도록 할 수 있다. 즉, 매트릭스가 0으로 유지되므로 아무런 조정도 이루어지지 않은 상태로 남게 된다.
 
@@ -139,11 +140,11 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 
 그러니까 쉽게 말하자면 저랭크 근사치를 통해 추가적인 가중치 "업데이트"를 학습한다는 것. 이 추가적인 가중치 업데이트는 기존의 가중치와 별도로 관리되며, 학습이 끝난 후, 이 업데이트와 기존의 pre-trained 가중치를 결합하여 최종 모델을 구성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xOD
-A5OTIzNTYwLC0xODkyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0
-NTY0NywtNjg3NDMyODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC
-0xMTUyMjMxMTU0LDEwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2
-MTY5MzUzLDgxMTM2MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNz
-MsMzU0OTUwNzM4LC0xODEyNDY5NTU5LDEyMjU5MjU2OTYsNDEw
-ODg1NTA4XX0=
+eyJoaXN0b3J5IjpbNDU1NzI4MjM1LDY2NjgyNjY2OCwtMTYzOD
+AyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNjY3OTQ4
+MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNiwxNjU0NDI1MTIyLD
+Q5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3ODI5OTE0LDQ3MzA0
+NTM0OSwtMTE2NjE2OTM1Myw4MTEzNjA3MjQsMTE3NzM1NzYyLC
+0xNjg5MTYxMzczLDM1NDk1MDczOCwtMTgxMjQ2OTU1OSwxMjI1
+OTI1Njk2XX0=
 -->
