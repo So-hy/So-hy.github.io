@@ -319,8 +319,10 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 또 다른 작업으로 요약 작업이 있다. 요약 작업에는 몇 가지 종류가 있다. 하나는 단일 문서 요약(single document summarization)이고, 또 다른 하나는 다중 문서 요약(multi-document summarization)이다. 단일 문서 요약은 긴 문서를 짧은 요약으로 압축하는 것이며, 다중 문서 요약은 여러 문서를 하나로 압축하는 것을 의미한다.
+
+현재 영어로 된 단일 문서 요약은 상당히 잘 작동합니다. 완벽하지는 않지만, 거의 완벽에 가까울 정도로 작동한다고 한다. 물론 다국어 요약은 흥미롭고, 다중 문서 요약은 확실히 아직 해결되지 않은 문제입니다. 다중 문서 요약은 특정 주제에 대한 여러 문서를 요약하여 그 주제에 대한 일관된 요약본을 만드는 작업입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3NDMwNTE4LC0yMjYzNTY1NDQsLTE5Mj
+eyJoaXN0b3J5IjpbNTk0NDUxODE0LC0yMjYzNTY1NDQsLTE5Mj
 Q0MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1
 MzAzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NS
 wyMzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUz
