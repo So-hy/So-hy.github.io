@@ -27,6 +27,7 @@ layout: post
 
 ![Screenshot 2024-08-15 at 2 19 08 AM](https://github.com/user-attachments/assets/1e02e1ff-770f-4b6d-9f05-6e42ef96cf7e)
 
+
 이런 멀티태스크 학습을 하는 가장 간단한 방법 중 하나는 모델을 훈련시키고, 하나의 작업에 대해 미니 배치(mini-batch)를 샘플링한 후, 다른 작업에 대해 또 다른 미니 배치를 샘플링하는 것이다. 즉, 모델이 첫 번째 작업에 대한 훈련 데이터를 사용하여 학습한 다음, 두 번째 작업에 대한 훈련 데이터를 사용하여 학습하는 방식을 의미한다. 이렇게 번갈아 가며 작업을 샘플링하거나, 모든 데이터를 혼합할 수도 있습니다. 만약 모든 데이터가 텍스트 기반이라면, 미니 배치에 대해 걱정할 필요도 없다. 텍스트 기반의 데이터는 일반적으로 동일한 형식을 가지기 때문에, 여러 작업에서 나오는 데이터를 쉽게 결합할 수 있기 때문!
 
 이와는 별도로 Pre-trained and Fine-tune이라는 방법이 있다. 이 방법은 먼저 하나의 작업에 대해 훈련한 후(마친 후), 다른 작업에 대해 훈련하는 것이다. 예를 들어, 언어 모델링(objective) 작업을 먼저 훈련한 다음, 그 작업이 끝나면 태깅 작업을 훈련하는 방식이다. 이 방법을 사용하는 이유 중 하나는 훈련 데이터의 크기와 관련이 있다. 예를 들어, 프리트레이닝 데이터가 방대하고 복잡한 경우 (예를 들어 인터넷의 모든 데이터를 포함하고 있는 경우), 그 데이터는 많은 독성(오류) 텍스트나 원치 않는 형식의 텍스트를 포함하고 있을 수 있다. 이러한 데이터를 사용해 학습한 후, 파인 튜닝을 통해 모델을 더 안전하게 만들거나 독성(오류)을 제거할 수 있다. 또다른 이유로는 비용 문제가 있다. 똑같이 너무 많은 훈련 데이터의 양 덕분에, 이걸 학습하는 것 자체가 어마어마한 비용이 든다고 한다. 이때문에 소수의 사람들이 Pre-trained 된 모델을 배포하고, 일반적으로 대다수의 사람들은 이를 Fine-tuning 해서 사용하는 것이다. 그러니까 일부 사람이 큰 양의 데이터를 학습한 Pre-trained 모델을 배포함으로써, 대부분의 사람들은 편하게 이를 활용하여 Fine-tuning해 쓸 수 있단 것이다. 
@@ -38,11 +39,11 @@ layout: post
 
 이러한 이유로 프리트레이닝과 파인 튜닝의 단점이 있지만, 한 번 많은 계산 리소스를 사용하고 나서 다양한 다운스트림 작업에 대해 파인 튜닝을 하는 방식의 장점은 여전히 크다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0NzEyOTQsMzY5NzEzMzk2LDM5MTM1NT
-E3LC0xODAwNzU3NTg5LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwx
-NTI1MTQyNzQ3LDk0MDEyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mj
-k3MTQsLTkwODAzMjAwMSw1ODUwOTIzMDksMTU2Mjc2Nzg5OCw3
-MDQxOTMyNjAsLTEwNDA1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNj
-A5NjkwNywtMTU0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjcz
-N119
+eyJoaXN0b3J5IjpbMTQzMTg0ODE0NCw4NjQ3MTI5NCwzNjk3MT
+MzOTYsMzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0x
+MDY0Mzc3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5LC00MjE4Nz
+AwNzIsMTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NTA5MjMwOSwx
+NTYyNzY3ODk4LDcwNDE5MzI2MCwtMTA0MDUwMjUzMSwtNjQ4Nj
+I1NDY0LC0xMjE2MDk2OTA3LC0xNTQ4NTM5NDc4LC02OTkxNDY1
+MjFdfQ==
 -->
