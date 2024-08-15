@@ -121,12 +121,14 @@ layout: post
 LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행렬  A 와  B 를 도입하여 사전 학습된 가중치와 업데이트된 가중치 간의 차이를 근사한다. 여기서 행렬  A 는 정규 분포에서 초기화되고, 행렬  B 는 0으로 초기화된다. 이 방법은 학습해야 할 파라미터 수를 줄여 미세 조정 과정의 효율성을 높인다.
 
 학습이 완료된 후, 학습된 저랭크 근사는 사전 학습된 가중치에 추가된다. 이 방법의 장점은 새로운 구성 요소나 레이어를 모델에 추가할 필요가 없다는 점이다. 대신, 기존의 가중치에 새로 학습된 정보를 효율적으로 통합하여 수정한다.
+
+그러니까 쉽게 말하자면 저랭크 근사치를 통해 추가적인 가중치 "업데이트"를 학습한다는 것. 이 추가적인 가중치 업데이트는 기존의 가중치와 별도로 관리되며, 학습이 끝난 후, 이 업데이트와 기존의 pre-trained 가중치를 결합하여 최종
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNT
-IyMzExNTQsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNjYxNjkz
-NTMsODExMzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3MywzNT
-Q5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MTA4ODU1
-MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3NzU5MTgzNDgsLT
-EwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3OTgwLDE3NTIz
-ODc5ODBdfQ==
+eyJoaXN0b3J5IjpbLTE0NDM0ODgzNTksMTY1NDQyNTEyMiw0OT
+Q1NzA1MzgsLTExNTIyMzExNTQsMTAyNzgyOTkxNCw0NzMwNDUz
+NDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNzczNTc2MiwtMT
+Y4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTky
+NTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MC
+w3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUy
+Mzg3OTgwXX0=
 -->
