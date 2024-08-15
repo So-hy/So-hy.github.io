@@ -150,8 +150,7 @@ LoRA가 인기 있는 이유는 매우 편리하기 때문입니다. LoRA로 학
 Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning)을 결합한 것이다. 기본적으로 모델을 16비트가 아닌 4비트로 압축할 수 있는 방법이 있으며, 이렇게 하면 모델이 매우 작아진다. 이전 슬라이드에서 계산했던 내용을 다시 보자면, 16비트 모델로 라마(llama)를 메모리에 맞추려면 130GB가 필요하지만, 만약 4비트 모델이라면 갑자기 32.5GB 정도가 된다. 이는 많은 하드웨어에 알맞다. A100이나 H100 GPU에서 쉽게 실행될 수 있고, 가격이 상대적으로 저렴한 GPU에서도 실행할 수 있다. 여전히 비쌀 수 있지만, 맥(Mac)에서도 실행 가능할 것이다. 즉, 모델을 훨씬 더 작은 크기로 압축하고, 매우 컴팩트한 LoRA 레이어를 사용해, 제한된 하드웨어에서도 큰 모델을 훈련할 수 있게 된다. 48GB GPU나 맥북과 같은 장비에서도 훈련할 수 있다. CPU 메모리에서 GPU 메모리로 페이징(paging) 기능도 있어 더욱 효율적으로 만들 수 있다고 한다. 큰 모델을 제한된 하드웨어에서 훈련하고 싶다면 이 방법을 추천한다고 한다. 아주 큰 모델을 훈련하지 않는다면, LoRA만으로도 충분할 것입니다. 
 
   
-
-저정밀도가 문제를 일으키지 않냐는 질문에 대해서는, 저정밀도는 최적화를 수행하지 않기 때문에 원래 모델을 저정밀도로 유지하는 것만으로도 관리가 가능하다고 한다.
+저정밀도(적은 비트)가 문제를 일으키지 않냐는 질문에 대해서는, 저정밀도는 최적화를 수행하지 않기 때문에 원래 모델을 저정밀도로 유지하는 것만으로도 관리가 가능하다고 한다.
 
 사실 이게 무슨말인지 잘 모르겠는데, 이는 나중 수업에서 더 자세히 이야기 한다고 한다. 근데 그냥 따로 찾아보았다.
 
@@ -246,12 +245,15 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 
 
 
+**BitFit**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEsLT
-I4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3ODc3MywxMTk4NTYx
-OTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4MjY2NjgsLTE2Mz
-gwMjY1NjgsLTE4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMTY2Nzk0
-ODE3MywtNDM3ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQyNTEyMi
-w0OTQ1NzA1MzgsLTExNTIyMzExNTQsMTAyNzgyOTkxNCw0NzMw
-NDUzNDldfQ==
+eyJoaXN0b3J5IjpbMTU2ODY5MDQ5MSwtMjExNTM2MzMyOSwtMT
+QzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4
+NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2Nj
+gyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAw
+NzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNi
+wxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3
+ODI5OTE0XX0=
 -->
