@@ -301,9 +301,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Contextual Question Answering
 
 
-두 번째는 문맥적 질문 응답(contextual question answering)이다. 이는 실제 문서에 기반한 질문 응답 작업이다. 많이 사용되는 예시 데이터셋은 '자연 질문(natural questions)'이다. 이 데이터셋은 위키피디아 문서나 위키피디아 문서 모음집에 기반한 질문들로 구성되어 있다. 즉, 위키피디아 문서에 기반한다는 것은, 질문에 답해야 하는 실제 문서를 제공받고, 그 문서를 바탕으로 질문에 답해야 한다는 것을 의미합니다.
+두 번째는 문맥적 질문 응답(contextual question answering)이다. 이는 실제 문서에 기반한 질문 응답 작업이다. 많이 사용되는 예시 데이터셋은 '자연 질문(natural questions)'이다. 이 데이터셋은 위키피디아 문서나 위키피디아 문서 모음집에 기반한 질문들로 구성되어 있다. 즉, 위키피디아 문서에 기반한다는 것은, 질문에 답해야 하는 실제 문서를 제공받고, 그 문서를 바탕으로 질문에 답해야 한다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjMxNzIyNjAsLTE5MjQ0MzM0MiwtMT
+eyJoaXN0b3J5IjpbLTEzNDI4OTQ3MTEsLTE5MjQ0MzM0MiwtMT
 UxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3
 NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMD
 EsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0
