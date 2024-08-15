@@ -274,13 +274,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 편의적인 측면에서 LoRA와 BitFit은 모델 아키텍처를 변경하지 않기 때문에, 절대적으로 최고의 정확도가 필요하지 않다면 이런 방법들을 사용하는 것이 좋다고 한다.
 
-정ㅎ
+정확도 측면에서, ㅇ논문에서는 간단한 작업의 경우, 사실 어느 방법을 사용하든 큰 차이가 없음을 발견했습니다. 단순한 분류 작업이라면, BitFit과 같은 간단한 방법도 다른 모든 방법과 비교해 경쟁력이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjAyNzk5MCwxNDU5NTgzNjg3LC0xNz
-E0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0
-MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOT
-kxMDU0NTA5LC0xMDUxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5
-OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwtMTYzODAyNjU2OCwtMT
-gwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNjY3OTQ4MTczLC00Mzc4
-NDU2NDddfQ==
+eyJoaXN0b3J5IjpbLTk4MzM5MTQ3LDE0NTk1ODM2ODcsLTE3MT
+Q1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQz
+LC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OT
+EwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5
+OSw0NTU3MjgyMzUsNjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xOD
+A5OTIzNTYwLC0xODkyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0
+NTY0N119
 -->
