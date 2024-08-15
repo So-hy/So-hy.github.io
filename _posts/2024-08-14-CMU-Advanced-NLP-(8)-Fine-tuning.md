@@ -194,6 +194,7 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 
 또한 양자화에 대해서도 간단히 알아보았다.
 
+
 > **양자화(Quantization)란?**
 > 
 >   
@@ -239,11 +240,11 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 > •  **양자화(Quantization)**는 모델의 가중치를 더 적은 비트로 표현하는 기술입니다. Q-LoRa에서는 모델을 4비트로 압축(양자화)하여 크기를 줄이고, 이 압축된 모델을 이용해 제한된 하드웨어에서도 큰 모델을 효율적으로 실행할 수 있게 합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1OTc0MDkzMiw5OTEwNTQ1MDksLTEwNT
-E5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUs
-NjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xOD
-kyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMy
-ODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMxMTU0LD
-EwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLDgxMTM2
-MDcyNF19
+eyJoaXN0b3J5IjpbLTEwMjY0ODMxMjIsOTkxMDU0NTA5LC0xMD
+UxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1
+LDY2NjgyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMT
+g5MjAwNzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQz
+MjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NC
+wxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MTEz
+NjA3MjRdfQ==
 -->
