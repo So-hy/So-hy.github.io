@@ -108,13 +108,13 @@ layout: post
 
 **LoRa(Low-Rank Adaptation)**
 
-어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다.
+어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다. LoRA에서는 파라미터 매트릭스를 조정할 때, 이를 효율적으로 다루기 위해 두 개의 작은 매트릭스를 사용합니다. 하나는 입력 차원을 줄이는 다운스케일링(downscaling) 매트릭스이고, 다른 하나는 다시 원래 차원으로 확장하는 업스케일링(upscaling) 매트릭스입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjYxNjkzNTMsODExMzYwNzI0LDExNz
-czNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1
-NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLT
-MyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5
-NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOS
-wtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC01MTk5
-MTg1MjRdfQ==
+eyJoaXN0b3J5IjpbNzkzNzY0NzE5LC0xMTY2MTY5MzUzLDgxMT
+M2MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNzMsMzU0OTUwNzM4
+LC0xODEyNDY5NTU5LDEyMjU5MjU2OTYsNDEwODg1NTA4LC0xNz
+QyMTk4MTE1LC0zMjMyMjM0NDAsNzc1OTE4MzQ4LC0xMDYzODM5
+NDQxLC05NTkwOTY1NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLD
+ExNjI3Njg2MTksLTU0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1
+NzM1MV19
 -->
