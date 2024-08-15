@@ -389,6 +389,8 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 또한 In-Context Learning(맥락 학습)을 배우는 것도 가능하다. 맥락 학습이란, 단순히 지시문만 제공하는 대신 학습 예제(training examples)를 함께 제공하는 것이다. 이 논문에서도 마찬가지로 여러 학습 예시를 샘플링하여 컨텍스트에 추가한 후 모델을 학습시킨다. 이렇게 하면 모델이 맥락 학습을 더 잘할 수 있게 된다.
 
 
+
+
 > 좀 더 쉽게 설명하자면, 인 컨텍스트 학습은 모델이 작업을 수행하기 전에 몇 가지 예시(샘플)와 함께 설명을 받는다고 생각하면 된다. 모델은 주어진 맥락에서 이 예시들을 보고, 그에 맞춰 새로운 입력에 대해 예측을 하게 된다.
 > 
 > ### 예시:
@@ -417,8 +419,15 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 > 
 > 이때 모델은 위의 맥락(Context)에서 제공된 두 가지 예시를 참고하여, 새로운 입력에 대한 요약을 생성할 수 있습니다. 예를 들어, "눈과 추운 날씨" 같은 요약을 생성할 수 있다.
 
+
+이를 요약하면 다음과 같다.
+
+-   **기본적인 지침 튜닝 (Instruction Tuning)**: 이 방법은 모델에 다양한 작업에 대한 프롬프트와 입력을 제공하고, 그에 맞는 출력을 생성하도록 학습시키는 방식이다. 이는 주로 여러 작업에 대한 지도 학습을 통해 모델을 튜닝하는 방식입니다. 이 과정에서 모델은 학습된 작업뿐만 아니라 새로운 작업에서도 좋은 성능을 보일 수 있게 됩니다.
+    
+-   **인-컨텍스트 학습을 위한 지침 튜닝 (Instruction Tuning for In-Context Learning)**: 이 방법은 단순히 프롬프트를 제공하는 것이 아니라, 입력에 여러 학습 예시를 포함시켜 모델이 컨텍스트 내에서 학습할 수 있도록 하는 방식입니다. 이는 모델이 컨텍스트 내 학습을 더 잘 수행할 수 있도록 도와주며, 컨텍스트에 학습 예시를 추가하여 모델을 훈련시키는 방식입니다.
+이러한 지침 튜닝의 두 가지 기본적인 방법이 거의 동시에 등장했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMDg1OTY5LDE2OTUzNjkyMjgsMTk1OD
+eyJoaXN0b3J5IjpbMzAxMjkxMDE3LDE2OTUzNjkyMjgsMTk1OD
 czODIwMCwxNzE5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQx
 MDQsLTIyNjM1NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC
 01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5
