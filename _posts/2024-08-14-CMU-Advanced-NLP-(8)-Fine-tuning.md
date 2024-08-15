@@ -85,13 +85,13 @@ layout: post
 첫 번째로, 프리픽스 튜닝(prefix tuning) 방법이 있다. 이는  특정 층의 프리픽스만 튜닝하는 것이다. 프리픽스 튜닝은 프롬프팅처럼 전체 모델을 바꾸지 않고도 모델의 동작을 변경할 수 있는 유연성을 제공하면서, 동시에 파인 튜닝처럼 특정 작업에 맞추어 모델의 성능을 미세 조정할 수 있는 이점을 제공한다. 이 방법에서는 모델의 모든 파라미터를 변경하지 않고, 각 레이어에 소규모의 파라미터만을 Prefix로 추가적인 학습시킨다.
 
 
-다른 방법으로는 Adapters 가 있다. 어댑터는 표준 트랜스포머 아키텍처(혹인 Pre-trained Model) 내에 추가적인 레이를 삽입해 훈련한다. 이 레이어는 주어진 입력을 다운스케일한 후, 다시 업스케일하여 원래의 입력과 결합한다. 이렇게 하면 훈련해야 할 파라미터의 수가 줄어들어 메모리 사용량이 줄어듭니다.
+다른 방법으로는 Adapters 가 있다. 어댑터는 표준 트랜스포머 아키텍처(혹인 Pre-trained Model) 내에 추가적인 레이를 삽입해 훈련한다. 이 레이어는 주어진 입력을 다운스케일한 후, 다시 업스케일하여 원래의 입력과 결합한다. 이렇게 하면 훈련해야 할 파라미터의 수가 줄어들어 메모리 사용량이 줄어든다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDQwNjk3NywtMTc0MjE5ODExNSwtMz
-IzMjIzNDQwLDc3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2
-NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4NjE5LC
-01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkx
-ODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MD
-A3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3
-NDddfQ==
+eyJoaXN0b3J5IjpbNDEwODg1NTA4LC0xNzQyMTk4MTE1LC0zMj
+MyMjM0NDAsNzc1OTE4MzQ4LC0xMDYzODM5NDQxLC05NTkwOTY1
+NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLDExNjI3Njg2MTksLT
+U0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNTE5OTE4
+NTI0LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywtMTgwMD
+c1NzU4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0
+N119
 -->
