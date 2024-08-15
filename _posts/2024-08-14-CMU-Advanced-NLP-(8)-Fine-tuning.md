@@ -256,9 +256,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 기본적으로 파라미터 효율적 튜닝 방법에 대해 고려할 수 있는 여러 가지 요소가 있다. 여기에는 사용하고 있는 비선형성의 기능적 형태, 모델에 이를 삽입하는 위치, 표현을 수정하는 방법, 그리고 수정된 표현을 원래 표현에 추가하는 방법에 대한 조합 함수가 포함된다.
 
 
-위 그림을 보면 알 수 있겠지만, 어댑터(Adapter), LoRA(Low-Rank Adaptation), Prefix Tuning(프리픽스 튜닝) 같은 방법들이 서로 매우 유사하다는 것을 알 수 있다. 이들 간의 차이는 원래의 표현을 어디에서 가져오는가에 있다. 어댑터는 일반적으로 어댑터를 적용하는 모듈 뒤에서 표현을 가져오고, 프리픽스 튜닝은 그 전에 가져오며, LoRA도 프리픽스 튜닝과 마찬가지로 그 전에 가져옵니다.
+위 그림을 보면 알 수 있겠지만, 어댑터(Adapter), LoRA(Low-Rank Adaptation), Prefix Tuning(프리픽스 튜닝) 같은 방법들이 서로 매우 유사하다는 것을 알 수 있다. 이들 간의 차이는 원래의 표현을 어디에서 가져오는가에 있다. 어댑터는 일반적으로 어댑터를 적용하는 모듈 뒤에서 표현을 가져오고, 프리픽스 튜닝은 그 전에 가져오며, LoRA도 프리픽스 튜닝과 마찬가지로 그 전에 가져온다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5NTk5ODU2LDE0NjUxNjM2MTUsLTUxNj
+eyJoaXN0b3J5IjpbMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNj
 c4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5
 NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgzOT
 ExMzk5OSw0NTU3MjgyMzUsNjY2ODI2NjY4LC0xNjM4MDI2NTY4
