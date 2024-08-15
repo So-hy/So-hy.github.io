@@ -352,15 +352,15 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이를 방지하는 방법으로, 테스트 데이터에 약간의 변형을 가하고, 이로 인해 모델의 성능이 얼마나 떨어지는지 테스트하는 방법이 있다. 최근에 나온 논문 중 하나는, MMLU에서 출력 순서를 바꿨을 때 성능이 떨어지는지를 실험한 적이 있습니다. 단순히 답변의 순서를 바꾸는 것이기 때문에 성능에 영향을 미쳐서는 안 되지만, 만약 그렇다면 데이터가 누수되었다는 신호이다. 
 
-또 다른 방법으로는 수학 문제의 숫자를 약간 변경하여 전체 정확도에 영향을 미치는지 확인하는 방법이 있습니다. 이런 방식으로 약간의 변형을 가한 후, 성능에 큰 차이가 있으면 문제가 있다고 판단할 수 있습니다. 이는 기본적인 진단 도구입니다.
+또 다른 방법으로는 수학 문제의 숫자를 약간 변경하는 것처럼 입력을 약간 변형하여 전체 정확도에 영향을 미치는지 확인하는 방법이 있다. 이런 방식으로 약간의 변형을 가한 후, 성능에 큰 차이가 있으면 문제가 있다고 판단할 수 있습니다. 이는 기본적인 진단 도구입니다.
 
 이를 방지하기 위해 할 수 있는 방법으로는, 예를 들어, 파일을 압축하고 암호를 설정하는 등의 간단한 방법이 있습니다. 이렇게 하면 GitHub 전체를 크롤링하는 크롤러도 압축되고 암호가 설정된 파일은 크롤링하지 못할 것입니다. 이러한 방법으로 첫 번째 방어선을 구축할 수 있습니다. 물론 누군가가 압축을 풀고 파일을 다른 곳에 올린다면 문제가 될 수 있지만, 이러한 방식으로 할 수 있는 일들이 있습니다. 또 다른 방법으로는 데이터를 전혀 공개하지 않는 것입니다. 비공개 버전의 데이터를 유지하고, 결과를 다른 사람들에게 공개하지 않는 것입니다. 이 문제는 꽤 까다롭습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyMjQ3MDQ3MiwxNzc1NTMwOTI2LC0xMj
-I3NDU0MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAy
-NjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3ND
-MsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2
-NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1Nz
-Q2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3ODc3Mywx
-MTk4NTYxOTFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDU2NzI4NDIsMTc3NTUzMDkyNiwtMT
+IyNzQ1NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEw
+MjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5Nz
+QzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0
+NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NT
+c0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMs
+MTE5ODU2MTkxXX0=
 -->
