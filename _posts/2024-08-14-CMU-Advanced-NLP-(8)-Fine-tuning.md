@@ -43,12 +43,13 @@ layout: post
 ![Screenshot 2024-08-15 at 12 52 52 PM](https://github.com/user-attachments/assets/209ded55-4025-4173-8b92-03b82d978a88)
 
 
+프롬프트를 사용할 때, 인코더(encoder)를 언어 모델링이나 기타 작업에 대해 훈련한 후 이를 고정(freeze)하고, 프리픽스(prefix)를 사용해 작업을 지정하게 된다. 이전에 레시피 변환과 관련하여 연구를 지
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzYyNTA3LDg2NDcxMjk0LDM2OTcxMz
-M5NiwzOTEzNTUxNywtMTgwMDc1NzU4OSw3MzkxOTgyNzksLTEw
-NjQzNzc0MTYsMTUyNTE0Mjc0Nyw5NDAxMjU5NTksLTQyMTg3MD
-A3MiwxODUzODI5NzE0LC05MDgwMzIwMDEsNTg1MDkyMzA5LDE1
-NjI3Njc4OTgsNzA0MTkzMjYwLC0xMDQwNTAyNTMxLC02NDg2Mj
-U0NjQsLTEyMTYwOTY5MDcsLTE1NDg1Mzk0NzgsLTY5OTE0NjUy
-MV19
+eyJoaXN0b3J5IjpbMTAyNzk2ODA3Nyw4NjQ3MTI5NCwzNjk3MT
+MzOTYsMzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0x
+MDY0Mzc3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5LC00MjE4Nz
+AwNzIsMTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NTA5MjMwOSwx
+NTYyNzY3ODk4LDcwNDE5MzI2MCwtMTA0MDUwMjUzMSwtNjQ4Nj
+I1NDY0LC0xMjE2MDk2OTA3LC0xNTQ4NTM5NDc4LC02OTkxNDY1
+MjFdfQ==
 -->
