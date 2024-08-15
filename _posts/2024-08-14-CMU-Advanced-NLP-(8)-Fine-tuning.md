@@ -49,9 +49,9 @@ layout: post
 ![Screenshot 2024-08-15 at 1 43 59 PM](https://github.com/user-attachments/assets/2d8e14de-e351-4997-b57d-ffdf5f0d847a)
 
 
-그림으로 표현하면 위와 같다. 사전 학습도
+그림으로 표현하면 위와 같다. 사전 학습된 언어 모델은 여러 작업 (B, C, D 등)에 대해 지시(instruction) 기반으로 튜닝된다. 여기서 지시 기반 튜닝은 자연어 지시를 통해 모델을 다양한 작업에 맞게 조정하는 것을 의미한다. 지시 기반 튜닝이 완료된 모델은 새로운, 이전에 보지 못한 작업(Task A)에 대해 추론을 수행한다. 이때 모델은 이전에 학습된 다양한 작업들에 대한 경험을 활용하여 새로운 작업을 잘 수행할 수 있게 된다는게 인스트럭션 튜닝의 핵심이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzI1NzA4MzIsNzAyNTczNjYwLDE1OT
+eyJoaXN0b3J5IjpbLTE1NDA0NjUxNTMsNzAyNTczNjYwLDE1OT
 M5NTczNTEsLTUxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYs
 MzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mz
 c3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIs
