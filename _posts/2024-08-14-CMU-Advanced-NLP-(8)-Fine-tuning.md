@@ -328,13 +328,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Informatin Extraction
 
 
-다음으로 정보 추출 작업이 있다. 정보 추출 작업은 텍스트에서 구조화된 형식으로 정보를 추출하는 작업을 말하며, 엔티티 인식(entity recognition), 엔티티 연결(entity linking), 엔티티 공동 참조(entity co-reference), 이벤트 인식(event recognition) 등 다양한 예시가 있다. 예시 데이터셋으로는 OntoNotes가 있다. 이는 다소 오래된 데이터셋이지만, 이러한 작업들이 모두 주석 처리되어 있으며, 이를 통해 정보를 추출할 수 있습니다. 이 외에도 많은 다른 데이터셋들이 있습니다.
+다음으로 정보 추출 작업이 있다. 정보 추출 작업은 텍스트에서 구조화된 형식으로 정보를 추출하는 작업을 말하며, 엔티티 인식(entity recognition), 엔티티 연결(entity linking), 엔티티 공동 참조(entity co-reference), 이벤트 인식(event recognition) 등 다양한 예시가 있다. 예시 데이터셋으로는 OntoNotes가 있다. 이는 다소 오래된 데이터셋이지만, 이러한 작업들이 모두 주석 처리되어 있으며, 이를 통해 정보를 추출할 수 있다. 이 외에도 많은 다른 데이터셋들이 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5NjI1Njc3MCwtMTIyNzQ1NDEwNCwtMj
-I2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4
-NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2OD
-csLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUx
-Njc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MD
-Y5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgz
-OTExMzk5OV19
+eyJoaXN0b3J5IjpbNDg5NDIzNjUwLC0xMjI3NDU0MTA0LC0yMj
+YzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0
+MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4Ny
+wtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2
+Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNj
+k0LDk5MTA1NDUwOSwtMTA1MTk3ODc3MywxMTk4NTYxOTEsODM5
+MTEzOTk5XX0=
 -->
