@@ -258,12 +258,15 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 위 그림을 보면 알 수 있겠지만, 어댑터(Adapter), LoRA(Low-Rank Adaptation), Prefix Tuning(프리픽스 튜닝) 같은 방법들이 서로 매우 유사하다는 것을 알 수 있다. 이들 간의 차이는 원래의 표현을 어디에서 가져오는가에 있다. 어댑터는 일반적으로 어댑터를 적용하는 모듈 뒤에서 표현을 가져오고, 프리픽스 튜닝은 그 전에 가져오며, LoRA도 프리픽스 튜닝과 마찬가지로 그 전에 가져온다.
+
+
+비선형성(non-linearity)이 무엇인지도 중요합니다. ReLU, Softmax, 또는 아무 것도 없을 수 있습니다. LoRA의 경우, 논문에서는 명시적으로 언급되지 않았지만 실제 코드에서는 스칼라 스케일링 팩터(scalar scaling factor)라는 하이퍼 파라미터가 포함되어 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjgwNzI2MSwyMzg5NTczMDEsMTQ2NT
-E2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2
-MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3ODc3MywxMT
-k4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4MjY2Njgs
-LTE2MzgwMjY1NjgsLTE4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMT
-Y2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQy
-NTEyMl19
+eyJoaXN0b3J5IjpbLTM5NDMwNzUzLDIzODk1NzMwMSwxNDY1MT
+YzNjE1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYy
+MSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOT
+g1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwt
+MTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNj
+Y3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNiwxNjU0NDI1
+MTIyXX0=
 -->
