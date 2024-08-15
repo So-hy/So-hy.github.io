@@ -443,13 +443,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Dataset Generation
 
 
-본 강의에서 마지막으로 이야기하는 것은 데이터셋 생성이다. 인스트럭션 튜닝 데이터셋을 자동으로 생성하는 것이 가능하다고 한다. 이와 관련된 대표적인 예는 Self-Instruct이다. Self-Instruct의 작동 방식은 몇 가지 작업에 대한 Instruction과 예시를 포함한 시드 작업(seed tasks)을 풀에 던져놓고, 이를 기반으로 새로운 작업을 생성하는 것입니다.
+본 강의에서 마지막으로 이야기하는 것은 데이터셋 생성이다. 인스트럭션 튜닝 데이터셋을 자동으로 생성하는 것이 가능하다고 한다. 이와 관련된 대표적인 예는 Self-Instruct이다. Self-Instruct의 작동 방식은 몇 가지 작업에 대한 Instruction과 예시를 포함한 시드 작업(seed tasks)을 풀에 던져놓고, 이를 기반으로 새로운 작업을 생성하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzODkyNjQwNzYsMTY5NTM2OTIyOCwxOT
-U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
-NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
-ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
-NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
-M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
-LC0yODM0MDY5NF19
+eyJoaXN0b3J5IjpbLTkyNzQ4NDYxOSwxNjk1MzY5MjI4LDE5NT
+g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
+MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
+wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
+OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
+YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
+LTI4MzQwNjk0XX0=
 -->
