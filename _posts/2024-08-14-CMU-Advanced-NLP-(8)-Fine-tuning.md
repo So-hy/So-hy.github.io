@@ -55,9 +55,9 @@ layout: post
 ## Fine-Tuning
 
 
-이 챕터에선 파인 튜닝, 그 중 대규모 모델에 대한 파인 튜닝에 대해 이야기한다. 파인 튜닝의 전체적인 개념은 비교적 간단하다. 언어 모델을 계속 훈련시키면서 원하는 데이터에 맞추는 것이다. 하지만 이러한 훈련 방식은 메모리를 많이 차지하며, 다른 대안에 비해 상대적으로 불안정할 수 있다. 여기서 Full Fine-tuning은 사전 학습된 모델의 모든 파라미터를 대상 작업(task)에 맞게 조정하는 것
+이 챕터에선 파인 튜닝, 그 중 대규모 모델에 대한 파인 튜닝에 대해 이야기한다. 파인 튜닝의 전체적인 개념은 비교적 간단하다. 언어 모델을 계속 훈련시키면서 원하는 데이터에 맞추는 것이다. 하지만 이러한 훈련 방식은 optimizer method에 의존하는데, 이 때문에 메모리를 많이 차지하며, 다른 대안에 비해 상대적으로 불안정할 수 있다. 여기서 Full Fine-tuning은 사전 학습된 모델의 모든 파라미터를 대상 작업(task)에 맞게 조정하는 것이고, 일반적으로 말하는 Fine-Tuning은 사전 학습된 모델의 일부 파라미터를 조정하는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4NjQ1NTM4MywxMTYyNzY4NjE5LC01ND
+eyJoaXN0b3J5IjpbLTQ0MDE5NTk3MCwxMTYyNzY4NjE5LC01ND
 AyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkxODUy
 NCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MDA3NT
 c1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcs
