@@ -429,9 +429,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이러한 지침 튜닝의 두 가지 기본적인 방법이 거의 동시에 등장했다. 또한 여러 데이터셋들이 컴파일되었으며, 지침 튜닝을 하려면 이러한 데이터셋 중 하나를 사용하는 것이 좋다.
 
-강력히 추천하는 논문은 FLAN 컬렉션에 관한 논문입니다. 이 논문은 좋은 개요를 제공하며, 데이터셋 이름, 학습 데이터 크기, 프롬프트 사용 여부(제로 샷, 몇 샷 등), 작업 수, 세부 방법 등을 기준으로 표로 정리해 놓았습니다. 이 논문에서 소개된 데이터셋 중 많은 사람들이 사용하는 인기 있는 데이터셋은 FLAN 컬렉션, Natural Instructions, Self-Instruct 등이 있습니다.
+여기서 교수가 강력히 추천하는 논문은 FLAN 컬렉션에 관한 논문입니다. 이 논문은 좋은 개요를 제공하며, 데이터셋 이름, 학습 데이터 크기, 프롬프트 사용 여부(제로 샷, 몇 샷 등), 작업 수, 세부 방법 등을 기준으로 표로 정리해 놓았다고 한다. 이 논문에서 소개된 데이터셋 중 많은 사람들이 사용하는 인기 있는 데이터셋은 FLAN 컬렉션, Natural Instructions, Self-Instruct 등이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0OTkzOTE3NSwxNjk1MzY5MjI4LDE5NT
+eyJoaXN0b3J5IjpbMTAwMjQ3OTEyMiwxNjk1MzY5MjI4LDE5NT
 g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
 MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
 wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
