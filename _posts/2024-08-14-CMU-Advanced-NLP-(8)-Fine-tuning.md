@@ -415,10 +415,10 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 >     `입력: "어제는 눈이 내렸고, 온도는 매우 추웠습니다."` 
 >     
 > 
-> 이때 모델은 위의 맥락(Context)에서 제공된 두 가지 예시를 참고하여, 새로운 입력에 대한 요약을 생성할 수 있습니다. 예를 들어, "눈과 추운 날씨" 같은 요약을 생성할 수 있겠죠.
+> 이때 모델은 위의 맥락(Context)에서 제공된 두 가지 예시를 참고하여, 새로운 입력에 대한 요약을 생성할 수 있습니다. 예를 들어, "눈과 추운 날씨" 같은 요약을 생성할 수 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzE4MzQ2OCwxOTU4NzM4MjAwLDE3MT
+eyJoaXN0b3J5IjpbMTY5NTM2OTIyOCwxOTU4NzM4MjAwLDE3MT
 k4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2
 NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OS
 wtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3
