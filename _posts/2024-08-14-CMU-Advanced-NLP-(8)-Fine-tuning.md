@@ -115,9 +115,9 @@ layout: post
 
 •  **다운스케일링 매트릭스 초기화**: 다운스케일링 매트릭스는 0으로 초기화하거나 무작위(random)로 초기화할 수 있다. 다만, 이 매트릭스는 보통 무작위로 초기화된다. 다운스케일링 매트릭스가 무작위로 초기화되는 이유는 모델이 학습하면서 입력 차원을 조정하기 위해 필요로 하는 유연성을 제공하기 위함이다.
 
-LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행렬  A 와  B 를 도입하여 사전 학습된 가중치와 업데이트된 가중치 간의 차이를 근사합니다. 여기서 행렬  A 는 정규 분포에서 초기화되고, 행렬  B 는 0으로 초기화됩니다. 이 방법은 학습해야 할 파라미터 수를 줄여 미세 조정 과정의 효율성을 높입니다.
+LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행렬  A 와  B 를 도입하여 사전 학습된 가중치와 업데이트된 가중치 간의 차이를 근사한다. 여기서 행렬  A 는 정규 분포에서 초기화되고, 행렬  B 는 0으로 초기화됩니다. 이 방법은 학습해야 할 파라미터 수를 줄여 미세 조정 과정의 효율성을 높입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAwNzA5NjMsMTAyNzgyOTkxNCw0Nz
+eyJoaXN0b3J5IjpbLTExNTIyMzExNTQsMTAyNzgyOTkxNCw0Nz
 MwNDUzNDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNzczNTc2
 MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMT
 IyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIy
