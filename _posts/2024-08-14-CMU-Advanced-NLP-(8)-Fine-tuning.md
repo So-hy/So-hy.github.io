@@ -43,13 +43,15 @@ layout: post
 ![Screenshot 2024-08-15 at 12 52 52 PM](https://github.com/user-attachments/assets/209ded55-4025-4173-8b92-03b82d978a88)
 
 
-프롬프트를 사용할 때, 인코더(encoder)를 언어 모델링이나 기타 작업에 대해 훈련한 후 이를 고정(freeze)하고, 프리픽스(prefix)를 사용해 작업을 지정하게 된다. 이전에 레시피 변환과 관련하여 연구를 진행한 적이 있었는데 그 때도, "Make this recipe to ~~" 이런 식으로 Prefix로 사용해 작업을 지정했다. 인스트럭션 튜닝(Instruction Tuning)은 이런 프롬프트와 파인 튜닝을 결합한 형태이다. 일반적으로 프리트레인(pre-train)을 한 후, 특정 작업에 대해 모델을 훈련시키고, 주어진 프롬프트에 따라 적절한 응답을 생성하도록 모델을 조정g
+프롬프트를 사용할 때, 인코더(encoder)를 언어 모델링이나 기타 작업에 대해 훈련한 후 이를 고정(freeze)하고, 프리픽스(prefix)를 사용해 작업을 지정하게 된다. 이전에 레시피 변환과 관련하여 연구를 진행한 적이 있었는데 그 때도, "Make this recipe to ~~" 이런 식으로 Prefix로 사용해 작업을 지정했다. 인스트럭션 튜닝(Instruction Tuning)은 이런 프롬프트와 파인 튜닝을 결합한 형태이다. 일반적으로 프리트레인(pre-train)을 한 후, 특정 작업에 대해 모델을 훈련시키고, 주어진 프롬프트에 따라 적절한 응답을 생성하도록 모델을 조정한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1MTg3MjQyLC01MTk5MTg1MjQsODY0Nz
-EyOTQsMzY5NzEzMzk2LDM5MTM1NTE3LC0xODAwNzU3NTg5LDcz
-OTE5ODI3OSwtMTA2NDM3NzQxNiwxNTI1MTQyNzQ3LDk0MDEyNT
-k1OSwtNDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAwMSw1
-ODUwOTIzMDksMTU2Mjc2Nzg5OCw3MDQxOTMyNjAsLTEwNDA1MD
-I1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMTU0ODUzOTQ3
-OF19
+eyJoaXN0b3J5IjpbMTU5Mzk1NzM1MSwtNTE5OTE4NTI0LDg2ND
+cxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywtMTgwMDc1NzU4OSw3
+MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0Nyw5NDAxMj
+U5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMzIwMDEs
+NTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYwLC0xMDQwNT
+AyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5MDcsLTE1NDg1Mzk0
+NzhdfQ==
 -->
