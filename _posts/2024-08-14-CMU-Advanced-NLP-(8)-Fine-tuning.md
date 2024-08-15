@@ -129,13 +129,13 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 
 기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것이다.
 
-어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습됩니다. 예를 들어, 많은 질문-응답 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지입니다.
+어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습된다. 예를 들어, 많은 질문-응답 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzk2MTQyMDM0LC00Mzc4NDU2NDcsLTY4Nz
-QzMjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1
-NCwxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MT
-EzNjA3MjQsMTE3NzM1NzYyLC0xNjg5MTYxMzczLDM1NDk1MDcz
-OCwtMTgxMjQ2OTU1OSwxMjI1OTI1Njk2LDQxMDg4NTUwOCwtMT
-c0MjE5ODExNSwtMzIzMjIzNDQwLDc3NTkxODM0OCwtMTA2Mzgz
-OTQ0MV19
+eyJoaXN0b3J5IjpbMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02OD
+c0MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNTIyMzEx
+NTQsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNjYxNjkzNTMsOD
+ExMzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3
+MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLT
+E3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNjM4
+Mzk0NDFdfQ==
 -->
