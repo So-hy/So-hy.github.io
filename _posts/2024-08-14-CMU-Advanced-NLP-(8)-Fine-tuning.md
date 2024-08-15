@@ -467,10 +467,8 @@ Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성�
     
     -   **언제 선택할까?**: 다양한 작업을 처리할 수 있는 범용적인 모델이 필요할 때.
     -   **장점**: 여러 작업에서 고르게 좋은 성능을 보이는 모델을 만들 수 있으며, 새로운 작업에도 적응할 수 있다. 특히, 작업의 형식이 고정되어 있거나 특정한 형식으로 결과를 내야 할 때 유용할 수 있다.
-
-마지막으로, "175개의 시드 예시" 부분은 Self-Instruct라는 방법을 설명하는 것으로, 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTQ0MTc0MzgsMTY5NTM2OTIyOCwxOT
+eyJoaXN0b3J5IjpbLTEzNDU3OTkyNjEsMTY5NTM2OTIyOCwxOT
 U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
 NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
 ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
