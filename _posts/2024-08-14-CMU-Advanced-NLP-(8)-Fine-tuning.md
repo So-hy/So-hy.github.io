@@ -55,13 +55,13 @@ layout: post
 ## Fine-Tuning
 
 
-이 챕터에선 파인 튜닝, 그 중 대규모 모델에 대한 파인 튜닝에 대해 이야기한다.
+이 챕터에선 파인 튜닝, 그 중 대규모 모델에 대한 파인 튜닝에 대해 이야기한다. 파인 튜닝의 전체적인 개념은 비교적 간단하다. 언어 모델을 계속 훈련시키면서 원하는 데이터에 맞추는 것이다. 하지만 이러한 훈련 방식은 메모리를 많이 차지하며, 다른 대안에 비해 상대적으로 불안정할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMj
-U3MzY2MCwxNTkzOTU3MzUxLC01MTk5MTg1MjQsODY0NzEyOTQs
-MzY5NzEzMzk2LDM5MTM1NTE3LC0xODAwNzU3NTg5LDczOTE5OD
-I3OSwtMTA2NDM3NzQxNiwxNTI1MTQyNzQ3LDk0MDEyNTk1OSwt
-NDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAwMSw1ODUwOT
-IzMDksMTU2Mjc2Nzg5OCw3MDQxOTMyNjAsLTEwNDA1MDI1MzFd
-fQ==
+eyJoaXN0b3J5IjpbLTk0MDk1NzU2OCwxMTYyNzY4NjE5LC01ND
+AyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkxODUy
+NCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MDA3NT
+c1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcs
+OTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwtOTA4MD
+MyMDAxLDU4NTA5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2MF19
+
 -->
