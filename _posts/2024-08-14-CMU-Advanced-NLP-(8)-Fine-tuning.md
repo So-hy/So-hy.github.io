@@ -57,13 +57,13 @@ layout: post
 
 이 챕터에선 파인 튜닝, 그 중 대규모 모델에 대한 파인 튜닝에 대해 이야기한다. 파인 튜닝의 전체적인 개념은 비교적 간단하다. 언어 모델을 계속 훈련시키면서 원하는 데이터에 맞추는 것이다. 여기서 Full Fine-tuning은 사전 학습된 모델의 모든 파라미터를 대상 작업(task)에 맞게 조정하는 것이고, 일반적으로 말하는 Fine-Tuning은 사전 학습된 모델의 일부 파라미터를 조정하는 것을 의미한다. 하지만 이러한 훈련 방식은 최적화를 위해 optimizer 의 optimization method에 의존하는데, 이 때문에 메모리를 많이 차지하며, 다른 대안에 비해 상대적으로 불안정할 수 있다. 
 
-예를 들어, 65억 개의 파라미터를 가진 모델을 훈련한다고 가정했을 때, 이 경우 16비트 혼합 정밀도를 사용하면 메모리 요구량이 매우 높아진다. 65억 개의 파라미터에 각각 2Byte(16but)를 할당했을 때,이는 130GB(65 * 2)의 메모리가 필요하다. 그리고 그라디언트(gradient)를 저장하기 위해 또 다른 130GB의 메모리가 필요합니다. 옵티마이저(optimizer)도 메모리를 차지하며(언더-오버플로우 이슈때문에 심지어 얘들은 각 부분에 4b씩 할당함, 그리고 편차와 분산때문에 두 개의 order을 저장하고, 16비트 파라미터를 32비트로 저장할 공간도 필요. 즉, 65*4*3 이라는 미친 용량이 됌), 이는 모델 훈련을 위해 필요한 메모리의 총량을 더욱 증가시킨다. 심지어 이는 파라미터에 대한 용량이고 거기에 더해, 순전파와 역전파가 일어나는 pass에 대한 용량도 추가로 필요하다. 대충 이렇게 계산하면 1,000 에서 1,400GB의 GPU메모리가
+예를 들어, 65억 개의 파라미터를 가진 모델을 훈련한다고 가정했을 때, 이 경우 16비트 혼합 정밀도를 사용하면 메모리 요구량이 매우 높아진다. 65억 개의 파라미터에 각각 2Byte(16but)를 할당했을 때,이는 130GB(65 * 2)의 메모리가 필요하다. 그리고 그라디언트(gradient)를 저장하기 위해 또 다른 130GB의 메모리가 필요합니다. 옵티마이저(optimizer)도 메모리를 차지하며(언더-오버플로우 이슈때문에 심지어 얘들은 각 부분에 4b씩 할당함, 그리고 편차와 분산때문에 두 개의 order을 저장하고, 16비트 파라미터를 32비트로 저장할 공간도 필요. 즉, 65*4*3 이라는 미친 용량이 됌), 이는 모델 훈련을 위해 필요한 메모리의 총량을 더욱 증가시킨다. 심지어 이는 파라미터에 대한 용량이고 거기에 더해, 순전파와 역전파가 일어나는 pass에 대한 용량도 추가로 필요하다. 대충 이렇게 계산하면 1,000 에서 1,400GB의 GPU메모리가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyOTkwMTUxLDExNjI3Njg2MTksLTU0MD
-I5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNTE5OTE4NTI0
-LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywtMTgwMDc1Nz
-U4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0Nyw5
-NDAxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMz
-IwMDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYwXX0=
+eyJoaXN0b3J5IjpbMTgwOTEzMDg4NywxMTYyNzY4NjE5LC01ND
+AyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkxODUy
+NCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MDA3NT
+c1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcs
+OTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwtOTA4MD
+MyMDAxLDU4NTA5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2MF19
 
 -->
