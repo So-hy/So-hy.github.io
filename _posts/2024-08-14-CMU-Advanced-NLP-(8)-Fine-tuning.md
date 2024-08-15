@@ -106,14 +106,15 @@ layout: post
 
 추가로 계산 그래프 체크포인팅(Checkpointing)이라는 기법도 있다. 이 기법은 계산 그래프의 일부를 계산한 후, 중간 상태를 버리고, 나중에 필요할 때 다시 계산하는 방식이다. 예를 들어, 그래프의 일부를 따라 포워드 패스(forward pass)를 수행하고, 중간 계산 상태를 버린 다음, 백워드 패스(backward pass)를 수행할 때 다시 그 상태를 계산할 수 있다. 이렇게 하면 메모리 사용을 더욱 효율적으로 관리할 수 있다고 한다.
 
+**LoRa(Low-Rank Adaptation)**
 
-어댑터와 유사한 방버
+어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0MjA2NzIyNyw4MTEzNjA3MjQsMTE3Nz
-M1NzYyLC0xNjg5MTYxMzczLDM1NDk1MDczOCwtMTgxMjQ2OTU1
-OSwxMjI1OTI1Njk2LDQxMDg4NTUwOCwtMTc0MjE5ODExNSwtMz
-IzMjIzNDQwLDc3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2
-NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4NjE5LC
-01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkx
-ODUyNF19
+eyJoaXN0b3J5IjpbLTExNjYxNjkzNTMsODExMzYwNzI0LDExNz
+czNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1
+NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLT
+MyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5
+NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOS
+wtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC01MTk5
+MTg1MjRdfQ==
 -->
