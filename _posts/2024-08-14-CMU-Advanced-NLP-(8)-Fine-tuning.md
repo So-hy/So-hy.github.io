@@ -458,7 +458,7 @@ Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성�
     
     -   **언제 선택할까?**: 특정 작업에 대해 매우 명확한 목표와 충분한 훈련 데이터를 가지고 있는 경우.
     -   **장점**: 큰 모델에서 약간의 성능 향상을 기대할 수 있지만, 특히 작은 모델에서는 더 큰 성능 향상을 기대할 수 있습니다. 이는 작은 모델이 여러 작업을 동시에 처리하기엔 한계가 있지만, 특정 작업에 집중해서 성능을 최적화할 수 있기 때문입니다.
-    -   **예시**: 예를 들어, LaMMa 7B라는 모델을 사용해 텍스트-쿼리 작업에 대해 많은 데이터를 사용해 미세 조정을 한다면, 이 작업에 특화된 강력한 모델을 만들 수 있습니다. 번역 작업에서도, NLLB라는 33억 개의 파라미터를 가진 모델이 GPT-4보다 특정 언어에서 더 나은 성능을 보일 수 있습니다.
+    -   **예시**: 예를 들어, LaMMa 7B라는 모델을 사용해 텍스트-쿼리 작업에 대해 많은 데이터를 사용해 미세 조정을 한다면, 이 작업에 특화된 강력한 모델을 만들 수 있습니다. 번역 작업에서도, NLLB라는 33억 개의 파라미터를 가진 모델이 GPT-4보다 특정 언어에서 더 나은 성능을 보일 수 있다.
 2.  **지침 튜닝 (Instruction Tuning)**:
     
     -   **언제 선택할까?**: 다양한 작업을 처리할 수 있는 범용적인 모델이 필요할 때.
@@ -466,11 +466,11 @@ Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성�
 
 마지막으로, "175개의 시드 예시" 부분은 Self-Instruct라는 방법을 설명하는 것으로, 초기 데이터셋을 가지고 모델을 학습시킨 다음, 그 모델을 사용해 새로운 예시와 작업을 생성하는 과정을 말합니다. 즉, 기본적인 예시를 제공한 후, 모델이 새로운 작업을 생성하도록 유도하는 방식입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwNDMyOTQyLDE2OTUzNjkyMjgsMTk1OD
-czODIwMCwxNzE5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQx
-MDQsLTIyNjM1NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC
-01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5
-NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNj
-E1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwt
-MjgzNDA2OTRdfQ==
+eyJoaXN0b3J5IjpbLTE5MzIzMTMwMSwxNjk1MzY5MjI4LDE5NT
+g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
+MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
+wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
+OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
+YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
+LTI4MzQwNjk0XX0=
 -->
