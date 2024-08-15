@@ -248,13 +248,13 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 **BitFit**
 
 
-BitFit은 모델의 바이어스만 학습하는 것이다. 바이어스가 있는 모델에서는 매우 간단한 방법으로, 추가적인 코드를 추가할 필요 없이 모든 파라미터를 동결하고 바이어스만 학습하면 된다. 이러한 관점에서 매우 간단하다.
+BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스가 있는 모델에서는 매우 간단한 방법으로, 추가적인 코드를 추가할 필요 없이 모든 파라미터를 동결하고 바이어스만 학습하면 된다. 이러한 관점에서 매우 간단하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxODg2MzY4MCwtMjExNTM2MzMyOSwtMT
-QzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4
-NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2Nj
-gyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAw
-NzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNi
-wxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3
-ODI5OTE0XX0=
+eyJoaXN0b3J5IjpbLTE0NDYzNDA0NDgsLTIxMTUzNjMzMjksLT
+E0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3
+ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2Nj
+Y4MjY2NjgsLTE2MzgwMjY1NjgsLTE4MDk5MjM1NjAsLTE4OTIw
+MDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0MzI4Mz
+YsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNTQsMTAy
+NzgyOTkxNF19
 -->
