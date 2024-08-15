@@ -296,8 +296,12 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 첫 번째는 문맥 없는 질문 응답(context-free question answering), 일명 오픈북 QA이다. 기본적으로 이는 특정 문서에 의존하지 않고 질문에 답하는 것이다. ChatGPT가 웹에서 무언가를 검색하지 않고 질문에 답할 때 발생하는 일과 같다고 보면 된다.
 
 예시로 많이 사용되는 데이터셋은 MMLU이다. 이것은 다중 작업 언어 이해(massively multitask language understanding) 데이터셋이며, 전문 법률과 같은 비교적 어려운 분야의 질문들을 포함하고 있다. 예를 들어, '판매원이 무단 침입자들은 기소될 것이라는 표지를 무시하고 은둔자의 집에 들어갔다. 그는 진입로를 따라 차를 몰고 갔고, 폭발물이 터져서 부상을 입었다. 판매원이 은둔자에게 손해 배상을 청구할 수 있는가?'와 같은 질문이 있다. 이와 같은 다양한 카테고리의 질문들이 있다.
+
+
+### Contextual question answering
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MjcyNjAwNSwtMTUxMTAyNjQ0OSwtNT
+eyJoaXN0b3J5IjpbLTY4MTI3MjI0OSwtMTUxMTAyNjQ0OSwtNT
 A5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1OTU4
 MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2MzYxNS
 wtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEsLTI4
