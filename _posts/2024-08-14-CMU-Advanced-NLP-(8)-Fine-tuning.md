@@ -134,12 +134,14 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습된다. 예를 들어, 많은 질문-응답(QA) 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지로 학습할 수 있다.
 
 그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 됩니다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDc3NzI0LC0xODA5OTIzNTYwLC0xOD
-kyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMy
-ODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMxMTU0LD
-EwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLDgxMTM2
-MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNzMsMzU0OTUwNzM4LC
-0xODEyNDY5NTU5LDEyMjU5MjU2OTYsNDEwODg1NTA4LC0xNzQy
-MTk4MTE1XX0=
+eyJoaXN0b3J5IjpbLTE2MzgwMjY1NjgsLTE4MDk5MjM1NjAsLT
+E4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0
+MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNT
+QsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNjYxNjkzNTMsODEx
+MzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3Mz
+gsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3
+NDIxOTgxMTVdfQ==
 -->
