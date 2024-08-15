@@ -61,13 +61,15 @@ layout: post
 
 (물론 2019년 이후 몇 가지 최적화 방법이 발전했기 때문에, 예를 들어, BF16(Brain Float 16)이라는 새로운 숫자 형식을 사용하면 더 작은 메모리로 더 안정적인 훈련이 가능하다. 또한, 이 방법을 통해 추가적인 파라미터 사본을 필요로 하지 않으며, 메모리 요구량을 줄일 수 있다. 그러나 여전히 많은 메모리가 필요하며, 이는 단일 GPU로는 처리하기 어렵다.)
 
-따라서 풀 파인 튜닝은 상당히 메모리 적이다.
+따라서 풀 파인 튜닝은 상당히 메모리 집약적이다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTM0NDEzMTU3LDExNjI3Njg2MTksLTU0MD
-I5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNTE5OTE4NTI0
-LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywtMTgwMDc1Nz
-U4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0Nyw5
-NDAxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMz
-IwMDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYwXX0=
+eyJoaXN0b3J5IjpbMTgzODY4NDUzMywxMTYyNzY4NjE5LC01ND
+AyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkxODUy
+NCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MDA3NT
+c1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcs
+OTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwtOTA4MD
+MyMDAxLDU4NTA5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2MF19
 
 -->
