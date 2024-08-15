@@ -277,8 +277,14 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 **정확도 측면**에서, "Which one to choose?"(He et al. 2021) 논문에서는 간단한 작업의 경우, 사실 어느 방법을 사용하든 큰 차이가 없음을 발견했다. 단순한 분류 작업이라면, BitFit과 같은 간단한 방법도 다른 모든 방법과 비교해 경쟁력이 있다.
 
 더 복잡한 작업, 그리고 작은 파라미터 예산(파라미터의 수가 제한적)의 경우, 프리픽스 튜닝이 좋은 결과를 낸다는 것을 발견했다. 이는 보편적인 결과는 아니지만, 위 논문에서 발견된 결과이다. 더 복잡한 작업과 더 큰 파라미터 예산(사용할 수 있는 파라미터 수가 충분히 많음)이 있는 경우, 어댑터나 여러 방법을 혼합한 방법이 더 나은 결과를 얻을 수 있다고 한다.
+
+
+## NLP Tasks
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNTM3MDk5NSwxNDU5NTgzNjg3LC0xNz
+eyJoaXN0b3J5IjpbLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0xNz
 E0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0
 MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOT
 kxMDU0NTA5LC0xMDUxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5
