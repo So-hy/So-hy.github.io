@@ -153,13 +153,16 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 
 저정밀도가 문제를 일으키지 않냐는 질문에 대해서는, 저정밀도는 최적화를 수행하지 않기 때문에 원래 모델을 저정밀도로 유지하는 것만으로도 관리가 가능하다고 한다.
 
-사실 이게 무슨말인지 
+사실 이게 무슨말인지 잘 모르겠는데, 이는 나중 수업에서 더 자세히 이야기 한다고 한다. 근데 그냥 따로 찾아보았다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDk0NDU4MiwtMTA1MTk3ODc3MywxMT
-k4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4MjY2Njgs
-LTE2MzgwMjY1NjgsLTE4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMT
-Y2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQy
-NTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNTQsMTAyNzgyOTkxNC
-w0NzMwNDUzNDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNzcz
-NTc2Ml19
+eyJoaXN0b3J5IjpbOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOT
+g1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwt
+MTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNj
+Y3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNiwxNjU0NDI1
+MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3ODI5OTE0LD
+Q3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MTEzNjA3MjQsMTE3NzM1
+NzYyXX0=
 -->
