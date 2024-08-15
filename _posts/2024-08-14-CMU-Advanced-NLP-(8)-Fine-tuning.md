@@ -287,13 +287,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 기본적으로 파인 튜닝의 목적(접근)은 특정 작업을 잘 수행할 수 있는 모델을 구축하는 것이고, 인스트럭션 튜닝(instruction tuning)은 여러 작업에 잘 맞는 일반적인 모델을 구축하는 것이다.
 
-이 뒤에서 다루는 내용은 실제 산업에서 NLP 모델을 활용할 때 매우 중요한 작업들이며, 또 하나는 사람들이 일반적인 모델(특히 GPT 논문이나 Gemini 논문)을 평가할 때 사용되는 작업들에 대한 것이다.예를 들어, 그들이 모델이 잘 작동하는지 증명하기 위해 사용하는 작업들입니다.
+이 뒤에서 다루는 내용은 실제 산업에서 NLP 모델을 활용할 때 매우 중요한 작업들이며, 또 하나는 사람들이 생성 모델(특히 GPT 논문이나 Gemini 논문)을 평가할 때 사용되는 작업들에 대한 것이다.예를 들어, 그들이 모델이 잘 작동하는지 증명하기 위해 사용하는 작업들입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxND
-U5NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYz
-NjE1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMS
-wtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOTg1
-NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwtMT
-YzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNjY3
-OTQ4MTczXX0=
+eyJoaXN0b3J5IjpbMTAyNTc1Nzc4NCwtMTU3NDQ1NTMwMywtMT
+M2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3
+MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC
+0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5
+Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUsNj
+Y2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xODky
+MDA3OTI4XX0=
 -->
