@@ -301,13 +301,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Contextual Question Answering
 
 
-두 번째는 문맥적 질문 응답(contextual question answering)이다. 이는 실제 문서에 기반한 질문 응답 작업이다. 많이 사용되는 예시 데이터셋은 '자연 질문(natural questions)'이다. 이 데이터셋은 위키피디아 문서나 위키피디아 문서 모음집에 기반한 질문들로 구성되어 있다. 즉, 위키피디아 문서에 기반한다는 것은, 질문에 답해야 하는 실제 문서를 제공받고, 그 문서를 바탕으로 질문에 답해야 한다는 것을 의미한다. 이러한 작업은 종종 '문서 읽기(machine reading)'라고도 하는데, 그 이유는 문서를 읽고 그에 대한 질문에 답하기 때문이다. 또는 "위키피디아 전체를 제공할 테니, 이 질문에 대한 답을 제공하세요"라는 형태로 진행되기도 합니다. 이를 '검색 기반 질문 응답(retrieval-based question answering)' 또는 '검색 보강된 생성(retrieval augmented generation, RAG)'이라고 부릅니다. 이는 정말로 중요합니다. 많은 사람들이 실제 시스템을 구축할 때, 이 종류의 작업을 수행하려고 합니다.
+두 번째는 문맥적 질문 응답(contextual question answering)이다. 이는 실제 문서에 기반한 질문 응답 작업이다. 많이 사용되는 예시 데이터셋은 '자연 질문(natural questions)'이다. 이 데이터셋은 위키피디아 문서나 위키피디아 문서 모음집에 기반한 질문들로 구성되어 있다. 즉, 위키피디아 문서에 기반한다는 것은, 질문에 답해야 하는 실제 문서를 제공받고, 그 문서를 바탕으로 질문에 답해야 한다는 것을 의미한다. 이러한 작업은 종종 '문서 읽기(machine reading)'라고도 하는데, 그 이유는 문서를 읽고 그에 대한 질문에 답하기 때문이다. 또는 "위키피디아 전체를 제공할 테니, 이 질문에 대한 답을 제공하세요"라는 형태로 진행되기도 하는데, 이를 '검색 기반 질문 응답(retrieval-based question answering)' 또는 '검색 보강된 생성(retrieval augmented generation, RAG)'이라고 부릅니다. 이는 정말로 중요합니다. 많은 사람들이 실제 시스템을 구축할 때, 이 종류의 작업을 수행하려고 합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTUxNzA1NjcsLTE5MjQ0MzM0MiwtMT
-UxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3
-NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMD
-EsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0
-MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3OD
-c3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4
-MjY2NjhdfQ==
+eyJoaXN0b3J5IjpbMTgxNTY3MzcwNiwtMTkyNDQzMzQyLC0xNT
+ExMDI2NDQ5LC01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1
+OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMS
+wxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQz
+NTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4Nz
+czLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2Njgy
+NjY2OF19
 -->
