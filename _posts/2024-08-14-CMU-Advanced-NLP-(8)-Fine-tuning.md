@@ -435,9 +435,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Instruction Tuned Models
 
 
-다음으로 이야기 할 것은 Instruction Tuned Models 모델들이다. 그 중, 2024년에 사용할 수 있는 추천할 만한 모델들이다. FLAN T5는 매우 좋은 모델이라고 생각한다고 한다. 특히 크기에 비해 매우 좋은 성능을 보이며, 작은 모델부터 최대 110억 개의 파라미터를 가진 모델까지 다양한 크기로 제공된다. 이 모델은 T5를 기반으로 한 인코더-디코더 모델로, 많은 데이터로 학습되었습니다. 제 인상으로는 간단한 입력-출력 스타일의 작업에서 꾸준히 좋은 성능을 보인다는 것입니다. 대화형 작업이 아닌 경우라면, 예를 들어 코드 생성, 요약 등과 같은 작업에서 좋은 모델입니다.
+다음으로 이야기 할 것은 Instruction Tuned Models 모델들이다. 그 중, 2024년에 사용할 수 있는 추천할 만한 모델들이다. FLAN T5는 매우 좋은 모델이라고 생각한다고 한다. 특히 크기에 비해 매우 좋은 성능을 보이며, 작은 모델부터 최대 110억 개의 파라미터를 가진 모델까지 다양한 크기로 제공된다. 이 모델은 T5를 기반으로 한 인코더-디코더 모델로, 많은 데이터로 학습되었다. 간단한 입력-출력 스타일의 작업에서 꾸준히 좋은 성능을 보며, 대화형 작업이 아닌 경우라면, 예를 들어 코드 생성, 요약 등과 같은 작업에서 좋은 모델입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzg3NDYyMjEsMTY5NTM2OTIyOCwxOT
+eyJoaXN0b3J5IjpbLTE5MTcyNDY5ODcsMTY5NTM2OTIyOCwxOT
 U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
 NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
 ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
