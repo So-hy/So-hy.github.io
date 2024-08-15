@@ -312,9 +312,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Code Generation
 
 
-
+두 번째로 많이 이야기하는 작업은 코드 생성(code generation)이다. 이는 단순히 자연어 명령에서 Python, SQL 코드를 생성하는 것이다. 가장 인기 있는 데이터셋은 humanEval입니다. 이 데이터셋에는 Python 표준 라이브러리와 관련된 질문들이 포함되어 있으며, 예를 들어 '요소들이 1씩 증가된 리스트를 반환하세요'와 같은 질문이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQ0ODM5NTQsLTE5MjQ0MzM0MiwtMT
+eyJoaXN0b3J5IjpbLTE0MDYwMzE0NzcsLTE5MjQ0MzM0MiwtMT
 UxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3
 NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMD
 EsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0
