@@ -350,25 +350,31 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 이 문제를 다루기 위해 여러 연구자들이 다양한 접근법을 시도했습니다. 핵심은 **훈련 데이터(training data)**와 **테스트 데이터(test data)** 사이에 중복이나 유사성이 없도록 하는 것입니다. 이는 모델의 공정성과 일반화 능력을 평가하기 위해 중요합니다.
-
+이러한 것이 있는지 확인하기 위해 아래와 같은 것을 할 수 있다.
 1.  **유사 데이터의 식별 및 제거:**
     
     -   **데이터 변형 및 테스트:** 테스트 데이터의 일부를 약간 변형(예: 수학 문제에서 숫자 변경)하여 모델에 제공하고, 모델의 성능 변화를 관찰합니다. 만약 작은 변형에도 모델의 성능이 크게 떨어진다면, 이는 모델이 해당 데이터와 유사한 예제를 이미 학습했을 가능성을 시사합니다.
+    
     -   **출력 순서 변경:** 예를 들어, MMLU와 같은 벤치마크에서 정답의 순서를 바꿔 모델에 제공하여 성능 변화를 확인합니다. 정상적인 경우 순서 변경은 성능에 영향을 미치지 않아야 하지만, 성능이 저하된다면 훈련 데이터에 유사한 예제가 포함되었을 수 있습니다.
-2.  **데이터 보호 및 관리:**
+
+또한 이를 방지하기 위해 아래와 같은 것들을 할 수 있다.
+
+**데이터 보호 및 관리:**
+
+-   **데이터 암호화:** 중요한 테스트 데이터를 ZIP 파일로 압축하고 비밀번호를 설정하여 공개적인 스크래핑(scraping) 도구나 프로세스에서 해당 데이터를 수집하지 못하도록 방지합니다.
+-   **비공개 유지:** 중요한 테스트 데이터를 공개적으로 배포하지 않고, 접근이 제한된 환경에서만 사용합니다.
+
+**데이터 수집 시의 주의:**
     
-    -   **데이터 암호화:** 중요한 테스트 데이터를 ZIP 파일로 압축하고 비밀번호를 설정하여 공개적인 스크래핑(scraping) 도구나 프로세스에서 해당 데이터를 수집하지 못하도록 방지합니다.
-    -   **비공개 유지:** 중요한 테스트 데이터를 공개적으로 배포하지 않고, 접근이 제한된 환경에서만 사용합니다.
-3.  **데이터 수집 시의 주의:**
-    
-    -   **데이터 수집 프로토콜 설정:** 훈련 데이터를 수집할 때, 특정 출처나 유형의 데이터를 제외하도록 프로토콜을 설정합니다. 예를 들어, 테스트 데이터와 동일하거나 유사한 출처의 데이터를 배제합니다.
-    -   **자동화된 중복 검사:** 수집된 데이터에 대해 자동화된 도구를 사용하여 테스트 데이터와의 중복 여부를 검사하고, 중복된 데이터를 제거합니다.
+-   **데이터 수집 프로토콜 설정:** 훈련 데이터를 수집할 때, 특정 출처나 유형의 데이터를 제외하도록 프로토콜을 설정합니다. 예를 들어, 테스트 데이터와 동일하거나 유사한 출처의 데이터를 배제합니다.
+-   **자동화된 중복 검사:** 수집된 데이터에 대해 자동화된 도구를 사용하여 테스트 데이터와의 중복 여부를 검사하고, 중복된 데이터를 제거합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTY2NjMwNiwxOTU4NzM4MjAwLDE3MT
-k4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2
-NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OS
-wtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3
-MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4ND
-QzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5
-OTEwNTQ1MDldfQ==
+eyJoaXN0b3J5IjpbLTEyMDQzMzcyOTAsMTk1ODczODIwMCwxNz
+E5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1
+NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNT
+ksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0x
+NzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3OD
+Q0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQs
+OTkxMDU0NTA5XX0=
 -->
