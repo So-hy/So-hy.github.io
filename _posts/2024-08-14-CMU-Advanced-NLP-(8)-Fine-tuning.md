@@ -322,13 +322,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 현재 영어로 된 단일 문서 요약은 상당히 잘 작동합니다. 완벽하지는 않지만, 거의 완벽에 가까울 정도로 작동한다고 한다. 물론 다국어 요약은 흥미롭다. 하지만 다중 문서 요약은 확실히 아직 해결되지 않은 문제라고 한다. 다중 문서 요약은 특정 주제에 대한 여러 문서를 요약하여 그 주제에 대한 일관된 요약본을 만드는 작업이다.
 
-하나의 예시로 WikiSum 이라는 것이 있다.
+하나의 예시로 WikiSum 이라는 것이 있다. 이 데이터셋은 위키피디아 기사에 대한 모든 링크를 제공받고, 기사의 첫 번째 문단 또는 몇 문단을 생성하는 작업을 수행해야 합니다. 예를 들어, Barack Obama에 대한 여러 개의 혼란스럽고 일관되지 않은 기사들을 종합하여 Barack Obama에 대한 일관된 기사를 작성해야 하는 것입니다. 이 외에도 논문에 대한 서베이(survey) 생성, 오늘 주식 시장에서 발생한 모든 일에 대한 보고서 생성 등 유용한 작업들이 많이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDEwNTk2NzYsLTIyNjM1NjU0NCwtMT
-kyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNTksLTE1NzQ0
-NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNj
-c1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjEx
-NTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NT
-A5LC0xMDUxOTc4NzczLDExOTg1NjE5MSw4MzkxMTM5OTksNDU1
-NzI4MjM1XX0=
+eyJoaXN0b3J5IjpbLTU1ODg5ODQ0MiwtMjI2MzU2NTQ0LC0xOT
+I0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1
+NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2Nz
+UsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1
+MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MD
+ksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3
+MjgyMzVdfQ==
 -->
