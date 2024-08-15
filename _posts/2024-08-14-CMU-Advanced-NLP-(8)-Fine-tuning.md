@@ -445,13 +445,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 본 강의에서 마지막으로 이야기하는 것은 데이터셋 생성이다. 인스트럭션 튜닝 데이터셋을 자동으로 생성하는 것이 가능하다고 한다. 이와 관련된 대표적인 예는 Self-Instruct이다. Self-Instruct의 작동 방식은 몇 가지 작업에 대한 Instruction과 예시를 포함한 시드 작업(seed tasks)을 풀에 던져놓고, 이를 기반으로 새로운 작업을 생성하는 것이다. 이들은 작업 유형을 식별하고, 이에 따라 입력과 출력을 생성한다. 그런 다음 중복된 데이터를 제거하고, 시각적 정보가 필요한 것 등을 제거한 후 다시 풀에 추가한다. 기본적으로 175개의 예시로 시작하여 매우 큰 데이터셋으로 확장하여 많은 작업을 포괄하게 된다.
 
-Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성된 테스트로 GPT-3을 미세 조정하여 모델 자체를 개선할 수 있다는 것이다. 다른 최근 예시로는 Tuning for Chain of Thought 가 있다. ORCA는 이러한 예 중 하나로, 모델이 특정 결정을 내린 이유를 설명하는 설명을 생성한 후 이를 사용해 모델의 추론 능력을 개선하는 데 사용되었습니다.
+Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성된 테스트로 GPT-3을 미세 조정하여 모델 자체를 개선할 수 있다는 것이다. 다른 최근 예시로는 Tuning for Chain of Thought 가 있다. ORCA는 이러한 예 중 하나로, 모델이 특정 결정을 내린 이유를 설명하는 description(설명)을 생성한 후 이를 사용해 모델의 추론 능력을 개선하는 데 사용되었습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTk2Njc0OCwxNjk1MzY5MjI4LDE5NT
-g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
-MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
-wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
-OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
-YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
-LTI4MzQwNjk0XX0=
+eyJoaXN0b3J5IjpbLTEwMjU5MDM1MDUsMTY5NTM2OTIyOCwxOT
+U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
+NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
+ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
+NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
+M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
+LC0yODM0MDY5NF19
 -->
