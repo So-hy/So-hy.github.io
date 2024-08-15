@@ -261,12 +261,17 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 비선형성(non-linearity)이 무엇인지도 중요하다. ReLU, Softmax, 또는 아무 것도 없을 수 있다. LoRA의 경우, 논문에서는 명시적으로 언급되지 않았지만 실제 코드에서는 스칼라 스케일링 팩터(scalar scaling factor)라는 하이퍼 파라미터가 포함되어 있다.
+
+이러한 요소들을 분해해보면 각 모듈이나 방법이 서로 어떻게 상호작용하는지 더 잘 이해할 수 있다고 한다. 
+
+
+또한, 이 논문에서는 이러한 이해가 새로운 변형 방법을 도출할 수 있음을 보여주고 있다. 여기선 병렬 어댑터(Parallel Adapter)와 스케일 병렬 어댑터(Scaled Parallel Adapter)라는 두 가지 방법을 제안하였고, 이 방법들이 더 나은 결과를 얻을 수 있음을 증명했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0Nj
-UxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0
-NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMT
-E5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUsNjY2ODI2NjY4
-LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xODkyMDA3OTI4LD
-E2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMyODM2LDE2NTQ0
-MjUxMjJdfQ==
+eyJoaXN0b3J5IjpbMTEwNTcyMjUzMCwtMTcxNDU4MzY3NSwyMz
+g5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMz
+MjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMT
+A1MTk3ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIz
+NSw2NjY4MjY2NjgsLTE2MzgwMjY1NjgsLTE4MDk5MjM1NjAsLT
+E4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0
+MzI4MzZdfQ==
 -->
