@@ -63,6 +63,10 @@ layout: post
 
 따라서 풀 파인 튜닝은 상당히 메모리 집약적이다.
 
+
+### Multi-GPU Training
+
+
 이러한 문제를 해결하기 위해 Multi-GPU Training 과 같은 방법을 사용할 수 있다. 즉, 더 많은 하드웨어를 사용하는 것이다. 대표적인 예로는 딥 스피드 제로(DeepSpeed Zero)가 있다. 이 방법은 최적화 작업을 여러 장치에 분산시키는 방식으로 메모리 요구량을 줄인다. 예를 들어, 옵티마이저 상태를 여러 GPU에 분산시켜 메모리 요구량을 크게 줄일 수 있다.
 
 ![40093c92d5cb036c35181a470ff943e5](https://github.com/user-attachments/assets/f38afd0d-7e2e-401c-a281-624f2cdb04c9)
@@ -72,11 +76,11 @@ layout: post
 
 허깅페이스의 TRL이나 허깅페이스의 다른 라이브러리들이 딥스피드 제로와 같은 기술들을 내부적으로 사용하여, 모델을 학습하거나 파인튜닝할 때 메모리 효율성을 높이고 계산 비용을 줄일 수 있다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNz
-UyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0
-ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC01MTk5MTg1MjQsOD
-Y0NzEyOTQsMzY5NzEzMzk2LDM5MTM1NTE3LC0xODAwNzU3NTg5
-LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwxNTI1MTQyNzQ3LDk0MD
-EyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAw
-MV19
+eyJoaXN0b3J5IjpbLTE5MTYyMTEyNzQsLTEwNjM4Mzk0NDEsLT
+k1OTA5NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2
+ODYxOSwtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC
+01MTk5MTg1MjQsODY0NzEyOTQsMzY5NzEzMzk2LDM5MTM1NTE3
+LC0xODAwNzU3NTg5LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwxNT
+I1MTQyNzQ3LDk0MDEyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3
+MTRdfQ==
 -->
