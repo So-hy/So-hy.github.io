@@ -334,9 +334,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Translation
 
 
-또한 번역 작업도 있다. 이 작업에 대해서는 굳이 설명할 필요가 없긴 하다. 이는 한 언어에서 다른 언어로 번역하는 작업이다. 번역과 요약 작업 모두 평가가 다소 까다롭다. 나중에 이에 대해 더 자세히 다룰 것이라고 한다. 기본적으로는 참조(reference)와의 유사성을 기반으로 평가하게 됩니다. 예를 들어, Flores라는 데이터셋은 여러 개의 위키피디아 기사를 101개의 언어로 번역한 것입니다. 저는 이 데이터셋을 좋아하는데, 그 이유는 모든 언어로 번역할 수 있다면, 전 세계적으로 정보 전달을 돕고 정보 접근을 더욱 공평하게 만들 수 있기 때문입니다.
+또한 번역 작업도 있다. 이 작업에 대해서는 굳이 설명할 필요가 없긴 하다. 이는 한 언어에서 다른 언어로 번역하는 작업이다. 번역과 요약 작업 모두 평가가 다소 까다롭다. 기본적으로는 참조(reference)와의 유사성을 기반으로 평가하게 됩니다. 예를 들어, Flores라는 데이터셋은 여러 개의 위키피디아 기사를 101개의 언어로 번역한 것입니다. 저는 이 데이터셋을 좋아하는데, 그 이유는 모든 언어로 번역할 수 있다면, 전 세계적으로 정보 전달을 돕고 정보 접근을 더욱 공평하게 만들 수 있기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMjkxMzU3OSwtMTIyNzQ1NDEwNCwtMj
+eyJoaXN0b3J5IjpbMTcwODA3NzAxNywtMTIyNzQ1NDEwNCwtMj
 I2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4
 NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2OD
 csLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUx
