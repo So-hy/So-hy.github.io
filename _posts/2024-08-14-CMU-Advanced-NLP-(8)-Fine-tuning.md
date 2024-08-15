@@ -126,6 +126,7 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 
 **Adapter Fusion**
 
+![Screenshot 2024-08-15 at 8 07 38 PM](https://github.com/user-attachments/assets/d3fdcd32-8aec-4e38-857c-645c4a9b9e15)
 
 기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것이다.
 
@@ -133,11 +134,11 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 
 그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 됩니다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMT
-Y2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQy
-NTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNTQsMTAyNzgyOTkxNC
-w0NzMwNDUzNDksLTExNjYxNjkzNTMsODExMzYwNzI0LDExNzcz
-NTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NT
-ksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLTMy
-MzIyMzQ0MF19
+eyJoaXN0b3J5IjpbLTE2MzEwMjYwMzgsLTE4MDk5MjM1NjAsLT
+E4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC02ODc0
+MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNTIyMzExNT
+QsMTAyNzgyOTkxNCw0NzMwNDUzNDksLTExNjYxNjkzNTMsODEx
+MzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3MywzNTQ5NTA3Mz
+gsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MTA4ODU1MDgsLTE3
+NDIxOTgxMTVdfQ==
 -->
