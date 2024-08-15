@@ -127,13 +127,13 @@ LoRa는 전체 가중치 행렬을 학습하는 대신, 작은 크기의 두 행
 **Adapter Fusion**
 
 
-기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것입니다.
+기본적인 아이디어는 다양한 작업에 대한 어댑터를 학습하고 이를 결합하는 것이다. 그래서 단순히 하나의 어댑터 층만 가지는 대신, 여러 어댑터를 가지고 이를 융합시키는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjIwNDU1MDMsLTQzNzg0NTY0NywtNj
-g3NDMyODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMx
-MTU0LDEwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLD
-gxMTM2MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNzMsMzU0OTUw
-NzM4LC0xODEyNDY5NTU5LDEyMjU5MjU2OTYsNDEwODg1NTA4LC
-0xNzQyMTk4MTE1LC0zMjMyMjM0NDAsNzc1OTE4MzQ4LC0xMDYz
-ODM5NDQxXX0=
+eyJoaXN0b3J5IjpbNzExNDQ1MjU2LC00Mzc4NDU2NDcsLTY4Nz
+QzMjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1
+NCwxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MT
+EzNjA3MjQsMTE3NzM1NzYyLC0xNjg5MTYxMzczLDM1NDk1MDcz
+OCwtMTgxMjQ2OTU1OSwxMjI1OTI1Njk2LDQxMDg4NTUwOCwtMT
+c0MjE5ODExNSwtMzIzMjIzNDQwLDc3NTkxODM0OCwtMTA2Mzgz
+OTQ0MV19
 -->
