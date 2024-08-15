@@ -98,9 +98,9 @@ layout: post
 
 이때 한 학생이 그라디언트와 관련된 부분은 어댑터에서 어떻게 저장되냐라는 질문을 한다. 여기서 교수가 답한 내용은 일반적으로, 모든 레이어의 그라디언트를 계산하고 저장해야 할 것 같지만, 실제로는 그렇지 않다는 것이다.
 
-백프로퍼게이션(Backpropagation, 역전파)을 수행할 때, 오직 업데이트가 필요한 파라미터에 대해서만 그라디언트를 계산한다. 손실(Loss)에서 시작하여, 그라디언트가 네트워크의 피드포워드(feedforward) 네트워크, 어댑터, 어텐션 레이어를 거쳐 흘러가게 되는데,
+백프로퍼게이션(Backpropagation, 역전파)을 수행할 때, 오직 업데이트가 필요한 파라미터에 대해서만 그라디언트를 계산한다. 손실(Loss)에서 시작하여, 그라디언트가 네트워크의 피드포워드(feedforward) 네트워크, 어댑터, 어텐션 레이어를 거쳐 흘러가게 되는데, 이 과정에서 중요한 점은 우리가 실제로 업데이트하려는 파라미터에 대해서만 그라디언트를 계산한다는 것이다. 따라서, 이 경우엔 어텐션 레이어의 가중치(Weights)는 업데이트되지 않기 때문에, 이 가중치에 대한 그라디언트를 계산할 필요가 없고, 대신, 어댑터의 파라미터처럼 업데이트가 필요한 부분에 대해서만 그라디언트를 계산하게 된다. 이는 불필요한 그라디언트 계산을 생략함으로써 메모리 사용을 줄이고 계산 효율을 높이는 방법입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwOTU4NDA0LC0xNjg5MTYxMzczLDM1ND
+eyJoaXN0b3J5IjpbMTE3NzM1NzYyLC0xNjg5MTYxMzczLDM1ND
 k1MDczOCwtMTgxMjQ2OTU1OSwxMjI1OTI1Njk2LDQxMDg4NTUw
 OCwtMTc0MjE5ODExNSwtMzIzMjIzNDQwLDc3NTkxODM0OCwtMT
 A2MzgzOTQ0MSwtOTU5MDk2NTU4LDE3NTIzODc5ODAsMTc1MjM4
