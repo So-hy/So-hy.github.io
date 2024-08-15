@@ -290,7 +290,7 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 이 뒤에서 다루는 내용은 실제 산업에서 NLP 모델을 활용할 때 매우 중요한 작업들이며, 또 하나는 사람들이 생성 모델(특히 GPT 논문이나 Gemini 논문)을 평가할 때 사용되는 작업들에 대한 것이다.예를 들어, 그들이 모델이 잘 작동하는지 증명하기 위해 사용하는 작업들입니다.
 
 
-### Context-free question answering
+### Context-free Question Answering
 
 
 첫 번째는 문맥 없는 질문 응답(context-free question answering), 일명 오픈북 QA이다. 기본적으로 이는 특정 문서에 의존하지 않고 질문에 답하는 것이다. ChatGPT가 웹에서 무언가를 검색하지 않고 질문에 답할 때 발생하는 일과 같다고 보면 된다.
@@ -298,14 +298,16 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 예시로 많이 사용되는 데이터셋은 MMLU이다. 이것은 다중 작업 언어 이해(massively multitask language understanding) 데이터셋이며, 전문 법률과 같은 비교적 어려운 분야의 질문들을 포함하고 있다. 예를 들어, '판매원이 무단 침입자들은 기소될 것이라는 표지를 무시하고 은둔자의 집에 들어갔다. 그는 진입로를 따라 차를 몰고 갔고, 폭발물이 터져서 부상을 입었다. 판매원이 은둔자에게 손해 배상을 청구할 수 있는가?'와 같은 질문이 있다. 이와 같은 다양한 카테고리의 질문들이 있다.
 
 
-### Contextual question answering
+### Contextual Question Answering
 
+
+두 번째는 문맥적 질문 응답(contextual question answering)입니다. 이는 실제 문서에 기반한 질문 응답 작업입니다. 많이 사용되는 예시 데이터셋은 '자연 질문(natural questions)'입니다. 이 데이터셋은 위키피디아 문서나 위키피디아 문서 모음집에 기반한 질문들로 구성되어 있습니다. 즉, 위키피디아 문서에 기반한다는 것은, 질문에 답해야 하는 실제 문서를 제공받고, 그 문서를 바탕으로 질문에 답해야 한다는 것을 의미합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MTI3MjI0OSwtMTUxMTAyNjQ0OSwtNT
-A5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1OTU4
-MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2MzYxNS
-wtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEsLTI4
-MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3ODc3MywxMTk4NTYxOT
-EsODM5MTEzOTk5LDQ1NTcyODIzNSw2NjY4MjY2NjgsLTE2Mzgw
-MjY1NjhdfQ==
+eyJoaXN0b3J5IjpbNzMxOTIwNDQ2LC0xNTExMDI2NDQ5LC01MD
+k5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgz
+Njg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC
+01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgz
+NDA2OTQsOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOTg1NjE5MS
+w4MzkxMTM5OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwtMTYzODAy
+NjU2OF19
 -->
