@@ -77,13 +77,16 @@ layout: post
 허깅페이스의 TRL이나 허깅페이스의 다른 라이브러리들이 딥스피드 제로와 같은 기술들을 내부적으로 사용하여, 모델을 학습하거나 파인튜닝할 때 메모리 효율성을 높이고 계산 비용을 줄일 수 있다고 한다.
 
 
-### Multi-GPU Training
+### Parameter-efficient Fine-Tuning(PEFT)
+
+
+이는 모델의 일부 파라미터만 훈련시키는 방법도 이다. 이를 통해 큰 GPU 없이도 많은 데이터 세트에서 모델을 효과적으로 훈련시킬 수 있습니다. 예를 들어, 프리픽스 튜닝(prefix tuning)과 같은 방법을 사용해 특정 층의 프리픽스만 튜닝하는 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MzI3NzAyNSwtMTA2MzgzOTQ0MSwtOT
-U5MDk2NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4
-NjE5LC01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLT
-UxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcs
-LTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1Mj
-UxNDI3NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcx
-NF19
+eyJoaXN0b3J5IjpbNzc1OTE4MzQ4LC0xMDYzODM5NDQxLC05NT
+kwOTY1NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLDExNjI3Njg2
+MTksLTU0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNT
+E5OTE4NTI0LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywt
+MTgwMDc1NzU4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNT
+E0Mjc0Nyw5NDAxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0
+XX0=
 -->
