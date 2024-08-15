@@ -75,12 +75,15 @@ layout: post
 위의 각각의 단계는 옵티마이저만 분산할 것인가, 옵티마이저+그라디언트를 분산할 것인가, 옵티마이저+그라디언트+파라미터를 모두 분산할 것인가에 따라 각 GPU가 소모하는 메모리량의 차이를 보여준다. 
 
 허깅페이스의 TRL이나 허깅페이스의 다른 라이브러리들이 딥스피드 제로와 같은 기술들을 내부적으로 사용하여, 모델을 학습하거나 파인튜닝할 때 메모리 효율성을 높이고 계산 비용을 줄일 수 있다고 한다.
+
+
+### Multi-GPU Training
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTYyMTEyNzQsLTEwNjM4Mzk0NDEsLT
-k1OTA5NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2
-ODYxOSwtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC
-01MTk5MTg1MjQsODY0NzEyOTQsMzY5NzEzMzk2LDM5MTM1NTE3
-LC0xODAwNzU3NTg5LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwxNT
-I1MTQyNzQ3LDk0MDEyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3
-MTRdfQ==
+eyJoaXN0b3J5IjpbMTM1MzI3NzAyNSwtMTA2MzgzOTQ0MSwtOT
+U5MDk2NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4
+NjE5LC01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLT
+UxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcs
+LTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1Mj
+UxNDI3NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcx
+NF19
 -->
