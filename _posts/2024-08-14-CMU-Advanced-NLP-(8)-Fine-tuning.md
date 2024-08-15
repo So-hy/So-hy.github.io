@@ -429,13 +429,19 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이러한 지침 튜닝의 두 가지 기본적인 방법이 거의 동시에 등장했다. 또한 여러 데이터셋들이 컴파일되었으며, 지침 튜닝을 하려면 이러한 데이터셋 중 하나를 사용하는 것이 좋다.
 
-여기서 교수가 강력히 추천하는 논문은 FLAN 컬렉션에 관한 논문이다. 이 논문은 좋은 개요를 제공하며, 데이터셋 이름, 학습 데이터 크기, 프롬프트 사용 여부(제로 샷, 몇 샷 등), 작업 수, 세부 방법 등을 기준으로 표로 정리해 놓았다고 한다. 이 논문에서 소개된 데이터셋 중 많은 사람들이 사용하는 인기 있는 데이터셋은 FLAN 컬렉션, Natural Instructions, Self-Instruct 등이 있습니다.
+여기서 교수가 강력히 추천하는 논문은 FLAN 컬렉션에 관한 논문이다. 이 논문은 좋은 개요를 제공하며, 데이터셋 이름, 학습 데이터 크기, 프롬프트 사용 여부(제로 샷, 몇 샷 등), 작업 수, 세부 방법 등을 기준으로 표로 정리해 놓았다고 한다. 이 논문에서 소개된 데이터셋 중 많은 사람들이 사용하는 인기 있는 데이터셋은 FLAN 컬렉션, Natural Instructions, Self-Instruct 등이 있다.
+
+
+### Instruction Tuned Models
+
+
+다음으로 이야기 할 것은 Instruction Tuned Models 모델들입니다. 2024년에 사용할 수 있는 추천할 만한 모델들입니다. FLAN T5는 매우 좋은 모델이라고 생각합니다. 특히 크기에 비해 매우 좋은 성능을 보이며, 작은 모델부터 최대 110억 개의 파라미터를 가진 모델까지 다양한 크기로 제공됩니다. 이 모델은 T5를 기반으로 한 인코더-디코더 모델로, 많은 데이터로 학습되었습니다. 제 인상으로는 간단한 입력-출력 스타일의 작업에서 꾸준히 좋은 성능을 보인다는 것입니다. 대화형 작업이 아닌 경우라면, 예를 들어 코드 생성, 요약 등과 같은 작업에서 좋은 모델입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTIzMTgwNDcsMTY5NTM2OTIyOCwxOT
-U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
-NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
-ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
-NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
-M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
-LC0yODM0MDY5NF19
+eyJoaXN0b3J5IjpbMTI3NjY5NDYxMiwxNjk1MzY5MjI4LDE5NT
+g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
+MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
+wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
+OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
+YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
+LTI4MzQwNjk0XX0=
 -->
