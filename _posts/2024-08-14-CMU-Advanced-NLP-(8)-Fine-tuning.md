@@ -251,17 +251,18 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스가 있는 모델에서는 매우 간단한 방법으로, 추가적인 코드를 추가할 필요 없이 모든 파라미터를 동결하고 바이어스만 학습하면 된다. 이러한 관점에서 매우 간단하다.
 
 
+![04980](https://github.com/user-attachments/assets/25d7d8c4-a476-4c92-baed-0e1d0690c878)
 
-위의 다양한 PEFT에 대한 자세한 내용을 다룬 논문 "A Unified View of PEFT"(He et al. 2021) 에서 이에 대해 자세히 살펴볼 수 있으며, 여기서 각 방법들이 어떻게 상호작용하는지 이해할 수 있다고 한다.
+기본적으로 파라미터 효율적 튜닝 방법에 대해 고려할 수 있는 여러 가지 요소가 있다. 여기에는 사용하고 있는 비선형성의 기능적 형태, 모델에 이를 삽입하는 위치, 표현을 수정하는 방법, 그리고 수정된 표현을 원래 표현에 추가하는 방법에 대한 조합 함수가 포함된다.
 
 
-
+위 그림을 보면 알 수 있겠지만, 어댑터(Adapter), LoRA(Low-Rank Adaptation), Prefix Tuning(프리픽스 튜닝) 같은 방법들이 서로 매우 유사하다는 것을 알 수 있다. 이들 간의 차이는 원래의 표현을 어디에서 가져오는가에 있다. 어댑터는 일반적으로 어댑터를 적용하는 모듈 뒤에서 표현을 가져오고, 프리픽스 튜닝은 그 전에 가져오며, LoRA도 프리픽스 튜닝과 마찬가지로 그 전에 가져옵니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMT
-UzNjMzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUw
-OSwtMTA1MTk3ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NT
-cyODIzNSw2NjY4MjY2NjgsLTE2MzgwMjY1NjgsLTE4MDk5MjM1
-NjAsLTE4OTIwMDc5MjgsMTY2Nzk0ODE3MywtNDM3ODQ1NjQ3LC
-02ODc0MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1MzgsLTExNTIy
-MzExNTRdfQ==
+eyJoaXN0b3J5IjpbMTI5NTk5ODU2LDE0NjUxNjM2MTUsLTUxNj
+c4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5
+NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2MTkxLDgzOT
+ExMzk5OSw0NTU3MjgyMzUsNjY2ODI2NjY4LC0xNjM4MDI2NTY4
+LC0xODA5OTIzNTYwLC0xODkyMDA3OTI4LDE2Njc5NDgxNzMsLT
+QzNzg0NTY0NywtNjg3NDMyODM2LDE2NTQ0MjUxMjIsNDk0NTcw
+NTM4XX0=
 -->
