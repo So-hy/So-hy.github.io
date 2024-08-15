@@ -293,9 +293,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### Context-free question answering
 
 
-첫 번째는 문맥 없는 질문 응답(context-free question answering), 일명 오픈북 QA이다. 기본적으로 이는 특정 문서에 의존하지 않고 질문에 답하는 것이다. 이는 챗 GPT가 웹에서 무언가를 검색하지 않고 질문에 답할 때 발생하는 일과 같습니다.
+첫 번째는 문맥 없는 질문 응답(context-free question answering), 일명 오픈북 QA이다. 기본적으로 이는 특정 문서에 의존하지 않고 질문에 답하는 것이다. ChatGPT가 웹에서 무언가를 검색하지 않고 질문에 답할 때 발생하는 일과 같다고 보면 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDU2NTAyNjEsLTUwOTk4NDM1OSwtMT
+eyJoaXN0b3J5IjpbLTE1MTEwMjY0NDksLTUwOTk4NDM1OSwtMT
 U3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1
 ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC
 0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEw
