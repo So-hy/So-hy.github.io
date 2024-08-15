@@ -387,12 +387,42 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 이는 기본적인 언어 모델 학습과 다르다. 여전히 프롬프트와 출력을 기반으로 언어 모델을 학습하지만, 특정 작업을 해결하는 데 맞춰 포맷팅되어 있다. 본질적으로는 지도 학습(supervised learning)이며, 여러 작업에 대한 지도 학습을 통해 여러 작업에 대한 미세 조정을 하는 것이다. 이러한 논문들이 보여준 흥미로운 점은 인스트럭션 튜닝을 통해 학습한 모델이 학습한 작업뿐만 아니라 학습하지 않은 새로운 작업에서도 좋은 성능을 보인다는 점이다. 이는 현재 모든 주요 언어 모델에 포함되어 있으며, 실질적으로 널리 사용되고 있다고 한다.
 
 또한, 인-컨텍스트 학습(in-context learning)을 학습할 수 있다. 인-컨텍스트 학습에서는 단순히 프롬프트를 제공하는 대신, 컨텍스트에 학습 예시를 제공한다. 이 논문에서도 마찬가지로 여러 학습 예시를 샘플링하여 컨텍스트에 추가한 후 모델을 학습시킨다. 이렇게 하면 모델이 인-컨텍스트 학습을 더 잘할 수 있게 됩니다.
+
+
+> 좀 더 쉽게 설명하자면, 인 컨텍스트 학습은 모델이 작업을 수행하기 전에 몇 가지 예시(샘플)와 함께 설명을 받는다고 생각하면 된다. 모델은 주어진 맥락에서 이 예시들을 보고, 그에 맞춰 새로운 입력에 대해 예측을 하게 된다.
+> 
+> ### 예시:
+> 
+> 예를 들어, 텍스트를 요약하는 모델을 생각해보세요.
+> 
+> -   **맥락(Context):**
+>     
+>     arduino
+>     
+>     코드 복사
+>     
+>     `입력: "오늘 날씨는 맑고, 기온은 섭씨 25도입니다."
+>     요약: "맑고 따뜻한 날씨"
+>     입력: "내일은 비가 오고 기온이 낮아질 것입니다."
+>     요약: "비와 낮은 기온 예보"` 
+>     
+> -   **새로운 입력:**
+>     
+>     arduino
+>     
+>     코드 복사
+>     
+>     `입력: "어제는 눈이 내렸고, 온도는 매우 추웠습니다."` 
+>     
+> 
+> 이때 모델은 위의 맥락(Context)에서 제공된 두 가지 예시를 참고하여, 새로운 입력에 대한 요약을 생성할 수 있습니다. 예를 들어, "눈과 추운 날씨" 같은 요약을 생성할 수 있겠죠.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjEyMDYzODAsMTk1ODczODIwMCwxNz
-E5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1
-NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNT
-ksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0x
-NzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3OD
-Q0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQs
-OTkxMDU0NTA5XX0=
+eyJoaXN0b3J5IjpbMTUxNzE4MzQ2OCwxOTU4NzM4MjAwLDE3MT
+k4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2
+NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OS
+wtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3
+MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4ND
+QzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5
+OTEwNTQ1MDldfQ==
 -->
