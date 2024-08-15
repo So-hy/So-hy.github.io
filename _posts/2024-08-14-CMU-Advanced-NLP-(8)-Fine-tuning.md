@@ -156,13 +156,50 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 사실 이게 무슨말인지 잘 모르겠는데, 이는 나중 수업에서 더 자세히 이야기 한다고 한다. 근데 그냥 따로 찾아보았다.
 
 
+> **Q-LoRa의 기본 개념:**
+> 
+>   
+> 
+> 1. **모델 압축**:
+> 
+> •  Q-LoRa는 모델을 압축하는 방법으로, 일반적으로 사용하는 16비트 대신 4비트로 모델을 압축합니다. 이 말은, 모델이
+> 차지하는 크기(메모리 용량)가 훨씬 작아진다는 뜻이에요. 예를 들어, 16비트로 된 큰 모델(라마 모델)을 메모리에 맞추려면
+> 130GB가 필요하지만, 4비트로 압축하면 이 용량이 32.5GB로 줄어들게 됩니다.
+> 
+> 2. **작은 하드웨어에서의 실행 가능성**:
+> 
+> •  모델이 작아지면, 이를 실행할 수 있는 하드웨어의 범위가 넓어집니다. 예를 들어, 아주 큰 GPU(A100, H100
+> 같은 고성능 그래픽 카드)뿐만 아니라, 상대적으로 저렴한 GPU나 맥북 같은 컴퓨터에서도 실행할 수 있게 됩니다. 즉, 크기가
+> 작은 하드웨어에서도 큰 모델을 훈련할 수 있게 해주는 방법이죠.
+> 
+> 3. **LoRA와의 결합**:
+> 
+> •  LoRA는 앞서 설명한 것처럼, 모델의 기존 가중치를 수정하지 않고, 새로운 정보를 저랭크(작은 크기)로 학습하는 방식입니다. Q-LoRa는 이 LoRA 방식과 4비트 압축을 결합해서, 큰 모델을 훨씬 작은 크기로 만들고, 제한된 하드웨어에서도 사용할 수 있게 합니다.
+> 
+>   
+> 
+> **저정밀도에 대한 우려:**
+> 
+>   
+> 
+> •  **저정밀도가 성능에 영향을 주지 않을까?**라는 질문이 있을 수 있는데, 이 질문에 대한 답변은 다음과 같습니다:
+> 
+> •  저정밀도(4비트로 압축)는 모델의 학습이나 최적화 과정에서 직접적인 역할을 하지 않습니다. 대신, 원래 모델의 정보를 4비트로 줄여서 관리하기 때문에, 성능에 큰 영향을 주지 않으며 여전히 잘 작동할 수 있습니다.
+> 
+>   
+> 
+> **요약:**
+> 
+>   
+> 
+> •  Q-LoRa는 큰 모델을 작은 크기로 압축해서 더 다양한 하드웨어에서 실행할 수 있게 만드는 기술입니다. 모델의 정밀도를 낮추면서도 성능을 유지할 수 있는 방법을 제공하여, 특히 제한된 하드웨어 환경에서도 큰 모델을 효율적으로 훈련할 수 있습니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTkxMDU0NTA5LC0xMDUxOTc4NzczLDExOT
-g1NjE5MSw4MzkxMTM5OTksNDU1NzI4MjM1LDY2NjgyNjY2OCwt
-MTYzODAyNjU2OCwtMTgwOTkyMzU2MCwtMTg5MjAwNzkyOCwxNj
-Y3OTQ4MTczLC00Mzc4NDU2NDcsLTY4NzQzMjgzNiwxNjU0NDI1
-MTIyLDQ5NDU3MDUzOCwtMTE1MjIzMTE1NCwxMDI3ODI5OTE0LD
-Q3MzA0NTM0OSwtMTE2NjE2OTM1Myw4MTEzNjA3MjQsMTE3NzM1
-NzYyXX0=
+eyJoaXN0b3J5IjpbMTAzMjgxNTAyOCw5OTEwNTQ1MDksLTEwNT
+E5Nzg3NzMsMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3MjgyMzUs
+NjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYwLC0xOD
+kyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNjg3NDMy
+ODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMxMTU0LD
+EwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLDgxMTM2
+MDcyNF19
 -->
