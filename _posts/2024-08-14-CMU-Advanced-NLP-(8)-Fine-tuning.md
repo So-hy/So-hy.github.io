@@ -82,8 +82,12 @@ layout: post
 
 이는 모델의 일부 파라미터만 훈련시키는 방법도 이다. 이를 통해 큰 GPU 없이도 많은 데이터 세트에서 모델을 효과적으로 훈련시킬 수 있다.
 
+
+**Prefix tuning**
+
 첫 번째로, 프리픽스 튜닝(prefix tuning) 방법이 있다. 이는  특정 층의 프리픽스만 튜닝하는 것이다. 프리픽스 튜닝은 프롬프팅처럼 전체 모델을 바꾸지 않고도 모델의 동작을 변경할 수 있는 유연성을 제공하면서, 동시에 파인 튜닝처럼 특정 작업에 맞추어 모델의 성능을 미세 조정할 수 있는 이점을 제공한다. 이 방법에서는 모델의 모든 파라미터를 변경하지 않고, 각 레이어에 소규모의 파라미터만을 Prefix로 추가적인 학습시킨다.
 
+**Adapters**
 
 다른 방법으로는 Adapters 가 있다. 어댑터는 표준 트랜스포머 아키텍처(혹인 Pre-trained Model)의 각 레이어 내에 추가적인 어댑터 레이어를 삽입해 훈련한다. 이 레이어는 주어진 입력을 다운스케일한 후, 다시 업스케일하여 원래의 입력과 결합한다. 
 
@@ -101,12 +105,15 @@ layout: post
 백프로퍼게이션(Backpropagation, 역전파)을 수행할 때, 오직 업데이트가 필요한 파라미터에 대해서만 그라디언트를 계산한다. 손실(Loss)에서 시작하여, 그라디언트가 네트워크의 피드포워드(feedforward) 네트워크, 어댑터, 어텐션 레이어를 거쳐 흘러가게 되는데, 이 과정에서 중요한 점은 우리가 실제로 업데이트하려는 파라미터에 대해서만 그라디언트를 계산한다는 것이다. 따라서, 이 경우엔 어텐션 레이어의 가중치(Weights)는 업데이트되지 않기 때문에, 이 가중치에 대한 그라디언트를 계산할 필요가 없고, 대신, 어댑터의 파라미터처럼 업데이트가 필요한 부분에 대해서만 그라디언트를 계산하게 된다. 이는 불필요한 그라디언트 계산을 생략함으로써 메모리 사용을 줄이고 계산 효율을 높이는 방법이다.
 
 추가로 계산 그래프 체크포인팅(Checkpointing)이라는 기법도 있다. 이 기법은 계산 그래프의 일부를 계산한 후, 중간 상태를 버리고, 나중에 필요할 때 다시 계산하는 방식이다. 예를 들어, 그래프의 일부를 따라 포워드 패스(forward pass)를 수행하고, 중간 계산 상태를 버린 다음, 백워드 패스(backward pass)를 수행할 때 다시 그 상태를 계산할 수 있다. 이렇게 하면 메모리 사용을 더욱 효율적으로 관리할 수 있다고 한다.
+
+
+어댑터와 유사한 방버
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExMzYwNzI0LDExNzczNTc2MiwtMTY4OT
-E2MTM3MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5
-Niw0MTA4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3Nz
-U5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3
-OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LD
-cwMjU3MzY2MCwxNTkzOTU3MzUxLC01MTk5MTg1MjQsODY0NzEy
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTg0MjA2NzIyNyw4MTEzNjA3MjQsMTE3Nz
+M1NzYyLC0xNjg5MTYxMzczLDM1NDk1MDczOCwtMTgxMjQ2OTU1
+OSwxMjI1OTI1Njk2LDQxMDg4NTUwOCwtMTc0MjE5ODExNSwtMz
+IzMjIzNDQwLDc3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2
+NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4NjE5LC
+01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkx
+ODUyNF19
 -->
