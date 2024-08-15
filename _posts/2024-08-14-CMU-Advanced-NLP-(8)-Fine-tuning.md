@@ -117,7 +117,7 @@ layout: post
 
 어댑터 융합은 어댑터들에 대한 어텐션(attention)이다. 즉, 어떤 경우에 어떤 어댑터를 사용할지를 결정할 수 있고, 각 어댑터는 특정 작업의 데이터에 대해 별도로 학습된다. 예를 들어, 많은 질문-응답(QA) 데이터셋에서 데이터를 가져와 질문-응답 어댑터를 학습하고, 번역 데이터셋에서 데이터를 가져와 번역 어댑터를 학습하고, 기타 다른 작업에 대해서도 마찬가지로 학습할 수 있다.
 
-그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 됩니다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
+그리고 실제로 이를 사용할 때, 어떤 어댑터를 사용할지를 결정하고 그 어댑터의 값을 취하게 된다. 이 아이디어가 좋은 이유는 특정 작업에 유용한 모듈을 학습하고 필요할 때 이를 선택할 수 있기 때문이다. 이를 통해 창의적인 작업들을 할 수 있을 것이라 생각된다고 교수는 말한다. 또한 다국어 버전도 있는데, 개별 언어에 대해 어댑터를 학습하고 개별 작업에 대해 어댑터를 학습한 후 이를 결합할 수도 있다고 한다. 
 
 어느 정도 이건 전문가 모델(Mixture of Experts)과 유사하다고 한다.
 
@@ -468,11 +468,11 @@ Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성�
     -   **언제 선택할까?**: 다양한 작업을 처리할 수 있는 범용적인 모델이 필요할 때.
     -   **장점**: 여러 작업에서 고르게 좋은 성능을 보이는 모델을 만들 수 있으며, 새로운 작업에도 적응할 수 있다. 특히, 작업의 형식이 고정되어 있거나 특정한 형식으로 결과를 내야 할 때 유용할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDU3OTkyNjEsMTY5NTM2OTIyOCwxOT
-U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
-NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
-ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
-NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
-M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
-LC0yODM0MDY5NF19
+eyJoaXN0b3J5IjpbLTExNTc5MDIyNjAsLTEzNDU3OTkyNjEsMT
+Y5NTM2OTIyOCwxOTU4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUz
+MDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzND
+IsLTE1MTEwMjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywt
+MTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OT
+U3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5
+LC0xNDM1NTc0NjIxXX0=
 -->
