@@ -454,13 +454,13 @@ Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성�
 
 *Fine Tuning 과 Instruction Tuning 중 뭘 선택해야 할까?* 
 
-명확한 작업 정의와 충분한 훈련 데이터를 가지고 있는 경우, 전체 미세 조정을 통해 얻을 수 있는 이점이 있다. 첫째로, 더 큰 모델에서 약간의 정확도 향상을 기대할 수 있지만, 작은 모델에서는 더 큰 정확도 향상을 기대할 수 있습니다. 작은 모델은 여러 작업에서 매우 잘할 수 있는 능력이 부족하기 때문에, 특정 작업에 더 집중하여 성능을 개선할 수 있습니다. 최근에 나온 몇 가지 흥미로운 결과가 있는데, 예를 들어, Lama 7B를 기반으로 한 매우 강력한 텍스트-쿼리 모델이 있으며, 많은 텍스트-쿼리 데이터를 사용하여 학습되었습니다. 따라서 특정 작업이 중요한 경우, 이 방법이 매우 유용할 수 있습니다.
+명확한 작업 정의와 충분한 훈련 데이터를 가지고 있는 경우, 전체 미세 조정을 통해 얻을 수 있는 이점이 있다. 첫째로, 더 큰 모델에서 약간의 정확도 향상을 기대할 수 있지만, 작은 모델에서는 더 큰 정확도 향상을 기대할 수 있다. 작은 모델은 여러 작업에서 매우 잘할 수 있는 능력이 부족하기 때문에, 특정 작업에 더 집중하여 성능을 개선할 수 있습니다. 최근에 나온 몇 가지 흥미로운 결과가 있는데, 예를 들어, Lama 7B를 기반으로 한 매우 강력한 텍스트-쿼리 모델이 있으며, 많은 텍스트-쿼리 데이터를 사용하여 학습되었습니다. 따라서 특정 작업이 중요한 경우, 이 방법이 매우 유용할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODIwNzkxNCwxNjk1MzY5MjI4LDE5NT
-g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
-MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
-wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
-OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
-YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
-LTI4MzQwNjk0XX0=
+eyJoaXN0b3J5IjpbNDAyNzgzMTU5LDE2OTUzNjkyMjgsMTk1OD
+czODIwMCwxNzE5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQx
+MDQsLTIyNjM1NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC
+01MDk5ODQzNTksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5
+NTgzNjg3LC0xNzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNj
+E1LC01MTY3ODQ0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwt
+MjgzNDA2OTRdfQ==
 -->
