@@ -70,13 +70,13 @@ layout: post
 
 위의 각각의 단계는 옵티마이저만 분산할 것인가, 옵티마이저+그라디언트를 분산할 것인가, 옵티마이저+그라디언트+파라미터를 모두 분산할 것인가에 따라 각 GPU가 소모하는 메모리량의 차이를 보여준다. 
 
-
+RL이나 허깅페이스의 다른 라이브러리들이 딥스피드 제로와 같은 기술들을 내부적으로 사용하여, 모델을 학습하거나 파인튜닝할 때 메모리 효율성을 높이고 계산 비용을 줄일 수 있다고
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1OTA5NjU1OCwxNzUyMzg3OTgwLDE3NT
-IzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMjU3MzY2
-MCwxNTkzOTU3MzUxLC01MTk5MTg1MjQsODY0NzEyOTQsMzY5Nz
-EzMzk2LDM5MTM1NTE3LC0xODAwNzU3NTg5LDczOTE5ODI3OSwt
-MTA2NDM3NzQxNiwxNTI1MTQyNzQ3LDk0MDEyNTk1OSwtNDIxOD
-cwMDcyLDE4NTM4Mjk3MTQsLTkwODAzMjAwMSw1ODUwOTIzMDld
+eyJoaXN0b3J5IjpbNjE0MzQ3MDMwLC05NTkwOTY1NTgsMTc1Mj
+M4Nzk4MCwxNzUyMzg3OTgwLDExNjI3Njg2MTksLTU0MDI5NDg5
+Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNTE5OTE4NTI0LDg2ND
+cxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywtMTgwMDc1NzU4OSw3
+MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0Nyw5NDAxMj
+U5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MDgwMzIwMDFd
 fQ==
 -->
