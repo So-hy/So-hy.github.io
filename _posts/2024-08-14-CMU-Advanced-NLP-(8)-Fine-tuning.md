@@ -369,12 +369,19 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 -   **데이터 수집 프로토콜 설정:** 훈련 데이터를 수집할 때, 특정 출처나 유형의 데이터를 제외하도록 프로토콜을 설정합니다. 예를 들어, 테스트 데이터와 동일하거나 유사한 출처의 데이터를 배제합니다.
 -   **자동화된 중복 검사:** 수집된 데이터에 대해 자동화된 도구를 사용하여 테스트 데이터와의 중복 여부를 검사하고, 중복된 데이터를 제거합니다.
 
+
+
+*테스트 복잡성을 어떻게 통제하나요?*
+
+사실, 아직 작업 복잡성에 대한 좋은 정의는 없다고 한다. 할 수 있는 몇 가지 방법으로는 길이 또는 다중 단계 추론에 필요한 단계 수 등을 통제하는 것이 있습니다. 실제 데이터를 사용하지 않는 연구 중 하나는 질문을 풀기 위해 필요한 작업을 나누어 복잡성을 표현하려는 시도를 했습니다. 예를 들어, 100개 이상의 ACL 논문에 포함된 키워드를 선택해야 할 경우, 선택, 필터링, 투영 등의 단계로 나누어 복잡성을 표현하려고 합니다. 또 다른 논문에서는 복잡한 문제를 그래프 형태로 표현하고, Transformer 모델이 이러한 복잡한 문제를 어떻게 해결하는지 연구했습니다.
+
+문제를 어렵게 만드는 요인은 매우 다양하기 때문에 이를 모두 포괄하기는 어렵습니다. 또한 주제, 언어, 말하는 스타일 등의 관점에서 분포 내/외인지 여부도 고려해야 합니다. 이는 디버깅 및 평가 강의에서 다룰 주제 중 하나이지만, 제가 좋아하는 방식은 데이터를 세분화하여 세그먼트별로 성능 차이를 살펴보는 것입니다. 세그먼트로 나눌 수 있는 모든 것은 난이도를 결정하는 요소이기 때문에 이에 대해 많은 이야기를 할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQzMzcyOTAsMTk1ODczODIwMCwxNz
-E5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1
-NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNT
-ksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0x
-NzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3OD
-Q0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQs
-OTkxMDU0NTA5XX0=
+eyJoaXN0b3J5IjpbLTY3Nzc1MTMwNiwxOTU4NzM4MjAwLDE3MT
+k4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2
+NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OS
+wtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3
+MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4ND
+QzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5
+OTEwNTQ1MDldfQ==
 -->
