@@ -32,12 +32,15 @@ layout: post
 이 방법에는 단점도 존재한다. Pre-training 중에, 모델은 언어 모델링과 같은 특정 작업에 유용한 표현(representations)을 학습하게 된다. 하지만 이 표현들이 다른 작업(예: 감성 분석)에 유용하지 않을 수도 있다. 예를 들어, 감성 분석과 언어 모델링을 동시에 학습하는 경우, 모델은 감성 분석에 필요한 표현을 더 잘 학습할 수 있다. 그러나 프리트레이닝 단계에서 언어 모델링만 학습한 후, 파인 튜닝을 통해 감성 분석을 학습하는 경우, 모델이 처음에 학습한 언어 모델링 표현들이 감성 분석에는 충분히 유용하지 않을 수 있다. 이 문제는 특히 다양한 최적화 경관(optimization landscape)에서 로컬 옵티마(local optima)가 여러 개 존재하는 경우에 발생할 수 있다. 이 때, 언어 모델링 작업은 최종 작업에 필요한 전역 옵티마(global optimum)를 찾지 못할 수도 있다.
 
 또 다른 흥미로운 논문이 하나 있는데, Anthropic에서 발표한 최근 연구에서는 안전성 개념을 학습 초기에 도입하면 더 나은 최종 결과를 얻을 수 있음을 보여주고 있다.
+
+
+이러한 이유로 프리트레이닝과 파인 튜닝의 단점이 있지만, 한 번 많은 계산 리소스를 사용하고 나서 다양한 다운스트림 작업에 대해 파인 튜닝을 하는 방식의 장점은 여전히 크다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjY2OTk3NTAsMzkxMzU1MTcsLTE4MD
-A3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3
-NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwtOT
-A4MDMyMDAxLDU4NTA5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2
-MCwtMTA0MDUwMjUzMSwtNjQ4NjI1NDY0LC0xMjE2MDk2OTA3LC
-0xNTQ4NTM5NDc4LC02OTkxNDY1MjEsOTQ4MzEyNzM3LDQzNjgz
-OTE5OV19
+eyJoaXN0b3J5IjpbMzY5NzEzMzk2LDM5MTM1NTE3LC0xODAwNz
+U3NTg5LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwxNTI1MTQyNzQ3
+LDk0MDEyNTk1OSwtNDIxODcwMDcyLDE4NTM4Mjk3MTQsLTkwOD
+AzMjAwMSw1ODUwOTIzMDksMTU2Mjc2Nzg5OCw3MDQxOTMyNjAs
+LTEwNDA1MDI1MzEsLTY0ODYyNTQ2NCwtMTIxNjA5NjkwNywtMT
+U0ODUzOTQ3OCwtNjk5MTQ2NTIxLDk0ODMxMjczNyw0MzY4Mzkx
+OTldfQ==
 -->
