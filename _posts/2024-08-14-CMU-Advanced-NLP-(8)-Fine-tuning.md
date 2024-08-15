@@ -386,13 +386,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이는 기본적인 언어 모델 학습과 다르다. 여전히 프롬프트와 출력을 기반으로 언어 모델을 학습하지만, 특정 작업을 해결하는 데 맞춰 포맷팅되어 있다. 본질적으로는 지도 학습(supervised learning)이며, 여러 작업에 대한 지도 학습을 통해 여러 작업에 대한 미세 조정을 하는 것이다. 이러한 논문들이 보여준 흥미로운 점은 인스트럭션 튜닝을 통해 학습한 모델이 학습한 작업뿐만 아니라 학습하지 않은 새로운 작업에서도 좋은 성능을 보인다는 점이다. 이는 현재 모든 주요 언어 모델에 포함되어 있으며, 실질적으로 널리 사용되고 있다고 한다.
 
-또한, 인-컨텍스트 학습(in-context learning)을 학습할 수 있다. 인-컨텍스트 학습에서는 단순히 프롬프트를 제공하는 대신, 컨텍스트에 학습 예시를 제공한다. 이 논문에서도 마찬가지로 여러 학습 예시를 샘플링하여 컨텍스트에 추가한 후 모델을 학습시킵니다. 이렇게 하면 모델이 인-컨텍스트 학습을 더 잘할 수 있게 됩니다.
+또한, 인-컨텍스트 학습(in-context learning)을 학습할 수 있다. 인-컨텍스트 학습에서는 단순히 프롬프트를 제공하는 대신, 컨텍스트에 학습 예시를 제공한다. 이 논문에서도 마찬가지로 여러 학습 예시를 샘플링하여 컨텍스트에 추가한 후 모델을 학습시킨다. 이렇게 하면 모델이 인-컨텍스트 학습을 더 잘할 수 있게 됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQyODkzODAzLDE5NTg3MzgyMDAsMTcxOT
-g0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0MTA0LC0yMjYzNTY1
-NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC
-0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcx
-NDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0ND
-MsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5
-MTA1NDUwOV19
+eyJoaXN0b3J5IjpbLTEwMjEyMDYzODAsMTk1ODczODIwMCwxNz
+E5ODQ0NjAxLDE3NzU1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1
+NjU0NCwtMTkyNDQzMzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNT
+ksLTE1NzQ0NTUzMDMsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0x
+NzE0NTgzNjc1LDIzODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3OD
+Q0MywtMjExNTM2MzMyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQs
+OTkxMDU0NTA5XX0=
 -->
