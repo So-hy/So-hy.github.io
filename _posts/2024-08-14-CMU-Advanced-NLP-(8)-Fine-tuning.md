@@ -48,9 +48,10 @@ layout: post
 
 ![Screenshot 2024-08-15 at 1 43 59 PM](https://github.com/user-attachments/assets/2d8e14de-e351-4997-b57d-ffdf5f0d847a)
 
+
 그림으로 표현하면 위와 같다. 사전 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA0NzYyNDc4LDE1OTM5NTczNTEsLTUxOT
+eyJoaXN0b3J5IjpbNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOT
 kxODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4
 MDA3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxND
 I3NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwt
