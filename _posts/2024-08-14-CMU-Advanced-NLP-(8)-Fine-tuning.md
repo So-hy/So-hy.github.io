@@ -68,13 +68,13 @@ layout: post
 ![40093c92d5cb036c35181a470ff943e5](https://github.com/user-attachments/assets/f38afd0d-7e2e-401c-a281-624f2cdb04c9)
 
 
-위의 각각의 단계는 옵티마이저만 분산할 것인가, 옵티마이저+그라디언트를 분산할 것인가, 옵티마이저+그라디언트+파라미터를 모두 분산할 것인가에
+위의 각각의 단계는 옵티마이저만 분산할 것인가, 옵티마이저+그라디언트를 분산할 것인가, 옵티마이저+그라디언트+파라미터를 모두 분산할 것인가에 따라 각 GPU가 소모하는 메모리량의 차이를 보여준다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzEyMzExMDgsMTc1MjM4Nzk4MCwxNz
-UyMzg3OTgwLDExNjI3Njg2MTksLTU0MDI5NDg5Nyw3MDI1NzM2
-NjAsMTU5Mzk1NzM1MSwtNTE5OTE4NTI0LDg2NDcxMjk0LDM2OT
-cxMzM5NiwzOTEzNTUxNywtMTgwMDc1NzU4OSw3MzkxOTgyNzks
-LTEwNjQzNzc0MTYsMTUyNTE0Mjc0Nyw5NDAxMjU5NTksLTQyMT
-g3MDA3MiwxODUzODI5NzE0LC05MDgwMzIwMDEsNTg1MDkyMzA5
-XX0=
+eyJoaXN0b3J5IjpbLTI1MTI2MDkwLDE3NTIzODc5ODAsMTc1Mj
+M4Nzk4MCwxMTYyNzY4NjE5LC01NDAyOTQ4OTcsNzAyNTczNjYw
+LDE1OTM5NTczNTEsLTUxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MT
+MzOTYsMzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0x
+MDY0Mzc3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5LC00MjE4Nz
+AwNzIsMTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NTA5MjMwOV19
+
 -->
