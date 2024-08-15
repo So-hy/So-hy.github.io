@@ -282,10 +282,12 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ## NLP Tasks
 
 
+파인튜닝에 대한 이야기 후, NLP 작업들에 대해 이야기를 하는데 그 이유는 당연히도 우리가 미세 조정을 할 때, 해결하고자 하는 개별 작업에 맞게 미세 조정을 해야 하기 때문이다.
 
 
+기본적으로 파인 튜닝은 특정 작업을 잘 수행할 수 있는 모델을 구축하는 것이고, 명령어 튜닝(instruction tuning)은 여러 작업에 잘 맞는 일반적인 모델을 구축하는 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU0MzUwODQzMywtMTM2NzU5NzQzLDE0NT
+eyJoaXN0b3J5IjpbMTk4MzU3Mjg2OSwtMTM2NzU5NzQzLDE0NT
 k1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2
 MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC
 0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMsMTE5ODU2
