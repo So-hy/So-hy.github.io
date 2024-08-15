@@ -439,8 +439,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 또 다른 모델은 Lama 2 Chat이다. Lama 2 Chat은 인스트럭션 튜닝과 인간의 선호도에 맞춘 튜닝이 이루어졌으며, 명령어를 따르는 데 있어 매우 좋은 성능을 보인다고 한다. 또한 Mixtral Instruct도 있다. 이 두 모델은 모두 디코더 전용 모델이며, Mixtral은 디코더 전용의 전문가 혼합 모델(Mixture of Experts)로, 크기가 작고 상당히 강력한 성능을 자랑한다. 디코더 전용 모델을 원한다면 Mixtral을 기본 모델로 고려해볼 수 있으며, FLAN T5를 인코더-디코더 모델로 선택할 수 있다고 한다.
 
+
+### Dataset Generation
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NDg3Mzg3NiwxNjk1MzY5MjI4LDE5NT
+eyJoaXN0b3J5IjpbLTYyMjIzNzk4NywxNjk1MzY5MjI4LDE5NT
 g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
 MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
 wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
