@@ -250,6 +250,8 @@ Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning
 
 BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스가 있는 모델에서는 매우 간단한 방법으로, 추가적인 코드를 추가할 필요 없이 모든 파라미터를 동결하고 바이어스만 학습하면 된다. 이러한 관점에서 매우 간단하다.
 
+***
+
 
 ![04980](https://github.com/user-attachments/assets/25d7d8c4-a476-4c92-baed-0e1d0690c878)
 
@@ -266,8 +268,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 
 또한, 이 논문에서는 이러한 이해가 새로운 변형 방법을 도출할 수 있음을 보여주고 있다. 여기선 병렬 어댑터(Parallel Adapter)와 스케일 병렬 어댑터(Scaled Parallel Adapter)라는 두 가지 방법을 제안하였고, 이 방법들이 더 나은 결과를 얻을 수 있음을 증명했다.
+
+
+그래서 이러한 다양한 방법들 중 무엇을 선택해야할까? 
+
+편의적인 측면에서 LoRA와 BitFit은 모델 아키텍처를 변경하지 않기 때문에, 절대적으로 최고의 정확도가 필요하지 않다면 이런 방법들을 사용하는 것이 좋다고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNTcyMjUzMCwtMTcxNDU4MzY3NSwyMz
+eyJoaXN0b3J5IjpbMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMz
 g5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMz
 MjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMT
 A1MTk3ODc3MywxMTk4NTYxOTEsODM5MTEzOTk5LDQ1NTcyODIz
