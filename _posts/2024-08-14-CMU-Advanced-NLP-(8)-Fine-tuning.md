@@ -352,13 +352,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이 문제를 확인하는 방법 중 하나는 테스트 데이터에 작은 변화를 주고, 이러한 변화가 모델의 점수를 얼마나 크게 떨어뜨리는지 테스트하는 것이다. 예를 들어, 최근에 발표된 논문 중 하나에서는 MMLU에서 출력 순서를 바꾸었더니 언어 모델의 정확도가 떨어지는 것을 확인했다. 이는 답변의 순서만 바꾼 것이므로 정확도에 영향을 미치지 않아야 하는데, 정확도가 떨어진다면 이는 정보가 유출되었음을 나타낼 수 있다. 또 다른 방법으로는 수학 문제에서 숫자를 약간 다르게 변경하는 것과 같이, 일부 데이터를 변형하고, 이로 인해 전체 정확도가 어떻게 변하는지 확인하는 것이 있다. 이러한 작은 변화를 통해 정확도가 크게 떨어진다면 문제가 있을 가능성이 크다.
 
-이를 방지하기 위해서는 간단하고 어리석을 수 있는 방법도 있습니다. 예를 들어, 파일을 ZIP으로 압축하고 비밀번호를 설정하면, GitHub에서 데이터를 스크래핑할 때 이러한 압축되고 비밀번호로 보호된 파일은 스크래핑되지 않는다. 이는 첫 번째 방어선이 될 수 있지만, 파일이 압축 해제된 상태로 어딘가에 올라가면 이 방법도 무용지물이 될 수 있습니다. 또 다른 방법으로는 데이터를 전혀 공개하지 않는 것입니다. 즉, 데이터를 비공개로 유지하고, 다른 누구도 결과를 볼 수 없게 하는 것이죠. 이런 식으로 데이터를 보호하는 것이 가능합니다.
+이를 방지하기 위해서는 간단하고 어리석을 수 있는 방법도 있습니다. 예를 들어, 파일을 ZIP으로 압축하고 비밀번호를 설정하면, GitHub에서 데이터를 스크래핑할 때 이러한 압축되고 비밀번호로 보호된 파일은 스크래핑되지 않는다. 이는 첫 번째 방어선이 될 수 있지만, 파일이 압축 해제된 상태로 어딘가에 올라가면 이 방법도 무용지물이 될 수 있다. 또 다른 방법으로는 데이터를 전혀 공개하지 않는 것이다. 즉, 데이터를 비공개로 유지하고, 다른 누구도 결과를 볼 수 없게 하는 것이죠. 이런 식으로 데이터를 보호하는 것이 가능합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMzA1ODIxNiwxNzE5ODQ0NjAxLDE3Nz
-U1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1NjU0NCwtMTkyNDQz
-MzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNTksLTE1NzQ0NTUzMD
-MsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNjc1LDIz
-ODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjExNTM2Mz
-MyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0x
-MDUxOTc4NzczXX0=
+eyJoaXN0b3J5IjpbLTE3NDk5MDUwNTQsMTcxOTg0NDYwMSwxNz
+c1NTMwOTI2LC0xMjI3NDU0MTA0LC0yMjYzNTY1NDQsLTE5MjQ0
+MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1Mz
+AzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwy
+Mzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNj
+MzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwt
+MTA1MTk3ODc3M119
 -->
