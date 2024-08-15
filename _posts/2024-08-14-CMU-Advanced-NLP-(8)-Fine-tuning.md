@@ -29,13 +29,13 @@ layout: post
 
 이와는 별도로 Pre-trained and Fine-tune이라는 방법이 있다. 이 방법은 먼저 하나의 작업에 대해 훈련한 후(마친 후), 다른 작업에 대해 훈련하는 것이다. 예를 들어, 언어 모델링(objective) 작업을 먼저 훈련한 다음, 그 작업이 끝나면 태깅 작업을 훈련하는 방식이다. 이 방법을 사용하는 이유 중 하나는 훈련 데이터의 크기와 관련이 있다. 예를 들어, 프리트레이닝 데이터가 방대하고 복잡한 경우 (예를 들어 인터넷의 모든 데이터를 포함하고 있는 경우), 그 데이터는 많은 독성(오류) 텍스트나 원치 않는 형식의 텍스트를 포함하고 있을 수 있다. 이러한 데이터를 사용해 학습한 후, 파인 튜닝을 통해 모델을 더 안전하게 만들거나 독성(오류)을 제거할 수 있다. 또다른 이유로는 비용 문제가 있다. 똑같이 너무 많은 훈련 데이터의 양 덕분에, 이걸 학습하는 것 자체가 어마어마한 비용이 든다고 한다. 이때문에 소수의 사람들이 Pre-trained 된 모델을 배포하고, 일반적으로 대다수의 사람들은 이를 Fine-tuning 해서 사용하는 것이다. 그러니까 일부 사람이 큰 양의 데이터를 학습한 Pre-trained 모델을 배포함으로써, 대부분의 사람들은 편하게 이를 활용하여 Fine-tuning해 쓸 수 있단 것이다. 
 
-이 방법에는 단점도 존재한다. Pre-training 중에, 모델은 언어 모델링과 같은 특정 작업에 유용한 표현(representations)을 학습하게 된다. 하지만 이 표현들이 다른 작업(예: 감성 분석)에 유용하지 않을 수도 있다. 예를 들어, 감성 분석과 언어 모델링을 동시에 학습하는 경우, 모델은 감성 분석에 필요한 표현을 더 잘 학습할 수 있다. 그러나 프리트레이닝 단계에서 언어 모델링만 학습한 후, 파인 튜닝을 통해 감성 분석을 학습하는 경우, 모델이 처음에 학습한 언어 모델링 표현들이 감성 분석에는 충분히 유용하지 않을 수 있다.
+이 방법에는 단점도 존재한다. Pre-training 중에, 모델은 언어 모델링과 같은 특정 작업에 유용한 표현(representations)을 학습하게 된다. 하지만 이 표현들이 다른 작업(예: 감성 분석)에 유용하지 않을 수도 있다. 예를 들어, 감성 분석과 언어 모델링을 동시에 학습하는 경우, 모델은 감성 분석에 필요한 표현을 더 잘 학습할 수 있다. 그러나 프리트레이닝 단계에서 언어 모델링만 학습한 후, 파인 튜닝을 통해 감성 분석을 학습하는 경우, 모델이 처음에 학습한 언어 모델링 표현들이 감성 분석에는 충분히 유용하지 않을 수 있다. 이 문제는 특히 다양한 최적화 경관(optimization landscape)에서 로컬 옵티마(local optima)가 여러 개 존재하는 경우에 발생할 수 있다. 이 때, 언어 모델링 작업은 최종 작업에 필요한 전역 옵티마(global optimum)를 찾지 못할 수도 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MT
-k4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5
-LC00MjE4NzAwNzIsMTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NT
-A5MjMwOSwxNTYyNzY3ODk4LDcwNDE5MzI2MCwtMTA0MDUwMjUz
-MSwtNjQ4NjI1NDY0LC0xMjE2MDk2OTA3LC0xNTQ4NTM5NDc4LC
-02OTkxNDY1MjEsOTQ4MzEyNzM3LDQzNjgzOTE5OSw0NzI5MzA5
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTU1NjAwNjM2NywzOTEzNTUxNywtMTgwMD
+c1NzU4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNTE0Mjc0
+Nyw5NDAxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0LC05MD
+gwMzIwMDEsNTg1MDkyMzA5LDE1NjI3Njc4OTgsNzA0MTkzMjYw
+LC0xMDQwNTAyNTMxLC02NDg2MjU0NjQsLTEyMTYwOTY5MDcsLT
+E1NDg1Mzk0NzgsLTY5OTE0NjUyMSw5NDgzMTI3MzcsNDM2ODM5
+MTk5XX0=
 -->
