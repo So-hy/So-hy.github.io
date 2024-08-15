@@ -350,13 +350,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 사람들이 이를 방지하기 위해 여러 가지 방법을 시도했다. 이는 데이터 생성에 대한 논의에서 다뤄야 할 좋은 주제일 것이다. 첫 번째로, 데이터를 실제로 생성하기 때문에 유사한 데이터는 괜찮다. 왜냐하면 인터넷 어디에서나 등장하는 내용이라면 GPT-4는 이를 학습할 것이다. 문제는 동일한 데이터가 나타나는 경우이다. 그렇다면 이것이 발생하지 않도록 하는 방법은 무엇일까? 그리고 발생했는지 여부를 어떻게 확인할 수 있을까?
 
-이 문제를 확인하는 방법 중 하나는 테스트 데이터에 작은 변화를 주고, 이러한 변화가 모델의 점수를 얼마나 크게 떨어뜨리는지 테스트하는 것이다. 예를 들어, 최근에 발표된 논문 중 하나에서는 MMLU에서 출력 순서를 바꾸었더니 언어 모델의 정확도가 떨어지는 것을 확인했습니다. 이는 답변의 순서만 바꾼 것이므로 정확도에 영향을 미치지 않아야 하는데, 정확도가 떨어진다면 이는 정보가 유출되었음을 나타낼 수 있습니다. 또 다른 방법으로는 수학 문제에서 숫자를 약간 다르게 변경하고, 이로 인해 전체 정확도가 어떻게 변하는지 확인하는 것이 있습니다. 이러한 작은 변화를 통해 정확도가 크게 떨어진다면 문제가 있을 가능성이 큽니다.
+이 문제를 확인하는 방법 중 하나는 테스트 데이터에 작은 변화를 주고, 이러한 변화가 모델의 점수를 얼마나 크게 떨어뜨리는지 테스트하는 것이다. 예를 들어, 최근에 발표된 논문 중 하나에서는 MMLU에서 출력 순서를 바꾸었더니 언어 모델의 정확도가 떨어지는 것을 확인했다. 이는 답변의 순서만 바꾼 것이므로 정확도에 영향을 미치지 않아야 하는데, 정확도가 떨어진다면 이는 정보가 유출되었음을 나타낼 수 있습니다. 또 다른 방법으로는 수학 문제에서 숫자를 약간 다르게 변경하고, 이로 인해 전체 정확도가 어떻게 변하는지 확인하는 것이 있습니다. 이러한 작은 변화를 통해 정확도가 크게 떨어진다면 문제가 있을 가능성이 큽니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDA5NTkyOTgsMTcxOTg0NDYwMSwxNz
-c1NTMwOTI2LC0xMjI3NDU0MTA0LC0yMjYzNTY1NDQsLTE5MjQ0
-MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1Mz
-AzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwy
-Mzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNj
-MzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwt
-MTA1MTk3ODc3M119
+eyJoaXN0b3J5IjpbLTEwOTU1NjE0MywxNzE5ODQ0NjAxLDE3Nz
+U1MzA5MjYsLTEyMjc0NTQxMDQsLTIyNjM1NjU0NCwtMTkyNDQz
+MzQyLC0xNTExMDI2NDQ5LC01MDk5ODQzNTksLTE1NzQ0NTUzMD
+MsLTEzNjc1OTc0MywxNDU5NTgzNjg3LC0xNzE0NTgzNjc1LDIz
+ODk1NzMwMSwxNDY1MTYzNjE1LC01MTY3ODQ0MywtMjExNTM2Mz
+MyOSwtMTQzNTU3NDYyMSwtMjgzNDA2OTQsOTkxMDU0NTA5LC0x
+MDUxOTc4NzczXX0=
 -->
