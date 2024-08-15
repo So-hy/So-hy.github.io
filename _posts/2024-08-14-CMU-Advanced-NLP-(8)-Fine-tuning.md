@@ -447,13 +447,20 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 Self-Instruct 논문에서 보여준 흥미로운 점은, 이를 통해 생성된 테스트로 GPT-3을 미세 조정하여 모델 자체를 개선할 수 있다는 것이다. 다른 최근 예시로는 Tuning for Chain of Thought 가 있다. ORCA는 이러한 예 중 하나로, 모델이 특정 결정을 내린 이유를 설명하는 description(설명)을 생성하고, 이를 사용해 모델의 추론 능력을 증가시키는 훈련을 하는 데 사용하는 것이다.
 
-또 다른 흥미로운 예시는 Evol Instruct이다. 이 방법의 기본 아이디어는, 사용하고자 하는 데이터셋에서  Seed set of Instructions를 시작으로, 이를 더 복잡하게 만들기 위해 인스트럭션을 수정하는 것이다. 그러니까, 이렇게 하는건 너무 쉬운 것 같으니 이걸 좀더 어렵게 해보자! 라는 식으로 인스트럭션을 수정하는 것이다. 이렇게 하면 모델이 복잡한 문제를 해결하는 능력을 개선할 수 있다고 한다. 
+또 다른 흥미로운 예시는 Evol Instruct이다. 이 방법의 기본 아이디어는, 사용하고자 하는 데이터셋에서  Seed set of Instructions를 시작으로, 이를 더 복잡하게 만들기 위해 인스트럭션을 수정하는 것이다. 그러니까, 이렇게 하는건 너무 쉬운 것 같으니 이걸 좀더 어렵게 해보자! 라는 식으로 인스트럭션을 수정하는 것이다. 이렇게 하면 모델이 복잡한 문제를 해결하는 능력을 개선할 수 있다고 한다.
+
+
+**Question2.**
+
+*Fine Tuning 과 Instruction Tuning 중 뭘 선택해야 할까?* 
+
+명확한 작업 정의와 충분한 훈련 데이터를 가지고 있는 경우, 전체 미세 조정을 통해 얻을 수 있는 이점이 있다. 첫째로, 더 큰 모델에서 약간의 정확도 향상을 기대할 수 있지만, 작은 모델에서는 더 큰 정확도 향상을 기대할 수 있습니다. 작은 모델은 여러 작업에서 매우 잘할 수 있는 능력이 부족하기 때문에, 특정 작업에 더 집중하여 성능을 개선할 수 있습니다. 최근에 나온 몇 가지 흥미로운 결과가 있는데, 예를 들어, Lama 7B를 기반으로 한 매우 강력한 텍스트-쿼리 모델이 있으며, 많은 텍스트-쿼리 데이터를 사용하여 학습되었습니다. 따라서 특정 작업이 중요한 경우, 이 방법이 매우 유용할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTU0NDI1NzIsMTY5NTM2OTIyOCwxOT
-U4NzM4MjAwLDE3MTk4NDQ2MDEsMTc3NTUzMDkyNiwtMTIyNzQ1
-NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEwMjY0ND
-ksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0
-NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNj
-M2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIx
-LC0yODM0MDY5NF19
+eyJoaXN0b3J5IjpbMTA4ODIwNzkxNCwxNjk1MzY5MjI4LDE5NT
+g3MzgyMDAsMTcxOTg0NDYwMSwxNzc1NTMwOTI2LC0xMjI3NDU0
+MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAyNjQ0OS
+wtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3NDMsMTQ1
+OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2NTE2Mz
+YxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1NzQ2MjEs
+LTI4MzQwNjk0XX0=
 -->
