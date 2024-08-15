@@ -50,12 +50,16 @@ layout: post
 
 
 그림으로 표현하면 위와 같다. 사전 학습된 언어 모델은 여러 작업 (B, C, D 등)에 대해 지시(instruction) 기반으로 튜닝된다. 여기서 지시 기반 튜닝은 자연어 지시를 통해 모델을 다양한 작업에 맞게 조정하는 것을 의미한다. 지시 기반 튜닝이 완료된 모델은 새로운, 이전에 보지 못한 작업(Task A)에 대해 추론을 수행한다. 이때 모델은 이전에 학습된 다양한 작업들에 대한 경험을 활용하여 새로운 작업을 잘 수행할 수 있게 된다는게 인스트럭션 튜닝의 핵심이다.
+
+
+## Fine-Tuning
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDA0NjUxNTMsNzAyNTczNjYwLDE1OT
-M5NTczNTEsLTUxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYs
-MzkxMzU1MTcsLTE4MDA3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mz
-c3NDE2LDE1MjUxNDI3NDcsOTQwMTI1OTU5LC00MjE4NzAwNzIs
-MTg1MzgyOTcxNCwtOTA4MDMyMDAxLDU4NTA5MjMwOSwxNTYyNz
-Y3ODk4LDcwNDE5MzI2MCwtMTA0MDUwMjUzMSwtNjQ4NjI1NDY0
-XX0=
+eyJoaXN0b3J5IjpbLTU0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mz
+k1NzM1MSwtNTE5OTE4NTI0LDg2NDcxMjk0LDM2OTcxMzM5Niwz
+OTEzNTUxNywtMTgwMDc1NzU4OSw3MzkxOTgyNzksLTEwNjQzNz
+c0MTYsMTUyNTE0Mjc0Nyw5NDAxMjU5NTksLTQyMTg3MDA3Miwx
+ODUzODI5NzE0LC05MDgwMzIwMDEsNTg1MDkyMzA5LDE1NjI3Nj
+c4OTgsNzA0MTkzMjYwLC0xMDQwNTAyNTMxLC02NDg2MjU0NjRd
+fQ==
 -->
