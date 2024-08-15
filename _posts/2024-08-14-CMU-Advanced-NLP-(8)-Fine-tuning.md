@@ -348,7 +348,7 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 *여러가지 데이터셋이 나왔는데 훈련 데이터에 유사한 데이터가 포함되지 않도록 어떻게 보장했을까?*
 
-사람들이 이를 방지하기 위해 여러 가지 방법을 시도했다. 이는 데이터 생성에 대한 논의에서 다뤄야 할 좋은 주제일 것이다. 첫 번째로, 데이터를 실제로 생성하기 때문에 유사한 데이터는 괜찮다. 왜냐하면 인터넷 어디에서나 등장하는 내용이라면 GPT-4는 이를 학습할 것이다. 문제는 동일한 데이터가 나타나는 경우입니다. 그렇다면 이것이 발생하지 않도록 하는 방법은 무엇일까요? 그리고 발생했는지 여부를 어떻게 확인할 수 있을까요?
+사람들이 이를 방지하기 위해 여러 가지 방법을 시도했다. 이는 데이터 생성에 대한 논의에서 다뤄야 할 좋은 주제일 것이다. 첫 번째로, 데이터를 실제로 생성하기 때문에 유사한 데이터는 괜찮다. 왜냐하면 인터넷 어디에서나 등장하는 내용이라면 GPT-4는 이를 학습할 것이다. 문제는 동일한 데이터가 나타나는 경우이다. 그렇다면 이것이 발생하지 않도록 하는 방법은 무엇일까? 그리고 발생했는지 여부를 어떻게 확인할 수 있을까?
 
 이를 방지하는 방법으로, 테스트 데이터에 약간의 변형을 가하고, 이로 인해 모델의 성능이 얼마나 떨어지는지 테스트하는 방법이 있다. 최근에 나온 논문 중 하나는, MMLU에서 출력 순서를 바꿨을 때 성능이 떨어지는지를 실험한 적이 있습니다. 단순히 답변의 순서를 바꾸는 것이기 때문에 성능에 영향을 미쳐서는 안 되지만, 만약 그렇다면 데이터가 누수되었다는 신호이다. 
 
@@ -356,11 +356,11 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 이를 방지하기 위해 할 수 있는 방법으로는, 예를 들어, 파일을 압축하고 암호를 설정하는 등의 간단한 방법이 있습니다. 이렇게 하면 GitHub 전체를 크롤링하는 크롤러도 압축되고 암호가 설정된 파일은 크롤링하지 못할 것입니다. 이러한 방법으로 첫 번째 방어선을 구축할 수 있습니다. 물론 누군가가 압축을 풀고 파일을 다른 곳에 올린다면 문제가 될 수 있지만, 이러한 방식으로 할 수 있는 일들이 있습니다. 또 다른 방법으로는 데이터를 전혀 공개하지 않는 것입니다. 비공개 버전의 데이터를 유지하고, 결과를 다른 사람들에게 공개하지 않는 것입니다. 이 문제는 꽤 까다롭습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzAwOTk1NjEsMTcxOTg0NDYwMSwxNz
-c1NTMwOTI2LC0xMjI3NDU0MTA0LC0yMjYzNTY1NDQsLTE5MjQ0
-MzM0MiwtMTUxMTAyNjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1Mz
-AzLC0xMzY3NTk3NDMsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwy
-Mzg5NTczMDEsMTQ2NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNj
-MzMjksLTE0MzU1NzQ2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwt
-MTA1MTk3ODc3M119
+eyJoaXN0b3J5IjpbNDQ2Mzc5ODgwLDE3MTk4NDQ2MDEsMTc3NT
+UzMDkyNiwtMTIyNzQ1NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMz
+NDIsLTE1MTEwMjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMy
+wtMTM2NzU5NzQzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4
+OTU3MzAxLDE0NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMz
+I5LC0xNDM1NTc0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEw
+NTE5Nzg3NzNdfQ==
 -->
