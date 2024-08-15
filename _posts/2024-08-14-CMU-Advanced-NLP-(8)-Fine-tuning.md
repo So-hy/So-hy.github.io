@@ -80,13 +80,13 @@ layout: post
 ### Parameter-efficient Fine-Tuning(PEFT)
 
 
-이는 모델의 일부 파라미터만 훈련시키는 방법도 이다. 이를 통해 큰 GPU 없이도 많은 데이터 세트에서 모델을 효과적으로 훈련시킬 수 있습니다. 예를 들어, 프리픽스 튜닝(prefix tuning)과 같은 방법을 사용해 특정 층의 프리픽스만 튜닝하는 것입니다.
+이는 모델의 일부 파라미터만 훈련시키는 방법도 이다. 이를 통해 큰 GPU 없이도 많은 데이터 세트에서 모델을 효과적으로 훈련시킬 수 있다. 예를 들어, 프리픽스 튜닝(prefix tuning)과 같은 방법을 사용해 특정 층의 프리픽스만 튜닝하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1OTE4MzQ4LC0xMDYzODM5NDQxLC05NT
-kwOTY1NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLDExNjI3Njg2
-MTksLTU0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MSwtNT
-E5OTE4NTI0LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUxNywt
-MTgwMDc1NzU4OSw3MzkxOTgyNzksLTEwNjQzNzc0MTYsMTUyNT
-E0Mjc0Nyw5NDAxMjU5NTksLTQyMTg3MDA3MiwxODUzODI5NzE0
+eyJoaXN0b3J5IjpbLTMyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNj
+M4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5
+ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNT
+kzOTU3MzUxLC01MTk5MTg1MjQsODY0NzEyOTQsMzY5NzEzMzk2
+LDM5MTM1NTE3LC0xODAwNzU3NTg5LDczOTE5ODI3OSwtMTA2ND
+M3NzQxNiwxNTI1MTQyNzQ3LDk0MDEyNTk1OSwtNDIxODcwMDcy
 XX0=
 -->
