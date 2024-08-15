@@ -97,12 +97,14 @@ layout: post
 이 다운스케일-업스케일 과정은 비선형 활성화 함수를 거친 후, 최종적으로 원래의 입력 벡터와 결합된다(Residual Connection). 파인튜닝 시 어댑터 레이어만을 학습시키고, 나머지 트랜스포머 아키텍처는 고정할 수 있다. 이렇게 하면 기존 모델의 성능을 유지하면서도 새로운 작업에 적합한 표현을 학습할 수 있다. 또한, 다운스케일 과정에서 벡터의 차원을 줄임으로써, 어댑터의 매개변수 개수가 크게 줄어들게 된다. 줄어든 매개변수 개수는 훈련 중에 필요한 메모리 사용량을 크게 감소시킵니다. 이는 특히 대규모 모델을 훈련할 때 중요한 이점이다. 이러한 파라미터 효율적인 구조로 인해, 어댑터는 큰 모델을 작은 메모리로도 효과적으로 훈련할 수 있게 한다. 또한, 어댑터 방식은 하나의 장점이 있는데, 바로 오버피팅으로 부터 비교적 자유롭다는 것이다. 이또한 파라미터가 적기 때문이라고 한다.
 
 이때 한 학생이 그라디언트와 관련된 부분은 어댑터에서 어떻게 저장되냐라는 질문을 한다. 여기서 교수가 답한 내용은 일반적으로, 모든 레이어의 그라디언트를 계산하고 저장해야 할 것 같지만, 실제로는 그렇지 않다는 것이다.
+
+백프로퍼게이션(Backpropagation, 역전파)을 수행할 때, 오직 업데이트가 필요한 파라미터에 대해서만 그라디언트를 계산한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODkxNjEzNzMsMzU0OTUwNzM4LC0xOD
-EyNDY5NTU5LDEyMjU5MjU2OTYsNDEwODg1NTA4LC0xNzQyMTk4
-MTE1LC0zMjMyMjM0NDAsNzc1OTE4MzQ4LC0xMDYzODM5NDQxLC
-05NTkwOTY1NTgsMTc1MjM4Nzk4MCwxNzUyMzg3OTgwLDExNjI3
-Njg2MTksLTU0MDI5NDg5Nyw3MDI1NzM2NjAsMTU5Mzk1NzM1MS
-wtNTE5OTE4NTI0LDg2NDcxMjk0LDM2OTcxMzM5NiwzOTEzNTUx
-N119
+eyJoaXN0b3J5IjpbODc0NzA5NzU2LC0xNjg5MTYxMzczLDM1ND
+k1MDczOCwtMTgxMjQ2OTU1OSwxMjI1OTI1Njk2LDQxMDg4NTUw
+OCwtMTc0MjE5ODExNSwtMzIzMjIzNDQwLDc3NTkxODM0OCwtMT
+A2MzgzOTQ0MSwtOTU5MDk2NTU4LDE3NTIzODc5ODAsMTc1MjM4
+Nzk4MCwxMTYyNzY4NjE5LC01NDAyOTQ4OTcsNzAyNTczNjYwLD
+E1OTM5NTczNTEsLTUxOTkxODUyNCw4NjQ3MTI5NCwzNjk3MTMz
+OTZdfQ==
 -->
