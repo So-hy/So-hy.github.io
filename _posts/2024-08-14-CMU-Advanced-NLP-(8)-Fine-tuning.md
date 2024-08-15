@@ -340,13 +340,13 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 ### General Purpose Benchmarks
 
 
-이 외에도 일반적인 벤치마크가 있다. 이러한 벤치마크는 특정 작업의 유용성을 평가하는 것이 아니라, 언어 모델 자체의 언어 능력을 테스트하는 것이다. 전형적인 예로는 Big Bench가 있으며, 다양한 능력을 테스트하는 많은 작업들이 포함되어 있습니다. 예를 들어, 물체 섞기 추적(tracking shuffled objects), 날짜 계산 문제 등 여러 가지입니다. 이러한 작업들을 통해 언어 모델이 평가되며, Gemini 논문은 정보 추출 작업을 제외한 모든 작업 카테고리를 평가 대상으로 삼았습니다.
+이 외에도 일반적인 벤치마크가 있다. 이러한 벤치마크는 특정 작업의 유용성을 평가하는 것이 아니라, 언어 모델 자체의 언어 능력을 테스트하는 것이다. 전형적인 예로는 Big Bench가 있으며, 다양한 능력을 테스트하는 많은 작업들이 포함되어 있다. 예를 들어, 물체 섞기 추적(tracking shuffled objects), 날짜 계산 문제 등 여러 가지입니다. 이러한 작업들을 통해 언어 모델이 평가되며, Gemini 논문은 정보 추출 작업을 제외한 모든 작업 카테고리를 평가 대상으로 삼았습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU5OTQyNTksMTc3NTUzMDkyNiwtMT
-IyNzQ1NDEwNCwtMjI2MzU2NTQ0LC0xOTI0NDMzNDIsLTE1MTEw
-MjY0NDksLTUwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5Nz
-QzLDE0NTk1ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0
-NjUxNjM2MTUsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NT
-c0NjIxLC0yODM0MDY5NCw5OTEwNTQ1MDksLTEwNTE5Nzg3NzMs
-MTE5ODU2MTkxXX0=
+eyJoaXN0b3J5IjpbMTA4OTM0NzcxMiwxNzc1NTMwOTI2LC0xMj
+I3NDU0MTA0LC0yMjYzNTY1NDQsLTE5MjQ0MzM0MiwtMTUxMTAy
+NjQ0OSwtNTA5OTg0MzU5LC0xNTc0NDU1MzAzLC0xMzY3NTk3ND
+MsMTQ1OTU4MzY4NywtMTcxNDU4MzY3NSwyMzg5NTczMDEsMTQ2
+NTE2MzYxNSwtNTE2Nzg0NDMsLTIxMTUzNjMzMjksLTE0MzU1Nz
+Q2MjEsLTI4MzQwNjk0LDk5MTA1NDUwOSwtMTA1MTk3ODc3Mywx
+MTk4NTYxOTFdfQ==
 -->
