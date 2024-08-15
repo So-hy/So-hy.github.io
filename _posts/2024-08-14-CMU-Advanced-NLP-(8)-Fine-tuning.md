@@ -111,15 +111,15 @@ layout: post
 어댑터와 유사한 방법으로 LoRA라는 방법도 있다. 하지만 어댑터와 다르게 비선형 레이어를 사용하지 않고 단순히 다운스케일과 업스케일을 반복하는 방식으로 메모리를 절약한다. LoRA에서는 파라미터 매트릭스를 조정할 때, 이를 효율적으로 다루기 위해 두 개의 작은 매트릭스를 사용한다. 하나는 입력 차원을 줄이는 다운스케일링(downscaling) 매트릭스이고, 다른 하나는 다시 원래 차원으로 확장하는 업스케일링(upscaling) 매트릭스이다.
 
 
-•  **업스케일링 매트릭스 초기화**: 업스케일링을 위해 사용하는 매트릭스를 초기화할 때, 이 매트릭스를 0으로 초기화합니다. 이렇게 하면 만약 학습 과정에서 이 매트릭스를 조정하지 않더라도, 이 매트릭스가 모델의 다른 파라미터에 영향을 미치지 않도록 할 수 있습니다. 즉, 매트릭스가 0으로 유지되므로 아무런 조정도 이루어지지 않은 상태로 남게 됩니다.
+•  **업스케일링 매트릭스 초기화**: 업스케일링을 위해 사용하는 매트릭스를 초기화할 때, 이 매트릭스를 0으로 초기화한다. 이렇게 하면 만약 학습 과정에서 이 매트릭스를 조정하지 않더라도, 이 매트릭스가 모델의 다른 파라미터에 영향을 미치지 않도록 할 수 있다. 즉, 매트릭스가 0으로 유지되므로 아무런 조정도 이루어지지 않은 상태로 남게 된다.
 
 •  **다운스케일링 매트릭스 초기화**: 다운스케일링 매트릭스는 0으로 초기화하거나 무작위(random)로 초기화할 수 있습니다. 다만, 이 매트릭스는 보통 무작위로 초기화됩니다. 다운스케일링 매트릭스가 무작위로 초기화되는 이유는 모델이 학습하면서 입력 차원을 조정하기 위해 필요로 하는 유연성을 제공하기 위함입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMwMjc2NzM4LDQ3MzA0NTM0OSwtMTE2Nj
-E2OTM1Myw4MTEzNjA3MjQsMTE3NzM1NzYyLC0xNjg5MTYxMzcz
-LDM1NDk1MDczOCwtMTgxMjQ2OTU1OSwxMjI1OTI1Njk2LDQxMD
-g4NTUwOCwtMTc0MjE5ODExNSwtMzIzMjIzNDQwLDc3NTkxODM0
-OCwtMTA2MzgzOTQ0MSwtOTU5MDk2NTU4LDE3NTIzODc5ODAsMT
-c1MjM4Nzk4MCwxMTYyNzY4NjE5LC01NDAyOTQ4OTcsNzAyNTcz
-NjYwXX0=
+eyJoaXN0b3J5IjpbMTk4OTQ3NjA0OSw0NzMwNDUzNDksLTExNj
+YxNjkzNTMsODExMzYwNzI0LDExNzczNTc2MiwtMTY4OTE2MTM3
+MywzNTQ5NTA3MzgsLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MT
+A4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3NzU5MTgz
+NDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3OTgwLD
+E3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMjU3
+MzY2MF19
 -->
