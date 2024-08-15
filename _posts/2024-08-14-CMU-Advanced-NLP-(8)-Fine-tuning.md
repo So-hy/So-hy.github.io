@@ -144,9 +144,9 @@ LoRA가 인기 있는 이유는 매우 편리하기 때문입니다. LoRA로 학
 **Q-LoRA**
 
 
-Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning)을 결합한 것이다.
+Q-LoRa는 quantization 과 파라미터 효율 조정(Parameter Efficient Tuning)을 결합한 것이다. 기본적으로 모델을 16비트가 아닌 4비트로 압축할 수 있는 방법이 있으며, 이렇게 하면 모델이 매우 작아집니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDU1MzA4OSwxMTk4NTYxOTEsODM5MT
+eyJoaXN0b3J5IjpbMTEwODUyNjM2MCwxMTk4NTYxOTEsODM5MT
 EzOTk5LDQ1NTcyODIzNSw2NjY4MjY2NjgsLTE2MzgwMjY1Njgs
 LTE4MDk5MjM1NjAsLTE4OTIwMDc5MjgsMTY2Nzk0ODE3MywtND
 M3ODQ1NjQ3LC02ODc0MzI4MzYsMTY1NDQyNTEyMiw0OTQ1NzA1
