@@ -137,13 +137,13 @@ layout: post
 
 그러니까 쉽게 말하자면 저랭크 근사치를 통해 추가적인 가중치 "업데이트"를 학습한다는 것. 이 추가적인 가중치 업데이트는 기존의 가중치와 별도로 관리되며, 학습이 끝난 후, 이 업데이트와 기존의 pre-trained 가중치를 결합하여 최종 모델을 구성한다.
 
-LoRA가 인기 있는 이유는 매우 편리하기 때문입니다. LoRA로 학습을 마친 후, 학습된 행렬을 원래 가중치 행렬에 추가하기만 하면 된다. 그러면 다른 컴포넌트가 필요 없이 같은 형태의 모델을 얻을 수 있다. 따라서 추가적인 코드 경로나 모델 컴포넌트가 필요하지 않아서 어댑터와 대비되는 큰 이유이다. 이 방법은 아주 간단하지만 알아두는 것이 중요합니다.
+LoRA가 인기 있는 이유는 매우 편리하기 때문입니다. LoRA로 학습을 마친 후, 학습된 행렬을 원래 가중치 행렬에 추가하기만 하면 된다. 그러면 다른 컴포넌트가 필요 없이 같은 형태의 모델을 얻을 수 있다. 따라서 추가적인 코드 경로나 모델 컴포넌트가 필요하지 않아서 어댑터와 대비되는 큰 이유이다. 이 방법은 아주 간단하지만 알아두는 것이 중요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzUyOTk2Miw4MzkxMTM5OTksNDU1Nz
-I4MjM1LDY2NjgyNjY2OCwtMTYzODAyNjU2OCwtMTgwOTkyMzU2
-MCwtMTg5MjAwNzkyOCwxNjY3OTQ4MTczLC00Mzc4NDU2NDcsLT
-Y4NzQzMjgzNiwxNjU0NDI1MTIyLDQ5NDU3MDUzOCwtMTE1MjIz
-MTE1NCwxMDI3ODI5OTE0LDQ3MzA0NTM0OSwtMTE2NjE2OTM1My
-w4MTEzNjA3MjQsMTE3NzM1NzYyLC0xNjg5MTYxMzczLDM1NDk1
-MDczOF19
+eyJoaXN0b3J5IjpbMTE5ODU2MTkxLDgzOTExMzk5OSw0NTU3Mj
+gyMzUsNjY2ODI2NjY4LC0xNjM4MDI2NTY4LC0xODA5OTIzNTYw
+LC0xODkyMDA3OTI4LDE2Njc5NDgxNzMsLTQzNzg0NTY0NywtNj
+g3NDMyODM2LDE2NTQ0MjUxMjIsNDk0NTcwNTM4LC0xMTUyMjMx
+MTU0LDEwMjc4Mjk5MTQsNDczMDQ1MzQ5LC0xMTY2MTY5MzUzLD
+gxMTM2MDcyNCwxMTc3MzU3NjIsLTE2ODkxNjEzNzMsMzU0OTUw
+NzM4XX0=
 -->
