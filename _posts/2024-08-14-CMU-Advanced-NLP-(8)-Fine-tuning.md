@@ -295,9 +295,9 @@ BitFit은 모델의 바이어스만 학습(튜닝)하는 것이다. 바이어스
 
 첫 번째는 문맥 없는 질문 응답(context-free question answering), 일명 오픈북 QA이다. 기본적으로 이는 특정 문서에 의존하지 않고 질문에 답하는 것이다. ChatGPT가 웹에서 무언가를 검색하지 않고 질문에 답할 때 발생하는 일과 같다고 보면 된다.
 
-예시로 많이 사용되는 데이터셋은 MML입니다. 이것은 다중 작업 언어 이해(massively multitask language understanding) 데이터셋이며, 전문 법률과 같은 비교적 어려운 분야의 질문들을 포함하고 있습니다. 예를 들어, '판매원이 무단 침입자들은 기소될 것이라는 표지를 무시하고 은둔자의 집에 들어갔다. 그는 진입로를 따라 차를 몰고 갔고, 폭발물이 터져서 부상을 입었다. 판매원이 은둔자에게 손해 배상을 청구할 수 있는가?'와 같은 질문이 있습니다. 저는 변호사가 아니기 때문에 확신을 가지고 이 질문에 답할 수 없지만, 정답은 '예'입니다. 만약 그 은둔자가 진입로 아래에 폭발물을 설치했다면, 은둔자가 책임을 질 수 있습니다. 그러니까 만약 누군가가 당신이 무단 침입할 때 당신을 폭발시키려 한다면, 증거를 수집할 수 있습니다. 이와 같은 다양한 카테고리의 질문들이 있습니다.
+예시로 많이 사용되는 데이터셋은 MMLU이다. 이것은 다중 작업 언어 이해(massively multitask language understanding) 데이터셋이며, 전문 법률과 같은 비교적 어려운 분야의 질문들을 포함하고 있습니다. 예를 들어, '판매원이 무단 침입자들은 기소될 것이라는 표지를 무시하고 은둔자의 집에 들어갔다. 그는 진입로를 따라 차를 몰고 갔고, 폭발물이 터져서 부상을 입었다. 판매원이 은둔자에게 손해 배상을 청구할 수 있는가?'와 같은 질문이 있습니다. 저는 변호사가 아니기 때문에 확신을 가지고 이 질문에 답할 수 없지만, 정답은 '예'입니다. 만약 그 은둔자가 진입로 아래에 폭발물을 설치했다면, 은둔자가 책임을 질 수 있습니다. 그러니까 만약 누군가가 당신이 무단 침입할 때 당신을 폭발시키려 한다면, 증거를 수집할 수 있습니다. 이와 같은 다양한 카테고리의 질문들이 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDc2ODY3OTgsLTE1MTEwMjY0NDksLT
+eyJoaXN0b3J5IjpbLTE5MzY1NTkwODIsLTE1MTEwMjY0NDksLT
 UwOTk4NDM1OSwtMTU3NDQ1NTMwMywtMTM2NzU5NzQzLDE0NTk1
 ODM2ODcsLTE3MTQ1ODM2NzUsMjM4OTU3MzAxLDE0NjUxNjM2MT
 UsLTUxNjc4NDQzLC0yMTE1MzYzMzI5LC0xNDM1NTc0NjIxLC0y
