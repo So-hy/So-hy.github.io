@@ -94,9 +94,9 @@ layout: post
 > 차원의 벡터를 다시 512 차원으로 확장합니다.
 
 
-이 다운스케일-업스케일 과정은 비선형 활성화 함수를 거친 후, 최종적으로 원래의 입력 벡터와 결합된다(Residual Connection). 파인튜닝 시 어댑터 레이어만을 학습시키고, 나머지 트랜스포머 아키텍처는 고정할 수 있다. 이렇게 하면 기존 모델의 성능을 유지하면서도 새로운 작업에 적합한 표현을 학습할 수 있다.
+이 다운스케일-업스케일 과정은 비선형 활성화 함수를 거친 후, 최종적으로 원래의 입력 벡터와 결합된다(Residual Connection). 파인튜닝 시 어댑터 레이어만을 학습시키고, 나머지 트랜스포머 아키텍처는 고정할 수 있다. 이렇게 하면 기존 모델의 성능을 유지하면서도 새로운 작업에 적합한 표현을 학습할 수 있다. 또한, 다운스케일 과정에서 벡터의 차원을 줄임으로써, 어댑터의 매개변수 개수가 크게 줄어들게 된다. 줄어든 매개변수 개수는 훈련 중에 필요한 메모리 사용량을 크게 감소시킵니다. 이는 특히 대규모 모델을 훈련할 때 중요한 이점이다. 이러한 파라미터 효율적인 구조로 인해, 어댑터는 큰 모델을 작은 메모리로도 효과적으로 훈련할 수 있게 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5ODg5NjA3OTAsMTIyNTkyNTY5Niw0MT
+eyJoaXN0b3J5IjpbLTE4MTI0Njk1NTksMTIyNTkyNTY5Niw0MT
 A4ODU1MDgsLTE3NDIxOTgxMTUsLTMyMzIyMzQ0MCw3NzU5MTgz
 NDgsLTEwNjM4Mzk0NDEsLTk1OTA5NjU1OCwxNzUyMzg3OTgwLD
 E3NTIzODc5ODAsMTE2Mjc2ODYxOSwtNTQwMjk0ODk3LDcwMjU3
