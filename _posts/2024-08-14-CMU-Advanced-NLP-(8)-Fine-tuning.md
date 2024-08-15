@@ -82,13 +82,13 @@ layout: post
 
 이는 모델의 일부 파라미터만 훈련시키는 방법도 이다. 이를 통해 큰 GPU 없이도 많은 데이터 세트에서 모델을 효과적으로 훈련시킬 수 있다.
 
-첫 번째로, 프리픽스 튜닝(prefix tuning) 방법이 있다. 이는  특정 층의 프리픽스만 튜닝하는 것이다. 프리픽스 튜닝은 프롬프팅처럼 전체 모델을 바꾸지 않고도 모델의 동작을 변경할 수 있는 유연성을 제공하면서, 동시에 파인 튜닝처럼 특정 작업에 맞추어 모델의 성능을 미세 조정할 수 있는 이점을 제공한다. 이 방법에서는 모델의 모든 파라미터를 변경하지 않고, 각 레이어에 소규모의 파라미터만을 Prefix로 추가적인 학습시킵니다.
+첫 번째로, 프리픽스 튜닝(prefix tuning) 방법이 있다. 이는  특정 층의 프리픽스만 튜닝하는 것이다. 프리픽스 튜닝은 프롬프팅처럼 전체 모델을 바꾸지 않고도 모델의 동작을 변경할 수 있는 유연성을 제공하면서, 동시에 파인 튜닝처럼 특정 작업에 맞추어 모델의 성능을 미세 조정할 수 있는 이점을 제공한다. 이 방법에서는 모델의 모든 파라미터를 변경하지 않고, 각 레이어에 소규모의 파라미터만을 Prefix로 추가적인 학습시킨다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMzOTE4NzcsLTE3NDIxOTgxMTUsLT
-MyMzIyMzQ0MCw3NzU5MTgzNDgsLTEwNjM4Mzk0NDEsLTk1OTA5
-NjU1OCwxNzUyMzg3OTgwLDE3NTIzODc5ODAsMTE2Mjc2ODYxOS
-wtNTQwMjk0ODk3LDcwMjU3MzY2MCwxNTkzOTU3MzUxLC01MTk5
-MTg1MjQsODY0NzEyOTQsMzY5NzEzMzk2LDM5MTM1NTE3LC0xOD
-AwNzU3NTg5LDczOTE5ODI3OSwtMTA2NDM3NzQxNiwxNTI1MTQy
-NzQ3XX0=
+eyJoaXN0b3J5IjpbLTIyMDMyOTU5MCwtMTc0MjE5ODExNSwtMz
+IzMjIzNDQwLDc3NTkxODM0OCwtMTA2MzgzOTQ0MSwtOTU5MDk2
+NTU4LDE3NTIzODc5ODAsMTc1MjM4Nzk4MCwxMTYyNzY4NjE5LC
+01NDAyOTQ4OTcsNzAyNTczNjYwLDE1OTM5NTczNTEsLTUxOTkx
+ODUyNCw4NjQ3MTI5NCwzNjk3MTMzOTYsMzkxMzU1MTcsLTE4MD
+A3NTc1ODksNzM5MTk4Mjc5LC0xMDY0Mzc3NDE2LDE1MjUxNDI3
+NDddfQ==
 -->
