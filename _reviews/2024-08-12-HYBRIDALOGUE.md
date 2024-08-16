@@ -141,13 +141,13 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 > ** 데이터 증강이란 더 많은 데이터를 제공하여 모델이 더 잘 학습할 수 있도록 하는 방법이다.
 
 
-RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험에서는 MNLI 데이터로 사전 훈련을 하고 AUTO-TNLI 데이터로 파인튜닝하는 방법을 포함해 다양한 설정을 탐구했습니다. 또한, AUTO-TNLI 데이터셋을 독립적으로 사용하거나, INFOTABS와 함께 사용하는 여러 시나리오도 실험되었습니다.
+RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험에서는 MNLI 데이터로 사전 훈련을 하고 AUTO-TNLI 데이터로 파인튜닝하는 방법을 포함해 다양한 설정을 탐구했다. 또한, AUTO-TNLI 데이터셋을 독립적으로 사용하거나, INFOTABS와 함께 사용하는 여러 시나리오도 실험되었다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTQ5MjEyMTMsLTE0NTQ1MjE4NzAsOD
-A2OTM2NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgw
-MzMwOTQ5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Nj
-g1MiwtNjAxNzg1MDAsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1
-NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0Nz
-EzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4
-OSwxODAxMzg1NjYwXX0=
+eyJoaXN0b3J5IjpbMTg1MTg4NDcwNywtMTQ1NDUyMTg3MCw4MD
+Y5MzY2MjMsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAz
+MzA5NDksMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2OD
+UyLC02MDE3ODUwMCwtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1
+ODgxODcxOSwtMTM5OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MT
+M5OSwtMTU4OTQ3ODgxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5
+LDE4MDEzODU2NjBdfQ==
 -->
