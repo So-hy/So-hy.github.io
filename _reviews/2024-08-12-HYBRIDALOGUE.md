@@ -147,12 +147,74 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 ### Using AUTO-TNLI as TNLI dataset
 
 이 섹션에서는 AUTO-TNLI 데이터셋이 기존의 INFOTABS 데이터셋에 비해 얼마나 도전적인지 평가한다. 실험 결과는 AUTO-TNLI가 INFOTABS에 비해 더 큰 도전 과제를 제공하며, 파인튜닝 시 성능이 향상된다는 점을 확인했다.
+
+
+**데이터 분할 (Data Splits)**
+
+  
+먼저, AUTO-TNLI 데이터셋에 대해 여러 가지 학습, 개발, 테스트 분할을 구성했습니다. 이 분할은 다음과 같은 기준에 따라 이루어졌습니다:
+
+  
+
+•  **카테고리 기반 분할**: 서로 다른 도메인(카테고리)의 테이블을 포함하도록 분할을 구성했습니다.
+
+•  **키 기반 분할**: 고유한 테이블 행-키를 사용하여 분할을 구성했습니다.
+
+•  **어휘적 다양성**: 분할된 데이터셋 내의 전제들이 어휘적으로 다양하도록 했습니다.
+
+  
+
+특히, 카테고리 간 성능 분석을 수행하여 모델이 해결하기 어려운 카테고리를 테스트 세트에 포함시켰습니다. 이 과정에서는 특정 카테고리의 정확도가 특정 임계값 이하로 떨어지는 빈도를 계산하여 어려운 카테고리를 선택했습니다.
+
+  
+
+**AUTO-TNLI를 평가 세트로 사용 (RQ1a)**
+
+  
+
+AUTO-TNLI를 평가 기준으로 사용할 때, 얼마나 도전적인지를 평가하기 위해 RoBERTaBASE 모델을 사용하여 다음 네 가지 설정에서 성능을 비교했습니다:
+
+  
+
+•  파인튜닝 없이
+
+•  INFOTABS로 파인튜닝
+
+•  MNLI로 파인튜닝
+
+•  MNLI와 INFOTABS 순서로 파인튜닝
+
+  
+
+실험 결과, MNLI와 INFOTABS를 함께 사용한 경우가 가장 높은 정확도를 기록했으며, AUTO-TNLI는 INFOTABS보다 도전적이라는 것을 확인했습니다.
+
+  
+
+**AUTO-TNLI로 학습 및 평가 (RQ1b)**
+
+  
+
+AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 평가했습니다. 두 가지 설정에서 RoBERTaBASE 모델의 성능을 비교했습니다:
+
+  
+
+•  AUTO-TNLI의 학습 세트로 파인튜닝
+
+•  MNLI와 AUTO-TNLI 순서로 파인튜닝
+
+  
+
+이 결과, 대부분의 분할에서 RoBERTaBASE 모델이 약 80%의 정확도를 기록했으며, 이는 INFOTABS와 유사한 도전적인 데이터셋임을 보여줍니다. MNLI 데이터로 미리 파인튜닝하는 것은 성능을 약간 향상시켰습니다.
+
+  
+
+이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MD
-Y5MzY2MjMsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAz
-MzA5NDksMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2OD
-UyLC02MDE3ODUwMCwtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1
-ODgxODcxOSwtMTM5OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MT
-M5OSwtMTU4OTQ3ODgxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5
-LDE4MDEzODU2NjBdfQ==
+eyJoaXN0b3J5IjpbLTI1ODI3NTI3LC01MDY1ODc1NjAsLTE0NT
+Q1MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAx
+MDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNy
+wtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0MzY4ODgyOCwtODEy
+MzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2Nj
+E3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MTEwNiwt
+MTQ3NTk3MTA4OV19
 -->
