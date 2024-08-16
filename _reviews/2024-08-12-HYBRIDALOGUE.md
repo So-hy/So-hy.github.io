@@ -232,21 +232,21 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 **Table 6**에서 실험 결과를 요약한 내용을 보면, 모든 평가 분할에서 성능을 비교한 결과가 나와 있다.
 
   
-•  RoBERTaBASE 모델이 대부분의 평가 분할에서 평균적으로 **약 80%의 정확도**를 달성했다. 이는 AUTO-TNLI 데이터셋이 INFOTABS 데이터셋과 비슷한 수준으로 도전적이라는 것을 보여줍니다.
+•  RoBERTaBASE 모델이 대부분의 평가 분할에서 평균적으로 **약 80%의 정확도**를 달성했다. 이는 AUTO-TNLI 데이터셋이 INFOTABS 데이터셋과 비슷한 수준으로 도전적이라는 것을 보여준다.
 
-•  INFOTABS 데이터셋은 수작업으로 생성된 데이터셋으로, 평균 약 70%의 정확도를 보였지만 데이터셋의 크기는 AUTO-TNLI의 1/10 정도에 불과합니다. 이는 AUTO-TNLI가 훨씬 큰 규모임에도 불구하고 여전히 높은 정확도를 요구하는 어려운 데이터셋임을 의미합니다.
+•  INFOTABS 데이터셋은 수작업으로 생성된 데이터셋으로, 평균 약 70%의 정확도를 보였지만 데이터셋의 크기는 AUTO-TNLI의 1/10 정도에 불과하다. 이는 AUTO-TNLI가 훨씬 큰 규모임에도 불구하고 여전히 높은 정확도를 요구하는 어려운 데이터셋임을 의미한다.
 
-•  **MNLI로 미리 파인튜닝한 경우 2%의 성능 향상**: MNLI 데이터셋을 사용해 먼저 파인튜닝한 후 AUTO-TNLI로 추가 파인튜닝을 한 경우, 성능이 약간 향상되었습니다(약 2% 증가). 이는 MNLI 데이터셋에서 학습된 지식이 AUTO-TNLI 데이터셋의 성능 향상에 기여했음을 보여줍니다.
+•  **MNLI로 미리 파인튜닝한 경우 2%의 성능 향상**: MNLI 데이터셋을 사용해 먼저 파인튜닝한 후 AUTO-TNLI로 추가 파인튜닝을 한 경우, 성능이 약간 향상되었다(약 2% 증가). 이는 MNLI 데이터셋에서 학습된 지식이 AUTO-TNLI 데이터셋의 성능 향상에 기여했음을 보여준다.
 
   
 
 마지막으로, **ALBERTBASE** 모델로 동일한 실험을 진행한 결과도 유사한 결과를 보였습니다(참고: 논문 부록 F의 Table 19). 이를 통해, AUTO-TNLI 데이터셋이 다양한 모델에서 일관되게 도전적이며 효과적인 학습 및 평가 데이터셋으로 기능할 수 있음을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDMxMjc0NjgsLTExNTI0NTU3NTIsLT
-gyOTE0MTU1OSwtMTkxNzg0MjczNSwtMjQxMzgyOTgyLC01MDY1
-ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEyMj
-M4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQs
-MTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0Mz
-Y4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5
-MjIsMTcwMTg2NjE3MF19
+eyJoaXN0b3J5IjpbMjQ4OTY0ODk3LC0xMTUyNDU1NzUyLC04Mj
+kxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3
+NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOC
+wtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2
+MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04NDM2OD
+g4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIy
+LDE3MDE4NjYxNzBdfQ==
 -->
