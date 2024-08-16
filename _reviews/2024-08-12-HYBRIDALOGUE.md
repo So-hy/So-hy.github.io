@@ -221,7 +221,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-이 실험에서도 MNLI 데이터셋에서 **중립(NEUTRAL)** 라벨을 제외하고 **ENTAIL**(포함)과 **CONTRADICT**(모순) 두 가지 라벨만을 사용해 모델을 학습시켰습니다.
+이 실험에서도 MNLI 데이터셋에서 **중립(NEUTRAL)** 라벨을 제외하고 **ENTAIL**(포함)과 **CONTRADICT**(모순) 두 가지 라벨만을 사용해 모델을 학습시켰니다.
 
   
 
@@ -229,10 +229,9 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-**Table 6**에서 실험 결과를 요약한 내용을 보면, 모든 평가 분할에서 성능을 비교한 결과가 나와 있습니다.
+**Table 6**에서 실험 결과를 요약한 내용을 보면, 모든 평가 분할에서 성능을 비교한 결과가 나와 있다.
 
   
-
 •  **평균 80%의 정확도**: RoBERTaBASE 모델이 대부분의 평가 분할에서 평균적으로 약 80%의 정확도를 달성했습니다. 이는 AUTO-TNLI 데이터셋이 INFOTABS 데이터셋과 비슷한 수준으로 도전적이라는 것을 보여줍니다.
 
 •  INFOTABS 데이터셋은 수작업으로 생성된 데이터셋으로, 평균 약 70%의 정확도를 보였지만 데이터셋의 크기는 AUTO-TNLI의 1/10 정도에 불과합니다. 이는 AUTO-TNLI가 훨씬 큰 규모임에도 불구하고 여전히 높은 정확도를 요구하는 어려운 데이터셋임을 의미합니다.
@@ -243,7 +242,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
 마지막으로, **ALBERTBASE** 모델로 동일한 실험을 진행한 결과도 유사한 결과를 보였습니다(참고: 논문 부록 F의 Table 19). 이를 통해, AUTO-TNLI 데이터셋이 다양한 모델에서 일관되게 도전적이며 효과적인 학습 및 평가 데이터셋으로 기능할 수 있음을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNTY2NDA4MSwtMTE1MjQ1NTc1MiwtOD
+eyJoaXN0b3J5IjpbLTI4MzQ3NDUxNywtMTE1MjQ1NTc1MiwtOD
 I5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4
 NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMz
 gsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwx
