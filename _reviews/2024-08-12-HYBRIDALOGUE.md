@@ -172,7 +172,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-AUTO-TNLI를 평가 기준으로 사용할 때, 얼마나 도전적인지를 평가하기 위해 RoBERTaBASE 모델을 사용하여 다음 네 가지 설정에서 성능을 비교했습니다:
+AUTO-TNLI를 평가 기준으로 사용할 때, 얼마나 도전적인지를 평가하기 위해 RoBERTaBASE 모델을 사용하여 다음 네 가지 설정에서 성능을 비교했다:
 
   
 
@@ -186,7 +186,7 @@ AUTO-TNLI를 평가 기준으로 사용할 때, 얼마나 도전적인지를 평
 
   
 
-실험 결과, MNLI와 INFOTABS를 함께 사용한 경우가 가장 높은 정확도를 기록했으며, AUTO-TNLI는 INFOTABS보다 도전적이라는 것을 확인했습니다.
+실험 결과, MNLI와 INFOTABS를 함께 사용한 경우가 가장 높은 정확도를 기록했으며, AUTO-TNLI는 INFOTABS보다 도전적이라는 것을 확인했다.
 
   
 
@@ -210,11 +210,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODAyNjAzNzUsLTE5MTc4NDI3MzUsLT
-I0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkz
-NjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMD
-k0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIs
-LTYwMTc4NTAwLC04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4OD
-E4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5
-LC0xNTg5NDc4ODE4XX0=
+eyJoaXN0b3J5IjpbLTgyOTE0MTU1OSwtMTkxNzg0MjczNSwtMj
+QxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2
+NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOT
+Q5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1Miwt
+NjAxNzg1MDAsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MT
+g3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTks
+LTE1ODk0Nzg4MThdfQ==
 -->
