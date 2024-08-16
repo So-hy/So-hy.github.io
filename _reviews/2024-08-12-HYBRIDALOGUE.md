@@ -7,7 +7,7 @@ date: 2024-08-12
 
 
 
-## Introduction
+## 1. Introduction
 
 
 NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업이다. 이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었다.
@@ -125,11 +125,11 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 이 검증 결과는 생성된 데이터가 문법적으로 정확하고, 적당한 복잡성을 지니고 있어 견고한 NLI 모델을 훈련하는 데 적합함을 나타낸다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMjI2Nzk0LDgwNjkzNjYyMywtMTI0Mj
-IxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3
-NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC
-04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5
-OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4OD
-E4LDEzMzI1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MCwx
-NjExMzUzNzgyXX0=
+eyJoaXN0b3J5IjpbMjA0MzE0NzQ0OSw4MDY5MzY2MjMsLTEyND
+IyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkw
+NzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMC
+wtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5
+OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3OD
+gxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAs
+MTYxMTM1Mzc4Ml19
 -->
