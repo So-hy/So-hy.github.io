@@ -207,6 +207,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 다시 말해, AUTO-TNLI 데이터셋은 기존의 INFOTABS와 MNLI 데이터셋을 사용한 모델에게도 여전히 까다로운 문제를 제공한다는 것을 보여준다.
   
 
+
 **AUTO-TNLI로 학습 및 평가 (RQ1b)**
 
   
@@ -227,11 +228,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTk0MjQ1NjQsLTExNTI0NTU3NTIsLT
-gyOTE0MTU1OSwtMTkxNzg0MjczNSwtMjQxMzgyOTgyLC01MDY1
-ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEyMj
-M4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQs
-MTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0Mz
-Y4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5
-MjIsMTcwMTg2NjE3MF19
+eyJoaXN0b3J5IjpbMjczMzczODgyLC0xMTUyNDU1NzUyLC04Mj
+kxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3
+NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOC
+wtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2
+MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04NDM2OD
+g4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIy
+LDE3MDE4NjYxNzBdfQ==
 -->
