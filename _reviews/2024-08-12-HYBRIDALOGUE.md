@@ -211,28 +211,43 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 **AUTO-TNLI로 학습 및 평가 (RQ1b)**
 
   
-
-AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 평가했습니다. 두 가지 설정에서 RoBERTaBASE 모델의 성능을 비교했습니다:
-
-  
-
-•  AUTO-TNLI의 학습 세트로 파인튜닝
-
-•  MNLI와 AUTO-TNLI 순서로 파인튜닝
+연구진은 **RoBERTaBASE** 모델을 사용하여 두 가지 설정에서 성능을 비교했습니다:
 
   
 
-이 결과, 대부분의 분할에서 RoBERTaBASE 모델이 약 80%의 정확도를 기록했으며, 이는 INFOTABS와 유사한 도전적인 데이터셋임을 보여줍니다. MNLI 데이터로 미리 파인튜닝하는 것은 성능을 약간 향상시켰습니다.
+1. **AUTO-TNLI 데이터셋으로만 파인튜닝**: 모델을 AUTO-TNLI의 학습 데이터(train set)로만 파인튜닝하고 평가했습니다.
+
+2. **MNLI와 AUTO-TNLI 순서로 파인튜닝**: 먼저 MNLI 데이터셋으로 파인튜닝한 후, AUTO-TNLI 데이터셋으로 추가 파인튜닝하고 평가했습니다.
 
   
 
-이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
+이 실험에서도 MNLI 데이터셋에서 **중립(NEUTRAL)** 라벨을 제외하고 **ENTAIL**(포함)과 **CONTRADICT**(모순) 두 가지 라벨만을 사용해 모델을 학습시켰습니다.
+
+  
+
+**분석**
+
+  
+
+**Table 6**에서 실험 결과를 요약한 내용을 보면, 모든 평가 분할에서 성능을 비교한 결과가 나와 있습니다.
+
+  
+
+•  **평균 80%의 정확도**: RoBERTaBASE 모델이 대부분의 평가 분할에서 평균적으로 약 80%의 정확도를 달성했습니다. 이는 AUTO-TNLI 데이터셋이 INFOTABS 데이터셋과 비슷한 수준으로 도전적이라는 것을 보여줍니다.
+
+•  INFOTABS 데이터셋은 수작업으로 생성된 데이터셋으로, 평균 약 70%의 정확도를 보였지만 데이터셋의 크기는 AUTO-TNLI의 1/10 정도에 불과합니다. 이는 AUTO-TNLI가 훨씬 큰 규모임에도 불구하고 여전히 높은 정확도를 요구하는 어려운 데이터셋임을 의미합니다.
+
+•  **MNLI로 미리 파인튜닝한 경우 2%의 성능 향상**: MNLI 데이터셋을 사용해 먼저 파인튜닝한 후 AUTO-TNLI로 추가 파인튜닝을 한 경우, 성능이 약간 향상되었습니다(약 2% 증가). 이는 MNLI 데이터셋에서 학습된 지식이 AUTO-TNLI 데이터셋의 성능 향상에 기여했음을 보여줍니다.
+
+  
+
+마지막으로, **ALBERTBASE** 모델로 동일한 실험을 진행한 결과도 유사한 결과를 보였습니다(참고: 논문 부록 F의 Table 19). 이를 통해, AUTO-TNLI 데이터셋이 다양한 모델에서 일관되게 도전적이며 효과적인 학습 및 평가 데이터셋으로 기능할 수 있음을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMzczODgyLC0xMTUyNDU1NzUyLC04Mj
-kxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3
-NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOC
-wtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2
-MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04NDM2OD
-g4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIy
-LDE3MDE4NjYxNzBdfQ==
+eyJoaXN0b3J5IjpbMTk3ODUwMzIwNywtMTE1MjQ1NTc1MiwtOD
+I5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4
+NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMz
+gsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwx
+NjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMCwtODQzNj
+g4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5OTkxNDky
+MiwxNzAxODY2MTcwXX0=
 -->
