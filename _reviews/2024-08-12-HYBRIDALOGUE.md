@@ -164,7 +164,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-특히, 카테고리 간 성능 분석을 수행하여 모델이 해결하기 어려운 카테고리를 테스트 세트에 포함시켰습니다. 이 과정에서는 특정 카테고리의 정확도가 특정 임계값 이하로 떨어지는 빈도를 계산하여 어려운 카테고리를 선택했습니다.
+특히, 카테고리 간 성능 분석을 수행하여 모델이 해결하기 어려운 카테고리를 테스트 세트에 포함시켰다고 한다. 이 과정에서는 특정 카테고리의 정확도가 특정 임계값 이하로 떨어지는 빈도를 계산하여 어려운 카테고리를 선택했다.
 
   
 
@@ -210,11 +210,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNT
-A2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIx
-MjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3Nj
-M0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04
-NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OT
-E0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4ODE4
-LDEzMzI1NjExMDZdfQ==
+eyJoaXN0b3J5IjpbLTE2ODAyNjAzNzUsLTE5MTc4NDI3MzUsLT
+I0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkz
+NjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMD
+k0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIs
+LTYwMTc4NTAwLC04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4OD
+E4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5
+LC0xNTg5NDc4ODE4XX0=
 -->
