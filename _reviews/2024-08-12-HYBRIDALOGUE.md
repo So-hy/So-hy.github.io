@@ -172,21 +172,44 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-AUTO-TNLI를 평가 기준으로 사용할 때, 얼마나 도전적인지를 평가하기 위해 RoBERTaBASE 모델을 사용하여 다음 네 가지 설정에서 성능을 비교했다:
+
+연구진은 **RoBERTaBASE** 모델을 사용하여 네 가지 설정에서 성능을 비교했습니다:
 
   
 
-•  파인튜닝 없이
+1. **파인튜닝 없이 (w/o fine-tuning)**: 모델을 사전 훈련된 상태 그대로 사용하여 평가.
 
-•  INFOTABS로 파인튜닝
+2. **INFOTABS로 파인튜닝**: INFOTABS 데이터셋을 사용하여 모델을 파인튜닝한 후 평가.
 
-•  MNLI로 파인튜닝
+3. **MNLI로 파인튜닝**: MNLI 데이터셋을 사용하여 모델을 파인튜닝한 후 평가.
 
-•  MNLI와 INFOTABS 순서로 파인튜닝
+4. **MNLI와 INFOTABS 순서로 파인튜닝**: 먼저 MNLI로 파인튜닝한 후, INFOTABS로 추가 파인튜닝한 후 평가.
 
   
 
-실험 결과, MNLI와 INFOTABS를 함께 사용한 경우가 가장 높은 정확도를 기록했으며, AUTO-TNLI는 INFOTABS보다 도전적이라는 것을 확인했다.
+여기서 중요한 점은 MNLI와 INFOTABS 데이터셋에서 중립(NEUTRAL) 라벨을 제외하고 두 가지 라벨(ENTAIL과 CONTRADICT)만을 사용해 모델을 학습시켰다는 것입니다.
+
+  
+
+**분석**
+
+  
+
+실험 결과를 요약한 **Table 6**에서, 모든 설정에서의 정확도를 비교했습니다. 분석 결과:
+
+  
+
+•  MNLI와 INFOTABS를 함께 사용하여 파인튜닝했을 때 **평균 67.5%의 정확도**를 기록했습니다.
+
+•  INFOTABS만을 사용한 “zero-shot”(파인튜닝 없이 바로 평가) 상황에서는 정확도가 **58.9%**였습니다.
+
+  
+
+이 결과를 통해 연구진은 AUTO-TNLI 데이터셋이 모델에게 여전히 도전적이라는 결론을 내렸습니다. 즉, MNLI와 INFOTABS 데이터를 사용해 모델을 학습시킨 경우에도, AUTO-TNLI는 기존 데이터셋보다 더 어려운 평가 기준을 제공하며, 모델이 더 잘 학습하도록 유도할 수 있다는 점을 확인했습니다.
+
+  
+
+다시 말해, AUTO-TNLI 데이터셋은 기존의 INFOTABS와 MNLI 데이터셋을 사용한 모델에게도 여전히 까다로운 문제를 제공한다는 것을 보여줍니다. 이 때문에 이 데이터셋은 모델의 성능을 평가하거나 강화하는 데 매우 유용한 역할을 할 수 있습니다.
 
   
 
@@ -210,11 +233,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTE0MTU1OSwtMTkxNzg0MjczNSwtMj
-QxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2
-NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOT
-Q5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1Miwt
-NjAxNzg1MDAsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MT
-g3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTks
-LTE1ODk0Nzg4MThdfQ==
+eyJoaXN0b3J5IjpbLTExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMT
+kxNzg0MjczNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1
+MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMD
+I1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNywt
+MTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0MzY4ODgyOCwtODEyMz
+M2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3
+MCwtOTg0NzEzOTldfQ==
 -->
