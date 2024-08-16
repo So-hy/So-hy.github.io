@@ -160,7 +160,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
 •  **키 기반 분할**: 고유한 테이블 행-키를 사용하여 분할을 구성
 
-•  **어휘적 다양성**: 분할된 데이터셋 내의 전제들이 어휘적으로 다양하도록 함
+•  **어휘적 다양성**: 분할된 데이터셋 내의 전제들이 어휘적으로 다양하도록 함. 어휘적 다양성(lexical diversity)이란, 문장이 사용하고 있는 단어와 표현들이 서로 다른 것을 의미.
 
   
 
@@ -210,11 +210,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzODE1MzUwNywtMjQxMzgyOTgyLC01MD
-Y1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEy
-MjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2Mz
-QsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0
-MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MT
-Q5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgs
-MTMzMjU2MTEwNl19
+eyJoaXN0b3J5IjpbLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNT
+A2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIx
+MjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3Nj
+M0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04
+NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OT
+E0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4ODE4
+LDEzMzI1NjExMDZdfQ==
 -->
