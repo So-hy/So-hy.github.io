@@ -152,15 +152,15 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 **데이터 분할 (Data Splits)**
 
   
-먼저, AUTO-TNLI 데이터셋에 대해 여러 가지 train-dev-test 분할을 구성했습다. 이 분할은 다음과 같은 기준에 따라 이루어졌습니다:
+먼저, AUTO-TNLI 데이터셋에 대해 여러 가지 train-dev-test 분할을 구성했다. 이 분할은 다음과 같은 기준에 따라 이루어졌다:
 
   
 
-•  **카테고리 기반 분할**: 서로 다른 도메인(카테고리)의 테이블을 포함하도록 분할을 구성했습니다.
+•  **카테고리 기반 분할**: 서로 다른 도메인(카테고리)의 테이블을 포함하도록 분할을 구성
 
-•  **키 기반 분할**: 고유한 테이블 행-키를 사용하여 분할을 구성했습니다.
+•  **키 기반 분할**: 고유한 테이블 행-키를 사용하여 분할을 구성
 
-•  **어휘적 다양성**: 분할된 데이터셋 내의 전제들이 어휘적으로 다양하도록 했습니다.
+•  **어휘적 다양성**: 분할된 데이터셋 내의 전제들이 어휘적으로 다양하도록 함
 
   
 
@@ -210,11 +210,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xND
-U0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOCwtMTc3Mjcw
-MTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMj
-csLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04NDM2ODg4MjgsLTgx
-MjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4Nj
-YxNzAsLTk4NDcxMzk5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYs
-LTE0NzU5NzEwODldfQ==
+eyJoaXN0b3J5IjpbMjEzODE1MzUwNywtMjQxMzgyOTgyLC01MD
+Y1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEy
+MjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2Mz
+QsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0
+MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MT
+Q5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgs
+MTMzMjU2MTEwNl19
 -->
