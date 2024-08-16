@@ -102,7 +102,7 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 생성 과정에서는 각 키에 최소 두 개의 가설과 세 개 이상의 패러프레이즈를 포함시켜 가설 편향을 줄이고 다양성을 높였다.
 
-데이터셋을 만들기 위해 문장을 구성할 때 대부분의 추가적인 인간 노동은 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약사항 설정에 사용된다. 이는 데이터의 품질을 높이기 위한 중요한 과정이다. 생성된 반사실적 테이블 데이터는 논리적으로 일관되어 있으며, 자체적인 모순이 없다. 이는 데이터가 실제로 활용될 때 오류 없이 정확하게 작동할 수 있음을 의미한다.
+데이터셋을 만들기 위해 문장을 구성할 때 대부분의 추가적인 인간 노동은 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약사항 설정에 사용되었다고 한다. 이는 데이터의 품질을 높이기 위한 중요한 과정이다. 생성된 반사실적 테이블 데이터는 논리적으로 일관되어 있으며, 자체적인 모순이 없다. 이는 데이터가 실제로 활용될 때 오류 없이 정확하게 작동할 수 있음을 의미한다.
 
 ![Screenshot 2024-08-14 at 2 15 50 AM](https://github.com/user-attachments/assets/057ade56-5558-4e8a-8053-43c1f8da0a7c)
 
@@ -113,11 +113,11 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 ![Screenshot 2024-08-16 at 6 51 32 PM](https://github.com/user-attachments/assets/a0353f34-a1af-44cb-958b-dde95bda2877)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAzMTEzMzcsODA2OTM2NjIzLC0xMj
-QyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5
-MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MD
-AsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEz
-OTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nz
-g4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYw
-LDE2MTEzNTM3ODJdfQ==
+eyJoaXN0b3J5IjpbLTk0MDI2NDc4Myw4MDY5MzY2MjMsLTEyND
+IyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkw
+NzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMC
+wtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5
+OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3OD
+gxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAs
+MTYxMTM1Mzc4Ml19
 -->
