@@ -173,7 +173,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
   
 
 
-연구진은 **RoBERTaBASE** 모델을 사용하여 네 가지 설정에서 성능을 비교했습니다:
+연구진은 **RoBERTaBASE** 모델을 사용하여 네 가지 설정에서 성능을 비교했다:
 
   
 
@@ -233,11 +233,11 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMT
-kxNzg0MjczNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1
-MjE4NzAsODA2OTM2NjIzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMD
-I1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQsMTYwMDAzNDIyNywt
-MTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0MzY4ODgyOCwtODEyMz
-M2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcwMTg2NjE3
-MCwtOTg0NzEzOTldfQ==
+eyJoaXN0b3J5IjpbLTQxMzQ5ODE3MSwtMTE1MjQ1NTc1MiwtOD
+I5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4
+NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMz
+gsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwx
+NjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMCwtODQzNj
+g4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5OTkxNDky
+MiwxNzAxODY2MTcwXX0=
 -->
