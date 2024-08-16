@@ -197,13 +197,12 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
 실험 결과를 요약한 **Table 6**에서, 모든 설정에서의 정확도를 비교했다. 그 결과:
   
-•  MNLI와 INFOTABS를 함께 사용하여 파인튜닝했을 때 **평균 67.5%의 정확도**를 기록했습니다.
+•  MNLI와 INFOTABS를 함께 사용하여 파인튜닝했을 때 **평균 67.5%의 정확도**를 기록했다.
 
-•  INFOTABS만을 사용한 “zero-shot”(파인튜닝 없이 바로 평가) 상황에서는 정확도가 **58.9%**였습니다.
+•  INFOTABS만을 사용한 “zero-shot”(파인튜닝 없이 바로 평가) 상황에서는 정확도가 **58.9%**였다.
 
   
-
-이 결과를 통해 연구진은 AUTO-TNLI 데이터셋이 모델에게 여전히 도전적이라는 결론을 내렸습니다. 즉, MNLI와 INFOTABS 데이터를 사용해 모델을 학습시킨 경우에도, AUTO-TNLI는 기존 데이터셋보다 더 어려운 평가 기준을 제공하며, 모델이 더 잘 학습하도록 유도할 수 있다는 점을 확인했습니다.
+이 결과를 통해 연구진은 AUTO-TNLI 데이터셋이 모델에게 여전히 도전적이라는 결론을 내렸다. 즉, MNLI와 INFOTABS 데이터를 사용해 모델을 학습시킨 경우에도, AUTO-TNLI는 기존 데이터셋보다 더 어려운 평가 기준을 제공하며, 모델이 더 잘 학습하도록 유도할 수 있다는 점을 확인했습니다.
 
   
 
@@ -231,7 +230,7 @@ AUTO-TNLI 데이터셋으로 학습하여 성능을 향상시킬 수 있는지 �
 
 이 실험은 AUTO-TNLI 데이터셋이 TNLI 작업에서 매우 도전적인 평가 세트로 활용될 수 있으며, 파인튜닝을 통해 모델의 성능을 개선할 수 있음을 시사합니다 .
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzQyNzAyOSwtMTE1MjQ1NTc1MiwtOD
+eyJoaXN0b3J5IjpbLTYyNDYyNjA3MCwtMTE1MjQ1NTc1MiwtOD
 I5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4
 NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMz
 gsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwx
