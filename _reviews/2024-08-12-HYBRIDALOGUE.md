@@ -7,7 +7,7 @@ date: 2024-08-12
 
 
 
-## 1. Introduction
+## Introduction
 
 
 NLI(Natural Language Inference)는 주어진 전제(premise)와 가설(hypothesis)을 비교하여 가설이 전제에 의해 뒷받침되는지(entailed), 모순되는지(contradicted), 혹은 관련이 없는지(unrelated)를 판단하는 자연어 처리 작업이다. 이러한 작업이 테이블 데이터를 전제로 사용하는 테이블 추론 작업(tabular inference task)으로 확장되었다.
@@ -124,12 +124,22 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 •  문장의 복잡성 점수는 5점 만점에 평균 3.64점이었음.
 
 이 검증 결과는 생성된 데이터가 문법적으로 정확하고, 적당한 복잡성을 지니고 있어 견고한 NLI 모델을 훈련하는 데 적합함을 나타낸다.
+
+
+## Experiments and Analysis
+
+
+지금부턴 이 AUTO-TNLI 데이터셋을 사용한 실험과 그 결과에 대해 분석해보자. 여기선 크게 두 가지 주요 연구 질문을 탐구한다.
+
+1. **RQ1**: AUTO-TNLI를 평가 세트로 사용할 때 TNLI(표 기반 자연어 추론) 작업이 얼마나 어려운지, 그리고 AUTO-TNLI로 파인튜닝하는 것이 유익한지에 대한 질문
+
+2. **RQ2**: TNLI 작업을 위해 AUTO-TNLI를 데이터 증강에 사용하는 것이 유익한지, 특히 제한된 감독 시나리오에서 유용한지에 대한 질문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MzE0NzQ0OSw4MDY5MzY2MjMsLTEyND
-IyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkw
-NzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMC
-wtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5
-OTkxNDkyMiwxNzAxODY2MTcwLC05ODQ3MTM5OSwtMTU4OTQ3OD
-gxOCwxMzMyNTYxMTA2LC0xNDc1OTcxMDg5LDE4MDEzODU2NjAs
-MTYxMTM1Mzc4Ml19
+eyJoaXN0b3J5IjpbMjY3MjYyNzU3LDgwNjkzNjYyMywtMTI0Mj
+IxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3
+NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC
+04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5
+OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMzk5LC0xNTg5NDc4OD
+E4LDEzMzI1NjExMDYsLTE0NzU5NzEwODksMTgwMTM4NTY2MCwx
+NjExMzUzNzgyXX0=
 -->
