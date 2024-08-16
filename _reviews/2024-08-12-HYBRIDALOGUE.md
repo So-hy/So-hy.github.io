@@ -133,13 +133,17 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 1. **RQ1**: AUTO-TNLI를 평가 세트로 사용할 때 TNLI(표 기반 자연어 추론) 작업이 얼마나 어려운지, 그리고 AUTO-TNLI로 파인튜닝하는 것이 유익한지에 대한 질문
 
+⇒   이 질문은 **AUTO-TNLI**라는 데이터셋을 평가에 사용할 때, 모델이 얼마나 잘 작동하는지 또는 얼마나 어려운지를 묻는 것입니다. 또한, 이 데이터셋으로 모델을 학습(파인튜닝)시키는 것이 모델의 성능을 향상시키는 데 도움이 되는지 알아보는 것입니다. 다시 말해, AUTO-TNLI 데이터셋이 평가에 적합한지, 그리고 이 데이터셋으로 학습한 모델이 더 좋은 성능을 내는지에 대한 질문입니다.
+
 2. **RQ2**: TNLI 작업을 위해 AUTO-TNLI를 데이터 증강에 사용하는 것이 유익한지, 특히 제한된 감독 시나리오에서 유용한지에 대한 질문
+
+⇒  이 질문은 **AUTO-TNLI** 데이터셋을 기존의 데이터에 추가해서(증강해서) 모델을 학습시키는 것이 성능을 높이는 데 도움이 되는지 묻는 것입니다. 특히, 주어진 데이터가 적거나 충분한 레이블이 없는 상황(제한된 감독 시나리오)에서도 이 데이터셋을 사용하면 모델의 성능이 개선되는지 알아보는 것입니다. 데이터 증강이란 더 많은 데이터를 제공하여 모델이 더 잘 학습할 수 있도록 하는 방법입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTQ1MjE4NzAsODA2OTM2NjIzLC0xMj
-QyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5
-MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MD
-AsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEz
-OTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nz
-g4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYw
-LDE2MTEzNTM3ODJdfQ==
+eyJoaXN0b3J5IjpbNDI5NDc1Njk4LC0xNDU0NTIxODcwLDgwNj
+kzNjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMz
+MDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NT
+IsLTYwMTc4NTAwLC04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4
+ODE4NzE5LC0xMzk5OTE0OTIyLDE3MDE4NjYxNzAsLTk4NDcxMz
+k5LC0xNTg5NDc4ODE4LDEzMzI1NjExMDYsLTE0NzU5NzEwODks
+MTgwMTM4NTY2MF19
 -->
