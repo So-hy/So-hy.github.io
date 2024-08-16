@@ -240,13 +240,13 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
   
 
-마지막으로, **ALBERTBASE** 모델로 동일한 실험을 진행한 결과도 유사한 결과를 보였다(참고: 논문 부록 F의 Table 19). 이를 통해, AUTO-TNLI 데이터셋이 다양한 모델에서 일관되게 도전적이며 효과적인 학습 및 평가 데이터셋으로 기능할 수 있음을 확인할 수 있습니다.
+마지막으로, **ALBERTBASE** 모델로 동일한 실험을 진행한 결과도 유사한 결과를 보였다(참고: 논문 부록 F의 Table 19). 이를 통해, AUTO-TNLI 데이터셋이 다양한 모델에서 일관되게 도전적이며 효과적인 학습 및 평가 데이터셋으로 기능할 수 있음을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNzkwNjQ0LC0xMTUyNDU1NzUyLC04Mj
-kxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3
-NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOC
-wtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2
-MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC04NDM2OD
-g4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5OTE0OTIy
-LDE3MDE4NjYxNzBdfQ==
+eyJoaXN0b3J5IjpbMTc2OTM0MTcwMywtMTE1MjQ1NTc1MiwtOD
+I5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4
+NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMz
+gsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwx
+NjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMCwtODQzNj
+g4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5OTkxNDky
+MiwxNzAxODY2MTcwXX0=
 -->
