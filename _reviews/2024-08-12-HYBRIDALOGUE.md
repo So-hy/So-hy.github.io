@@ -112,8 +112,20 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 
 ![Screenshot 2024-08-16 at 6 51 32 PM](https://github.com/user-attachments/assets/a0353f34-a1af-44cb-958b-dde95bda2877)
+
+
+
+또한, 약 1300개의 전제-가설 쌍에 대해 NLP 박사 과정 학생이 품질 검사를 수행했다고 한다. 결과는 다음과 같다:
+
+•  데이터의 99.4%가 올바르게 라벨링 됨.
+
+•  문법 점수는 5점 만점에 평균 4.89점이었음.
+
+•  문장의 복잡성 점수는 5점 만점에 평균 3.64점이다.
+
+이 검증 결과는 생성된 데이터가 문법적으로 정확하고, 적당한 복잡성을 지니고 있어 견고한 NLI 모델을 훈련하는 데 적합함을 나타냅니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDI2NDc4Myw4MDY5MzY2MjMsLTEyND
+eyJoaXN0b3J5IjpbMTYxNTg0NzcyMSw4MDY5MzY2MjMsLTEyND
 IyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkw
 NzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMC
 wtODQzNjg4ODI4LC04MTIzMzY1NjAsMTU1ODgxODcxOSwtMTM5
