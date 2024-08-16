@@ -108,12 +108,16 @@ INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 �
 
 
 위 표에서는 AUTO-TNLI 데이터셋의 다양한 통계 정보를 볼 수 있다. 이 정보에는 고유 키의 수, 각 테이블의 최소, 최대, 평균 키 수, 그리고 각 테이블 당 생성된 문장의 총 수가 포함되어 있다. 위 표에서 나오듯이, 이 시스템은 INFOTABS에 비해 매우 제한된 수의 인간이 만든 템플릿을 사용함에도 불구하고, 상대적으로 많은 양의 데이터를 생성한다. 이는 키별 규칙과 제약을 효과적으로 활용하여 데이터 생성 효율성을 높였음을 나타낸다.
+
+
+
+![Screenshot 2024-08-16 at 6 51 32 PM](https://github.com/user-attachments/assets/a0353f34-a1af-44cb-958b-dde95bda2877)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA2OTM2NjIzLC0xMjQyMjEyMjM4LC0xNz
-cyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5MDc2MzQsMTYwMDAz
-NDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MDAsLTg0MzY4ODgyOC
-wtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEzOTk5MTQ5MjIsMTcw
-MTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nzg4MTgsMTMzMjU2MT
-EwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYwLDE2MTEzNTM3ODIs
-LTU2NjQ2OTg4XX0=
+eyJoaXN0b3J5IjpbLTE3OTY0OTEzMTUsODA2OTM2NjIzLC0xMj
+QyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5
+MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MD
+AsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEz
+OTk5MTQ5MjIsMTcwMTg2NjE3MCwtOTg0NzEzOTksLTE1ODk0Nz
+g4MTgsMTMzMjU2MTEwNiwtMTQ3NTk3MTA4OSwxODAxMzg1NjYw
+LDE2MTEzNTM3ODJdfQ==
 -->
