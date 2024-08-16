@@ -100,7 +100,7 @@ AUTO-TNLI 데이터셋은 INFOTABS 데이터셋을 확장하여, 원본 테이�
 
 INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 라벨만을 포함한다. (뉴럴, 즉 중립이 없다)
 
-INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 문장을 생성하는 경향이 있다. 예를 들어, ‘회사’ 카테고리에서 주석자들은 ‘웹사이트’ 키보다 ‘창립자’ 키에 대해 더 많은 문장을 생성하며, 이는 데이터셋에 내재된 가설 편향을 초래했다. AUTO-TNLI 템플릿을 생성할 때는 각 키마다 최소 두 가지의 가설과 세 가지 이상의 전제 패러프레이즈를 만들도록 하여 이러한 가설 편향을 완화한다. 또한, 추론 클래스의 불균형 라벨링 문제를 해결하기 위해, 대략적으로 ‘ENTAIL’과 ‘CONTRADICT’ 가설을 1:1 비율로 구성한다.
+생성 과정에서는 각 키에 최소 두 개의 가설과 세 개 이상의 패러프레이즈를 포함시켜 가설 편향을 줄이고 다양성을 높였다.
 
 데이터셋을 만들기 위해 문장을 구성할 때 대부분의 추가적인 인간 노동은 문장이 문법적으로 정확하도록 보장하는 키별 규칙과 제약사항 설정에 사용된다. 이는 데이터의 품질을 높이기 위한 중요한 과정이다. 생성된 반사실적 테이블 데이터는 논리적으로 일관되어 있으며, 자체적인 모순이 없다. 이는 데이터가 실제로 활용될 때 오류 없이 정확하게 작동할 수 있음을 의미한다.
 
@@ -113,7 +113,7 @@ INFOTABS 에서는 주석자들이 다른 키보다 특정 키에 편향되어 �
 
 ![Screenshot 2024-08-16 at 6 51 32 PM](https://github.com/user-attachments/assets/a0353f34-a1af-44cb-958b-dde95bda2877)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTY0OTEzMTUsODA2OTM2NjIzLC0xMj
+eyJoaXN0b3J5IjpbLTExNTAzMTEzMzcsODA2OTM2NjIzLC0xMj
 QyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5LDE1NzA5
 MDc2MzQsMTYwMDAzNDIyNywtMTQwMTg5Njg1MiwtNjAxNzg1MD
 AsLTg0MzY4ODgyOCwtODEyMzM2NTYwLDE1NTg4MTg3MTksLTEz
