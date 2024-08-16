@@ -123,9 +123,9 @@ INFOTABS와 달리, AUTO-TNLI는 ‘ENTAIL’과 ‘CONTRADICT’의 두 가지 
 
 •  문장의 복잡성 점수는 5점 만점에 평균 3.64점이었음.
 
-이 검증 결과는 생성된 데이터가 문법적으로 정확하고, 적당한 복잡성을 지니고 있어 견고한 NLI 모델을 훈련하는 데 적합함을 나타냅니다.
+이 검증 결과는 생성된 데이터가 문법적으로 정확하고, 적당한 복잡성을 지니고 있어 견고한 NLI 모델을 훈련하는 데 적합함을 나타낸다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTE3NjU5LDgwNjkzNjYyMywtMTI0Mj
+eyJoaXN0b3J5IjpbOTMxMjI2Nzk0LDgwNjkzNjYyMywtMTI0Mj
 IxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOTA3
 NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAwLC
 04NDM2ODg4MjgsLTgxMjMzNjU2MCwxNTU4ODE4NzE5LC0xMzk5
