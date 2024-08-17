@@ -303,7 +303,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   **첫 번째 경우:**
     
-    -   첫 번째 단계에서 모델을 INFOTABS 데이터셋만으로 학습한 경우, fine-tuning 이전에 직접 AUTO-TNLI 데이터 증강(Orig+Count)을 적용하면 α1과 α3 테스트 세트에서 각각 1.6%와 1.2%의 정확도 향상을 얻을 수 있었다. 이는 증강을 하지 않고 INFOTABS로 직접 fine-tuning 한 것과 비교했을 때의 결과입니다. 그러나 α2 테스트 세트의 성능에서는 유의미한 향상을 보이지 않았습니다.
+    -   첫 번째 단계에서 모델을 INFOTABS 데이터셋만으로 학습한 경우, fine-tuning 이전에 직접 AUTO-TNLI 데이터 증강(Orig+Count)을 적용하면 α1과 α3 테스트 세트에서 각각 1.6%와 1.2%의 정확도 향상을 얻을 수 있었다. 이는 증강을 하지 않고 INFOTABS로 직접 fine-tuning 한 것과 비교했을 때의 결과이다. 그러나 α2 테스트 세트의 성능에서는 유의미한 향상을 보이지 않았다.
     -   MNLI로 먼저 fine-tuning 한 후 AUTO-TNLI(반사실적 테이블 포함)를 적용하면 α1, α2, α3 테스트 세트에서 각각 0.6%, 2.0%, 0.45% 더 성능이 향상됩니다.
 -   **두 번째 경우:**
     
@@ -330,7 +330,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMjIzNzMxOSwxNjY2MTIwNjY3LC05OT
+eyJoaXN0b3J5IjpbLTMzNjU4MTUzNywxNjY2MTIwNjY3LC05OT
 YzNDQ4MDcsMTMwMjc5MzAsMTEzMjkzNDQ2MSwtMjAzMTYxNDUx
 OSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC
 00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1
