@@ -356,18 +356,17 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
  수동으로 데이터를 생성하는 것은 비용이 많이 들고 많은 인력을 요구하며, 대규모 데이터베이스를 개발하는 능력을 제한한다. 수동 생성 시, 모든 키에 동일한 중요성을 부여하지 않는 등 인위적인 패턴이 발생할 수 있다. 반면, 자동화된 데이터 생성은 효율적이지만, 복잡한 문장을 생성하거나 추론을 포함시키는 데 한계가 있다.
     
 -   **반자동 접근 방식의 장점:**
-    
     -   대규모 데이터셋 생성이 간단해진다. 660개의 템플릿만으로 약 10,182개의 테이블에서 1,478,662개의 전제-가설 쌍을 생성할 수 있다.
     -   동일한 구조를 유지하는 한, 추가적인 표 데이터에도 이 프레임워크를 재사용할 수 있다.
     -   언어적 및 어휘적으로 다양한 데이터셋을 생성할 수 있다.
     -   각 카테고리의 모든 키에 대한 다양한 템플릿을 충분히 생성함으로써 가설 편향(hypothesis bias)을 최소화할 수 있다.
     -   전제(premise)는 다양한 어휘적 표현을 위해 세 가지 방식으로 패러프레이즈(paraphrase)되었다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzE1MjYyMzQsODU5Mjk0OTgxLDI1OT
-gxMDkwLDE2NjYxMjA2NjcsLTk5NjM0NDgwNywxMzAyNzkzMCwx
-MTMyOTM0NDYxLC0yMDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xND
-AwMDEwMjQwLDEyOTgxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4
-NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMT
-U4OTQzODkyMSwxMzA4NDA1NDQ0LDE3NjkzNDE3MDMsLTExNTI0
-NTU3NTJdfQ==
+eyJoaXN0b3J5IjpbMjE0Mzg5MTg5Niw4NTkyOTQ5ODEsMjU5OD
+EwOTAsMTY2NjEyMDY2NywtOTk2MzQ0ODA3LDEzMDI3OTMwLDEx
+MzI5MzQ0NjEsLTIwMzE2MTQ1MTksLTE0Njc5Mzk4MjAsLTE0MD
+AwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1
+MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNT
+g5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1
+NTc1Ml19
 -->
