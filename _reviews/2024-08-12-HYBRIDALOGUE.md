@@ -297,7 +297,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 ![스크린샷 2024-08-17 172749](https://github.com/user-attachments/assets/38bb010d-7a8f-452a-9c9a-5ae177b5a95e)
 
 
-### Main Results
+### Complete Supervision
 
 1.  **INFOTABS로만 1단계 학습**:
     
@@ -417,7 +417,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNjA3MDU1NCwxMzAyNzkzMCwxMTMyOT
+eyJoaXN0b3J5IjpbLTk5NjM0NDgwNywxMzAyNzkzMCwxMTMyOT
 M0NDYxLC0yMDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEw
 MjQwLDEyOTgxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LD
 g4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQz
