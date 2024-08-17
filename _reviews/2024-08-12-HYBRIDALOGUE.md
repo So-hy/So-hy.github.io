@@ -345,7 +345,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 **1. 왜 반사실적 테이블 생성이 필요한가?**
 
--   **반구조화된 데이터 특성:** 표 형식 데이터셋은 반구조화된 형태를 가지며, 각 카테고리별로 특정 키(key) 집합을 가지고 있습니다. 이는 키의 엔티티 타입(entity-type)에 따라 특정 템플릿을 생성할 수 있게 해줍니다. 이러한 템플릿은 유사한 값 유형을 가진 다른 카테고리의 키에도 적용될 수 있습니다.
+-   **반구조화된 데이터 특성:** 표 형식 데이터셋은 반구조화된 형태를 가지며, 각 카테고리별로 특정 키(key) 집합을 가지고 있다. 이는 키의 엔티티 타입(entity-type)에 따라 특정 템플릿을 생성할 수 있게 해준다. 이러한 템플릿은 유사한 값 유형을 가진 다른 카테고리의 키에도 적용될 수 있다.
     
 -   **반사실적 테이블의 효과:** 반사실적 테이블을 사용하면 모델이 표면적인 텍스트 패턴을 넘어서는 학습을 할 수 있게 되어, 더 강력하고 견고한 모델을 만들 수 있습니다. 실제로 반사실적 데이터를 AUTO-TNLI에 포함했을 때, 모든 실험 설정에서 성능이 향상되는 것을 관찰했습니다. 특히, α2 테스트 세트에서 더 큰 성능 향상이 나타났는데, 이는 반사실적 데이터가 언어적으로 유사하지만 반대 레이블을 가진 데이터 인스턴스를 포함하기 때문입니다.
     
@@ -362,11 +362,11 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
     -   각 카테고리의 모든 키에 대한 다양한 템플릿을 충분히 생성함으로써 가설 편향(hypothesis bias)을 최소화할 수 있습니다.
     -   전제(premise)는 다양한 어휘적 표현을 위해 세 가지 방식으로 패러프레이즈(paraphrase)되었습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTk3NjUwMSw4NTkyOTQ5ODEsMjU5OD
-EwOTAsMTY2NjEyMDY2NywtOTk2MzQ0ODA3LDEzMDI3OTMwLDEx
-MzI5MzQ0NjEsLTIwMzE2MTQ1MTksLTE0Njc5Mzk4MjAsLTE0MD
-AwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1
-MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNT
-g5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1
-NTc1Ml19
+eyJoaXN0b3J5IjpbNjY5NzM3NjgyLDg1OTI5NDk4MSwyNTk4MT
+A5MCwxNjY2MTIwNjY3LC05OTYzNDQ4MDcsMTMwMjc5MzAsMTEz
+MjkzNDQ2MSwtMjAzMTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMD
+AxMDI0MCwxMjk4MTg5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUz
+Nyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1OD
+k0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1
+NzUyXX0=
 -->
