@@ -99,12 +99,16 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 
-데이터셋을 만들기 위해 기존의 OTT-QA 데이터셋에서 가져온 다중 홉 질문(multi-hop questions)을 기반으로 하였다. 이 질문들은 매우 복잡하며, 단일 질문으로는 대답하기 어렵기 때문에, Amazon Mechanical Turk 플랫폼을 통해 크라우드소싱 작업을 수행했다. 작업자들은 이 복잡한 질문을 더 간단한 중간 질문과 답변으로 분해하여, 영어로 된 대화를 생성하도록 요청받았다. 이는 사용자가 대화 중에 점진적으로 복잡한 질문의 답을 찾아가는 과정처럼 자연스럽게 대화가 이루어지도록 하기 위함이라고 한다.
+데이터셋을 만들기 위해 기존의 OTT-QA 데이터셋에서 가져온 다중 홉 질문(multi-hop questions)을 기반으로 하였다. 이 질문들은 매우 복잡하며, 단일 질문으로는 대답하기 어렵기 때문에, Amazon Mechanical Turk 플랫폼을 통해 크라우드소싱 작업을 수행했다. 작업자들은 이 복잡한 질문을 더 간단한 중간 질문과 답변으로 분해하여, 영어로 된 대화를 생성하도록 요청받았다. 이는 사용자가 대화 중에 점진적으로 복잡한 질문의 답을 찾아가는 과정처럼 자연스럽게 대화가 이루어지도록 하기 위함이라고 한다. 또한 대화를 일관되게 유지하기 위해, 각 대화의 양쪽(질문자와 응답자)을 동일한 작업자가 맡도록 했다.
+
+왜냐하면만약 두 명의 작업자가 참여할 경우, 한 명이 대화의 흐름을 벗어나거나 다른 방향으로 대화를 이끌 가능성이 있어, 최종적으로 올바른 답에 도달하지 못할 위험이 있다고 판단했습니다.
+
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTA4NzI5NjYsMjI3MDAwMTIwLDEzNz
-U4NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0
-MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLD
-c1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5
-OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbNzg3NjkxOTMzLDIyNzAwMDEyMCwxMzc1OD
+QzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3
+OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NT
+E1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTks
+LTY0OTgzMDI3M119
 -->
