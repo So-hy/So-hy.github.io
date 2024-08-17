@@ -85,16 +85,17 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     -   **OpenDialKG, DuConv, DyKGChat, KdConv**: 특정 외부 지식 그래프와 명시적으로 연관된 대화를 수집한다.
     -   **KVRET, MultiWOZ**: 사용자가 특정 작업을 완료할 수 있도록 도와주는 테이블 기반의 대화 시스템이다.
     
-    **비구조화된 지식**에 기반한 대화 데이터셋들도 있습니다.
     
-    -   **CMU_DoG**: 인기 있는 영화와 관련된 대화로, Wikipedia의 간략화된 기사에 기반합니다.
-    -   **Wizard-of-Wikipedia (WoW)**, **Topical-Chat**: 인간 간의 대화를 시뮬레이션하며, 한 참가자가 다른 참가자로부터 정보를 배우는 형태를 취합니다.
+    **비구조화된 지식**에 기반한 대화 데이터셋들도 있다.
     
-    HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
+    -   **CMU_DoG**: 인기 있는 영화와 관련된 대화로, Wikipedia의 간략화된 기사에 기반한다.
+    -   **Wizard-of-Wikipedia (WoW)**, **Topical-Chat**: 인간 간의 대화를 시뮬레이션하며, 한 참가자가 다른 참가자로부터 정보를 배우는 형태를 취한다.
+    
+    HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룬다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTczNzgwNzksMTk1MDQ1NDQ1MCwtMT
-k3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMy
-MzQyMyw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNT
-EzMDgzOTksLTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOT
+cxMjk0MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIz
+NDIzLDc1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MT
+MwODM5OSwtNjQ5ODMwMjczXX0=
 -->
