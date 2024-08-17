@@ -32,11 +32,6 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 
-## Methodology
-
-
-
-
 ![스크린샷 2024-08-17 225713](https://github.com/user-attachments/assets/3d508159-ca6c-4a3c-9a8e-106dd57b5646)
 {: .responsive-img .align-center}
 
@@ -49,7 +44,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     
 **점선 화살표**는 표의 셀(cell)에서 링크된 단락(paragraph)을 나타낸다. 이는 표에 포함된 정보가 텍스트와 연결되어 있음을 의미하며, 이러한 연결을 통해 더 구체적인 정보를 제공할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NzcyMTAxNyw3NTE1OTcwMDEsNjY1Mj
+eyJoaXN0b3J5IjpbMTQzMDUzNTc4Niw3NTE1OTcwMDEsNjY1Mj
 U2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 
 -->
