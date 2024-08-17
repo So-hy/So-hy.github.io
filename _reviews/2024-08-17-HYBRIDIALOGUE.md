@@ -42,8 +42,14 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 위 그림은 논문에서 제안하는 HYBRIDIALOGUE 데이터셋의 샘플을 보여준다.
+각 대화는 복잡한 다중 홉 질문(multi-hop question)을 더 간단한 질문-응답 쌍으로 분해한 후, 이러한 쌍들이 모여 하나의 대화를 형성한다. 대화의 각 턴(turn)은 하나의 질문과 그에 대한 응답으로 구성된다. 위 그림에선, T0부터 T3까지는 각기 다른 질문과 응답 쌍을 의미다.
 
+실선 화살표는 각 턴에서 정답을 찾기 위해 참조된 정보를 나타낸다. 예를 들어, 특정 턴에서 질문에 답을 하기 위해 참조된 표의 행(row)이나 소개 단락(intro paragraph)이 실선 화살표로 표시된니다.
+⇒  이는 질문에 대한 정확한 응답을 도출하기 위해 어떤 정보가 사용되었는지를 보여줍니다.
+    
+-   **점선 화살표**: 표의 셀(cell)에서 링크된 단락(paragraph)을 나타냅니다. 이는 표에 포함된 정보가 텍스트와 연결되어 있음을 의미하며, 이러한 연결을 통해 더 구체적인 정보를 제공할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUxNTk3MDAxLDY2NTI1NjM4OSwyMzAzOT
-M3MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTE0NTA2MjcxOSw3NTE1OTcwMDEsNjY1Mj
+U2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
+
 -->
