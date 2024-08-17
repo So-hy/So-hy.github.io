@@ -374,12 +374,51 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 
 "**Limited INFOTABS Supervision (RQ2b)**" 부분에서는 제한된 INFOTABS 감독 하에서 AUTO-TNLI 데이터셋을 데이터 증강으로 사용하여 모델 성능을 향상시키는 효과를 분석한다. 이 실험은 INFOTABS 데이터셋의 전체가 아닌 일부만을 사용하여 모델을 학습시키고, AUTO-TNLI 데이터를 추가하여 성능을 개선할 수 있는지를 탐구한다.
+
+### 실험 설정
+
+-   **목적**: INFOTABS 데이터셋의 감독(supervision) 정도를 줄여서(예: 전체 데이터셋의 0%, 5%, 15%, 25%만 사용) 학습을 진행한 후, AUTO-TNLI를 데이터 증강으로 사용했을 때 모델 성능이 어떻게 변화하는지를 분석합니다.
+-   **두 번째 단계**(ENTAIL vs CONTRADICT 분류): 제한된 감독 하에서, 데이터 증강 방법이 모델의 성능에 미치는 영향을 평가합니다.
+
+### 데이터 증강 방법
+
+-   **No Aug**: INFOTABS 데이터셋만을 사용하여 학습.
+-   **Orig**: 반사실 테이블을 포함하지 않은 AUTO-TNLI 데이터셋을 추가.
+-   **Orig + Count**: 반사실 테이블을 포함한 AUTO-TNLI 데이터셋을 추가.
+-   **MNLI + Orig**: 반사실 테이블을 포함하지 않은 MNLI와 AUTO-TNLI 데이터셋을 추가.
+-   **MNLI + Orig + Count**: 반사실 테이블을 포함한 MNLI와 AUTO-TNLI 데이터셋을 추가.
+
+### 평가
+
+-   실험은 세 가지 테스트 세트 분할(α1, α2, α3)과 개발 세트를 사용하여 성능을 평가합니다. 표에 나와 있는 결과는 각 설정에서의 정확도(accuracy)를 나타내며, 모든 경우에 대해 데이터 증강이 성능을 향상시키는지를 확인합니다.
+
+### 주요 결과
+
+-   **INFOTABS 데이터셋의 감독이 0%인 경우**:
+    
+    -   데이터 증강을 사용하지 않은 경우(No Aug)에는 낮은 성능을 보였습니다.
+    -   반사실 테이블을 포함하지 않은 AUTO-TNLI 데이터 증강(Orig)을 추가했을 때, 성능이 크게 향상되었습니다(대부분의 분할에서 약 9~10% 향상).
+    -   MNLI와 AUTO-TNLI를 함께 사용한 경우(MNLI + Orig + Count) 성능이 가장 크게 향상되었습니다.
+-   **INFOTABS 데이터셋의 감독이 5%인 경우**:
+    
+    -   성능이 향상되었으며, 특히 MNLI와 AUTO-TNLI를 함께 사용했을 때(MNLI + Orig + Count) 가장 큰 성능 향상을 보였습니다.
+-   **INFOTABS 데이터셋의 감독이 15%인 경우**:
+    
+    -   데이터 증강을 사용한 경우, 성능이 점진적으로 향상되었으며, 데이터 증강의 효과가 여전히 나타났습니다. 특히, MNLI와 AUTO-TNLI를 함께 사용했을 때 성능이 가장 좋았습니다.
+-   **INFOTABS 데이터셋의 감독이 25%인 경우**:
+    
+    -   데이터 증강의 효과가 감소하지만 여전히 성능 향상이 나타났습니다. 이 경우에도 MNLI와 AUTO-TNLI를 함께 사용한 방법이 가장 좋은 성능을 보였습니다.
+
+### 결론
+
+-   **데이터 증강 효과**: INFOTABS 데이터셋의 사용 비율이 낮을수록(예: 0%, 5%) AUTO-TNLI를 사용한 데이터 증강의 효과가 더 크게 나타났습니다. 즉, 감독이 제한된 상황에서 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 유익하다는 것을 알 수 있습니다.
+-   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMDE0NzM4LC0yMDMxNjE0NTE5LC0xND
-Y3OTM5ODIwLC0xNDAwMDEwMjQwLDEyOTgxODk3MjYsLTQwMjM3
-NDA3MSwtMzQwNjQ4NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLD
-QwOTY4MDg4OCwtMTU4OTQzODkyMSwxMzA4NDA1NDQ0LDE3Njkz
-NDE3MDMsLTExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMTkxNzg0Mj
-czNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAs
-ODA2OTM2NjIzXX0=
+eyJoaXN0b3J5IjpbMTEzMjkzNDQ2MSwtMjAzMTYxNDUxOSwtMT
+Q2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIz
+NzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Mi
+w0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5
+MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4ND
+I3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcw
+LDgwNjkzNjYyM119
 -->
