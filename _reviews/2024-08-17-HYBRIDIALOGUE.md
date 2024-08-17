@@ -165,6 +165,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 ### 3. Validation
 
 
+
 1. **초기 필터링**:
 
 •  작업자가 지침을 전혀 따르지 않거나, 대화의 품질이 낮은 경우 해당 작업을 거부했습니다. 예를 들어, 작업자가 관련 없는 텍스트를 복사하여 붙여넣었거나, 동일한 질문을 여러 번 반복했거나, 대화 전체에서 관련 없는 참조를 사용한 경우가 이에 해당합니다. 이런 경우에는 작업을 자동으로 거부했습니다.
@@ -187,7 +188,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjcwOTY0MTQsMTYzNjg1NDg0NiwtMT
+eyJoaXN0b3J5IjpbLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMT
 kwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAw
 MDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MC
 wtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1
