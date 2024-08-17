@@ -113,15 +113,15 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  **자연스러운 대화 형성**:
 
-•  작업자들은 대화가 자연스럽게 이어지도록 하기 위해, 대화 내 맥락을 이해하는 질문을 하도록 권장되었습니다. 예를 들어, 특정 단어를 반복해서 사용하거나, 앞서 언급된 내용을 기반으로 하는 참조를 통해 대화의 흐름을 유지해야 했습니다.
+•  작업자들은 대화가 자연스럽게 이어지도록 하기 위해, 대화 내 맥락을 이해하는 질문을 하도록 권장되었다고 한다. 예를 들어, 특정 단어를 반복해서 사용하거나, 앞서 언급된 내용을 기반으로 하는 참조를 통해 대화의 흐름을 유지해야 했다.
 
 •  **예시 대화**:
 
 •  Figure 1에서는 실제로 데이터셋에서 사용된 대화의 예시가 나와 있으며, Figure 2에서는 데이터셋 수집 과정의 개요를 보여줍니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MTUxMTM4LC0xMzk5MDIyOTQwLDIyNz
-AwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1
-MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMT
-Y1MzMyMzQyMyw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5Mzcx
-LC0zNTEzMDgzOTksLTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMj
+cwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0
+NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LD
+E2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwyMzAzOTM3
+MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
 -->
