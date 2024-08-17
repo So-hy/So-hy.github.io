@@ -43,8 +43,49 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 ⇒  이는 질문에 대한 정확한 응답을 도출하기 위해 어떤 정보가 사용되었는지를 보여준다.
     
 **점선 화살표**는 표의 셀(cell)에서 링크된 단락(paragraph)을 나타낸다. 이는 표에 포함된 정보가 텍스트와 연결되어 있음을 의미하며, 이러한 연결을 통해 더 구체적인 정보를 제공할 수 있다.
+
+
+## Related Work
+
+
+### 1. 대화 기반 질문 응답 시스템의 연구 분류
+
+-   **질문 응답 시스템(Question-Answering Systems)**과 **정보 기반 대화(Information-Grounded Dialogue)**라는 두 가지 주요 영역으로 관련 연구를 분류합니다.
+
+### 2. 질문 응답 시스템(Question-Answering Systems)
+
+-   **질문 응답(QA)**은 자연어 처리(NLP) 분야에서 오랫동안 연구된 주요 과제 중 하나입니다. 최근에는 다양한 형태의 데이터를 포함하는 QA 데이터셋이 등장했습니다.
+    -   **RecipeQA**: 이미지와 텍스트를 결합한 질문-응답 쌍을 포함하는 데이터셋입니다.
+    -   **OTT-QA**와 **HybridQA**: 복잡한 다중 홉 질문(multi-hop questions)을 포함하며, 답변이 텍스트와 표 형식으로 나타납니다.
+    -   **TriviaQA, HotPotQA, Natural Questions**: 오픈 도메인 QA를 대상으로 하는 데이터셋들로, 각각 특정 주제나 엔티티에 대한 단일 턴 질문 응답을 다룹니다.이들 QA 데이터셋은 단일 질문과 응답에 중점을 두지만, 대화 설정에서는 더 복잡한 도전 과제들이 제기됩니다. 대화 맥락을 이해하고, 추론하며, 자연스러운 대화를 생성해야 하는 과제가 있습니다.
+
+### 3. 대화 기반 질문 응답(Conversational Question-Answering)
+
+-   **대화형 질문 응답** 데이터셋들은 질문과 응답 쌍이 대화 구조 내에 포함되어 있습니다.
+    
+    -   **CoQA**와 **DoQA**: Wikipedia 페이지나 FAQ 쌍과 같은 지식을 기반으로 대화를 구성합니다.
+    -   **ShARC**: 사용자의 배경을 이해하기 위해 후속 질문을 제시하는 분해 전략을 사용합니다. 그러나 이 데이터셋은 규칙 기반 추론과 '예' 또는 '아니오' 유형의 응답에 제한됩니다.
+    -   **SQA**: WikiTable 질문을 분해하여 각 분해된 응답이 표의 셀이나 열과 관련된 탭 형식 데이터셋입니다. 이들 데이터셋에서는 정보가 단일 형식(텍스트 또는 표)에만 국한됩니다.
+    
+    **HYBRIDIALOGUE** 데이터셋은 이러한 기존 데이터셋과 비교하여 더 도전적인 환경을 제시합니다. HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트를 결합하여 대화 질문에 대한 합리적인 답변을 제공해야 합니다. 또한, 기존 데이터셋들이 대화 구조 내에서 샘플을 제공하더라도, 그 응답이 간단하고 짧게 구성되는 반면, HYBRIDIALOGUE는 자연스러운 대화를 모델링하며, 사람들이 첫 질문에 대한 답변 이후에 추가 질문을 하고자 하는 실제 상황을 반영합니다.
+    
+
+### 4. 대화 생성(Dialogue Generation)
+
+-   **구조화된 지식**(예: 표, 지식 그래프)에 의존하는 대화 데이터셋들이 있습니다.
+    
+    -   **Ghazvininejad et al. (2018)**, **Zhou et al. (2018a)**: Twitter나 Reddit에서 수집된 대화 데이터를 사용하며, Freebase나 ConceptNet과 같은 외부 지식 그래프에 의존합니다.
+    -   **OpenDialKG, DuConv, DyKGChat, KdConv**: 특정 외부 지식 그래프와 명시적으로 연관된 대화를 수집합니다.
+    -   **KVRET, MultiWOZ**: 사용자가 특정 작업을 완료할 수 있도록 도와주는 테이블 기반의 대화 시스템입니다.
+    
+    **비구조화된 지식**에 기반한 대화 데이터셋들도 있습니다.
+    
+    -   **CMU_DoG**: 인기 있는 영화와 관련된 대화로, Wikipedia의 간략화된 기사에 기반합니다.
+    -   **Wizard-of-Wikipedia (WoW)**, **Topical-Chat**: 인간 간의 대화를 시뮬레이션하며, 한 참가자가 다른 참가자로부터 정보를 배우는 형태를 취합니다.
+    
+    HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDUzNTc4Niw3NTE1OTcwMDEsNjY1Mj
+eyJoaXN0b3J5IjpbMTY1MzMyMzQyMyw3NTE1OTcwMDEsNjY1Mj
 U2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 
 -->
