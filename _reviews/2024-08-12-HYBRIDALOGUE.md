@@ -321,7 +321,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 ### 2. Limited INFOTABS Supervision (RQ2b)
 
-이 부분에서는 학습의 두 번째 단계에서 INFOTABS 감독의 양을 제한할 때의 성능을 분석합니다(ENTAIL vs. CONTRADICT 분류). 실험에서는 INFOTABS 훈련 세트의 0%, 5%, 15%, 25%를 사용하여 fine-tuning 했을 때의 성능을 비교합니다.
+이 부분에서는 학습의 두 번째 단계에서 INFOTABS 감독의 양을 제한할 때의 성능을 분석하였다(ENTAIL vs. CONTRADICT 분류). 실험에서는 INFOTABS 훈련 세트의 0%, 5%, 15%, 25%를 사용하여 fine-tuning 했을 때의 성능을 비교한다.
 
 -   **증강과 함께한 성능:**
     -   Table 10에서 확인할 수 있듯이, AUTO-TNLI로 증강하면 사용된 훈련 데이터의 비율에 상관없이 성능이 향상되었습니다. 특히 INFOTABS 감독 비율이 낮을 때 성능 향상이 더욱 두드러졌습니다.
@@ -331,11 +331,11 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU5MzE0MywyNTk4MTA5MCwxNjY2MTIwNj
-Y3LC05OTYzNDQ4MDcsMTMwMjc5MzAsMTEzMjkzNDQ2MSwtMjAz
-MTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MT
-g5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUs
-LTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwOD
-QwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1
-NTldfQ==
+eyJoaXN0b3J5IjpbMTU1NzU5MTMsMjU5ODEwOTAsMTY2NjEyMD
+Y2NywtOTk2MzQ0ODA3LDEzMDI3OTMwLDExMzI5MzQ0NjEsLTIw
+MzE2MTQ1MTksLTE0Njc5Mzk4MjAsLTE0MDAwMTAyNDAsMTI5OD
+E4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1MzcsODg2NDUzMjY1
+LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNTg5NDM4OTIxLDEzMD
+g0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5MTQx
+NTU5XX0=
 -->
