@@ -93,9 +93,16 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     
     HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룬다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있다.
 
+
+
+## Dataset Creation
+
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOT
-cxMjk0MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIz
-NDIzLDc1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MT
-MwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NT
+A0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2NjI1
+MDQ2LDE2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwyMz
+AzOTM3MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
 -->
