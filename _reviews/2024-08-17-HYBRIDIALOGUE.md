@@ -143,9 +143,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  **참조($R_i$)**: 질문에 대한 응답을 생성하기 위해 필요한 영어 Wikipedia 페이지의 참조 정보. 참조는 여러 종류가 있을 수 있다.
 
-•  **참조 풀($RP_i$)**: 작업자가 선택할 수 있는 가능한 참조들의 집합입니다. 여기에는 링크된 단락, 전체 표, 단일 행, 여러 행, 단일 셀이 포함됩니다.
+•  **참조 풀($RP_i$)**: 작업자가 선택할 수 있는 가능한 참조들의 집합. 여기에는 링크된 단락, 전체 표, 단일 행, 여러 행, 단일 셀이 포함됨.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1MTUxODk5LC0xOTAxMDIzODczLDEzNT
+eyJoaXN0b3J5IjpbNDM3NjI2NjE5LC0xOTAxMDIzODczLDEzNT
 I0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2
 NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC
 0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5
