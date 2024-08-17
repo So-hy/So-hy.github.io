@@ -267,7 +267,6 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 -   **1단계 학습 전략**:
     
     -   **a. INFOTABS만으로 훈련**: 모델을 INFOTABS 데이터셋으로만 학습시킴.
-    - 
     -   **b. MNLI로 사전 훈련 후 INFOTABS로 훈련**: MNLI 데이터셋으로 모델을 먼저 사전 훈련한 후, INFOTABS로 추가 훈련시킴.
 
 -   **2단계 데이터 증강 전략**:
@@ -305,11 +304,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여준다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMjU0NzYyNCwtNDAyMzc0MDcxLC0zND
-A2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4
-LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMT
-E1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEz
-ODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2Mj
-MsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDks
-MTU3MDkwNzYzNF19
+eyJoaXN0b3J5IjpbLTE0NTMzODAxNTcsLTQwMjM3NDA3MSwtMz
+QwNjQ4NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4
+OCwtMTU4OTQzODkyMSwxMzA4NDA1NDQ0LDE3NjkzNDE3MDMsLT
+ExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMTkxNzg0MjczNSwtMjQx
+MzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2Nj
+IzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5
+LDE1NzA5MDc2MzRdfQ==
 -->
