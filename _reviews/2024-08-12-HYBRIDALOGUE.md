@@ -334,9 +334,9 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 **전체 분석:**
 
--   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여준다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
+-   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여준다. 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwODA3MTEyOSw4NTkyOTQ5ODEsMjU5OD
+eyJoaXN0b3J5IjpbLTMzNjQwNTA2Niw4NTkyOTQ5ODEsMjU5OD
 EwOTAsMTY2NjEyMDY2NywtOTk2MzQ0ODA3LDEzMDI3OTMwLDEx
 MzI5MzQ0NjEsLTIwMzE2MTQ1MTksLTE0Njc5Mzk4MjAsLTE0MD
 AwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1
