@@ -99,12 +99,10 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 
-데이터셋을 만들기 위해 기존의 OTT-QA 데이터셋에서 가져온 다중 홉 질문(multi-hop questions)을 기반으로 하였다. 이 질문들은 매우 복잡하며, 단일 질문으로는 대답하기 어렵기 때문에, Amazon Mechanical Turk 플랫폼을 통해 크라우드소싱 작업을 수행했습니다.
-
-•  작업자들은 이 복잡한 질문을 더 간단한 중간 질문과 답변으로 분해하여, 영어로 된 대화를 생성하도록 요청받았습니다. 이는 사용자가 대화 중에 점진적으로 복잡한 질문의 답을 찾아가는 과정처럼 자연스럽게 대화가 이루어지도록 하기 위함입니다.
+데이터셋을 만들기 위해 기존의 OTT-QA 데이터셋에서 가져온 다중 홉 질문(multi-hop questions)을 기반으로 하였다. 이 질문들은 매우 복잡하며, 단일 질문으로는 대답하기 어렵기 때문에, Amazon Mechanical Turk 플랫폼을 통해 크라우드소싱 작업을 수행했다. 작업자들은 이 복잡한 질문을 더 간단한 중간 질문과 답변으로 분해하여, 영어로 된 대화를 생성하도록 요청받았습니다. 이는 사용자가 대화 중에 점진적으로 복잡한 질문의 답을 찾아가는 과정처럼 자연스럽게 대화가 이루어지도록 하기 위함입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMDIyOTYzLDEzNzU4NDM2NDMsLTExMj
+eyJoaXN0b3J5IjpbMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMj
 U4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIz
 NTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAwMSw2Nj
 UyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjcz
