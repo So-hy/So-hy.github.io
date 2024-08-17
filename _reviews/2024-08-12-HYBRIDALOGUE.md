@@ -315,13 +315,15 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 3.  **단계별 성능 분석** (Ablation Analysis):
     
-    -   **1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었다.
-4.  **2단계 성능**:
+**1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었다.
+
+**2단계 성능**:
     
-    -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었습니다.
-    -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었습니다.
+-   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었다.
+-   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY2Mzc1OTQsLTE0Njc5Mzk4MjAsLT
+eyJoaXN0b3J5IjpbLTE1ODQwMzk0MzEsLTE0Njc5Mzk4MjAsLT
 E0MDAwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2
 NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC
 0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1
