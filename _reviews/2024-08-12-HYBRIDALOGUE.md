@@ -299,7 +299,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 ### 1. Complete INFOTABS Supervision (RQ2a)
 
-이 실험에서는 INFOTABS 데이터셋을 사용해 표 형식 추론 작업을 수행할 때, 다양한 데이터 증강 전략이 모델 성능에 미치는 영향을 평가합니다. 문서의 Table 7은 여러 증강 설정에서의 정확도를 비교한 결과를 보여줍니다.
+이 실험에서는 INFOTABS 데이터셋을 사용해 표 형식 추론 작업을 수행할 때, 다양한 데이터 증강 전략이 모델 성능에 미치는 영향을 평가하였다. 문서의 Table 7은 여러 증강 설정에서의 정확도를 비교한 결과를 보여줍니다.
 
 -   **첫 번째 경우:**
     
@@ -330,7 +330,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ4NTY5NDkyLC05OTYzNDQ4MDcsMTMwMj
+eyJoaXN0b3J5IjpbMTQxODA4NTIzLC05OTYzNDQ4MDcsMTMwMj
 c5MzAsMTEzMjkzNDQ2MSwtMjAzMTYxNDUxOSwtMTQ2NzkzOTgy
 MCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIzNzQwNzEsLT
 M0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Miw0MDk2ODA4
