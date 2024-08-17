@@ -37,12 +37,13 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 
+![스크린샷 2024-08-17 225713](https://github.com/user-attachments/assets/3d508159-ca6c-4a3c-9a8e-106dd57b5646)
 {: .responsive-img .align-center}
 
 
 위 그림은 논문에서 제안하는 프레임워크의 구조를 보여준다. 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjEwODQ4NzYsNjY1MjU2Mzg5LDIzMD
-M5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbMTg2NDkwMzExMCw2NjUyNTYzODksMjMwMz
+kzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
 -->
