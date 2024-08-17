@@ -308,16 +308,16 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   **두 번째 경우:**
     
-    -   첫 번째 단계에서 MNLI와 INFOTABS로 모델을 학습한 경우, AUTO-TNLI 데이터 증강을 적용하면 α1과 α3 테스트 세트에서 각각 1.60%와 0.67%의 성능 향상이 나타납니다.
-    -   MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용하면 α1, α2, α3 테스트 세트에서 각각 1.44%, 1.94%, 0.83% 더 성능이 향상됩니다.
+    -   첫 번째 단계에서 MNLI와 INFOTABS로 모델을 학습한 경우, AUTO-TNLI 데이터 증강을 적용하면 α1과 α3 테스트 세트에서 각각 1.60%와 0.67%의 성능 향상이 나타났다.
+    -   MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용하면 α1, α2, α3 테스트 세트에서 각각 1.44%, 1.94%, 0.83% 더 성능이 향상되었다.
 
 **Ablation Analysis:**
 
--   개별 RoBERTaBASE 모델의 성능을 평가하기 위한 ablation 연구에서는 MNLI 데이터를 증강에 추가하면 α1, α2, α3 테스트 세트에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있음을 확인했습니다.
+-   개별 RoBERTaBASE 모델의 성능을 평가하기 위한 ablation 연구에서는 MNLI 데이터를 증강에 추가하면 α1, α2, α3 테스트 세트에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있음을 확인했다.
 
 **Stage-2 분석:**
 
--   Table 8에 따르면, Stage-2에서 반사실적 테이블을 추가하면 α2와 α3 테스트 세트에서 각각 2.75%와 1.42%의 성능 향상을 이끌어냈습니다. MNLI와 AUTO-TNLI를 함께 fine-tuning 하면 α1, α2, α3 테스트 세트에서 각각 5.42%, 3.33%, 2% 더 성능이 향상되었습니다.
+-   Table 8에 따르면, Stage-2에서 반사실적 테이블을 추가하면 α2와 α3 테스트 세트에서 각각 2.75%와 1.42%의 성능 향상을 이끌어냈다. MNLI와 AUTO-TNLI를 함께 fine-tuning 하면 α1, α2, α3 테스트 세트에서 각각 5.42%, 3.33%, 2% 더 성능이 향상되었다.
 
 ### 2. Limited INFOTABS Supervision (RQ2b)
 
@@ -331,11 +331,11 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 -   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5ODEwOTAsMTY2NjEyMDY2NywtOTk2Mz
-Q0ODA3LDEzMDI3OTMwLDExMzI5MzQ0NjEsLTIwMzE2MTQ1MTks
-LTE0Njc5Mzk4MjAsLTE0MDAwMTAyNDAsMTI5ODE4OTcyNiwtND
-AyMzc0MDcxLC0zNDA2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQz
-ODIsNDA5NjgwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMT
-c2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3
-ODQyNzM1XX0=
+eyJoaXN0b3J5IjpbNTU5MzE0MywyNTk4MTA5MCwxNjY2MTIwNj
+Y3LC05OTYzNDQ4MDcsMTMwMjc5MzAsMTEzMjkzNDQ2MSwtMjAz
+MTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MT
+g5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUs
+LTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwOD
+QwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1
+NTldfQ==
 -->
