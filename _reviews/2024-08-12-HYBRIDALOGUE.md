@@ -297,131 +297,44 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 ![스크린샷 2024-08-17 172749](https://github.com/user-attachments/assets/38bb010d-7a8f-452a-9c9a-5ae177b5a95e)
 
 
-### Complete Supervision
+### 1. Complete INFOTABS Supervision (RQ2a)
 
-1.  **INFOTABS로만 1단계 학습**:
+이 실험에서는 INFOTABS 데이터셋을 사용해 표 형식 추론 작업을 수행할 때, 다양한 데이터 증강 전략이 모델 성능에 미치는 영향을 평가합니다. 문서의 Table 7은 여러 증강 설정에서의 정확도를 비교한 결과를 보여줍니다.
+
+-   **첫 번째 경우:**
     
-    -   **α1 테스트셋**: AUTO-TNLI로 데이터 증강을 한 경우(Orig + Count), 데이터 증강을 하지 않은 경우(No Aug)에 비해 1.6%의 성능 향상을 보였다.
-    -   **α3 테스트셋**: 같은 설정에서 1.2%의 성능 향상이 있었다.
-    -   **α2 테스트셋**: 여기서는 성능 향상이 미미했다.
-    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 0.6%, 2.0%, 0.45%의 추가 성능 향상이 있었다.
-
-
-2.  **MNLI로 사전 훈련 후 INFOTABS로 1단계 학습**:
+    -   첫 번째 단계에서 모델을 INFOTABS 데이터셋만으로 학습한 경우, fine-tuning 이전에 직접 AUTO-TNLI 데이터 증강(Orig+Count)을 적용하면 α1과 α3 테스트 세트에서 각각 1.6%와 1.2%의 정확도 향상을 얻을 수 있습니다. 이는 증강을 하지 않고 INFOTABS로 직접 fine-tuning 한 것과 비교했을 때의 결과입니다. 그러나 α2 테스트 세트의 성능에서는 유의미한 향상을 보이지 않았습니다.
+    -   MNLI로 먼저 fine-tuning 한 후 AUTO-TNLI(반사실적 테이블 포함)를 적용하면 α1, α2, α3 테스트 세트에서 각각 0.6%, 2.0%, 0.45% 더 성능이 향상됩니다.
+-   **두 번째 경우:**
     
-    -   **α1 및 α3 테스트셋**: 직접 AUTO-TNLI 데이터 증강을 사용했을 때, 각각 1.60%와 0.67%의 성능 향상이 있었다.
-    -   **α2 테스트셋**: 여기서도 성능 향상이 미미했다.
-    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 1.44%, 1.94%, 0.83%의 성능 향상이 있었다.
+    -   첫 번째 단계에서 MNLI와 INFOTABS로 모델을 학습한 경우, AUTO-TNLI 데이터 증강을 적용하면 α1과 α3 테스트 세트에서 각각 1.60%와 0.67%의 성능 향상이 나타납니다.
+    -   MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용하면 α1, α2, α3 테스트 세트에서 각각 1.44%, 1.94%, 0.83% 더 성능이 향상됩니다.
 
+**Ablation Analysis:**
 
-3.  **단계별 성능 분석** (Ablation Analysis):
-    
-**1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었다.
+-   개별 RoBERTaBASE 모델의 성능을 평가하기 위한 ablation 연구에서는 MNLI 데이터를 증강에 추가하면 α1, α2, α3 테스트 세트에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있음을 확인했습니다.
 
-**2단계 성능**:
-    
--   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었다.
--   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었다.
+**Stage-2 분석:**
 
+-   Table 8에 따르면, Stage-2에서 반사실적 테이블을 추가하면 α2와 α3 테스트 세트에서 각각 2.75%와 1.42%의 성능 향상을 이끌어냈습니다. MNLI와 AUTO-TNLI를 함께 fine-tuning 하면 α1, α2, α3 테스트 세트에서 각각 5.42%, 3.33%, 2% 더 성능이 향상되었습니다.
 
-### Complete INFOTABS Supervision (RQ2a)
+### 2. Limited INFOTABS Supervision (RQ2b)
 
-이 실험에서는 INFOTABS 데이터셋 전체를 사용하여 모델을 학습시키고, 그 후 AUTO-TNLI 데이터셋을 데이터 증강(data augmentation)으로 활용하여 성능을 비교한다.
+이 부분에서는 학습의 두 번째 단계에서 INFOTABS 감독의 양을 제한할 때의 성능을 분석합니다(ENTAIL vs. CONTRADICT 분류). 실험에서는 INFOTABS 훈련 세트의 0%, 5%, 15%, 25%를 사용하여 fine-tuning 했을 때의 성능을 비교합니다.
 
-#### 실험 설정
+-   **증강과 함께한 성능:**
+    -   Table 10에서 확인할 수 있듯이, AUTO-TNLI로 증강하면 사용된 훈련 데이터의 비율에 상관없이 성능이 향상되었습니다. 특히 INFOTABS 감독 비율이 낮을 때 성능 향상이 더욱 두드러졌습니다.
+    -   모든 비율에서 가장 높은 성능은 MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용한 경우에 나타났습니다.
 
--   **두 단계 분류**:
-    
-    -   **1단계**: 가설이 NEUTRAL인지, NON-NEUTRAL(ENTAIL 또는 CONTRADICT)인지 예측.
-    -   **2단계**: NON-NEUTRAL로 분류된 경우, 이를 다시 ENTAIL 또는 CONTRADICT로 분류.
--   **비교 모델**:
-    
-    -   1단계에서 INFOTABS로만 훈련한 경우와 MNLI로 사전 훈련 후 INFOTABS로 추가 훈련한 경우를 비교.
-    -   2단계에서는 다양한 데이터 증강 설정을 통해 성능을 비교.
-        -   **Orig**: 반사실 테이블을 포함하지 않은 AUTO-TNLI.
-        -   **Orig + Count**: 반사실 테이블을 포함한 AUTO-TNLI.
-        -   **MNLI + Orig**: 반사실 테이블을 포함하지 않은 MNLI와 AUTO-TNLI.
-        -   **MNLI + Orig + Count**: 반사실 테이블을 포함한 MNLI와 AUTO-TNLI.
-        -   **No Aug**: 추가적인 데이터 증강 없이 INFOTABS만 사용.
+**전체 분석:**
 
-#### 실험 결과 및 분석
-
-1.  **INFOTABS로만 1단계 학습**:
-    
-    -   **α1 테스트셋**: AUTO-TNLI로 데이터 증강을 한 경우(Orig + Count), 데이터 증강을 하지 않은 경우(No Aug)에 비해 1.6%의 성능 향상을 보였습니다.
-    -   **α3 테스트셋**: 같은 설정에서 1.2%의 성능 향상이 있었습니다.
-    -   **α2 테스트셋**: 여기서는 성능 향상이 미미했습니다.
-    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 0.6%, 2.0%, 0.45%의 추가 성능 향상이 있었습니다.
-2.  **MNLI로 사전 훈련 후 INFOTABS로 1단계 학습**:
-    
-    -   **α1 및 α3 테스트셋**: 직접 AUTO-TNLI 데이터 증강을 사용했을 때, 각각 1.60%와 0.67%의 성능 향상이 있었습니다.
-    -   **α2 테스트셋**: 여기서도 성능 향상이 미미했습니다.
-    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 1.44%, 1.94%, 0.83%의 성능 향상이 있었습니다.
-3.  **단계별 성능 분석** (Ablation Analysis):
-    
-    -   **1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었습니다.
-4.  **2단계 성능**:
-    
-    -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었습니다.
-    -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었습니다.
-
-#### 결론
-
--   **AUTO-TNLI 데이터 증강**: 전반적으로 AUTO-TNLI 데이터셋을 사용한 데이터 증강이 INFOTABS만을 사용했을 때보다 성능을 향상시키는 것으로 나타났다.
--   **MNLI로 사전 훈련**: MNLI로 사전 훈련한 후 AUTO-TNLI와 INFOTABS를 사용한 경우, 가장 높은 성능 향상을 보였다.
--   **적대적 테스트셋(α2)에 대한 성능 향상**: α2 테스트셋에서는 성능 향상이 상대적으로 적었지만, 전반적인 성능은 여전히 개선되었다.
-
-
-### Limited INFOTABS Supervision (RQ2b)
-
-
-"**Limited INFOTABS Supervision (RQ2b)**" 부분에서는 제한된 INFOTABS 감독 하에서 AUTO-TNLI 데이터셋을 데이터 증강으로 사용하여 모델 성능을 향상시키는 효과를 분석한다. 이 실험은 INFOTABS 데이터셋의 전체가 아닌 일부만을 사용하여 모델을 학습시키고, AUTO-TNLI 데이터를 추가하여 성능을 개선할 수 있는지를 탐구한다.
-
-### 실험 설정
-
--   **목적**: INFOTABS 데이터셋의 감독(supervision) 정도를 줄여서(예: 전체 데이터셋의 0%, 5%, 15%, 25%만 사용) 학습을 진행한 후, AUTO-TNLI를 데이터 증강으로 사용했을 때 모델 성능이 어떻게 변화하는지를 분석합니다.
--   **두 번째 단계**(ENTAIL vs CONTRADICT 분류): 제한된 감독 하에서, 데이터 증강 방법이 모델의 성능에 미치는 영향을 평가합니다.
-
-### 데이터 증강 방법
-
--   **No Aug**: INFOTABS 데이터셋만을 사용하여 학습.
--   **Orig**: 반사실 테이블을 포함하지 않은 AUTO-TNLI 데이터셋을 추가.
--   **Orig + Count**: 반사실 테이블을 포함한 AUTO-TNLI 데이터셋을 추가.
--   **MNLI + Orig**: 반사실 테이블을 포함하지 않은 MNLI와 AUTO-TNLI 데이터셋을 추가.
--   **MNLI + Orig + Count**: 반사실 테이블을 포함한 MNLI와 AUTO-TNLI 데이터셋을 추가.
-
-### 평가
-
--   실험은 세 가지 테스트 세트 분할(α1, α2, α3)과 개발 세트를 사용하여 성능을 평가합니다. 표에 나와 있는 결과는 각 설정에서의 정확도(accuracy)를 나타내며, 모든 경우에 대해 데이터 증강이 성능을 향상시키는지를 확인합니다.
-
-### 주요 결과
-
--   **INFOTABS 데이터셋의 감독이 0%인 경우**:
-    
-    -   데이터 증강을 사용하지 않은 경우(No Aug)에는 낮은 성능을 보였습니다.
-    -   반사실 테이블을 포함하지 않은 AUTO-TNLI 데이터 증강(Orig)을 추가했을 때, 성능이 크게 향상되었습니다(대부분의 분할에서 약 9~10% 향상).
-    -   MNLI와 AUTO-TNLI를 함께 사용한 경우(MNLI + Orig + Count) 성능이 가장 크게 향상되었습니다.
--   **INFOTABS 데이터셋의 감독이 5%인 경우**:
-    
-    -   성능이 향상되었으며, 특히 MNLI와 AUTO-TNLI를 함께 사용했을 때(MNLI + Orig + Count) 가장 큰 성능 향상을 보였습니다.
--   **INFOTABS 데이터셋의 감독이 15%인 경우**:
-    
-    -   데이터 증강을 사용한 경우, 성능이 점진적으로 향상되었으며, 데이터 증강의 효과가 여전히 나타났습니다. 특히, MNLI와 AUTO-TNLI를 함께 사용했을 때 성능이 가장 좋았습니다.
--   **INFOTABS 데이터셋의 감독이 25%인 경우**:
-    
-    -   데이터 증강의 효과가 감소하지만 여전히 성능 향상이 나타났습니다. 이 경우에도 MNLI와 AUTO-TNLI를 함께 사용한 방법이 가장 좋은 성능을 보였습니다.
-
-### 결론
-
--   **데이터 증강 효과**: INFOTABS 데이터셋의 사용 비율이 낮을수록(예: 0%, 5%) AUTO-TNLI를 사용한 데이터 증강의 효과가 더 크게 나타났습니다. 즉, 감독이 제한된 상황에서 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 유익하다는 것을 알 수 있습니다.
--   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
-
+-   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NjM0NDgwNywxMzAyNzkzMCwxMTMyOT
-M0NDYxLC0yMDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEw
-MjQwLDEyOTgxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LD
-g4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQz
-ODkyMSwxMzA4NDA1NDQ0LDE3NjkzNDE3MDMsLTExNTI0NTU3NT
-IsLTgyOTE0MTU1OSwtMTkxNzg0MjczNSwtMjQxMzgyOTgyLC01
-MDY1ODc1NjBdfQ==
+eyJoaXN0b3J5IjpbODQ4NTY5NDkyLC05OTYzNDQ4MDcsMTMwMj
+c5MzAsMTEzMjkzNDQ2MSwtMjAzMTYxNDUxOSwtMTQ2NzkzOTgy
+MCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIzNzQwNzEsLT
+M0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Miw0MDk2ODA4
+ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQxNzAzLC
+0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4NDI3MzUsLTI0
+MTM4Mjk4Ml19
 -->
