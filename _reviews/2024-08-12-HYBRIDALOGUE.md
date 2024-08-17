@@ -323,7 +323,7 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었다.
 
 
-"1. Complete INFOTABS Supervision (RQ2a)" 부분에서는 AUTO-TNLI 데이터셋을 사용하여 INFOTABS 데이터셋의 성능을 향상시키기 위한 실험을 다룹니다. 이 실험에서는 INFOTABS 데이터셋 전체를 사용하여 모델을 학습시키고, 그 후 AUTO-TNLI 데이터셋을 데이터 증강(data augmentation)으로 활용하여 성능을 비교합니다.
+"1. Complete INFOTABS Supervision (RQ2a)" 부분에서는 AUTO-TNLI 데이터셋을 사용하여 INFOTABS 데이터셋의 성능을 향상시키기 위한 실험을 다ㄹ다. 이 실험에서는 INFOTABS 데이터셋 전체를 사용하여 모델을 학습시키고, 그 후 AUTO-TNLI 데이터셋을 데이터 증강(data augmentation)으로 활용하여 성능을 비교합니다.
 
 ### 실험 설정
 
@@ -371,11 +371,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzE2MTQ1MTksLTE0Njc5Mzk4MjAsLT
-E0MDAwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2
-NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC
-0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1
-MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzOD
-I5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMs
-LTEyNDIyMTIyMzhdfQ==
+eyJoaXN0b3J5IjpbMTU3MDU1MTE3MywtMjAzMTYxNDUxOSwtMT
+Q2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIz
+NzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Mi
+w0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5
+MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4ND
+I3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcw
+LDgwNjkzNjYyM119
 -->
