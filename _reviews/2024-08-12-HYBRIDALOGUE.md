@@ -329,18 +329,18 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 
 -   **증강과 함께한 성능:**
-    -  위의 Table 10에서 확인할 수 있듯이, AUTO-TNLI로 증강하면 사용된 훈련 데이터의 비율에 상관없이 성능이 향상되었습니다. 특히 INFOTABS 감독 비율이 낮을 때 성능 향상이 더욱 두드러졌습니다.
-    -   모든 비율에서 가장 높은 성능은 MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용한 경우에 나타났습니다.
+    -  위의 Table 10에서 확인할 수 있듯이, AUTO-TNLI로 증강하면 사용된 훈련 데이터의 비율에 상관없이 성능이 향상되었다. 특히 INFOTABS 감독 비율이 낮을 때 성능 향상이 더욱 두드러졌다.
+    -   모든 비율에서 가장 높은 성능은 MNLI로 fine-tuning 한 후 AUTO-TNLI를 적용한 경우에 나타났다.
 
 **전체 분석:**
 
--   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여줍니다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
+-   이 결과들은 AUTO-TNLI로 증강한 것이, 특히 MNLI 사전 fine-tuning과 결합될 때, 제한된 감독 시나리오에서 모델 성능을 크게 향상시킨다는 것을 보여준다. 문서에서는 반사실적 테이블과 포괄적인 데이터 증강 전략을 사용하는 것이 이러한 성능 향상에 중요한 요소임을 강조하고 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU5Mjk0OTgxLDI1OTgxMDkwLDE2NjYxMj
-A2NjcsLTk5NjM0NDgwNywxMzAyNzkzMCwxMTMyOTM0NDYxLC0y
-MDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEwMjQwLDEyOT
-gxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LDg4NjQ1MzI2
-NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQzODkyMSwxMz
-A4NDA1NDQ0LDE3NjkzNDE3MDMsLTExNTI0NTU3NTIsLTgyOTE0
-MTU1OV19
+eyJoaXN0b3J5IjpbLTMwODA3MTEyOSw4NTkyOTQ5ODEsMjU5OD
+EwOTAsMTY2NjEyMDY2NywtOTk2MzQ0ODA3LDEzMDI3OTMwLDEx
+MzI5MzQ0NjEsLTIwMzE2MTQ1MTksLTE0Njc5Mzk4MjAsLTE0MD
+AwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1
+MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNT
+g5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1
+NTc1Ml19
 -->
