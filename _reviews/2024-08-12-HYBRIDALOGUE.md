@@ -277,6 +277,7 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
     -   **d. MNLI + Orig + Count**: 반사실 테이블을 포함한 MNLI와 AUTO-TNLI 데이터셋을 사용.
     -   **e. No Aug**: 추가적인 데이터 증강 없이 INFOTABS만 사용.
 
+
 ### 3. **평가 세트**
 
 -   INFOTABS의 테스트 세트를 사용하여 평가를 수행했습니다. 이 테스트 세트는 다음과 같은 세 가지 분할로 구성됩니다:
@@ -304,11 +305,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여준다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NTMzODAxNTcsLTQwMjM3NDA3MSwtMz
-QwNjQ4NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4
-OCwtMTU4OTQzODkyMSwxMzA4NDA1NDQ0LDE3NjkzNDE3MDMsLT
-ExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMTkxNzg0MjczNSwtMjQx
-MzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAsODA2OTM2Nj
-IzLC0xMjQyMjEyMjM4LC0xNzcyNzAxMDI1LC0xNjgwMzMwOTQ5
-LDE1NzA5MDc2MzRdfQ==
+eyJoaXN0b3J5IjpbMjExNDkxODI1NywtNDAyMzc0MDcxLC0zND
+A2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4
+LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMT
+E1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEz
+ODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2Mj
+MsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDks
+MTU3MDkwNzYzNF19
 -->
