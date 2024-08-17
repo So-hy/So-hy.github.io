@@ -133,8 +133,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 하나의 대화는 여러 개의 턴(turn)으로 구성된다. 각 턴은 대화에서 질문과 그에 대한 응답을 의미한다. 각 대화는 최소 4개의 턴, 최대 6개의 턴으로 구성되며, 이 제한은 작업자(Turker)들이 복잡한 질문을 충분히 분해하면서도 대화가 주제를 벗어나지 않도록 하기 위함이라고 한다.
+
+
+각 턴은 아래의 구성요소로 이루어진다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMzQzOTU3NSwtMTkwMTAyMzg3MywxMz
+eyJoaXN0b3J5IjpbMTIzOTQ1Njk0NywtMTkwMTAyMzg3MywxMz
 UyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQz
 NjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OC
 wtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1
