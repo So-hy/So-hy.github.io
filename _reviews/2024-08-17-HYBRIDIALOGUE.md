@@ -136,8 +136,16 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 각 턴은 아래의 구성요소로 이루어진다.
+
+•  **질문($Q_i$)**: 자연어로 작성된 질문입니다.
+
+•  **응답($A_i$)**: 자연어로 작성된 질문에 대한 응답입니다.
+
+•  **참조($R_i$)**: 질문에 대한 응답을 생성하기 위해 필요한 영어 Wikipedia 페이지의 참조 정보입니다. 참조는 여러 종류가 있을 수 있습니다.
+
+•  **참조 풀($RP_i$)**: 작업자가 선택할 수 있는 가능한 참조들의 집합입니다. 여기에는 링크된 단락, 전체 표, 단일 행, 여러 행, 단일 셀이 포함됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzOTQ1Njk0NywtMTkwMTAyMzg3MywxMz
+eyJoaXN0b3J5IjpbLTY4MjYxNTc5MSwtMTkwMTAyMzg3MywxMz
 UyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQz
 NjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OC
 wtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1
