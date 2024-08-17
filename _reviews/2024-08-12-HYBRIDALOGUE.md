@@ -370,13 +370,13 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 
 ### Limitations
 
-이번 연구는 표의 구조와 지식 패턴이 비교적 간단한 엔티티 테이블에 초점을 맞췄다. 그러나 제안된 템플릿 기술은 참일 수도 있고 거짓일 수도 있는, 즉 중립적인 진술을 생성하지 않는다. 이러한 중립 진술을 생성하려면 향상된 상식(예: 주관적 사용)과 전제 테이블에 명시되지 않은 엔티티 지식이 필요하다. 현재는 전문가의 도메인 지식을 활용하지 않고 신경망 생성 방법을 통해 좋은 템플릿을 자동으로 생성하는 방법이 알려지지 않았다. 또한, 더 복잡한 중첩 및 계층적 테이블에 이러한 수작업으로 만들어진 템플릿이 어떻게 적용되는지도 충분히 탐구되지 않았습니다. 이론적으로는 무한히 많은 전제-가설 쌍을 생성할 수 있지만, 이러한 방식이 실제로 도움이 되는지는 불확실합니다. 또한, 도메인 외 테이블에 대한 제로샷(zero-shot) 성능은 유사한 카테고리의 테이블들이 키를 공유한다는 가정에 의해 제한될 수 있습니다.
+이번 연구는 표의 구조와 지식 패턴이 비교적 간단한 엔티티 테이블에 초점을 맞췄다. 그러나 제안된 템플릿 기술은 참일 수도 있고 거짓일 수도 있는, 즉 중립적인 진술을 생성하지 않는다. 이러한 중립 진술을 생성하려면 향상된 상식(예: 주관적 사용)과 전제 테이블에 명시되지 않은 엔티티 지식이 필요하다. 현재는 전문가의 도메인 지식을 활용하지 않고 신경망 생성 방법을 통해 좋은 템플릿을 자동으로 생성하는 방법이 알려지지 않았다. 또한, 더 복잡한 중첩 및 계층적 테이블에 이러한 수작업으로 만들어진 템플릿이 어떻게 적용되는지도 충분히 탐구되지 않았다. 이론적으로는 무한히 많은 전제-가설 쌍을 생성할 수 있지만, 이러한 방식이 실제로 도움이 되는지는 불확실하다. 또한, 도메인 외 테이블에 대한 제로샷(zero-shot) 성능은 유사한 카테고리의 테이블들이 키를 공유한다는 가정에 의해 제한될 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzEwMzg1MywyMTQzODkxODk2LDg1OT
-I5NDk4MSwyNTk4MTA5MCwxNjY2MTIwNjY3LC05OTYzNDQ4MDcs
-MTMwMjc5MzAsMTEzMjkzNDQ2MSwtMjAzMTYxNDUxOSwtMTQ2Nz
-kzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIzNzQw
-NzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Miw0MD
-k2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQx
-NzAzXX0=
+eyJoaXN0b3J5IjpbLTIxMjc3NjcwOTQsMjE0Mzg5MTg5Niw4NT
+kyOTQ5ODEsMjU5ODEwOTAsMTY2NjEyMDY2NywtOTk2MzQ0ODA3
+LDEzMDI3OTMwLDExMzI5MzQ0NjEsLTIwMzE2MTQ1MTksLTE0Nj
+c5Mzk4MjAsLTE0MDAwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0
+MDcxLC0zNDA2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsND
+A5NjgwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0
+MTcwM119
 -->
