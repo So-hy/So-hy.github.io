@@ -157,11 +157,15 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 자연스러운 질문 흐름과 적절한 난이도를 유지하기 위해, 각 턴에서 사용할 수 있는 참조 풀(RPi)은 이전 턴에서 선택된 참조(Ri−1)에 따라 제한된다. 예를 들어, 첫 번째 턴에서는 도입 단락(intro paragraph)이나 전체 표와 같은 참조만 선택할 수 있다. (참조 범위가 점점 줄어들도록..) 아래의 그림은 참조 후보가 어떻게 참조 풀에 추가되는지를 보여준다.
 
 
+![Screenshot 2024-08-18 at 3 18 53 AM](https://github.com/user-attachments/assets/7f97117f-3f9d-4ce9-8c9e-d9c4e6cdd975){: .responsive-img .align-center}
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTMxMzQyNzQsLTE5MDEwMjM4NzMsMT
-M1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0
-MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5NzEyOTQxNz
-gsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LDE2NTMzMjM0MjMsNzUx
-NTk3MDAxLDY2NTI1NjM4OSwyMzAzOTM3MSwtMzUxMzA4Mzk5LC
-02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbNTY1OTc4MjEwLC0xOTAxMDIzODczLDEzNT
+I0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2
+NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC
+0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5
+NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNj
+Q5ODMwMjczXX0=
 -->
