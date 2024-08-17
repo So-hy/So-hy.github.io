@@ -373,13 +373,13 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 ### Limited INFOTABS Supervision (RQ2b)
 
 
-"**Limited INFOTABS Supervision (RQ2b)**" 부분에서는 제한된 INFOTABS 감독 하에서 AUTO-TNLI 데이터셋을 데이터 증강으로 사용하여 모델 성능을 향상시키는 효과를 분석합니다. 이 실험은 INFOTABS 데이터셋의 전체가 아닌 일부만을 사용하여 모델을 학습시키고, AUTO-TNLI 데이터를 추가하여 성능을 개선할 수 있는지를 탐구합니다.
+"**Limited INFOTABS Supervision (RQ2b)**" 부분에서는 제한된 INFOTABS 감독 하에서 AUTO-TNLI 데이터셋을 데이터 증강으로 사용하여 모델 성능을 향상시키는 효과를 분석한다. 이 실험은 INFOTABS 데이터셋의 전체가 아닌 일부만을 사용하여 모델을 학습시키고, AUTO-TNLI 데이터를 추가하여 성능을 개선할 수 있는지를 탐구합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk1NDI0MjUyLC0yMDMxNjE0NTE5LC0xND
-Y3OTM5ODIwLC0xNDAwMDEwMjQwLDEyOTgxODk3MjYsLTQwMjM3
-NDA3MSwtMzQwNjQ4NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLD
-QwOTY4MDg4OCwtMTU4OTQzODkyMSwxMzA4NDA1NDQ0LDE3Njkz
-NDE3MDMsLTExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMTkxNzg0Mj
-czNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAs
-ODA2OTM2NjIzXX0=
+eyJoaXN0b3J5IjpbLTIxMjA1MjE0ODUsLTIwMzE2MTQ1MTksLT
+E0Njc5Mzk4MjAsLTE0MDAwMTAyNDAsMTI5ODE4OTcyNiwtNDAy
+Mzc0MDcxLC0zNDA2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzOD
+IsNDA5NjgwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2
+OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3OD
+QyNzM1LC0yNDEzODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3
+MCw4MDY5MzY2MjNdfQ==
 -->
