@@ -147,13 +147,13 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 
-각 턴에서 작업자는 $Q_i$ (질문)에 대한 응답을 만들기 위해 $A_i$ (응답)를 생성하고, 이를 뒷받침할 수 있는 적절한 $R_i$ (참조)를 선택합니다.
+각 턴에서 작업자는 $Q_i$ (질문)에 대한 응답을 만들기 위해 $A_i$ (응답)를 생성하고, 이를 뒷받침할 수 있는 적절한 $R_i$ (참조)를 선택한다.
 
 •  **참조 유형**: 참조는 다양한 형태로 나타날 수 있으며, 질문의 성격에 따라 적합한 참조가 다를 수 있습니다.
 
 •  예를 들어, “Steve의 업적 목록이 있나요?“라는 질문에는 표 전체(Table)를 참조로 사용해야 합니다. 반면, “그가 그랑프리 이벤트에 참가한 적이 있나요?“라는 질문은 표의 특정 행(Row)을 참조로 해야 할 것입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0Mzc4NjYwNCwtMTkwMTAyMzg3MywxMz
+eyJoaXN0b3J5IjpbMTg5NzE1NTQyOSwtMTkwMTAyMzg3MywxMz
 UyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQz
 NjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OC
 wtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1
