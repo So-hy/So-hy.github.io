@@ -41,9 +41,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 {: .responsive-img .align-center}
 
 
-위 그림은 논문에서 제안하는 프레임워크의 구조를 보여준다. 
+위 그림은 논문에서 제안하는 HYBRIDIALOGUE 데이터셋의 샘플을 보여준다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NDkwMzExMCw2NjUyNTYzODksMjMwMz
-kzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbNzUxNTk3MDAxLDY2NTI1NjM4OSwyMzAzOT
+M3MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
 -->
