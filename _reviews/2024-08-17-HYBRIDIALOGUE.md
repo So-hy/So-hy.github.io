@@ -59,7 +59,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 -   **OTT-QA**와 **HybridQA**: 복잡한 다중 홉 질문(multi-hop questions)을 포함하며, 답변이 텍스트와 표 형식으로 나타남
 -   **TriviaQA, HotPotQA, Natural Questions**: 오픈 도메인 QA를 대상으로 하는 데이터셋들로, 각각 특정 주제나 엔티티에 대한 단일 턴 질문 응답을 다룸.
 
-이들 QA 데이터셋은 단일 질문과 응답에 중점을 두지만, 대화 설정에서는 더 복잡한 도전 과제들이 제기된다. 대화 맥락을 이해하고, 추론하며, 자연스러운 대화를 생성해야 하는 과제가 있습니다.
+이들 QA 데이터셋은 단일 질문과 응답에 중점을 두지만, 대화 설정에서는 더 복잡한 도전 과제들이 제기된다. 대화 맥락을 이해하고, 추론하며, 자연스러운 대화를 생성해야 하는 과제가 있다.
 
 ### 2. 대화 기반 질문 응답(Conversational Question-Answering)
 
@@ -87,7 +87,8 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     
     HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOT
-k2NjI1MDQ2LDE2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4
-OSwyMzAzOTM3MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbMTk1NzQ2NDE3LC0xOTcxMjk0MTc4LC0xND
+U2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAw
+MSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNjQ5OD
+MwMjczXX0=
 -->
