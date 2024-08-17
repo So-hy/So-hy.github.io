@@ -287,7 +287,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **α3**: 제로샷(zero-shot) 테스트 분할로, 훈련 데이터와 겹치지 않는 도메인에서 온 데이터로 구성된다. 이 테스트를 더 잘 처리하기 위해, AUTO-TNLI에 반사실 테이블과 가설을 포함시켰다.
 
 
-이렇게 분할된 데이터를 활용하여 실험을 진행한 후, 두 가지 감독 시나리오에서 추가 실험을 수행하였다.
+이렇게 분할된 데이터를 활용하여 아래의 두 가지 감독 시나리오에서 실험을 수행하였다.
 
 -   **a. 완전 감독 (Complete Supervision)**: INFOTABS 데이터셋의 전체 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
 -   **b. 제한된 감독 (Limited Supervision)**: 0% (파인튜닝 없음), 5%, 15%, 25%의 INFOTABS 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
@@ -417,7 +417,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODA3NzAwMywxMzAyNzkzMCwxMTMyOT
+eyJoaXN0b3J5IjpbLTMxNjA3MDU1NCwxMzAyNzkzMCwxMTMyOT
 M0NDYxLC0yMDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEw
 MjQwLDEyOTgxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LD
 g4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQz
