@@ -19,7 +19,8 @@ date: 2024-08-17
 
 하지만, 현재 존재하는 여러 데이터셋들은 대화 시스템을 위한 것으로, 텍스트 전용 또는 표 전용 정보 소스에만 국한되어 있다. 이로 인해, 텍스트와 표를 결합하여 다뤄야 하는 상황에서 현재의 대화 시스템은 적절한 응답을 생성하는 데 어려움을 겪을 수 있다.
 
+이러한 점에 의거해 한계를 극복하기 위하여 해당 논문에서는 HYBRIDIALOGUE라는 새로운 데이터셋을 개발했다. 이 데이터셋은 표와 텍스트 형식의 구조적이고 비구조적인 지식에 기반한 정보 탐색 대화 데이터셋이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NTU1OTk4NSw2NjUyNTYzODksMjMwMz
-kzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbLTE0ODQ2MjAwNDMsNjY1MjU2Mzg5LDIzMD
+M5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 -->
