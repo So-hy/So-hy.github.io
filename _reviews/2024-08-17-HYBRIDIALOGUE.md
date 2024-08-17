@@ -63,7 +63,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 ### 2. 대화 기반 질문 응답(Conversational Question-Answering)
 
--   **대화형 질문 응답** 데이터셋들은 질문과 응답 쌍이 대화 구조 내에 포함되어 있습니다.
+-   **대화형 질문 응답** 데이터셋들은 질문과 응답 쌍이 대화 구조 내에 포함되어 있다.
     
     -   **CoQA**와 **DoQA**: Wikipedia 페이지나 FAQ 쌍과 같은 지식을 기반으로 대화를 구성합니다.
     -   **ShARC**: 사용자의 배경을 이해하기 위해 후속 질문을 제시하는 분해 전략을 사용합니다. 그러나 이 데이터셋은 규칙 기반 추론과 '예' 또는 '아니오' 유형의 응답에 제한됩니다.
@@ -87,8 +87,8 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     
     HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NzQ2NDE3LC0xOTcxMjk0MTc4LC0xND
-U2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAw
-MSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNjQ5OD
-MwMjczXX0=
+eyJoaXN0b3J5IjpbMjAxNDI4MzE5OCwtMTk3MTI5NDE3OCwtMT
+Q1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1OTcw
+MDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OT
+gzMDI3M119
 -->
