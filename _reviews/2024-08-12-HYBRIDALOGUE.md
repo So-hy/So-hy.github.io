@@ -305,24 +305,27 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
     -   **α2 테스트셋**: 여기서는 성능 향상이 미미했다.
     -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 0.6%, 2.0%, 0.45%의 추가 성능 향상이 있었다.
 
+
 2.  **MNLI로 사전 훈련 후 INFOTABS로 1단계 학습**:
     
-    -   **α1 및 α3 테스트셋**: 직접 AUTO-TNLI 데이터 증강을 사용했을 때, 각각 1.60%와 0.67%의 성능 향상이 있었습니다.
-    -   **α2 테스트셋**: 여기서도 성능 향상이 미미했습니다.
-    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 1.44%, 1.94%, 0.83%의 성능 향상이 있었습니다.
+    -   **α1 및 α3 테스트셋**: 직접 AUTO-TNLI 데이터 증강을 사용했을 때, 각각 1.60%와 0.67%의 성능 향상이 있었다.
+    -   **α2 테스트셋**: 여기서도 성능 향상이 미미했다.
+    -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 1.44%, 1.94%, 0.83%의 성능 향상이 있었다.
+
+
 3.  **단계별 성능 분석** (Ablation Analysis):
     
-    -   **1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었습니다.
+    -   **1단계 성능**: MNLI 데이터를 데이터 증강으로 추가했을 때, α1, α2, α3 테스트셋에서 각각 1.89%, 2.28%, 2.05%의 성능 향상이 있었다.
 4.  **2단계 성능**:
     
     -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었습니다.
     -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0Njc5Mzk4MjAsLTE0MDAwMTAyNDAsMT
-I5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1MzcsODg2NDUz
-MjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNTg5NDM4OTIxLD
-EzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5
-MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4Nz
-U2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMzgs
-LTE3NzI3MDEwMjVdfQ==
+eyJoaXN0b3J5IjpbLTEwNDY2Mzc1OTQsLTE0Njc5Mzk4MjAsLT
+E0MDAwMTAyNDAsMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2
+NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC
+0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1
+MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEzOD
+I5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2MjMs
+LTEyNDIyMTIyMzhdfQ==
 -->
