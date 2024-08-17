@@ -252,6 +252,11 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
 INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포함하고 있는 반면, AUTO-TNLI 데이터셋은 ENTAIL과 CONTRADICT 라벨만 포함하고 있다. 따라서 연구진은 이 작업을 두 단계의 분류 문제로 설정했다:
 
+
+![스크린샷 2024-08-17 172710](https://github.com/user-attachments/assets/c78668d0-7df1-488c-9191-477c97c62891)
+
+
+
 1.  **첫 번째 단계**: RoBERTaBASE 분류 모델을 사용하여 주어진 가설이 NEUTRAL인지 NON-NEUTRAL(ENTAIL 또는 CONTRADICT)인지 예측한다.
 
 2.  **두 번째 단계**: 첫 번째 단계에서 NON-NEUTRAL로 예측된 경우, 별도의 RoBERTaBASE 모델을 사용해 이를 ENTAIL 또는 CONTRADICT로 세분화한다.
@@ -281,6 +286,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 ### 실험 결과
 
+
+![스크린샷 2024-08-17 172749](https://github.com/user-attachments/assets/38bb010d-7a8f-452a-9c9a-5ae177b5a95e)
+
+
+
 -   **전체 INFOTABS 감독**: AUTO-TNLI를 증강 데이터로 사용하는 경우 α1과 α3 테스트 세트에서 각각 1.6% 및 1.2%의 성능 향상이 있었습니다. 또한, MNLI로 사전 훈련한 후 AUTO-TNLI와 함께 훈련했을 때, α1, α2, α3에서 각각 0.6%, 2.0%, 0.45%의 성능 향상이 있었습니다.
     
 -   **제한된 INFOTABS 감독**: INFOTABS 감독이 제한된 상황에서도 AUTO-TNLI를 증강 데이터로 사용하면 성능이 향상되었습니다. 특히, 낮은 비율(예: 0%, 5%)의 INFOTABS 데이터만 사용할 때 성능 개선이 더 두드러졌습니다. MNLI로 사전 훈련 후 AUTO-TNLI와 함께 훈련한 경우 가장 좋은 성능을 보였습니다.
@@ -290,11 +300,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여줍니다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODg2NDUzMjY1LC00NTk0NTQzODIsNDA5Nj
-gwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcw
-MywtMTE1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC
-0yNDEzODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5
-MzY2MjMsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMz
-A5NDksMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUy
-LC02MDE3ODUwMF19
+eyJoaXN0b3J5IjpbLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OT
+Q1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0
+NCwxNzY5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLT
+E5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0
+NTIxODcwLDgwNjkzNjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMT
+AyNSwtMTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcs
+LTE0MDE4OTY4NTJdfQ==
 -->
