@@ -100,15 +100,28 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 데이터셋을 만들기 위해 기존의 OTT-QA 데이터셋에서 가져온 다중 홉 질문(multi-hop questions)을 기반으로 하였다. 이 질문들은 매우 복잡하며, 단일 질문으로는 대답하기 어렵기 때문에, Amazon Mechanical Turk 플랫폼을 통해 크라우드소싱 작업을 수행했다. 작업자들은 이 복잡한 질문을 더 간단한 중간 질문과 답변으로 분해하여, 영어로 된 대화를 생성하도록 요청받았다. 이는 사용자가 대화 중에 점진적으로 복잡한 질문의 답을 찾아가는 과정처럼 자연스럽게 대화가 이루어지도록 하기 위함이라고 한다. 또한 대화를 일관되게 유지하기 위해, 각 대화의 양쪽(질문자와 응답자)을 동일한 작업자가 맡도록 했다.
-
-왜냐하면만약 두 명의 작업자가 참여할 경우, 한 명이 대화의 흐름을 벗어나거나 다른 방향으로 대화를 이끌 가능성이 있어, 최종적으로 올바른 답에 도달하지 못할 위험이 있다고 판단했습니다.
-
+왜냐하면 만약 두 명의 작업자가 하나의 대화 생성에 참여할 경우, 한 명이 대화의 흐름을 벗어나거나 다른 방향으로 대화를 이끌 가능성이 있어, 최종적으로 올바른 답에 도달하지 못할 위험이 있다고 판단했다고 한다.
 
 
+각 작업자의 지침은 다음과 같다.
+
+•  **최종 질문(Ultimate Question)**:
+
+작업자들은 OTT-QA 데이터셋에서 가져온 다중 홉 질문을 “최종 질문(Ultimate Question)“이라고 부릅니다. 이 질문은 매우 복잡하며, 바로 질문하기에는 너무 어렵습니다.
+
+•  따라서 작업자는 이 복잡한 질문을 더 간단한 질문들의 연속으로 분해해야 하며, 각 질문에 대한 답을 데이터베이스를 사용해 찾게 됩니다. 작업자는 질문자(Seeker)와 전문가(Expert)의 두 역할을 맡아 대화를 진행합니다.
+
+•  **자연스러운 대화 형성**:
+
+•  작업자들은 대화가 자연스럽게 이어지도록 하기 위해, 대화 내 맥락을 이해하는 질문을 하도록 권장되었습니다. 예를 들어, 특정 단어를 반복해서 사용하거나, 앞서 언급된 내용을 기반으로 하는 참조를 통해 대화의 흐름을 유지해야 했습니다.
+
+•  **예시 대화**:
+
+•  Figure 1에서는 실제로 데이터셋에서 사용된 대화의 예시가 나와 있으며, Figure 2에서는 데이터셋 수집 과정의 개요를 보여줍니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzg3NjkxOTMzLDIyNzAwMDEyMCwxMzc1OD
-QzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3
-OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NT
-E1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTks
-LTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNz
+U4NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0
+MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLD
+c1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5
+OSwtNjQ5ODMwMjczXX0=
 -->
