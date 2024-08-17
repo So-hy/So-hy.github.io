@@ -247,7 +247,7 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 ### Using AUTO-TNLI for Data Augmentation
 
 
-여기서는 AUTO-TNLI 데이터셋을 INFOTABS 데이터셋의 증강(augmentation) 데이터로 사용하는 것이 얼마나 효과적인지를 탐구한다. 즉, AUTO-TNLI를 **추가적인 학습 데이터**로 사용하여, 기존 데이터셋을 보완하고 모델의 성능을 향상시키는 데 중점을 둔다. 이 경우, AUTO-TNLI는 모델이 더 잘 일반화할 수 있도록 돕는 도구로 사용된다.
+앞선 파트에서는 MNLI나 INFOTABS 같은 데이터셋에서 학습한 모델이 AUTO-TNLI 데이터셋에서 어떻게 성능이 변하는지를 평가하였다. 즉, AUTO-TNLI 데이터셋이 도전적인 평가 기준으로서 얼마나 효과적인지를 보기 위해 다른 데이터셋과의 조합을 테스트한 것이다. 여기서는 AUTO-TNLI 데이터셋을 INFOTABS 데이터셋의 증강(augmentation) 데이터로 사용하는 것이 얼마나 효과적인지를 탐구한다. 즉, AUTO-TNLI를 **추가적인 학습 데이터**로 사용하여, 기존 데이터셋을 보완하고 모델의 성능을 향상시키는 데 중점을 둔다. 이 경우, AUTO-TNLI는 모델이 더 잘 일반화할 수 있도록 돕는 도구로 사용된다.
 
 
 INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포함하고 있는 반면, AUTO-TNLI 데이터셋은 ENTAIL과 CONTRADICT 라벨만 포함하고 있다. 따라서 연구진은 이 작업을 두 단계의 분류 문제로 설정했다:
@@ -289,11 +289,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여줍니다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1OD
-k0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1
-NzUyLC04MjkxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4Mi
-wtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMywtMTI0
-MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwxNTcwOT
-A3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4NTIsLTYwMTc4NTAw
-LC04NDM2ODg4MjhdfQ==
+eyJoaXN0b3J5IjpbLTIxMzk5OTg1ODEsLTQ1OTQ1NDM4Miw0MD
+k2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQx
+NzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4NDI3Mz
+UsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgw
+NjkzNjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MD
+MzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4
+NTIsLTYwMTc4NTAwXX0=
 -->
