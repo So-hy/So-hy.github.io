@@ -300,8 +300,8 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 1.  **INFOTABS로만 1단계 학습**:
     
-    -   **α1 테스트셋**: AUTO-TNLI로 데이터 증강을 한 경우(Orig + Count), 데이터 증강을 하지 않은 경우(No Aug)에 비해 1.6%의 성능 향상을 보였습니다.
-    -   **α3 테스트셋**: 같은 설정에서 1.2%의 성능 향상이 있었습니다.
+    -   **α1 테스트셋**: AUTO-TNLI로 데이터 증강을 한 경우(Orig + Count), 데이터 증강을 하지 않은 경우(No Aug)에 비해 1.6%의 성능 향상을 보였다.
+    -   **α3 테스트셋**: 같은 설정에서 1.2%의 성능 향상이 있었다.
     -   **α2 테스트셋**: 여기서는 성능 향상이 미미했습니다.
     -   **MNLI로 사전 훈련 후 AUTO-TNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 0.6%, 2.0%, 0.45%의 추가 성능 향상이 있었습니다.
 2.  **MNLI로 사전 훈련 후 INFOTABS로 1단계 학습**:
@@ -317,7 +317,7 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
     -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었습니다.
     -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkwMTM3OTgsLTE0MDAwMTAyNDAsMT
+eyJoaXN0b3J5IjpbLTE0MDE4NzI5NjAsLTE0MDAwMTAyNDAsMT
 I5ODE4OTcyNiwtNDAyMzc0MDcxLC0zNDA2NDg1MzcsODg2NDUz
 MjY1LC00NTk0NTQzODIsNDA5NjgwODg4LC0xNTg5NDM4OTIxLD
 EzMDg0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5
