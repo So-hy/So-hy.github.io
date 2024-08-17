@@ -252,7 +252,8 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 
 INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포함하고 있는 반면, AUTO-TNLI 데이터셋은 ENTAIL과 CONTRADICT 라벨만 포함하고 있다. 따라서 연구진은 이 작업을 두 단계의 분류 문제로 설정했다:
 
-1.  **첫 번째 단계**: RoBERTaBASE 분류 모델을 사용하여 주어진 가설이 NEUTRAL인지 NON-NEUTRAL(ENTAIL 또는 CONTRADICT)인지 예측합니다.
+1.  **첫 번째 단계**: RoBERTaBASE 분류 모델을 사용하여 주어진 가설이 NEUTRAL인지 NON-NEUTRAL(ENTAIL 또는 CONTRADICT)인지 예측한다.
+
 2.  **두 번째 단계**: 첫 번째 단계에서 NON-NEUTRAL로 예측된 경우, 별도의 RoBERTaBASE 모델을 사용해 이를 ENTAIL 또는 CONTRADICT로 세분화합니다.
 
 ### 비교 모델
@@ -289,11 +290,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여줍니다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있습니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzk5OTg1ODEsLTQ1OTQ1NDM4Miw0MD
-k2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQx
-NzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4NDI3Mz
-UsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgw
-NjkzNjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MD
-MzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MDE4OTY4
-NTIsLTYwMTc4NTAwXX0=
+eyJoaXN0b3J5IjpbMTM2NjUzNTU0LC00NTk0NTQzODIsNDA5Nj
+gwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcw
+MywtMTE1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC
+0yNDEzODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5
+MzY2MjMsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMz
+A5NDksMTU3MDkwNzYzNCwxNjAwMDM0MjI3LC0xNDAxODk2ODUy
+LC02MDE3ODUwMF19
 -->
