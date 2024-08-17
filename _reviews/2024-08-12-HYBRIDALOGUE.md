@@ -288,8 +288,8 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 ### 4. **감독 시나리오 (Supervision Scenarios)**
 
--   **a. 완전 감독 (Complete Supervision)**: INFOTABS 데이터셋의 전체 학습 데이터를 사용하여 최종 파인튜닝을 수행합니다.
--   **b. 제한된 감독 (Limited Supervision)**: 0% (파인튜닝 없음), 5%, 15%, 25%의 INFOTABS 학습 데이터를 사용하여 최종 파인튜닝을 수행합니다.
+-   **a. 완전 감독 (Complete Supervision)**: INFOTABS 데이터셋의 전체 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
+-   **b. 제한된 감독 (Limited Supervision)**: 0% (파인튜닝 없음), 5%, 15%, 25%의 INFOTABS 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
 
 
 
@@ -306,11 +306,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여준다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODE4OTcyNiwtNDAyMzc0MDcxLC0zND
-A2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4
-LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMT
-E1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEz
-ODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2Mj
-MsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDks
-MTU3MDkwNzYzNF19
+eyJoaXN0b3J5IjpbLTE0MDAwMTAyNDAsMTI5ODE4OTcyNiwtND
+AyMzc0MDcxLC0zNDA2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQz
+ODIsNDA5NjgwODg4LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMT
+c2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3
+ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMT
+g3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUs
+LTE2ODAzMzA5NDldfQ==
 -->
