@@ -107,9 +107,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  **최종 질문(Ultimate Question)**:
 
-작업자들은 OTT-QA 데이터셋에서 가져온 다중 홉 질문을 “최종 질문(Ultimate Question)“이라고 부릅니다. 이 질문은 매우 복잡하며, 바로 질문하기에는 너무 어렵습니다.
+작업자들은 OTT-QA 데이터셋에서 가져온 다중 홉 질문을 “최종 질문(Ultimate Question)“이라고 부른다. 이 질문은 매우 복잡하며, 바로 질문하기에는 너무 어렵다고 한다.
 
-•  따라서 작업자는 이 복잡한 질문을 더 간단한 질문들의 연속으로 분해해야 하며, 각 질문에 대한 답을 데이터베이스를 사용해 찾게 됩니다. 작업자는 질문자(Seeker)와 전문가(Expert)의 두 역할을 맡아 대화를 진행합니다.
+•  따라서 작업자는 이 복잡한 질문을 더 간단한 질문들의 연속으로 분해해야 하며, 각 질문에 대한 답을 데이터베이스를 사용해 찾게 된다. 작업자는 질문자(Seeker)와 전문가(Expert)의 두 역할을 맡아 대화를 진행한다.
 
 •  **자연스러운 대화 형성**:
 
@@ -119,9 +119,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  Figure 1에서는 실제로 데이터셋에서 사용된 대화의 예시가 나와 있으며, Figure 2에서는 데이터셋 수집 과정의 개요를 보여줍니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNz
-U4NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0
-MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLD
-c1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5
-OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbNDg4MTUxMTM4LC0xMzk5MDIyOTQwLDIyNz
+AwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1
+MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMT
+Y1MzMyMzQyMyw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5Mzcx
+LC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 -->
