@@ -72,7 +72,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 -   **ShARC**: 사용자의 배경을 이해하기 위해 후속 질문을 제시하는 분해 전략을 사용한다. 그러나 이 데이터셋은 규칙 기반 추론과 '예' 또는 '아니오' 유형의 응답에 제한된다.
 -   **SQA**: WikiTable 질문을 분해하여 각 분해된 응답이 표의 셀이나 열과 관련된 탭 형식 데이터셋이다. 이들 데이터셋에서는 정보가 단일 형식(텍스트 또는 표)에만 국한된다.
 
-**HYBRIDIALOGUE** 데이터셋은 이러한 기존 데이터셋과 비교하여 더 도전적인 환경을 제시한다. HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트를 결합하여 대화 질문에 대한 합리적인 답변을 제공해야 합니다. 또한, 기존 데이터셋들이 대화 구조 내에서 샘플을 제공하더라도, 그 응답이 간단하고 짧게 구성되는 반면, HYBRIDIALOGUE는 자연스러운 대화를 모델링하며, 사람들이 첫 질문에 대한 답변 이후에 추가 질문을 하고자 하는 실제 상황을 반영합니다.
+
+
+**HYBRIDIALOGUE** 데이터셋은 이러한 기존 데이터셋과 비교하여 더 도전적인 환경을 제시한다. HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트를 결합하여 대화 질문에 대한 합리적인 답변을 제공한다. 또한, 기존 데이터셋들이 대화 구조 내에서 샘플을 제공하더라도, 그 응답이 간단하고 짧게 구성되는 반면, HYBRIDIALOGUE는 자연스러운 대화를 모델링하며, 사람들이 첫 질문에 대한 답변 이후에 추가 질문을 하고자 하는 실제 상황을 반영한다.
 
 
 ### 4. 대화 생성(Dialogue Generation)
@@ -91,8 +93,8 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0NjQ1NTAsMTk1MDQ1NDQ1MCwtMTk3MT
-I5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQy
-Myw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNTEzMD
-gzOTksLTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbLTc5ODU5MzQyMCwxOTUwNDU0NDUwLC0xOT
+cxMjk0MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIz
+NDIzLDc1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MT
+MwODM5OSwtNjQ5ODMwMjczXX0=
 -->
