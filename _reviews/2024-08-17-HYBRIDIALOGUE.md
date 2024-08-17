@@ -83,7 +83,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     
     -   **Ghazvininejad et al. (2018)**, **Zhou et al. (2018a)**: Twitter나 Reddit에서 수집된 대화 데이터를 사용하며, Freebase나 ConceptNet과 같은 외부 지식 그래프에 의존한다.
     -   **OpenDialKG, DuConv, DyKGChat, KdConv**: 특정 외부 지식 그래프와 명시적으로 연관된 대화를 수집한다.
-    -   **KVRET, MultiWOZ**: 사용자가 특정 작업을 완료할 수 있도록 도와주는 테이블 기반의 대화 시스템입니다.
+    -   **KVRET, MultiWOZ**: 사용자가 특정 작업을 완료할 수 있도록 도와주는 테이블 기반의 대화 시스템이다.
     
     **비구조화된 지식**에 기반한 대화 데이터셋들도 있습니다.
     
@@ -93,8 +93,8 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
     HYBRIDIALOGUE는 **WoW**와 **Topical-Chat**과 유사하게 비대칭 정보(한 참가자가 다른 참가자보다 더 많은 정보를 가지고 있는 상황) 간의 대화를 다룹니다. 그러나 HYBRIDIALOGUE는 구조화된 표와 비구조화된 텍스트 기반의 정보 탐색 대화에 중점을 두고 있으며, 이러한 다양한 정보 형식을 통합하고 이를 기반으로 추론할 수 있는 능력이 필요합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczODc0ODk1MiwxOTUwNDU0NDUwLC0xOT
-cxMjk0MTc4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIz
-NDIzLDc1MTU5NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MT
-MwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbLTE5NTczNzgwNzksMTk1MDQ1NDQ1MCwtMT
+k3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMy
+MzQyMyw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNT
+EzMDgzOTksLTY0OTgzMDI3M119
 -->
