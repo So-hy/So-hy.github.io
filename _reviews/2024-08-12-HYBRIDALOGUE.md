@@ -279,13 +279,14 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 
 
--   INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스트 세트는 다음과 같은 세 가지 분할로 구성된다:
 
-    -   **α1**: 표준 테스트 분할.
-    -   **α2**: 적대적(adversarial) 테스트 분할. 예를 들어, 가설이 "Janet Leigh was born before 1940"이라고 할 때, α2에서는 이를 "Janet Leigh was born after 1940"으로 변형하여 CONTRADICT 라벨로 설정한다.
-    -   **α3**: 제로샷(zero-shot) 테스트 분할로, 훈련 데이터와 겹치지 않는 도메인에서 온 데이터로 구성된다. 이 테스트를 더 잘 처리하기 위해, AUTO-TNLI에 반사실 테이블과 가설을 포함시켰다.
+INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스트 세트는 다음과 같은 세 가지 분할로 구성된다:
 
-### 4. **감독 시나리오 (Supervision Scenarios)**
+-   **α1**: 표준 테스트 분할.
+-   **α2**: 적대적(adversarial) 테스트 분할. 예를 들어, 가설이 "Janet Leigh was born before 1940"이라고 할 때, α2에서는 이를 "Janet Leigh was born after 1940"으로 변형하여 CONTRADICT 라벨로 설정한다.
+-   **α3**: 제로샷(zero-shot) 테스트 분할로, 훈련 데이터와 겹치지 않는 도메인에서 온 데이터로 구성된다. 이 테스트를 더 잘 처리하기 위해, AUTO-TNLI에 반사실 테이블과 가설을 포함시켰다.
+
+두 가지 형태로 실험을 진행한다.
 
 -   **a. 완전 감독 (Complete Supervision)**: INFOTABS 데이터셋의 전체 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
 -   **b. 제한된 감독 (Limited Supervision)**: 0% (파인튜닝 없음), 5%, 15%, 25%의 INFOTABS 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
@@ -412,8 +413,9 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 -   **데이터 증강 효과**: INFOTABS 데이터셋의 사용 비율이 낮을수록(예: 0%, 5%) AUTO-TNLI를 사용한 데이터 증강의 효과가 더 크게 나타났습니다. 즉, 감독이 제한된 상황에서 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 유익하다는 것을 알 수 있습니다.
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzg3MDcxMjYsMTEzMjkzNDQ2MSwtMj
+eyJoaXN0b3J5IjpbLTExMzM2MzUxMDIsMTEzMjkzNDQ2MSwtMj
 AzMTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4
 MTg5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNj
 UsLTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMw
