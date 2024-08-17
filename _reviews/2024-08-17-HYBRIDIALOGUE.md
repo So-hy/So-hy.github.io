@@ -154,12 +154,12 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
  예를 들어, “Steve의 업적 목록이 있나요?“라는 질문에는 표 전체(Table)를 참조로 사용해야 한다. 반면, “그가 그랑프리 이벤트에 참가한 적이 있나요?“라는 질문은 표의 특정 행(Row)을 참조로 해야 할 것이다.
 
 
-자연스러운 질문 흐름과 적절한 난이도를 유지하기 위해, 각 턴에서 사용할 수 있는 참조 풀(RPi)은 이전 턴에서 선택된 참조(Ri−1)에 따라 제한된다. 예를 들어, 첫 번째 턴에서는 도입 단락(intro paragraph)이나 전체 표와 같은 참조만 선택할 수 있습니다.
+자연스러운 질문 흐름과 적절한 난이도를 유지하기 위해, 각 턴에서 사용할 수 있는 참조 풀(RPi)은 이전 턴에서 선택된 참조(Ri−1)에 따라 제한된다. 예를 들어, 첫 번째 턴에서는 도입 단락(intro paragraph)이나 전체 표와 같은 참조만 선택할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjMzODI3MDg0LC0xOTAxMDIzODczLDEzNT
-I0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2
-NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC
-0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5
-NzAwMSw2NjUyNTYzODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNj
-Q5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbLTE3MDMzMzIxMjksLTE5MDEwMjM4NzMsMT
+M1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0
+MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5NzEyOTQxNz
+gsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LDE2NTMzMjM0MjMsNzUx
+NTk3MDAxLDY2NTI1NjM4OSwyMzAzOTM3MSwtMzUxMzA4Mzk5LC
+02NDk4MzAyNzNdfQ==
 -->
