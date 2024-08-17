@@ -322,10 +322,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었다.
 -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었다.
 
+### Complete INFOTABS Supervision (RQ2a)
 
 "**Complete INFOTABS Supervision (RQ2a)**" 부분에서는 AUTO-TNLI 데이터셋을 사용하여 INFOTABS 데이터셋의 성능을 향상시키기 위한 실험을 다룬다. 이 실험에서는 INFOTABS 데이터셋 전체를 사용하여 모델을 학습시키고, 그 후 AUTO-TNLI 데이터셋을 데이터 증강(data augmentation)으로 활용하여 성능을 비교한다.
 
-### 실험 설정
+#### 실험 설정
 
 -   **두 단계 분류**:
     
@@ -341,7 +342,7 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
         -   **MNLI + Orig + Count**: 반사실 테이블을 포함한 MNLI와 AUTO-TNLI.
         -   **No Aug**: 추가적인 데이터 증강 없이 INFOTABS만 사용.
 
-### 실험 결과 및 분석
+#### 실험 결과 및 분석
 
 1.  **INFOTABS로만 1단계 학습**:
     
@@ -362,20 +363,23 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
     -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었습니다.
     -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었습니다.
 
-### 결론
+#### 결론
 
 -   **AUTO-TNLI 데이터 증강**: 전반적으로 AUTO-TNLI 데이터셋을 사용한 데이터 증강이 INFOTABS만을 사용했을 때보다 성능을 향상시키는 것으로 나타났다.
 -   **MNLI로 사전 훈련**: MNLI로 사전 훈련한 후 AUTO-TNLI와 INFOTABS를 사용한 경우, 가장 높은 성능 향상을 보였다.
 -   **적대적 테스트셋(α2)에 대한 성능 향상**: α2 테스트셋에서는 성능 향상이 상대적으로 적었지만, 전반적인 성능은 여전히 개선되었다.
 
 
+### Limited INFOTABS Supervision (RQ2b)
 
+
+"**Limited INFOTABS Supervision (RQ2b)**" 부분에서는 제한된 INFOTABS 감독 하에서 AUTO-TNLI 데이터셋을 데이터 증강으로 사용하여 모델 성능을 향상시키는 효과를 분석합니다. 이 실험은 INFOTABS 데이터셋의 전체가 아닌 일부만을 사용하여 모델을 학습시키고, AUTO-TNLI 데이터를 추가하여 성능을 개선할 수 있는지를 탐구합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4MzIyNzY3MCwtMjAzMTYxNDUxOSwtMT
-Q2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIz
-NzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Mi
-w0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5
-MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4ND
-I3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcw
-LDgwNjkzNjYyM119
+eyJoaXN0b3J5IjpbOTk1NDI0MjUyLC0yMDMxNjE0NTE5LC0xND
+Y3OTM5ODIwLC0xNDAwMDEwMjQwLDEyOTgxODk3MjYsLTQwMjM3
+NDA3MSwtMzQwNjQ4NTM3LDg4NjQ1MzI2NSwtNDU5NDU0MzgyLD
+QwOTY4MDg4OCwtMTU4OTQzODkyMSwxMzA4NDA1NDQ0LDE3Njkz
+NDE3MDMsLTExNTI0NTU3NTIsLTgyOTE0MTU1OSwtMTkxNzg0Mj
+czNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAsLTE0NTQ1MjE4NzAs
+ODA2OTM2NjIzXX0=
 -->
