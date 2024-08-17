@@ -24,7 +24,11 @@ date: 2024-08-17
 HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적인 다중 홉 질문(multi-hop questions)을 보다 현실적인 중간 질문들로 분해하여 대화 형식으로 변환했다. 이 과정에서 자연스럽고 유동적인 대화 구조로 작성된 대화들을 포함하고 있다고 한다.
 
 
+### Contribution
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzMjM5NjY4LDY2NTI1NjM4OSwyMzAzOT
-M3MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbMTA3NDQ3MjIyMyw2NjUyNTYzODksMjMwMz
+kzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
 -->
