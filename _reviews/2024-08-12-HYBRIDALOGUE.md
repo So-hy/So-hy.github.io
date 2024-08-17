@@ -278,7 +278,6 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
     -   **e. No Aug**: 추가적인 데이터 증강 없이 INFOTABS만 사용.
 
 
-### 3. **평가 세트**
 
 -   INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스트 세트는 다음과 같은 세 가지 분할로 구성된다:
 
@@ -414,11 +413,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 -   **데이터 증강 효과**: INFOTABS 데이터셋의 사용 비율이 낮을수록(예: 0%, 5%) AUTO-TNLI를 사용한 데이터 증강의 효과가 더 크게 나타났습니다. 즉, 감독이 제한된 상황에서 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 유익하다는 것을 알 수 있습니다.
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMjkzNDQ2MSwtMjAzMTYxNDUxOSwtMT
-Q2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4MTg5NzI2LC00MDIz
-NzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Mi
-w0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5
-MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4ND
-I3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcw
-LDgwNjkzNjYyM119
+eyJoaXN0b3J5IjpbLTExMzg3MDcxMjYsMTEzMjkzNDQ2MSwtMj
+AzMTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4
+MTg5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNj
+UsLTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMw
+ODQwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxND
+E1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYw
+LC0xNDU0NTIxODcwXX0=
 -->
