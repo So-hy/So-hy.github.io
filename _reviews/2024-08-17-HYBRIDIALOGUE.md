@@ -165,14 +165,32 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 ### 3. Validation
 
 
+1. **초기 필터링**:
 
+•  작업자가 지침을 전혀 따르지 않거나, 대화의 품질이 낮은 경우 해당 작업을 거부했습니다. 예를 들어, 작업자가 관련 없는 텍스트를 복사하여 붙여넣었거나, 동일한 질문을 여러 번 반복했거나, 대화 전체에서 관련 없는 참조를 사용한 경우가 이에 해당합니다. 이런 경우에는 작업을 자동으로 거부했습니다.
+
+•  작업자들은 대화 하나당 평균 $1.1를 지급받았으며, 대화 하나를 완료하는 데 평균 5분이 걸렸습니다. 이는 시간당 약 $13.2의 임금에 해당합니다.
+
+•  일관되게 높은 품질의 결과를 제출한 작업자에게는 보너스를 지급하기도 했습니다.
+
+2. **최종 데이터셋 구축**:
+
+•  위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했습니다. 이 데이터셋의 통계 정보는 논문의 표 2에 제시되어 있습니다.
+
+3. **추가 필터링**:
+
+•  데이터셋 품질을 더욱 높이기 위해 추가적인 필터링을 수행했습니다. OTT-QA 데이터셋에서 얻은 정답(gold answers)을 사용하여, 작업자가 제출한 대화에서 최종 정답이 하위 문자열(substring)으로 나타나는지 확인했습니다. 만약 정답이 포함되어 있다면, 해당 대화를 자동으로 승인했습니다.
+
+•  나머지 대화에 대해서는 수동으로 검토했습니다. 만약 대화의 답변이 정답과 일치하지만 다른 형식(예: “September 1, 2021” 대신 “9/1/21”)으로 되어 있더라도 정확한 내용이라면 이를 승인했습니다.
+
+•  일부 경우에는 작업자가 자체적으로 질문을 분해하거나 최종 질문과 분해 과정을 만들어냈는데, 이러한 경우 최종 정답을 제공하지 않았더라도 대화가 정확하고 품질이 좋다면 이를 승인했습니다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4NTI1NzU1LDE2MzY4NTQ4NDYsLTE5MD
-EwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAx
-MjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLT
-E5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LDE2NTMz
-MjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwyMzAzOTM3MSwtMz
-UxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbLTEyNjcwOTY0MTQsMTYzNjg1NDg0NiwtMT
+kwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAw
+MDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MC
+wtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1
+MzMyMzQyMyw3NTE1OTcwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC
+0zNTEzMDgzOTksLTY0OTgzMDI3M119
 -->
