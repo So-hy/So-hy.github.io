@@ -247,13 +247,13 @@ RoBERTaBASE와 ALBERTBASE 모델을 사용하여 실험을 수행했다. 실험�
 ### Using AUTO-TNLI for Data Augmentation
 
 
-여기서는 AUTO-TNLI 데이터셋을 INFOTABS 데이터셋의 증강(augmentation) 데이터로 사용하는 것이 얼마나 효과적인지를 탐구한다. 
+여기서는 AUTO-TNLI 데이터셋을 INFOTABS 데이터셋의 증강(augmentation) 데이터로 사용하는 것이 얼마나 효과적인지를 탐구한다. 즉, AUTO-TNLI를 **추가적인 학습 데이터**로 사용하여, 기존 데이터셋을 보완하고 모델의 성능을 향상시키는 데 중점을 둔다. 이 경우, AUTO-TNLI는 모델이 더 잘 일반화할 수 있도록 돕는 도구로 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNz
-Y5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4
-NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxOD
-cwLDgwNjkzNjYyMywtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwt
-MTY4MDMzMDk0OSwxNTcwOTA3NjM0LDE2MDAwMzQyMjcsLTE0MD
-E4OTY4NTIsLTYwMTc4NTAwLC04NDM2ODg4MjgsLTgxMjMzNjU2
-MCwxNTU4ODE4NzE5XX0=
+eyJoaXN0b3J5IjpbNDA5NjgwODg4LC0xNTg5NDM4OTIxLDEzMD
+g0MDU0NDQsMTc2OTM0MTcwMywtMTE1MjQ1NTc1MiwtODI5MTQx
+NTU5LC0xOTE3ODQyNzM1LC0yNDEzODI5ODIsLTUwNjU4NzU2MC
+wtMTQ1NDUyMTg3MCw4MDY5MzY2MjMsLTEyNDIyMTIyMzgsLTE3
+NzI3MDEwMjUsLTE2ODAzMzA5NDksMTU3MDkwNzYzNCwxNjAwMD
+M0MjI3LC0xNDAxODk2ODUyLC02MDE3ODUwMCwtODQzNjg4ODI4
+LC04MTIzMzY1NjBdfQ==
 -->
