@@ -26,11 +26,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 ### Contribution
 
--   이 논문에서는 4800개 이상의 대화 샘플로 구성된 새로운 대화 데이터셋을 제시하며, 이 데이터셋은 표와 텍스트를 결합하여 추론할 수 있는 능력을 요구하ㅣ다.
+-   이 논문에서는 4800개 이상의 대화 샘플로 구성된 새로운 대화 데이터셋을 제시하며, 이 데이터셋은 표와 텍스트를 결합하여 추론할 수 있는 능력을 요구한다.
 -   기존의 복잡한 다중 홉 질문을 보다 현실적인 중간 질문-응답 쌍으로 분해하고, 이를 대화 형식으로 구성했습니다.
 -   또한, 이 데이터셋을 기반으로 정보 검색, 시스템 상태 추적, 대화 생성이라는 세 가지 주요 작업을 제안하며, 이러한 작업에서 현존하는 최첨단 모델의 성능을 개선할 수 있는 기회를 보여줍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDIxMTQ2MSw2NjUyNTYzODksMjMwMz
-kzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbLTE2MTI1ODMwMjYsNjY1MjU2Mzg5LDIzMD
+M5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 -->
