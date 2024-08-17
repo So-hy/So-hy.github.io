@@ -117,11 +117,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  **예시 대화**:
 
-•  Figure 1에서는 실제로 데이터셋에서 사용된 대화의 예시가 나와 있으며, Figure 2에서는 데이터셋 수집 과정의 개요를 보여줍니다.
+•  Figure 1에서는 실제로 데이터셋에서 사용된 대화의 예시가 나와 있으며, Figure 2에서는 데이터셋 수집 과정의 개요를 보여준다다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMj
-cwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0
-NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LD
-E2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwyMzAzOTM3
-MSwtMzUxMzA4Mzk5LC02NDk4MzAyNzNdfQ==
+eyJoaXN0b3J5IjpbNzEwMTgzNDU3LDEzNTI0NTQ4NTgsLTEzOT
+kwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDcz
+NiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LD
+k5NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAwMSw2NjUyNTYz
+ODksMjMwMzkzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
 -->
