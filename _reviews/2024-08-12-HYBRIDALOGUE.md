@@ -323,6 +323,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **α2 및 α3 테스트셋**: 반사실 테이블을 추가했을 때 성능이 각각 2.75% 및 1.42% 향상되었다.
 -   **MNLI로 추가 파인튜닝**: α1, α2, α3 테스트셋에서 각각 5.42%, 3.33%, 2%의 성능 향상이 있었다.
 
+
 ### Complete INFOTABS Supervision (RQ2a)
 
 이 실험에서는 INFOTABS 데이터셋 전체를 사용하여 모델을 학습시키고, 그 후 AUTO-TNLI 데이터셋을 데이터 증강(data augmentation)으로 활용하여 성능을 비교한다.
@@ -416,7 +417,7 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNTkzNzQzNywxMzAyNzkzMCwxMTMyOT
+eyJoaXN0b3J5IjpbMTYxODA3NzAwMywxMzAyNzkzMCwxMTMyOT
 M0NDYxLC0yMDMxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEw
 MjQwLDEyOTgxODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LD
 g4NjQ1MzI2NSwtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQz
