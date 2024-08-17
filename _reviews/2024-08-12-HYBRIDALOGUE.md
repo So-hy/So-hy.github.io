@@ -286,7 +286,8 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **α2**: 적대적(adversarial) 테스트 분할. 예를 들어, 가설이 "Janet Leigh was born before 1940"이라고 할 때, α2에서는 이를 "Janet Leigh was born after 1940"으로 변형하여 CONTRADICT 라벨로 설정한다.
 -   **α3**: 제로샷(zero-shot) 테스트 분할로, 훈련 데이터와 겹치지 않는 도메인에서 온 데이터로 구성된다. 이 테스트를 더 잘 처리하기 위해, AUTO-TNLI에 반사실 테이블과 가설을 포함시켰다.
 
-두 가지 형태로 실험을 진행한다.
+
+이렇게 분할된 데이터를 활용하여 두 가지 관점에서 실행을 진행하였다.
 
 -   **a. 완전 감독 (Complete Supervision)**: INFOTABS 데이터셋의 전체 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
 -   **b. 제한된 감독 (Limited Supervision)**: 0% (파인튜닝 없음), 5%, 15%, 25%의 INFOTABS 학습 데이터를 사용하여 최종 파인튜닝을 수행한다.
@@ -415,11 +416,11 @@ INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스�
 -   **최적의 성능**: MNLI로 사전 훈련을 한 후, AUTO-TNLI와 함께 데이터 증강을 적용했을 때, 모든 설정에서 가장 높은 성능이 기록되었습니다. 이는 MNLI와 AUTO-TNLI를 함께 사용하는 것이 제한된 감독 상황에서도 모델 성능을 극대화하는 데 효과적이라는 것을 보여줍니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzM2MzUxMDIsMTEzMjkzNDQ2MSwtMj
-AzMTYxNDUxOSwtMTQ2NzkzOTgyMCwtMTQwMDAxMDI0MCwxMjk4
-MTg5NzI2LC00MDIzNzQwNzEsLTM0MDY0ODUzNyw4ODY0NTMyNj
-UsLTQ1OTQ1NDM4Miw0MDk2ODA4ODgsLTE1ODk0Mzg5MjEsMTMw
-ODQwNTQ0NCwxNzY5MzQxNzAzLC0xMTUyNDU1NzUyLC04MjkxND
-E1NTksLTE5MTc4NDI3MzUsLTI0MTM4Mjk4MiwtNTA2NTg3NTYw
-LC0xNDU0NTIxODcwXX0=
+eyJoaXN0b3J5IjpbMTQ0Mjk4MTk4OCwxMTMyOTM0NDYxLC0yMD
+MxNjE0NTE5LC0xNDY3OTM5ODIwLC0xNDAwMDEwMjQwLDEyOTgx
+ODk3MjYsLTQwMjM3NDA3MSwtMzQwNjQ4NTM3LDg4NjQ1MzI2NS
+wtNDU5NDU0MzgyLDQwOTY4MDg4OCwtMTU4OTQzODkyMSwxMzA4
+NDA1NDQ0LDE3NjkzNDE3MDMsLTExNTI0NTU3NTIsLTgyOTE0MT
+U1OSwtMTkxNzg0MjczNSwtMjQxMzgyOTgyLC01MDY1ODc1NjAs
+LTE0NTQ1MjE4NzBdfQ==
 -->
