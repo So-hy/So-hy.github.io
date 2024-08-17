@@ -281,8 +281,9 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 ### 3. **평가 세트**
 
 -   INFOTABS의 테스트 세트를 사용하여 평가를 수행했다. 이 테스트 세트는 다음과 같은 세 가지 분할로 구성된다:
+
     -   **α1**: 표준 테스트 분할.
-    -   **α2**: 적대적(adversarial) 테스트 분할. 예를 들어, 가설이 "Janet Leigh was born before 1940"이라고 할 때, α2에서는 이를 "Janet Leigh was born after 1940"으로 변형하여 CONTRADICT 라벨로 설정합니다.
+    -   **α2**: 적대적(adversarial) 테스트 분할. 예를 들어, 가설이 "Janet Leigh was born before 1940"이라고 할 때, α2에서는 이를 "Janet Leigh was born after 1940"으로 변형하여 CONTRADICT 라벨로 설정한다.
     -   **α3**: 제로샷(zero-shot) 테스트 분할로, 훈련 데이터와 겹치지 않는 도메인에서 온 데이터로 구성됩니다. 이 테스트를 더 잘 처리하기 위해, AUTO-TNLI에 반사실 테이블과 가설을 포함시켰습니다.
 
 ### 4. **감독 시나리오 (Supervision Scenarios)**
@@ -305,11 +306,11 @@ INFOTABS 데이터셋은 세 가지 라벨(ENTAIL, NEUTRAL, CONTRADICT)을 포�
 
 이 실험은 AUTO-TNLI를 데이터 증강에 사용하는 것이 특히 제한된 감독 시나리오에서 효과적이라는 것을 보여준다. AUTO-TNLI 데이터셋은 모델이 더 다양한 상황에서 잘 작동하도록 돕는 강력한 증강 데이터로 기능할 수 있으며, 특히 MNLI와 함께 사용했을 때 성능이 더욱 향상된다는 것을 확인할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwMjYxMTk5LC00MDIzNzQwNzEsLTM0MD
-Y0ODUzNyw4ODY0NTMyNjUsLTQ1OTQ1NDM4Miw0MDk2ODA4ODgs
-LTE1ODk0Mzg5MjEsMTMwODQwNTQ0NCwxNzY5MzQxNzAzLC0xMT
-UyNDU1NzUyLC04MjkxNDE1NTksLTE5MTc4NDI3MzUsLTI0MTM4
-Mjk4MiwtNTA2NTg3NTYwLC0xNDU0NTIxODcwLDgwNjkzNjYyMy
-wtMTI0MjIxMjIzOCwtMTc3MjcwMTAyNSwtMTY4MDMzMDk0OSwx
-NTcwOTA3NjM0XX0=
+eyJoaXN0b3J5IjpbMTczMDU1NDY5MCwtNDAyMzc0MDcxLC0zND
+A2NDg1MzcsODg2NDUzMjY1LC00NTk0NTQzODIsNDA5NjgwODg4
+LC0xNTg5NDM4OTIxLDEzMDg0MDU0NDQsMTc2OTM0MTcwMywtMT
+E1MjQ1NTc1MiwtODI5MTQxNTU5LC0xOTE3ODQyNzM1LC0yNDEz
+ODI5ODIsLTUwNjU4NzU2MCwtMTQ1NDUyMTg3MCw4MDY5MzY2Mj
+MsLTEyNDIyMTIyMzgsLTE3NzI3MDEwMjUsLTE2ODAzMzA5NDks
+MTU3MDkwNzYzNF19
 -->
