@@ -172,7 +172,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 2. **최종 데이터셋 구축**:
 
-•  위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했다. 이 데이터셋의 통계 정보는 아래의 표에 있다.
+위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했다. 이 데이터셋의 통계 정보는 아래의 표에 있다.
 
 
 ![Screenshot 2024-08-18 at 12 45 08 PM](https://github.com/user-attachments/assets/40d6940c-097f-4e4b-8fbf-164c412fd039){: .responsive-img .align-center}
@@ -180,15 +180,16 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 3. **추가 필터링**:
 
-•  데이터셋 품질을 더욱 높이기 위해 추가적인 필터링을 수행했습니다. OTT-QA 데이터셋에서 얻은 정답(gold answers)을 사용하여, 작업자가 제출한 대화에서 최종 정답이 하위 문자열(substring)으로 나타나는지 확인했습니다. 만약 정답이 포함되어 있다면, 해당 대화를 자동으로 승인했습니다.
+데이터셋 품질을 더욱 높이기 위해 추가적인 필터링을 수행했다고 한다. OTT-QA 데이터셋에서 얻은 정답(gold answers)을 사용하여, 작업자가 제출한 대화에서 최종 정답이 하위 문자열(substring)으로 나타나는지 확인한 후, 만약 정답이 포함되어 있다면, 해당 대화를 자동으로 승인했다.
 
-•  나머지 대화에 대해서는 수동으로 검토했습니다. 만약 대화의 답변이 정답과 일치하지만 다른 형식(예: “September 1, 2021” 대신 “9/1/21”)으로 되어 있더라도 정확한 내용이라면 이를 승인했습니다.
+그리고 나머지 대화에 대해서는 수동으로 검토했다. 만약 대화의 답변이 정답과 일치하지만 다른 형식(예: “September 1, 2021” 대신 “9/1/21”)으로 되어 있더라도 정확한 내용이라면 이를 승인했다.
 
-•  일부 경우에는 작업자가 자체적으로 질문을 분해하거나 최종 질문과 분해 과정을 만들어냈는데, 이러한 경우 최종 정답을 제공하지 않았더라도 대화가 정확하고 품질이 좋다면 이를 승인했습니다.
+일부 경우에는 작업자가 자체적으로 질문을 분해하거나 최종 질문과 분해 과정을 만들어냈는데, 이러한 경우 최종 정답을 제공하지 않았더라도 대화가 정확하고 품질이 좋다면 이를 승인했다.
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTA0MzAxNjQsLTEwMzk2NjY5MjIsLT
+eyJoaXN0b3J5IjpbLTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLT
 E4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUy
 NDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNj
 QzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwt
