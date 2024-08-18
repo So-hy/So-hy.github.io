@@ -278,9 +278,9 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
  **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측한다.
 
- **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
+ **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측한다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1NTY2MTcxMiw0ODgxODc1NzcsLTE4MD
+eyJoaXN0b3J5IjpbLTQ0MTkzMDI4Miw0ODgxODc1NzcsLTE4MD
 A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
 NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
 M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
