@@ -377,13 +377,16 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 해당 논문은 복잡한 다중 홉 질문을 대화 형식으로 분해한다는 점이 인상적이었다. 물론 인력으로 했지만..  
 
-아쉬운 점은 다른 데이터셋으로 실험했을 때, 해당 데이터셋이 동일 작업에서 얼마나 더 좋은 성능을 얻었는가에 대한 내용이 없어서 어느정도의 성능 향상이 있었는가를 파악하기 어렵다.
+아쉬운 점은 다른 데이터셋으로 실험했을 때, 해당 데이터셋이 동일 작업에서 얼마나 더 좋은 성능을 얻었는가에 대한 내용이 없어서 어느정도의 성능 향상이 있었는가를 파악하기 어렵다는 것이다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTc5Nzk5NzQsODk5MDk2NjI5LDI2Nj
-Y0NTUzNywtMTU3NjY5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQz
-MCw0MzI3MjcwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMT
-EzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwt
-MjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMT
-g1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0
-NTQ4NThdfQ==
+eyJoaXN0b3J5IjpbMTYwOTk5MDYzOSw4OTkwOTY2MjksMjY2Nj
+Q1NTM3LC0xNTc2NjkwNzA5LDEzMDgxMDUxNDUsODQ4MTkwNDMw
+LDQzMjcyNzA5OSw0ODgxODc1NzcsLTE4MDA3NTc4NDMsOTAxMT
+MyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0y
+MTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xOD
+UwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1
+NDg1OF19
 -->
