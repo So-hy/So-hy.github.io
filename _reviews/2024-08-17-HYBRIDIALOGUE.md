@@ -309,13 +309,13 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 •  **비유창성(Non-fluent)**: 응답이 문법적으로나 의미적으로 유창하지 않은 경우입니다. 예를 들어, “그들은 승리하기 위해 La det swinge라는 노래를 불렀습니다”라는 응답이 어색한 표현이다.
 
-•  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우입니다.
+•  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU2ODc3MzQsODQ4MTkwNDMwLDQzMjcyNz
-A5OSw0ODgxODc1NzcsLTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEz
-ODkxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2ND
-c0LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUy
-LDE2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMT
-M5OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0
-NzM2XX0=
+eyJoaXN0b3J5IjpbMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNz
+I3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0Nzgs
+MTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNz
+Y0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzEx
+NTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC
+0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1
+ODQ3MzZdfQ==
 -->
