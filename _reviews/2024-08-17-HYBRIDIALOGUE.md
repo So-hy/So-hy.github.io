@@ -271,7 +271,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
   
 
-**Dialogue Generation**은 대화 시스템이 사용자와의 대화에서 자연스러운 응답을 생성하는 작업입니다. 이 단계에서는 대화의 역사와 참조 정보를 기반으로 다음 턴의 응답을 생성하는 것이 목표입니다.
+**Dialogue Generation**은 대화 시스템이 사용자와의 대화에서 자연스러운 응답을 생성하는 작업이다. 이 단계에서는 대화의 역사와 참조 정보를 기반으로 다음 턴의 응답을 생성하는 것이 목표다.
 
   
 
@@ -281,7 +281,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNDgxNzI2Myw0ODgxODc1NzcsLTE4MD
+eyJoaXN0b3J5IjpbMTMxMzQ0MDgxMyw0ODgxODc1NzcsLTE4MD
 A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
 NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
 M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
