@@ -358,7 +358,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 3. **OTT-QA 데이터셋**:
 
-•  HYBRIDIALOGUE 데이터셋은 MIT 라이선스 하에 있는 OTT-QA 데이터셋을 기반으로 구축되었습니다. OTT-QA 데이터셋의 저자들은 이 데이터셋을 본 논문의 연구 목적에 맞게 사용할 수 있도록 허락했습니다.
+•  HYBRIDIALOGUE 데이터셋은 MIT 라이선스 하에 있는 OTT-QA 데이터셋을 기반으로 구축되었다. OTT-QA 데이터셋의 저자들은 이 데이터셋을 본 논문의 연구 목적에 맞게 사용할 수 있도록 허락했습니다.
 
 4. **Turkers를 위한 지침과 보상**:
 
@@ -373,11 +373,11 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MjI1OTQ1LDI2NjY0NTUzNywtMTU3Nj
-Y5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTks
-NDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MT
-U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
-MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
-M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
-MjI5NDBdfQ==
+eyJoaXN0b3J5IjpbLTk2MDg5OTQxOCwyNjY2NDU1MzcsLTE1Nz
+Y2OTA3MDksMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNzI3MDk5
+LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OT
+E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
+LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
+YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
+MDIyOTQwXX0=
 -->
