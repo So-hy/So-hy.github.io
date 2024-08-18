@@ -191,13 +191,26 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 ## Tasks and Baseline Models
 
 
-이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 
+이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 그리고 각 작업에 대한 베이스라인은 따로 설정하였다.
+
+
+**4.1 Retrieval (정보 검색)**
+
+  
+
+**Retrieval**은 대화 시스템에서 첫 번째로 수행되는 단계로, 사용자가 대화에서 처음으로 질문(Q0)을 제시하면, 시스템은 이 질문에 적합한 Wikipedia 참조(R0)를 찾아야 합니다. 이 단계에서는 다음과 같은 점들이 중요합니다:
+
+  
+
+•  **작업 목표**: 첫 번째 질문(Q0)에 대한 적절한 참조(R0)를 예측하는 것입니다. 첫 번째 질문은 일반적으로 표 또는 도입 단락(intro paragraph)에서 다루는 정보를 포함하고 있으므로, 데이터셋 내 모든 도입 단락과 표가 참조 후보가 됩니다.
+
+•  **베이스라인 모델**: Okapi BM25라는 키워드 매칭 기반의 표준 문서 검색 모델을 사용했습니다. 이 모델은 각 문서(참조)와 질문 간의 관련성을 계산하여 순위를 매깁니다. BM25를 사용해 각 대화의 첫 번째 턴에서 적절한 참조를 찾는 성능을 평가합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzMxOTA1MSwtMjE0NzE3NjQ3NCwtMT
-U1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2
-ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMj
-I5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNiwx
-OTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LDk5Nj
-YyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAwMSw2NjUyNTYzODks
-MjMwMzkzNzFdfQ==
+eyJoaXN0b3J5IjpbNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNT
+U5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4
+NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMj
+k0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5
+NTA0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2Nj
+I1MDQ2LDE2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwy
+MzAzOTM3MV19
 -->
