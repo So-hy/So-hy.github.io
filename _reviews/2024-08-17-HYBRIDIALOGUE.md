@@ -274,17 +274,17 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 **Dialogue Generation**은 대화 시스템이 사용자와의 대화에서 자연스러운 응답을 생성하는 작업이다. 이 단계에서는 대화의 역사와 참조 정보를 기반으로 다음 턴의 응답을 생성하는 것이 목표다.
 
   
-•  **작업 목표**: 대화의 각 턴에서 자연스러운 언어 응답을 생성하는 것입니다. 두 가지 입력 설정을 사용하여 실험을 수행했습니다:
+•  **작업 목표**: 대화의 각 턴에서 자연스러운 언어 응답을 생성하는 것이다. 두 가지 입력 설정을 사용하여 실험을 수행했다:
 
-•  **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측합니다.
+ **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측한다.
 
 •  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjMwNDQ3NzMsNDg4MTg3NTc3LC0xOD
-AwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3
-LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMT
-AzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAx
-MDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMT
-IwLDEzNzU4NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0x
-OTcxMjk0MTc4XX0=
+eyJoaXN0b3J5IjpbMTI3NTQ3NTExOCw0ODgxODc1NzcsLTE4MD
+A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
+NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
+M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
+MjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMj
+AsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5
+NzEyOTQxNzhdfQ==
 -->
