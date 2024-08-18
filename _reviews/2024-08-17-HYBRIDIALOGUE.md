@@ -218,12 +218,27 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 ### 2 System State Tracking (시스템 상태 추적)
 
+
+**System State Tracking**은 대화가 진행되면서 시스템이 대화의 현재 상태를 추적하고, 그 상태에 맞는 참조를 선택하는 작업입니다. 이 작업은 대화 시스템이 대화의 맥락을 이해하고, 사용자가 제시하는 질문에 적절한 정보를 제공하는 데 필수적입니다.
+
+  
+
+•  **작업 목표**: 대화의 현재 턴에서 사용자가 묻는 질문(Qi)에 대해 적절한 참조(Ri)를 선택하는 것입니다. 이 작업은 대화의 역사(이전 턴들)와 현재 질문을 기반으로 수행됩니다.
+
+•  **참조 유형**: 이 작업에서 고려되는 참조 유형은 단일 셀(single cell), 연결된 단락(linked paragraph), 테이블의 단일 행(inner table row), 여러 행(multiple inner table rows) 등입니다.
+
+•  **베이스라인 모델**:
+
+•  **SentenceBERT**: 이 모델은 문장 간의 유사성을 계산하기 위해 사용하는 BERT 기반의 임베딩 모델입니다. Triplet-loss 구성으로 설정하여, 올바른 참조(Ri)와 대화의 맥락(Hi) 간의 거리를 최소화하고, 잘못된 참조(W)와의 거리를 최대화합니다. 이를 통해 올바른 참조를 선택할 확률을 높입니다.
+
+•  **TaPas**: TaPas는 표 형식 데이터를 처리하기 위해 설계된 BERT 기반의 질문-응답 모델입니다. 이 모델은 셀 선택(cell selection)에 특화되어 있으며, 이를 위해 데이터를 전처리합니다. 각 행(row)에 대해 하나의 셀을 선택하도록 학습시키고, 연결된 단락을 셀로 처리하여 정확한 참조를 선택하도록 합니다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTM1NTE1NDMsMTM4ODg3NDcsNDQ4OT
-IwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2
-OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4Nz
-MsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3
-NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5NzEyOT
-QxNzgsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LDE2NTMzMjM0MjMs
-NzUxNTk3MDAxXX0=
+eyJoaXN0b3J5IjpbMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
+AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
+MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
+wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
+ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5ND
+E3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3
+NTE1OTcwMDFdfQ==
 -->
