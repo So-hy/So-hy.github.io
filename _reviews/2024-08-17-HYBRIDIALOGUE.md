@@ -340,14 +340,44 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 ## Conclusion
 
 
+이 논문은 **HYBRIDIALOGUE**라는 새로운 데이터셋을 소개하며, 정보 탐색 대화에서 표와 텍스트에 기반한 지식을 사용하는 모델 개발의 필요성을 강조합니다. 이전 연구들은 질문 응답 분야에서 표와 텍스트를 결합한 방식을 사용했지만, 대화 형식에서는 이러한 방식이 잘 활용되지 않았습니다. 본 논문에서 수행한 다양한 작업의 결과는 여전히 개선의 여지가 많음을 보여주며, 이 하이브리드 형식에 잘 적응할 수 있는 모델을 구축할 필요성을 시사합니다. 또한, HYBRIDIALOGUE를 활용하여 자동화된 다중 홉 질문 분해에 대한 연구도 가능할 것임을 언급하고 있습니다.
 
+  
+
+**Ethical Considerations (윤리적 고려 사항)**
+
+  
+
+1. **데이터의 한계**:
+
+•  HYBRIDIALOGUE 데이터셋은 구조화된 데이터(표)와 비구조화된 데이터(텍스트)에 기반하지만, 지식 그래프와 같은 다른 형식은 포함하지 않습니다. 또한, 대화는 단일 Wikipedia 페이지 내에서만 이루어지며, 더 개방된 정보 탐색 대화를 위해 향후 연구에서 확장될 수 있습니다.
+
+2. **Wikipedia 기반 데이터**:
+
+•  HYBRIDIALOGUE는 Wikipedia 페이지를 기반으로 하며, Wikipedia는 품질을 보장하기 위해 엄격한 검토 과정을 거칩니다. 연구자들은 데이터셋 수집 과정에서 이 데이터를 신중하게 검토하고 품질을 엄격하게 관리했습니다.
+
+3. **OTT-QA 데이터셋**:
+
+•  HYBRIDIALOGUE 데이터셋은 MIT 라이선스 하에 있는 OTT-QA 데이터셋을 기반으로 구축되었습니다. OTT-QA 데이터셋의 저자들은 이 데이터셋을 본 논문의 연구 목적에 맞게 사용할 수 있도록 허락했습니다.
+
+4. **Turkers를 위한 지침과 보상**:
+
+•  데이터셋 수집 작업에서는 HIT 승인율이 96% 이상이고, AU, CA, IE, NZ, GB, 또는 US에 거주하는 작업자만 참여할 수 있도록 했습니다. 또한, 작업자는 이전에 500개 이상의 HITs를 승인받은 이력이 있어야 했습니다.
+
+•  작업자들은 텍스트 입력 필드와 탐색 도구가 포함된 인터페이스를 사용했으며, 지침 페이지와 비디오 데모, 완성된 예시를 제공받았습니다. 작업 완료 시간은 약 5분이 소요되며, 대화당 $1.1의 보수를 지급했습니다. 이는 시간당 약 $13.2의 임금에 해당합니다.
+
+•  인간 평가 작업에서는 작업자들에게 작업당 $0.1의 보수를 지급했으며, 작업 완료 시간은 30초 미만으로 예상됩니다.
+
+5. **데이터셋 공개 및 라이선스**:
+
+•  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2NjQ1NTM3LC0xNTc2NjkwNzA5LDEzMD
-gxMDUxNDUsODQ4MTkwNDMwLDQzMjcyNzA5OSw0ODgxODc1Nzcs
-LTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4OD
-g3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAw
-LC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLT
-E5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcw
-MDAxMjBdfQ==
+eyJoaXN0b3J5IjpbMjAxMTY4MzYxNCwyNjY2NDU1MzcsLTE1Nz
+Y2OTA3MDksMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNzI3MDk5
+LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OT
+E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
+LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
+YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
+MDIyOTQwXX0=
 -->
