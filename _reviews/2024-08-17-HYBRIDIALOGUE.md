@@ -331,15 +331,15 @@ Turkers는 아래의 세 가지 기준에 따라 기계 응답을 평가했다:
 ### Results
 
 
-state tracking references를 활용한 모델이 “정보성” 점수에서 더 좋은 성과를 보였습니다. 이는 추가 정보를 활용하여 보다 정확한 응답을 제공할 수 있었기 때문입니다.
+State tracking references를 활용한 모델이 “정보성” 점수에서 더 좋은 성과를 보였다. 이는 추가 정보를 활용하여 보다 정확한 응답을 제공할 수 있었기 때문입니다.
 
 •  반면, 참조를 사용하지 않은 모델은 “일관성”과 “유창성” 점수에서 더 좋은 성과를 보였습니다. 이는 참조가 없는 상황에서 응답이 더 자연스럽고 간결하게 생성될 수 있기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzY2OTA3MDksMTMwODEwNTE0NSw4ND
-gxOTA0MzAsNDMyNzI3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0
-Myw5MDExMzI0NzgsMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
-AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
-MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
-wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
-ODQzNjQzXX0=
+eyJoaXN0b3J5IjpbLTI3ODc1NDUzNiwtMTU3NjY5MDcwOSwxMz
+A4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTksNDg4MTg3NTc3
+LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzOD
+g4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMw
+MCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC
+0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3
+MDAwMTIwXX0=
 -->
