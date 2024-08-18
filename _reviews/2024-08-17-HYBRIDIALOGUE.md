@@ -366,14 +366,14 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 •  작업자들은 텍스트 입력 필드와 탐색 도구가 포함된 인터페이스를 사용했으며, 지침 페이지와 비디오 데모, 완성된 예시를 제공받았다. 작업 완료 시간은 약 5분이 소요되며, 대화당 $1.1의 보수를 지급했다. 이는 시간당 약 $13.2의 임금에 해당한다.
 
-•  인간 평가 작업에서는 작업자들에게 작업당 $0.1의 보수를 지급했으며, 작업 완료 시간은 30초 미만으로 예상됩니다.
+•  인간 평가 작업에서는 작업자들에게 작업당 $0.1의 보수를 지급했으며, 작업 완료 시간은 30초 미만으로 예상된다.
 
 5. **데이터셋 공개 및 라이선스**:
 
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjQ2ODM3NzYsMjY2NjQ1NTM3LC0xNT
+eyJoaXN0b3J5IjpbLTE1NzUzNTc5MjksMjY2NjQ1NTM3LC0xNT
 c2NjkwNzA5LDEzMDgxMDUxNDUsODQ4MTkwNDMwLDQzMjcyNzA5
 OSw0ODgxODc1NzcsLTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEzOD
 kxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0
