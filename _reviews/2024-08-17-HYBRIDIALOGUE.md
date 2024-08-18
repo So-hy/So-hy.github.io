@@ -212,9 +212,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 정보 검색 모델의 성능은 MRR@10 (Mean Reciprocal Rank @10)로 평가되었다. 이 지표는 모델이 올바른 참조를 얼마나 높은 순위에 배치하는지를 평가한다.
 
-Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질문에 대해 올바른 참조를 상당히 잘 찾아내었음을 의미합니다.
+Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질문에 대해 올바른 참조를 상당히 잘 찾아내었음을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTM5MjYzNSwxMzg4ODc0Nyw0NDg5Mj
+eyJoaXN0b3J5IjpbMTEyODYyMTcwNiwxMzg4ODc0Nyw0NDg5Mj
 AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
 MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
 wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
