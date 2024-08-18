@@ -284,9 +284,9 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
-•  **SacreBLEU**: 생성된 텍스트와 참조 텍스트 간의 유사성을 측정하는 지표입니다.
+•  **SacreBLEU**: 생성된 텍스트와 참조 텍스트 간의 유사성을 측정하는 지표
 
-•  **BERTscore**: BERT 임베딩을 사용하여 생성된 텍스트와 참조 텍스트 간의 유사성을 평가합니다.
+•  **BERTscore**: BERT 임베딩을 사용하여 생성된 텍스트와 참조 텍스트 간의 유사성을 평가
 
 •  **결과**:
 
@@ -304,11 +304,11 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 •  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3NDUxNTA0MSw0ODgxODc1NzcsLTE4MD
-A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
-NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
-M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
-MjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMj
-AsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5
-NzEyOTQxNzhdfQ==
+eyJoaXN0b3J5IjpbLTEzNTAyMjgxODksNDg4MTg3NTc3LC0xOD
+AwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3
+LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMT
+AzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAx
+MDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMT
+IwLDEzNzU4NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0x
+OTcxMjk0MTc4XX0=
 -->
