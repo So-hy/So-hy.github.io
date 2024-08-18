@@ -278,7 +278,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
  **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측한다.
 
- **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측한다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력된다.
+ **DialoGPT**: 대화 역사와 함께 state tracking references를 포함하여 다음 응답을 예측한다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력된다.
 
 
 
@@ -335,7 +335,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 •  반면, 참조를 사용하지 않은 모델은 “일관성”과 “유창성” 점수에서 더 좋은 성과를 보였습니다. 이는 참조가 없는 상황에서 응답이 더 자연스럽고 간결하게 생성될 수 있기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI3ODc1NDUzNiwtMTU3NjY5MDcwOSwxMz
+eyJoaXN0b3J5IjpbMTg0MDgzMjg2MSwtMTU3NjY5MDcwOSwxMz
 A4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTksNDg4MTg3NTc3
 LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzOD
 g4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMw
