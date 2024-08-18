@@ -305,17 +305,17 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 세 가지 주요 오류 유형을 발견했다:
 
-•  **일관성 결여(Incoherent)**: 생성된 응답이 대화 맥락에 맞지 않는 경우입니다. 예를 들어, “Alanis Nadine Morissette는 캐나다-미국의 가수이자 작곡가입니다”라는 응답이 해당 질문에 맞지 않는 경우입니다.
+•  **일관성 결여(Incoherent)**: 생성된 응답이 대화 맥락에 맞지 않는 경우다. 예를 들어, “Alanis Nadine Morissette는 캐나다-미국의 가수이자 작곡가입니다”라는 응답이 해당 질문에 맞지 않는 경우입니다.
 
 •  **비유창성(Non-fluent)**: 응답이 문법적으로나 의미적으로 유창하지 않은 경우입니다. 예를 들어, “그들은 승리하기 위해 La det swinge라는 노래를 불렀습니다”라는 응답이 어색한 표현입니다.
 
 •  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkyMjY4OTEzLDg0ODE5MDQzMCw0MzI3Mj
-cwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwx
-Mzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3Nj
-Q3NCwtMTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1
-MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLT
-EzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4
-NDczNl19
+eyJoaXN0b3J5IjpbMTY1MjY3NjA4NCw4NDgxOTA0MzAsNDMyNz
+I3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0Nzgs
+MTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNz
+Y0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzEx
+NTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC
+0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1
+ODQ3MzZdfQ==
 -->
