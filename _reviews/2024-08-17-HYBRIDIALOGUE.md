@@ -248,9 +248,9 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 해당 작업을 평가하기 위해 SentenceBERT와 TaPas 모델을 사용하여 MRR@10과 MAP (Mean Average Precision) 점수를 계산했다. 각 모델은 후보 참조들에 대해 점수를 매기고, 올바른 참조를 목록에서 얼마나 높은 순위에 위치시키는지를 평가했다.
 
-•  **MRR@10**: 올바른 참조가 목록에서 높은 순위에 있을수록 더 높은 점수를 받습니다.
+•  **MRR@10**: 올바른 참조가 목록에서 높은 순위에 있을수록 더 높은 점수를 받음
 
-•  **MAP**: 정답이 목록의 어떤 위치에 있든지 간에 순위를 고려한 평균 정밀도를 평가합니다.
+•  **MAP**: 정답이 목록의 어떤 위치에 있든지 간에 순위를 고려한 평균 정밀도를 평가함
 
 •  **결과**:
 
@@ -262,11 +262,11 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  셀과 연결된 단락 참조에서는 연결된 단락의 성능이 더 나았습니다. 이는 단락의 텍스트가 셀의 텍스트보다 더 많은 정보를 포함하고 있어, 올바른 참조를 결정하는 데 유리하기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjkzNDA3MjgsOTAxMTMyNDc4LDEzOD
-kxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0
-LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLD
-E2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5
-OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0Nz
-M2LDE5NTA0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1Njcs
-OTk2NjI1MDQ2XX0=
+eyJoaXN0b3J5IjpbNDY2NTIyNDg4LDkwMTEzMjQ3OCwxMzg5MT
+U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
+MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
+M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
+MjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNi
+wxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LDk5
+NjYyNTA0Nl19
 -->
