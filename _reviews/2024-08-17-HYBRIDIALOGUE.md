@@ -8,6 +8,9 @@ date: 2024-08-17
 
 
 ### [2022 ACL]
+https://arxiv.org/abs/2204.13243
+
+
 
 현재 대화 시스템은 텍스트와 표와 같이 다양한 형식으로 분산된 정보를 통합하여 사용자와 효과적으로 대화하는 데 어려움을 겪고 있다고 한다. 기존 연구는 주로 단일 형식의 정보에 집중했으나, 현실적인 시나리오에서는 구조화된 정보와 비구조화된 정보를 함께 이해하는 것이 중요하다. 이를 해결하기 위해, 본 논문에서는 Wikipedia의 텍스트와 표를 기반으로 한 새로운 대화 데이터셋인 HYBRIDIALOGUE를 제안한다. 이 데이터셋은 복잡한 다중 홉 질문을 간단한 다중 턴 대화로 분해하여 자연스러운 대화 형식으로 정보를 검색할 수 있게 설계되었다. 실험 결과, 대화 시스템에는 여전히 개선의 여지가 많으며, 이를 통해 정보 검색 대화에서 더 강력한 추론 능력을 가진 시스템의 필요성을 강조한다.
 
@@ -261,11 +264,11 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
  TaPas 모델이 SentenceBERT보다 전반적으로 더 나은 성능을 보였다. TaPas 모델의 성능을 참조 유형(셀, 연결된 단락, 행, 다중 행)별로 분석한 결과, 행(row) 참조에서 가장 좋은 성능을 기록했다. 이는 행 참조가 데이터셋에서 가장 많은 비율을 차지했기 때문이다. 다중 행(multi-row)의 경우 MRR 점수는 높았지만 MAP 점수는 낮아, 올바른 행 후보들이 때때로 낮은 순위에 위치했음을 의미한다.
 그리고 셀과 연결된 단락(Paragraph) 참조에서는 연결된 단락의 성능이 더 나았다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEzOD
-kxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0
-LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLD
-E2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5
-OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0Nz
-M2LDE5NTA0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1Njcs
-OTk2NjI1MDQ2XX0=
+eyJoaXN0b3J5IjpbNDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMT
+EzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwt
+MjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMT
+g1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0
+NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2ND
+MsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0x
+NDU2NjIzNTY3XX0=
 -->
