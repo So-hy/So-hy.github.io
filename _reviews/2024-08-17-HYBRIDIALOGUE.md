@@ -231,12 +231,12 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  **베이스라인 모델**:
 
-**SentenceBERT**: 이 모델은 문장 간의 유사성을 계산하기 위해 사용하는 BERT 기반의 임베딩 모델입니다. Triplet-loss 구성으로 설정하여, 올바른 참조(Ri)와 대화의 맥락(Hi) 간의 거리를 최소화하고, 잘못된 참조(W)와의 거리를 최대화합니다. 이를 통해 올바른 참조를 선택할 확률을 높입니다.
+**SentenceBERT**: 이 모델은 문장 간의 유사성을 계산하기 위해 사용하는 BERT 기반의 임베딩 모델이다. Triplet-loss 구성으로 설정하여, 올바른 참조(Ri)와 대화의 맥락(Hi) 간의 거리를 최소화하고, 잘못된 참조(W)와의 거리를 최대화합니다. 이를 통해 올바른 참조를 선택할 확률을 높입니다.
 
 **TaPas**: TaPas는 표 형식 데이터를 처리하기 위해 설계된 BERT 기반의 질문-응답 모델입니다. 이 모델은 셀 선택(cell selection)에 특화되어 있으며, 이를 위해 데이터를 전처리합니다. 각 행(row)에 대해 하나의 셀을 선택하도록 학습시키고, 연결된 단락을 셀로 처리하여 정확한 참조를 선택하도록 합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5ODUwNDI4OCwxMzg5MTU0NDY5LDEzOD
+eyJoaXN0b3J5IjpbMTk1NjIxMDc5MSwxMzg5MTU0NDY5LDEzOD
 g4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMw
 MCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC
 0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3
