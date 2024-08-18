@@ -203,12 +203,12 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
   
 •  **작업 목표**: 첫 번째 질문(Q0)에 대한 적절한 참조(R0)를 예측하는 것이다. 첫 번째 질문은 일반적으로 표 또는 도입 단락(intro paragraph)에서 다루는 정보를 포함하고 있으므로, 데이터셋 내 모든 도입 단락과 표가 참조 후보가 된다.
 
-•  **베이스라인 모델**: Okapi BM25라는 키워드 매칭 기반의 표준 문서 검색 모델을 사용했다. 이 모델은 각 문서(참조)와 질문 간의 관련성을 계산하여 순위를 매깁딘다. BM25를 사용해 각 대화의 첫 번째 턴에서 적절한 참조를 찾는 성능을 평가합니다.
+•  **베이스라인 모델**: Okapi BM25라는 키워드 매칭 기반의 표준 문서 검색 모델을 사용했다. 이 모델은 각 문서(참조)와 질문 간의 관련성을 계산하여 순위를 매깁딘다. BM25를 사용해 각 대화의 첫 번째 턴에서 적절한 참조를 찾는 성능을 평가한다.
 
 
 ![Screenshot 2024-08-18 at 2 10 47 PM](https://github.com/user-attachments/assets/cba23211-988b-4202-b228-116af260f077)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY4OTE3NzUsMTM4ODg3NDcsNDQ4OT
+eyJoaXN0b3J5IjpbLTEyMzQ5NTY5OTAsMTM4ODg3NDcsNDQ4OT
 IwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2
 OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4Nz
 MsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3
