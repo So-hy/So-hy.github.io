@@ -194,7 +194,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 그리고 각 작업에 대한 베이스라인은 따로 설정하였다.
 
 
-**4.1 Retrieval (정보 검색)**
+**1 Retrieval (정보 검색)**
 
   
 
@@ -206,11 +206,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  **베이스라인 모델**: Okapi BM25라는 키워드 매칭 기반의 표준 문서 검색 모델을 사용했습니다. 이 모델은 각 문서(참조)와 질문 간의 관련성을 계산하여 순위를 매깁니다. BM25를 사용해 각 대화의 첫 번째 턴에서 적절한 참조를 찾는 성능을 평가합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNT
-U5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4
-NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMj
-k0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5
-NTA0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2MjM1NjcsOTk2Nj
-I1MDQ2LDE2NTMzMjM0MjMsNzUxNTk3MDAxLDY2NTI1NjM4OSwy
-MzAzOTM3MV19
+eyJoaXN0b3J5IjpbMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MT
+c2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMx
+MTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OC
+wtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEy
+NTg0NzM2LDE5NTA0NTQ0NTAsLTE5NzEyOTQxNzgsLTE0NTY2Mj
+M1NjcsOTk2NjI1MDQ2LDE2NTMzMjM0MjMsNzUxNTk3MDAxLDY2
+NTI1NjM4OV19
 -->
