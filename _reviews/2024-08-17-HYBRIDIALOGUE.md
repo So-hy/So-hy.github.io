@@ -321,17 +321,17 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 Turkers는 아래의 세 가지 기준에 따라 기계 응답을 평가했다:
 
-•  **일관성(Coherence)**: 응답이 질문과 이전 대화 역사와 얼마나 잘 연결되어 있는지 평가합니다.
+•  **일관성(Coherence)**: 응답이 질문과 이전 대화 역사와 얼마나 잘 연결되어 있는지 평가한다.
 
-•  **유창성(Fluency)**: 응답이 문법적으로 얼마나 올바른지 평가합니다.
+•  **유창성(Fluency)**: 응답이 문법적으로 얼마나 올바른지 평가한다.
 
-•  **정보성(Informativeness)**: 기계 응답이 인간이 제공한 정답과 비교했을 때 얼마나 정확한지를 평가합니다.
+•  **정보성(Informativeness)**: 기계 응답이 인간이 제공한 정답과 비교했을 때 얼마나 정확한지를 평가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDQ4MzY2NjQ3LDEzMDgxMDUxNDUsODQ4MT
-kwNDMwLDQzMjcyNzA5OSw0ODgxODc1NzcsLTE4MDA3NTc4NDMs
-OTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMj
-I5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIy
-LC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMT
-M1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3NTg0
-MzY0M119
+eyJoaXN0b3J5IjpbMTk4NzkwNzAxNiwxMzA4MTA1MTQ1LDg0OD
+E5MDQzMCw0MzI3MjcwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQz
+LDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMD
+IyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2Njky
+MiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLD
+EzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4
+NDM2NDNdfQ==
 -->
