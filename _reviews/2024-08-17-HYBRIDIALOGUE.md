@@ -174,6 +174,10 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 •  위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했다. 이 데이터셋의 통계 정보는 아래의 표에 있다.
 
+
+![Screenshot 2024-08-18 at 12 45 08 PM](https://github.com/user-attachments/assets/40d6940c-097f-4e4b-8fbf-164c412fd039){: .responsive-img .align-center}
+
+
 3. **추가 필터링**:
 
 •  데이터셋 품질을 더욱 높이기 위해 추가적인 필터링을 수행했습니다. OTT-QA 데이터셋에서 얻은 정답(gold answers)을 사용하여, 작업자가 제출한 대화에서 최종 정답이 하위 문자열(substring)으로 나타나는지 확인했습니다. 만약 정답이 포함되어 있다면, 해당 대화를 자동으로 승인했습니다.
@@ -184,10 +188,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
-YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
-MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3Mz
-YsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5
-OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1OTcwMDEsNjY1MjU2Mz
-g5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
+eyJoaXN0b3J5IjpbLTEwNTA0MzAxNjQsLTEwMzk2NjY5MjIsLT
+E4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUy
+NDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNj
+QzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwt
+MTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1OT
+cwMDEsNjY1MjU2Mzg5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0
+OTgzMDI3M119
 -->
