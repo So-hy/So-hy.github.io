@@ -317,7 +317,7 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 추가로 생성한 응답의 품질을 실제 사람들(Turkers)이 평가하였다.
 
-200개의 테스트 샘플을 무작위로 선택하여 인간 평가를 진행했다. 각 샘플에는 이전 대화 기록, 사람이 작성한 정답, 그리고 기계가 생성한 응답이 포함되었습니다.
+200개의 테스트 샘플을 무작위로 선택하여 인간 평가를 진행했다. 각 샘플에는 이전 대화 기록, 사람이 작성한 정답, 그리고 기계가 생성한 응답이 포함되었다.
 
 •  Turkers는 세 가지 기준에 따라 기계 응답을 평가했습니다:
 
@@ -327,11 +327,11 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 •  **정보성(Informativeness)**: 기계 응답이 인간이 제공한 정답과 비교했을 때 얼마나 정확한지를 평가합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjUwMTMwNzEsMTMwODEwNTE0NSw4ND
-gxOTA0MzAsNDMyNzI3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0
-Myw5MDExMzI0NzgsMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
-AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
-MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
-wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
-ODQzNjQzXX0=
+eyJoaXN0b3J5IjpbLTE3MjQ2MDA5OCwxMzA4MTA1MTQ1LDg0OD
+E5MDQzMCw0MzI3MjcwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQz
+LDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMD
+IyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2Njky
+MiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLD
+EzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4
+NDM2NDNdfQ==
 -->
