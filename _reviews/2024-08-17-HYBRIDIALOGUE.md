@@ -279,8 +279,32 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
  **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측한다.
 
  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측한다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력된다.
+
+
+
+SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
+
+•  **SacreBLEU**: 생성된 텍스트와 참조 텍스트 간의 유사성을 측정하는 지표입니다.
+
+•  **BERTscore**: BERT 임베딩을 사용하여 생성된 텍스트와 참조 텍스트 간의 유사성을 평가합니다.
+
+•  **결과**:
+
+•  참조 정보를 추가하면 SacreBLEU와 BERTscore 모두 향상되었습니다.
+
+•  SacreBLEU에서는 참조 정보의 중요성이 더 두드러지게 나타났습니다. BERTscore는 자연스럽게 유사한 출력이 나오기 때문에 순위에 따라 점수를 보는 것이 더 신뢰할 수 있는 방법입니다.
+
+•  **오류 분석**:
+
+세 가지 주요 오류 유형을 발견했습니다:
+
+•  **일관성 결여(Incoherent)**: 생성된 응답이 대화 맥락에 맞지 않는 경우입니다. 예를 들어, “Alanis Nadine Morissette는 캐나다-미국의 가수이자 작곡가입니다”라는 응답이 해당 질문에 맞지 않는 경우입니다.
+
+•  **비유창성(Non-fluent)**: 응답이 문법적으로나 의미적으로 유창하지 않은 경우입니다. 예를 들어, “그들은 승리하기 위해 La det swinge라는 노래를 불렀습니다”라는 응답이 어색한 표현입니다.
+
+•  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0MTkzMDI4Miw0ODgxODc1NzcsLTE4MD
+eyJoaXN0b3J5IjpbLTI3NDUxNTA0MSw0ODgxODc1NzcsLTE4MD
 A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
 NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
 M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
