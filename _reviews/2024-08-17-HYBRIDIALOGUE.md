@@ -364,7 +364,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 •  데이터셋 수집 작업에서는 HIT 승인율이 96% 이상이고, AU, CA, IE, NZ, GB, 또는 US에 거주하는 작업자만 참여할 수 있도록 했다. 또한, 작업자는 이전에 500개 이상의 HITs를 승인받은 이력이 있어야 했다.
 
-•  작업자들은 텍스트 입력 필드와 탐색 도구가 포함된 인터페이스를 사용했으며, 지침 페이지와 비디오 데모, 완성된 예시를 제공받았습니다. 작업 완료 시간은 약 5분이 소요되며, 대화당 $1.1의 보수를 지급했습니다. 이는 시간당 약 $13.2의 임금에 해당합니다.
+•  작업자들은 텍스트 입력 필드와 탐색 도구가 포함된 인터페이스를 사용했으며, 지침 페이지와 비디오 데모, 완성된 예시를 제공받았다. 작업 완료 시간은 약 5분이 소요되며, 대화당 $1.1의 보수를 지급했다. 이는 시간당 약 $13.2의 임금에 해당합니다.
 
 •  인간 평가 작업에서는 작업자들에게 작업당 $0.1의 보수를 지급했으며, 작업 완료 시간은 30초 미만으로 예상됩니다.
 
@@ -373,11 +373,11 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MTc1MTQ5LDI2NjY0NTUzNywtMTU3Nj
-Y5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTks
-NDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MT
-U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
-MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
-M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
-MjI5NDBdfQ==
+eyJoaXN0b3J5IjpbMTE4OTkyODEwOSwyNjY2NDU1MzcsLTE1Nz
+Y2OTA3MDksMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNzI3MDk5
+LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OT
+E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
+LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
+YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
+MDIyOTQwXX0=
 -->
