@@ -370,14 +370,14 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 5. **데이터셋 공개 및 라이선스**:
 
-•  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함된다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
+•  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함된다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDkwODMyNDgsMjY2NjQ1NTM3LC0xNT
-c2NjkwNzA5LDEzMDgxMDUxNDUsODQ4MTkwNDMwLDQzMjcyNzA5
-OSw0ODgxODc1NzcsLTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEzOD
-kxNTQ0NjksMTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0
-LC0xNTU5MjM2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLD
-E2MzY4NTQ4NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5
-OTAyMjk0MF19
+eyJoaXN0b3J5IjpbODk5MDk2NjI5LDI2NjY0NTUzNywtMTU3Nj
+Y5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTks
+NDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MT
+U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
+MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
+M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
+MjI5NDBdfQ==
 -->
