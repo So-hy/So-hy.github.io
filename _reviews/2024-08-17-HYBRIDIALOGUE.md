@@ -168,15 +168,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 1. **초기 필터링**:
 
-•  작업자가 지침을 전혀 따르지 않거나, 대화의 품질이 낮은 경우 해당 작업을 거부했다고 한다. 예를 들어, 작업자가 관련 없는 텍스트를 복사하여 붙여넣었거나, 동일한 질문을 여러 번 반복했거나, 대화 전체에서 관련 없는 참조를 사용한 경우가 이에 해당한다. 이런 경우에는 작업을 자동으로 거부했다.
-
-•  작업자들은 대화 하나당 평균 $1.1를 지급받았으며, 대화 하나를 완료하는 데 평균 5분이 걸렸습니다. 이는 시간당 약 $13.2의 임금에 해당합니다.
-
-•  일관되게 높은 품질의 결과를 제출한 작업자에게는 보너스를 지급하기도 했습니다.
+작업자가 지침을 전혀 따르지 않거나, 대화의 품질이 낮은 경우 해당 작업을 거부했다고 한다. 예를 들어, 작업자가 관련 없는 텍스트를 복사하여 붙여넣었거나, 동일한 질문을 여러 번 반복했거나, 대화 전체에서 관련 없는 참조를 사용한 경우가 이에 해당한다. 이런 경우에는 작업을 자동으로 거부했다.
 
 2. **최종 데이터셋 구축**:
 
-•  위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했습니다. 이 데이터셋의 통계 정보는 논문의 표 2에 제시되어 있습니다.
+•  위의 필터링 과정을 거친 후, 최종적으로 4,844개의 대화로 구성된 데이터셋을 확보했다. 이 데이터셋의 통계 정보는 아래의 표에 있다.
 
 3. **추가 필터링**:
 
@@ -188,10 +184,10 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NTU2MDAxMSwtMTg1MDIzMTE1MiwxNj
-M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
-MjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNi
-wxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LDk5
-NjYyNTA0NiwxNjUzMzIzNDIzLDc1MTU5NzAwMSw2NjUyNTYzOD
-ksMjMwMzkzNzEsLTM1MTMwODM5OSwtNjQ5ODMwMjczXX0=
+eyJoaXN0b3J5IjpbLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
+YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
+MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3Mz
+YsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5
+OTY2MjUwNDYsMTY1MzMyMzQyMyw3NTE1OTcwMDEsNjY1MjU2Mz
+g5LDIzMDM5MzcxLC0zNTEzMDgzOTksLTY0OTgzMDI3M119
 -->
