@@ -191,9 +191,9 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 ## Tasks and Baseline Models
 
 
-이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였ㄷ
+이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0NzQ1ODQ4NiwtMjE0NzE3NjQ3NCwtMT
+eyJoaXN0b3J5IjpbMjEzMzMxOTA1MSwtMjE0NzE3NjQ3NCwtMT
 U1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNjM2
 ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkwMj
 I5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNiwx
