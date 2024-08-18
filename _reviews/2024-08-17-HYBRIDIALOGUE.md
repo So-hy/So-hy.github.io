@@ -315,8 +315,19 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 ## Human Evaluation (인간 평가)
 
 
+추가로 생성한 응답의 품질을 실제 사람들(Turkers)이 평가하였다.
+
+200개의 테스트 샘플을 무작위로 선택하여 인간 평가를 진행했다. 각 샘플에는 이전 대화 기록, 사람이 작성한 정답, 그리고 기계가 생성한 응답이 포함되었습니다.
+
+•  Turkers는 세 가지 기준에 따라 기계 응답을 평가했습니다:
+
+•  **일관성(Coherence)**: 응답이 질문과 이전 대화 역사와 얼마나 잘 연결되어 있는지 평가합니다.
+
+•  **유창성(Fluency)**: 응답이 문법적으로 얼마나 올바른지 평가합니다.
+
+•  **정보성(Informativeness)**: 기계 응답이 인간이 제공한 정답과 비교했을 때 얼마나 정확한지를 평가합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzkyMzE5ODksMTMwODEwNTE0NSw4ND
+eyJoaXN0b3J5IjpbLTExNjUwMTMwNzEsMTMwODEwNTE0NSw4ND
 gxOTA0MzAsNDMyNzI3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0
 Myw5MDExMzI0NzgsMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
 AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
