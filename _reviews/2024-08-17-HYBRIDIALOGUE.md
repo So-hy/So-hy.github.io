@@ -242,14 +242,14 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 **T2, T3, T4**는 대화의 각 턴을 나타내며, 각 턴에서 사용자가 질문을 하고, 그 질문에 대한 응답을 생성하기 위해 참조된 표의 특정 부분을 나타낸다.
 
-예를 들어 **T2**는 “그가 Grand Prix 이벤트에 참가한 적이 있나요?“라는 질문에 대해, 여러 행을 참조해야 합니다. {Multiple Rows: (1,1), (4,1)}는 표의 여러 행을 참조한 것이다.
+예를 들어 **T2**는 “그가 Grand Prix 이벤트에 참가한 적이 있나요?“라는 질문에 대해, 여러 행을 참조해야 한다. {Multiple Rows: (1,1), (4,1)}는 표의 여러 행을 참조한 것이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4ODA4NTg0MCw5MDExMzI0NzgsMTM4OT
-E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
-LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
-YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
-MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3Mz
-YsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5
-OTY2MjUwNDZdfQ==
+eyJoaXN0b3J5IjpbODg3MzkwMjQ3LDkwMTEzMjQ3OCwxMzg5MT
+U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
+MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
+M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
+MjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNi
+wxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LDk5
+NjYyNTA0Nl19
 -->
