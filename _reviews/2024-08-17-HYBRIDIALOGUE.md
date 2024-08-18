@@ -267,7 +267,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 
 
-### Dialogue Generation (대화 생성)
+### 3 Dialogue Generation (대화 생성)
 
   
 
@@ -281,7 +281,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzNzYxNjM4NCw0ODgxODc1NzcsLTE4MD
+eyJoaXN0b3J5IjpbMTg4NTY2OTUyMyw0ODgxODc1NzcsLTE4MD
 A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
 NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
 M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
