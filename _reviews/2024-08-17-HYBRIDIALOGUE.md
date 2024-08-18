@@ -296,7 +296,7 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 ![Screenshot 2024-08-18 at 3 27 46 PM](https://github.com/user-attachments/assets/77c5238a-36b2-49cb-b556-6d00d106da31){: .responsive-img .align-center}
 
 
-참조 정보를 추가하면 SacreBLEU와 BERTscore 모두 향상되었다. 그리고 SacreBLEU에서 참조 정보의 중요성이 더 두드러지게 나타났다. BERTscore는 자연스럽게 유사한 출력이 나오기 때문에 순위에 따라 점수를 보는 것이 더 신뢰할 수 있는 방법이다. 즉, BERTscore는 순위로 결과를 평가하는 것이 더 적절하기에 .
+참조 정보를 추가하면 SacreBLEU와 BERTscore 모두 향상되었다. 그리고 SacreBLEU에서 참조 정보의 중요성이 더 두드러지게 나타났다. BERTscore는 자연스럽게 유사한 출력이 나오기 때문에 순위에 따라 점수를 보는 것이 더 신뢰할 수 있는 방법이다. 즉, BERTscore는 순위로 결과를 평가하는 것이 더 적절하기에 SacreBLEU와 비교했을 때 점수의 변별력이 적을 수 있긴 하다.
 
 •  **오류 분석**:
 
@@ -308,11 +308,11 @@ SacreBLEU와 BERTscore를 사용하여 자동 평가 지표를 측정했다.
 
 •  **불성실한 응답(Unfaithful)**: 응답이 지식과 일치하지 않는 경우입니다. 예를 들어, “1998년에 이민자 수가 70만 명 증가했습니다”라는 응답이 나왔으나, 실제로는 2005년이 정답인 경우입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU3MjMyMjU3LDQzMjcyNzA5OSw0ODgxOD
-c1NzcsLTE4MDA3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0Njks
-MTM4ODg3NDcsNDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5Mj
-M2MzAwLC0xMDM5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4
-NDYsLTE5MDEwMjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MC
-wyMjcwMDAxMjAsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0
-NTQ0NTBdfQ==
+eyJoaXN0b3J5IjpbLTE3NjcyOTYwNTksNDMyNzI3MDk5LDQ4OD
+E4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OTE1NDQ2
+OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQsLTE1NT
+kyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMTYzNjg1
+NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5MDIyOT
+QwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1
+MDQ1NDQ1MF19
 -->
