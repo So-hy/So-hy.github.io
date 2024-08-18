@@ -194,7 +194,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 그리고 각 작업에 대한 베이스라인은 따로 설정하였다.
 
 
-**1 Retrieval (정보 검색)**
+### **1 Retrieval (정보 검색)**
 
   
 
@@ -210,11 +210,11 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 ![Screenshot 2024-08-18 at 2 10 47 PM](https://github.com/user-attachments/assets/cba23211-988b-4202-b228-116af260f077)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NDE2MjQ5OSwxMzg4ODc0Nyw0NDg5Mj
-AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
-MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
-wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
-ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5ND
-E3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3
-NTE1OTcwMDFdfQ==
+eyJoaXN0b3J5IjpbNTE1MzIwMTAyLDEzODg4NzQ3LDQ0ODkyMD
+IyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2Njky
+MiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLD
+EzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4
+NDM2NDMsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MT
+c4LC0xNDU2NjIzNTY3LDk5NjYyNTA0NiwxNjUzMzIzNDIzLDc1
+MTU5NzAwMV19
 -->
