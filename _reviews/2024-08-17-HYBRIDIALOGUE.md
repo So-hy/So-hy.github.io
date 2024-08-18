@@ -263,12 +263,29 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
  TaPas 모델이 SentenceBERT보다 전반적으로 더 나은 성능을 보였다. TaPas 모델의 성능을 참조 유형(셀, 연결된 단락, 행, 다중 행)별로 분석한 결과, 행(row) 참조에서 가장 좋은 성능을 기록했다. 이는 행 참조가 데이터셋에서 가장 많은 비율을 차지했기 때문이다. 다중 행(multi-row)의 경우 MRR 점수는 높았지만 MAP 점수는 낮아, 올바른 행 후보들이 때때로 낮은 순위에 위치했음을 의미한다.
 그리고 셀과 연결된 단락(Paragraph) 참조에서는 연결된 단락의 성능이 더 나았다. 
+
+
+
+
+### Dialogue Generation (대화 생성)
+
+  
+
+**Dialogue Generation**은 대화 시스템이 사용자와의 대화에서 자연스러운 응답을 생성하는 작업입니다. 이 단계에서는 대화의 역사와 참조 정보를 기반으로 다음 턴의 응답을 생성하는 것이 목표입니다.
+
+  
+
+•  **작업 목표**: 대화의 각 턴에서 자연스러운 언어 응답을 생성하는 것입니다. 두 가지 입력 설정을 사용하여 실험을 수행했습니다:
+
+•  **DialoGPT-noR**: 지식 콘텐츠 없이 대화 역사만을 입력으로 받아 다음 응답(Ai+1)을 예측합니다.
+
+•  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMT
-EzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwt
-MjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMT
-g1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0
-NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2ND
-MsLTExMjU4NDczNiwxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0x
-NDU2NjIzNTY3XX0=
+eyJoaXN0b3J5IjpbMTkzNzYxNjM4NCw0ODgxODc1NzcsLTE4MD
+A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
+NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
+M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
+MjM4NzMsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMj
+AsMTM3NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5
+NzEyOTQxNzhdfQ==
 -->
