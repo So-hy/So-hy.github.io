@@ -254,7 +254,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  **결과**:
 
-•  TaPas 모델이 SentenceBERT보다 전반적으로 더 나은 성능을 보였습니다.
+ TaPas 모델이 SentenceBERT보다 전반적으로 더 나은 성능을 보였습니다.
 
 •  TaPas 모델의 성능을 참조 유형(셀, 연결된 단락, 행, 다중 행)별로 분석한 결과, 행(row) 참조에서 가장 좋은 성능을 기록했습니다. 이는 행 참조가 데이터셋에서 가장 많은 비율을 차지했기 때문입니다.
 
@@ -262,11 +262,11 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  셀과 연결된 단락 참조에서는 연결된 단락의 성능이 더 나았습니다. 이는 단락의 텍스트가 셀의 텍스트보다 더 많은 정보를 포함하고 있어, 올바른 참조를 결정하는 데 유리하기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2NTIyNDg4LDkwMTEzMjQ3OCwxMzg5MT
-U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
-MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
-M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
-MjI5NDAsMjI3MDAwMTIwLDEzNzU4NDM2NDMsLTExMjU4NDczNi
-wxOTUwNDU0NDUwLC0xOTcxMjk0MTc4LC0xNDU2NjIzNTY3LDk5
-NjYyNTA0Nl19
+eyJoaXN0b3J5IjpbMTI3MzUyNzczNCw5MDExMzI0NzgsMTM4OT
+E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
+LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
+YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
+MDIyOTQwLDIyNzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3Mz
+YsMTk1MDQ1NDQ1MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5
+OTY2MjUwNDZdfQ==
 -->
