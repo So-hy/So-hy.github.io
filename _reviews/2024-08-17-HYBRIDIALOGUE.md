@@ -208,7 +208,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 ### Results
 
-![Screenshot 2024-08-18 at 2 10 47 PM](https://github.com/user-attachments/assets/cba23211-988b-4202-b228-116af260f077)
+![Screenshot 2024-08-18 at 2 10 47 PM](https://github.com/user-attachments/assets/cba23211-988b-4202-b228-116af260f077){: .responsive-img .align-center}
 
 정보 검색 모델의 성능은 MRR@10 (Mean Reciprocal Rank @10)로 평가되었다. 이 지표는 모델이 올바른 참조를 얼마나 높은 순위에 배치하는지를 평가한다.
 
@@ -217,6 +217,9 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 
 ### 2 System State Tracking (시스템 상태 추적)
+
+
+![Screenshot 2024-08-18 at 2 19 07 PM](https://github.com/user-attachments/assets/5bfe76d5-0f3f-4f4c-87ba-2af41f0b3092){: .responsive-img .align-center}
 
 
 **System State Tracking**은 대화가 진행되면서 시스템이 대화의 현재 상태를 추적하고, 그 상태에 맞는 참조를 선택하는 작업입니다. 이 작업은 대화 시스템이 대화의 맥락을 이해하고, 사용자가 제시하는 질문에 적절한 정보를 제공하는 데 필수적입니다.
@@ -234,11 +237,11 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 •  **TaPas**: TaPas는 표 형식 데이터를 처리하기 위해 설계된 BERT 기반의 질문-응답 모델입니다. 이 모델은 셀 선택(cell selection)에 특화되어 있으며, 이를 위해 데이터를 전처리합니다. 각 행(row)에 대해 하나의 셀을 선택하도록 학습시키고, 연결된 단락을 셀로 처리하여 정확한 참조를 선택하도록 합니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
-AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
-MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
-wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
-ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5ND
-E3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3
-NTE1OTcwMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3NDM1MzA2MTEsMTM4OTE1NDQ2OSwxMz
+g4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYz
+MDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0Ni
+wtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIy
+NzAwMDEyMCwxMzc1ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1ND
+Q1MCwtMTk3MTI5NDE3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYs
+MTY1MzMyMzQyM119
 -->
