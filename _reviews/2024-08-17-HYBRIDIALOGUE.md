@@ -210,15 +210,15 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 
 ![Screenshot 2024-08-18 at 2 10 47 PM](https://github.com/user-attachments/assets/cba23211-988b-4202-b228-116af260f077)
 
-정보 검색 모델의 성능은 MRR@10 (Mean Reciprocal Rank @10)로 평가되었다. 이 지표는 모델이 올바른 참조를 얼마나 높은 순위에 배치하는지를 평가gks다.
+정보 검색 모델의 성능은 MRR@10 (Mean Reciprocal Rank @10)로 평가되었다. 이 지표는 모델이 올바른 참조를 얼마나 높은 순위에 배치하는지를 평가한다.
 
 •  **결과**: Okapi BM25 모델이 MRR@10 점수 0.427을 기록했습니다. 이는 첫 번째 질문에 대해 올바른 참조를 상당히 잘 찾아내었음을 의미합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MDU5MjQzMywxMzg4ODc0Nyw0NDg5Mj
-AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
-MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
-wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
-ODQzNjQzLC0xMTI1ODQ3MzYsMTk1MDQ1NDQ1MCwtMTk3MTI5ND
-E3OCwtMTQ1NjYyMzU2Nyw5OTY2MjUwNDYsMTY1MzMyMzQyMyw3
-NTE1OTcwMDFdfQ==
+eyJoaXN0b3J5IjpbLTE3Nzc2MjI0MzYsMTM4ODg3NDcsNDQ4OT
+IwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMDM5NjY2
+OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEwMjM4Nz
+MsMTM1MjQ1NDg1OCwtMTM5OTAyMjk0MCwyMjcwMDAxMjAsMTM3
+NTg0MzY0MywtMTEyNTg0NzM2LDE5NTA0NTQ0NTAsLTE5NzEyOT
+QxNzgsLTE0NTY2MjM1NjcsOTk2NjI1MDQ2LDE2NTMzMjM0MjMs
+NzUxNTk3MDAxXX0=
 -->
