@@ -372,12 +372,18 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함된다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것이다.
 
+라고 했는데, 아직 찾아보니 공개하지 않은 듯하다..ㅎㅎㅎ...
+
+
+해당 논문은 복잡한 다중 홉 질문을 대화 형식으로 분해한다는 점이 인상적이었다. 물론 인력으로 했지만..  
+
+아쉬운 점은 다른 데이터셋으로 실험했을 때, 해당 데이터셋이 동일 작업에서 얼마나 더 좋은 성능을 얻었는가에 대한 내용이 없어서 어느정도의 성능 향상이 있었는가를 파악하기 어렵다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODk5MDk2NjI5LDI2NjY0NTUzNywtMTU3Nj
-Y5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTks
-NDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MT
-U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
-MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
-M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
-MjI5NDBdfQ==
+eyJoaXN0b3J5IjpbLTE5NTc5Nzk5NzQsODk5MDk2NjI5LDI2Nj
+Y0NTUzNywtMTU3NjY5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQz
+MCw0MzI3MjcwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMT
+EzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwt
+MjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMT
+g1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0
+NTQ4NThdfQ==
 -->
