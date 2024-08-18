@@ -326,12 +326,20 @@ Turkers는 아래의 세 가지 기준에 따라 기계 응답을 평가했다:
 •  **유창성(Fluency)**: 응답이 문법적으로 얼마나 올바른지 평가한다.
 
 •  **정보성(Informativeness)**: 기계 응답이 인간이 제공한 정답과 비교했을 때 얼마나 정확한지를 평가한다.
+
+
+### Results
+
+
+state tracking references를 활용한 모델이 “정보성” 점수에서 더 좋은 성과를 보였습니다. 이는 추가 정보를 활용하여 보다 정확한 응답을 제공할 수 있었기 때문입니다.
+
+•  반면, 참조를 사용하지 않은 모델은 “일관성”과 “유창성” 점수에서 더 좋은 성과를 보였습니다. 이는 참조가 없는 상황에서 응답이 더 자연스럽고 간결하게 생성될 수 있기 때문입니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NzkwNzAxNiwxMzA4MTA1MTQ1LDg0OD
-E5MDQzMCw0MzI3MjcwOTksNDg4MTg3NTc3LC0xODAwNzU3ODQz
-LDkwMTEzMjQ3OCwxMzg5MTU0NDY5LDEzODg4NzQ3LDQ0ODkyMD
-IyOSwtMjE0NzE3NjQ3NCwtMTU1OTIzNjMwMCwtMTAzOTY2Njky
-MiwtMTg1MDIzMTE1MiwxNjM2ODU0ODQ2LC0xOTAxMDIzODczLD
-EzNTI0NTQ4NTgsLTEzOTkwMjI5NDAsMjI3MDAwMTIwLDEzNzU4
-NDM2NDNdfQ==
+eyJoaXN0b3J5IjpbLTE1NzY2OTA3MDksMTMwODEwNTE0NSw4ND
+gxOTA0MzAsNDMyNzI3MDk5LDQ4ODE4NzU3NywtMTgwMDc1Nzg0
+Myw5MDExMzI0NzgsMTM4OTE1NDQ2OSwxMzg4ODc0Nyw0NDg5Mj
+AyMjksLTIxNDcxNzY0NzQsLTE1NTkyMzYzMDAsLTEwMzk2NjY5
+MjIsLTE4NTAyMzExNTIsMTYzNjg1NDg0NiwtMTkwMTAyMzg3My
+wxMzUyNDU0ODU4LC0xMzk5MDIyOTQwLDIyNzAwMDEyMCwxMzc1
+ODQzNjQzXX0=
 -->
