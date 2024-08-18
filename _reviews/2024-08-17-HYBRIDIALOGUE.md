@@ -340,7 +340,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 ## Conclusion
 
 
-이 논문은 **HYBRIDIALOGUE**라는 새로운 데이터셋을 소개하며, 정보 탐색 대화에서 표와 텍스트에 기반한 지식을 사용하는 모델 개발의 필요성을 강조한다. 이전 연구들은 질문 응답 분야에서 표와 텍스트를 결합한 방식을 사용했지만, 대화 형식에서는 이러한 방식이 잘 활용되지 않았다. 본 논문에서 수행한 다양한 작업의 결과는 여전히 개선의 여지가 많음을 보여주며, 이 하이브리드 형식에 잘 적응할 수 있는 모델을 구축할 필요성을 시사한다. 또한, HYBRIDIALOGUE를 활용하여 자동화된 다중 홉 질문 분해에 대한 연구도 가능할 것임을 언급하고 있습니다.
+이 논문은 **HYBRIDIALOGUE**라는 새로운 데이터셋을 소개하며, 정보 탐색 대화에서 표와 텍스트에 기반한 지식을 사용하는 모델 개발의 필요성을 강조한다. 이전 연구들은 질문 응답 분야에서 표와 텍스트를 결합한 방식을 사용했지만, 대화 형식에서는 이러한 방식이 잘 활용되지 않았다. 본 논문에서 수행한 다양한 작업의 결과는 여전히 개선의 여지가 많음을 보여주며, 이 하이브리드 형식에 잘 적응할 수 있는 모델을 구축할 필요성을 시사한다. 또한, HYBRIDIALOGUE를 활용하여 자동화된 다중 홉 질문 분해에 대한 연구도 가능할 것임을 언급하고 있다.
 
   
 
@@ -373,7 +373,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyODQ0ODg2MiwyNjY2NDU1MzcsLTE1Nz
+eyJoaXN0b3J5IjpbMTE2MTQyMjM4OSwyNjY2NDU1MzcsLTE1Nz
 Y2OTA3MDksMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNzI3MDk5
 LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OT
 E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
