@@ -350,7 +350,7 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 
 1. **데이터의 한계**:
 
-•  HYBRIDIALOGUE 데이터셋은 구조화된 데이터(표)와 비구조화된 데이터(텍스트)에 기반하지만, 지식 그래프와 같은 다른 형식은 포함하지 않습니다. 또한, 대화는 단일 Wikipedia 페이지 내에서만 이루어지며, 더 개방된 정보 탐색 대화를 위해 향후 연구에서 확장될 수 있습니다.
+•  HYBRIDIALOGUE 데이터셋은 구조화된 데이터(표)와 비구조화된 데이터(텍스트)에 기반하지만, 지식 그래프와 같은 다른 형식은 포함하지 않는다. 또한, 대화는 단일 Wikipedia 페이지 내에서만 이루어지며, 더 개방된 정보 탐색 대화를 위해 향후 연구에서 확장될 수 있습니다.
 
 2. **Wikipedia 기반 데이터**:
 
@@ -373,11 +373,11 @@ State tracking references를 활용한 모델이 “정보성” 점수에서 �
 •  연구자들은 미래의 연구를 위해 데이터셋을 공개할 예정이며, 여기에는 Mechanical Turk 작업자들이 작성한 대화 샘플, 각 대화 턴과 연관된 참조, 그리고 참조가 위치한 Wikipedia 페이지가 포함됩니다. 데이터셋은 MIT 라이선스 하에 오픈 소스로 공개될 것입니다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2MTQyMjM4OSwyNjY2NDU1MzcsLTE1Nz
-Y2OTA3MDksMTMwODEwNTE0NSw4NDgxOTA0MzAsNDMyNzI3MDk5
-LDQ4ODE4NzU3NywtMTgwMDc1Nzg0Myw5MDExMzI0NzgsMTM4OT
-E1NDQ2OSwxMzg4ODc0Nyw0NDg5MjAyMjksLTIxNDcxNzY0NzQs
-LTE1NTkyMzYzMDAsLTEwMzk2NjY5MjIsLTE4NTAyMzExNTIsMT
-YzNjg1NDg0NiwtMTkwMTAyMzg3MywxMzUyNDU0ODU4LC0xMzk5
-MDIyOTQwXX0=
+eyJoaXN0b3J5IjpbMjg3MDI2OTEyLDI2NjY0NTUzNywtMTU3Nj
+Y5MDcwOSwxMzA4MTA1MTQ1LDg0ODE5MDQzMCw0MzI3MjcwOTks
+NDg4MTg3NTc3LC0xODAwNzU3ODQzLDkwMTEzMjQ3OCwxMzg5MT
+U0NDY5LDEzODg4NzQ3LDQ0ODkyMDIyOSwtMjE0NzE3NjQ3NCwt
+MTU1OTIzNjMwMCwtMTAzOTY2NjkyMiwtMTg1MDIzMTE1MiwxNj
+M2ODU0ODQ2LC0xOTAxMDIzODczLDEzNTI0NTQ4NTgsLTEzOTkw
+MjI5NDBdfQ==
 -->
