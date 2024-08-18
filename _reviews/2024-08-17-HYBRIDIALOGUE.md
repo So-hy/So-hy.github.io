@@ -197,7 +197,7 @@ HYBRIDIALOGUE는 OTT-QA라는 기존 데이터셋에서 복잡하고 인위적�
 이렇게 생성된 데이터셋으로 세 가지 작업(retrieval, system state tracking, dialogue generation)을 수행하였다. 그리고 각 작업에 대한 베이스라인은 따로 설정하였다.
 
 
-### **1 Retrieval (정보 검색)**
+### **1. Retrieval (정보 검색)**
 
   
 
@@ -219,7 +219,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 
 
-### 2 System State Tracking (시스템 상태 추적)
+### 2. System State Tracking (시스템 상태 추적)
 
 
 **System State Tracking**은 대화가 진행되면서 시스템이 대화의 현재 상태를 추적하고, 그 상태에 맞는 참조를 선택하는 작업이다. 이 작업은 대화 시스템이 대화의 맥락을 이해하고, 사용자가 제시하는 질문에 적절한 정보를 제공하는 데 필수적이다.
@@ -267,7 +267,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 
 
-### 3 Dialogue Generation (대화 생성)
+### 3. Dialogue Generation (대화 생성)
 
   
 
@@ -281,7 +281,7 @@ Okapi BM25 모델이 MRR@10 점수 0.427을 기록했다. 이는 첫 번째 질�
 
 •  **DialoGPT**: 대화 역사와 함께 참조 정보를 포함하여 다음 응답을 예측합니다. 참조 정보는 평탄화(flattening) 과정을 거쳐 대화 역사와 함께 입력됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NTY2OTUyMyw0ODgxODc1NzcsLTE4MD
+eyJoaXN0b3J5IjpbMTQxNDgxNzI2Myw0ODgxODc1NzcsLTE4MD
 A3NTc4NDMsOTAxMTMyNDc4LDEzODkxNTQ0NjksMTM4ODg3NDcs
 NDQ4OTIwMjI5LC0yMTQ3MTc2NDc0LC0xNTU5MjM2MzAwLC0xMD
 M5NjY2OTIyLC0xODUwMjMxMTUyLDE2MzY4NTQ4NDYsLTE5MDEw
