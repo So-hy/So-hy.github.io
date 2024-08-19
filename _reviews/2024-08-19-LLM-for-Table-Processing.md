@@ -25,7 +25,7 @@ https://arxiv.org/abs/2402.05121
 
   
 
-최근, 대형 언어 모델(LLMs)은 다양한 작업에서 그 효과성과 다재다능함을 입증하며, 자연어 처리 분야에서 중요한 진전을 이루었다. 이러한 성공은 연구자들이 LLMs를 테이블 관련 작업에 적용하는 것을 조사하게 했다. 그러나 테이블의 구조는 일반적으로 LLM 사전 훈련에 사용되는 평문 텍스트와는 다르다. 자연어 코퍼스와는 달리 [6], 테이블은 고유한 특성을 가지고 있다.
+최근, 대형 언어 모델(LLMs)은 다양한 작업에서 그 효과성과 다재다능함을 입증하며, 자연어 처리 분야에서 중요한 진전을 이루었다. 이러한 성공은 연구자들이 LLMs를 테이블 관련 작업에 적용하는 것에 대해 연구하게 했다. 그러나 테이블의 구조는 일반적으로 LLM 사전 훈련에 사용되는 평문 텍스트와는 다르다. 자연어 코퍼스와는 달리, 테이블은 고유한 특성을 가지고 있다. 아래의 내용을 살펴보자.
 
   
 
@@ -43,7 +43,7 @@ https://arxiv.org/abs/2402.05121
 
 이 설문조사의 주요 기여는 최근 제안된 스프레드시트 조작 및 데이터 분석을 포함한 다양한 테이블 작업의 광범위한 범위를 다루는 것이다. 또한, 명령 조정과 LLM 기반 에이전트 접근법에 초점을 맞춰 최신 LLM 사용 패러다임에 따라 방법들을 분류한다. 우리는 https://github.com/godaai/llm-table-survey 에서 접근할 수 있는 논문, 코드, 데이터셋과 같은 리소스를 수집한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTAxNzA5NDMsLTEwMjk5NzE3NzIsMT
-AyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5MTI1
-NDE3LDgzMzc5ODAwNF19
+eyJoaXN0b3J5IjpbMTkxODI0Mjg4OCwtMTAyOTk3MTc3MiwxMD
+I3NzMxMjE3LDEyMjAzMTc5MDUsLTc3NzY3MTA4Myw2NDkxMjU0
+MTcsODMzNzk4MDA0XX0=
 -->
