@@ -48,13 +48,30 @@ https://arxiv.org/abs/2402.05121
 ## 2 Table Types and Table Tasks
 
 
+### 2.1 Table Definition
+
 테이블은 거의 모든 도메인에서 지식과 정보를 조직하고 조작하는 데 널리 사용되는 데이터 구조이다. 이 문단에서는 테이블 형식, 테이블 작업, 그리고 테이블 데이터의 수명 주기에 대해 간략히 요약하고 있다.
 
 
+이 논문은 주로 (반)구조화된 테이블에 초점을 맞추고 있으며, 이러한 테이블은 행과 열로 구성된 그리드 형태로, 각 열은 특정 속성을 나타내고 각 행은 다양한 속성 값을 포함한 레코드로 구성된다. 테이블의 주요 형식은 다음과 같다:
+
+  
+
+1. **스프레드시트 (SS)**: Google Sheets와 Microsoft Excel이 대표적이며, 사용자가 데이터를 쉽게 표시하고 조작할 수 있도록 다양한 기능을 제공한다. 병합된 셀, 계층적 열 등 불규칙한 레이아웃이 특징이며, 교사, 인사 부서, 영업 사원 등이 주로 사용한다.
+
+2. **웹 테이블 (WT)**: HTML, 마크다운, JSON, XML 등의 형식으로 존재하며, 웹 페이지에 포함된 테이블로, 페이지 제목이나 주변 텍스트와 같은 맥락 정보가 함께 제공된다. 위키백과의 테이블이 대표적인 예로, 이를 추출하여 질문 응답 등에 활용할 수 있다.
+
+3. **데이터베이스 (DB)**: 관계형 데이터베이스의 테이블로, 명확하게 정의된 스키마를 가지고 있으며, OLTP와 OLAP 시스템으로 구분된다. 데이터베이스는 확장 가능하고 안정적이며, 데이터 정확성과 무결성이 요구되는 기업에서 사용된다.
+
+4. **문서 내 테이블 (DOC)**: 이미지, PDF, Word 파일 등에 포함된 테이블로, 구매 주문서, 재무 보고서, 영수증 등의 문서에 사용된다. 이러한 테이블은 텍스트로 둘러싸여 있어 추출 및 구조화가 필요하며, 불일치된 레이아웃이 정보 이해에 장애가 될 수 있다.
+
+  
+
+이 네 가지 테이블 형식은 각기 다른 사용자 시나리오에 맞추어져 있으며, AI 모델을 통해 다양한 문제를 해결할 수 있다. 예를 들어, 스프레드시트 시스템은 사용자 조작을 자동화하고, 웹 테이블은 질문 응답에 활용되며, 데이터베이스는 NL2SQL 기술을 통합해 데이터 엔지니어링을 지원한다. 문서 내 테이블은 식별, 구조화, 변환이 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxOD
-k0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3
-Njg5NCwxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3MzEyMT
-csMTIyMDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4MzM3
-OTgwMDRdfQ==
+eyJoaXN0b3J5IjpbLTcyNTg5MDM4NCwtMTc3MDgxNTU1MCwxNz
+kxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NSwtNDkzMjg1
+OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5NzE3Nz
+IsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5
+MTI1NDE3LDgzMzc5ODAwNF19
 -->
