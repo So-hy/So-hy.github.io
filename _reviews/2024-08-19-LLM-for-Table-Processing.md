@@ -42,14 +42,13 @@ https://arxiv.org/abs/2402.05121
  
 
 
+## 2 Table Types and Table Tasks
 
 
-
-
-
+테이블은 거의 모든 도메인에서 지식과 정보를 조직하고 조작하는 데 널리 사용되는 데이터 구조이다. 이 문단에서는 테이블 형식, 테이블 작업, 그리고 테이블 데이터의 수명 주기에 대해 간략히 요약하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5NDEyODU5OSwxNzYxNjE3MTY1LC00OT
-MyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OCwtMTAyOTk3
-MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3NzY3MTA4My
-w2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbLTIxMDMyNDQ3MzEsMTg5NDEyODU5OSwxNz
+YxNjE3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0
+Mjg4OCwtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MD
+UsLTc3NzY3MTA4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
 -->
