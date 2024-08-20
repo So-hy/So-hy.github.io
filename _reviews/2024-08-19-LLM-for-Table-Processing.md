@@ -40,10 +40,15 @@ https://arxiv.org/abs/2402.05121
 테이블 처리 작업이 제시하는 이러한 고유한 과제들은 LLMs를 이러한 특정 목적에 맞게 조정할 필요성을 강조한다. 초기 연구인 TaBERT, TaPas, TURL, TaPEx 등은 테이블에 대해 신경망 언어 모델을 사전 훈련하거나 미세 조정하는 패러다임을 따랐다. 이들 방법은 위치 임베딩(아마 포지셔널 인코딩), 어텐션 메커니즘, 사전 훈련 작업을 위한 학습 목표를 포함하여 모델 아키텍처를 조정한다. 이러한 접근법들은 좋은 결과를 도출하지만, 주로 테이블 질문 응답(table QA)이나 사실 검증과 같은 특정 테이블 작업에 국한된다. 또한, 이들이 사용하는 BERT나 BART 모델은 더 넓은 범위의 테이블 작업을 처리하기에는 충분히 크거나 다재다능하지 않다(LMs). 최신 LLM 기반 접근법은 테이블 작업을 두 가지 주요 방식으로 해결한다: (1) 테이블 데이터셋을 선별하고 테이블 모델을 사전 훈련하거나 미세 조정; (2) LLM의 강력한 추론 능력을 활용하여 테이블 데이터를 이해하는 LLM 기반 에이전트를 활용하거나 LLM을 프롬프팅. 이러한 새로운 방법들은 Instruction tuning, In Context Learning, Chain-of-thought 추론, Autonomous agents와 같은 LLM-specific 기술들을 활용하여 테이블 처리를 보다 다재다능하고 포괄적으로 접근한다.
 
  
-Dong et al. [1]와 Badaro et al. [2]의 이전 설문조사들은 주로 BERT나 BART와 같은 더 작은 모델을 사용한 사전 훈련 또는 미세 조정 기술에 집중하고 있다. 그러나 이들은 대형 언어 모델(LLMs) 기반의 방법, 특히 프롬프트 전략이나 에이전트 기반 접근법을 다루지 않는다. 또한, 일부 설문조사는 특정 테이블 작업에 국한되어 있다. 예를 들어, Jin et al. [22]는 테이블 질문 응답(table QA)에만 집중하고 있으며, Zhang et al. [4]는 테이블 추론(table reasoning)에 중점을 두지만 스프레드시트 조작과 같은 작업은 간과하고 있다. Fang et al. [3]는 테이블 데이터 예측, 생성, 이해에 대한 연구를 검토하지만, 테이블 처리에 대한 논의는 깊이가 부족하다. Qin et al. [23]는 자연어에서 SQL로 변환하는 작업(NL2SQL)에 집중하고 있으며, 스프레드시트 조작과 데이터 분석 작업은 다루지 않고 있다.
+Dong et al.[^1]와 Badaro et al.[^2]의 이전 설문조사들은 주로 BERT나 BART와 같은 더 작은 모델을 사용한 사전 훈련 또는 미세 조정 기술에 집중하고 있다. 그러나 이들은 대형 언어 모델(LLMs) 기반의 방법, 특히 프롬프트 전략이나 에이전트 기반 접근법을 다루지 않는다. 또한, 일부 설문조사는 특정 테이블 작업에 국한되어 있다. 예를 들어, Jin et al. [22]는 테이블 질문 응답(table QA)에만 집중하고 있으며, Zhang et al. [4]는 테이블 추론(table reasoning)에 중점을 두지만 스프레드시트 조작과 같은 작업은 간과하고 있다. Fang et al. [3]는 테이블 데이터 예측, 생성, 이해에 대한 연구를 검토하지만, 테이블 처리에 대한 논의는 깊이가 부족하다. Qin et al. [23]는 자연어에서 SQL로 변환하는 작업(NL2SQL)에 집중하고 있으며, 스프레드시트 조작과 데이터 분석 작업은 다루지 않고 있다.
+
+
+
+[^1]:1.  Dong H, Cheng Z, He X, Zhou M, Zhou A, Zhou F, Liu A, Han S, Zhang D. Ta- ble Pre-training: A Survey on Model Archi- tectures, Pre-training Objectives, and Down- stream Tasks. In: Proceedings of the Thirty- First International Joint Conference on Artifi- cial Intelligence. July 2022, 5426–5435
+[^2]: the Association for Computational Linguis- tics, 2023, 11: 227–249
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NCwxOT
-E4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3MzEyMTcsMTIyMDMx
-NzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4MzM3OTgwMDRdfQ
-==
+eyJoaXN0b3J5IjpbMTU3MjY2MTE1NCwtNDkzMjg1OTA1LC0xOD
+M3NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5NzE3NzIsMTAyNzcz
+MTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5MTI1NDE3LD
+gzMzc5ODAwNF19
 -->
