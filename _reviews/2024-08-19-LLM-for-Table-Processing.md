@@ -31,7 +31,7 @@ https://arxiv.org/abs/2402.05121
 
 •  **구조화된 데이터:** 테이블은 본질적으로 구조화되어 있으며, 행과 열로 구성되고 각 열은 데이터의 의미와 상호 관계를 나타내는 스키마를 가지고 있다. 사람들은 테이블을 수직 및 수평으로 쉽게 해석할 수 있지만, 주로 순차적인 텍스트 데이터를 훈련하는 LLMs는 테이블의 다차원적 측면을 이해하는 데 어려움을 겪는다.
 
-•  **복잡한 추론:** 테이블 처리 작업은 종종 비교나 집계와 같은 수치 연산, 열 유형 주석 달기나 결측값 감지와 같은 데이터 준비, 기능 엔지니어링이나 시각화와 같은 보다 정교한 분석을 요구한다. 이러한 작업은 복잡한 추론과 문제를 여러 단계로 분해하는 능력, 논리적 작업을 요구하여 기계 지능에 큰 도전을 제시한다.
+•  **복잡한 추론:** 테이블 처리 작업은 종종 비교나 집계와 같은 수치 연산(Numeric Operation), 열 유형 주석 달기나 결측값 감지와 같은 데이터 준비, 기능 엔지니어링이나 시각화와 같은 보다 정교한 분석을 요구한다. 이러한 작업은 복잡한 추론과 문제를 여러 단계로 분해하는 능력, 논리적 작업을 요구하여 기계 지능에 큰 도전을 제시한다.
 
 •  **외부 도구 활용:** 실제 시나리오에서 사람들은 Microsoft Excel, Python, SQL과 같은 전문 도구를 사용하여 테이블과 상호 작용하는 경우가 많다. 효과적인 테이블 처리를 위해 LLMs는 이러한 외부 도구를 통합하고 사용하는 데 능숙해야 한다.
 
@@ -43,7 +43,7 @@ https://arxiv.org/abs/2402.05121
 
 이 설문조사의 주요 기여는 최근 제안된 스프레드시트 조작 및 데이터 분석을 포함한 다양한 테이블 작업의 광범위한 범위를 다루는 것이다. 또한, 명령 조정과 LLM 기반 에이전트 접근법에 초점을 맞춰 최신 LLM 사용 패러다임에 따라 방법들을 분류한다. 우리는 https://github.com/godaai/llm-table-survey 에서 접근할 수 있는 논문, 코드, 데이터셋과 같은 리소스를 수집한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxODI0Mjg4OCwtMTAyOTk3MTc3MiwxMD
-I3NzMxMjE3LDEyMjAzMTc5MDUsLTc3NzY3MTA4Myw2NDkxMjU0
-MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbMTUxODIxMzEzNywxOTE4MjQyODg4LC0xMD
+I5OTcxNzcyLDEwMjc3MzEyMTcsMTIyMDMxNzkwNSwtNzc3Njcx
+MDgzLDY0OTEyNTQxNyw4MzM3OTgwMDRdfQ==
 -->
