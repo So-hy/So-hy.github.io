@@ -72,9 +72,13 @@ https://arxiv.org/abs/2402.05121
 이 네 가지 테이블 형식은 각기 다른 사용자 시나리오에 맞추어져 있으며, AI 모델을 통해 다양한 문제를 해결할 수 있다. 예를 들어, 스프레드시트 시스템은 사용자 조작을 자동화하고, 웹 테이블은 질문 응답에 활용되며, 데이터베이스는 NL2SQL 기술을 통합해 데이터 엔지니어링을 지원한다. 문서 내 테이블은 식별, 구조화, 변환이 필요하다.
 
 
+### 2.2 Differences Between Table and Text
 
+
+
+많은 AI 방법론이 텍스트 모델링 기법을 테이블에 적용하려고 하지만, 테이블과 텍스트 사이에는 중요한 차이점이 있기 때문에 이를 고려해야 한다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNTI3NTIzNCwtNzI1ODkwMzg0LC0xNz
+eyJoaXN0b3J5IjpbMTMzNDM1NTgyMiwtNzI1ODkwMzg0LC0xNz
 cwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3
 MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OC
 wtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3
