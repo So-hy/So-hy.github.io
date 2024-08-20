@@ -95,10 +95,15 @@ https://arxiv.org/abs/2402.05121
 2. **테이블의 이해는 스키마나 헤더 이름에 크게 의존한다**: 테이블을 이해하려면 열 이름이나 스키마 같은 구조적인 정보가 매우 중요하다.
 
 3. **테이블은 행과 열의 순서가 바뀌어도 영향이 없는 경우가 있다**: 일부 테이블은 행과 열의 순서를 바꿔도 전체 의미에 큰 변화가 없다.
+
+
+
+### 2.3 Table Tasks
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQzMjk4NjM4MCwtNzI1ODkwMzg0LC0xNz
-cwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3
-MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OC
-wtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3
-NzY3MTA4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbNjQ3MDAyMTQ0LC03MjU4OTAzODQsLTE3Nz
+A4MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4NTk5LDE3NjE2MTcx
+NjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NCwxOTE4MjQyODg4LC
+0xMDI5OTcxNzcyLDEwMjc3MzEyMTcsMTIyMDMxNzkwNSwtNzc3
+NjcxMDgzLDY0OTEyNTQxNyw4MzM3OTgwMDRdfQ==
 -->
