@@ -48,6 +48,7 @@ https://arxiv.org/abs/2402.05121
 ## 2 Table Types and Table Tasks
 
 
+
 ### 2.1 Table Definition
 
 
@@ -69,8 +70,11 @@ https://arxiv.org/abs/2402.05121
   
 
 이 네 가지 테이블 형식은 각기 다른 사용자 시나리오에 맞추어져 있으며, AI 모델을 통해 다양한 문제를 해결할 수 있다. 예를 들어, 스프레드시트 시스템은 사용자 조작을 자동화하고, 웹 테이블은 질문 응답에 활용되며, 데이터베이스는 NL2SQL 기술을 통합해 데이터 엔지니어링을 지원한다. 문서 내 테이블은 식별, 구조화, 변환이 필요하다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTc3NDcxOCwtNzI1ODkwMzg0LC0xNz
+eyJoaXN0b3J5IjpbLTcxNTI3NTIzNCwtNzI1ODkwMzg0LC0xNz
 cwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3
 MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OC
 wtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3
