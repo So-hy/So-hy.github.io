@@ -44,10 +44,10 @@ Dong et al.[^1]와 Badaro et al.[^2]의 이전 설문조사들은 주로 BERT나
 
 
 
-[^1]:1.  Dong H, Cheng Z, He X, Zhou M, Zhou A, Zhou F, Liu A, Han S, Zhang D. Ta- ble Pre-training: A Survey on Model Archi- tectures, Pre-training Objectives, and Down- stream Tasks. In: Proceedings of the Thirty- First International Joint Conference on Artifi- cial Intelligence. July 2022, 5426–5435
-[^2]: the Association for Computational Linguis- tics, 2023, 11: 227–249
+[^1]: Dong H, Cheng Z, He X, Zhou M, Zhou A, Zhou F, Liu A, Han S, Zhang D. Ta- ble Pre-training: A Survey on Model Archi- tectures, Pre-training Objectives, and Down- stream Tasks. In: Proceedings of the Thirty- First International Joint Conference on Artifi- cial Intelligence. July 2022, 5426–5435
+[^2]:  Badaro G, Saeed M, Papotti P. Transform- ers for tabular data representation: A survey of models and applications. Transactions of the Association for Computational Linguis- tics, 2023, 11: 227–249
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MjY2MTE1NCwtNDkzMjg1OTA1LC0xOD
+eyJoaXN0b3J5IjpbMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xOD
 M3NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5NzE3NzIsMTAyNzcz
 MTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5MTI1NDE3LD
 gzMzc5ODAwNF19
