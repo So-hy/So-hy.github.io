@@ -76,9 +76,27 @@ https://arxiv.org/abs/2402.05121
 
 
 
-많은 AI 방법론이 텍스트 모델링 기법을 테이블에 적용하려고 하지만, 테이블과 텍스트 사이에는 중요한 차이점이 있기 때문에 이를 고려해야 한다
+많은 AI 방법론이 텍스트 모델링 기법을 테이블에 적용하려고 하지만, 테이블과 텍스트 사이에는 중요한 차이점이 있기 때문에 이를 고려해야 한다.
+
+1. **텍스트는 일방향적이다**: 텍스트는 일반적으로 한 방향으로 읽힌다(예: 왼쪽에서 오른쪽으로).
+
+2. **텍스트는 보통 왼쪽에서 오른쪽으로 읽힌다**: 텍스트는 일정한 방향으로 읽히는 것이 일반적이다.
+
+3. **텍스트에서 두 토큰의 위치를 바꾸면 의미가 변한다**: 텍스트 내에서 단어(토큰) 두 개의 위치를 바꾸면 문장의 의미가 달라질 수 있다.
+
+  
+
+반면에 테이블은 다음과 같은 차이점을 가지고 있다:
+
+  
+
+1. **테이블은 이차원적이다**: 테이블은 수평(행)과 수직(열) 방향으로 동시에 읽어야 한다.
+
+2. **테이블의 이해는 스키마나 헤더 이름에 크게 의존한다**: 테이블을 이해하려면 열 이름이나 스키마 같은 구조적인 정보가 매우 중요하다.
+
+3. **테이블은 행과 열의 순서가 바뀌어도 영향이 없는 경우가 있다**: 일부 테이블은 행과 열의 순서를 바꿔도 전체 의미에 큰 변화가 없다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNDM1NTgyMiwtNzI1ODkwMzg0LC0xNz
+eyJoaXN0b3J5IjpbLTQzMjk4NjM4MCwtNzI1ODkwMzg0LC0xNz
 cwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3
 MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OC
 wtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3
