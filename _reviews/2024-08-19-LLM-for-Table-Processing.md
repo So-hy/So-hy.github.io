@@ -101,11 +101,35 @@ https://arxiv.org/abs/2402.05121
 ### 2.3 Table Tasks
 
 
+이 문단에서는 LLM(대형 언어 모델)을 통해 자동화할 수 있는 테이블 작업에 대해 설명하고 있다.
+  
 
+•  **Table QA(질문 응답)와 사실 검증**: 가장 전통적인 테이블 작업으로, 테이블에서 지식을 추출하여 자연어 질문에 답변하거나 사실을 검증하는 작업이다.
+
+•  **Table-to-text**: 테이블 데이터를 기반으로 자연어 텍스트를 생성하는 작업이다.
+
+•  **Data cleaning(데이터 정리)**: 테이블 데이터에서 오류를 식별하고 수정하는 작업이다.
+
+•  **Column/Row/Cell population**: 테이블에 대해 가능한 열, 행, 셀을 생성하는 작업이다.
+
+•  **Entity linking(엔티티 연결)**와 **column type annotation(열 유형 주석 달기)**: 특정 엔티티를 지식 베이스와 연결하거나, 열을 지식 베이스의 유형으로 분류하는 작업으로, 종종 외부 지식 베이스를 활용한다.
+
+•  **Spreadsheet manipulation(스프레드시트 조작)**: 스프레드시트 시스템은 원래 인간 사용자를 위해 설계되었으나, AI를 사용해 스프레드시트를 자동으로 수정하는 작업이다. 여기서 AI는 스프레드시트 시스템의 API나 수식을 활용한다.
+
+•  **NL2SQL**: 자연어 질문을 SQL 질의문으로 변환하는 작업으로, 데이터 분석가가 SQL 질의를 작성하는 효율성을 높인다. 이 작업은 오랜 기간 연구되었으며, LLM이 이 분야의 정확도를 향상시킨다.
+
+•  **Data analysis(데이터 분석)**: 기능 엔지니어링, 기계 학습 등으로 구성된 데이터 분석 작업이다.
+
+•  **Table detection(테이블 감지)**와 **table extraction(테이블 추출)**: 문서 내에서 테이블을 식별하고 이를 마크다운, HTML, 스프레드시트 등 테이블 전용 형식으로 변환하는 작업이다.
+
+  
+
+이들 작업은 **테이블 관련 작업**, **스프레드시트 관련 작업**, **데이터베이스 관련 작업**, **문서 관련 작업**으로 크게 분류될 수 있다. 이러한 작업들은 AI 모델이 테이블 내용을 직접 이해하거나, 스프레드시트를 조작하기 위한 코드를 작성하거나, SQL을 작성해 데이터베이스에 접근하거나, 문서에서 테이블 데이터를 추출하는 등의 능력을 요구한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNz
-cwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3
-MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OC
-wtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3
-NzY3MTA4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03Mj
+U4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4
+NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NC
+wxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3MzEyMTcsMTIy
+MDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4MzM3OTgwMD
+RdfQ==
 -->
