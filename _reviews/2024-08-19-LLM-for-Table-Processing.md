@@ -135,28 +135,33 @@ https://arxiv.org/abs/2402.05121
 ![Screenshot 2024-08-21 at 11 11 52 PM](https://github.com/user-attachments/assets/8f58ecd1-6292-4c0b-a6e0-ffec8bce65d1)
 
 
-연구자들이 벤치마크 성능 개선에 주로 집중하지만, 최종 사용자는 AI 시스템이 생산성을 어떻게 향상시킬 수 있는지에 더 관심이 있다. 이에 따라 산업계는 사용자 요구에 맞춘 제품과 도구 개발에 중점을 두고 있다.
 
-최종 사용자의 요구는 역할에 따라 다르며, 테이블 데이터 수명 주기는 데이터 입력, 데이터 정리, 데이터 CRUD, 데이터 분석, 데이터 시각화의 다섯 단계로 나뉜다. 각 단계에서 AI는 다양한 작업을 자동화하여 사용자 생산성을 높일 수 있다.
+연구자들은 종종 벤치마크 성능 개선에 집중하지만, 최종 사용자는 생산성 향상에 더 관심이 있다. 이에 따라 산업계는 사용자 요구에 맞춘 제품과 도구 개발에 중점을 둔다. 최종 사용자의 요구는 그들의 역할에 따라 다르며, 데이터 수명 주기의 단계에 따라 요구사항이 달라진다. 데이터 수명 주기는 다음 다섯 단계로 나눌 수 있다: 데이터 입력, 데이터 정리, 데이터 CRUD, 데이터 분석, 데이터 시각화.
 
-•  **데이터 입력 (Data Entry):** 테이블 구조 생성과 비구조화된 데이터를 (반)구조화된 테이블로 변환하는 작업.
+  
 
-•  **데이터 정리 (Data Cleaning):** 오류, 부정확성, 결측값, 중복을 식별하고 수정.
+•  **데이터 입력**: 테이블 구조 생성과 비구조화 데이터를 (반)구조화된 테이블로 변환하는 작업.
 
-•  **데이터 CRUD (Data CRUD):** 테이블 질의, 사실 검증, NL2SQL, 스프레드시트 조작 등.
+•  **데이터 정리**: 오류, 부정확성, 결측값을 식별하고 수정하여 데이터 품질을 향상시키는 작업.
 
-•  **데이터 분석 (Data Analysis):** 기능 엔지니어링, 이상치 탐지, 기계 학습, 시각화 작업.
+•  **데이터 CRUD**: 테이블 QA, NL2SQL, 스프레드시트 조작 등을 포함한 테이블 관리 작업.
 
-•  **데이터 시각화 (Data Visualization):** 데이터에 맞는 최적의 차트와 그래프 설명을 자동으로 선택.
+•  **데이터 분석**: 기능 엔지니어링, 기계 학습, 시각화 등을 통해 테이블 데이터를 분석하는 작업.
 
+•  **데이터 시각화**: 데이터를 효과적으로 표현하기 위해 최적의 차트와 그래프를 선택하는 작업.
+
+  
+
+이러한 단계들은 AI 시스템이 사용자에게 더 큰 가치를 제공하기 위해 고려해야 할 중요한 요소들이다.
   
 
 이러한 AI 도구들은 각 단계에서 사용자의 생산성을 크게 향상시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNz
-k2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgx
-NTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NS
-wtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEw
-Mjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2Nz
-EwODMsNjQ5MTI1NDE3LDgzMzc5ODAwNF19
+eyJoaXN0b3J5IjpbMTYwMzExMzYxOSwtNzIyNjczODExLC0xMj
+Y1NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkw
+Mzg0LC0xNzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OS
+wxNzYxNjE3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkx
+ODI0Mjg4OCwtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMT
+c5MDUsLTc3NzY3MTA4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+
 -->
