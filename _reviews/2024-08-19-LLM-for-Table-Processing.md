@@ -135,7 +135,7 @@ https://arxiv.org/abs/2402.05121
 ![Screenshot 2024-08-21 at 11 11 52 PM](https://github.com/user-attachments/assets/8f58ecd1-6292-4c0b-a6e0-ffec8bce65d1)
 
 
-연구자들이 벤치마크 성능 개선에 주로 집중하지만, 최종 사용자는 AI 시스템이 생산성을 어떻게 향상시킬 수 있는지에 더 관심이 있다는 점을 강조한다. 이에 따라 산업계는 사용자 요구에 맞춘 제품과 도구 개발에 중점을 두고 있다.
+연구자들이 벤치마크 성능 개선에 주로 집중하지만, 최종 사용자는 AI 시스템이 생산성을 어떻게 향상시킬 수 있는지에 더 관심이 있다. 이에 따라 산업계는 사용자 요구에 맞춘 제품과 도구 개발에 중점을 두고 있다.
 
   
 
@@ -157,10 +157,10 @@ https://arxiv.org/abs/2402.05121
 
 이러한 AI 도구들은 각 단계에서 사용자의 생산성을 크게 향상시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyNDQzNjk0LC0xMjY1NzM5MzcyLC03OT
-Y3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwODE1
-NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1LC
-00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OCwtMTAy
-OTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3NzY3MT
-A4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbLTY1NTc1NTY5NywtMTI2NTczOTM3MiwtNz
+k2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgx
+NTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NS
+wtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEw
+Mjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2Nz
+EwODMsNjQ5MTI1NDE3LDgzMzc5ODAwNF19
 -->
