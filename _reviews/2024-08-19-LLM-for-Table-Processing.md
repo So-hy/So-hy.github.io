@@ -145,7 +145,7 @@ https://arxiv.org/abs/2402.05121
 
 •  **데이터 CRUD (Data CRUD):** 테이블 질의, 사실 검증, NL2SQL, 스프레드시트 조작 등.
 
-•  **데이터 분석 (:** 기능 엔지니어링, 이상치 탐지, 기계 학습, 시각화 작업.
+•  **데이터 분석 (Data CRUD):** 기능 엔지니어링, 이상치 탐지, 기계 학습, 시각화 작업.
 
 •  **데이터 시각화:** 데이터에 맞는 최적의 차트와 그래프 설명을 자동으로 선택.
 
@@ -153,10 +153,10 @@ https://arxiv.org/abs/2402.05121
 
 이러한 AI 도구들은 각 단계에서 사용자의 생산성을 크게 향상시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4OTEyMzA2MywtMTI2NTczOTM3MiwtNz
-k2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgx
-NTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NS
-wtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEw
-Mjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2Nz
-EwODMsNjQ5MTI1NDE3LDgzMzc5ODAwNF19
+eyJoaXN0b3J5IjpbLTIxNDYyNjIyMDYsLTEyNjU3MzkzNzIsLT
+c5Njc1ODk1MSwyMDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4
+MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4NTk5LDE3NjE2MTcxNj
+UsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NCwxOTE4MjQyODg4LC0x
+MDI5OTcxNzcyLDEwMjc3MzEyMTcsMTIyMDMxNzkwNSwtNzc3Nj
+cxMDgzLDY0OTEyNTQxNyw4MzM3OTgwMDRdfQ==
 -->
