@@ -147,16 +147,16 @@ https://arxiv.org/abs/2402.05121
 
 •  **데이터 분석 (Data Analysis):** 기능 엔지니어링, 이상치 탐지, 기계 학습, 시각화 작업.
 
-•  **데이터 시각화 (D:** 데이터에 맞는 최적의 차트와 그래프 설명을 자동으로 선택.
+•  **데이터 시각화 (Data Visualization):** 데이터에 맞는 최적의 차트와 그래프 설명을 자동으로 선택.
 
   
 
 이러한 AI 도구들은 각 단계에서 사용자의 생산성을 크게 향상시킬 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0NDcyMTg4LC0xMjY1NzM5MzcyLC03OT
-Y3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwODE1
-NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1LC
-00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OCwtMTAy
-OTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMTc5MDUsLTc3NzY3MT
-A4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
+eyJoaXN0b3J5IjpbLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNz
+k2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgx
+NTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NS
+wtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEw
+Mjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2Nz
+EwODMsNjQ5MTI1NDE3LDgzMzc5ODAwNF19
 -->
