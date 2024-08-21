@@ -125,11 +125,15 @@ https://arxiv.org/abs/2402.05121
   
 
 이들 작업은 **테이블 관련 작업**, **스프레드시트 관련 작업**, **데이터베이스 관련 작업**, **문서 관련 작업**으로 크게 분류될 수 있다. 이러한 작업들은 AI 모델이 테이블 내용을 직접 이해하거나, 스프레드시트를 조작하기 위한 코드를 작성하거나, SQL을 작성해 데이터베이스에 접근하거나, 문서에서 테이블 데이터를 추출하는 등의 능력을 요구한다.
+
+
+
+### 2.4 Data Lifecycle and End-users’ Perspective
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03Mj
-U4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4
-NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NC
-wxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3MzEyMTcsMTIy
-MDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4MzM3OTgwMD
-RdfQ==
+eyJoaXN0b3J5IjpbLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMD
+IxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5
+Njg5NywxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNS
+wtMTgzNzQ3Njg5NCwxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEw
+Mjc3MzEyMTcsMTIyMDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNT
+QxNyw4MzM3OTgwMDRdfQ==
 -->
