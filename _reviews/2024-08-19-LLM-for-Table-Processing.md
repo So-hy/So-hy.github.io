@@ -181,13 +181,27 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 ### 3.2 Visual and Layout Representation
 
 
+이 문단은 **시각적 및 레이아웃 표현**을 다루며, VLMs(시각 언어 모델)이 테이블 이미지에서 정보를 추출하는 방법을 설명한다.
 
+  
+
+•  **시각적 요소**는 웹 테이블, 스프레드시트, 문서에 포함된 테이블에서 중요한 정보 제공자 역할을 할 수 있으며, 테이블을 이미지로 표현하면 VLM의 복잡한 추론을 도울 수 있다.
+
+•  **전처리 과정**에는 OCR 도구와 PDF 파서를 사용하여 이미지와 PDF 파일을 처리하거나, HTML 웹 테이블과 스프레드시트를 이미지로 변환하는 작업이 포함된다.
+
+•  **시각적 임베딩**은 이미지, 위치, 세그먼트 임베딩의 결합으로, 테이블 이미지를 AI가 이해할 수 있는 특징으로 변환하는 과정이다.
+
+•  **레이아웃 임베딩**은 테이블 이미지의 공간적 배치를 캡처하여, 2차원 특징을 각각 구분하여 표현하는 작업을 포함한다.
+
+  
+
+이 내용은 VLMs가 테이블 이미지의 구조와 레이아웃을 이해하는 데 필요한 핵심 과정을 설명한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksOD
-Q3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTcz
-OTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NC
-wtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2
-MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyND
-I4ODgsLTEwMjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1
-LC03Nzc2NzEwODNdfQ==
+eyJoaXN0b3J5IjpbMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMj
+E0NzA2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjcz
+ODExLC0xMjY1NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NTU0OC
+wtNzI1ODkwMzg0LC0xNzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5
+NDEyODU5OSwxNzYxNjE3MTY1LC00OTMyODU5MDUsLTE4Mzc0Nz
+Y4OTQsMTkxODI0Mjg4OCwtMTAyOTk3MTc3MiwxMDI3NzMxMjE3
+LDEyMjAzMTc5MDVdfQ==
 -->
