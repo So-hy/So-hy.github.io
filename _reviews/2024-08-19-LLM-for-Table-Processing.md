@@ -236,14 +236,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
   
 
-**3. 이미지 테이블과 문서 내 테이블 처리:**
+
+
+또한 이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해서는, 연구자들은 **인코더-디코더** 구조를 사용했다고 한다. 여기서 각 부분의 역할은 아래와 같다.
 
   
-
-이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해, 연구자들은 **인코더-디코더**라는 구조를 사용했다.
-
-  
-
 •  **인코더**: 이미지를 받아서 중요한 시각 정보를 뽑아낸다.
 
 •  **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
@@ -266,11 +263,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU0OTE3Nzg3LC0xMTk2MTExNDY0LC0xMj
-U5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxNDcw
-NjA4NzksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMS
-wtMTI2NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcy
-NTg5MDM4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMj
-g1OTksMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3NDc2ODk0
-LDE5MTgyNDI4ODhdfQ==
+eyJoaXN0b3J5IjpbMTY2ODk4MDE5MywtMTE5NjExMTQ2NCwtMT
+I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
+MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
+EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
+MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MT
+I4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5
+NCwxOTE4MjQyODg4XX0=
 -->
