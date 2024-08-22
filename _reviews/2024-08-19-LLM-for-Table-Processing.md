@@ -193,10 +193,12 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 
 •  **레이아웃 임베딩**(Layout Embedding)은 테이블 이미지의 공간적 배치를 캡처하여, 2차원 특징을 각각 구분하여 표현하는 작업을 포함한다.
 
+
+
   
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMjQwNjIyOCwxMzM1OTE4MTk1LC0xNz
+eyJoaXN0b3J5IjpbLTU3NTE1NjQ3MiwxMzM1OTE4MTk1LC0xNz
 QxODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQz
 MjEyLC03MjI2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MS
 wyMDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5
