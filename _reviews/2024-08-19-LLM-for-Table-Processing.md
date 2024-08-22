@@ -195,18 +195,19 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 
 
 
+## 4 Table Training
 
 
-
-
+여기에선 테이블 작업을 위한 대형 모델의 훈련 기법을 탐구한다. 대형 언어 모델(LLMs)은 주로 두 가지 유형이 있다: 텍스트 입력만을 받는 대형 언어 모델(LLMs)과 시각적 입력을 처리할 수 있는 시각 언어 모델(VLMs). 이 두 유형 간의 입력, 모델 아키텍처, 훈련 기법의 차이를 고려하여, 우리는 그림 3에서 테이블 훈련 기법을 요약하고, 각 범주를 개별적으로 논의할 것이다. 먼저 LLM 시대 이전의 문헌, 즉 매개변수 크기가 10억 미만인 모델들을 검토할 것이다. 그 후 LLMs와 VLMs의 세부 사항을 깊이 있게 탐구할 것이다.
   
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjE3MzUwNCwxMzM1OTE4MTk1LC0xNz
-QxODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQz
-MjEyLC03MjI2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MS
-wyMDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5
-MTc5Njg5NywxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NT
-kwNSwtMTgzNzQ3Njg5NCwxOTE4MjQyODg4LC0xMDI5OTcxNzcy
-LDEwMjc3MzEyMTddfQ==
+eyJoaXN0b3J5IjpbLTEyNTkyODU3MTUsMTMzNTkxODE5NSwtMT
+c0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4MjcsMTA4MTg0
+MzIxMiwtNzIyNjczODExLC0xMjY1NzM5MzcyLC03OTY3NTg5NT
+EsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwODE1NTUwLDE3
+OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1LC00OTMyOD
+U5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4OCwtMTAyOTk3MTc3
+MiwxMDI3NzMxMjE3XX0=
 -->
