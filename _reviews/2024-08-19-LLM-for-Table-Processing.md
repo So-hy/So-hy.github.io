@@ -202,7 +202,7 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
   
 
 
-**1. LLM 시대 이전의 연구:**
+### **1. LLM 시대 이전의 연구:**
 
   
 
@@ -270,11 +270,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MTMzNTAxMywtMTI1OTI4NTcxNSwxMz
-M1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2
-NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MTEsLTEyNjU3MzkzNz
-IsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3
-NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4NTk5LDE3NjE2MT
-cxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NCwxOTE4MjQyODg4
-LC0xMDI5OTcxNzcyXX0=
+eyJoaXN0b3J5IjpbLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMT
+MzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1
+Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5Mz
+cyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0x
+NzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNj
+E3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4
+OCwtMTAyOTk3MTc3Ml19
 -->
