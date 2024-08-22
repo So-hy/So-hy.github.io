@@ -246,28 +246,21 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 •  **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
 
   
-
 예를 들어, **LayoutLM**이라는 모델은 텍스트 정보뿐만 아니라 이미지나 레이아웃 정보도 함께 사용해 테이블을 처리한다.
-
-  
-
-**4. 문제점:**
 
   
 
 이러한 모델들은 당시에는 유용했지만, 몇 가지 한계가 있었다:
 
-  
-
 •  모델의 크기가 작아서, 복잡한 작업에는 적합하지 않았다.
 
 •  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODk4MDE5MywtMTE5NjExMTQ2NCwtMT
-I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
-MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
-EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
-MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MT
-I4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5
-NCwxOTE4MjQyODg4XX0=
+eyJoaXN0b3J5IjpbNDY3MTIzNjExLC0xMTk2MTExNDY0LC0xMj
+U5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxNDcw
+NjA4NzksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMS
+wtMTI2NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcy
+NTg5MDM4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMj
+g1OTksMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3NDc2ODk0
+LDE5MTgyNDI4ODhdfQ==
 -->
