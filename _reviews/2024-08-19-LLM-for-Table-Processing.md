@@ -163,12 +163,16 @@ https://arxiv.org/abs/2402.05121
 
 
 현대의 신경망은 텍스트나 이미지를 수치 표현 또는 임베딩으로 인코딩한 후, 이러한 임베딩을 기반으로 계산을 수행해야 한다. 따라서 테이블 데이터를 이에 맞게 형식화하여 언어 또는 시각 언어 모델에 입력해야 한다. 이 절에서는 텍스트 테이블의 직렬화(serialization)와 문서 테이블의 처리에 초점을 맞춘다.
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMj
-Y1NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkw
-Mzg0LC0xNzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OS
-wxNzYxNjE3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkx
-ODI0Mjg4OCwtMTAyOTk3MTc3MiwxMDI3NzMxMjE3LDEyMjAzMT
-c5MDUsLTc3NzY3MTA4Myw2NDkxMjU0MTcsODMzNzk4MDA0XX0=
 
+
+### 3.1 Text Representation
+
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ4NTE4NTM1NywxMDgxODQzMjEyLC03Mj
+I2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1
+NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5Ny
+wxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgz
+NzQ3Njg5NCwxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3Mz
+EyMTcsMTIyMDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4
+MzM3OTgwMDRdfQ==
 -->
