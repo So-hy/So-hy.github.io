@@ -216,7 +216,6 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
   
 여러 모델이 테이블 작업을 위해 어떻게 수정되었는지 아래의 예시로 확인할 수 있다.
 
-  
 
 •  **TaPas**: BERT라는 모델을 기반으로 하고, 테이블과 관련된 텍스트를 다룰 수 있도록 구조와 학습 방법을 조금 바꿨다.
 •  **TaBERT**: 입력된 문장과 가장 관련 있는 테이블 데이터를 골라서 인코딩하고, 이 데이터를 더 잘 이해할 수 있도록 특별한 메커니즘을 사용했다.
@@ -242,7 +241,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMDI4MjI1OSwtMTE5NjExMTQ2NCwtMT
+eyJoaXN0b3J5IjpbMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMT
 I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
 MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
 EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
