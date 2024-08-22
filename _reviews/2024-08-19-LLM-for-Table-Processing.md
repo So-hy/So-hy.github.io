@@ -218,11 +218,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
   
 
-**2. 몇 가지 예시:**
-
-  
-
-여러 모델이 테이블 작업을 위해 어떻게 수정되었는지 예시를 들어 설명하겠다.
+여러 모델이 테이블 작업을 위해 어떻게 수정되었는지 아래의 예시로 확인할 수 있다.
 
   
 
@@ -270,11 +266,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMT
-MzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1
-Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5Mz
-cyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0x
-NzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNj
-E3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4
-OCwtMTAyOTk3MTc3Ml19
+eyJoaXN0b3J5IjpbNzU0OTE3Nzg3LC0xMTk2MTExNDY0LC0xMj
+U5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxNDcw
+NjA4NzksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMS
+wtMTI2NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcy
+NTg5MDM4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMj
+g1OTksMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3NDc2ODk0
+LDE5MTgyNDI4ODhdfQ==
 -->
