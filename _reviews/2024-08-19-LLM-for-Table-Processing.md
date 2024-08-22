@@ -202,13 +202,79 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
   
 
 
+**1. LLM 시대 이전의 연구:**
 
+  
+
+LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 위해 언어 모델을 사용하고 있었다. 이들은 주로 기존 언어 모델(예: BERT)을 테이블 작업에 맞게 수정하는 데 중점을 두었다. 구체적으로는:
+
+  
+
+•  **모델 구조를 수정**하고,
+
+•  **데이터를 인코딩하는 방법**을 고안하며,
+
+•  **학습 목표**를 설계해서 테이블 작업에 적합하게 만들려고 했다.
+
+  
+
+**2. 몇 가지 예시:**
+
+  
+
+여러 모델이 테이블 작업을 위해 어떻게 수정되었는지 예시를 들어 설명하겠다.
+
+  
+
+•  **TaPas**: BERT라는 모델을 기반으로 하고, 테이블과 관련된 텍스트를 다룰 수 있도록 구조와 학습 방법을 조금 바꿨다.
+
+•  **TaBERT**: 입력된 문장과 가장 관련 있는 테이블 데이터를 골라서 인코딩하고, 이 데이터를 더 잘 이해할 수 있도록 특별한 메커니즘을 사용했다.
+
+•  **TURL**: 테이블의 제목, 열 이름, 셀 내용 등을 각각 따로 인코딩한 후, 이를 하나로 합쳐서 이해할 수 있도록 했다.
+
+•  **TABBIE**: 손상된(잘못된) 셀을 찾아내는 목표로 학습 방법을 조정했다.
+
+•  **TaPEx**: SQL 쿼리(데이터베이스 질의)를 자동으로 생성하고, 이를 실행해 얻은 데이터를 학습하는 방식이다.
+
+•  **RESDSQL**: 학습 중에 테이블의 스키마(구조)를 모델에 주입하고, 이 스키마를 바탕으로 가장 적절한 답을 찾는 방법을 사용했다.
+
+  
+
+**3. 이미지 테이블과 문서 내 테이블 처리:**
+
+  
+
+이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해, 연구자들은 **인코더-디코더**라는 구조를 사용했다.
+
+  
+
+•  **인코더**: 이미지를 받아서 중요한 시각 정보를 뽑아낸다.
+
+•  **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
+
+  
+
+예를 들어, **LayoutLM**이라는 모델은 텍스트 정보뿐만 아니라 이미지나 레이아웃 정보도 함께 사용해 테이블을 처리한다.
+
+  
+
+**4. 문제점:**
+
+  
+
+이러한 모델들은 당시에는 유용했지만, 몇 가지 한계가 있었다:
+
+  
+
+•  모델의 크기가 작아서, 복잡한 작업에는 적합하지 않았다.
+
+•  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTQxNzYyMjksLTEyNTkyODU3MTUsMT
-MzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1
-Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5Mz
-cyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0x
-NzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNj
-E3MTY1LC00OTMyODU5MDUsLTE4Mzc0NzY4OTQsMTkxODI0Mjg4
-OCwtMTAyOTk3MTc3Ml19
+eyJoaXN0b3J5IjpbLTY2MTMzNTAxMywtMTI1OTI4NTcxNSwxMz
+M1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2
+NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MTEsLTEyNjU3MzkzNz
+IsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3
+NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MTI4NTk5LDE3NjE2MT
+cxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5NCwxOTE4MjQyODg4
+LC0xMDI5OTcxNzcyXX0=
 -->
