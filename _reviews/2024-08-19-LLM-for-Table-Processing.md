@@ -208,12 +208,10 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 
 LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 위해 언어 모델을 사용하고 있었다. 이들은 주로 기존 언어 모델(예: BERT)을 테이블 작업에 맞게 수정하는 데 중점을 두었다. 구체적으로는:
 
-  
+
 
 •  **모델 구조를 수정**하고,
-
 •  **데이터를 인코딩하는 방법**을 고안하며,
-
 •  **학습 목표**를 설계해서 테이블 작업에 적합하게 만들려고 했다.
 
   
@@ -259,7 +257,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc1Njc4MTcyMywtMTE5NjExMTQ2NCwtMT
+eyJoaXN0b3J5IjpbLTk3MDE0MzcwNywtMTE5NjExMTQ2NCwtMT
 I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
 MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
 EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
