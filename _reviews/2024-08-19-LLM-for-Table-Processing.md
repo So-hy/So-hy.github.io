@@ -169,12 +169,19 @@ https://arxiv.org/abs/2402.05121
 
 
 LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 프롬프트를 필요로 하며, 이는 정의된 스키마를 가진 이차원 구조의 테이블과 대조된다. 따라서 테이블을 프롬프트로 변환할 때, 그 의미적 완전성을 유지해야 한다. 프롬프트에는 테이블의 내용과 테이블 스키마가 포함될 수 있다.
+
+
+**테이블 내용**은 주로 마크다운 형식으로 직렬화하며, 행은 줄바꿈으로, 셀은 열 구분자로 구분한다. 연구에 따르면, HTML과 마크다운 또는 CSV를 사용한 직렬화가 효과적이다. 스프레드시트의 경우, 단순한 직렬화로는 복잡한 구조를 충분히 표현하기 어려우므로, 이질적인 행과 열을 중심으로 분석하는 앵커 기반 접근법을 사용하고, 이를 JSON 형식으로 변환한다.
+
+**테이블 스키마**는 NL2SQL 작업에서 중요하며, 이를 평문 텍스트나 CREATE TABLE 문을 통해 표현할 수 있다. 외래 키 정보와 "설명 없이"와 같은 프롬프트 규칙은 명확하고 간결한 응답을 유도하여 NL2SQL 작업에 도움이 된다.
+
+**텍스트 임베딩**은 직렬화된 테이블 데이터를 LLM이 임베딩하는 과정이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMj
-Y3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1
-NDgsLTcyNTg5MDM4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LD
-E4OTQxMjg1OTksMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3
-NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5NzE3NzIsMTAyNzczMT
-IxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5MTI1NDE3LDgz
-Mzc5ODAwNF19
+eyJoaXN0b3J5IjpbLTIxNDcwNjA4NzksODQ3NTY3ODI3LDEwOD
+E4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4
+OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgxNTU1MC
+wxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NSwtNDkz
+Mjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5Nz
+E3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMs
+NjQ5MTI1NDE3XX0=
 -->
