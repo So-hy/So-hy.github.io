@@ -167,12 +167,14 @@ https://arxiv.org/abs/2402.05121
 
 ### 3.1 Text Representation
 
+
+LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 프롬프트를 필요로 하며, 이는 정의된 스키마를 가진 이차원 구조의 테이블과 대조된다. 따라서 테이블을 프롬프트로 변환할 때, 그 의미적 완전성을 유지해야 한다. 프롬프트에는 테이블의 내용과 테이블 스키마가 포함될 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTE4NTM1NywxMDgxODQzMjEyLC03Mj
-I2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1
-NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5Ny
-wxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgz
-NzQ3Njg5NCwxOTE4MjQyODg4LC0xMDI5OTcxNzcyLDEwMjc3Mz
-EyMTcsMTIyMDMxNzkwNSwtNzc3NjcxMDgzLDY0OTEyNTQxNyw4
-MzM3OTgwMDRdfQ==
+eyJoaXN0b3J5IjpbODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMj
+Y3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1
+NDgsLTcyNTg5MDM4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LD
+E4OTQxMjg1OTksMTc2MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3
+NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5NzE3NzIsMTAyNzczMT
+IxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMsNjQ5MTI1NDE3LDgz
+Mzc5ODAwNF19
 -->
