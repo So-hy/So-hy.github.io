@@ -176,12 +176,18 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 **테이블 스키마**는 NL2SQL 작업에서 중요하며, 이를 평문 텍스트나 CREATE TABLE 문을 통해 표현할 수 있다. 외래 키 정보와 "설명 없이"와 같은 프롬프트 규칙은 명확하고 간결한 응답을 유도하여 NL2SQL 작업에 도움이 된다.
 
 **텍스트 임베딩**은 직렬화된 테이블 데이터를 LLM이 임베딩하는 과정이다.
+
+
+### 3.2 Visual and Layout Representation
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDcwNjA4NzksODQ3NTY3ODI3LDEwOD
-E4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4
-OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgxNTU1MC
-wxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NSwtNDkz
-Mjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyNDI4ODgsLTEwMjk5Nz
-E3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1LC03Nzc2NzEwODMs
-NjQ5MTI1NDE3XX0=
+eyJoaXN0b3J5IjpbLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksOD
+Q3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTcz
+OTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NC
+wtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2
+MTYxNzE2NSwtNDkzMjg1OTA1LC0xODM3NDc2ODk0LDE5MTgyND
+I4ODgsLTEwMjk5NzE3NzIsMTAyNzczMTIxNywxMjIwMzE3OTA1
+LC03Nzc2NzEwODNdfQ==
 -->
