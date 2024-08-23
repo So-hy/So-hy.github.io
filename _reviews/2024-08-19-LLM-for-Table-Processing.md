@@ -245,13 +245,29 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 **2.1 What’s New in Table LLM Training**
 
 
+이 문단은 **테이블 LLM 훈련**에서 새로운 접근법에 대해 설명한다. 요약하면 다음과 같다:
 
+  
+
+•  **지시 조정(instruction tuning)**과 **지속적 사전 훈련(continued pre-training)**이 LLM 시대에 널리 사용되며, 이전과는 다른 훈련 기법이 적용된다.
+
+•  **지시 조정**에는 세 가지 유형이 있다:
+
+•  **테이블 조정**: LLM이 테이블 작업(예: 테이블 QA, 텍스트 생성, 엔터티 연결 등)을 이해하고 처리할 수 있게 한다.
+
+•  **코드 조정**: 테이블 데이터를 처리하기 위해 SQL이나 Python과 같은 코드를 생성하는 데 중점을 둔다.
+
+•  **하이브리드**: 코드 LLM을 테이블 지시 데이터로 조정하는 방식이 더 효과적이라는 연구 결과가 있다.
+
+•  **지시 데이터셋 구축**은 지시 조정의 중요한 요소이며, 수작업으로 만들기 어렵기 때문에, 자동화된 방법(템플릿 기반 변환, 데이터 증류 등)이 사용된다.
+
+•  **지속적 사전 훈련**은 기존 모델에 새로운 데이터를 공급하여 특정 작업에 맞게 적응시키는 방법이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OT
-M0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1
-NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4Nz
-ksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2
-NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MD
-M4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTks
-MTc2MTYxNzE2NV19
+eyJoaXN0b3J5IjpbLTg3MzcxODIxNywxNzE0OTk3OTA5LC03Mj
+Y0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0
+NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOS
+wtMjE0NzA2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIy
+NjczODExLC0xMjY1NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NT
+U0OCwtNzI1ODkwMzg0LC0xNzcwODE1NTUwLDE3OTE3OTY4OTcs
+MTg5NDEyODU5OV19
 -->
