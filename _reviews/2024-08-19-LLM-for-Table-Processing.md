@@ -233,9 +233,9 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 이러한 모델들은 당시에는 유용했지만, 몇 가지 한계가 있었다:
 
-•  모델의 크기가 작아서, 복잡한 작업에는 적합하지 않았다.
-•  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
-
+ - 모델의 크기가 작아서, 복잡한 작업에는 적합하지 않았다.
+ - 일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는
+  과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 
 ### **2. Table LLM Training**
 
@@ -248,7 +248,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQ0NzUxNjUzLC03MjY0Njk4NjcsMzQ5Mz
+eyJoaXN0b3J5IjpbMjAyOTMxMDU5LC03MjY0Njk4NjcsMzQ5Mz
 Q2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3
 MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OS
 w4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1
