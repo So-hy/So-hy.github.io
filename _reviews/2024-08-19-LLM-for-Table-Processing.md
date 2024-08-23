@@ -210,7 +210,9 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 •  **모델 구조를 수정**하고,
+
 •  **데이터를 인코딩하는 방법**을 고안하며,
+
 •  **학습 목표**를 설계해서 테이블 작업에 적합하게 만들려고 했다.
 
   
@@ -233,6 +235,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 또한 이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해서는, 연구자들은 **인코더-디코더** 구조를 사용했다고 한다. 여기서 각 부분의 역할은 아래와 같다.
 
 •  **인코더**: 이미지를 받아서 중요한 시각 정보를 뽑아낸다.
+
 •  **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
 
   
@@ -246,11 +249,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDU4ODgxNjUsMTA2NTk3NzA2MSwtMT
-E5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQx
-ODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMj
-EyLC03MjI2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwy
-MDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MT
-c5Njg5NywxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkw
-NSwtMTgzNzQ3Njg5NF19
+eyJoaXN0b3J5IjpbMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOT
+YxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0
+MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMi
+wtNzIyNjczODExLC0xMjY1NzM5MzcyLC03OTY3NTg5NTEsMjAy
+MTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwODE1NTUwLDE3OTE3OT
+Y4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1LC00OTMyODU5MDUs
+LTE4Mzc0NzY4OTRdfQ==
 -->
