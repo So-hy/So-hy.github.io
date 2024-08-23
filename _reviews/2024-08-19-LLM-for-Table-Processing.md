@@ -225,9 +225,8 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 또한 이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해서는, 연구자들은 **인코더-디코더** 구조를 사용했다고 한다. 여기서 각 부분의 역할은 아래와 같다.
 
-•  **인코더**: 이미지를 받아서 중요한 시각 정보를 뽑아낸다.
-
-•  **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
+ - **인코더**: 이미지를 받아서 중요한 시각 정보를 뽑아낸다.
+ - **디코더**: 이 시각 정보를 바탕으로 텍스트(예: 표의 내용)를 생성한다.
 
   
 예를 들어, **LayoutLM**이라는 모델은 텍스트 정보뿐만 아니라 이미지나 레이아웃 정보도 함께 사용해 테이블을 처리한다.
@@ -249,11 +248,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMzQ4MTU0OSwtNzI2NDY5ODY3LDM0OT
-M0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1
-NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4Nz
-ksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2
-NTczOTM3MiwtNzk2NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MD
-M4NCwtMTc3MDgxNTU1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTks
-MTc2MTYxNzE2NV19
+eyJoaXN0b3J5IjpbNTQ0NzUxNjUzLC03MjY0Njk4NjcsMzQ5Mz
+Q2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3
+MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OS
+w4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1
+NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMz
+g0LC0xNzcwODE1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwx
+NzYxNjE3MTY1XX0=
 -->
