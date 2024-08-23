@@ -256,12 +256,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 **지시(Instruction) 데이터셋 구축**은 Instruction Tuning의 중요한 요소이며, 수작업으로 만들기 어렵기 때문에, 자동화된 방법(템플릿 기반 변환, 데이터 증류 등)이 사용된다.
 
  **지속적 사전 훈련**은 기존 모델에 새로운 데이터를 공급하여 특정 작업에 맞게 적응시키는 방법이라고 한다.
+
+
+**2.2 Table Tuning**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzMyODQxODUsLTk4NTAzMjEwMCw0MT
-EzNzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4
-NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLT
-EyNTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0
-NzA2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczOD
-ExLC0xMjY1NzM5MzcyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwt
-NzI1ODkwMzg0XX0=
+eyJoaXN0b3J5IjpbMTIyNzQ4NzMyOCwtOTg1MDMyMTAwLDQxMT
+M3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OTg2
+NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMT
+I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
+MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
+EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
+MjU4OTAzODRdfQ==
 -->
