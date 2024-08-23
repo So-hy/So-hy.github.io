@@ -275,18 +275,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 해당 문단에서는 두 개의 사례를 보여준다.  
 
  - **TableLlama**는 보다 현실적인 데이터를 사용하기 위해 템플릿 접근 방식을 사용하여 11개의 테이블 작업에 대한 14개의 기존 데이터셋을 수집한다.
- - **Table-GPT**는 **합성 후 증강(synthesis-then-augment)**이라는 방법을 사용하여 데이터를 다양하게 만든다. 예를 들어, 컴퓨터 비전에서 이미지의 변형을 만드는 것과 유사하게, Table-GPT는 18개의 합성 프로세스를 통해 테이블 QA부터 행/열 교체에 이르는 다양한 작업을 설계한다.
-
-
-  
-
-**4. 증강 전략**
-
-  
-
-•  **Table-GPT**는 지시문, 테이블, 출력 수준에서 **증강 전략**을 사용해 데이터와 작업의 다양성을 증가시킨다.
-
-•  예를 들어, 지시문을 다양한 변형으로 바꿔 모델이 여러 방식으로 동일한 지시를 이해할 수 있도록 한다.
+ - **Table-GPT**는 **합성 후 증강(synthesis-then-augment)**이라는 방법을 사용하여 데이터를 다양하게 만든다. 예를 들어, 컴퓨터 비전에서 이미지의 변형을 만드는 것과 유사하게, Table-GPT는 18개의 합성 프로세스를 통해 테이블 QA부터 행/열 교체에 이르는 다양한 작업을 설계한다.  또한, **Table-GPT**는 지시문, 테이블, 출력 수준에서 **증강 전략**을 사용해 데이터와 작업의 다양성을 증가시킨다. 예를 들어, 지시문을 다양한 변형으로 바꿔 모델이 여러 방식으로 동일한 지시를 이해할 수 있도록 한다.
 
   
 
@@ -300,11 +289,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 이 문단은 LLM을 테이블 작업에 효과적으로 조정하기 위한 다양한 방법론과 그 중요성을 설명하고 있으며, 특히 TableLlama와 Table-GPT의 사례를 통해 구체적인 접근 방식을 제시하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NzMyOTQ5LDM3MTI2NTU4MSwyMTY2MT
-I4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMCw0MTEz
-NzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4Nj
-csMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEy
-NTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0Nz
-A2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODEx
+eyJoaXN0b3J5IjpbLTM0OTMxNzEzNiw5NzQ3MzI5NDksMzcxMj
+Y1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1
+MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MD
+ksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5
+NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxOD
+QyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEy
 XX0=
 -->
