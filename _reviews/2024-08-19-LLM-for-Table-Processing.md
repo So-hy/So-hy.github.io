@@ -264,36 +264,69 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 ![Screenshot 2024-08-23 at 8 55 00 PM](https://github.com/user-attachments/assets/b606cc80-2b0f-4129-a20f-6dc862ceb226)
 
 
-
-이 문단은 **테이블 조정(Table tuning)**에 대해 설명하고 있으며, **TableLlama**와 **Table-GPT**가 어떻게 테이블 작업을 처리하는지 다루고 있다. 주요 내용을 요약하면 다음과 같다:
+이 문단은 **테이블 조정(Table Tuning)**에 대해 설명하며, LLM(대형 언어 모델)을 테이블 작업에 맞게 조정하는 방법을 자세히 다루고 있다. 요약하면 다음과 같다:
 
   
 
-1. **테이블 조정의 개념**:
-테이블 조정은 여러 기존 테이블 관련 데이터셋을 활용해 지시 조정 데이터셋을 구축하는 작업이다. 이 데이터셋은 지시문, 테이블, 출력의 형태로 구성된다.
+**1. 테이블 조정의 개념**
 
-2. **TableLlama**:
-위 그림은 TableLlama를 위한 지시 조정 데이터셋인 TableInstruct의 예제 항목을 보여준다. **TableLlama**는 현실적인 데이터를 사용하는 것을 강조하며, 템플릿 접근 방식을 통해 11개의 테이블 작업에 대한 14개의 기존 데이터셋(예: WikiTableQuestions, Spider)을 활용한다. 
+  
 
-•  이 접근 방식은 실제 테이블 작업과 유사한 데이터를 사용하여 LLM이 다양한 테이블 작업을 잘 처리할 수 있도록 훈련한다.
+•  테이블 조정(Table tuning)은 테이블 지시 조정의 일종으로, 여러 기존 테이블 관련 데이터셋을 활용하여 **지시 조정 데이터셋**을 구축하는 방법이다.
 
-3. **Table-GPT**:
+•  이 데이터셋은 **지시문(Instruction)**, **테이블(Table)**, **출력(Output)**의 형태로 구성된다.
 
-•  **Table-GPT**는 **합성 후 증강(synthesis-then-augment) 접근 방식**을 사용한다. 이 방식은 컴퓨터 비전에서 사용하는 이미지 변형 방법과 유사하다.
+  
 
-•  Table-GPT는 18개의 합성 프로세스를 설계하여, 예를 들어 테이블의 행 또는 열을 교체하고, 출력으로 교체된 테이블을 생성한다. 이를 통해 모델은 행/열의 순서에 구애받지 않고 테이블을 이해할 수 있게 된다.
+**2. 지시 조정 데이터셋의 구성**
 
-•  또한, Table-GPT는 지시문, 테이블, 출력 수준에서 증강 전략을 구현하여 모델이 다양한 상황에서도 잘 작동하도록 한다. 이러한 증강은 모델이 과적합(overfitting)되는 것을 방지하는 데 도움을 준다.
+  
 
-4.  **결과**:
+•  **지시문(Instruction)**: 수행할 작업을 지정한다.
 
-•  **TableLlama**와 **Table-GPT** 모두 테이블 작업에 대한 테이블 조정 후, LLM이 강력한 일반화 능력을 발휘하며, 이전에 보지 못한 새로운 테이블 작업도 해결할 수 있음을 입증한다.
+•  **테이블(Table)**: 테이블 내용, 메타데이터, 또는 작업에 필요한 특정 정보를 제공한다.
+
+•  **출력(Output)**: 작업의 결과로 얻어진 자연어 출력이 포함된다. 예를 들어, 테이블 QA의 답변, 텍스트 변환 결과, 테이블 조작 후의 결과 테이블 등이 있다.
+
+  
+
+**3. 실제 적용 사례**
+
+  
+
+•  **TableLlama**는 보다 현실적인 데이터를 사용하기 위해 템플릿 접근 방식을 사용하여 11개의 테이블 작업에 대한 14개의 기존 데이터셋을 수집한다.
+
+•  **Table-GPT**는 **합성 후 증강(synthesis-then-augment)**이라는 방법을 사용하여 데이터를 다양하게 만든다. 예를 들어, 컴퓨터 비전에서 이미지의 변형을 만드는 것과 유사하게, Table-GPT는 18개의 합성 프로세스를 통해 테이블 QA부터 행/열 교체에 이르는 다양한 작업을 설계한다.
+
+•  **행/열 교체 예시**: 행이나 열을 교체하고, 그 결과를 출력하여 모델이 행과 열의 순서를 이해하도록 돕는다.
+
+  
+
+**4. 증강 전략**
+
+  
+
+•  **Table-GPT**는 지시문, 테이블, 출력 수준에서 **증강 전략**을 사용해 데이터와 작업의 다양성을 증가시킨다.
+
+•  예를 들어, 지시문을 다양한 변형으로 바꿔 모델이 여러 방식으로 동일한 지시를 이해할 수 있도록 한다.
+
+  
+
+**5. 결과 및 효과**
+
+  
+
+•  **TableLlama**와 **Table-GPT**는 테이블 조정을 통해 LLM이 보지 못한 새로운 테이블 작업에서도 강력한 **일반화 능력**을 보여줄 수 있음을 입증한다. 이 과정에서 모델은 더 다양한 테이블 작업을 처리할 수 있는 능력을 갖추게 된다.
+
+  
+
+이 문단은 LLM을 테이블 작업에 효과적으로 조정하기 위한 다양한 방법론과 그 중요성을 설명하고 있으며, 특히 TableLlama와 Table-GPT의 사례를 통해 구체적인 접근 방식을 제시하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxND
-Y2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMTcsMTcx
-NDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MD
-YxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTUs
-LTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LDEwOD
-E4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4
-OTUxXX0=
+eyJoaXN0b3J5IjpbMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MT
+YxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODcz
+NzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4Mj
+UsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwx
+MzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3MDYwODc5LDg0Nz
+U2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MTEsLTEyNjU3Mzkz
+NzJdfQ==
 -->
