@@ -264,29 +264,16 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 ![Screenshot 2024-08-23 at 8 55 00 PM](https://github.com/user-attachments/assets/b606cc80-2b0f-4129-a20f-6dc862ceb226)
 
 
-이 문단은 **테이블 조정(Table Tuning)**에 대해 설명하며, LLM(대형 언어 모델)을 테이블 작업에 맞게 조정하는 방법을 자세히 다루고 있다. 요약하면 다음과 같다:
+이 문단은 **테이블 조정(Table Tuning)**에 대해 설명하며, LLM(대형 언어 모델)을 테이블 작업에 맞게 조정하는 방법을 자세히 다루고 있다.
 
   
 
 **1. 테이블 조정의 개념**
 
-  
+테이블 조정(Table tuning)은 테이블 지시 조정(table instruction tuning)의 줄임말로, 여러 기존 테이블 관련 데이터셋을 활용하여 **Instruction Tuning 데이터셋**을 구축하는 방법이다. 데이터셋은 **지시문(Instruction)**, **테이블(Table)**, **출력(Output)**의 형태로 구성된다.
 
-•  테이블 조정(Table tuning)은 테이블 지시 조정의 일종으로, 여러 기존 테이블 관련 데이터셋을 활용하여 **지시 조정 데이터셋**을 구축하는 방법이다.
-
-•  이 데이터셋은 **지시문(Instruction)**, **테이블(Table)**, **출력(Output)**의 형태로 구성된다.
-
-  
-
-**2. 지시 조정 데이터셋의 구성**
-
-  
-
-•  **지시문(Instruction)**: 수행할 작업을 지정한다.
-
-•  **테이블(Table)**: 테이블 내용, 메타데이터, 또는 작업에 필요한 특정 정보를 제공한다.
-
-•  **출력(Output)**: 작업의 결과로 얻어진 자연어 출력이 포함된다. 예를 들어, 테이블 QA의 답변, 텍스트 변환 결과, 테이블 조작 후의 결과 테이블 등이 있다.
+ - **지시문(Instruction)**: 수행할 작업을 지정한다.**테이블(Table)**: 테이블 내용, 메타데이터, 또는 작업에 필요한 특정 정보를 제공한다.**출력(Output)**: 작업의 결과로 얻어진 자연어 출력이 포함된다. 예를 들어,
+   테이블 QA의 답변, 텍스트 변환 결과, 테이블 조작 후의 결과 테이블 등이 있다.
 
   
 
@@ -322,11 +309,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 이 문단은 LLM을 테이블 작업에 효과적으로 조정하기 위한 다양한 방법론과 그 중요성을 설명하고 있으며, 특히 TableLlama와 Table-GPT의 사례를 통해 구체적인 접근 방식을 제시하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MT
-YxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODcz
-NzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4Mj
-UsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwx
-MzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3MDYwODc5LDg0Nz
-U2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MTEsLTEyNjU3Mzkz
-NzJdfQ==
+eyJoaXN0b3J5IjpbLTE0MjczMDUxMDYsMzcxMjY1NTgxLDIxNj
+YxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQx
+MTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OT
+g2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwt
+MTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMT
+Q3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4
+MTFdfQ==
 -->
