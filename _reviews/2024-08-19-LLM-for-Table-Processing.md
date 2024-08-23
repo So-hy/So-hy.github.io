@@ -249,15 +249,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 위 그림에서 보이듯  **지시 조정**에는 세 가지 유형이 있다:
 
-**테이블 조정**: LLM이 테이블 작업(예: 테이블 QA, 텍스트 생성, 엔터티 연결 등)을 이해하고 처리할 수 있게 한다.
-**코드 조정**: 테이블 데이터를 처리하기 위해 SQL이나 Python과 같은 코드를 생성하는 데 중점을 둔다.
-**하이브리드**: 코드 LLM을 테이블 지시 데이터로 조정하는 방식이 더 효과적이라는 연구 결과가 있다.
+ - **테이블 조정**: LLM이 테이블 작업(예: 테이블 QA, 텍스트 생성, 엔터티 연결 등)을 이해하고 처리할 수 있게 한다.
+ - **코드 조정**: 테이블 데이터를 처리하기 위해 SQL이나 Python과 같은 코드를 생성하는 데 중점을 둔다.
+ - **하이브리드**: 코드 LLM을 테이블 지시 데이터로 조정하는 방식이 더 효과적이라는 연구 결과가 있다.
 
 •  **지시 데이터셋 구축**은 지시 조정의 중요한 요소이며, 수작업으로 만들기 어렵기 때문에, 자동화된 방법(템플릿 기반 변환, 데이터 증류 등)이 사용된다.
 
 •  **지속적 사전 훈련**은 기존 모델에 새로운 데이터를 공급하여 특정 작업에 맞게 적응시키는 방법이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2OTE4NzEwLC04NzM3MTgyMTcsMTcxND
+eyJoaXN0b3J5IjpbNDExMzczNTU3LC04NzM3MTgyMTcsMTcxND
 k5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MDYx
 LC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTUsLT
 E3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LDEwODE4
