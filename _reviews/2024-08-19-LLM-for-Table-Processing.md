@@ -265,13 +265,37 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 
+이 문단은 **테이블 조정(Table tuning)**에 대해 설명하고 있으며, **TableLlama**와 **Table-GPT**가 어떻게 테이블 작업을 처리하는지 다루고 있다. 주요 내용을 요약하면 다음과 같다:
 
+  
+
+1. **테이블 조정의 개념**:
+
+•  테이블 조정은 여러 기존 테이블 관련 데이터셋을 활용해 지시 조정 데이터셋을 구축하는 작업이다. 이 데이터셋은 지시문, 테이블, 출력의 형태로 구성된다.
+
+2. **TableLlama**:
+
+•  **TableLlama**는 현실적인 데이터를 사용하는 것을 강조하며, 템플릿 접근 방식을 통해 11개의 테이블 작업에 대한 14개의 기존 데이터셋(예: WikiTableQuestions, Spider)을 활용한다.
+
+•  이 접근 방식은 실제 테이블 작업과 유사한 데이터를 사용하여 LLM이 다양한 테이블 작업을 잘 처리할 수 있도록 훈련한다.
+
+3. **Table-GPT**:
+
+•  **Table-GPT**는 **합성 후 증강(synthesis-then-augment) 접근 방식**을 사용한다. 이 방식은 컴퓨터 비전에서 사용하는 이미지 변형 방법과 유사하다.
+
+•  Table-GPT는 18개의 합성 프로세스를 설계하여, 예를 들어 테이블의 행 또는 열을 교체하고, 출력으로 교체된 테이블을 생성한다. 이를 통해 모델은 행/열의 순서에 구애받지 않고 테이블을 이해할 수 있게 된다.
+
+•  또한, Table-GPT는 지시문, 테이블, 출력 수준에서 증강 전략을 구현하여 모델이 다양한 상황에서도 잘 작동하도록 한다. 이러한 증강은 모델이 과적합(overfitting)되는 것을 방지하는 데 도움을 준다.
+
+4.  **결과**:
+
+•  **TableLlama**와 **Table-GPT** 모두 테이블 작업에 대한 테이블 조정 후, LLM이 강력한 일반화 능력을 발휘하며, 이전에 보지 못한 새로운 테이블 작업도 해결할 수 있음을 입증한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1MD
-MyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDks
-LTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5Nj
-ExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQy
-NjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC
-03MjI2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIx
-MTc1NTQ4XX0=
+eyJoaXN0b3J5IjpbNDg0MjUzNzMzLC03Nzk2NzE2MSw0MjQ1OT
+E0NjYsLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywx
+NzE0OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5Nz
+cwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5
+NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4MjcsMT
+A4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5MzcyLC03OTY3
+NTg5NTFdfQ==
 -->
