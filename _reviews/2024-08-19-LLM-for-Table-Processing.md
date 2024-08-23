@@ -247,14 +247,22 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 •  일부 모델은 미세 조정(특정 작업에 맞게 모델을 다시 학습시키는 과정)할 때, 주석이 달린 데이터가 필요했다. 이 주석 데이터를 준비하는 것이 쉽지 않다.
 
 
+### **2. Table LLM Training**
+
 
 ![Screenshot 2024-08-23 at 2 04 29 PM](https://github.com/user-attachments/assets/2a582c96-ecd1-4e72-8f5a-9c37748bd38a)
+
+
+**2.1 What’s New in Table LLM Training**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyODEzNjg1LDM0OTM0NjgyNSwxMDY1OT
-c3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgx
-OTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LD
-EwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2
-NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgxNT
-U1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NSwt
-NDkzMjg1OTA1XX0=
+eyJoaXN0b3J5IjpbLTE2MDQwNDU2NTAsMzQ5MzQ2ODI1LDEwNj
+U5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkx
+ODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4Mj
+csMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5MzcyLC03
+OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwOD
+E1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1
+LC00OTMyODU5MDVdfQ==
 -->
