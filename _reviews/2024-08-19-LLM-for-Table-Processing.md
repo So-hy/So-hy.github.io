@@ -253,15 +253,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - **코드 조정**: 테이블 데이터를 처리하기 위해 SQL이나 Python과 같은 코드를 생성하는 데 중점을 둔다.
  - **하이브리드**: 코드 LLM을 테이블 지시 데이터로 조정하는 방식이 더 효과적이라는 연구 결과가 있다.
 
-•  **지시 데이터셋 구축**은 지시 조정의 중요한 요소이며, 수작업으로 만들기 어렵기 때문에, 자동화된 방법(템플릿 기반 변환, 데이터 증류 등)이 사용된다.
+**지시(Instruction) 데이터셋 구축**은 Instruction Tuning의 중요한 요소이며, 수작업으로 만들기 어렵기 때문에, 자동화된 방법(템플릿 기반 변환, 데이터 증류 등)이 사용된다.
 
-•  **지속적 사전 훈련**은 기존 모델에 새로운 데이터를 공급하여 특정 작업에 맞게 적응시키는 방법이다.
+ **지속적 사전 훈련**은 기존 모델에 새로운 데이터를 공급하여 특정 작업에 맞게 적응시키는 방법이라고 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExMzczNTU3LC04NzM3MTgyMTcsMTcxND
-k5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MDYx
-LC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTUsLT
-E3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LDEwODE4
-NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2NzU4OT
-UxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgxNTU1MCwx
-NzkxNzk2ODk3XX0=
+eyJoaXN0b3J5IjpbLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3Mz
+cxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1
+LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMT
+MzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1
+Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5Mz
+cyLC03OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0x
+NzcwODE1NTUwXX0=
 -->
