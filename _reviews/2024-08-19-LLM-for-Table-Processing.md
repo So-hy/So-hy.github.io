@@ -276,15 +276,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - **테이블(Table)**: 테이블 내용, 메타데이터, 또는 작업에 필요한 특정 정보를 제공한다.
  - **출력(Output)**: 작업의 결과로 얻어진 자연어 출력이 포함된다. 예를 들어, 테이블 QA의 답변, 텍스트 변환 결과, 테이블 조작 후의 결과 테이블 등이 있다.
 
-  
+해당 문단에서는 두 개의 사례를 보여준다.  
 
-**3. 실제 적용 사례**
-
-  
-
-•  **TableLlama**는 보다 현실적인 데이터를 사용하기 위해 템플릿 접근 방식을 사용하여 11개의 테이블 작업에 대한 14개의 기존 데이터셋을 수집한다.
-
-•  **Table-GPT**는 **합성 후 증강(synthesis-then-augment)**이라는 방법을 사용하여 데이터를 다양하게 만든다. 예를 들어, 컴퓨터 비전에서 이미지의 변형을 만드는 것과 유사하게, Table-GPT는 18개의 합성 프로세스를 통해 테이블 QA부터 행/열 교체에 이르는 다양한 작업을 설계한다.
+ - **TableLlama**는 보다 현실적인 데이터를 사용하기 위해 템플릿 접근 방식을 사용하여 11개의 테이블 작업에 대한 14개의 기존 데이터셋을 수집한다.
+ - **Table-GPT**는 **합성 후 증강(synthesis-then-augment)**이라는 방법을 사용하여 데이터를 다양하게 만든다. 예를 들어, 컴퓨터 비전에서 이미지의 변형을 만드는 것과 유사하게, Table-GPT는 18개의 합성
+   프로세스를 통해 테이블 QA부터 행/열 교체에 이르는 다양한 작업을 설계한다.
 
 •  **행/열 교체 예시**: 행이나 열을 교체하고, 그 결과를 출력하여 모델이 행과 열의 순서를 이해하도록 돕는다.
 
@@ -310,11 +306,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 이 문단은 LLM을 테이블 작업에 효과적으로 조정하기 위한 다양한 방법론과 그 중요성을 설명하고 있으며, 특히 TableLlama와 Table-GPT의 사례를 통해 구체적인 접근 방식을 제시하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQyNzIyODQ4LDM3MTI2NTU4MSwyMTY2MT
-I4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMCw0MTEz
-NzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4Nj
-csMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEy
-NTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0Nz
-A2MDg3OSw4NDc1Njc4MjcsMTA4MTg0MzIxMiwtNzIyNjczODEx
-XX0=
+eyJoaXN0b3J5IjpbMTUyOTY5NTgwNCwzNzEyNjU1ODEsMjE2Nj
+EyOCwtNzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDEx
+MzczNTU3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2NDY5OD
+Y3LDM0OTM0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExNDY0LC0x
+MjU5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTksLTIxND
+cwNjA4NzksODQ3NTY3ODI3LDEwODE4NDMyMTIsLTcyMjY3Mzgx
+MV19
 -->
