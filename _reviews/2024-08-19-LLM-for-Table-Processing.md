@@ -208,29 +208,24 @@ LLMs(대형 언어 모델)은 직선적이고 순차적인 텍스트 형식의 �
 
 LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 위해 언어 모델을 사용하고 있었다. 이들은 주로 기존 언어 모델(예: BERT)을 테이블 작업에 맞게 수정하는 데 중점을 두었다. 구체적으로는:
 
-
-•  **모델 구조를 수정**하고,
-
-•  **데이터를 인코딩하는 방법**을 고안하며,
-
-•  **학습 목표**를 설계해서 테이블 작업에 적합하게 만들려고 했다.
+ - **모델 구조를 수정**하고,
+ -   **데이터를 인코딩하는 방법**을 고안하며,
+ -   **학습 목표**를 설계해서 테이블 작업에 적합하게 만들려고 했다.
 
   
 여러 모델이 테이블 작업을 위해 어떻게 수정되었는지 아래의 예시로 확인할 수 있다.
 
-
-•  **TaPas**: BERT라는 모델을 기반으로 하고, 테이블과 관련된 텍스트를 다룰 수 있도록 구조와 학습 방법을 조금 바꿨다.
-
-•  **TaBERT**: 입력된 문장과 가장 관련 있는 테이블 데이터를 골라서 인코딩하고, 이 데이터를 더 잘 이해할 수 있도록 특별한 메커니즘을 사용했다.
-
-•  **TURL**: 테이블의 제목, 열 이름, 셀 내용 등을 각각 따로 인코딩한 후, 이를 하나로 합쳐서 이해할 수 있도록 했다.
-
-•  **TABBIE**: 손상된(잘못된) 셀을 찾아내는 목표로 학습 방법을 조정했다.
-
-•  **TaPEx**: SQL 쿼리(데이터베이스 질의)를 자동으로 생성하고, 이를 실행해 얻은 데이터를 학습하는 방식이다.
-
-•  **RESDSQL**: 학습 중에 테이블의 스키마(구조)를 모델에 주입하고, 이 스키마를 바탕으로 가장 적절한 답을 찾는 방법을 사용했다.
-
+ - **TaPas**: BERT라는 모델을 기반으로 하고, 테이블과 관련된 텍스트를 다룰 수 있도록 구조와 학습 방법을 조금 바꿨다.  
+ - **TaBERT**: 입력된 문장과 가장 관련 있는 테이블 데이터를 골라서 인코딩하고, 이 데이터를 더 잘 이해할
+   수 있도록 특별한 메커니즘을 사용했다.  
+   **TURL**: 테이블의 제목, 열 이름, 셀 내용 등을 각각 따로 인코딩한 후,
+   이를 하나로 합쳐서 이해할 수 있도록 했다.  
+   **TABBIE**: 손상된(잘못된) 셀을 찾아내는 목표로 학습 방법을
+   조정했다.  
+   **TaPEx**: SQL 쿼리(데이터베이스 질의)를 자동으로 생성하고, 이를 실행해 얻은 데이터를 학습하는
+   방식이다.  
+   **RESDSQL**: 학습 중에 테이블의 스키마(구조)를 모델에 주입하고, 이 스키마를 바탕으로 가장 적절한
+   답을 찾는 방법을 사용했다.
 
 또한 이미지로 된 테이블이나 문서에 포함된 테이블을 처리하기 위해서는, 연구자들은 **인코더-디코더** 구조를 사용했다고 한다. 여기서 각 부분의 역할은 아래와 같다.
 
@@ -258,11 +253,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDQwNDU2NTAsMzQ5MzQ2ODI1LDEwNj
-U5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkx
-ODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4Mj
-csMTA4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5MzcyLC03
-OTY3NTg5NTEsMjAyMTE3NTU0OCwtNzI1ODkwMzg0LC0xNzcwOD
-E1NTUwLDE3OTE3OTY4OTcsMTg5NDEyODU5OSwxNzYxNjE3MTY1
-LC00OTMyODU5MDVdfQ==
+eyJoaXN0b3J5IjpbNzQyMzA0MDQ5LDM0OTM0NjgyNSwxMDY1OT
+c3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgx
+OTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LD
+EwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2
+NzU4OTUxLDIwMjExNzU1NDgsLTcyNTg5MDM4NCwtMTc3MDgxNT
+U1MCwxNzkxNzk2ODk3LDE4OTQxMjg1OTksMTc2MTYxNzE2NSwt
+NDkzMjg1OTA1XX0=
 -->
