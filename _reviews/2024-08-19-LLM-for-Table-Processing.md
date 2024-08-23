@@ -218,10 +218,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 •  **TaPas**: BERT라는 모델을 기반으로 하고, 테이블과 관련된 텍스트를 다룰 수 있도록 구조와 학습 방법을 조금 바꿨다.
+
 •  **TaBERT**: 입력된 문장과 가장 관련 있는 테이블 데이터를 골라서 인코딩하고, 이 데이터를 더 잘 이해할 수 있도록 특별한 메커니즘을 사용했다.
+
 •  **TURL**: 테이블의 제목, 열 이름, 셀 내용 등을 각각 따로 인코딩한 후, 이를 하나로 합쳐서 이해할 수 있도록 했다.
+
 •  **TABBIE**: 손상된(잘못된) 셀을 찾아내는 목표로 학습 방법을 조정했다.
+
 •  **TaPEx**: SQL 쿼리(데이터베이스 질의)를 자동으로 생성하고, 이를 실행해 얻은 데이터를 학습하는 방식이다.
+
 •  **RESDSQL**: 학습 중에 테이블의 스키마(구조)를 모델에 주입하고, 이 스키마를 바탕으로 가장 적절한 답을 찾는 방법을 사용했다.
 
 
@@ -241,11 +246,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMT
-I1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5LC0yMTQ3
-MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEyLC03MjI2NzM4MT
-EsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwyMDIxMTc1NTQ4LC03
-MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MTc5Njg5NywxODk0MT
-I4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkwNSwtMTgzNzQ3Njg5
-NCwxOTE4MjQyODg4XX0=
+eyJoaXN0b3J5IjpbLTE0NDU4ODgxNjUsMTA2NTk3NzA2MSwtMT
+E5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQx
+ODQyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMj
+EyLC03MjI2NzM4MTEsLTEyNjU3MzkzNzIsLTc5Njc1ODk1MSwy
+MDIxMTc1NTQ4LC03MjU4OTAzODQsLTE3NzA4MTU1NTAsMTc5MT
+c5Njg5NywxODk0MTI4NTk5LDE3NjE2MTcxNjUsLTQ5MzI4NTkw
+NSwtMTgzNzQ3Njg5NF19
 -->
