@@ -285,12 +285,78 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 ![Screenshot 2024-08-24 at 1 04 20 AM](https://github.com/user-attachments/assets/4be8bdf3-8b69-4132-bfab-18eede61e4ff)
+
+
+
+**코드 조정의 기본 개념**
+
+  
+
+•  테이블 작업을 수행할 때, LLM은 테이블 데이터를 직접 다루는 것 외에도 코드를 생성하여 SQL 쿼리나 Python 코드를 통해 테이블을 조작할 수 있다.
+
+•  **코드 LLMs**는 생성된 코드를 Python 인터프리터나 데이터베이스 엔진과 같은 환경에서 실행할 수 있으며, 특히 **NL2SQL**(자연어를 SQL로 변환)과 같은 작업에서 유용하다.
+
+  
+
+**코드 조정의 실제 사례**
+
+  
+
+여러 코드 LLMs가 **데이터 분석 코드 생성**을 위한 벤치마크에서 높은 순위를 차지하고 있다. 몇 가지 주요 사례를 통해 코드 조정이 어떻게 이루어지는지 설명한다.
+
+  
+
+**WizardCoder**
+
+  
+
+•  **Evol-Instruct 방법**을 사용하여 기존의 지시 데이터를 바탕으로 새로운 지시를 생성한다.
+
+•  다섯 가지 **휴리스틱 방법**을 통해 다양한 코드 지시를 생성한다.
+
+  
+
+**Magicoder**
+
+  
+
+•  **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 코드 지시를 생성한다.
+
+•  Evol-Instruct와 독립적으로 작동하며, 두 방법을 함께 사용할 수 있다.
+
+  
+
+**Lemur**
+
+  
+
+•  모델이 **일반 목적 능력**(논리적 추론)과 **코드 능력**(코드 생성 및 실행) 사이의 균형을 유지하도록 한다.
+
+•  **10:1의 코드 대 텍스트 비율**로 코퍼스를 구성하여 코딩 능력을 강화하면서도, 자연어 처리 능력을 유지한다.
+
+  
+
+**DAAgent**
+
+  
+
+•  **데이터 분석에 특화된 에이전트 모델**로, GitHub에서 수집한 CSV 파일을 바탕으로 GPT-4를 활용하여 데이터 분석 키워드와 질문을 생성한다.
+
+  
+
+**코드 조정의 효과**
+
+  
+
+•  코드 지시를 통해 LLM을 조정하면, 특히 **데이터 분석 작업**에서 성능이 크게 향상될 수 있다.
+
+•  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3ND
-czMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0
-NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMT
-csMTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1
-OTc3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MT
-gxOTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3
-XX0=
+eyJoaXN0b3J5IjpbLTU1MzQzMDY2OCwxMzcxMzUyMzU3LDE3Mz
+YzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4MSwyMTY2MTI4LC03
+Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMCw0MTEzNzM1NT
+csLTg3MzcxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4NjcsMzQ5
+MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyOD
+U3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3
+OV19
 -->
