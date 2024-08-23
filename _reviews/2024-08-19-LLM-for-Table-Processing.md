@@ -270,12 +270,10 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
   
 
 1. **테이블 조정의 개념**:
-
-•  테이블 조정은 여러 기존 테이블 관련 데이터셋을 활용해 지시 조정 데이터셋을 구축하는 작업이다. 이 데이터셋은 지시문, 테이블, 출력의 형태로 구성된다.
+테이블 조정은 여러 기존 테이블 관련 데이터셋을 활용해 지시 조정 데이터셋을 구축하는 작업이다. 이 데이터셋은 지시문, 테이블, 출력의 형태로 구성된다.
 
 2. **TableLlama**:
-
-•  **TableLlama**는 현실적인 데이터를 사용하는 것을 강조하며, 템플릿 접근 방식을 통해 11개의 테이블 작업에 대한 14개의 기존 데이터셋(예: WikiTableQuestions, Spider)을 활용한다.
+그림 4는 TableLlama를 위한 지시 조정 데이터셋인 TableInstruct의 예제 항목을 보여준다. **TableLlama**는 현실적인 데이터를 사용하는 것을 강조하며, 템플릿 접근 방식을 통해 11개의 테이블 작업에 대한 14개의 기존 데이터셋(예: WikiTableQuestions, Spider)을 활용한다. 
 
 •  이 접근 방식은 실제 테이블 작업과 유사한 데이터를 사용하여 LLM이 다양한 테이블 작업을 잘 처리할 수 있도록 훈련한다.
 
@@ -291,11 +289,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  **TableLlama**와 **Table-GPT** 모두 테이블 작업에 대한 테이블 조정 후, LLM이 강력한 일반화 능력을 발휘하며, 이전에 보지 못한 새로운 테이블 작업도 해결할 수 있음을 입증한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg0MjUzNzMzLC03Nzk2NzE2MSw0MjQ1OT
-E0NjYsLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywx
-NzE0OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5Nz
-cwNjEsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5
-NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3OSw4NDc1Njc4MjcsMT
-A4MTg0MzIxMiwtNzIyNjczODExLC0xMjY1NzM5MzcyLC03OTY3
-NTg5NTFdfQ==
+eyJoaXN0b3J5IjpbLTY3MDIyMTc0OCwtNzc5NjcxNjEsNDI0NT
+kxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMTcs
+MTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OT
+c3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgx
+OTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3LD
+EwODE4NDMyMTIsLTcyMjY3MzgxMSwtMTI2NTczOTM3MiwtNzk2
+NzU4OTUxXX0=
 -->
