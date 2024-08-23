@@ -281,12 +281,16 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 •  **TableLlama**와 **Table-GPT**는 테이블 조정을 통해 LLM이 보지 못한 새로운 테이블 작업에서도 강력한 **일반화 능력**을 보여줄 수 있음을 입증한다. 이 과정에서 모델은 더 다양한 테이블 작업을 처리할 수 있는 능력을 갖추게 된다.
 
  
+ **2.3 Code Tuning**
+
+
+![Screenshot 2024-08-24 at 1 04 20 AM](https://github.com/user-attachments/assets/4be8bdf3-8b69-4132-bfab-18eede61e4ff)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMj
-Y1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1
-MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MD
-ksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5
-NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxOD
-QyNjE5LC0yMTQ3MDYwODc5LDg0NzU2NzgyNywxMDgxODQzMjEy
+eyJoaXN0b3J5IjpbMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3ND
+czMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0
+NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMT
+csMTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1
+OTc3MDYxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MT
+gxOTUsLTE3NDE4NDI2MTksLTIxNDcwNjA4NzksODQ3NTY3ODI3
 XX0=
 -->
