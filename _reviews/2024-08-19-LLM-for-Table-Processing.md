@@ -437,12 +437,17 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 -   **행동 모듈**:
  계획된 행동을 실제로 수행하는 단계다. 이 모듈은 테이블 데이터를 수정하거나 분석하는 등의 작업을 실제로 실행한다.
+
+
+![DFCBDFB](https://github.com/user-attachments/assets/fc98a0fa-ebc0-4f05-87e5-5f71692ff191){: .responsive-img .align-center}
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMT
-Y1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0
-MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLT
-g4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3
-MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OC
-wtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5LC01NTM0
-MzA2NjhdfQ==
+eyJoaXN0b3J5IjpbMTIwOTc2ODIyMCwtMTA4ODIxNDc5NCwxOD
+Q1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5
+MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMT
+YwNjA5NTEzMiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0
+ODE1NSwtMTM3NTcxMzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNS
+wxNTY4MjM1NjQ4LC0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIy
+NzYwNzldfQ==
 -->
