@@ -329,14 +329,13 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **2.4. 테이블과 코드의 하이브리드 접근(Hybrid of Table and Code)**
 
-  
-현재 많은 오픈 소스 **범용 LLM**과 **코드 LLM**이 있으며, 테이블 작업을 위해 어떤 모델을 기초로 선택할지가 중요한 문제다. **StructLM** 연구에서 **코드 LLM**을 기초 모델로 사용한 경우, 테이블 작업에서 가장 우수한 성능을 보였다. 하이브리드 접근법은 테이블 지시 데이터셋을 어떻게 효과적으로 구성할지를 중심으로 연구한다.
+ - 현재 많은 오픈 소스 **범용 LLM**과 **코드 LLM**이 있으며, 테이블 작업을 위해 어떤 모델을 기초로 선택할지가
+   중요한 문제다.
+ - **StructLM** 연구에서 **코드 LLM**을 기초 모델로 사용한 경우, 테이블 작업에서 가장 우수한 성능을 보였다. 하이브리드 접근법은 테이블 지시 데이터셋을 어떻게 효과적으로 구성할지를 중심으로 연구한다.
 
   
 
-**2. 지속적 사전 훈련(Continue Pre-training)**
-
-  
+**2.5 지속적 사전 훈련(Continue Pre-training)**
 
 •  **소형 LLM**은 배포 비용이 낮지만 코드 생성이나 추론 능력이 대형 LLM에 비해 부족하다.
 
@@ -344,7 +343,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  CodeS는 사전 훈련된 **StarCoder 모델**에 SQL 관련 자연어 텍스트와 NL-to-code 데이터를 추가로 학습시켜 자연어 처리, 추론 및 코딩 능력을 향상시켰다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5NTEzNDAwMyw1MTYzODg2ODAsMTA1Mj
+eyJoaXN0b3J5IjpbLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1Mj
 I3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYy
 MCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MT
 YxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODcz
