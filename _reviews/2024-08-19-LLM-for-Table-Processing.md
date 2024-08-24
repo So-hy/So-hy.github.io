@@ -422,13 +422,15 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 > 에이전트는 특정 목표를 달성하기 위해 자율적으로 행동하는 지능형 소프트웨어이며, LLM 기반 에이전트는 LLM의 언어 처리 능력을 활용하여 다양한 작업을 수행할 수 있는 에이전트다.
 
 
-5.1 Common Workflow of LLM-powered Agents
+### 5.1 Common Workflow of LLM-powered Agents
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjA4NDk4NDUsMjA4NDk2OTI0MiwzMz
-AwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUx
-MzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLT
-EzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMTU2ODIz
-NTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5LC
-01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3NDcz
-Mjk0OV19
+eyJoaXN0b3J5IjpbMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMD
+A5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEz
+MiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMT
+M3NTcxMzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNTY4MjM1
+NjQ4LC0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLT
+U1MzQzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMy
+OTQ5XX0=
 -->
