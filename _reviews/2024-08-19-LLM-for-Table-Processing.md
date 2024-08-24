@@ -391,8 +391,6 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 **1. 비용 문제**
 
-  
-
 **훈련 비용**: 대형 언어 모델(LLMs)이나 시각 언어 모델(VLMs)을 훈련하는 데는 많은 비용이 든다. 예를 들어, 70억 개의 매개변수를 가진 모델(7B 모델)을 미세 조정하려면 80GB 메모리를 가진 GPU가 8개나 필요하다. 이는 모든 기업이 감당할 수 없는 높은 비용이다.
 
 **훈련 데이터 비용**: 모델을 훈련시키기 위해 필요한 데이터에 주석을 다는 데도 많은 비용이 든다. 사람이 직접 데이터를 주석하는 것은 시간이 많이 걸리고 비용이 많이 든다.
@@ -411,11 +409,11 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 •  **데이터 분석 작업**: 데이터 분석 작업에서, Lemur와 DAAgent와 같은 지시 조정 모델이 GPT-4처럼 강력한 모델을 능가하지 못했다. 이는 LLM이 강력하다고 해서 모든 작업에서 항상 최고의 성능을 발휘하는 것은 아니라는 것을 보여준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI2OTY2OTQ2OCwxNDg1MDczNzg0LDE2MD
-YwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgx
-NTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMT
-U2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2
-MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLD
-k3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjFd
-fQ==
+eyJoaXN0b3J5IjpbLTE1ODE3NjgyNDgsMTQ4NTA3Mzc4NCwxNj
+A2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4
+MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LD
+E1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3
+NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMC
+w5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYx
+XX0=
 -->
