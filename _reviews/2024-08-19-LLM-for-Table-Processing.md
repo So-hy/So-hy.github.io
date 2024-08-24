@@ -410,12 +410,18 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 
 GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은 기업들이 이를 사용하여 데이터를 증류하고(즉, 더 작은 모델을 훈련하기 위해 데이터 생성에 활용) 있다. 하지만 GPT를 기반으로 더 좋은 성능을 얻기 위해 훈련을 계속하는 것은 비용이 매우 높다. Table-GPT는 GPT-3.5 모델을 기반으로 훈련을 계속하면서 GPT-3.5와 ChatGPT보다 모든 테이블 관련 작업에서 더 나은 성능을 보였지만, 이 훈련 비용은 일반 기업이 감당하기 어려울 정도로 높았다.
+
+
+
+이 섹션에서는 **대형 언어 모델(LLM)**을 사용해 테이블 작업을 수행하는 방법에 대해 설명하고 있다. LLM은 테이블 작업에 필요한 몇 가지 중요한 기능에서 어려움을 겪는다. 예를 들어 **복잡한 추론**,**산술 계산**,**사실 조회**,**오류 수정** 등이 있다.
+  
+이런 기능들이 테이블 작업에서는 필수적이다. 그래서 연구자들은 모델이 단순히 빠르게 판단하는 것이 아니라, **깊이 생각하고 스스로 수정할 수 있도록** 돕는 방법을 찾고 있다. 또한, LLM이 **Python이나 SQL 같은 외부 도구를 사용할 수 있도록** 하는 것도 중요한 과제다. 이러한 문제들을 해결하기 위해 연구자들은 LLM을 기반으로 한 **에이전트**를 개발하고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NT
-A3Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMx
-MSwtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOT
-Y5ODY0MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2
-ODAsMTA1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMT
-czNjM4MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjhd
-fQ==
+eyJoaXN0b3J5IjpbLTE2NTQ0NTAyNSwzMzAwOTE0MjMsLTU1MT
+c4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2
+NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMT
+QwNTUzMzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OCwtMjM2Nzcx
+Mzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMT
+M3MTM1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1
+ODFdfQ==
 -->
