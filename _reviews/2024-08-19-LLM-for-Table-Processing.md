@@ -426,12 +426,24 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 
 
 LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**하는 방식으로 작동한다. 이 방식은 사람들이 문제를 해결할 때 복잡한 문제를 작은 부분으로 나누어 차례차례 해결하는 것과 비슷하다. 이렇게 함으로써 LLM은 한 번에 하나씩 더 단순한 문제를 해결해 가며, 결국엔 전체 문제를 해결할 수 있게 된다.
+
+에이전트 시스템은 이러한 패러다임을 따르도록 설계되며, 일반적으로 **메모리**, **계획**, **행동**과 같은 모듈을 포함한다
+
+-   **메모리 모듈**:
+    
+    -   **역할**: 에이전트가 작업을 수행하면서 얻은 정보나 경험을 저장하는 역할을 한다. 예를 들어, 테이블에서 어떤 작업을 했고, 그 결과가 무엇이었는지 기록한다. 이 정보는 이후 작업을 계획할 때 다시 사용될 수 있다.
+-   **계획 모듈**:
+    
+    -   **역할**: 현재 상황에서 에이전트가 무엇을 해야 할지 결정하는 단계다. 예를 들어, 테이블 데이터를 분석해야 할지, 아니면 데이터를 수정해야 할지를 결정한다.
+-   **행동 모듈**:
+    
+    -   **역할**: 계획된 행동을 실제로 수행하는 단계다. 이 모듈은 테이블 데이터를 수정하거나 분석하는 등의 작업을 실제로 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNz
-AyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4
-MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNj
-M2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUz
-MzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LD
-UxNjM4ODY4MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1
-MjM1N119
+eyJoaXN0b3J5IjpbLTIxNjg2MTg2MCwxODQ1NDg4NTcwLDExNj
+U3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQy
+MywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMiwtOD
+g0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcx
+Mzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNTY4MjM1NjQ4LC
+0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQz
+MDY2OF19
 -->
