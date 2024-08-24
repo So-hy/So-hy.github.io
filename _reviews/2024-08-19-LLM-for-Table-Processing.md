@@ -321,7 +321,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **DAAgent**
 
-•  **데이터 분석에 특화된 에이전트 모델**로, GitHub에서 수집한 CSV 파일을 바탕으로 GPT-4를 활용하여 데이터 분석 키워드와 질문을 생성한다.
+ - **데이터 분석에 특화된 에이전트 모델**로, GitHub에서 수집한 CSV 파일을 바탕으로 GPT-4를 활용하여 데이터 분석 키워드와 질문을 생성한다.
 
   
 
@@ -333,11 +333,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NDA0MjMzMiwxMDUyMjc2MDc5LC01NT
-M0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0
-OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxND
-Y2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMTcsMTcx
-NDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MD
-YxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTVd
-fQ==
+eyJoaXN0b3J5IjpbLTE5Nzc4NzQwMDMsMTA1MjI3NjA3OSwtNT
+UzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5
+NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MT
+Q2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3
+MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3Nz
+A2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1
+XX0=
 -->
