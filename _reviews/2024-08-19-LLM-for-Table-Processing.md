@@ -401,19 +401,17 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 **2. 정확도 문제**
 
-  
-
 •  **지시 조정 vs. 미세 조정**: LLM을 지시 조정(instruction tuning)하는 방법이 항상 최적의 정확도를 제공하지는 않는다. 때로는 사전 훈련된 작은 모델을 미세 조정(fine-tuning)하거나 클로즈드 소스 LLM(예: ChatGPT)을 사용하는 것이 더 나은 결과를 얻을 수 있다.
 
 •  **LLM vs. LLM 이전 모델**: 연구에 따르면, 특정 작업에서 LLM이 LLM 이전 시대의 모델보다 항상 우수한 성능을 발휘하지는 않는다. 예를 들어, 7B TableLlama는 특정 작업에서 더 작은 모델이 작업에 맞게 미세 조정된 경우보다 성능이 떨어질 수 있다.
 
 •  **데이터 분석 작업**: 데이터 분석 작업에서, Lemur와 DAAgent와 같은 지시 조정 모델이 GPT-4처럼 강력한 모델을 능가하지 못했다. 이는 LLM이 강력하다고 해서 모든 작업에서 항상 최고의 성능을 발휘하는 것은 아니라는 것을 보여준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODE3NjgyNDgsMTQ4NTA3Mzc4NCwxNj
-A2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4
-MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LD
-E1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3
-NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMC
-w5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYx
-XX0=
+eyJoaXN0b3J5IjpbMTYyNDk1NzY3NiwxNDg1MDczNzg0LDE2MD
+YwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgx
+NTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMT
+U2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2
+MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLD
+k3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjFd
+fQ==
 -->
