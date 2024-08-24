@@ -492,8 +492,11 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 1.  **관련된 테이블과 열 식별**: 질문과 관련된 테이블과 그 안의 열을 찾아낸다.
 2.  **중간 하위 질의 생성**: 큰 질문을 해결하기 위해 필요한 작은 하위 질문들을 만들어낸다.
 
+**Dater**라는 모델은 웹 테이블에서 복잡한 질문을 처리할 때 LLM을 사용하여 작업을 분해한다. 이 과정은 다음과 같이 진행된다:
+    1.  **큰 증거를 작은 증거로 분해**: 웹 테이블처럼 방대한 데이터를 작은 데이터 조각으로 나누어 분석한다.
+    2.  **복잡한 질문을 더 단순한 질문으로 분해**: 복잡한 질문을 이해하기 쉽게 작은 질문들로 나누고, 그에 따라 SQL 쿼리를 생성한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTY4NDkyMzcsLTIwNzgzNDExMjIsMT
+eyJoaXN0b3J5IjpbLTE0NDQxMDc5NTAsLTIwNzgzNDExMjIsMT
 Q3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1
 NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MC
 wxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAw
