@@ -288,13 +288,8 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 
-**코드 조정의 기본 개념**
 
-  
-
-•  테이블 작업을 수행할 때, LLM은 테이블 데이터를 직접 다루는 것 외에도 코드를 생성하여 SQL 쿼리나 Python 코드를 통해 테이블을 조작할 수 있다.
-
-•  **코드 LLMs**는 생성된 코드를 Python 인터프리터나 데이터베이스 엔진과 같은 환경에서 실행할 수 있으며, 특히 **NL2SQL**(자연어를 SQL로 변환)과 같은 작업에서 유용하다.
+테이블 작업을 수행할 때, LLM은 테이블 데이터를 직접 다루는 것 외에도 코드를 생성하여 SQL 쿼리나 Python 코드를 통해 테이블을 조작할 수 있다. **코드 LLMs**는 생성된 코드를 Python 인터프리터나 데이터베이스 엔진과 같은 환경에서 실행할 수 있으며, 특히 **NL2SQL**(자연어를 SQL로 변환)과 같은 작업에서 유용하다.
 
   
 
@@ -352,11 +347,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MzQzMDY2OCwxMzcxMzUyMzU3LDE3Mz
-YzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4MSwyMTY2MTI4LC03
-Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMCw0MTEzNzM1NT
-csLTg3MzcxODIxNywxNzE0OTk3OTA5LC03MjY0Njk4NjcsMzQ5
-MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMTE0NjQsLTEyNTkyOD
-U3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYxOSwtMjE0NzA2MDg3
-OV19
+eyJoaXN0b3J5IjpbNTAwMzk3OTQ1LC01NTM0MzA2NjgsMTM3MT
+M1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1ODEs
+MjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMD
+AsNDExMzczNTU3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2
+NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExND
+Y0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTld
+fQ==
 -->
