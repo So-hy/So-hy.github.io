@@ -452,16 +452,17 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
  1) 복잡한 문제를 더 작은 하위 문제로 나누는 것,
  2) 이전 결정을 반영하고 수정하는 것.
  
+기본적으로 이 모듈은 **ReAct 접근법**을 사용한다. ReAct 접근법은 **피드백**과 **성찰**을 통해 작업을 진행하는 방법이다. 즉, 한 번에 모든 것을 결정하는 것이 아니라, 작업을 조금씩 진행하면서 결과를 보고, 그에 따라 다음 행동을 결정하는 방식이다.
 
 #### **1. 계획의 형식화**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00Nz
-Y0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1
-NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMz
-MwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2MDk1
-MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC
-0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LDE1Njgy
-MzU2NDhdfQ==
+eyJoaXN0b3J5IjpbLTE2Mzg0ODQwMjAsLTg4Mjg4MjA2MSwxMT
+MwMjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0
+Nzk0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLD
+IwODQ5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3
+Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMS
+wtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5
+ODY0MDA1XX0=
 -->
