@@ -376,12 +376,15 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 사전 훈련이 끝나면, 전체 모델을 최적화하는 **미세 조정** 또는 **지시 조정(instruction tuning)**을 진행한다.
 
 •  이 두 단계에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTgwNzI2OTAsLTYzNjcwNDMxMSwtNT
-cyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0
-MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMT
-A1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4
-MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OT
-Y3MTYxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1N119
+eyJoaXN0b3J5IjpbLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01Nz
+IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
+MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
+UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
+NjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5Nj
+cxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3XX0=
 
 -->
