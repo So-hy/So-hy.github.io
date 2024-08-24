@@ -487,13 +487,16 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 
 **CoT**(Chain-of-Thought)와 **least-to-most** 방법은 LLM(대형 언어 모델)이 복잡한 테이블 작업을 처리할 때 사용되는 두 가지 접근법이다. 이 방법들은 **작업을 단계별로 나누는 것**을 목표로 한다. 이런 프롬프트 방법에서 영감을 받아, 연구자들은 LLM에게 복잡한 테이블 작업을 더 단순한 하위 작업으로 분해하도록 지시한다.
 
-
+ **DIN-SQL**은 **NL2SQL** 작업(자연어를 SQL로 변환하는 작업)을 더 작은 하위 작업으로 나누는 방법을 제안한다.
+-   이 과정은 다음과 같은 단계로 진행된다:
+    1.  **관련된 테이블과 열 식별**: 질문과 관련된 테이블과 그 안의 열을 찾아낸다.
+    2.  **중간 하위 질의 생성**: 큰 질문을 해결하기 위해 필요한 작은 하위 질문들을 만들어낸다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtOD
-gyODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMw
-ODgsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LD
-EzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4
-NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NC
-wtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQw
-NTUzMzkyNF19
+eyJoaXN0b3J5IjpbMTMzMTk2MTkxMiwtMjA3ODM0MTEyMiwxND
+czMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2
+MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4NTcwLD
+ExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5
+MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMi
+wtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3
+NTcxMzc1M119
 -->
