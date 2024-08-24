@@ -327,17 +327,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **Code Tuning의 효과**
 
-  
+ - Code Tuning를 통해 LLM을 조정하면, 특히 **데이터 분석 작업**에서 성능이 크게 향상될 수 있다.
+ - 이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 
-•  코드 지시를 통해 LLM을 조정하면, 특히 **데이터 분석 작업**에서 성능이 크게 향상될 수 있다.
-
-•  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzcyMjQ1ODQsMTA1MjI3NjA3OSwtNT
-UzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5
-NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MT
-Q2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3
-MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3Nz
-A2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1
-XX0=
+eyJoaXN0b3J5IjpbNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1Mz
+QzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5
+LDM3MTI2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0Nj
+YsLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0
+OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNj
+EsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NV19
+
 -->
