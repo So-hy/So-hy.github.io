@@ -448,13 +448,18 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 ### 5.2 Planning
 
-여기선 위의 계획 모듈(Planning Module)에 대해 자세히 다룬다.
+여기선 위의 계획 모듈(Planning Module)에 대해 자세히 다룬다. 계획 모듈은 LLM을 프롬프트하여 행동을 계획한다. 이 모듈은 두 가지 중요한 측면을 신중하게 처리해야 한다:
+ 1) 복잡한 문제를 더 작은 하위 문제로 나누는 것,
+ 2) 이전 결정을 반영하고 수정하는 것.
+ 
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzA4MDIzMDAsLTQ3NjQ1NjM4LDE0MT
-QzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4
-MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLT
-U1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0
-MDI2NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NT
-MsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OCwtMjM2
-NzcxMzk0XX0=
+eyJoaXN0b3J5IjpbMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxND
+M4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4NTcwLDExNjU3MDgx
+MjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQyMywtNT
+UxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMiwtODg0MTQw
+MjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcxMzc1My
+wxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNTY4MjM1NjQ4LC0yMzY3
+NzEzOTRdfQ==
 -->
