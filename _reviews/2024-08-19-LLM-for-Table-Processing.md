@@ -378,14 +378,21 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 •  이 두 단계에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 
 
+
+### 4 Summary and Discussion
+
+이 문단은 **훈련 기반 방법**의 장점과 한계, 특히 **비용과 정확도**에 관한 문제를 다루고 있다.
+
 > **훈련 기반 방법**은 모델을 특정 작업이나 도메인에 맞추기 위해 **훈련(트레이닝)** 과정을 거치는 방식을 의미한다. 이 방법은 모델이 더 나은 성능을 발휘할 수 있도록 사전 훈련(pre-training) 또는 미세 조정(fine-tuning)을 통해 모델의 매개변수들을 조정하는 것이다.
 
+
+훈련 기반 방법을 사용하면, 기업이 데이터를 외부로 유출하지 않고도 자체적으로 모델을 훈련하고 배포할 수 있다. 이는 데이터 보안 측면에서 큰 이점이다. 그리고 좋은 결과 또한 얻을 수 있다. 하지만, **비용**과 **정확도**라는 두 가지 큰 문제가 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNjA5NTEzMiwtODg0MTQwMjY0LC02Mz
-Y3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcxMzc1MywxNDA1NTMz
-OTI0LDk2OTg2NDAwNSwxNTY4MjM1NjQ4LC0yMzY3NzEzOTQsNT
-E2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQzMDY2OCwxMzcxMzUy
-MzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4MSwyMT
-Y2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMF19
+eyJoaXN0b3J5IjpbMTQ4NTA3Mzc4NCwxNjA2MDk1MTMyLC04OD
+QxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMzc1NzEz
+NzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LDE1NjgyMzU2NDgsLT
+IzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNTUzNDMw
+NjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMz
+cxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2Nl19
 
 -->
