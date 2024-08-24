@@ -430,20 +430,19 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 에이전트 시스템은 이러한 패러다임을 따르도록 설계되며, 일반적으로 **메모리**, **계획**, **행동**과 같은 모듈을 포함한다
 
 -   **메모리 모듈**:
-    
-    -   **역할**: 에이전트가 작업을 수행하면서 얻은 정보나 경험을 저장하는 역할을 한다. 예를 들어, 테이블에서 어떤 작업을 했고, 그 결과가 무엇이었는지 기록한다. 이 정보는 이후 작업을 계획할 때 다시 사용될 수 있다.
+    에이전트가 작업을 수행하면서 얻은 정보나 경험을 저장하는 역할을 한다. 예를 들어, 테이블에서 어떤 작업을 했고, 그 결과가 무엇이었는지 기록한다. 이 정보는 이후 작업을 계획할 때 다시 사용될 수 있다.
+
 -   **계획 모듈**:
-    
-    -   **역할**: 현재 상황에서 에이전트가 무엇을 해야 할지 결정하는 단계다. 예를 들어, 테이블 데이터를 분석해야 할지, 아니면 데이터를 수정해야 할지를 결정한다.
+현재 상황에서 에이전트가 무엇을 해야 할지 결정하는 단계다. 예를 들어, 테이블 데이터를 분석해야 할지, 아니면 데이터를 수정해야 할지를 결정한다.
+
 -   **행동 모듈**:
-    
-    -   **역할**: 계획된 행동을 실제로 수행하는 단계다. 이 모듈은 테이블 데이터를 수정하거나 분석하는 등의 작업을 실제로 실행한다.
+ 계획된 행동을 실제로 수행하는 단계다. 이 모듈은 테이블 데이터를 수정하거나 분석하는 등의 작업을 실제로 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjg2MTg2MCwxODQ1NDg4NTcwLDExNj
-U3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQy
-MywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMiwtOD
-g0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcx
-Mzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNTY4MjM1NjQ4LC
-0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQz
-MDY2OF19
+eyJoaXN0b3J5IjpbLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMT
+Y1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0
+MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLT
+g4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3
+MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OC
+wtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5LC01NTM0
+MzA2NjhdfQ==
 -->
