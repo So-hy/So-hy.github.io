@@ -375,19 +375,9 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 2. **미세 조정(Fine-tuning)**
 사전 훈련이 끝나면, 전체 모델을 최적화하는 **미세 조정** 또는 **지시 조정(instruction tuning)**을 진행한다.
 
-  
-
-**요약**
-
-  
-
-•  테이블 VLM 훈련에는 **전통적 방법**, **엔드투엔드 방법**, **하이브리드 방법**이 있다.
-
-•  VLM 훈련은 보통 **사전 훈련**과 **미세 조정**의 두 단계로 나뉘며, 인코더와 디코더를 최적화하는 과정이 필요하다.
-
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2NTQzMTI3MCwtNjM2NzA0MzExLC01Nz
+eyJoaXN0b3J5IjpbLTQxMDQ4NTA1NSwtNjM2NzA0MzExLC01Nz
 IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
 MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
 UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
