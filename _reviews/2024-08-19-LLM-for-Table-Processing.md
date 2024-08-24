@@ -378,13 +378,14 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 •  이 두 단계에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 
 
+> **훈련 기반 방법**은 모델을 특정 작업이나 도메인에 맞추기 위해 **훈련(트레이닝)** 과정을 거치는 방식을 의미한다. 이 방법은 모델이 더 나은 성능을 발휘할 수 있도록 사전 훈련(pre-training) 또는 미세 조정(fine-tuning)을 통해 모델의 매개변수들을 조정하는 것이다.
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01Nz
-IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
-MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
-UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
-NjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5Nj
-cxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3XX0=
+eyJoaXN0b3J5IjpbMTYwNjA5NTEzMiwtODg0MTQwMjY0LC02Mz
+Y3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcxMzc1MywxNDA1NTMz
+OTI0LDk2OTg2NDAwNSwxNTY4MjM1NjQ4LC0yMzY3NzEzOTQsNT
+E2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQzMDY2OCwxMzcxMzUy
+MzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4MSwyMT
+Y2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMjEwMF19
 
 -->
