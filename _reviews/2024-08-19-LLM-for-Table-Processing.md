@@ -441,9 +441,9 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 ![DFCBDFB](https://github.com/user-attachments/assets/fc98a0fa-ebc0-4f05-87e5-5f71692ff191){: .responsive-img .align-center}
 
-
+위 그림에서 보여지듯, 테이블 작업의 경우 에이전트는 먼저 테이블 데이터와 사용자의 의도를 관찰한다. 그런 다음 프롬프트를 생성하고, 복잡한 작업을 분해하며, 행동을 계획하고 이를 테이블 환경에서 실행한 후 상태나 관찰 결과를 업데이트한다. 이 반복적인 과정은 기대한 결과가 나올 때까지 계속된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTc2ODIyMCwtMTA4ODIxNDc5NCwxOD
+eyJoaXN0b3J5IjpbMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxOD
 Q1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5
 MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMT
 YwNjA5NTEzMiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0
