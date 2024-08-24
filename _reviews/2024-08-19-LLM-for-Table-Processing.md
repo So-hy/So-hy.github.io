@@ -425,13 +425,13 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 ### 5.1 Common Workflow of LLM-powered Agents
 
 
-
+LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**하는 방식으로 작동한다. 이 방식은 사람들이 문제를 해결할 때 복잡한 문제를 작은 부분으로 나누어 차례차례 해결하는 것과 비슷하다. 이렇게 함으로써 LLM은 한 번에 하나씩 더 단순한 문제를 해결해 가며, 결국엔 전체 문제를 해결할 수 있게 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwOD
-Q5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4
-NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNT
-cyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0
-MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMT
-A1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4
-MDYyMF19
+eyJoaXN0b3J5IjpbMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNz
+AyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4
+MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNj
+M2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUz
+MzkyNCw5Njk4NjQwMDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LD
+UxNjM4ODY4MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1
+MjM1N119
 -->
