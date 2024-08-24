@@ -348,13 +348,10 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **VLMs(시각 언어 모델)**은 이미지를 이해하고, 이를 텍스트와 결합하여 작업을 수행하는 모델이다. 테이블 작업을 처리하기 위해 VLM을 사용하는 방법은 크게 세 가지로 나눌 수 있다.
 
-  
-
 1. **첫 번째 유형: 전통적인 패턴 인식 방법**
 
-•  패턴 인식은 테이블이 어디에 있는지 찾고(탐지), 그 테이블에서 데이터를 추출하는 작업을 포함한다.
-
-•  **예시**: **TableVLM**은 테이블을 감지하고, 데이터를 추출하는 데 초점을 맞춘다.
+패턴 인식은 테이블이 어디에 있는지 찾고(탐지), 그 테이블에서 데이터를 추출하는 작업을 포함한다.
+⇒ **예시**: **TableVLM**은 테이블을 감지하고, 데이터를 추출하는 데 초점을 맞춘다.
 
 2. **두 번째 유형: 엔드투엔드 방식**
 
@@ -400,10 +397,10 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY5ODY0MDA1LDE1NjgyMzU2NDgsLTIzNj
-c3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNTUzNDMwNjY4
-LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMj
-Y1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1
-MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MD
-ksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MV19
+eyJoaXN0b3J5IjpbMTA5NzU0NzE2MSw5Njk4NjQwMDUsMTU2OD
+IzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5
+LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3ND
+czMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0
+NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMT
+csMTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNV19
 -->
