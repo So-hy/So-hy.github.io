@@ -291,7 +291,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 테이블 작업을 수행할 때, LLM은 테이블 데이터를 직접 다루는 것 외에도 코드를 생성하여 SQL 쿼리나 Python 코드를 통해 테이블을 조작할 수 있다. **코드 LLMs**는 생성된 코드를 Python 인터프리터나 데이터베이스 엔진과 같은 환경에서 실행할 수 있으며, 특히 **NL2SQL**(자연어를 SQL로 변환)과 같은 작업에서 유용하다.
 
-여러 코드 LLMs가 **데이터 분석 코드 생성**을 위한 벤치마크에서 높은 순위를 차지하고 있다. 몇 가지 주요 사례를 통해 코드 조정이 어떻게 이루어지는지 설명한다.
+여러 코드 LLMs가 **데이터 분석 코드 생성**을 위한 벤치마크에서 높은 순위를 차지하고 있다. 몇 가지 주요 사례를 통해 Code Tuning이 어떻게 이루어지는지 설명한다.
 
   
 
@@ -334,11 +334,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI1Mzk2MzUsMTA1MjI3NjA3OSwtNTUzND
-MwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDks
-MzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2Ni
-wtOTg1MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5
-OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MS
-wtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1XX0=
-
+eyJoaXN0b3J5IjpbLTExOTg1MTcwNCwxMDUyMjc2MDc5LC01NT
+M0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0
+OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxND
+Y2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMTcsMTcx
+NDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MD
+YxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTVd
+fQ==
 -->
