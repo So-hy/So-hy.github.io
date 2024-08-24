@@ -483,12 +483,17 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
  1) 복잡한 문제를 더 작은 하위 문제로 나누는 것. 이 부분에 대해 살펴볼 것이다.
 
+**복잡한 작업 분해**는 말그대로 어려운 작업을 작은 부분으로 나누어 처리하는 방법이다. 이는 마치 복잡한 문제를 작은 문제들로 쪼개어 하나씩 해결해 나가는 것과 같다. 이 방법을 사용하면 더 복잡한 작업도 쉽게 해결할 수 있다.
+
+**CoT**(Chain-of-Thought)와 **least-to-most** 방법은 LLM(대형 언어 모델)이 복잡한 테이블 작업을 처리할 때 사용되는 두 가지 접근법이다. 이 방법들은 **작업을 단계별로 나누는 것**을 목표로 한다. 이런 프롬프트 방법에서 영감을 받아, 연구자들은 LLM에게 복잡한 테이블 작업을 더 단순한 하위 작업으로 분해하도록 지시한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyMTEyNzAxMCwxNDczMTM1MDUwLC04OD
-I4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4
-OCwtMTA4ODIxNDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMT
-M3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1
-ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMiwtODg0MTQwMjY0LC
-02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcxMzc1MywxNDA1
-NTMzOTI0XX0=
+eyJoaXN0b3J5IjpbLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtOD
+gyODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMw
+ODgsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LD
+EzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4
+NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NC
+wtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQw
+NTUzMzkyNF19
 -->
