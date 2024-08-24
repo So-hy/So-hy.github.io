@@ -493,14 +493,16 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 2.  **중간 하위 질의 생성**: 큰 질문을 해결하기 위해 필요한 작은 하위 질문들을 만들어낸다.
 
 **Dater**라는 모델은 웹 테이블에서 복잡한 질문을 처리할 때 LLM을 사용하여 작업을 분해한다. 이 과정은 다음과 같이 진행된다:
-    1.  **큰 증거를 작은 증거로 분해**: 웹 테이블처럼 방대한 데이터를 작은 데이터 조각으로 나누어 분석한다.
-    2.  **복잡한 질문을 더 단순한 질문으로 분해**: 복잡한 질문을 이해하기 쉽게 작은 질문들로 나누고, 그에 따라 SQL 쿼리를 생성한다.
+
+1.  **큰 증거를 작은 증거로 분해**: 웹 테이블처럼 방대한 데이터를 작은 데이터 조각으로 나누어 분석한다.
+2.  **복잡한 질문을 더 단순한 질문으로 분해**: 복잡한 질문을 이해하기 쉽게 작은 질문들로 나누고, 그에 따라 SQL 쿼리를 생성한다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDQxMDc5NTAsLTIwNzgzNDExMjIsMT
-Q3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1
-NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MC
-wxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0MiwzMzAw
-OTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYwOTUxMz
-IsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgxNTUsLTEz
-NzU3MTM3NTNdfQ==
+eyJoaXN0b3J5IjpbNDU0NjIyNTc0LC0yMDc4MzQxMTIyLDE0Nz
+MxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0NTYz
+OCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1NzAsMT
+E2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMzMwMDkx
+NDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2MDk1MTMyLC
+04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMzc1
+NzEzNzUzXX0=
 -->
