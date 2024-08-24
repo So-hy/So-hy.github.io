@@ -342,7 +342,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 
 
-### 2.5 지속적 사전 훈련(Continue Pre-training)
+### 3 Table VLM Training
 
   
 
@@ -400,11 +400,10 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzcxMDE3OCwxNTY4MjM1NjQ4LC0yMz
-Y3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQzMDY2
-OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MT
-I2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4
-NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OT
-A5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjFdfQ==
-
+eyJoaXN0b3J5IjpbOTY5ODY0MDA1LDE1NjgyMzU2NDgsLTIzNj
+c3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNTUzNDMwNjY4
+LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMj
+Y1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1
+MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MD
+ksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MV19
 -->
