@@ -132,7 +132,7 @@ https://arxiv.org/abs/2402.05121
 
 
 
-![Screenshot 2024-08-21 at 11 11 52 PM](https://github.com/user-attachments/assets/8f58ecd1-6292-4c0b-a6e0-ffec8bce65d1)
+![Screenshot 2024-08-21 at 11 11 52 PM](https://github.com/user-attachments/assets/8f58ecd1-6292-4c0b-a6e0-ffec8bce65d1){: .responsive-img .align-center}
 
 
 
@@ -239,7 +239,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 ### **2. Table LLM Training**
 
 
-![Screenshot 2024-08-23 at 2 04 29 PM](https://github.com/user-attachments/assets/2a582c96-ecd1-4e72-8f5a-9c37748bd38a)
+![Screenshot 2024-08-23 at 2 04 29 PM](https://github.com/user-attachments/assets/2a582c96-ecd1-4e72-8f5a-9c37748bd38a){: .responsive-img .align-center}
 
 
 **2.1 What’s New in Table LLM Training**
@@ -426,11 +426,11 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMD
-A5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEz
-MiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMT
-M3NTcxMzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNTY4MjM1
-NjQ4LC0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLT
-U1MzQzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMy
-OTQ5XX0=
+eyJoaXN0b3J5IjpbNDYzOTgyNjUwLDEzNzAyMjY5ODAsMjA4ND
+k2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0
+LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01Nz
+IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
+MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
+UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
+NjIwXX0=
 -->
