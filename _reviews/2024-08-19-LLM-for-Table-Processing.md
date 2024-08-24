@@ -469,13 +469,19 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 $$A_t = P(A_t | I, S_t, Q, H_(t−1))$$
 
-이 수식은 간단히 말해, "현재 상태와 주어진 정보를 바탕으로 어떤 행동을 해야 하는가?"를 결정하는 과정이다
+이 수식은 간단히 말해, "현재 상태와 주어진 정보를 바탕으로 어떤 행동을 해야 하는가?"를 결정하는 과정이다.
+
+결정된 행동($A_t$)은 테이블에서 실행된다. 예를 들어, 테이블 데이터를 수정하거나 분석하는 작업이 있을 수 있다. 이 행동이 실행되면, 새로운 관찰 결과나 출력물(O_t)이 생긴다. 그런 다음, 테이블의 상태와 계획 기록이 업데이트되어 다음과 같은 형태로 저장된다:
+
+$$H_t = (H_(t−1), O_t, A_t)$$
+
+이것은 간단히 말해, "이전 기록에 이번에 한 행동과 그 결과를 추가한다"는 의미이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMz
-AyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3
-OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMj
-A4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDcz
-Nzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC
-01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4
-NjQwMDVdfQ==
+eyJoaXN0b3J5IjpbLTUxMDIyMDYsMTQ3MzEzNTA1MCwtODgyOD
+gyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgs
+LTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNz
+AyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4
+MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNj
+M2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUz
+MzkyNF19
 -->
