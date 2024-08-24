@@ -480,9 +480,11 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 
 #### **2 복잡한 작업 분해**
 
-첫 번째로 앞서 말한 
+첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
+ 1) 복잡한 문제를 더 작은 하위 문제로 나누는 것. 이 부분에 대해 살펴볼 것이다.
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwNzUzMTAwMSwxNDczMTM1MDUwLC04OD
+eyJoaXN0b3J5IjpbMTYyMTEyNzAxMCwxNDczMTM1MDUwLC04OD
 I4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4
 OCwtMTA4ODIxNDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMT
 M3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1
