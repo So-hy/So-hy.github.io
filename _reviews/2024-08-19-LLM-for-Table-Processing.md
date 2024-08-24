@@ -367,19 +367,13 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **2. 테이블 VLM 훈련 과정**
 
-테이블 VLM을 훈련하는 과정은 보통 두 단계로 이루어진다.
-
-  
+대부분의 LLM은 디코더 전용 아키텍처로 설계된다. LLM 이전 시대의 시각 언어 모델의 네트워크 아키텍처와 유사하게, VLMs는 일반적으로 인코더-디코더 아키텍처를 사용한다. 시각 인코더는 시각 데이터를 임베딩으로 변환하고, 디코더는 텍스트를 생성한다. 인코더는 ResNet이나 ViT와 같은 아키텍처를 사용할 수 있으며, 디코더는 주로 사전 훈련된 LLM으로 구성된다. 철저히 훈련된 디코더와 비교하여, 인코더는 테이블에 대한 시각 정보를 아직 충분히 학습하지 못했다. 그렇기에 시각적 단서와 텍스트 정보를 일치시키는 것이 필요하다. 따라서 테이블 VLM의 훈련 과정은 일반적으로 두 단계로 나뉜다. 테이블 VLM을 훈련하는 과정은 보통 두 단계로 이루어진다.
 
 1. **사전 훈련(Pre-training)**
-
-•  **인코더-디코더 아키텍처**: VLM은 **인코더**가 이미지를 임베딩으로 변환하고, **디코더**가 이 임베딩을 바탕으로 텍스트를 생성한다.
-
-•  **해결 방법**: 먼저 인코더를 사전 훈련하고, 디코더의 매개변수는 동결한 상태로 인코더를 집중적으로 훈련한다.
+LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사전 훈련한다.
 
 2. **미세 조정(Fine-tuning)**
-
-•  사전 훈련이 끝나면, 전체 모델을 최적화하는 **미세 조정** 또는 **지시 조정(instruction tuning)**을 진행한다.
+사전 훈련이 끝나면, 전체 모델을 최적화하는 **미세 조정** 또는 **지시 조정(instruction tuning)**을 진행한다.
 
   
 
@@ -393,11 +387,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMz
-c1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LDE1NjgyMzU2
-NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNT
-UzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5
-NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MT
-Q2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3XX0=
+eyJoaXN0b3J5IjpbMTg2NTQzMTI3MCwtNjM2NzA0MzExLC01Nz
+IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
+MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
+UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
+NjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5Nj
+cxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3XX0=
 
 -->
