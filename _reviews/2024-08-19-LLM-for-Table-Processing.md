@@ -298,7 +298,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 **WizardCoder**
 
  - **Evol-Instruct 방법**을 사용하여 기존의 지시 데이터를 바탕으로 새로운 지시를 생성한다. 
- - 다섯 가지 **휴리스틱 방법**을 통해 다양한 코드 지시를 생성한다.
+ - 다섯 가지 **휴리스틱 방법**을 통해 다양한 Code-Instruction를 생성한다.
  - 위 그림에서 Eval-Instruct의 예시를 볼 수 있다.
 
 > 그림 5는 코드에 대한 Evol-Instruct의 예시 프롬프트를 보여준다. 문제(Problem)는 현재 진화를 기다리고 있는 코드 지시를 의미하고, 방법(Method)은 진화 유형을 나타낸다.
@@ -307,7 +307,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **Magicoder**
 
- - **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 코드 지시를 생성한다. 
+ - **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 Code-Instruction를 생성한다. 
  - Evol-Instruct와 독립적으로 작동하며, 두 방법을 함께 사용할 수 있다.
 
   
@@ -334,11 +334,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNz
-EzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgx
-LDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1MDMyMT
-AwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDksLTcy
-NjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5NjExMT
-Q2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5
-XX0=
+eyJoaXN0b3J5IjpbOTI1Mzk2MzUsMTA1MjI3NjA3OSwtNTUzND
+MwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDks
+MzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2Ni
+wtOTg1MDMyMTAwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5
+OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MS
+wtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1XX0=
+
 -->
