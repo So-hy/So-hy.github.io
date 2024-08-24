@@ -454,15 +454,17 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
  
 기본적으로 이 모듈은 **ReAct 접근법**을 사용한다. ReAct 접근법은 **피드백**과 **성찰**을 통해 작업을 진행하는 방법이다. 즉, 한 번에 모든 것을 결정하는 것이 아니라, 작업을 조금씩 진행하면서 결과를 보고, 그에 따라 다음 행동을 결정하는 방식이다.
 
+**SheetAgent [36]**는 **스프레드시트**를 다루는 작업에서 어떻게 계획을 세울지에 대한 **공식적인 정의**를 제공한 연구이다. 즉, 스프레드시트 작업을 수행하기 위해 에이전트가 어떤 순서로 어떤 행동을 해야 하는지 체계적으로 정리한 것이다. 여기서는 이를 테이블 QA와 NL2SQL과 같은 더 많은 테이블 작업으로 확장한다.
+
 #### **1. 계획의 형식화**
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzg0ODQwMjAsLTg4Mjg4MjA2MSwxMT
-MwMjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0
-Nzk0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLD
-IwODQ5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3
-Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMS
-wtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5
-ODY0MDA1XX0=
+eyJoaXN0b3J5IjpbLTk1ODgwMjcwOCwtODgyODgyMDYxLDExMz
+AyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3
+OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMj
+A4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDcz
+Nzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC
+01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4
+NjQwMDVdfQ==
 -->
