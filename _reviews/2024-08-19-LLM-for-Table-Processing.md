@@ -443,13 +443,13 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 위 그림에서 보여지듯, 테이블 작업의 경우 에이전트는 먼저 테이블 데이터와 사용자의 의도를 관찰한다. 그런 다음 프롬프트를 생성하고, 복잡한 작업을 분해하며, 행동을 계획하고 이를 테이블 환경에서 실행한 후 상태나 관찰 결과를 업데이트한다. 이 반복적인 과정은 기대한 결과가 나올 때까지 계속된다. **SheetAgent**나 **ReAcTable** 같은 시스템은 이러한 과정을 따라 테이블 작업을 처리한다.
 
-
+메모리 모듈 덕분에 에이전트는 이전에 했던 작업을 기억하고, 이를 바탕으로 더 나은 결정을 내릴 수 있다. 예를 들어, 이전에 어떤 테이블에서 어떤 결과가 나왔는지를 기억하고, 비슷한 상황에서 더 효과적으로 행동할 수 있게 된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MzQ3OTg3NywxNDE0MzgzMDg4LC0xMD
-g4MjE0Nzk0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2
-OTgwLDIwODQ5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMT
-Q4NTA3Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcw
-NDMxMSwtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5Mj
-QsOTY5ODY0MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYz
-ODg2ODBdfQ==
+eyJoaXN0b3J5IjpbLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwOD
+gyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5
+ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxND
+g1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0
+MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNC
+w5Njk4NjQwMDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4
+ODY4MF19
 -->
