@@ -458,7 +458,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 #### **1. 계획의 형식화**
 
-일반적으로 계획 모듈은 다음과 같이 구성된다.
+일단 계획 모듈이 어떻게 되어 있는지 살펴보자. 일반적으로 계획 모듈은 다음과 같이 구성된다.
 
 -   **작업 지시**($I$): 현재 수행해야 할 작업에 대한 지시 또는 목표.
 -   **테이블 상태**($S_t$): 현재 테이블이 어떤 상태인지, 예를 들어 테이블에 어떤 데이터가 있는지.
@@ -476,12 +476,15 @@ $$A_t = P(A_t | I, S_t, Q, H_(t−1))$$
 $$H_t = (H_(t−1), O_t, A_t)$$
 
 이것은 간단히 말해, "이전 기록에 이번에 한 행동과 그 결과를 추가한다"는 의미이다.
+
+
+#### **1. 계획의 형식화**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxMDIyMDYsMTQ3MzEzNTA1MCwtODgyOD
-gyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgs
-LTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNz
-AyMjY5ODAsMjA4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4
-MywxNDg1MDczNzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNj
-M2NzA0MzExLC01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUz
-MzkyNF19
+eyJoaXN0b3J5IjpbLTMzOTkwNTA2NCwxNDczMTM1MDUwLC04OD
+I4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4
+OCwtMTA4ODIxNDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMT
+M3MDIyNjk4MCwyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1
+ODgzLDE0ODUwNzM3ODQsMTYwNjA5NTEzMiwtODg0MTQwMjY0LC
+02MzY3MDQzMTEsLTU3MjA0ODE1NSwtMTM3NTcxMzc1MywxNDA1
+NTMzOTI0XX0=
 -->
