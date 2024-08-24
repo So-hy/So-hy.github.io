@@ -337,17 +337,15 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **2.5 지속적 사전 훈련(Continue Pre-training)**
 
-•  **소형 LLM**은 배포 비용이 낮지만 코드 생성이나 추론 능력이 대형 LLM에 비해 부족하다.
+ - **소형 LLM**은 배포 비용이 낮지만 코드 생성이나 추론 능력이 대형 LLM에 비해 부족하다.
+ -  **CodeS**는 소형 LLM의 성능을 개선하기 위해 **지속적 사전 훈련**을 제안했다. CodeS는 사전 훈련된 **StarCoder 모델**에 SQL 관련 자연어 텍스트와 NL-to-code 데이터를 추가로 학습시켜 자연어 처리, 추론 및 코딩 능력을 향상시켰다.
 
-•  **CodeS**는 소형 LLM의 성능을 개선하기 위해 **지속적 사전 훈련**을 제안했다.
-
-•  CodeS는 사전 훈련된 **StarCoder 모델**에 SQL 관련 자연어 텍스트와 NL-to-code 데이터를 추가로 학습시켜 자연어 처리, 추론 및 코딩 능력을 향상시켰다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1Mj
-I3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYy
-MCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MT
-YxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODcz
-NzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4Mj
-UsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNV19
+eyJoaXN0b3J5IjpbMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNj
+M4ODY4MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1
+NywxNzM2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2Nj
+EyOCwtNzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDEx
+MzczNTU3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2NDY5OD
+Y3LDM0OTM0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExNDY0XX0=
 
 -->
