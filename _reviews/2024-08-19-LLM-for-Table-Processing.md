@@ -247,7 +247,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 이 문단은 **테이블 LLM 훈련**에서 새로운 접근법에 대해 설명한다.  **지시 조정(instruction tuning)**과 **지속적 사전 훈련(continued pre-training)**이 LLM 시대에 널리 사용되며, 이전과는 다른 훈련 기법이 적용된다.
 
-위 그림에서 보이듯  **지시 조정**에는 세 가지 유형이 있다:
+위 그림에서 보이듯  **Instruction Tuning**에는 세 가지 유형이 있다:
 
  - **테이블 조정(Table Tuning)**: LLM이 테이블 작업(예: 테이블 QA, 텍스트 생성, 엔터티 연결 등)을 이해하고 처리할 수 있게 한다.
  - **코드 조정(Code Tuning)**: 테이블 데이터를 처리하기 위해 SQL이나 Python과 같은 코드를 생성하는 데 중점을 둔다.
@@ -411,11 +411,11 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은 기업들이 이를 사용하여 데이터를 증류하고(즉, 더 작은 모델을 훈련하기 위해 데이터 생성에 활용) 있다. 하지만 GPT를 기반으로 더 좋은 성능을 얻기 위해 훈련을 계속하는 것은 비용이 매우 높다. Table-GPT는 GPT-3.5 모델을 기반으로 훈련을 계속하면서 GPT-3.5와 ChatGPT보다 모든 테이블 관련 작업에서 더 나은 성능을 보였지만, 이 훈련 비용은 일반 기업이 감당하기 어려울 정도로 높았다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MD
-YwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgx
-NTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMT
-U2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2
-MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLD
-k3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjFd
+eyJoaXN0b3J5IjpbMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NT
+A3Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMx
+MSwtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOT
+Y5ODY0MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2
+ODAsMTA1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMT
+czNjM4MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjhd
 fQ==
 -->
