@@ -307,11 +307,8 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **Magicoder**
 
-  
-
-•  **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 코드 지시를 생성한다.
-
-•  Evol-Instruct와 독립적으로 작동하며, 두 방법을 함께 사용할 수 있다.
+ - **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 코드 지시를 생성한다. 
+ - Evol-Instruct와 독립적으로 작동하며, 두 방법을 함께 사용할 수 있다.
 
   
 
@@ -341,11 +338,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDEzMzgzODUsLTU1MzQzMDY2OCwxMz
-cxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4
-MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMj
-EwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OTA5LC03
-MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMT
-E0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYx
-OV19
+eyJoaXN0b3J5IjpbNzIzNzc3NjI1LC01NTM0MzA2NjgsMTM3MT
+M1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1ODEs
+MjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMD
+AsNDExMzczNTU3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2
+NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExND
+Y0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTUsLTE3NDE4NDI2MTld
+fQ==
 -->
