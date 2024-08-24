@@ -297,10 +297,12 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **WizardCoder**
 
- 
-•  **Evol-Instruct 방법**을 사용하여 기존의 지시 데이터를 바탕으로 새로운 지시를 생성한다.
+ - **Evol-Instruct 방법**을 사용하여 기존의 지시 데이터를 바탕으로 새로운 지시를 생성한다. 
+ - 다섯 가지 **휴리스틱 방법**을 통해 다양한 코드 지시를 생성한다.
+ - 위 그림에서 Eval-Instruct의 예시를 볼 수 있다.
 
-•  다섯 가지 **휴리스틱 방법**을 통해 다양한 코드 지시를 생성한다.
+> 그림 5는 코드에 대한 Evol-Instruct의 예시 프롬프트를 보여준다. 문제(Problem)는 현재 진화를 기다리고 있는
+> 코드 지시를 의미하고, 방법(Method)은 진화 유형을 나타낸다.
 
   
 
@@ -340,7 +342,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4NjU5MTE0MiwtNTUzNDMwNjY4LDEzNz
+eyJoaXN0b3J5IjpbLTIxNjQ3NjgyOSwtNTUzNDMwNjY4LDEzNz
 EzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgx
 LDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1MDMyMT
 AwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDksLTcy
