@@ -261,7 +261,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 **2.2 Table Tuning**
 
 
-![Screenshot 2024-08-23 at 8 55 00 PM](https://github.com/user-attachments/assets/b606cc80-2b0f-4129-a20f-6dc862ceb226)
+![Screenshot 2024-08-23 at 8 55 00 PM](https://github.com/user-attachments/assets/b606cc80-2b0f-4129-a20f-6dc862ceb226){: .responsive-img .align-center}
 
 
 이 문단은 **테이블 조정(Table Tuning)**에 대해 설명하며, LLM(대형 언어 모델)을 테이블 작업에 맞게 조정하는 방법을 자세히 다루고 있다.
@@ -284,7 +284,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  **2.3 Code Tuning**
 
 
-![Screenshot 2024-08-24 at 1 04 20 AM](https://github.com/user-attachments/assets/4be8bdf3-8b69-4132-bfab-18eede61e4ff)
+![Screenshot 2024-08-24 at 1 04 20 AM](https://github.com/user-attachments/assets/4be8bdf3-8b69-4132-bfab-18eede61e4ff){: .responsive-img .align-center}
 
 
 
@@ -426,11 +426,11 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDYzOTgyNjUwLDEzNzAyMjY5ODAsMjA4ND
-k2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0
-LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01Nz
-IwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQw
-MDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMD
-UyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2Mzgw
-NjIwXX0=
+eyJoaXN0b3J5IjpbLTE3MDczNTMxMiwxMzcwMjI2OTgwLDIwOD
+Q5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4
+NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNT
+cyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0
+MDA1LDE1NjgyMzU2NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMT
+A1MjI3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4
+MDYyMF19
 -->
