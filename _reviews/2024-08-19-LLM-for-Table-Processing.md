@@ -406,8 +406,12 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 •  **LLM vs. LLM 이전 모델**: 연구에 따르면, 특정 작업에서 LLM이 LLM 이전 시대의 모델보다 항상 우수한 성능을 발휘하지는 않는다. 예를 들어, 7B TableLlama는 특정 작업에서 더 작은 모델이 작업에 맞게 미세 조정된 경우보다 성능이 떨어질 수 있다.
 
 •  **데이터 분석 작업**: 데이터 분석 작업에서, Lemur와 DAAgent와 같은 지시 조정 모델이 GPT-4처럼 강력한 모델을 능가하지 못했다. 이는 LLM이 강력하다고 해서 모든 작업에서 항상 최고의 성능을 발휘하는 것은 아니라는 것을 보여준다.
+
+
+
+GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은 기업들이 이를 사용하여 데이터를 증류하고(즉, 더 작은 모델을 훈련하기 위해 데이터 생성에 활용) 있다. 하지만 GPT를 기반으로 더 좋은 성능을 얻기 위해 훈련을 계속하는 것은 비용이 매우 높다. Table-GPT는 GPT-3.5 모델을 기반으로 훈련을 계속하면서 GPT-3.5와 ChatGPT보다 모든 테이블 관련 작업에서 더 나은 성능을 보였지만, 이 훈련 비용은 일반 기업이 감당하기 어려울 정도로 높았다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNDk1NzY3NiwxNDg1MDczNzg0LDE2MD
+eyJoaXN0b3J5IjpbLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MD
 YwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIwNDgx
 NTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4NjQwMDUsMT
 U2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2
