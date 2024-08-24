@@ -367,7 +367,6 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **2. 테이블 VLM 훈련 과정**
 
-
 테이블 VLM을 훈련하는 과정은 보통 두 단계로 이루어진다.
 
   
@@ -394,7 +393,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NTMxNjY2MywtNTcyMDQ4MTU1LC0xMz
+eyJoaXN0b3J5IjpbLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMz
 c1NzEzNzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LDE1NjgyMzU2
 NDgsLTIzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNT
 UzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5
