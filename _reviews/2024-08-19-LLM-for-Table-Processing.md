@@ -314,7 +314,8 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 **Lemur**
 
-모델이 **일반 목적 능력**(논리적 추론)과 **코드 능력**(코드 생성 및 실행) 사이의 균형을 유지하도록 한다. **10:1의 코드 대 텍스트 비율**로 코퍼스를 구성하여 코딩 능력을 강화하면서도, 자연어 처리 능력을 유지한다.
+ - 모델이 **일반 목적 능력**(논리적 추론)과 **코드 능력**(코드 생성 및 실행) 사이의 균형을 유지하도록 한다.
+ - **10:1의 코드 대 텍스트 비율**로 코퍼스를 구성하여 코딩 능력을 강화하면서도, 자연어 처리 능력을 유지한다.
 
   
 
@@ -334,11 +335,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTg1MTcwNCwxMDUyMjc2MDc5LC01NT
-M0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3NDczMjk0
-OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0NTkxND
-Y2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMTcsMTcx
-NDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNSwxMDY1OTc3MD
-YxLC0xMTk2MTExNDY0LC0xMjU5Mjg1NzE1LDEzMzU5MTgxOTVd
-fQ==
+eyJoaXN0b3J5IjpbNDEwOTk2NzI4LDEwNTIyNzYwNzksLTU1Mz
+QzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5
+LDM3MTI2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0Nj
+YsLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0
+OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNj
+EsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NV19
+
 -->
