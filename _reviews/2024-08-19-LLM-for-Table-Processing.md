@@ -302,21 +302,18 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - 위 그림에서 Eval-Instruct의 예시를 볼 수 있다.
 
 > 그림 5는 코드에 대한 Evol-Instruct의 예시 프롬프트를 보여준다. 문제(Problem)는 현재 진화를 기다리고 있는 코드 지시를 의미하고, 방법(Method)은 진화 유형을 나타낸다.
-
   
 
 **Magicoder**
 
  - **OSS-Instruct 방법**을 사용하여 오픈소스 코드 스니펫을 수집하고, 이를 바탕으로 현실적인 Code-Instruction를 생성한다. 
  - Evol-Instruct와 독립적으로 작동하며, 두 방법을 함께 사용할 수 있다.
-
   
 
 **Lemur**
 
  - 모델이 **일반 목적 능력**(논리적 추론)과 **코드 능력**(코드 생성 및 실행) 사이의 균형을 유지하도록 한다.
  - **10:1의 코드 대 텍스트 비율**로 코퍼스를 구성하여 코딩 능력을 강화하면서도, 자연어 처리 능력을 유지한다.
-
   
 
 **DAAgent**
@@ -324,18 +321,34 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - **데이터 분석에 특화된 에이전트 모델**로, GitHub에서 수집한 CSV 파일을 바탕으로 GPT-4를 활용하여 데이터 분석 키워드와 질문을 생성한다.
 
   
-
 **Code Tuning의 효과**
 
  - Code Tuning를 통해 LLM을 조정하면, 특히 **데이터 분석 작업**에서 성능이 크게 향상될 수 있다.
  - 이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 
+
+**2.4. 테이블과 코드의 하이브리드 접근(Hybrid of Table and Code)**
+
+  
+현재 많은 오픈 소스 **범용 LLM**과 **코드 LLM**이 있으며, 테이블 작업을 위해 어떤 모델을 기초로 선택할지가 중요한 문제다. **StructLM** 연구에서 **코드 LLM**을 기초 모델로 사용한 경우, 테이블 작업에서 가장 우수한 성능을 보였다. 하이브리드 접근법은 테이블 지시 데이터셋을 어떻게 효과적으로 구성할지를 중심으로 연구한다.
+
+  
+
+**2. 지속적 사전 훈련(Continue Pre-training)**
+
+  
+
+•  **소형 LLM**은 배포 비용이 낮지만 코드 생성이나 추론 능력이 대형 LLM에 비해 부족하다.
+
+•  **CodeS**는 소형 LLM의 성능을 개선하기 위해 **지속적 사전 훈련**을 제안했다.
+
+•  CodeS는 사전 훈련된 **StarCoder 모델**에 SQL 관련 자연어 텍스트와 NL-to-code 데이터를 추가로 학습시켜 자연어 처리, 추론 및 코딩 능력을 향상시켰다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1Mz
-QzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5
-LDM3MTI2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0Nj
-YsLTk4NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0
-OTk3OTA5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNj
-EsLTExOTYxMTE0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NV19
+eyJoaXN0b3J5IjpbMTU5NTEzNDAwMyw1MTYzODg2ODAsMTA1Mj
+I3NjA3OSwtNTUzNDMwNjY4LDEzNzEzNTIzNTcsMTczNjM4MDYy
+MCw5NzQ3MzI5NDksMzcxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MT
+YxLDQyNDU5MTQ2NiwtOTg1MDMyMTAwLDQxMTM3MzU1NywtODcz
+NzE4MjE3LDE3MTQ5OTc5MDksLTcyNjQ2OTg2NywzNDkzNDY4Mj
+UsMTA2NTk3NzA2MSwtMTE5NjExMTQ2NCwtMTI1OTI4NTcxNV19
 
 -->
