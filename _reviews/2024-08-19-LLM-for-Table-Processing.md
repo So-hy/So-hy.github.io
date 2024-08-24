@@ -301,8 +301,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - 다섯 가지 **휴리스틱 방법**을 통해 다양한 코드 지시를 생성한다.
  - 위 그림에서 Eval-Instruct의 예시를 볼 수 있다.
 
-> 그림 5는 코드에 대한 Evol-Instruct의 예시 프롬프트를 보여준다. 문제(Problem)는 현재 진화를 기다리고 있는
-> 코드 지시를 의미하고, 방법(Method)은 진화 유형을 나타낸다.
+> 그림 5는 코드에 대한 Evol-Instruct의 예시 프롬프트를 보여준다. 문제(Problem)는 현재 진화를 기다리고 있는 코드 지시를 의미하고, 방법(Method)은 진화 유형을 나타낸다.
 
   
 
@@ -342,11 +341,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 강력한 LLM(예: GPT)에서 데이터를 증류하여 추가 데이터를 생성하는 방법이 사용된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjQ3NjgyOSwtNTUzNDMwNjY4LDEzNz
-EzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMzcxMjY1NTgx
-LDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2NiwtOTg1MDMyMT
-AwLDQxMTM3MzU1NywtODczNzE4MjE3LDE3MTQ5OTc5MDksLTcy
-NjQ2OTg2NywzNDkzNDY4MjUsMTA2NTk3NzA2MSwtMTE5NjExMT
-Q2NCwtMTI1OTI4NTcxNSwxMzM1OTE4MTk1LC0xNzQxODQyNjE5
-XX0=
+eyJoaXN0b3J5IjpbLTE4NDEzMzgzODUsLTU1MzQzMDY2OCwxMz
+cxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MTI2NTU4
+MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4NTAzMj
+EwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OTA5LC03
+MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjEsLTExOTYxMT
+E0NjQsLTEyNTkyODU3MTUsMTMzNTkxODE5NSwtMTc0MTg0MjYx
+OV19
 -->
