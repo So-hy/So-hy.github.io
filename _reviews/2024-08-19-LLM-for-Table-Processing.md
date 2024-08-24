@@ -387,12 +387,35 @@ LLM 디코더의 매개변수를 동결한 상태에서 시각 인코더를 사�
 
 
 훈련 기반 방법을 사용하면, 기업이 데이터를 외부로 유출하지 않고도 자체적으로 모델을 훈련하고 배포할 수 있다. 이는 데이터 보안 측면에서 큰 이점이다. 그리고 좋은 결과 또한 얻을 수 있다. 하지만, **비용**과 **정확도**라는 두 가지 큰 문제가 있다.
+
+
+**1. 비용 문제**
+
+  
+
+•  **훈련 비용**: 대형 언어 모델(LLMs)이나 시각 언어 모델(VLMs)을 훈련하는 데는 많은 비용이 든다. 예를 들어, 70억 개의 매개변수를 가진 모델(7B 모델)을 미세 조정하려면 80GB 메모리를 가진 GPU가 8개나 필요하다. 이는 모든 기업이 감당할 수 없는 높은 비용이다.
+
+•  **훈련 데이터 비용**: 모델을 훈련시키기 위해 필요한 데이터에 주석을 다는 데도 많은 비용이 든다. 사람이 직접 데이터를 주석하는 것은 시간이 많이 걸리고 비용이 많이 든다.
+
+•  **대체 방안**: 일부 기업은 데이터 주석 비용을 줄이기 위해 합성 데이터를 사용한다. 합성 데이터는 컴퓨터가 자동으로 생성하는 데이터이지만, 이 경우 데이터 품질이 문제가 될 수 있다.
+
+  
+
+**2. 정확도 문제**
+
+  
+
+•  **지시 조정 vs. 미세 조정**: LLM을 지시 조정(instruction tuning)하는 방법이 항상 최적의 정확도를 제공하지는 않는다. 때로는 사전 훈련된 작은 모델을 미세 조정(fine-tuning)하거나 클로즈드 소스 LLM(예: ChatGPT)을 사용하는 것이 더 나은 결과를 얻을 수 있다.
+
+•  **LLM vs. LLM 이전 모델**: 연구에 따르면, 특정 작업에서 LLM이 LLM 이전 시대의 모델보다 항상 우수한 성능을 발휘하지는 않는다. 예를 들어, 7B TableLlama는 특정 작업에서 더 작은 모델이 작업에 맞게 미세 조정된 경우보다 성능이 떨어질 수 있다.
+
+•  **데이터 분석 작업**: 데이터 분석 작업에서, Lemur와 DAAgent와 같은 지시 조정 모델이 GPT-4처럼 강력한 모델을 능가하지 못했다. 이는 LLM이 강력하다고 해서 모든 작업에서 항상 최고의 성능을 발휘하는 것은 아니라는 것을 보여준다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4NTA3Mzc4NCwxNjA2MDk1MTMyLC04OD
-QxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMzc1NzEz
-NzUzLDE0MDU1MzM5MjQsOTY5ODY0MDA1LDE1NjgyMzU2NDgsLT
-IzNjc3MTM5NCw1MTYzODg2ODAsMTA1MjI3NjA3OSwtNTUzNDMw
-NjY4LDEzNzEzNTIzNTcsMTczNjM4MDYyMCw5NzQ3MzI5NDksMz
-cxMjY1NTgxLDIxNjYxMjgsLTc3OTY3MTYxLDQyNDU5MTQ2Nl19
+eyJoaXN0b3J5IjpbNzgyMjA1MTc4LDE0ODUwNzM3ODQsMTYwNj
+A5NTEzMiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0ODE1
+NSwtMTM3NTcxMzc1MywxNDA1NTMzOTI0LDk2OTg2NDAwNSwxNT
+Y4MjM1NjQ4LC0yMzY3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYw
+NzksLTU1MzQzMDY2OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOT
+c0NzMyOTQ5LDM3MTI2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MV19
 
 -->
