@@ -481,7 +481,7 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 #### **2 복잡한 작업 분해**
 
 첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
- 1) 복잡한 문제를 더 작은 하위 문제로 나누는 것. 이 부분에 대해 살펴볼 것이다.
+ **1) 복잡한 문제를 더 작은 하위 문제로 나누는 것**. 이 부분에 대해 살펴볼 것이다.
 
 **복잡한 작업 분해**는 말그대로 어려운 작업을 작은 부분으로 나누어 처리하는 방법이다. 이는 마치 복잡한 문제를 작은 문제들로 쪼개어 하나씩 해결해 나가는 것과 같다. 이 방법을 사용하면 더 복잡한 작업도 쉽게 해결할 수 있다.
 
@@ -501,13 +501,13 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 #### **3 성찰과 수정**
 
 다음으로 계획 모듈이 고려해야 하는 두 가지 측면 중 나머지 하나인,
- 2) 이전 결정을 반영하고 수정하는 것. 이 부분에 대해 살펴볼 것이다.
+ **2) 이전 결정을 반영하고 수정하는 것**. 이 부분에 대해 살펴볼 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIwNjYxOTA2LDQ1NDYyMjU3NCwtMjA3OD
-M0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3
-NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxOD
-Q1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5
-MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMT
-YwNjA5NTEzMiwtODg0MTQwMjY0LC02MzY3MDQzMTEsLTU3MjA0
-ODE1NV19
+eyJoaXN0b3J5IjpbLTE1ODExMTMxMzQsNDU0NjIyNTc0LC0yMD
+c4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIy
+Mjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LD
+E4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5
+NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NC
+wxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcy
+MDQ4MTU1XX0=
 -->
