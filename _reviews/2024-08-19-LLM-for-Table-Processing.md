@@ -497,12 +497,17 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 1.  **큰 증거를 작은 증거로 분해**: 웹 테이블처럼 방대한 데이터를 작은 데이터 조각으로 나누어 분석한다.
 2.  **복잡한 질문을 더 단순한 질문으로 분해**: 복잡한 질문을 이해하기 쉽게 작은 질문들로 나누고, 그에 따라 SQL 쿼리를 생성한다.
 
+
+#### **3 성찰과 수정**
+
+
+ 2) 이전 결정을 반영하고 수정하는 것.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU0NjIyNTc0LC0yMDc4MzQxMTIyLDE0Nz
-MxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0NTYz
-OCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1NzAsMT
-E2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMzMwMDkx
-NDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2MDk1MTMyLC
-04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcyMDQ4MTU1LC0xMzc1
-NzEzNzUzXX0=
+eyJoaXN0b3J5IjpbLTEwNzU3MDkxNTAsNDU0NjIyNTc0LC0yMD
+c4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIy
+Mjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LD
+E4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5
+NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NC
+wxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMSwtNTcy
+MDQ4MTU1XX0=
 -->
