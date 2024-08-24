@@ -464,12 +464,18 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 -   **테이블 상태**($S_t$): 현재 테이블이 어떤 상태인지, 예를 들어 테이블에 어떤 데이터가 있는지.
 -   **사용자 질의** 또는 **현재 문제**($Q$): 사용자가 묻는 질문이나, 해결해야 할 현재의 작은 문제.
 -   **계획 기록**($H_{t−1}$): 이전에 어떤 행동을 했고, 그 결과가 어땠는지에 대한 기록.
+
+계획 모듈은 위의 정보를 바탕으로 LLM에 프롬프트를 보내어, **현재 단계에서 어떤 행동을 할지**(A_t)를 결정한다. 이 과정은 다음과 같은 수식으로 표현된다:
+
+$$A_t = P(A_t | I, S_t, Q, H_(t−1))$$
+
+이 수식은 간단히 말해, "현재 상태와 주어진 정보를 바탕으로 어떤 행동을 해야 하는가?"를 결정하는 과정이다
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzg3NjA0NDUsLTg4Mjg4MjA2MSwxMT
-MwMjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0
-Nzk0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLD
-IwODQ5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3
-Mzc4NCwxNjA2MDk1MTMyLC04ODQxNDAyNjQsLTYzNjcwNDMxMS
-wtNTcyMDQ4MTU1LC0xMzc1NzEzNzUzLDE0MDU1MzM5MjQsOTY5
-ODY0MDA1XX0=
+eyJoaXN0b3J5IjpbMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMz
+AyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3
+OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMj
+A4NDk2OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDcz
+Nzg0LDE2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC
+01NzIwNDgxNTUsLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Njk4
+NjQwMDVdfQ==
 -->
