@@ -360,7 +360,7 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 3. **세 번째 유형: 하이브리드 방식**
 
-하이브리드 방식은 **전통적 패턴 인식과 엔드투엔드 방식의 결합**이다. 이 모델은 테이블을 감지하고 데이터를 추출하는 것뿐만 아니라, 필요에 따라 데이터 분석이나 질문 응답과 같은 추가 작업을 독립적으로 수행할 수 있다.
+하이브리드 방식은 **전통적 패턴 인식과 엔드투엔드 방식의 결합**이다. 이 모델은 테이블을 감지하고 데이터를 추출하는 것뿐만 아니라, 필요에 따라 데이터 분석이나 질문 응답과 같은 추가 작업을 독립적으로 수행할 수 있다. 하이브리드 방식은 테이블 작업을 **단계별로 나누어 처리**할 수 있는 유연성을 제공한다. 예를 들어, 먼저 테이블을 감지하고 데이터를 추출한 후, 그 데이터를 저장하거나 다른 작업(예: 질문 응답)에 사용한다. 이 방식에서는 각 단계가 독립적일 수 있으며, 필요에 따라 조합하거나 순서를 변경할 수도 있다.
 
 •  **예시**: **TabPedia**는 하이브리드 방식을 사용해 테이블 작업을 유연하게 처리한다.
 
@@ -396,10 +396,11 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
 
 •  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNTUzMzkyNCw5Njk4NjQwMDUsMTU2OD
-IzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4MCwxMDUyMjc2MDc5
-LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNzM2MzgwNjIwLDk3ND
-czMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwtNzc5NjcxNjEsNDI0
-NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNTU3LC04NzM3MTgyMT
-csMTcxNDk5NzkwOSwtNzI2NDY5ODY3LDM0OTM0NjgyNV19
+eyJoaXN0b3J5IjpbLTEzNzU3MTM3NTMsMTQwNTUzMzkyNCw5Nj
+k4NjQwMDUsMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNjM4ODY4
+MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1NywxNz
+M2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2NjEyOCwt
+Nzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDExMzczNT
+U3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2NDY5ODY3XX0=
+
 -->
