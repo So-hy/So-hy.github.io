@@ -340,12 +340,71 @@ LLM이 등장하기 전에도 연구자들은 테이블 작업을 해결하기 �
  - **소형 LLM**은 배포 비용이 낮지만 코드 생성이나 추론 능력이 대형 LLM에 비해 부족하다.
  -  **CodeS**는 소형 LLM의 성능을 개선하기 위해 **지속적 사전 훈련**을 제안했다. CodeS는 사전 훈련된 **StarCoder 모델**에 SQL 관련 자연어 텍스트와 NL-to-code 데이터를 추가로 학습시켜 자연어 처리, 추론 및 코딩 능력을 향상시켰다.
 
+
+
+### 2.5 지속적 사전 훈련(Continue Pre-training)
+
+  
+
+**VLMs(시각 언어 모델)**은 이미지를 이해하고, 이를 텍스트와 결합하여 작업을 수행하는 모델이다. 테이블 작업을 처리하기 위해 VLM을 사용하는 방법은 크게 세 가지로 나눌 수 있다.
+
+  
+
+1. **첫 번째 유형: 전통적인 패턴 인식 방법**
+
+•  패턴 인식은 테이블이 어디에 있는지 찾고(탐지), 그 테이블에서 데이터를 추출하는 작업을 포함한다.
+
+•  **예시**: **TableVLM**은 테이블을 감지하고, 데이터를 추출하는 데 초점을 맞춘다.
+
+2. **두 번째 유형: 엔드투엔드 방식**
+
+•  엔드투엔드 방식은 테이블 작업을 **처음부터 끝까지 한 번에** 처리하는 방법이다. 예를 들어, 테이블을 감지하고 데이터를 추출한 후, 바로 질문에 답하는 작업을 수행한다.
+
+•  **예시**: **Table-LLaVA**는 모든 단계가 일관된 흐름으로 연결된 방식으로 테이블 작업을 처리한다.
+
+3. **세 번째 유형: 하이브리드 방식**
+
+•  하이브리드 방식은 **전통적 패턴 인식과 엔드투엔드 방식의 결합**이다. 이 모델은 테이블을 감지하고 데이터를 추출하는 것뿐만 아니라, 필요에 따라 추가 작업을 수행할 수 있다.
+
+•  **예시**: **TabPedia**는 하이브리드 방식을 사용해 테이블 작업을 유연하게 처리한다.
+
+  
+
+**2. 테이블 VLM 훈련 과정**
+
+  
+
+테이블 VLM을 훈련하는 과정은 보통 두 단계로 이루어진다.
+
+  
+
+1. **사전 훈련(Pre-training)**
+
+•  **인코더-디코더 아키텍처**: VLM은 **인코더**가 이미지를 임베딩으로 변환하고, **디코더**가 이 임베딩을 바탕으로 텍스트를 생성한다.
+
+•  **해결 방법**: 먼저 인코더를 사전 훈련하고, 디코더의 매개변수는 동결한 상태로 인코더를 집중적으로 훈련한다.
+
+2. **미세 조정(Fine-tuning)**
+
+•  사전 훈련이 끝나면, 전체 모델을 최적화하는 **미세 조정** 또는 **지시 조정(instruction tuning)**을 진행한다.
+
+  
+
+**요약**
+
+  
+
+•  테이블 VLM 훈련에는 **전통적 방법**, **엔드투엔드 방법**, **하이브리드 방법**이 있다.
+
+•  VLM 훈련은 보통 **사전 훈련**과 **미세 조정**의 두 단계로 나뉘며, 인코더와 디코더를 최적화하는 과정이 필요하다.
+
+•  이 과정에서 모델이 시각적 단서와 텍스트 정보를 잘 결합할 수 있도록 많은 고품질 데이터가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU2ODIzNTY0OCwtMjM2NzcxMzk0LDUxNj
-M4ODY4MCwxMDUyMjc2MDc5LC01NTM0MzA2NjgsMTM3MTM1MjM1
-NywxNzM2MzgwNjIwLDk3NDczMjk0OSwzNzEyNjU1ODEsMjE2Nj
-EyOCwtNzc5NjcxNjEsNDI0NTkxNDY2LC05ODUwMzIxMDAsNDEx
-MzczNTU3LC04NzM3MTgyMTcsMTcxNDk5NzkwOSwtNzI2NDY5OD
-Y3LDM0OTM0NjgyNSwxMDY1OTc3MDYxLC0xMTk2MTExNDY0XX0=
+eyJoaXN0b3J5IjpbMTY0MzcxMDE3OCwxNTY4MjM1NjQ4LC0yMz
+Y3NzEzOTQsNTE2Mzg4NjgwLDEwNTIyNzYwNzksLTU1MzQzMDY2
+OCwxMzcxMzUyMzU3LDE3MzYzODA2MjAsOTc0NzMyOTQ5LDM3MT
+I2NTU4MSwyMTY2MTI4LC03Nzk2NzE2MSw0MjQ1OTE0NjYsLTk4
+NTAzMjEwMCw0MTEzNzM1NTcsLTg3MzcxODIxNywxNzE0OTk3OT
+A5LC03MjY0Njk4NjcsMzQ5MzQ2ODI1LDEwNjU5NzcwNjFdfQ==
 
 -->
