@@ -456,7 +456,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 **SheetAgent [36]**는 **스프레드시트**를 다루는 작업에서 어떻게 계획을 세울지에 대한 **공식적인 정의**를 제공한 연구이다. 즉, 스프레드시트 작업을 수행하기 위해 에이전트가 어떤 순서로 어떤 행동을 해야 하는지 체계적으로 정리한 것이다. 여기서는 이를 테이블 QA와 NL2SQL과 같은 더 많은 테이블 작업으로 확장한다.
 
-#### **1. 계획의 형식화**
+#### **1. Formalizing Planning**
 
 일단 계획 모듈이 어떻게 되어 있는지 살펴보자. 일반적으로 계획 모듈은 다음과 같이 구성된다.
 
@@ -478,7 +478,7 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 이것은 간단히 말해, "이전 기록에 이번에 한 행동과 그 결과를 추가한다"는 의미이다.
 
 
-#### **2 복잡한 작업 분해**
+#### **2 Complex Task Decomposition**
 
 첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
  **1) 복잡한 문제를 더 작은 하위 문제로 나누는 것**. 이 부분에 대해 살펴볼 것이다.
@@ -498,18 +498,18 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 2.  **복잡한 질문을 더 단순한 질문으로 분해**: 복잡한 질문을 이해하기 쉽게 작은 질문들로 나누고, 그에 따라 SQL 쿼리를 생성한다.
 
 
-#### **3 성찰과 수정**
+#### **3 Reflection and Revision**
 
 다음으로 계획 모듈이 고려해야 하는 두 가지 측면 중 나머지 하나인,
  **2) 이전 결정을 반영하고 수정하는 것**. 이 부분에 대해 살펴볼 것이다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNz
-gzNDExMjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIy
-NzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMT
-g0NTQ4ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2
-OTI0MiwzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LD
-E2MDYwOTUxMzIsLTg4NDE0MDI2NCwtNjM2NzA0MzExLC01NzIw
-NDgxNTVdfQ==
+eyJoaXN0b3J5IjpbLTI1ODM1NjkxNSwxMDEzMTAwNzE4LDQ1ND
+YyMjU3NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIw
+NjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMT
+A4ODIxNDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIy
+Njk4MCwyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLD
+E0ODUwNzM3ODQsMTYwNjA5NTEzMiwtODg0MTQwMjY0LC02MzY3
+MDQzMTFdfQ==
 -->
