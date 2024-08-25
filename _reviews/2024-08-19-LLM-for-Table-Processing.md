@@ -459,6 +459,22 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
  
 기본적으로 이 모듈은 **ReAct 접근법**을 사용한다. ReAct 접근법은 **피드백**과 **성찰**을 통해 작업을 진행하는 방법이다. 즉, 한 번에 모든 것을 결정하는 것이 아니라, 작업을 조금씩 진행하면서 결과를 보고, 그에 따라 다음 행동을 결정하는 방식이다.
 
+> **ReAct 방식의 주요 개념**
+> 
+>   
+> 
+> 1. **Reasoning (추론)**:
+> 
+> •  LLM이 문제를 해결하기 위해 먼저 논리적인 분석을 수행합니다. 예를 들어, 질문에 대한 답을 찾기 위해 먼저 필요한 정보나 단계들을 식별하고, 그것들을 순차적으로 처리합니다.
+> 
+> 2. **Action (행동)**:
+> 
+> •  추론을 통해 결정된 작업을 실제로 수행합니다. 이 단계에서는 LLM이 직접 텍스트를 생성하거나, 외부 도구(예: Python 코드, SQL 쿼리)를 사용하여 작업을 실행합니다.
+> 
+> 3. **Iterative Process (반복적 과정)**:
+> 
+> •  ReAct 방식은 한 번에 모든 것을 해결하려고 하지 않고, 단계별로 문제를 해결합니다. 추론과 행동이 반복되면서, LLM은 각 단계를 진행하며 결과를 평가하고, 필요한 경우 다시 추론을 통해 다음 행동을 결정합니다.
+
 **SheetAgent [36]**는 **스프레드시트**를 다루는 작업에서 어떻게 계획을 세울지에 대한 **공식적인 정의**를 제공한 연구이다. 즉, 스프레드시트 작업을 수행하기 위해 에이전트가 어떤 순서로 어떤 행동을 해야 하는지 체계적으로 정리한 것이다. 여기서는 이를 테이블 QA와 NL2SQL과 같은 더 많은 테이블 작업으로 확장한다.
 
 
@@ -610,11 +626,11 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 **Informer**는 Planner가 복잡한 작업을 해결할 수 있도록 **필요한 정보(예: SQL 쿼리)**를 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAwNTk2MTM5LDEyMTExOTE2MjAsNDA1OD
-g2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nzg5NzQyLC00
-NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NT
-QxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcwNTcz
-MCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOCw0NT
-Q2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgyODgy
-MDYxXX0=
+eyJoaXN0b3J5IjpbLTE2MzYxODQ3ODEsNTAwNTk2MTM5LDEyMT
+ExOTE2MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwx
+Njk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3Nj
+U2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4
+OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMT
+AxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEz
+NTA1MF19
 -->
