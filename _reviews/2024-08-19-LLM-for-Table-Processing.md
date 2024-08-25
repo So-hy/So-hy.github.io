@@ -631,12 +631,14 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 1. **상위 수준의 의사코드(Pseudo-code)**: 사용자 요청에 대한 설명을 간단한 코드 형태로 제공한다.
 2. **하위 수준의 실행 가능한 코드**: 이 의사코드를 실제로 실행할 수 있는 코드로 변환한다.
+
+**Data-Copilot**은 사용자의 요청을 처리하면서, 유사한 요청들 사이에 **병합하거나 추상화할 수 있는 부분이 있는지**를 평가하여 효율성을 높인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjg2MjkzODEsMTcyNjUwNDMwMSw1MD
-A1OTYxMzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0
-MSwxNzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOT
-kxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4
-OTgsLTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLT
-Y4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0
-MTEyMl19
+eyJoaXN0b3J5IjpbMTkzOTU5ODgxNiwtMTcyODYyOTM4MSwxNz
+I2NTA0MzAxLDUwMDU5NjEzOSwxMjExMTkxNjIwLDQwNTg4NjY1
+MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0MiwtNDYzMT
+AzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0MTc4
+NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMT
+k4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIy
+NTc0XX0=
 -->
