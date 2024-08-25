@@ -587,17 +587,17 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 
 
-#### **2 Spreadsheet Manipulation and Data Analy- sis**
+#### **2 Spreadsheet Manipulation and Data Analysis**
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTA0OTQ0NTAsLTkzMzgyNDY0MSwxNz
-IwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4
-LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLT
-g5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2
-MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEyMi
-wxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtNDc2
-NDU2MzhdfQ==
+eyJoaXN0b3J5IjpbNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMD
+cwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwt
+MTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OT
+YzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4
+MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMT
+Q3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1
+NjM4XX0=
 -->
