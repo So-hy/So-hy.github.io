@@ -555,8 +555,8 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
  - **Extended(확장된) Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
  - **Extended(확장된) SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
 
-• 이렇게 하면, 표준 Python이나 SQL 코드에서 LLM이 특정 작업을 수행할 수 있도록 연산자로 활용할 수 있다.
-
+이렇게 하면, 표준 Python이나 SQL 코드에서 LLM이 특정 작업을 수행할 수 있도록 연산자로서 활용할 수 있다.
+(LLM을 연산자처럼 사용한다는 의미)
 2. **ReAcTable의 예시**:
 
 •  ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
@@ -577,7 +577,7 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 
 •  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwMzI0NjYzOCwtNDYzMTAzNzQwLDE5ND
+eyJoaXN0b3J5IjpbMTM3MzQ3NjUxMSwtNDYzMTAzNzQwLDE5ND
 M5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMTQyMzY5
 MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAzNDM2MC
 wtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4
