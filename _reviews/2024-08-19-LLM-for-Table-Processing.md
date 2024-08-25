@@ -506,12 +506,15 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 한번 답변을 생성하면 그 결과를 바로 사용하는데, 이 과정에서 잘못된 결과가 나올 수 있다. 이런 문제 때문에 에이전트는 LLM보다 더 나은 방식으로 작업을 처리한다. 에이전트는 다양한 접근 방식을 시도하고, 그 중에서 가장 좋은 것을 선택하기 위해 **투표**를 하거나, 과거의 행동을 돌아보고 실수로부터 배우며 이를 수정할 수 있다.
 
 
+**Self-consistency and Voting**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUzODIwNzcyLDE5ODAwMzQzNjAsLTY4Mz
-c2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEy
-MiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtND
-c2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4
-NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLD
-MzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5
-NTEzMl19
+eyJoaXN0b3J5IjpbLTE5NDQ3NDgyODMsMTk4MDAzNDM2MCwtNj
+gzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQx
+MTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC
+00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0
+ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyND
+IsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2
+MDk1MTMyXX0=
 -->
