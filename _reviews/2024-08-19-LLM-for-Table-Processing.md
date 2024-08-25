@@ -527,12 +527,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 **SheetCopilot**과 **SheetAgent**, 이 두 에이전트는 과거의 행동을 돌아보고, 필요한 경우 이를 수정하는 메커니즘을 가지고 있다. 예를 들어 SheetAgent의 경우, 잘못된 코드가 생성되지 않도록 **고품질의 코드 예제를 검색**하는 기능을 가지고 있다.
 
 **SelfEvolve** 모델은 생성된 코드가 제대로 작동하지 않을 때, LLM에게 **디버깅**을 요청하여 문제를 해결한다. 이렇게 해서 Python 데이터 분석 작업에서 좋은 결과를 얻을 수 있다.
+
+이러한 기술들은 잘못된 API 사용이나 잘못된 인수와 같은 오류를 방지한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTcwMTAwMTkwLC03MDc3MDU3MzAsMTk4MD
-AzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0
-LC0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMT
-MwMjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0
-Nzk0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLD
-IwODQ5NjkyNDIsMzMwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3
-Mzc4NF19
+eyJoaXN0b3J5IjpbMTMzMDE1MzU5NSwtNzA3NzA1NzMwLDE5OD
+AwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3
+NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMT
+EzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIx
+NDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MC
+wyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUw
+NzM3ODRdfQ==
 -->
