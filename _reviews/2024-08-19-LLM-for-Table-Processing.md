@@ -666,13 +666,20 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 <span style="background-color:#FFE6E6"> **TAP4LLM** </span>
 
 
-TAP4LLM은 **테이블 데이터를 LLM(대형 언어 모델)**이 잘 이해할 수 있도록 **프롬프트**를 생성하는 도구이다. 이 도구는 LLM이 테이블 데이터에 대한 작업을 수행하기 전에 데이터를 처리하고 준비하는 역할을 한다.
+TAP4LLM은 **테이블 데이터를 LLM(대형 언어 모델)**이 잘 이해할 수 있도록 **프롬프트**를 생성하는 도구이다. 이 도구는 LLM이 테이블 데이터에 대한 작업을 수행하기 전에 데이터를 처리하고 준비하는 역할을 한다. 이 도구는 세 가지 주요 작업을 수행한다.
+
+  
+1. **테이블 샘플링 (Table Sampling)**: 테이블에서 적절한 행과 열을 선택한다. 테이블에는 많은 행과 열이 있지만, TAP4LLM은 특정 작업에 가장 중요한 정보가 포함된 행과 열을 선택하여 LLM이 처리할 수 있는 중요한 데이터를 선별한다.
+
+2. **테이블 증강 (Table Augmentation)**: 선택된 테이블 데이터를 외부 지식이나 메타데이터와 통합한다. 외부 지식이나 메타데이터를 추가하여 LLM이 데이터를 더 잘 이해하고 분석할 수 있도록 돕는다.
+
+3. **직렬화 (Serialization)**: 이 모든 정보를 LLM이 처리할 수 있는 형식으로 변환한다. 2차원 형태의 테이블 데이터를 LLM이 이해할 수 있는 일련의 텍스트로 변환하고, LLM의 입력으로 제공될 때 적절한 길이로 맞춘다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkxNzg5OTI3LDEzODU4NjAwMTIsLTY5OT
-gxMzE0NCwxOTM5NTk4ODE2LC0xNzI4NjI5MzgxLDE3MjY1MDQz
-MDEsNTAwNTk2MTM5LDEyMTExOTE2MjAsNDA1ODg2NjUxLC05Mz
-M4MjQ2NDEsMTcyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAs
-MTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xND
-IzNjkxODk4LC04OTYzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0
-MzYwXX0=
+eyJoaXN0b3J5IjpbLTEzNDg2OTc4NjQsMTM4NTg2MDAxMiwtNj
+k5ODEzMTQ0LDE5Mzk1OTg4MTYsLTE3Mjg2MjkzODEsMTcyNjUw
+NDMwMSw1MDA1OTYxMzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLT
+kzMzgyNDY0MSwxNzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0
+MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLT
+E0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAw
+MzQzNjBdfQ==
 -->
