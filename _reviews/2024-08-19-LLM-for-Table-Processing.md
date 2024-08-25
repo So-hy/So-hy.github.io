@@ -517,12 +517,17 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다. 이 방법은 특히 **복잡한 작업**에서 LLM의 정확성을 크게 향상시킬 수 있다. 예를 들어, 테이블에서 질문에 답하는 작업이나, 자연어를 SQL로 변환하는 작업에서 좋은 결과를 얻을 수 있다.
 
 그러나 몇몇 연구에서는 자기 일관성과 투표가 정확성을 높이는 반면, 시간이 많이 소요되며, LLM을 프롬프트하는 데 드는 비용이 높기 때문에 이러한 방법이 더 많은 비용이 든다고 주장한다.
+
+
+**Revising**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MTEwMDgzLDE5ODAwMzQzNjAsLTY4Mz
-c2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEy
-MiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtND
-c2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4
-NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLD
-MzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5
-NTEzMl19
+eyJoaXN0b3J5IjpbNTgyODYwMDQsMTk4MDAzNDM2MCwtNjgzNz
+YyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQxMTIy
+LDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00Nz
+Y0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1
+NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMz
+MwMDkxNDIzLC01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2MDk1
+MTMyXX0=
 -->
