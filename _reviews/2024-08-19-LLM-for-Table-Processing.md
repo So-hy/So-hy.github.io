@@ -633,12 +633,17 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 2. **하위 수준의 실행 가능한 코드**: 이 의사코드를 실제로 실행할 수 있는 코드로 변환한다.
 
 **Data-Copilot**은 사용자의 요청을 처리하면서, 유사한 요청들 사이에 **병합하거나 추상화할 수 있는 부분이 있는지**를 평가하여 효율성을 높인다.
+
+
+
+
+위에서 설명한 대부분의 방법이 하나의 테이블 작업(한 종류)에만 집중하는 반면, 여기서 다루는 방법들은 다양한 테이블 작업을 처리하는데 초점을 맞추고 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzOTU5ODgxNiwtMTcyODYyOTM4MSwxNz
-I2NTA0MzAxLDUwMDU5NjEzOSwxMjExMTkxNjIwLDQwNTg4NjY1
-MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0MiwtNDYzMT
-AzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0MTc4
-NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMT
-k4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIy
-NTc0XX0=
+eyJoaXN0b3J5IjpbLTQwODExODg5NCwxOTM5NTk4ODE2LC0xNz
+I4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2MTM5LDEyMTExOTE2
+MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nz
+g5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIw
+NCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLT
+cwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEw
+MDcxOF19
 -->
