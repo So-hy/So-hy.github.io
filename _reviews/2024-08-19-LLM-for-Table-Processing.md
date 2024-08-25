@@ -597,8 +597,12 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 **SheetCopilot**
 
 **SheetCopilot**은 스프레드시트 작업을 **VBA API**를 통해 처리하며, 다양한 시스템에서 사용할 수 있는 **원자적 행동**으로 API를 모델링한다.
+
+> **VBA API**는 **Visual Basic for Applications (VBA)**를 통해 제공되는 **응용 프로그래밍 인터페이스(API)**를 의미합니다. VBA는 Microsoft Office 애플리케이션(예: Excel, Word, Access 등)에서 사용되는 프로그래밍 언어로, 주로 **자동화**와 **사용자 정의 기능**을 구현하는 데 사용된다.
+
+SheetCopilot은 스프레드시트 API를 “원자적 행동”으로 정의한다. 이것은 간단히 말해, API를 통해 스프레드시트에서 수행할 수 있는 기본적인 작업을 의미한다. 예를 들어, 특정 셀에 값을 입력하거나, 특정 열을 정렬하는 작업이 원자적 행동이 될 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODY3Nzc1OCwxMjExMTkxNjIwLDQwNT
+eyJoaXN0b3J5IjpbLTUwNTIzNDAyNywxMjExMTkxNjIwLDQwNT
 g4NjY1MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0Miwt
 NDYzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OT
 U0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3
