@@ -622,14 +622,16 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 **SheetAgent**는 Python과 SQL을 사용해 스프레드시트 작업을 처리하는데, 이것이 VBA보다 더 적합하다고 판단했다. 그 이유는 Python과 SQL이 LLM(대형 언어 모델)의 훈련 데이터와 더 잘 맞기 때문이다. SheetAgent는 에이전트 행동을 위해 아래의 두 가지 필수 구성 요소를 포함한다.
 
  **Planner**는 Python 코드를 생성하고, 스프레드시트 작업을 수행하기 위해 **ReAct 스타일의 추론 접근 방식**을 사용한다. 즉, 작업을 단계별로 나누어 처리하는 방식이다.
-
+ 
 **Informer**는 Planner가 복잡한 작업을 해결할 수 있도록 **필요한 정보(예: SQL 쿼리)**를 제공한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODExOTAyNDQsMTcyNjUwNDMwMSw1MDA1OT
-YxMzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwx
-NzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOT
-I4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgs
-LTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mz
-c2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEy
-Ml19
+eyJoaXN0b3J5IjpbODg4OTg4NTk2LDE3MjY1MDQzMDEsNTAwNT
+k2MTM5LDEyMTExOTE2MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEs
+MTcyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MT
+kyOCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4
+LC04OTYzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02OD
+M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
+MjJdfQ==
 -->
