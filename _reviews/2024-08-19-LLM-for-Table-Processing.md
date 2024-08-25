@@ -550,12 +550,10 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 **테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다. 여기서는 두 가지 시스템 (Binder, ReAcTable) 을 예시로 든다.
 
-1. **Binder의 예시**:
+ - **Binder의 예시**:
 Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
-
-•  **Extended(확장된) Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
-
-•  **Extended(확장된) SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+ - **Extended(확장된) Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+ - **Extended(확장된) SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
 
 •  이렇게 하면, 표준 Python이나 SQL 코드에서 LLM이 특정 작업을 수행할 수 있도록 연산자로 활용할 수 있다.
 
@@ -579,7 +577,7 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 
 •  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDU5MDg5NCwxOTQzOTkxOTI4LC0xOT
+eyJoaXN0b3J5IjpbLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOT
 c2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4
 Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOC
 wxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEyMiwxNDcz
