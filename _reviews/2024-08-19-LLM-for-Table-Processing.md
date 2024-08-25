@@ -627,9 +627,12 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 <span style="background-color:#FFE6E6"> **Data-Copilot** </span>
 
+**Data-Copilot**은 주로 데이터 과학과 시각화를 위한 도구로, 두 단계의 행동을 포함한다:
 
+1. **상위 수준의 의사코드(Pseudo-code)**: 사용자 요청에 대한 설명을 간단한 코드 형태로 제공한다.
+2. **하위 수준의 실행 가능한 코드**: 이 의사코드를 실제로 실행할 수 있는 코드로 변환한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTc1NTg1MjUsMTcyNjUwNDMwMSw1MD
+eyJoaXN0b3J5IjpbLTE3Mjg2MjkzODEsMTcyNjUwNDMwMSw1MD
 A1OTYxMzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0
 MSwxNzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOT
 kxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4
