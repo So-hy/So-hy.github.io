@@ -660,15 +660,15 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 1. **맥락 정보 추출**: 테이블의 메타데이터와 관련 기록을 추출하여 이를 배경 지식으로 사용한다.
 2. **자연어 텍스트로 변환**: 추출된 정보를 LLM이 이해할 수 있는 자연어 텍스트로 변환한다.
-3. **프롬프트 작성**: 원하는 작업을 수행하기 위해 프롬프트를 설계한다.
+3. **프롬프트 작성**: 원하는 작업을 수행하기 위한 프롬프트를 설계한다.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUzNjM5Mzc4OCwtNjk5ODEzMTQ0LDE5Mz
-k1OTg4MTYsLTE3Mjg2MjkzODEsMTcyNjUwNDMwMSw1MDA1OTYx
-MzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwxNz
-IwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4
-LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLT
-g5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2
-MjgwOF19
+eyJoaXN0b3J5IjpbLTEwNjg5ODQxMDAsLTY5OTgxMzE0NCwxOT
+M5NTk4ODE2LC0xNzI4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2
+MTM5LDEyMTExOTE2MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMT
+cyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTky
+OCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC
+04OTYzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3
+NjI4MDhdfQ==
 -->
