@@ -461,8 +461,6 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 > **ReAct 방식의 주요 개념**
 > 
->   
-> 
 > 1. **Reasoning (추론)**:
 > 
 > •  LLM이 문제를 해결하기 위해 먼저 논리적인 분석을 수행합니다. 예를 들어, 질문에 대한 답을 찾기 위해 먼저 필요한 정보나 단계들을 식별하고, 그것들을 순차적으로 처리합니다.
@@ -626,11 +624,11 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 **Informer**는 Planner가 복잡한 작업을 해결할 수 있도록 **필요한 정보(예: SQL 쿼리)**를 제공한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzYxODQ3ODEsNTAwNTk2MTM5LDEyMT
-ExOTE2MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwx
-Njk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3Nj
-U2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4
-OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMT
-AxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEz
-NTA1MF19
+eyJoaXN0b3J5IjpbLTEwNzI3NjY0NSw1MDA1OTYxMzksMTIxMT
+E5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwxNzIwNzAwLDE2
+OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NT
+YxMjA0LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5
+MCwtNzA3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMD
+EzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEyMiwxNDczMTM1
+MDUwXX0=
 -->
