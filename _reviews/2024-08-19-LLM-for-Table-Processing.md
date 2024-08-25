@@ -591,9 +591,9 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 
 
-스프레드시트 조작 및 데이터 분석은 매우 유연한 작업이다. 첫째, 사용자의 기대와 요구가 다양하다. 둘째, 사용할 수 있는 작업과 소프트웨어 API의 범위가 넓다. 셋째, 복잡한 작업은 여러 작업을 포함할 수 있으며, 이는 테이블 내용의 동적인 변화를 초래할 수 있다.
+스프레드시트 조작 및 데이터 분석은 매우 유연한 작업이다. 즉, 작업이 다양한 요구나 상황에 맞게 쉽게 조정될 수 있고, 여러 가지 방식으로 수행될 수 있다. 첫째, 사용자의 기대와 요구가 다양하다. 둘째, 사용할 수 있는 작업과 소프트웨어 API의 범위가 넓다. 셋째, 복잡한 작업은 여러 작업을 포함할 수 있으며, 이는 테이블 내용의 동적인 변화를 초래할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM5MzIzNDgzMSw0MDU4ODY2NTEsLTkzMz
+eyJoaXN0b3J5IjpbMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMz
 gyNDY0MSwxNzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwx
 OTQzOTkxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0Mj
 M2OTE4OTgsLTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQz
