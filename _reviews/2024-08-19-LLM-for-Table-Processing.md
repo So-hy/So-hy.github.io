@@ -560,7 +560,7 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 (LLM을 연산자처럼 사용한다는 의미)
 
 
-2. **ReAcTable의 예시**:
+**ReAcTable의 예시**:
 
 •  ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
@@ -580,11 +580,11 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 
 •  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTIxNzU0MzM0LC00NjMxMDM3NDAsMTk0Mz
-k5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xNDIzNjkx
-ODk4LC04OTYzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0MzYwLC
-02ODM3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgz
-NDExMjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNz
-csLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0
-NTQ4ODU3MF19
+eyJoaXN0b3J5IjpbMTY5OTc4OTc0MiwtNDYzMTAzNzQwLDE5ND
+M5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMTQyMzY5
+MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAzNDM2MC
+wtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4
+MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMj
+c3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4
+NDU0ODg1NzBdfQ==
 -->
