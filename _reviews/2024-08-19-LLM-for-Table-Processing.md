@@ -569,15 +569,13 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 •  이 시스템은 **ReAct 프레임워크**를 기반으로 하여, **관찰(observation)-행동(action)-성찰(reflection) 루프**라는 반복적인 과정을 통해 작업을 점진적으로 개선한다.
 
-•  **관찰**: 먼저 테이블 데이터를 관찰하고 분석한다.
-
-•  **행동**: SQL 쿼리나 Python 코드를 생성하여 필요한 작업을 수행한다.
-
-•  **성찰**: 결과를 평가하고, 필요에 따라 다음 행동을 조정한다.
+> **관찰**: 먼저 테이블 데이터를 관찰하고 분석한다.
+> **행동**: SQL 쿼리나 Python 코드를 생성하여 필요한 작업을 수행한다.
+> **성찰**: 결과를 평가하고, 필요에 따라 다음 행동을 조정한다.
 
 •  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTg0OTk3OTk4LDE2OTk3ODk3NDIsLTQ2Mz
+eyJoaXN0b3J5IjpbNjA5MzkzMDk4LDE2OTk3ODk3NDIsLTQ2Mz
 EwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3
 ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNzA3NzA1NzMwLD
 E5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYy
