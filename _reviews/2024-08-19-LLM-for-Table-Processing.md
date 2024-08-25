@@ -645,21 +645,20 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 <span style="background-color:#FFE6E6"> **Struct GPT** </span>
 
-**StructGPT**는 테이블 질문 응답(Table QA), NL2SQL, 지식 그래프 질문 응답(Knowledge Graph QA) 같은 여러 작업을 처리할 수 있는 능력을 가진다. **StructGPT**는 여러 테이블 작업을 처리할 수 있는 모델이야. 이를 위해 **웹 테이블(Web Tables)**, **데이터베이스(Databases)**, **지식 그래프(Knowledge Graphs)** 이 세 가지 유형에 대한 행동을 개발한다.
+**StructGPT**는 테이블 질문 응답(Table QA), NL2SQL, 지식 그래프 질문 응답(Knowledge Graph QA) 같은 여러 작업을 처리할 수 있는 능력을 가진다. 이를 위해 **웹 테이블(Web Tables)**, **데이터베이스(Databases)**, **지식 그래프(Knowledge Graphs)** 이 세 가지 유형에 대한 행동을 개발한다.
 
-  
+ 
 
-•  **웹 테이블 작업**에서는 **데이터나 열 이름**을 추출한다.
+ - **웹 테이블 작업**에서는 **데이터나 열 이름**을 추출한다.
+ - **데이터베이스 작업**에서는 **테이블 데이터나 메타데이터**를 추출한다.  
+ - **지식 그래프 작업**에서는 관련된 정보를 추출하여, 이 정보를 LLM이 이후 계획을 세우는데 사용할 수 있도록 돕는다.
 
-•  **데이터베이스 작업**에서는 **테이블 데이터나 메타데이터**를 추출한다.
-
-•  **지식 그래프 작업**에서는 관련된 정보를 추출하여, 이 정보를 LLM이 이후 계획을 세우는 데 사용할 수 있도록 돕는다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2Nzk4MTYwNywxOTM5NTk4ODE2LC0xNz
-I4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2MTM5LDEyMTExOTE2
-MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nz
-g5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIw
-NCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLT
-cwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEw
-MDcxOF19
+eyJoaXN0b3J5IjpbMzIzMTU2ODIsMTkzOTU5ODgxNiwtMTcyOD
+YyOTM4MSwxNzI2NTA0MzAxLDUwMDU5NjEzOSwxMjExMTkxNjIw
+LDQwNTg4NjY1MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OT
+c0MiwtNDYzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQs
+LTE0OTU0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MD
+c3MDU3MzAsMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3
+MThdfQ==
 -->
