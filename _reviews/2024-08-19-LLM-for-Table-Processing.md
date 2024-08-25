@@ -548,9 +548,9 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 #### **1. Table QA and NL2SQL**
 
 
-
+**테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MTIxNzM2MCwtMTk3NjU2MTIwNCwtMT
+eyJoaXN0b3J5IjpbMTA1NjE5MDY3MywtMTk3NjU2MTIwNCwtMT
 Q5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcw
 NTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOC
 w0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgy
