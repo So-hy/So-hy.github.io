@@ -525,12 +525,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 테이블 작업에서 한 단계에서의 실수가 이후의 작업에 큰 영향을 미칠 수 있다. 예를 들어, 잘못된 데이터를 사용하면 이후의 분석 결과도 잘못될 수 있다.
 
 **SheetCopilot**과 **SheetAgent**, 이 두 에이전트는 과거의 행동을 돌아보고, 필요한 경우 이를 수정하는 메커니즘을 가지고 있다. 예를 들어 SheetAgent의 경우, 잘못된 코드가 생성되지 않도록 **고품질의 코드 예제를 검색**하는 기능을 가지고 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzcwNTczMCwxOTgwMDM0MzYwLC02OD
-M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
-MjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLT
-Q3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4
-ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0Mi
-wzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYw
-OTUxMzJdfQ==
+eyJoaXN0b3J5IjpbLTk0NTgwNzc4MiwtNzA3NzA1NzMwLDE5OD
+AwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3
+NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMT
+EzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIx
+NDc5NCwxODQ1NDg4NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MC
+wyMDg0OTY5MjQyLDMzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUw
+NzM3ODRdfQ==
 -->
