@@ -448,6 +448,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 ### 5.2 Planning
 
+
 여기선 위의 계획 모듈(Planning Module)에 대해 자세히 다룬다. 계획 모듈은 LLM을 프롬프트하여 행동을 계획한다. 이 모듈은 두 가지 중요한 측면을 신중하게 처리해야 한다:
  1) 복잡한 문제를 더 작은 하위 문제로 나누는 것,
  2) 이전 결정을 반영하고 수정하는 것.
@@ -455,6 +456,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 기본적으로 이 모듈은 **ReAct 접근법**을 사용한다. ReAct 접근법은 **피드백**과 **성찰**을 통해 작업을 진행하는 방법이다. 즉, 한 번에 모든 것을 결정하는 것이 아니라, 작업을 조금씩 진행하면서 결과를 보고, 그에 따라 다음 행동을 결정하는 방식이다.
 
 **SheetAgent [36]**는 **스프레드시트**를 다루는 작업에서 어떻게 계획을 세울지에 대한 **공식적인 정의**를 제공한 연구이다. 즉, 스프레드시트 작업을 수행하기 위해 에이전트가 어떤 순서로 어떤 행동을 해야 하는지 체계적으로 정리한 것이다. 여기서는 이를 테이블 QA와 NL2SQL과 같은 더 많은 테이블 작업으로 확장한다.
+
 
 #### **1. Formalizing Planning**
 
@@ -514,7 +516,7 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODI2NzAyNywxOTgwMDM0MzYwLC02OD
+eyJoaXN0b3J5IjpbLTM0ODQ1NjkxMywxOTgwMDM0MzYwLC02OD
 M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
 MjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLT
 Q3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4
