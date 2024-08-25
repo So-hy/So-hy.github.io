@@ -645,17 +645,13 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 <span style="background-color:#FFE6E6"> **Struct GPT** </span>
 
-**StructGPT**는 테이블 질문 응답(Table QA), NL2SQL, 지식 그래프 질문 응답(Knowledge Graph QA) 같은 여러 작업을 처리할 수 있는 능력을 가진다. 이를 위해 **세 가지 유형의 행동**을 개발한다:
-
-1. **웹 테이블**에서 데이터를 추출하거나 열 이름을 가져오는 행동.
-2. **데이터베이스**에서 테이블 데이터나 메타데이터를 추출하는 행동.
-3. **지식 그래프**에서 관련 정보를 찾아내는 행동.
+**StructGPT**는 테이블 질문 응답(Table QA), NL2SQL, 지식 그래프 질문 응답(Knowledge Graph QA) 같은 여러 작업을 처리할 수 있는 능력을 가진다. 이를 위해 web tables, databases, 그리고 knowledge graphs에 대한 **세 가지 유형의 행동**을 개발했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwMTQ3MDIxMCwxOTM5NTk4ODE2LC0xNz
-I4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2MTM5LDEyMTExOTE2
-MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nz
-g5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIw
-NCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLT
-cwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEw
-MDcxOF19
+eyJoaXN0b3J5IjpbMzU4MjY3MDg5LDE5Mzk1OTg4MTYsLTE3Mj
+g2MjkzODEsMTcyNjUwNDMwMSw1MDA1OTYxMzksMTIxMTE5MTYy
+MCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwxNzIwNzAwLDE2OTk3OD
+k3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0
+LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNz
+A3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAw
+NzE4XX0=
 -->
