@@ -592,12 +592,17 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 
 스프레드시트 조작 및 데이터 분석은 매우 유연한 작업이다. 즉, 작업이 다양한 요구나 상황에 맞게 쉽게 조정될 수 있고, 여러 가지 방식으로 수행될 수 있다. 첫째, 사용자의 기대와 요구가 다양하다. 둘째, 사용할 수 있는 작업과 소프트웨어 API의 범위가 넓다. 셋째, 복잡한 작업은 여러 작업을 포함할 수 있으며, 이는 테이블 내용의 동적인 변화를 초래할 수 있다.
+
+
+**SheetCopilot**
+
+**SheetCopilot**은 스프레드시트 작업을 **VBA API**를 통해 처리하며, 다양한 시스템에서 사용할 수 있는 **원자적 행동**으로 API를 모델링한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMz
-gyNDY0MSwxNzIwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwx
-OTQzOTkxOTI4LC0xOTc2NTYxMjA0LC0xNDk1NDE3ODYsLTE0Mj
-M2OTE4OTgsLTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5ODAwMzQz
-NjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMj
-A3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIy
-MjI3N119
+eyJoaXN0b3J5IjpbMTYwODY3Nzc1OCwxMjExMTkxNjIwLDQwNT
+g4NjY1MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0Miwt
+NDYzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OT
+U0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3
+MzAsMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsND
+U0NjIyNTc0LC0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4
+MjA2MV19
 -->
