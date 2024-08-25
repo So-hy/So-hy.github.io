@@ -503,13 +503,15 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 다음으로 계획 모듈이 고려해야 하는 두 가지 측면 중 나머지 하나인,
  **2) 이전 결정을 반영하고 수정하는 것**. 이 부분에 대해 살펴볼 것이다.
 
-LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 한번 답변을 생성하면 그 결과를 바로 사용하는데, 이 과정에서 잘못된 결과가 나올 수 있다. 이런 문제 때문에 에이전트는 LLM보다 더 나은 방식으로 작업을 처리한다. 에이전트는 다양한 접근 방식을 시도하고, 그 중에서 가장 좋은 것을 선택하기 위해 **투표(Voting)**를 하거나, 과거의 행동을 돌아보고 실수로부터 배우며(Self-Consistency) 이를 수정할 수 있다.
+LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 한번 답변을 생성하면 그 결과를 바로 사용하는데, 이 과정에서 잘못된 결과가 나올 수 있다. 이런 문제 때문에 에이전트는 LLM보다 더 나은 방식으로 작업을 처리한다. 에이전트는 다양한 접근 방식을 시도하고, 그 중에서 가장 좋은 것을 선택하기 위해 **투표(Voting)**를 하거나, 과거의 행동을 돌아보고 실수로부터 배우며(Self-Consistency) 이를 수정(Revising)할 수 있다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMT
-MxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQxMTIyLDE0NzMxMzUw
-NTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0NTYzOCwxND
-E0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1NzAsMTE2NTcw
-ODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMzMwMDkxNDIzLC
-01NTE3ODU4ODMsMTQ4NTA3Mzc4NCwxNjA2MDk1MTMyLC04ODQx
-NDAyNjRdfQ==
+eyJoaXN0b3J5IjpbMTYzNjY5MTkzNiwxOTgwMDM0MzYwLC02OD
+M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
+MjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLT
+Q3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4
+ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0Mi
+wzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYw
+OTUxMzJdfQ==
 -->
