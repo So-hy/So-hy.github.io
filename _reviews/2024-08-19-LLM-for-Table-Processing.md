@@ -421,6 +421,8 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 
 > 에이전트는 특정 목표를 달성하기 위해 자율적으로 행동하는 지능형 소프트웨어이며, LLM 기반 에이전트는 LLM의 언어 처리 능력을 활용하여 다양한 작업을 수행할 수 있는 에이전트다.
 
+이 뒤의 내용은 대부분 Agent에 대한 내용이다. 테이블 데이터와 관련된 작업을 수행하기 위해 에이전트가 LLM을 활용하는 방법, 특히 프롬프트를 사용하여 이러한 작업을 계획하고 실행하는 방법에 대한 설명을 담고 있다.
+
 
 ### 5.1 Common Workflow of LLM-powered Agents
 
@@ -578,11 +580,11 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMD
-M3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2
-LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcwNTczMCwxOT
-gwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1
-NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLD
-ExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgy
-MTQ3OTRdfQ==
+eyJoaXN0b3J5IjpbLTkzMzgyNDY0MSwxNzIwNzAwLDE2OTk3OD
+k3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0
+LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNz
+A3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAw
+NzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC
+04ODI4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4
+MzA4OF19
 -->
