@@ -531,12 +531,12 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 이러한 기술들은 잘못된 API 사용이나 잘못된 인수와 같은 오류를 방지한다.
 
 
-### 5.3 
+### 5.3 Action
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjQ2NTQ4NCwtNzA3NzA1NzMwLDE5OD
+eyJoaXN0b3J5IjpbLTg5NjM4Njg5MCwtNzA3NzA1NzMwLDE5OD
 AwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3
 NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMT
 EzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIx
