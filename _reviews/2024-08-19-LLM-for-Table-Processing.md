@@ -653,12 +653,26 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
  - **데이터베이스 작업**에서는 **테이블 데이터나 메타데이터**를 추출한다.  
  - **지식 그래프 작업**에서는 관련된 정보를 추출하여, 이 정보를 LLM이 이후 계획을 세우는데 사용할 수 있도록 돕는다.
 
+
+<span style="background-color:#FFE6E6"> **UniDM** </span>
+
+  
+
+**UniDM**은 데이터 정리와 같은 데이터 조작 작업을 처리하는 모델이다. 이 모델은 **세 가지 행동 과정**으로 작업을 관리한다.
+
+  
+
+1. **맥락 정보 추출**: 테이블의 메타데이터와 관련 기록을 추출하여 이를 배경 지식으로 사용한다.
+
+2. **자연어 텍스트로 변환**: 추출된 정보를 LLM이 이해할 수 있는 자연어 텍스트로 변환한다.
+
+3. **프롬프트 작성**: 원하는 작업을 수행하기 위해 프롬프트를 설계한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzMTU2ODIsMTkzOTU5ODgxNiwtMTcyOD
-YyOTM4MSwxNzI2NTA0MzAxLDUwMDU5NjEzOSwxMjExMTkxNjIw
-LDQwNTg4NjY1MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OT
-c0MiwtNDYzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQs
-LTE0OTU0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MD
-c3MDU3MzAsMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3
-MThdfQ==
+eyJoaXN0b3J5IjpbLTQ4MDQwMDUwOCwxOTM5NTk4ODE2LC0xNz
+I4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2MTM5LDEyMTExOTE2
+MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nz
+g5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIw
+NCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLT
+cwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEw
+MDcxOF19
 -->
