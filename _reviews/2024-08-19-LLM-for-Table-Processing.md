@@ -637,13 +637,13 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 
 
-위에서 설명한 대부분의 방법이 하나의 테이블 작업(한 종류)에만 집중하는 반면, 여기서 다루는 방법들은 다양한 테이블 작업을 처리하는데 초점을 맞추고 있다.
+대부분의 프롬프트 방식은 단일 테이블 작업을 위한 것이지만, 여기에서는 여러 작업을 처리하는 몇 가지 연구를 나열한다. 이러한 프레임워크들은 공통적인 특징을 공유한다. 이러한 방법들은 공통적으로 **데이터와 그 스키마를 먼저 탐색**한 다음, **행동을 계획하고 최적화**하는 과정을 거친다. 이렇게 함으로써 다양한 테이블 작업을 효율적으로 처리할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODExODg5NCwxOTM5NTk4ODE2LC0xNz
-I4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2MTM5LDEyMTExOTE2
-MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMTcyMDcwMCwxNjk5Nz
-g5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIw
-NCwtMTQ5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLT
-cwNzcwNTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEw
-MDcxOF19
+eyJoaXN0b3J5IjpbMjYzMjQyNDY4LDE5Mzk1OTg4MTYsLTE3Mj
+g2MjkzODEsMTcyNjUwNDMwMSw1MDA1OTYxMzksMTIxMTE5MTYy
+MCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwxNzIwNzAwLDE2OTk3OD
+k3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0
+LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNz
+A3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAw
+NzE4XX0=
 -->
