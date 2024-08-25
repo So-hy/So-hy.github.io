@@ -542,12 +542,19 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 이 과정에서 LLM은 복잡한 작업을 처리하기 위해 필요한 코드를 생성하고, 이를 실행하여 테이블에서 필요한 데이터를 추출하거나 문제를 해결한다.
 
 이는 **RAG (Retrieval-Augmented Generation)**라는 개념과 비슷하다. RAG는 필요한 데이터를 검색하여 활용하는 방식이다.
+
+테이블 작업의 고유한 특성을 고려하여, 지금부터 특정 작업에 따라 행동을 정의하는 방법을 논의할 것이다.
+
+#### **1. Table QA and NL2SQL**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMT
-QyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAz
-NDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC
-0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMw
-MjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nz
-k0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIw
-ODQ5NjkyNDJdfQ==
+eyJoaXN0b3J5IjpbMTY5MTIxNzM2MCwtMTk3NjU2MTIwNCwtMT
+Q5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcw
+NTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOC
+w0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgy
+ODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwOD
+gsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEz
+NzAyMjY5ODBdfQ==
 -->
