@@ -458,6 +458,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 
 #### **1. Formalizing Planning**
 
+
 일단 계획 모듈이 어떻게 되어 있는지 살펴보자. 일반적으로 계획 모듈은 다음과 같이 구성된다.
 
 -   **작업 지시**($I$): 현재 수행해야 할 작업에 대한 지시 또는 목표.
@@ -513,11 +514,11 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTA5MjA1MzQ5LDE5ODAwMzQzNjAsLTY4Mz
-c2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEy
-MiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtND
-c2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4
-NTcwLDExNjU3MDgxMjYsMTM3MDIyNjk4MCwyMDg0OTY5MjQyLD
-MzMDA5MTQyMywtNTUxNzg1ODgzLDE0ODUwNzM3ODQsMTYwNjA5
-NTEzMl19
+eyJoaXN0b3J5IjpbMTI2ODI2NzAyNywxOTgwMDM0MzYwLC02OD
+M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
+MjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLT
+Q3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4
+ODU3MCwxMTY1NzA4MTI2LDEzNzAyMjY5ODAsMjA4NDk2OTI0Mi
+wzMzAwOTE0MjMsLTU1MTc4NTg4MywxNDg1MDczNzg0LDE2MDYw
+OTUxMzJdfQ==
 -->
