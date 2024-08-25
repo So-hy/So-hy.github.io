@@ -663,8 +663,9 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 3. **프롬프트 작성**: 원하는 작업을 수행하기 위한 프롬프트를 설계한다.
 
 
+<span style="background-color:#FFE6E6"> **UniDM** </span>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjg5ODQxMDAsLTY5OTgxMzE0NCwxOT
+eyJoaXN0b3J5IjpbLTExNzAwMTEzNDEsLTY5OTgxMzE0NCwxOT
 M5NTk4ODE2LC0xNzI4NjI5MzgxLDE3MjY1MDQzMDEsNTAwNTk2
 MTM5LDEyMTExOTE2MjAsNDA1ODg2NjUxLC05MzM4MjQ2NDEsMT
 cyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAsMTk0Mzk5MTky
