@@ -537,13 +537,15 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 **행동 모듈(Action)**은 LLM과 소프트웨어 도구(예: 데이터베이스 엔진, 스프레드시트 시스템, Python 인터프리터) 사이에서 **중개자** 역할을 한다. LLM이 어떤 작업을 수행하기 위해서는 단순히 자연어 명령을 API로 변환하는 것만으로는 충분하지 않다. 행동 모듈은 다음을 보장해야 한다.
 
 
+1. **API 호출이 오류 없이 이루어지도록** 해야 한다.
 
+2. **복잡한 작업**도 처리할 수 있어야 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTU0MTc4NiwtMTQyMzY5MTg5OCwtOD
-k2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAzNDM2MCwtNjgzNzYy
-ODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQxMTIyLD
-E0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0
-NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1Nz
-AsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIwODQ5NjkyNDIsMzMw
-MDkxNDIzXX0=
+eyJoaXN0b3J5IjpbLTE0ODk2Mjk1MTQsLTE0OTU0MTc4NiwtMT
+QyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAz
+NDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC
+0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMw
+MjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0xMDg4MjE0Nz
+k0LDE4NDU0ODg1NzAsMTE2NTcwODEyNiwxMzcwMjI2OTgwLDIw
+ODQ5NjkyNDJdfQ==
 -->
