@@ -514,9 +514,13 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 **Self-consistency and Voting**
 
 
-이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다.
+이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다. 이 방법은 특히 **복잡한 작업**에서 LLM의 정확성을 크게 향상시킬 수 있다. 예를 들어, 테이블에서 질문에 답하는 작업이나, 자연어를 SQL로 변환하는 작업에서 좋은 결과를 얻을 수 있다.
+
+
+
+그러나 몇몇 연구에서는 자기 일관성과 투표가 정확성을 높이는 반면, 시간이 많이 소요되며, LLM을 프롬프트하는 데 드는 비용이 높기 때문에 이러한 방법이 더 많은 비용이 든다고 주장한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0ODQ1NjkxMywxOTgwMDM0MzYwLC02OD
+eyJoaXN0b3J5IjpbMTA5MzIwMzg3OSwxOTgwMDM0MzYwLC02OD
 M3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2MjI1NzQsLTIwNzgzNDEx
 MjIsMTQ3MzEzNTA1MCwtODgyODgyMDYxLDExMzAyMjIyNzcsLT
 Q3NjQ1NjM4LDE0MTQzODMwODgsLTEwODgyMTQ3OTQsMTg0NTQ4
