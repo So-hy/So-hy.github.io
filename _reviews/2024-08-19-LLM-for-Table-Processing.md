@@ -603,12 +603,14 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”으로 정의한다. 원자적 행동은 간단히 말해, API를 통해 스프레드시트에서 수행할 수 있는 기본적인 작업을 의미한다. 예를 들어, 특정 셀에 값을 입력하거나, 특정 열을 정렬하는 작업이 원자적 행동이 될 수 있다. 이러한 원자적 행동은 특정 스프레드시트 소프트웨어에만 국한되지 않고, 여러 스프레드시트 시스템에서 사용할 수 있도록 설계되었다.
 
 <span style="background-color:#FFE6E6"> **SheetAgent** </span>
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTI5OTI0NDgsMTIxMTE5MTYyMCw0MD
-U4ODY2NTEsLTkzMzgyNDY0MSwxNzIwNzAwLDE2OTk3ODk3NDIs
-LTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0LC0xND
-k1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNzA3NzA1
-NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LD
-Q1NDYyMjU3NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4
-ODIwNjFdfQ==
+eyJoaXN0b3J5IjpbLTU4NjE1NTIzNiwxMjExMTkxNjIwLDQwNT
+g4NjY1MSwtOTMzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0Miwt
+NDYzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OT
+U0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3
+MzAsMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsND
+U0NjIyNTc0LC0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4
+MjA2MV19
 -->
