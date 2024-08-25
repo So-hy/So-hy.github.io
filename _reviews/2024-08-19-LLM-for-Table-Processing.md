@@ -548,19 +548,42 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 #### **1. Table QA and NL2SQL**
 
 
-**테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다.
+**테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다. 여기서는 두 가지 시스템 (Binder, ReAcTable) 을 예시로 든다.
 
-Binder라는 시스템에서는 행동을 두 가지로 나눈다:
-**확장된 Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
-**확장된 SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+1. **Binder의 예시**:
+Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
+
+•  **확장된 Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+
+•  **확장된 SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
 
 •  이렇게 하면, 표준 Python이나 SQL 코드에서 LLM이 특정 작업을 수행할 수 있도록 연산자로 활용할 수 있다.
+
+2. **ReAcTable의 예시**:
+
+•  ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
+
+1. **SQL 쿼리 생성**: 테이블에서 필요한 정보를 얻기 위해 SQL 쿼리를 생성한다.
+
+2. **Python 코드 생성**: SQL로 해결할 수 없는 경우, Python 코드를 생성하여 문제를 해결한다.
+
+3. **직접 질문에 답변**: 경우에 따라 LLM이 직접 질문에 답변할 수도 있다.
+
+•  이 시스템은 **ReAct 프레임워크**를 기반으로 하여, **관찰-행동-성찰 루프**라는 반복적인 과정을 통해 작업을 점진적으로 개선한다.
+
+•  **관찰**: 먼저 테이블 데이터를 관찰하고 분석한다.
+
+•  **행동**: SQL 쿼리나 Python 코드를 생성하여 필요한 작업을 수행한다.
+
+•  **성찰**: 결과를 평가하고, 필요에 따라 다음 행동을 조정한다.
+
+•  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMT
-Q5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcw
-NTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOC
-w0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgy
-ODgyMDYxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwOD
-gsLTEwODgyMTQ3OTQsMTg0NTQ4ODU3MCwxMTY1NzA4MTI2LDEz
-NzAyMjY5ODBdfQ==
+eyJoaXN0b3J5IjpbNTg4ODIxMTAyLDE5NDM5OTE5MjgsLTE5Nz
+Y1NjEyMDQsLTE0OTU0MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2
+ODkwLC03MDc3MDU3MzAsMTk4MDAzNDM2MCwtNjgzNzYyODA4LD
+EwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQxMTIyLDE0NzMx
+MzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0NTYzOC
+wxNDE0MzgzMDg4LC0xMDg4MjE0Nzk0LDE4NDU0ODg1NzAsMTE2
+NTcwODEyNl19
 -->
