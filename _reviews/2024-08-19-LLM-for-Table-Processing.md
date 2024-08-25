@@ -480,6 +480,7 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 
 #### **2 Complex Task Decomposition**
 
+
 첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
  **1) 복잡한 문제를 더 작은 하위 문제로 나누는 것**. 이 부분에 대해 살펴볼 것이다.
 
@@ -512,7 +513,7 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcyNTc3MTA3LDE5ODAwMzQzNjAsLTY4Mz
+eyJoaXN0b3J5IjpbNTA5MjA1MzQ5LDE5ODAwMzQzNjAsLTY4Mz
 c2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEy
 MiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMTEzMDIyMjI3NywtND
 c2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIxNDc5NCwxODQ1NDg4
