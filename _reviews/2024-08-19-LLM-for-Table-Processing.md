@@ -529,8 +529,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 **SelfEvolve** 모델은 생성된 코드가 제대로 작동하지 않을 때, LLM에게 **디버깅**을 요청하여 문제를 해결한다. 이렇게 해서 Python 데이터 분석 작업에서 좋은 결과를 얻을 수 있다.
 
 이러한 기술들은 잘못된 API 사용이나 잘못된 인수와 같은 오류를 방지한다.
+
+
+### 5.3 
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzMDE1MzU5NSwtNzA3NzA1NzMwLDE5OD
+eyJoaXN0b3J5IjpbMTQyNjQ2NTQ4NCwtNzA3NzA1NzMwLDE5OD
 AwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAwNzE4LDQ1NDYyMjU3
 NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC04ODI4ODIwNjEsMT
 EzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4MzA4OCwtMTA4ODIx
