@@ -664,8 +664,19 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 
 
 <span style="background-color:#FFE6E6"> **TAP4LLM** </span>
+
+
+**TAP4LLM**은 테이블 작업을 수행하기 전에 **데이터를 준비하는 도구**이다. 이 도구는 다음과 같은 세 가지 주요 작업을 수행한다.
+
+  
+
+1. **테이블 샘플링**: 테이블에서 적절한 행과 열을 선택한다.
+
+2. **테이블 증강**: 선택한 데이터에 외부 지식이나 메타데이터를 통합한다.
+
+3. **직렬화**: 이 모든 정보를 LLM이 처리할 수 있도록 직렬화한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyOTI4MTcxMiwtNjk5ODEzMTQ0LDE5Mz
+eyJoaXN0b3J5IjpbMTM4NTg2MDAxMiwtNjk5ODEzMTQ0LDE5Mz
 k1OTg4MTYsLTE3Mjg2MjkzODEsMTcyNjUwNDMwMSw1MDA1OTYx
 MzksMTIxMTE5MTYyMCw0MDU4ODY2NTEsLTkzMzgyNDY0MSwxNz
 IwNzAwLDE2OTk3ODk3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4
