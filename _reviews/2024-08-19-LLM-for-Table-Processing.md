@@ -415,6 +415,7 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 ## 5 Table Prompting
 
 
+
 이 섹션에서는 **대형 언어 모델(LLM)**을 사용해 테이블 작업을 수행하는 방법에 대해 설명하고 있다. LLM은 테이블 작업에 필요한 몇 가지 중요한 기능에서 어려움을 겪는다. 예를 들어 **복잡한 추론**,**산술 계산**,**사실 조회**,**오류 수정** 등이 있다.
   
 이런 기능들이 테이블 작업에서는 필수적이다. 그래서 연구자들은 모델이 단순히 빠르게 판단하는 것이 아니라, **깊이 생각하고 스스로 수정할 수 있도록** 돕는 방법을 찾고 있다. 또한, LLM이 **Python이나 SQL 같은 외부 도구를 사용할 수 있도록** 하는 것도 중요한 과제다. 이러한 문제들을 해결하기 위해 연구자들은 LLM을 기반으로 한 **에이전트**를 개발하고 있다.
@@ -425,6 +426,7 @@ GPT(예: GPT-3.5, GPT-4)는 현재 가장 강력한 모델 중 하나로, 많은
 
 
 ### 5.1 Common Workflow of LLM-powered Agents
+
 
 
 LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**하는 방식으로 작동한다. 이 방식은 사람들이 문제를 해결할 때 복잡한 문제를 작은 부분으로 나누어 차례차례 해결하는 것과 비슷하다. 이렇게 함으로써 LLM은 한 번에 하나씩 더 단순한 문제를 해결해 가며, 결국엔 전체 문제를 해결할 수 있게 된다.
@@ -463,6 +465,7 @@ LLM 기반 에이전트는 **복잡한 작업을 단계별로 나누어 처리**
 #### **1. Formalizing Planning**
 
 
+
 일단 계획 모듈이 어떻게 되어 있는지 살펴보자. 일반적으로 계획 모듈은 다음과 같이 구성된다.
 
 -   **작업 지시**($I$): 현재 수행해야 할 작업에 대한 지시 또는 목표.
@@ -486,6 +489,7 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 #### **2 Complex Task Decomposition**
 
 
+
 첫 번째로 앞서 말한 모듈이 고려해야 하는 두 가지 측면 중 하나인,
  **1) 복잡한 문제를 더 작은 하위 문제로 나누는 것**. 이 부분에 대해 살펴볼 것이다.
 
@@ -507,6 +511,7 @@ $$H_t = (H_(t−1), O_t, A_t)$$
 #### **3 Reflection and Revision**
 
 
+
 다음으로 계획 모듈이 고려해야 하는 두 가지 측면 중 나머지 하나인,
  **2) 이전 결정을 반영하고 수정하는 것**. 이 부분에 대해 살펴볼 것이다.
 
@@ -516,12 +521,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 **Self-consistency and Voting**
 
 
+
 이 전략은 여러 가지 다른 방식으로 문제를 해결한 후, 가장 일관된 답변을 선택하는 방법이다. 예를 들어, 동일한 문제를 여러 번 풀어보고, 그 중에서 가장 일관된(가장 많이 나온) 답변을 선택하는 것이다. 이 방법은 특히 **복잡한 작업**에서 LLM의 정확성을 크게 향상시킬 수 있다. 예를 들어, 테이블에서 질문에 답하는 작업이나, 자연어를 SQL로 변환하는 작업에서 좋은 결과를 얻을 수 있다.
 
 그러나 몇몇 연구에서는 자기 일관성과 투표가 정확성을 높이는 반면, 시간이 많이 소요되며, LLM을 프롬프트하는 데 드는 비용이 높기 때문에 이러한 방법이 더 많은 비용이 든다고 주장한다.
 
 
 **Revising**
+
 
 
 테이블 작업에서 한 단계에서의 실수가 이후의 작업에 큰 영향을 미칠 수 있다. 예를 들어, 잘못된 데이터를 사용하면 이후의 분석 결과도 잘못될 수 있다.
@@ -536,6 +543,7 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 ### 5.3 Action Module
 
 
+
 **행동 모듈(Action)**은 LLM과 소프트웨어 도구(예: 데이터베이스 엔진, 스프레드시트 시스템, Python 인터프리터) 사이에서 **중개자** 역할을 한다. LLM이 어떤 작업을 수행하기 위해서는 단순히 자연어 명령을 API로 변환하는 것만으로는 충분하지 않다. 행동 모듈은 다음을 보장해야 한다.
 
 1. **API 호출이 오류 없이 이루어지도록** 해야 한다.
@@ -548,6 +556,7 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 테이블 작업의 고유한 특성을 고려하여, 지금부터 특정 작업에 따라 행동을 정의하는 방법을 논의할 것이다.
 
 #### **1. Table QA and NL2SQL**
+
 
 
 **테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다. 여기서는 두 가지 시스템 (Binder, ReAcTable) 을 예시로 든다.
@@ -580,11 +589,11 @@ ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzMzgyNDY0MSwxNzIwNzAwLDE2OTk3OD
-k3NDIsLTQ2MzEwMzc0MCwxOTQzOTkxOTI4LC0xOTc2NTYxMjA0
-LC0xNDk1NDE3ODYsLTE0MjM2OTE4OTgsLTg5NjM4Njg5MCwtNz
-A3NzA1NzMwLDE5ODAwMzQzNjAsLTY4Mzc2MjgwOCwxMDEzMTAw
-NzE4LDQ1NDYyMjU3NCwtMjA3ODM0MTEyMiwxNDczMTM1MDUwLC
-04ODI4ODIwNjEsMTEzMDIyMjI3NywtNDc2NDU2MzgsMTQxNDM4
-MzA4OF19
+eyJoaXN0b3J5IjpbLTM0NTcwODAyMywtOTMzODI0NjQxLDE3Mj
+A3MDAsMTY5OTc4OTc0MiwtNDYzMTAzNzQwLDE5NDM5OTE5Mjgs
+LTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMTQyMzY5MTg5OCwtOD
+k2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAzNDM2MCwtNjgzNzYy
+ODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC0yMDc4MzQxMTIyLD
+E0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMwMjIyMjc3LC00NzY0
+NTYzOF19
 -->
