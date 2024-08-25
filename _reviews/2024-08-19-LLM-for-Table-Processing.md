@@ -666,13 +666,13 @@ SheetCopilot은 스프레드시트 API를 “원자적 행동(Atomic Actions)”
 <span style="background-color:#FFE6E6"> **TAP4LLM** </span>
 
 
-TAP4LLM은 **테이블 데이터를 LLM(대형 언어 모델)**이 잘 이해할 수 있도록 **프롬프트**를 생성하는 도구이다. 이 도구는 LLM이 테이블 데이터에 대한 작업을 수행하기 전에 데이터를 처리하고 준비하는 역할을 합니다.
+TAP4LLM은 **테이블 데이터를 LLM(대형 언어 모델)**이 잘 이해할 수 있도록 **프롬프트**를 생성하는 도구이다. 이 도구는 LLM이 테이블 데이터에 대한 작업을 수행하기 전에 데이터를 처리하고 준비하는 역할을 한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjUwOTM3NCwxMzg1ODYwMDEyLC02OT
-k4MTMxNDQsMTkzOTU5ODgxNiwtMTcyODYyOTM4MSwxNzI2NTA0
-MzAxLDUwMDU5NjEzOSwxMjExMTkxNjIwLDQwNTg4NjY1MSwtOT
-MzODI0NjQxLDE3MjA3MDAsMTY5OTc4OTc0MiwtNDYzMTAzNzQw
-LDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMT
-QyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAz
-NDM2MF19
+eyJoaXN0b3J5IjpbNjkxNzg5OTI3LDEzODU4NjAwMTIsLTY5OT
+gxMzE0NCwxOTM5NTk4ODE2LC0xNzI4NjI5MzgxLDE3MjY1MDQz
+MDEsNTAwNTk2MTM5LDEyMTExOTE2MjAsNDA1ODg2NjUxLC05Mz
+M4MjQ2NDEsMTcyMDcwMCwxNjk5Nzg5NzQyLC00NjMxMDM3NDAs
+MTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NTQxNzg2LC0xND
+IzNjkxODk4LC04OTYzODY4OTAsLTcwNzcwNTczMCwxOTgwMDM0
+MzYwXX0=
 -->
