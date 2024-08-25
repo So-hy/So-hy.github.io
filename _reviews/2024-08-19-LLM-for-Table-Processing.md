@@ -549,8 +549,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 
 **테이블 질문 응답(Table QA)**이나 **NL2SQL** 작업에서는 에이전트 시스템이 **Python**이나 **SQL**을 사용하여 테이블과 상호작용한다.
+
+Binder라는 시스템에서는 행동을 두 가지로 나눈다:
+**확장된 Python**: Python 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+**확장된 SQL**: SQL 코드 내에서 LLM을 활용하여 작업을 수행할 수 있도록 하는 것.
+
+•  이렇게 하면, 표준 Python이나 SQL 코드에서 LLM이 특정 작업을 수행할 수 있도록 연산자로 활용할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1NjE5MDY3MywtMTk3NjU2MTIwNCwtMT
+eyJoaXN0b3J5IjpbMTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMT
 Q5NTQxNzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcw
 NTczMCwxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOC
 w0NTQ2MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgy
