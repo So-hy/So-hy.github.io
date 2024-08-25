@@ -536,12 +536,14 @@ LLM은 종종 “생각 없이” 답변을 생성하는 경향이 있다. 즉, 
 
 **행동 모듈(Action)**은 LLM과 소프트웨어 도구(예: 데이터베이스 엔진, 스프레드시트 시스템, Python 인터프리터) 사이에서 **중개자** 역할을 한다. LLM이 어떤 작업을 수행하기 위해서는 단순히 자연어 명령을 API로 변환하는 것만으로는 충분하지 않다. 행동 모듈은 다음을 보장해야 한다.
 
-
 1. **API 호출이 오류 없이 이루어지도록** 해야 한다.
-
 2. **복잡한 작업**도 처리할 수 있어야 한다.
+
+이 과정에서 LLM은 복잡한 작업을 처리하기 위해 필요한 코드를 생성하고, 이를 실행하여 테이블에서 필요한 데이터를 추출하거나 문제를 해결한다.
+
+이는 **RAG (Retrieval-Augmented Generation)**라는 개념과 비슷하다. RAG는 필요한 데이터를 검색하여 활용하는 방식이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODk2Mjk1MTQsLTE0OTU0MTc4NiwtMT
+eyJoaXN0b3J5IjpbLTE5NzY1NjEyMDQsLTE0OTU0MTc4NiwtMT
 QyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3MzAsMTk4MDAz
 NDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0NjIyNTc0LC
 0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4MjA2MSwxMTMw
