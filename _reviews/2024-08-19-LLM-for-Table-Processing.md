@@ -561,12 +561,10 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 
 **ReAcTable의 예시**:
 
-•  ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
+ReAcTable이라는 시스템은 세 가지 주요 행동을 수행한다:
 
 1. **SQL 쿼리 생성**: 테이블에서 필요한 정보를 얻기 위해 SQL 쿼리를 생성한다.
-
 2. **Python 코드 생성**: SQL로 해결할 수 없는 경우, Python 코드를 생성하여 문제를 해결한다.
-
 3. **직접 질문에 답변**: 경우에 따라 LLM이 직접 질문에 답변할 수도 있다.
 
 •  이 시스템은 **ReAct 프레임워크**를 기반으로 하여, **관찰-행동-성찰 루프**라는 반복적인 과정을 통해 작업을 점진적으로 개선한다.
@@ -579,11 +577,11 @@ Binder라는 시스템에서는 행동(Action)을 두 가지로 나눈다:
 
 •  만약 테이블에 필요한 정보가 부족하거나, SQL 쿼리로 답을 구할 수 없다면, 시스템은 **중간 테이블**을 생성하여 부족한 정보를 채우기 위해 Python 코드를 생성하고 실행한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcyNjAzODgsMTY5OTc4OTc0MiwtND
-YzMTAzNzQwLDE5NDM5OTE5MjgsLTE5NzY1NjEyMDQsLTE0OTU0
-MTc4NiwtMTQyMzY5MTg5OCwtODk2Mzg2ODkwLC03MDc3MDU3Mz
-AsMTk4MDAzNDM2MCwtNjgzNzYyODA4LDEwMTMxMDA3MTgsNDU0
-NjIyNTc0LC0yMDc4MzQxMTIyLDE0NzMxMzUwNTAsLTg4Mjg4Mj
-A2MSwxMTMwMjIyMjc3LC00NzY0NTYzOCwxNDE0MzgzMDg4LC0x
-MDg4MjE0Nzk0XX0=
+eyJoaXN0b3J5IjpbMjEyMTM4NzM2MCwxNjk5Nzg5NzQyLC00Nj
+MxMDM3NDAsMTk0Mzk5MTkyOCwtMTk3NjU2MTIwNCwtMTQ5NTQx
+Nzg2LC0xNDIzNjkxODk4LC04OTYzODY4OTAsLTcwNzcwNTczMC
+wxOTgwMDM0MzYwLC02ODM3NjI4MDgsMTAxMzEwMDcxOCw0NTQ2
+MjI1NzQsLTIwNzgzNDExMjIsMTQ3MzEzNTA1MCwtODgyODgyMD
+YxLDExMzAyMjIyNzcsLTQ3NjQ1NjM4LDE0MTQzODMwODgsLTEw
+ODgyMTQ3OTRdfQ==
 -->
