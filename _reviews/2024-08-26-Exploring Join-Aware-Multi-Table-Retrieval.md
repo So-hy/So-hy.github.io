@@ -62,10 +62,6 @@ date: 2024-08-25
 
 
 이 부분에서는 여러 테이블 간의 조인 가능성을 고려한 다중 테이블 검색 문제를 해결하기 위해 제안된 방법론을 설명한다. 이 방법은 테이블-쿼리 관련성과 테이블-테이블 관련성을 동시에 고려하여 최적의 테이블 집합을 선택하는 재랭킹 접근법을 사용하며, 이를 혼합 정수 프로그램(MIP)으로 최적화한다. 또한, 선택된 테이블들이 서로 연결될 수 있도록 그래프 이론을 활용한 연결성 문제를 해결하여, 복잡한 질문에 대한 정확한 답을 제공할 수 있는 테이블 집합을 도출한다.
-
-
-**1 Join-aware Multi-Table Retrieval**
-
   
 
 •  **테이블-쿼리 관련성(Table-Query Relevance)**: 특정 테이블이 주어진 질문에 답을 제공할 가능성을 평가한다. 즉, 후보 테이블이 질문에 필요한 정보를 얼마나 잘 담고 있는지를 측정한다.
@@ -78,7 +74,7 @@ date: 2024-08-25
 
   
 
-**3.1 Query-Table Relevance**
+**1. Query-Table Relevance**
 
   
 
@@ -88,7 +84,7 @@ date: 2024-08-25
 
 이를 위해 논문에서는 질문을 서브-쿼리로 분해하고, 각 서브-쿼리와 후보 테이블의 컬럼 간의 의미적 유사성을 계산하는 방법을 제안한다. 예를 들어, “What is the id of the trip that started from the station with the highest dock count?“라는 질문은 “trip”과 “station”이라는 두 가지 개념으로 분해되며, 각각 “id”와 “dock count” 속성을 요구한다. 이 서브-쿼리와 테이블 컬럼 간의 유사성은 바이엔코더 모델을 통해 계산된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5MjI1MTE1MSwxMTY5MjMxMTIxLDM4ND
+eyJoaXN0b3J5IjpbLTM0MDg0ODE5MCwxMTY5MjMxMTIxLDM4ND
 U1MjAxNiwyOTg3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEz
 XX0=
 -->
