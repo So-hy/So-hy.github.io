@@ -57,7 +57,12 @@ date: 2024-08-25
 
 ⇒ **확장된 문제 정의**: 구체적으로, 주어진 질문 $Q$와 테이블 집합 $C$에 대해, 단일 테이블 $T_i$를 반환하는 대신, 조인 연산자가 포함된 테이블들의 랭킹 리스트 $E(Q)$를 반환하는 것이 목표이다. 여기서 $E(Q)$는 $T_{Q,1} \Join_{c1} T_{Q,2} \Join_{c2} \ldots$ 형태로 나타낼 수 있으며, $T_{Q,1}, T_{Q,2}, \ldots$는 $C$에 포함된 테이블들이고, $c1, c2, \ldots$는 조인 조건을 나타낸다.
 
+
+## 3 Join-aware Multi-Table Retrieval
+
+
+이 부분에서는 여러 테이블 간의 조인 가능성을 고려한 다중 테이블 검색 문제를 해결하기 위해 제안된 방법론을 설명한다. 이 방법은 테이블-쿼리 관련성과 테이블-테이블 관련성을 동시에 고려하여 최적의 테이블 집합을 선택하는 재랭킹 접근법을 사용하며, 이를 혼합 정수 프로그램(MIP)으로 최적화한다. 또한, 선택된 테이블들이 서로 연결될 수 있도록 그래프 이론을 활용한 연결성 문제를 해결하여, 복잡한 질문에 대한 정확한 답을 제공할 수 있는 테이블 집합을 도출한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzg0NTUyMDE2LDI5ODc1MTg0Miw3MDYxND
-cyODMsLTEzMDg2NDI2MTNdfQ==
+eyJoaXN0b3J5IjpbMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4Nz
+UxODQyLDcwNjE0NzI4MywtMTMwODY0MjYxM119
 -->
