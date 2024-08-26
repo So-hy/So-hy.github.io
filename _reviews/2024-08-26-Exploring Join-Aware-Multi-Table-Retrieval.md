@@ -23,11 +23,9 @@ date: 2024-08-25
 
 최근에는 이러한 테이블 기반 접근법이 Retrieval-Augmented Generation (RAG) 방식에도 채택된다. RAG는 대형 언어 모델(Large Language Models, LLMs)의 지식 업데이트 문제와 hallucination 문제를 해결하기 위해 테이블 검색을 활용하는 방법이다. 테이블을 검색한 후, 이를 LLM에 제로샷(Zero-Shot) 프롬프트 또는 인컨텍스트 학습(In-Context Learning) 예제와 함께 입력하여 최종 답변을 생성한다.
 
->   •  **제로샷(Zero-Shot) 프롬프트**: 이 방법은 모델에게 아무런 사전 학습 없이, 즉 추가적인 학습 예제나 힌트를 주지 않고 바로 질문을 던지는 방식. ( 예를 들어, 모델에게 “이 테이블의 내용을 요약해줘”라고 요청하는 
+>   •  **제로샷(Zero-Shot) 프롬프트**: 이 방법은 모델에게 아무런 사전 학습 없이, 즉 추가적인 학습 예제나 힌트를 주지 않고 바로 질문을 던지는 방식. (예: 모델에게 “이 테이블의 내용을 요약해줘”라고 요청하는 경우)
 > 
-> •  **인컨텍스트 학습(In-Context Learning)**: 이 방법은 모델에게 예제를 보여준 후에 작업을 시키는
-> 방식입니다. 예를 들어, 모델에게 “이런 방식으로 테이블을 분석해줘”라는 예제를 먼저 보여준 후, 유사한 방식으로 새로운
-> 테이블을 분석하도록 지시하는 것입니다.
+> •  **인컨텍스트 학습(In-Context Learning)**: 모델에게 예제를 보여준 후에 작업을 시키는 방식입니다. (예: 모델에게 “이런 방식으로 테이블을 분석해줘”라는 예제를 먼저 보여준 후, 유사한 방식으로 새로운 테이블을 분석하도록 지시하는 경우)
 
 <span style="background-color:#FFE6E6"> **2. 기존 접근법의 한계**</span>
 
@@ -45,6 +43,6 @@ date: 2024-08-25
 
 •  **실험 및 성능 평가**: 제안된 방법론은 Spider와 Bird 데이터셋에서 실험을 통해 평가되었다. 실험 결과, 제안된 재랭킹 메커니즘은 기존의 접근법을 능가하는 검색 성능과 엔드-투-엔드 성능을 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk2OTY2MjkzLDI5ODc1MTg0Miw3MDYxND
-cyODMsLTEzMDg2NDI2MTNdfQ==
+eyJoaXN0b3J5IjpbLTEwMTY0NjQ5NSwyOTg3NTE4NDIsNzA2MT
+Q3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
