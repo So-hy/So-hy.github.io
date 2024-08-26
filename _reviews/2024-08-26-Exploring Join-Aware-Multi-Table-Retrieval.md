@@ -19,9 +19,9 @@ date: 2024-08-25
 
 <span style="background-color:#FFE6E6"> **1. 구조화된 테이블의 중요성**</span>
 
-•  **구조화된 테이블의 역할**: 구조화된 테이블은 오픈 도메인 질문-응답(Open-Domain Question Answering, QA) 시스템과 오픈 팩트체킹(Open Fact-Checking)과 같은 여러 실제 응용 프로그램에서 중요한 지식의 원천으로 사용된다. 이러한 테이블을 효과적으로 활용하기 위해서는 먼저 질문과 관련된 테이블을 검색하고, 그 후 검색된 테이블을 기반으로 질문에 답하거나 사실을 검증하는 과정이 필요하다.
+구조화된 테이블은 오픈 도메인 질문-응답(Open-Domain Question Answering, QA) 시스템과 오픈 팩트체킹(Open Fact-Checking)과 같은 여러 실제 응용 프로그램에서 중요한 지식의 원천으로 사용된다. 이러한 테이블을 효과적으로 활용하기 위해서는 먼저 질문과 관련된 테이블을 검색하고, 그 후 검색된 테이블을 기반으로 질문에 답하거나 사실을 검증하는 과정이 필요하다.
 
-•  **Retrieval-Augmented Generation (RAG)**: 최근에는 이러한 테이블 기반 접근법이 Retrieval-Augmented Generation (RAG) 방식에도 채택된다. RAG는 대형 언어 모델(Large Language Models, LLMs)의 지식 업데이트 문제와 헛소리(hallucination) 문제를 해결하기 위해 테이블 검색을 활용하는 방법이다. 테이블을 검색한 후, 이를 LLM에 제로샷(Zero-Shot) 프롬프트 또는 인컨텍스트 학습(In-Context Learning) 예제와 함께 입력하여 최종 답변을 생성한다.
+최근에는 이러한 테이블 기반 접근법이 Retrieval-Augmented Generation (RAG) 방식에도 채택된다. RAG는 대형 언어 모델(Large Language Models, LLMs)의 지식 업데이트 문제와 hallucination 문제를 해결하기 위해 테이블 검색을 활용하는 방법이다. 테이블을 검색한 후, 이를 LLM에 제로샷(Zero-Shot) 프롬프트 또는 인컨텍스트 학습(In-Context Learning) 예제와 함께 입력하여 최종 답변을 생성한다.
 
   
 
@@ -41,6 +41,6 @@ date: 2024-08-25
 
 •  **실험 및 성능 평가**: 제안된 방법론은 Spider와 Bird 데이터셋에서 실험을 통해 평가되었다. 실험 결과, 제안된 재랭킹 메커니즘은 기존의 접근법을 능가하는 검색 성능과 엔드-투-엔드 성능을 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDA3MTQwNTYsMjk4NzUxODQyLDcwNj
-E0NzI4MywtMTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbLTk4MDAwMjk1MSwyOTg3NTE4NDIsNzA2MT
+Q3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
