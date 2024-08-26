@@ -42,7 +42,14 @@ date: 2024-08-25
 •  **다중 테이블 검색 문제**: 논문에서는 테이블 검색 문제를 단순화했던 기존 연구들과 달리, 현실 세계의 오픈 도메인 환경에서 발생하는 복잡한 문제들을 해결하기 위해 다중 테이블 검색 문제를 재정의한다. 이 문제를 해결하기 위해, 검색된 테이블 목록에 대해 재랭킹(Reranking)을 수행하는 알고리즘을 개발하였으며, 이 알고리즘은 **테이블과 질문 간**의 관련성뿐만 아니라 **테이블 간의 조인 관계**도 고려한다.
 
 •  **실험 및 성능 평가**: 제안된 방법론은 Spider와 Bird 데이터셋에서 실험을 통해 평가되었다. 실험 결과, 제안된 재랭킹 메커니즘은 기존의 접근법을 능가하는 검색 성능과 엔드-투-엔드 성능을 보인다.
+
+
+
+## 2 Problem Description
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MDU2OTAwNywyOTg3NTE4NDIsNzA2MT
+eyJoaXN0b3J5IjpbLTEyMzczMzUwMCwyOTg3NTE4NDIsNzA2MT
 Q3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
