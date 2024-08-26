@@ -48,8 +48,8 @@ date: 2024-08-25
 ## 2 Problem Description
 
 
-
+표준 테이블 검색 문제는 주어진 질문 $Q$와 테이블 집합 $C = \{T_i\}_{i=1}^M$이 있을 때, $C$에서 하나의 테이블 $T_i$를 검색하여 질문 $Q$에 대한 답이 $T_i$에 포함되도록 하는 것이다. 즉, 질문에 대한 답변이 포함된 단일 테이블을 찾는 것이 목표이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzczMzUwMCwyOTg3NTE4NDIsNzA2MT
-Q3MjgzLC0xMzA4NjQyNjEzXX0=
+eyJoaXN0b3J5IjpbNzAwNTAzMTM3LDI5ODc1MTg0Miw3MDYxND
+cyODMsLTEzMDg2NDI2MTNdfQ==
 -->
