@@ -17,7 +17,7 @@ date: 2024-08-25
 ## Introduction
 
 
-**1. 구조화된 테이블의 중요성**
+<span style="background-color:#FFE6E6"> **1. 구조화된 테이블의 중요성**</span>
 
 •  **구조화된 테이블의 역할**: 구조화된 테이블은 오픈 도메인 질문-응답(Open-Domain Question Answering, QA) 시스템과 오픈 팩트체킹(Open Fact-Checking)과 같은 여러 실제 응용 프로그램에서 중요한 지식의 원천으로 사용된다. 이러한 테이블을 효과적으로 활용하기 위해서는 먼저 질문과 관련된 테이블을 검색하고, 그 후 검색된 테이블을 기반으로 질문에 답하거나 사실을 검증하는 과정이 필요하다.
 
@@ -25,7 +25,7 @@ date: 2024-08-25
 
   
 
-**2. 기존 접근법의 한계**
+<span style="background-color:#FFE6E6"> **2. 기존 접근법의 한계**</span>
 
 •  **단일 테이블 가정의 한계**: 기존 연구들은 주로 질문에 대한 답을 단일 테이블에서 찾거나, 질문을 분해하여 여러 테이블에 각각 매핑하는 방법을 사용한다. 하지만 현실 세계에서는 하나의 테이블에 모든 정보가 저장되지 않는 경우가 많다. 예를 들어, “Who are the female BOA account holders who own credit cards and also have loans?“라는 질문은 여러 테이블에 분산된 정보를 필요로 한다. 따라서 이러한 질문에 답하기 위해서는 계정, 카드, 대출과 같은 여러 테이블을 검색하고, 이들을 올바르게 조합하여 SQL 쿼리를 작성해야 한다.
 
@@ -35,12 +35,12 @@ date: 2024-08-25
 
   
 
-**3. 제안된 접근법**
+<span style="background-color:#FFE6E6"> **3. 제안된 접근법**</span>
 
 •  **다중 테이블 검색 문제**: 논문에서는 테이블 검색 문제를 단순화했던 기존 연구들과 달리, 현실 세계의 오픈 도메인 환경에서 발생하는 복잡한 문제들을 해결하기 위해 다중 테이블 검색 문제를 재정의한다. 이 문제를 해결하기 위해, 검색된 테이블 목록에 대해 재랭킹을 수행하는 알고리즘을 개발하였으며, 이 알고리즘은 테이블과 질문 간의 관련성뿐만 아니라 테이블 간의 조인 관계도 고려한다.
 
 •  **실험 및 성능 평가**: 제안된 방법론은 Spider와 Bird 데이터셋에서 실험을 통해 평가되었다. 실험 결과, 제안된 재랭킹 메커니즘은 기존의 접근법을 능가하는 검색 성능과 엔드-투-엔드 성능을 보인다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDAwOTQzNzYsMjk4NzUxODQyLDcwNj
+eyJoaXN0b3J5IjpbLTIxNDA3MTQwNTYsMjk4NzUxODQyLDcwNj
 E0NzI4MywtMTMwODY0MjYxM119
 -->
