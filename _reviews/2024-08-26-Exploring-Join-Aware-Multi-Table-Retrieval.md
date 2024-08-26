@@ -1,6 +1,6 @@
 ---
 layout: review_post
-title: "[Paper Review] Is Table Retrieval a Solved Problem?" Exploring Join-Aware Multi-Table Retrieval
+title: "[Paper Review] Is Table Retrieval a Solved Problem? Exploring Join-Aware Multi-Table Retrieval"
 author: Sohyun
 date: 2024-08-25
 ---
@@ -83,7 +83,7 @@ date: 2024-08-25
 
 이 서브-쿼리 분해는 GPT-3.5 Turbo와 같은 대형 언어 모델(LLM)을 사용하여 수행되며, 생성된 서브-쿼리와 테이블의 각 컬럼 간의 유사도는 바이엔코더 모델을 통해 계산된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTE5MTIxNzQsMjg5MjQ3MDAwLDExNj
-kyMzExMjEsMzg0NTUyMDE2LDI5ODc1MTg0Miw3MDYxNDcyODMs
-LTEzMDg2NDI2MTNdfQ==
+eyJoaXN0b3J5IjpbLTQ1MTMyMzg3NCwyODkyNDcwMDAsMTE2OT
+IzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQyLDcwNjE0NzI4Mywt
+MTMwODY0MjYxM119
 -->
