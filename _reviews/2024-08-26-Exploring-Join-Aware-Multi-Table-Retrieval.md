@@ -76,7 +76,6 @@ date: 2024-08-25
 ### **1. Query-Table Relevance**
 
   
-
 테이블-쿼리 관련성을 계산하기 위해 바이엔코더(bi-encoder) 모델을 사용해 테이블과 질문 간의 유사도 점수를 계산한다. 하지만 복잡한 질문의 경우, 질문에 포함된 정보가 여러 테이블에 분산될 수 있으므로, 미세한(fine-grained) 관련성 평가가 필요하다.
 
 이를 위해 논문에서는 질문을 서브-쿼리로 분해하고, 각 서브-쿼리와 후보 테이블의 컬럼 간의 의미적 유사성을 계산하는 방법을 제안한다. 예를 들어, “What is the id of the trip that started from the station with the highest dock count?“라는 질문은 “trip”과 “station”이라는 두 가지 개념으로 분해되며, 각각 “id”와 “dock count” 속성을 요구한다.
@@ -130,8 +129,8 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY2MjU0NTExLDEyMzA1Njk2ODcsOTc1ND
-Y5MzMsNTMyNDMzMDk3LC0xMDc2NjI2ODYxLC00NTEzMjM4NzQs
-Mjg5MjQ3MDAwLDExNjkyMzExMjEsMzg0NTUyMDE2LDI5ODc1MT
-g0Miw3MDYxNDcyODMsLTEzMDg2NDI2MTNdfQ==
+eyJoaXN0b3J5IjpbLTQ1OTQ1NDg4MywxMjMwNTY5Njg3LDk3NT
+Q2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0
+LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NT
+E4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
