@@ -87,8 +87,6 @@ date: 2024-08-25
 ### **2 Table Re-ranking with Table-Table Relevance**
 
 
-섹션에서는 테이블 간의 관계를 고려하여 최적의 테이블 조합을 선택하기 위한 재랭킹 문제를 최적화하는 방법을 설명한다. 이 섹션에서는 테이블-쿼리 관련성과 테이블-테이블 관련성의 두 가지 요소를 결합하여 최적화 문제를 공식화하고, 이를 해결하기 위해 다양한 제약 조건을 설정한다.
-
 1. 테이블-쿼리 관련성과 테이블-테이블 관련성
 
 	•	테이블-쿼리 관련성(Table-Query Relevance): 이는 특정 테이블이 주어진 질문에 필요한 정보를 얼마나 잘 포함하고 있는지를 평가하는 요소이다. 이때 전체적인(coarse-grained) 관련성과 미세한(fine-grained) 관련성을 모두 고려하여, 질문에 필요한 정보를 가장 잘 커버할 수 있는 테이블을 선택한다.
@@ -132,8 +130,8 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc1NDY5MzMsNTMyNDMzMDk3LC0xMDc2Nj
-I2ODYxLC00NTEzMjM4NzQsMjg5MjQ3MDAwLDExNjkyMzExMjEs
-Mzg0NTUyMDE2LDI5ODc1MTg0Miw3MDYxNDcyODMsLTEzMDg2ND
-I2MTNdfQ==
+eyJoaXN0b3J5IjpbMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0Mz
+MwOTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyODkyNDcwMDAs
+MTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQyLDcwNjE0Nz
+I4MywtMTMwODY0MjYxM119
 -->
