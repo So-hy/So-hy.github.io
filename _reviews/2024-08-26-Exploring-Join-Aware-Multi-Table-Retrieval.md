@@ -79,11 +79,11 @@ date: 2024-08-25
 
 테이블-쿼리 관련성을 계산하기 위해 바이엔코더(bi-encoder) 모델을 사용해 테이블과 질문 간의 유사도 점수를 계산한다. 하지만 복잡한 질문의 경우, 질문에 포함된 정보가 여러 테이블에 분산될 수 있으므로, 미세한(fine-grained) 관련성 평가가 필요하다.
 
-이를 위해 논문에서는 질문을 서브-쿼리로 분해하고, 각 서브-쿼리와 후보 테이블의 컬럼 간의 의미적 유사성을 계산하는 방법을 제안한다. 예를 들어, “What is the id of the trip that started from the station with the highest dock count?“라는 질문은 “trip”과 “station”이라는 두 가지 개념으로 분해되며, 각각 “id”와 “dock count” 속성을 요구한다. 이 서브-쿼리와 테이블 컬럼 간의 유사성은 바이엔코더 모델을 통해 계산된다.
+이를 위해 논문에서는 질문을 서브-쿼리로 분해하고, 각 서브-쿼리와 후보 테이블의 컬럼 간의 의미적 유사성을 계산하는 방법을 제안한다. 예를 들어, “What is the id of the trip that started from the station with the highest dock count?“라는 질문은 “trip”과 “station”이라는 두 가지 개념으로 분해되며, 각각 “id”와 “dock count” 속성을 요구한다.
 
 이 서브-쿼리 분해는 GPT-3.5 Turbo와 같은 대형 언어 모델(LLM)을 사용하여 수행되며, 생성된 서브-쿼리와 테이블의 각 컬럼 간의 유사도는 바이엔코더 모델을 통해 계산된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTMyMzg3NCwyODkyNDcwMDAsMTE2OT
-IzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQyLDcwNjE0NzI4Mywt
-MTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyOD
+kyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQy
+LDcwNjE0NzI4MywtMTMwODY0MjYxM119
 -->
