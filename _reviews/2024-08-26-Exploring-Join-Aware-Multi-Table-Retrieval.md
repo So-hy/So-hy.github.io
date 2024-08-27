@@ -91,12 +91,14 @@ date: 2024-08-25
 •	테이블-쿼리 관련성(Table-Query Relevance)는 특정 테이블이 주어진 질문에 필요한 정보를 얼마나 잘 포함하고 있는지를 평가하는 요소이다. 이때 전체적인(coarse-grained) 관련성과 미세한(fine-grained) 관련성을 모두 고려하여, 질문에 필요한 정보를 가장 잘 커버할 수 있는 테이블을 선택한다.
 •	테이블-테이블 관련성(Table-Table Relevance)은 선택된 테이블들이 서로 조인할 수 있는지, 즉 동일한 객체나 엔터티에 대한 보완적인 정보를 제공할 수 있는지를 평가한다. 테이블-테이블 관련성은 선택된 테이블들이 서로 조인되어야만 주어진 질문에 대해 완전한 답을 제공할 수 있다는 점에서 중요하다.
 
-2. 재랭킹 문제의 최적화 (Optimization of the Re-ranking Problem)
+**2. 재랭킹 문제의 최적화 (Optimization of the Re-ranking Problem)**
 
 재랭킹 문제는 혼합 정수 프로그램(MIP)으로 공식화되며, 세 가지 주요 요소를 최대화하는 것을 목표로 한다:
 
-1.	전체적인 테이블-쿼리 관련성: 이는 테이블 T_i가 선택되었을 때, 주어진 질문과의 관련성을 평가한다. 이진 변수 b_i와 관련성 점수 r_i를 곱하여 최적화 항목 \sum_i r_i b_i를 형성한다.
+1.	전체적인 테이블-쿼리 관련성: 이는 테이블 $T_i$가 선택되었을 때, 주어진 질문과의 관련성을 평가한다. 이진 변수 $b_i$와 관련성 점수 $r_i$를 곱하여 최적화 항목 $\sum_i r_i b_i$를 형성한다.
+
 2.	미세한 서브-쿼리 관련성: 이는 서브-쿼리 q와 테이블 T_i의 컬럼 c_k 간의 관련성 r_{qik}과 이진 변수 d_{qik}을 곱하여, 서브-쿼리가 특정 테이블의 컬럼에 의해 커버될지를 평가한다. 이 항목은 \sum_{q,i,k} r_{qik} d_{qik}로 표현된다. 또한, 서브-쿼리가 약하게 여러 컬럼에 매핑되는 것을 방지하기 위해, 서브-쿼리와 테이블 간의 커버리지 연결 수에 상한선을 설정하고, d_q 항목의 합을 \alpha \sum_q d_q로 목표 함수에 추가한다. 여기서 α는 서브-쿼리를 강하게 매핑할지, 여러 테이블에 약하게 매핑할지를 조정하는 역할을 한다.
+
 3.	테이블 간 호환성: 이는 테이블 T_i의 컬럼 c_k와 테이블 T_j의 컬럼 c_l 간의 호환성 점수 \omega_{kl}^{ij}과 이진 변수 c_{kl}^{ij}를 곱하여, 이들 컬럼이 조인될 가능성을 평가한다. 최적화 항목은 \sum_{i,j,k,l} \omega_{kl}^{ij} c_{kl}^{ij}로 나타낸다.
 
 최종 목표 함수는 이 세 가지 항목을 최대화하는 형태로 다음과 같이 정의된다:
@@ -129,7 +131,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUxNzgyNTUxMywxMjMwNTY5Njg3LDk3NT
+eyJoaXN0b3J5IjpbMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NT
 Q2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0
 LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NT
 E4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
