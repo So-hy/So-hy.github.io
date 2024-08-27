@@ -73,7 +73,7 @@ date: 2024-08-25
 
   
 
-**1. Query-Table Relevance**
+### **1. Query-Table Relevance**
 
   
 
@@ -82,8 +82,11 @@ date: 2024-08-25
 이를 위해 논문에서는 질문을 서브-쿼리로 분해하고, 각 서브-쿼리와 후보 테이블의 컬럼 간의 의미적 유사성을 계산하는 방법을 제안한다. 예를 들어, “What is the id of the trip that started from the station with the highest dock count?“라는 질문은 “trip”과 “station”이라는 두 가지 개념으로 분해되며, 각각 “id”와 “dock count” 속성을 요구한다.
 
 이 서브-쿼리 분해는 GPT-3.5 Turbo와 같은 대형 언어 모델(LLM)을 사용하여 수행되며, 생성된 서브-쿼리와 테이블의 각 컬럼 간의 유사도는 바이엔코더 모델을 통해 계산된다.
+
+
+### **2 Table Re-ranking with Table-Table Relevance**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyOD
-kyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQy
-LDcwNjE0NzI4MywtMTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbMTg5NTg4Nzg3MSwtMTA3NjYyNjg2MSwtND
+UxMzIzODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAx
+NiwyOTg3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
