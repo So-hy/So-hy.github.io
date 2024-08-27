@@ -86,10 +86,10 @@ date: 2024-08-25
 ### **2 Table Re-ranking with Table-Table Relevance**
 
 
-1. 테이블-쿼리 관련성과 테이블-테이블 관련성
+**1. 테이블-쿼리 관련성과 테이블-테이블 관련성**
 
-	•	테이블-쿼리 관련성(Table-Query Relevance)는 특정 테이블이 주어진 질문에 필요한 정보를 얼마나 잘 포함하고 있는지를 평가하는 요소이다. 이때 전체적인(coarse-grained) 관련성과 미세한(fine-grained) 관련성을 모두 고려하여, 질문에 필요한 정보를 가장 잘 커버할 수 있는 테이블을 선택한다.
-	•	테이블-테이블 관련성(Table-Table Relevance)은 선택된 테이블들이 서로 조인할 수 있는지, 즉 동일한 객체나 엔터티에 대한 보완적인 정보를 제공할 수 있는지를 평가한다. 테이블-테이블 관련성은 선택된 테이블들이 서로 조인되어야만 주어진 질문에 대해 완전한 답을 제공할 수 있다는 점에서 중요하다.
+•	테이블-쿼리 관련성(Table-Query Relevance)는 특정 테이블이 주어진 질문에 필요한 정보를 얼마나 잘 포함하고 있는지를 평가하는 요소이다. 이때 전체적인(coarse-grained) 관련성과 미세한(fine-grained) 관련성을 모두 고려하여, 질문에 필요한 정보를 가장 잘 커버할 수 있는 테이블을 선택한다.
+•	테이블-테이블 관련성(Table-Table Relevance)은 선택된 테이블들이 서로 조인할 수 있는지, 즉 동일한 객체나 엔터티에 대한 보완적인 정보를 제공할 수 있는지를 평가한다. 테이블-테이블 관련성은 선택된 테이블들이 서로 조인되어야만 주어진 질문에 대해 완전한 답을 제공할 수 있다는 점에서 중요하다.
 
 2. 재랭킹 문제의 최적화 (Optimization of the Re-ranking Problem)
 
@@ -129,8 +129,8 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDc2Nzg5MzcsMTIzMDU2OTY4Nyw5Nz
-U0NjkzMyw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3
-NCwyODkyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4Nz
-UxODQyLDcwNjE0NzI4MywtMTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbLTUxNzgyNTUxMywxMjMwNTY5Njg3LDk3NT
+Q2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0
+LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NT
+E4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
