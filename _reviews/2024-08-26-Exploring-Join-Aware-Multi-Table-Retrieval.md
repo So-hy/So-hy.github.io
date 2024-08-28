@@ -98,6 +98,25 @@ date: 2024-08-25
 
 근데 일단 MIP가 뭘까? 궁금해서 따로 찾아보았다.
 
+> ### MIP(혼합 정수 프로그램)란 무엇인가?
+> 
+> MIP는 복잡한 의사결정 문제를 수학적으로 해결하기 위한 도구이다. 이 프로그램은 여러 변수 중 일부는 정수로, 일부는 실수로
+> 표현되는 문제를 해결하는 데 사용된다. 목표는 주어진 제약 조건을 모두 만족시키면서 특정한 목표(예: 비용 최소화, 이익
+> 최대화 등)를 최대화하거나 최소화하는 것이다.
+> 
+> ### MIP의 주요 구성 요소
+> 
+> 1.  **변수(Variables)**:
+>     
+>     -   **정수 변수(Integer Variables)**: 이 변수들은 정수 값(예: 0, 1, 2)을 가진다. 예를 들어, 테이블을 선택할지 말지 결정하는 변수는 '0' 또는 '1'일 수 있다. '1'이면 그 테이블을 선택한다는 의미이고, '0'이면 선택하지 않는다는 의미이다.
+>     -   **실수 변수(Continuous Variables)**: 이 변수들은 실수 값(예: 1.5, 3.7 등)을 가진다. 예를 들어, 비용이나 이익과 같은 값을 표현할 때 사용된다.
+> 2.  **목표 함수(Objective Function)**:
+>     
+>     -   목표 함수는 우리가 최대화하거나 최소화하려는 식이다. 예를 들어, 테이블-쿼리 관련성 점수를 최대화하는 것이 목표라면, 이 점수를 합한 값을 최대화하는 것이 목표 함수가 된다.
+>     
+> 3.  **제약 조건(Constraints)**:
+>     
+>     -   제약 조건은 변수들이 만족해야 하는 수학적 방정식이나 부등식이다. 예를 들어, 어떤 테이블들은 함께 선택되어야 하고, 어떤 테이블들은 특정 조건을 만족해야만 선택될 수 있는 경우가 있을 것이다. MIP에서는 이러한 제약 조건들을 식으로 표현하여 문제를 정의한다.
 
 1.	전체적인 테이블-쿼리 관련성: 이는 테이블 $T_i$가 선택되었을 때, 주어진 질문과의 관련성을 평가한다. 이진 변수 $b_i$와 관련성 점수 $r_i$를 곱하여 최적화 항목 $\sum_i r_i b_i$를 형성한다.
 
@@ -135,9 +154,9 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xND
-A0NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0Njkz
-Myw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyOD
-kyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQy
-LDcwNjE0NzI4MywtMTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyOD
+IxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5
+Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtND
+UxMzIzODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAx
+NiwyOTg3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
