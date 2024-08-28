@@ -173,14 +173,18 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •	테이블 간 연결성(Connectedness): 테이블 간의 호환성을 보장하기 위해, 선택된 테이블들이 모두 연결될 수 있도록 그래프 이론을 활용하여 연결성 문제를 해결한다. 선택된 테이블들이 노드로, 호환성 관계가 엣지로 표현된 그래프에서, 모든 노드가 연결될 수 있도록 최대 유량 문제로 변환하여 해결한다.
 
+이를 자세히 설명하면, 
 
 
+•  **그래프(G)**: 그래프는 노드(점)와 엣지(선)로 구성된다. 여기서 노드는 테이블을, 엣지는 테이블 간의 호환성(조인 가능성)을 나타낸다.
+
+•  **연결성**: 선택된 테이블들이 서로 연결되어야 한다는 것은, 어떤 두 테이블 사이에도 경로가 있어야 한다는 의미다. 즉, 테이블들이 서로 관련성을 가지며 함께 사용할 수 있어야 한다는 뜻이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNj
-YzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQy
-MjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLT
-E0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2
-OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0LD
-I4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NTE4
-NDJdfQ==
+eyJoaXN0b3J5IjpbNjMyOTk0MDA1LDE5MDM3MDYzMjUsNDA0Mz
+I2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0
+NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMj
+gyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2
+OTY4Nyw5NzU0NjkzMyw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLT
+Q1MTMyMzg3NCwyODkyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIw
+MTZdfQ==
 -->
