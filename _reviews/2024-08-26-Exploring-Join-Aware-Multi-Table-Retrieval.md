@@ -183,15 +183,15 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이 문제를 해결하기 위해 다음과 같은 방법을 사용한다:
 
-	1.	그래프 확장:
-	•	기존 그래프(G)에 두 개의 특별한 노드, 즉 “소스(Source)“와 “싱크(Sink)“를 추가한다.
-	•	소스는 그래프의 시작점이고, 싱크는 끝점이다.
-	2.	엣지(선) 설정:
-	•	새로 추가한 소스와 싱크를 기존의 테이블 노드들과 연결한다. 이때 연결된 선(엣지)에는 용량이라는 개념이 있다.
-	•	예를 들어, 소스에서 특정 노드 x로 가는 선의 용량은 K이며, 각 노드에서 싱크로 가는 선의 용량은 1로 설정한다.
-	3.	최대 유량 문제:
-	•	이 확장된 그래프에서, 소스에서 싱크까지의 최대 유량(Maximum Flow)이 K라면, 선택된 K개의 테이블이 모두 서로 연결되어 있다는 것을 의미한다.
-	•	이는 그래프의 모든 테이블이 하나의 큰 연결된 그룹을 형성한다는 것을 의미한다.
+1.	그래프 확장:
+•	기존 그래프(G)에 두 개의 특별한 노드, 즉 “소스(Source)“와 “싱크(Sink)“를 추가한다.
+•	소스는 그래프의 시작점이고, 싱크는 끝점이다.
+2.	엣지(선) 설정:
+•	새로 추가한 소스와 싱크를 기존의 테이블 노드들과 연결한다. 이때 연결된 선(엣지)에는 용량이라는 개념이 있다.
+•	예를 들어, 소스에서 특정 노드 x로 가는 선의 용량은 K이며, 각 노드에서 싱크로 가는 선의 용량은 1로 설정한다.
+3.	최대 유량 문제:
+•	이 확장된 그래프에서, 소스에서 싱크까지의 최대 유량(Maximum Flow)이 K라면, 선택된 K개의 테이블이 모두 서로 연결되어 있다는 것을 의미한다.
+•	이는 그래프의 모든 테이블이 하나의 큰 연결된 그룹을 형성한다는 것을 의미한다.
 
 결론
 
@@ -199,11 +199,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 쉽게 말해, 여러 테이블이 선택되었을 때, 그 테이블들이 모두 서로 조인될 수 있도록 잘 연결되어 있는지를 확인하는 과정이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNTY2MzE3MjMsMTkwMzcwNjMyNSw0MD
-QzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5
-OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLD
-EyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMw
-NTY5Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MS
-wtNDUxMzIzODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1
-MjAxNl19
+eyJoaXN0b3J5IjpbMTgzMDc4NzI5MywxOTAzNzA2MzI1LDQwND
+MyNjEzNSwtMTM2NjMwMTE1NiwtNDgyODE2ODMzLC00ODgzNTk5
+NDQsLTQ1MTM1NDIyNCwxMTAyNDczMTc2LC01ODY1MzA1MDEsMT
+I4MjEyMDczNSwtMTQwNDUzNTg2MywxMzU0NjAzNTIxLDEyMzA1
+Njk2ODcsOTc1NDY5MzMsNTMyNDMzMDk3LC0xMDc2NjI2ODYxLC
+00NTEzMjM4NzQsMjg5MjQ3MDAwLDExNjkyMzExMjEsMzg0NTUy
+MDE2XX0=
 -->
