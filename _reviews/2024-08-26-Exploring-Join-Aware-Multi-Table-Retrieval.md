@@ -154,17 +154,33 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 추가 고려 사항
 
-•	서브-쿼리 커버리지: 미세한 테이블-쿼리 관련성을 평가할 때, 서브-쿼리를 여러 컬럼에 약하게 매핑하는 것보다는 하나의 컬럼에 강하게 매핑하는 것이 바람직하다. 이를 위해 서브-쿼리와 테이블 간의 커버리지 연결 수를 제한하고, 일부 서브-쿼리가 커버되지 않는 것을 방지하기 위해 추가적인 변수와 항목을 목표 함수에 도입한다.
+•	서브-쿼리 커버리지:
+
+세밀한 테이블-쿼리 관련성을 측정하는 주된 목적은, 질문의 각 부분에 맞는 다양한 컬럼들을 찾는 것이다. 이렇게 함으로써 질문에 필요한 모든 정보를 얻을 수 있게 된다.
+
+문제점
+
+하지만, 최적화 과정에서 질문의 각 부분과 테이블의 컬럼 간의 관련성을 최대화하려고 할 때, 문제가 발생할 수 있다. 서브-쿼리가 여러 컬럼에 약하게 연결되는 경향이 생길 수 있는데, 이렇게 되면 원하는 만큼 정확한 답변을 얻기 어려워진다.
+
+해결 방법
+
+이 문제를 해결하기 위해, 최적화 과정에서 몇 가지 추가적인 규칙을 도입한다.
+
+1.	상한선 설정: 서브-쿼리와 테이블 간의 연결 수를 제한하여, 각 서브-쿼리가 여러 컬럼에 약하게 매핑되는 것을 방지한다. 대신, 각 서브-쿼리가 특정 컬럼에 강하게 연결되도록 유도한다.
+2.	조절 장치  $\alpha$ : 이 과정에서  $\alpha 라는 값을 사용해 조절할 수 있다.
+•	 \alpha  값이 크면, 서브-쿼리가 하나의 테이블 컬럼에 강하게 매핑되는 것을 선호하게 된다.
+•	반면,  \alpha  값이 작으면, 서브-쿼리가 여러 테이블에 분산되어 약하게 매핑되는 경향이 생긴다.
 
 •	테이블 간 연결성(Connectedness): 테이블 간의 호환성을 보장하기 위해, 선택된 테이블들이 모두 연결될 수 있도록 그래프 이론을 활용하여 연결성 문제를 해결한다. 선택된 테이블들이 노드로, 호환성 관계가 엣지로 표현된 그래프에서, 모든 노드가 연결될 수 있도록 최대 유량 문제로 변환하여 해결한다.
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00OD
-I4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMx
-NzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLD
-EzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0MzMw
-OTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyODkyNDcwMDAsMT
-E2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQyLDcwNjE0NzI4
-M119
+eyJoaXN0b3J5IjpbLTgwNDEyMDgxMCw0MDQzMjYxMzUsLTEzNj
+YzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQy
+MjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLT
+E0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2
+OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0LD
+I4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NTE4
+NDJdfQ==
 -->
