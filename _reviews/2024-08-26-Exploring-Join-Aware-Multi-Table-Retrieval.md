@@ -167,16 +167,16 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 이 문제를 해결하기 위해, 최적화 과정에서 몇 가지 추가적인 규칙을 도입한다.
 
 1.	상한선 설정: 서브-쿼리와 테이블 간의 연결 수를 제한하여, 각 서브-쿼리가 여러 컬럼에 약하게 매핑되는 것을 방지한다. 대신, 각 서브-쿼리가 특정 컬럼에 강하게 연결되도록 유도한다.
-2.	조절 장치  $\alpha$ : 이 과정에서  $\alpha 라는 값을 사용해 조절할 수 있다.
-•	 \alpha  값이 크면, 서브-쿼리가 하나의 테이블 컬럼에 강하게 매핑되는 것을 선호하게 된다.
-•	반면,  \alpha  값이 작으면, 서브-쿼리가 여러 테이블에 분산되어 약하게 매핑되는 경향이 생긴다.
+2. $\alpha$ : 이 과정에서  $\alpha$ 라는 값을 사용해 조절할 수 있다.
+•	 $\alpha$  값이 크면, 서브-쿼리가 하나의 테이블 컬럼에 강하게 매핑되는 것을 선호하게 된다.
+•	반면,  $\alpha$  값이 작으면, 서브-쿼리가 여러 테이블에 분산되어 약하게 매핑되는 경향이 생긴다.
 
 •	테이블 간 연결성(Connectedness): 테이블 간의 호환성을 보장하기 위해, 선택된 테이블들이 모두 연결될 수 있도록 그래프 이론을 활용하여 연결성 문제를 해결한다. 선택된 테이블들이 노드로, 호환성 관계가 엣지로 표현된 그래프에서, 모든 노드가 연결될 수 있도록 최대 유량 문제로 변환하여 해결한다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgwNDEyMDgxMCw0MDQzMjYxMzUsLTEzNj
+eyJoaXN0b3J5IjpbMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNj
 YzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQy
 MjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLT
 E0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2
