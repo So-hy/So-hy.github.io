@@ -148,7 +148,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 4.	단일 컬럼 조인 제약: 두 테이블 간의 조인은 항상 단일 컬럼을 통해 이루어져야 한다. $\sum_{k,l} c_{kl}^{ij} \leq 1$ (식 4)
 
-5.	서브-쿼리 커버리지: 각 서브-쿼리는 하나의 테이블 컬럼에 의해서만 커버될 수 있다. $\sum_k d_{qik} \leq 1, \forall q,i$ (식 5)
+5.	서브-쿼리 커버리지: 각 서브-쿼리  $q$ 는 특정 테이블  $T_i$  내에서 최대 하나의 컬럼  $c_k$ 에만 매핑될 수 있다 $\sum_k d_{qik} \leq 1, \forall q,i$ (식 5)
 
 6.	서브-쿼리와 테이블 선택의 연계: 서브-쿼리를 커버하는 테이블은 반드시 선택된 테이블 집합에 포함되어야 한다. $\frac{1}{|Q|} \sum_q d_{qik} \leq b_i, \forall i,k$ (식 6)
 
@@ -166,7 +166,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTA1OTY0ODcsLTEzNjYzMDExNTYsLT
+eyJoaXN0b3J5IjpbLTExNjAzNzIzMzIsLTEzNjYzMDExNTYsLT
 Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
 MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
 MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
