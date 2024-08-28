@@ -137,6 +137,9 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 최적화 문제는 다음과 같은 여러 제약 조건에 의해 규제된다:
 
 1.	이진 변수 제약: 선택된 테이블과 컬럼을 나타내는 변수는 이진 변수로 제한된다. $b_i, c_{kl}^{ij}, d_{qik} \in \{0,1\}$ (식 1)
+
+> 	** $b_i$ **는 테이블  $T_i$ 가 선택되었는지를 나타내는 이진 변수다.
+	
 2.	테이블 및 조인 관계 수 제한: 선택된 테이블 및 조인 관계의 최대 수는 주어진 K로 제한된다. $\sum_i b_i = K, \sum_{i,j,k,l} c_{kl}^{ij} \leq K - 1$ (식 2)
 
 > ** $c_{kl}^{ij}$ **는 테이블  $T_i$ 의 컬럼  $c_k$ 와 테이블 $T_j$ 의 컬럼  $c_l$  간에 조인 관계가 설정되었는지를 나타내는 이진 변수다
@@ -160,10 +163,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NT
-EzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3
-MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LD
-k3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIz
-ODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOT
-g3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
+eyJoaXN0b3J5IjpbLTEyMjAwMjM4MjYsLTQ4MjgxNjgzMywtND
+g4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMw
+NTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMS
+wxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYy
+Njg2MSwtNDUxMzIzODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLD
+M4NDU1MjAxNiwyOTg3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQy
+NjEzXX0=
 -->
