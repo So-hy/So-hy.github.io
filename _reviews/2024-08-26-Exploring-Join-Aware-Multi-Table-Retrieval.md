@@ -158,20 +158,13 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •	테이블 간 연결성(Connectedness): 테이블 간의 호환성을 보장하기 위해, 선택된 테이블들이 모두 연결될 수 있도록 그래프 이론을 활용하여 연결성 문제를 해결한다. 선택된 테이블들이 노드로, 호환성 관계가 엣지로 표현된 그래프에서, 모든 노드가 연결될 수 있도록 최대 유량 문제로 변환하여 해결한다.
 
-**요약**
-
-  
-
-이 섹션에서는 테이블-쿼리 관련성과 테이블-테이블 관련성을 모두 고려한 재랭킹 문제를 최적화하는 방법을 제시한다. 혼합 정수 프로그램(MIP)을 통해 최적의 테이블 조합을 찾기 위해 세 가지 주요 요소를 최대화하고, 다양한 제약 조건을 통해 선택된 테이블들이 서로 조인될 수 있도록 보장한다. 이를 통해 질문에 대한 올바른 답변을 제공할 수 있는 최적의 테이블 조합을 도출하는 데 중점을 둔다.
-
-
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU2NzI5MjIsLTEzNjYzMDExNTYsLT
-Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
-MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
-MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
-MzA5NywtMTA3NjYyNjg2MSwtNDUxMzIzODc0LDI4OTI0NzAwMC
-wxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOTg3NTE4NDIsNzA2MTQ3
-MjgzXX0=
+eyJoaXN0b3J5IjpbNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00OD
+I4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMx
+NzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLD
+EzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0MzMw
+OTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyODkyNDcwMDAsMT
+E2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQyLDcwNjE0NzI4
+M119
 -->
