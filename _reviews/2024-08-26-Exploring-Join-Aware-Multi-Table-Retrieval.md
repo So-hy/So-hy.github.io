@@ -155,6 +155,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 추가 고려 사항
 
 •	서브-쿼리 커버리지: 미세한 테이블-쿼리 관련성을 평가할 때, 서브-쿼리를 여러 컬럼에 약하게 매핑하는 것보다는 하나의 컬럼에 강하게 매핑하는 것이 바람직하다. 이를 위해 서브-쿼리와 테이블 간의 커버리지 연결 수를 제한하고, 일부 서브-쿼리가 커버되지 않는 것을 방지하기 위해 추가적인 변수와 항목을 목표 함수에 도입한다.
+
 •	테이블 간 연결성(Connectedness): 테이블 간의 호환성을 보장하기 위해, 선택된 테이블들이 모두 연결될 수 있도록 그래프 이론을 활용하여 연결성 문제를 해결한다. 선택된 테이블들이 노드로, 호환성 관계가 엣지로 표현된 그래프에서, 모든 노드가 연결될 수 있도록 최대 유량 문제로 변환하여 해결한다.
 
 **요약**
@@ -166,7 +167,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAzNzIzMzIsLTEzNjYzMDExNTYsLT
+eyJoaXN0b3J5IjpbLTE4MDU2NzI5MjIsLTEzNjYzMDExNTYsLT
 Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
 MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
 MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
