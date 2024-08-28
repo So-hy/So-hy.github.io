@@ -139,7 +139,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 1.	이진 변수 제약: 선택된 테이블과 컬럼을 나타내는 변수는 이진 변수로 제한된다. $b_i, c_{kl}^{ij}, d_{qik} \in \{0,1\}$ (식 1)
 2.	테이블 및 조인 관계 수 제한: 선택된 테이블 및 조인 관계의 최대 수는 주어진 K로 제한된다. $\sum_i b_i = K, \sum_{i,j,k,l} c_{kl}^{ij} \leq K - 1$ (식 2)
 
-** $c_{kl}^{ij}$ **는 테이블  $T_i$ 의 컬럼  $c_k$ 와 테이블 $T_j$ 의 컬럼  $c_l$  간에 조인 관계가 설정되었는지를 나타내는 이진 변수다
+> ** $c_{kl}^{ij}$ **는 테이블  $T_i$ 의 컬럼  $c_k$ 와 테이블 $T_j$ 의 컬럼  $c_l$  간에 조인 관계가 설정되었는지를 나타내는 이진 변수다
 
 3.	조인 관계 제약: 두 테이블 간의 조인은 두 테이블 모두 선택된 경우에만 이루어질 수 있다. $2(c_{kl}^{ij} + c_{lk}^{ji}) \leq b_i + b_j, \forall i,j,k,l$ (식 3)
 4.	단일 컬럼 조인 제약: 두 테이블 간의 조인은 항상 단일 컬럼을 통해 이루어져야 한다. $\sum_{k,l} c_{kl}^{ij} \leq 1$ (식 4)
@@ -160,10 +160,10 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI3NDYyNzEsLTQ4ODM1OTk0NCwtND
-UxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIw
-NzM1LC0xNDA0NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Ny
-w5NzU0NjkzMyw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1MTMy
-Mzg3NCwyODkyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMj
-k4NzUxODQyLDcwNjE0NzI4MywtMTMwODY0MjYxM119
+eyJoaXN0b3J5IjpbLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NT
+EzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3
+MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LD
+k3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYyNjg2MSwtNDUxMzIz
+ODc0LDI4OTI0NzAwMCwxMTY5MjMxMTIxLDM4NDU1MjAxNiwyOT
+g3NTE4NDIsNzA2MTQ3MjgzLC0xMzA4NjQyNjEzXX0=
 -->
