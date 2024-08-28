@@ -95,6 +95,10 @@ date: 2024-08-25
 
 재랭킹 문제는 혼합 정수 프로그램(MIP)으로 공식화되며, 세 가지 주요 요소를 최대화하는 것을 목표로 한다:
 
+
+근데 일단 MIP가 뭘까? 궁금해서 따로 찾아보았다.
+
+
 1.	전체적인 테이블-쿼리 관련성: 이는 테이블 $T_i$가 선택되었을 때, 주어진 질문과의 관련성을 평가한다. 이진 변수 $b_i$와 관련성 점수 $r_i$를 곱하여 최적화 항목 $\sum_i r_i b_i$를 형성한다.
 
 2.	미세한(fine-grained) 서브-쿼리 관련성: 이는 서브-쿼리 $q$와 테이블 $T_i$의 컬럼 $c_k$ 간의 관련성 $r_{qik}$과 이진 변수 $d_{qik}$을 곱하여, 서브-쿼리가 특정 테이블의 컬럼에 의해 커버될지를 평가한다. 이 항목은 $\sum_{q,i,k} r_{qik} d_{qik}$로 표현된다. 또한, 서브-쿼리가 약하게 여러 컬럼에 매핑되는 것을 방지하기 위해, 서브-쿼리와 테이블 간의 커버리지 연결 수에 상한선을 설정하고, $d_q$ 항목의 합을 $\alpha \sum_q d_q$로 목표 함수에 추가한다. 여기서 α는 서브-쿼리를 강하게 매핑할지, 여러 테이블에 약하게 매핑할지를 조정하는 역할을 한다.
@@ -131,9 +135,9 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjEyMDczNSwtMTQwNDUzNTg2MywxMz
-U0NjAzNTIxLDEyMzA1Njk2ODcsOTc1NDY5MzMsNTMyNDMzMDk3
-LC0xMDc2NjI2ODYxLC00NTEzMjM4NzQsMjg5MjQ3MDAwLDExNj
-kyMzExMjEsMzg0NTUyMDE2LDI5ODc1MTg0Miw3MDYxNDcyODMs
-LTEzMDg2NDI2MTNdfQ==
+eyJoaXN0b3J5IjpbLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xND
+A0NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0Njkz
+Myw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyOD
+kyNDcwMDAsMTE2OTIzMTEyMSwzODQ1NTIwMTYsMjk4NzUxODQy
+LDcwNjE0NzI4MywtMTMwODY0MjYxM119
 -->
