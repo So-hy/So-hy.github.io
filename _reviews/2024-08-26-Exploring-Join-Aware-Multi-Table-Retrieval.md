@@ -145,8 +145,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 > ** $c_{kl}^{ij}$ **는 테이블  $T_i$ 의 컬럼  $c_k$ 와 테이블 $T_j$ 의 컬럼  $c_l$  간에 조인 관계가 설정되었는지를 나타내는 이진 변수다
 
 3.	조인 관계 제약: 두 테이블 간의 조인은 두 테이블 모두 선택된 경우에만 이루어질 수 있다. $2(c_{kl}^{ij} + c_{lk}^{ji}) \leq b_i + b_j, \forall i,j,k,l$ (식 3)
+
 4.	단일 컬럼 조인 제약: 두 테이블 간의 조인은 항상 단일 컬럼을 통해 이루어져야 한다. $\sum_{k,l} c_{kl}^{ij} \leq 1$ (식 4)
+
 5.	서브-쿼리 커버리지: 각 서브-쿼리는 하나의 테이블 컬럼에 의해서만 커버될 수 있다. $\sum_k d_{qik} \leq 1, \forall q,i$ (식 5)
+
 6.	서브-쿼리와 테이블 선택의 연계: 서브-쿼리를 커버하는 테이블은 반드시 선택된 테이블 집합에 포함되어야 한다. $\frac{1}{|Q|} \sum_q d_{qik} \leq b_i, \forall i,k$ (식 6)
 
 추가 고려 사항
@@ -163,7 +166,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwMjM4MjYsLTQ4MjgxNjgzMywtND
+eyJoaXN0b3J5IjpbLTEzNjYzMDExNTYsLTQ4MjgxNjgzMywtND
 g4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMw
 NTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMS
 wxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3NjYy
