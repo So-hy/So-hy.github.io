@@ -238,13 +238,13 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 즉, 컬럼 스키마에 대한 전체적인 이해를 위해, 우리는 두 컬럼 헤더 간의 의미적 유사성뿐만 아니라 해당 테이블 이름 및 테이블 내의 다른 컬럼들과 같은 문맥 정보도 고려한다. 구체적으로, 각 세그먼트를 사전 학습된 임베딩 모델(Izacard et al., 2021)을 사용하여 인코딩하고, 각 세그먼트의 유사도 점수로 코사인 유사도를 계산한다. 스키마 유사도는 모든 세그먼트의 유사성을 가중 합한 값이다. 컬럼 관련성은 인스턴스 유사도와 스키마 유사도의 합이다.
 
 
-근데, 이걸로 정말 조인 관계의 테이블을 찾을 수 있을지는 의문이다.
+근데, 이걸로 정말 조인 관계의 테이블을 찾을 수 있을지는 의문이다. 지금 설명된 방식은 두 컬럼 간의 유사성을 계산하는 데 집중하고 있지만, 실제 데이터베이스에서 두 컬럼이 외래 키 관계로 연결되는지는 단순한 유사성 계산만으로 충분히 판단하기 어렵다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4ODI4NDY3OSw5NDcxNDQ1MiwtMTM5MD
-Y3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcy
-OTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLT
-Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
-MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
-MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
-MzA5N119
+eyJoaXN0b3J5IjpbLTIwNDMxODM0NDQsOTQ3MTQ0NTIsLTEzOT
+A2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3
+MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC
+00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0
+NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1OD
+YzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0
+MzMwOTddfQ==
 -->
