@@ -243,12 +243,38 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 유사성 측정(데이터 유사성이나 스키마 유사성)만으로는 두 컬럼이 실제로 외래 키 관계인지 완전히 판단할 수 없다. 예를 들어, 두 컬럼이 이름이나 데이터가 유사할 수는 있지만, 그것이 곧 외래 키 관계를 의미하는 것은 아니다.
 
  반대로, 이름이나 데이터가 다소 다르더라도 외래 키 관계일 수 있다. 예를 들어, ‘주문 ID’와 ‘거래 ID’가 데이터나 이름이 다소 다르더라도 실제로는 외래 키 관계일 수 있다.
+
+그리고 외래 키 관계는 단순히 두 컬럼 간의 유사성뿐만 아니라, 데이터베이스의 설계, 테이블 간의 의미적 관계, 그리고 비즈니스 로직에 따라 결정된다. 예를 들어, ‘사용자 ID’와 ‘주문 ID’는 서로 데이터나 스키마가 다르지만, 특정 상황에서는 외래 키로 연결될 수 있다.
+
+이 부분을 잘 해결하면 좀 더 좋은 결과를 주지 않을까 생각한다. 
+
+
+> 1. **메타데이터 분석**:
+> 
+> •  데이터베이스의 메타데이터를 분석하여, 외래 키 제약 조건이 명시적으로 정의된 경우 이를 활용할 수 있다.
+> 
+> •  메타데이터에는 테이블 간의 관계, 기본 키와 외래 키 정보 등이 포함될 수 있다.
+> 
+> 2. **관계 추론**:
+> 
+> •  여러 테이블 간의 실제 데이터 관계를 분석하여, 외래 키 관계를 더 정확하게 추론할 수 있다.
+> 
+> •  예를 들어, 데이터 분포, 통계적 상관성 등을 분석하여 두 컬럼이 외래 키 관계로 연결될 가능성을 높이는 방법이다.
+> 
+> 3. **의미적 분석**:
+> 
+> •  컬럼 이름이나 테이블 이름에 대한 자연어 처리(NLP) 기법을 사용하여, 더 깊은 의미적 관계를 분석할 수 있다.
+> 
+> •  이를 통해 두 컬럼이 비록 이름이나 데이터가 다르더라도, 실제로 연결될 수 있는 관계를 발견할 수 있다.
+
+
+이런 접근을 할 수 있지 않을까 생각된다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA4MTc0Nzc5LDk0NzE0NDUyLC0xMzkwNj
-c5MzU5LC0xODE1MjE5OTA2LDE4NTQ3OTg1MzMsMTgzMDc4NzI5
-MywxOTAzNzA2MzI1LDQwNDMyNjEzNSwtMTM2NjMwMTE1NiwtND
-gyODE2ODMzLC00ODgzNTk5NDQsLTQ1MTM1NDIyNCwxMTAyNDcz
-MTc2LC01ODY1MzA1MDEsMTI4MjEyMDczNSwtMTQwNDUzNTg2My
-wxMzU0NjAzNTIxLDEyMzA1Njk2ODcsOTc1NDY5MzMsNTMyNDMz
-MDk3XX0=
+eyJoaXN0b3J5IjpbLTE5OTg5NTkxNTgsOTQ3MTQ0NTIsLTEzOT
+A2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3
+MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC
+00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0
+NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1OD
+YzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0
+MzMwOTddfQ==
 -->
