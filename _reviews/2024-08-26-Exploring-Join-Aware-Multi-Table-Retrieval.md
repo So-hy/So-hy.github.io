@@ -227,7 +227,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •  예를 들어, 테이블 A의 ‘학생 ID’ 컬럼과 테이블 B의 ‘학생 ID’ 컬럼이 있다고 하자. 두 컬럼에 같은 학생 ID가 많다면, 이 두 컬럼은 서로 비슷하다(유사성이 높다)고 할 수 있다.
 
-•  이 유사성은 “자카드 유사도(Jaccard Similarity)“라는 방법으로 계산한다. 이는 두 컬럼의 데이터(값)가 얼마나 겹치는지 측정하는 방법이다.
+•  이 유사성은 “자카드 유사도(Jaccard Similarity)“라는 방법으로 계산한다. 이는 두 컬럼의 데이터(값)가 얼마나 겹치는지 측정하는 방법이다. 두 컬럼 $c_k$ (테이블 $T_i$의)와 $c_l$ (테이블 $T_j$의)가 주어졌을 때, 이 유사도는  $\frac{|I(c_k) \cap I(c_l)|}{|I(c_k) \cup I(c_l)|}$ 로 정의된다. 여기서  $I(c_k)$ 는 컬럼 c_k의 인스턴스를 나타낸다.
 
 2. **컬럼 구조(스키마) 유사성**:
 
@@ -235,11 +235,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •  예를 들어, 두 컬럼이 모두 ‘학생 ID’라는 이름을 가지고 있다면, 이들은 구조적으로 비슷하다고 할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
-g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
-MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NC
-wtNDUxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgy
-MTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2OT
-Y4Nyw5NzU0NjkzMyw1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1
-MTMyMzg3NF19
+eyJoaXN0b3J5IjpbMTk3NzQxNzY1OCwtMTM5MDY3OTM1OSwtMT
+gxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcw
+NjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMy
+wtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2
+NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMz
+UyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3
+NjYyNjg2MV19
 -->
