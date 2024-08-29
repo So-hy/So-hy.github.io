@@ -203,13 +203,21 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 ### **3 Table-Table Relationship Inference**
 
 
+**1. 테이블 간 호환성의 기본 개념**
 
+두 테이블이 조인될 수 있는지 판단하려면, 두 테이블에서 어떤 컬럼들이 서로 잘 맞아 조인될 수 있는지 확인해야 한다. 이를 **컬럼 간 호환성**이라고 한다. 여기서는 두 가지를 고려한다:
+
+  
+
+•  **컬럼 관련성**: 두 컬럼이 서로 얼마나 비슷한지(데이터나 구조 측면에서).
+
+•  **키-외래 키 제약 조건**: 두 컬럼이 서로 연결될 때, 데이터베이스의 기본 키와 외래 키 규칙을 잘 따르는지.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MD
-M3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4
-MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLT
-U4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2
-MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0MzMwOTcsLT
-EwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyODkyNDcwMDAsMTE2OTIz
-MTEyMV19
+eyJoaXN0b3J5IjpbLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
+MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
+MTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LD
+ExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0
+NTM1ODYzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMy
+w1MzI0MzMwOTcsLTEwNzY2MjY4NjEsLTQ1MTMyMzg3NCwyODky
+NDcwMDBdfQ==
 -->
