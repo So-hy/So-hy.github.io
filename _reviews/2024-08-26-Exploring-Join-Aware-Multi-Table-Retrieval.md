@@ -236,12 +236,15 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 •  예를 들어, 두 컬럼이 모두 ‘학생 ID’라는 이름을 가지고 있다면, 이들은 구조적으로 비슷하다고 할 수 있다.
 
 즉, 컬럼 스키마에 대한 전체적인 이해를 위해, 우리는 두 컬럼 헤더 간의 의미적 유사성뿐만 아니라 해당 테이블 이름 및 테이블 내의 다른 컬럼들과 같은 문맥 정보도 고려한다. 구체적으로, 각 세그먼트를 사전 학습된 임베딩 모델(Izacard et al., 2021)을 사용하여 인코딩하고, 각 세그먼트의 유사도 점수로 코사인 유사도를 계산한다. 스키마 유사도는 모든 세그먼트의 유사성을 가중 합한 값이다. 컬럼 관련성은 인스턴스 유사도와 스키마 유사도의 합이다.
+
+
+근데, 이걸로 정말 조인 관계의 테이블을 찾을 수 있을지는 의문이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MT
-UyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYz
-MjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLT
-Q4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUz
-MDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2MDM1Mj
-EsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0MzMwOTcsLTEwNzY2
-MjY4NjFdfQ==
+eyJoaXN0b3J5IjpbMTA4ODI4NDY3OSw5NDcxNDQ1MiwtMTM5MD
+Y3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcy
+OTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLT
+Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
+MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
+MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
+MzA5N119
 -->
