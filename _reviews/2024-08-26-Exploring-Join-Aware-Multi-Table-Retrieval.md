@@ -215,8 +215,27 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 
+**2. 컬럼 관련성 계산**
+
+  
+
+컬럼 관련성을 평가하려면 두 가지를 본다:
+
+  
+
+1. **컬럼의 데이터(인스턴스) 유사성**:
+
+•  예를 들어, 테이블 A의 ‘학생 ID’ 컬럼과 테이블 B의 ‘학생 ID’ 컬럼이 있다고 하자. 두 컬럼에 같은 학생 ID가 많다면, 이 두 컬럼은 서로 비슷하다(유사성이 높다)고 할 수 있다.
+
+•  이 유사성은 “자카드 유사도(Jaccard Similarity)“라는 방법으로 계산한다. 이는 두 컬럼의 데이터(값)가 얼마나 겹치는지 측정하는 방법이다.
+
+2. **컬럼 구조(스키마) 유사성**:
+
+•  각 컬럼은 이름(헤더)과 위치, 테이블 이름과 같은 정보(스키마)를 가지고 있다. 이 정보가 비슷하다면, 두 컬럼이 서로 관련성이 있다고 본다.
+
+•  예를 들어, 두 컬럼이 모두 ‘학생 ID’라는 이름을 가지고 있다면, 이들은 구조적으로 비슷하다고 할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzQyMzA1ODQsLTE4MTUyMTk5MDYsMT
+eyJoaXN0b3J5IjpbLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
 g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
 MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NC
 wtNDUxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgy
