@@ -227,19 +227,21 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •  예를 들어, 테이블 A의 ‘학생 ID’ 컬럼과 테이블 B의 ‘학생 ID’ 컬럼이 있다고 하자. 두 컬럼에 같은 학생 ID가 많다면, 이 두 컬럼은 서로 비슷하다(유사성이 높다)고 할 수 있다.
 
-•  이 유사성은 “자카드 유사도(Jaccard Similarity)“라는 방법으로 계산한다. 이는 두 컬럼의 데이터(값)가 얼마나 겹치는지 측정하는 방법이다. 두 컬럼 $c_k$ (테이블 $T_i$의)와 $c_l$ (테이블 $T_j$의)가 주어졌을 때, 이 유사도는  $\frac{|I(c_k) \cap I(c_l)|}{|I(c_k) \cup I(c_l)|}$ 로 정의된다. 여기서  $I(c_k)$ 는 컬럼 c_k의 인스턴스를 나타낸다.
+•  이 유사성은 “자카드 유사도(Jaccard Similarity)“라는 방법으로 계산한다. 이는 두 컬럼의 데이터(값)가 얼마나 겹치는지 측정하는 방법이다. 두 컬럼 $c_k$ (테이블 $T_i$의)와 $c_l$ (테이블 $T_j$의)가 주어졌을 때, 이 유사도는  $\frac{|I(c_k) \cap I(c_l)|}{|I(c_k) \cup I(c_l)|}$ 로 정의된다. 여기서  $I(c_k)$ 는 컬럼 $c_k$의 인스턴스를 나타낸다.
 
 2. **컬럼 구조(스키마) 유사성**:
 
 •  각 컬럼은 이름(헤더)과 위치, 테이블 이름과 같은 정보(스키마)를 가지고 있다. 이 정보가 비슷하다면, 두 컬럼이 서로 관련성이 있다고 본다.
 
 •  예를 들어, 두 컬럼이 모두 ‘학생 ID’라는 이름을 가지고 있다면, 이들은 구조적으로 비슷하다고 할 수 있다.
+
+즉, 컬럼 스키마에 대한 전체적인 이해를 위해, 우리는 두 컬럼 헤더 간의 의미적 유사성뿐만 아니라 해당 테이블 이름 및 테이블 내의 다른 컬럼들과 같은 문맥 정보도 고려한다. 구체적으로, 각 세그먼트를 사전 학습된 임베딩 모델(Izacard et al., 2021)을 사용하여 인코딩하고, 각 세그먼트의 유사도 점수로 코사인 유사도를 계산한다. 스키마 유사도는 모든 세그먼트의 유사성을 가중 합한 값이다. 컬럼 관련성은 인스턴스 유사도와 스키마 유사도의 합이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NzQxNzY1OCwtMTM5MDY3OTM1OSwtMT
-gxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcw
-NjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMy
-wtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2
-NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMz
-UyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQzMzA5NywtMTA3
-NjYyNjg2MV19
+eyJoaXN0b3J5IjpbOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MT
+UyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYz
+MjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLT
+Q4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLTU4NjUz
+MDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2MDM1Mj
+EsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0MzMwOTcsLTEwNzY2
+MjY4NjFdfQ==
 -->
