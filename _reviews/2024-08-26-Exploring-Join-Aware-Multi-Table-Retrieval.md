@@ -270,12 +270,21 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 **3. 키-외래 키 제약 조건**
 
 
+이제, 두 컬럼이 실제로 조인될 때 데이터베이스의 규칙을 잘 따르는지 확인해야 한다. 여기서 중요한 개념이 **기본 키(Primary Key)**와 **외래 키(Foreign Key)**이다:
+
+
+•  **기본 키**: 테이블 내에서 각 행을 고유하게 식별하는 컬럼(예: 학생 ID).
+
+•  **외래 키**: 다른 테이블의 기본 키를 참조하는 컬럼(예: 성적 테이블의 ‘학생 ID’가 학생 테이블의 ‘학생 ID’를 참조).
+
+
+올바른 조인을 위해서는, 두 컬럼 중 적어도 하나가 기본 키여야 한다. 예를 들어, 학생 테이블의 ‘학생 ID’와 성적 테이블의 ‘학생 ID’가 조인될 때, ‘학생 ID’가 기본 키라면 올바른 조인이 될 가능성이 높다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ2MjE5ODc5LDk0NzE0NDUyLC0xMzkwNj
-c5MzU5LC0xODE1MjE5OTA2LDE4NTQ3OTg1MzMsMTgzMDc4NzI5
-MywxOTAzNzA2MzI1LDQwNDMyNjEzNSwtMTM2NjMwMTE1NiwtND
-gyODE2ODMzLC00ODgzNTk5NDQsLTQ1MTM1NDIyNCwxMTAyNDcz
-MTc2LC01ODY1MzA1MDEsMTI4MjEyMDczNSwtMTQwNDUzNTg2My
-wxMzU0NjAzNTIxLDEyMzA1Njk2ODcsOTc1NDY5MzMsNTMyNDMz
-MDk3XX0=
+eyJoaXN0b3J5IjpbMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MD
+Y3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcy
+OTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLT
+Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
+MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
+MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
+MzA5N119
 -->
