@@ -239,12 +239,16 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 근데, 이걸로 정말 조인 관계의 테이블을 찾을 수 있을지는 의문이다. 지금 설명된 방식은 두 컬럼 간의 유사성을 계산하는 데 집중하고 있지만, 실제 데이터베이스에서 두 컬럼이 외래 키 관계로 연결되는지는 단순한 유사성 계산만으로 충분히 판단하기 어렵다.
+
+유사성 측정(데이터 유사성이나 스키마 유사성)만으로는 두 컬럼이 실제로 외래 키 관계인지 완전히 판단할 수 없다. 예를 들어, 두 컬럼이 이름이나 데이터가 유사할 수는 있지만, 그것이 곧 외래 키 관계를 의미하는 것은 아니다.
+
+ 반대로, 이름이나 데이터가 다소 다르더라도 외래 키 관계일 수 있다. 예를 들어, ‘주문 ID’와 ‘거래 ID’가 데이터나 이름이 다소 다르더라도 실제로는 외래 키 관계일 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNDMxODM0NDQsOTQ3MTQ0NTIsLTEzOT
-A2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3
-MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC
-00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0
-NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1OD
-YzLDEzNTQ2MDM1MjEsMTIzMDU2OTY4Nyw5NzU0NjkzMyw1MzI0
-MzMwOTddfQ==
+eyJoaXN0b3J5IjpbMzA4MTc0Nzc5LDk0NzE0NDUyLC0xMzkwNj
+c5MzU5LC0xODE1MjE5OTA2LDE4NTQ3OTg1MzMsMTgzMDc4NzI5
+MywxOTAzNzA2MzI1LDQwNDMyNjEzNSwtMTM2NjMwMTE1NiwtND
+gyODE2ODMzLC00ODgzNTk5NDQsLTQ1MTM1NDIyNCwxMTAyNDcz
+MTc2LC01ODY1MzA1MDEsMTI4MjEyMDczNSwtMTQwNDUzNTg2My
+wxMzU0NjAzNTIxLDEyMzA1Njk2ODcsOTc1NDY5MzMsNTMyNDMz
+MDk3XX0=
 -->
