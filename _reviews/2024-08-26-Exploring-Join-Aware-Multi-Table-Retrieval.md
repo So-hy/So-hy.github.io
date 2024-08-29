@@ -198,12 +198,17 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 이 방법은 선택된 테이블들이 서로 적절히 연결되어 있는지를 확인하기 위한 수학적 방법이다. 테이블 간의 관계를 그래프 이론을 사용해 표현하고, 그 그래프에서의 연결성을 최대 유량 문제로 해결함으로써, 테이블들이 함께 작동할 수 있는지를 판단한다.
 
 쉽게 말해, 여러 테이블이 선택되었을 때, 그 테이블들이 모두 서로 조인될 수 있도록 잘 연결되어 있는지를 확인하는 과정이다.
+
+
+### **3 Table-Table Relationship Inference**
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzMDc4NzI5MywxOTAzNzA2MzI1LDQwND
-MyNjEzNSwtMTM2NjMwMTE1NiwtNDgyODE2ODMzLC00ODgzNTk5
-NDQsLTQ1MTM1NDIyNCwxMTAyNDczMTc2LC01ODY1MzA1MDEsMT
-I4MjEyMDczNSwtMTQwNDUzNTg2MywxMzU0NjAzNTIxLDEyMzA1
-Njk2ODcsOTc1NDY5MzMsNTMyNDMzMDk3LC0xMDc2NjI2ODYxLC
-00NTEzMjM4NzQsMjg5MjQ3MDAwLDExNjkyMzExMjEsMzg0NTUy
-MDE2XX0=
+eyJoaXN0b3J5IjpbLTIwMzM3MDMzMzcsMTgzMDc4NzI5MywxOT
+AzNzA2MzI1LDQwNDMyNjEzNSwtMTM2NjMwMTE1NiwtNDgyODE2
+ODMzLC00ODgzNTk5NDQsLTQ1MTM1NDIyNCwxMTAyNDczMTc2LC
+01ODY1MzA1MDEsMTI4MjEyMDczNSwtMTQwNDUzNTg2MywxMzU0
+NjAzNTIxLDEyMzA1Njk2ODcsOTc1NDY5MzMsNTMyNDMzMDk3LC
+0xMDc2NjI2ODYxLC00NTEzMjM4NzQsMjg5MjQ3MDAwLDExNjky
+MzExMjFdfQ==
 -->
