@@ -279,12 +279,15 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 올바른 조인을 위해서는, 두 컬럼 중 적어도 하나가 기본 키여야 한다. 예를 들어, 학생 테이블의 ‘학생 ID’와 성적 테이블의 ‘학생 ID’가 조인될 때, ‘학생 ID’가 기본 키라면 올바른 조인이 될 가능성이 높다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MD
-Y3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcy
-OTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLT
-Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
-MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1MzU4Nj
-MsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3NTQ2OTMzLDUzMjQz
-MzA5N119
+eyJoaXN0b3J5IjpbLTIwMDE5MzI0NDQsMTc4OTc0OTk3OCw5ND
+cxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4
+NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLT
+EzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEz
+NTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3Mz
+UsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMwNTY5Njg3LDk3
+NTQ2OTMzXX0=
 -->
