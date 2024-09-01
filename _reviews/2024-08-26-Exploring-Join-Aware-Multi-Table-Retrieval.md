@@ -286,6 +286,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이 섹션에서는 전체적인 실험 목표 및 결과를 다룬다.
 
+
 **실험의 목표**
 
   
@@ -302,7 +303,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 •  더 나은 테이블 검색이 실제로 질문에 답하는 데 얼마나 기여할 수 있는지를 보고자 했다. 이를 통해 연구팀은 종단간(end-to-end) 성능이 얼마나 향상되는지를 측정했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MTgyNzc5MiwzMzQ3NjkyNzQsMTc4OT
+eyJoaXN0b3J5IjpbLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OT
 c0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkw
 NiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MD
 QzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5
