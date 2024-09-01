@@ -286,9 +286,23 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이 섹션에서는 전체적인 실험 목표 및 결과를 다룬다.
 
-Object
+**실험의 목표**
+
+  
+
+연구팀은 두 가지 중요한 질문에 답하기 위해 실험을 진행했다:
+
+  
+
+1. **기존 테이블 검색 솔루션을 얼마나 개선할 수 있는가?**
+
+•  기존 솔루션은 쿼리와 테이블 간의 관련성만을 고려했다. 연구팀은 여기에 테이블 간의 관련성도 추가로 고려한 재랭킹 방법을 도입했다. 이 방법이 기존 방법보다 얼마나 더 나은 성능을 보일 수 있는지를 평가하고자 했다.
+
+2. **이 개선된 검색 성능이 실제로 질문 응답(질문에 대한 답을 찾는 과정)에 도움이 되는가?**
+
+•  더 나은 테이블 검색이 실제로 질문에 답하는 데 얼마나 기여할 수 있는지를 보고자 했다. 이를 통해 연구팀은 종단간(end-to-end) 성능이 얼마나 향상되는지를 측정했다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTI0Mjc2OSwzMzQ3NjkyNzQsMTc4OT
+eyJoaXN0b3J5IjpbMTM0MTgyNzc5MiwzMzQ3NjkyNzQsMTc4OT
 c0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkw
 NiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MD
 QzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5
