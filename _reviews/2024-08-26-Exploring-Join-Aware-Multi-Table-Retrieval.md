@@ -287,10 +287,9 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 이 섹션에서는 전체적인 실험 목표 및 결과를 다룬다.
 
 
-**실험의 목표**
+**Objective**
 
-  
-
+ 
 연구팀은 두 가지 중요한 질문에 답하기 위해 실험을 진행했다:
 
   
@@ -306,11 +305,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0Nz
-Y5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTks
-LTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MD
-M3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4
-MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLT
-U4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2
-MDM1MjFdfQ==
+eyJoaXN0b3J5IjpbLTE0NzE3Mzg4MzgsNDk4OTk1MDUyLC0zNT
+I3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIs
+LTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
+MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
+MTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LD
+ExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0
+NTM1ODYzXX0=
 -->
