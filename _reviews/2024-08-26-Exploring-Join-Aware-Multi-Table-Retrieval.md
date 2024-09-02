@@ -302,12 +302,15 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 2. **이 개선된 검색 성능이 실제로 질문 응답(질문에 대한 답을 찾는 과정)에 도움이 되는가?**
 
 •  더 나은 테이블 검색이 실제로 질문에 답하는 데 얼마나 기여할 수 있는지를 보고자 했다. 이를 통해 연구팀은 종단간(end-to-end) 성능이 얼마나 향상되는지를 측정했다.
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OT
-c0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkw
-NiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MD
-QzMjYxMzUsLTEzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5
-OTQ0LC00NTEzNTQyMjQsMTEwMjQ3MzE3NiwtNTg2NTMwNTAxLD
-EyODIxMjA3MzUsLTE0MDQ1MzU4NjMsMTM1NDYwMzUyMSwxMjMw
-NTY5Njg3XX0=
+eyJoaXN0b3J5IjpbNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0Nz
+Y5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTks
+LTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MD
+M3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4
+MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0NzMxNzYsLT
+U4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0NTM1ODYzLDEzNTQ2
+MDM1MjFdfQ==
 -->
