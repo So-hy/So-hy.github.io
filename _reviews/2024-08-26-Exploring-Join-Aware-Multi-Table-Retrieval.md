@@ -304,12 +304,101 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 
+### **4.1 Experiment Settings**
+
+  
+
+**데이터셋**
+
+  
+
+•  **기존 데이터셋의 문제점**: 여러 테이블을 동시에 고려하는 대규모 오픈 도메인 질문 응답 데이터셋은 아직 존재하지 않는다.
+
+•  **대안으로 사용한 데이터셋**: 그래서 연구팀은 텍스트에서 SQL 쿼리를 생성하는 텍스트-쿼리 데이터셋을 사용했다. 이 데이터셋은 자연스럽게 여러 테이블을 함께 다루며, 오픈 도메인 질문 응답 환경에서 적합하게 사용할 수 있다.
+
+•  **Spider 데이터셋**: 다양한 주제별로 테이블들이 구성되어 있고, 각 주제는 약 5.4개의 테이블을 가진다.
+
+•  **Bird 데이터셋**: 이 데이터셋도 유사한 구조를 가진다.
+
+연구팀은 이 데이터셋들을 활용하여 중앙화된 테이블 코퍼스를 구성하고, 키-외래 키 제약 조건이 명시된 경우와 명시되지 않은 경우를 구분해 실험을 진행했다.
+
+  
+
+**기준 모델(Baselines)**
+
+  
+
+기준 모델은 연구팀이 제안한 새로운 방법과 비교하기 위해 사용된 기존의 방법들이다:
+
+  
+
+1. **텍스트 검색 모델**:
+
+•  테이블 구조를 고려하지 않고, 단순히 쿼리와 테이블의 유사성을 측정하여 테이블을 검색하는 모델이다. 이 방법은 텍스트와 테이블의 임베딩을 계산한 후, 코사인 유사도를 사용해 쿼리와 테이블 간의 관련성을 평가한다.
+
+2. **DTR 모델**:
+
+•  이 모델은 테이블 검색에 특화된 모델이다. 연구팀은 이 모델을 각 데이터셋에 대해 미세 조정하여 최적의 성능을 내도록 했다.
+
+  
+
+**실험 환경**
+
+  
+
+•  **MIP 솔버**: Python-MIP 패키지와 Gurobi를 사용해 최적화 문제를 해결했다.
+
+•  **GPU 사용**: DTR 모델의 미세 조정과 관련성 점수 계산 작업은 Tesla V100 GPU에서 수행했다.
+
+  
+
+**작업 및 측정 지표**
+
+  
+
+연구팀은 두 가지 평가를 진행했다:
+
+  
+
+1. **검색 전용 평가**:
+
+•  이 평가는 주어진 쿼리에 대해 테이블을 얼마나 잘 검색할 수 있는지를 평가하는 것이다. 정밀도, 재현율, F1 점수 등의 지표를 사용해 기준 모델과 연구팀의 재랭킹 방법을 비교했다.
+
+2. **종단간 평가**:
+
+•  이 평가는 테이블 검색 성능이 실제로 질문에 대한 답을 찾는 데 얼마나 도움이 되는지를 평가하는 것이다. 검색된 테이블을 사용해 SQL 쿼리를 생성하고, 그 결과를 비교했다. 이 과정에서 GPT-3.5 Turbo 모델을 사용해 쿼리를 생성했다.
+
+  
+
+**표기법**
+
+  
+
+•  **X**: 기존의 기준 모델을 의미한다(예: DTR).
+
+•  **JAR-D(X)**: 세밀한 쿼리-테이블 관련성만을 고려한 연구팀의 재랭킹 방법이다.
+
+•  **JAR-F(X)**: 테이블-테이블 관련성까지 고려한 연구팀의 전체 재랭킹 메커니즘이다.
+
+•  **JAR-G(X)**: 골드 키-외래 키 제약 조건을 사용한 JAR-F(X)와 동일한 접근법이다.
+
+  
+
+**결과 논의**
+
+  
+
+연구팀은 이어지는 섹션에서 검색 결과와 질문 응답 작업에 대한 결과를 논의하고, 추가적인 분석 연구를 통해 더 깊이 있는 논의를 진행한다.
+
+  
+
+이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NzE3Mzg4MzgsNDk4OTk1MDUyLC0zNT
-I3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIs
-LTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
-MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
-MTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LD
-ExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0
-NTM1ODYzXX0=
+eyJoaXN0b3J5IjpbLTc0MTgxMzkyNCw0OTg5OTUwNTIsLTM1Mj
+c2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5NDcxNDQ1Miwt
+MTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4Mz
+A3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDEx
+NTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMT
+EwMjQ3MzE3NiwtNTg2NTMwNTAxLDEyODIxMjA3MzUsLTE0MDQ1
+MzU4NjNdfQ==
 -->
