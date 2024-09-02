@@ -309,8 +309,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
   
 
 •  **기존 데이터셋의 문제점**: 여러 테이블을 동시에 고려하는 대규모 오픈 도메인 질문 응답 데이터셋은 아직 존재하지 않는다.
-
-•  **대안으로 사용한 데이터셋**: 그래서 연구팀은 텍스트에서 SQL 쿼리를 생성하는 텍스트-쿼리 데이터셋을 사용했다. 이 데이터셋은 자연스럽게 여러 테이블을 함께 다루며, 오픈 도메인 질문 응답 환경에서 적합하게 사용할 수 있다.
+그래서 연구팀은 텍스트에서 SQL 쿼리를 생성하는 텍스트-쿼리 데이터셋을 사용했다. 어쨌든 SQL 쿼리로 정확한 답을 얻으려면 여러 테이블에 대한 검색이 필요하기 때문에 이 데이터셋은 자연스럽게 여러 테이블을 함께 다루며, 오픈 도메인 질문 응답 환경에서 적합하게 사용할 수 있기 때문이다.
 
 •  **Spider 데이터셋**: 다양한 주제별로 테이블들이 구성되어 있고, 각 주제는 약 5.4개의 테이블을 가진다.
 
@@ -390,11 +389,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNT
-I3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIs
-LTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
-MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
-MTU2LC00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LD
-ExMDI0NzMxNzYsLTU4NjUzMDUwMSwxMjgyMTIwNzM1LC0xNDA0
-NTM1ODYzXX0=
+eyJoaXN0b3J5IjpbNTA1OTg3MzQyLC0xMTg3MzI0MzE3LDQ5OD
+k5NTA1MiwtMzUyNzY3Nzc0LDMzNDc2OTI3NCwxNzg5NzQ5OTc4
+LDk0NzE0NDUyLC0xMzkwNjc5MzU5LC0xODE1MjE5OTA2LDE4NT
+Q3OTg1MzMsMTgzMDc4NzI5MywxOTAzNzA2MzI1LDQwNDMyNjEz
+NSwtMTM2NjMwMTE1NiwtNDgyODE2ODMzLC00ODgzNTk5NDQsLT
+Q1MTM1NDIyNCwxMTAyNDczMTc2LC01ODY1MzA1MDEsMTI4MjEy
+MDczNV19
 -->
