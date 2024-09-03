@@ -325,11 +325,13 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 1. **텍스트 검색 모델**:
 
-•  테이블 구조를 고려하지 않고, 단순히 쿼리와 테이블의 유사성을 측정하여 테이블을 검색하는 모델이다. 이 방법은 텍스트와 테이블의 임베딩을 계산한 후, 코사인 유사도를 사용해 쿼리와 테이블 간의 관련성을 평가한다.
+테이블 구조를 고려하지 않고, 단순히 쿼리와 테이블의 유사성을 측정하여 테이블을 검색하는 모델이다. 이 방법은 텍스트와 테이블의 임베딩을 계산한 후, 코사인 유사도를 사용해 쿼리와 테이블 간의 관련성을 평가한다.
 
 2. **DTR 모델**:
 
-•  이 모델은 테이블 검색에 특화된 모델이다. 연구팀은 이 모델을 각 데이터셋에 대해 미세 조정하여 최적의 성능을 내도록 했다.
+이 모델은 테이블 검색에 특화된 모델이다. DTR 모델은 테이블의 **구조**(예: 컬럼명)와 **내용**(예: 데이터 값)을 함께 고려하여 테이블을 벡터로 변환한다. 이는 단순히 텍스트를 평탄화하여 벡터로 변환하는 기존 접근법보다 더 정교한 방식이다. 이 방법을 통해, 쿼리와 테이블 간의 보다 정교한 관련성 평가가 가능하다
+
+DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 수 있다. 이 과정에서, 모델은 주어진 데이터셋의 특성을 학습하여, 해당 데이터셋에 맞는 최적의 벡터 표현을 생성하게 된다.연구에서는 TAPAS-large 모델을 기반으로 DTR 모델을 미세 조정하였다. TAPAS는 테이블 데이터를 다루는 데 특화된 모델로, 특히 텍스트-테이블 간의 관계를 잘 포착할 수 있도록 설계되어 있다.
 
   
 
@@ -385,11 +387,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MD
-U5ODczNDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3
-NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOT
-A2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3
-MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC
-00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0
-NzMxNzZdfQ==
+eyJoaXN0b3J5IjpbMTA1OTIwMjIzOSwtMTUyODMxMjc2NCwxMz
+IxNzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUw
+NTIsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5ND
+cxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4
+NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLT
+EzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEz
+NTQyMjRdfQ==
 -->
