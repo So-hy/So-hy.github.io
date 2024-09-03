@@ -341,7 +341,6 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 •  **GPU 사용**: DTR 모델의 미세 조정과 관련성 점수 계산 작업은 Tesla V100 GPU에서 수행했다.
 
-  
 
 **작업 및 측정 지표**
 
@@ -385,11 +384,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMz
-IxNzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUw
-NTIsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5ND
-cxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4
-NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLT
-EzNjYzMDExNTYsLTQ4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEz
-NTQyMjRdfQ==
+eyJoaXN0b3J5IjpbODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1Mj
+gzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQz
+MTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3OD
+k3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MTUyMTk5
+MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsND
+A0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4MTY4MzMsLTQ4ODM1
+OTk0NF19
 -->
