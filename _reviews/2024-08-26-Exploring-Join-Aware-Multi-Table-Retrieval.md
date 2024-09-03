@@ -337,8 +337,6 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 **실험 환경**
 
-  
-
 •  **MIP 솔버**: Python-MIP 패키지와 Gurobi를 사용해 최적화 문제를 해결했다.
 
 •  **GPU 사용**: DTR 모델의 미세 조정과 관련성 점수 계산 작업은 Tesla V100 GPU에서 수행했다.
@@ -387,7 +385,7 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1OTIwMjIzOSwtMTUyODMxMjc2NCwxMz
+eyJoaXN0b3J5IjpbLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMz
 IxNzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUw
 NTIsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5ND
 cxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4
