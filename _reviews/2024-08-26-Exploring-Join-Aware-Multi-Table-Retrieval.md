@@ -353,7 +353,7 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 2. **종단간 평가**:
 
-•  이 평가는 테이블 검색 성능이 실제로 질문에 대한 답을 찾는 데 얼마나 도움이 되는지를 평가하는 것이다. 검색된 테이블을 사용해 SQL 쿼리를 생성하고, 그 결과를 비교했다. 이 과정에서 GPT-3.5 Turbo 모델을 사용해 쿼리를 생성했다.
+테이블 검색 성능이 실제로 질문에 대한 답을 찾는 데 얼마나 도움이 되는지를 평가하는 것이다. 검색된 테이블을 사용해 SQL 쿼리를 생성하고, 그 결과를 비교했다. 이 과정에서 GPT-3.5 Turbo 모델을 사용해 쿼리를 생성했다.
 
   
 
@@ -381,11 +381,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDQ4NTk3MDMsNjQzMDkwNzYsLTE2ND
-kyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3
-NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQzMTcsND
-k4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5
-NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
-g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
-MTM1XX0=
+eyJoaXN0b3J5IjpbLTE1MzAwMTA2OCw2NDMwOTA3NiwtMTY0OT
+IwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3MywtMTUyODMxMjc2
+NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OT
+g5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3
+OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxOD
+U0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYx
+MzVdfQ==
 -->
