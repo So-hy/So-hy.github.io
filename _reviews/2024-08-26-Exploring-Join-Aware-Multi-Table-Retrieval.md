@@ -337,9 +337,9 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 **Environment**
 
-•  **MIP 솔버**: Python-MIP 패키지와 Gurobi를 사용해 최적화 문제를 해결했다.
+•  **MIP Solver**: Python-MIP 패키지와 Gurobi를 사용해 최적화 문제를 해결했다.
 
-•  **GPU 사용**: DTR 모델의 미세 조정과 관련성 점수 계산 작업은 Tesla V100 GPU에서 수행했다.
+•  **GPU**: DTR 모델의 미세 조정과 관련성 점수 계산 작업은 Tesla V100 GPU에서 수행했다.
 
 
 
@@ -381,11 +381,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOT
-Y5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODcz
-NDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMz
-M0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2Nzkz
-NTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLD
-E5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC00ODI4
-MTY4MzNdfQ==
+eyJoaXN0b3J5IjpbNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMT
+I3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5
+OSw1MDU5ODczNDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNT
+I3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIs
+LTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
+MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
+MTU2XX0=
 -->
