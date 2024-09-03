@@ -322,9 +322,6 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
   
 **기준 모델(Baselines)**
 
-베이스라인은 연구팀이 제안한 새로운 방법과 비교하기 위해 사용된 기존의 방법들이다:
-
-  
 
 1. **텍스트 검색 모델**:
 
@@ -388,11 +385,11 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5MTIxNTIxNSwxMzIxNzQyNDk5LDUwNT
-k4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3
-NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MD
-Y3OTM1OSwtMTgxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcy
-OTMsMTkwMzcwNjMyNSw0MDQzMjYxMzUsLTEzNjYzMDExNTYsLT
-Q4MjgxNjgzMywtNDg4MzU5OTQ0LC00NTEzNTQyMjQsMTEwMjQ3
-MzE3Nl19
+eyJoaXN0b3J5IjpbLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MD
+U5ODczNDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3
+NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOT
+A2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3
+MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAxMTU2LC
+00ODI4MTY4MzMsLTQ4ODM1OTk0NCwtNDUxMzU0MjI0LDExMDI0
+NzMxNzZdfQ==
 -->
