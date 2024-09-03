@@ -349,7 +349,7 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 1. **검색 전용 평가**:
 
-•  이 평가는 주어진 쿼리에 대해 테이블을 얼마나 잘 검색할 수 있는지를 평가하는 것이다. 정밀도, 재현율, F1 점수 등의 지표를 사용해 기준 모델과 연구팀의 재랭킹 방법을 비교했다.
+주어진 쿼리에 대해 테이블을 얼마나 잘 검색할 수 있는지를 평가하는 것이다. 정밀도, 재현율, F1 점수 등의 지표를 사용해 기준 모델과 연구팀의 재랭킹 방법을 비교했다.
 
 2. **종단간 평가**:
 
@@ -381,11 +381,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMT
-I3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5
-OSw1MDU5ODczNDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNT
-I3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIs
-LTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMTg1NDc5ODUzMywxOD
-MwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2MTM1LC0xMzY2MzAx
-MTU2XX0=
+eyJoaXN0b3J5IjpbLTEyMDQ4NTk3MDMsNjQzMDkwNzYsLTE2ND
+kyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3
+NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQzMTcsND
+k4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5
+NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
+g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
+MTM1XX0=
 -->
