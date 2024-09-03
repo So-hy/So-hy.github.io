@@ -359,15 +359,10 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 결과를 정리한 표에 적힌 단어들의 의미를 따로 명시해두었다.
 
-•  **X**: 기존의 기준 모델을 의미한다(예: DTR).
-
-•  **JAR-D(X)**: 세밀한 쿼리-테이블 관련성만을 고려한 연구팀의 재랭킹 방법이다.
-
-•  **JAR-F(X)**: 테이블-테이블 관련성까지 고려한 연구팀의 전체 재랭킹 메커니즘이다.
-
-•  **JAR-G(X)**: 골드 키-외래 키 제약 조건을 사용한 JAR-F(X)와 동일한 접근법이다.
-
-  
+ - **X**: 기존의 기준 모델을 의미한다(예: DTR).
+ - **JAR-D(X)**: 세밀한 쿼리-테이블 관련성만을 고려한 연구팀의 재랭킹 방법이다.
+ - **JAR-F(X)**: 테이블-테이블 관련성까지 고려한 연구팀의 전체 재랭킹 메커니즘이다.
+ - **JAR-G(X)**: 골드 키-외래 키 제약 조건을 사용한 JAR-F(X)와 동일한 접근법이다.
 
 **결과 논의**
 
@@ -379,7 +374,7 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzYxNjEzMDIsNjQzMDkwNzYsLTE2ND
+eyJoaXN0b3J5IjpbLTIwMTQyNjY1NDgsNjQzMDkwNzYsLTE2ND
 kyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3
 NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQzMTcsND
 k4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5
