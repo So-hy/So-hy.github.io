@@ -357,9 +357,7 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
   
 
-**표기법**
-
-  
+결과를 정리한 표에 적힌 단어들의 의미를 따로 명시해두었다.
 
 •  **X**: 기존의 기준 모델을 의미한다(예: DTR).
 
@@ -381,11 +379,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 이렇게 함으로써, 연구팀이 어떤 방법으로 실험을 진행했고, 어떤 결과를 얻으려 했는지를 쉽게 이해할 수 있다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzAwMTA2OCw2NDMwOTA3NiwtMTY0OT
-IwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3MywtMTUyODMxMjc2
-NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OT
-g5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3
-OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMTgxNTIxOTkwNiwxOD
-U0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcwNjMyNSw0MDQzMjYx
-MzVdfQ==
+eyJoaXN0b3J5IjpbLTE1NzYxNjEzMDIsNjQzMDkwNzYsLTE2ND
+kyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3
+NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQzMTcsND
+k4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5
+NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
+g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
+MTM1XX0=
 -->
