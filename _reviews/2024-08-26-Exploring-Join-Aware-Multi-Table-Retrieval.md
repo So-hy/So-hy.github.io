@@ -13,6 +13,8 @@ date: 2024-08-25
 따라서 이러한 문제를 해결하기 위해 쿼리와 데이터베이스에 대해 유용한 결합 관계를 검색 단계에서 발견하는 방법을 제안한다. 이 방법은 테이블-쿼리의 관련성뿐만 아니라 테이블-테이블의 관련성을 고려한 새로운 재랭킹(re-ranking) 방법을 사용한다. 논문에서 제안된 방법은 최신 테이블 검색 접근법보다 최대 9.3% 높은 F1 점수와 5.4% 높은 QA 정확도를 달성했다고 보고한다.
 
 
+![Screenshot 2024-09-04 at 2 47 09 PM](https://github.com/user-attachments/assets/ff838d4f-4fd3-42fe-a1b5-5c49b0e153b8)
+
 
 ## Introduction
 
@@ -365,14 +367,18 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
  - **JAR-G(X)**: 골드 키-외래 키 제약 조건을 사용한 JAR-F(X)와 동일한 접근법이다.
 
 
-![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a)
+
 
 
 ### **4.2 Table Retrieval Performances**
 
 
+![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a)
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5MTY4ODIxNiwtMTcyOTUzNjQ2MCw2ND
+eyJoaXN0b3J5IjpbLTM0Mzg4OTM3NiwtMTcyOTUzNjQ2MCw2ND
 MwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3
 MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMT
 E4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3Njky
