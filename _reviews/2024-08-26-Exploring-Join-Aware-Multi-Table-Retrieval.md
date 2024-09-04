@@ -376,10 +376,10 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 ![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a){: .responsive-img .align-center}
 
 
-여기에서는 우리의 재랭킹 방법이 기존의 방법들보다 테이블을 더 잘 찾아내는지 평가했다.
+여기에서는 연구의 재랭킹 방법이 기존의 방법들보다 테이블을 더 잘 찾아내는지 평가했다.
 
 표 1에서, 검색 성능이 여러 값의  k 에 대해 어떻게 달라지는지 보여준다. 여기서  k 는 우리가 상위 몇 개의 테이블을 선택하는지를 나타낸다(예: 상위 2개, 5개, 10개 테이블).
-•	결과 요약:
+
 •	JAR-F라는 우리의 재랭킹 방법은 기존의 방법들(DTR과 Contriever)보다 더 좋은 성능을 보였다.
 •	예를 들어, Spider 데이터셋에서는 JAR-F(DTR)이 DTR보다 F1 점수에서 최대 5.6% 더 높은 성능을 보였고, JAR-F(Contriever)는 Contriever보다 최대 6.5% 더 높은 성능을 보였다.
 •	Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보다 F1 점수에서 최대 10.7% 더 높은 성능을, JAR-F(Contriever)는 Contriever보다 최대 7.9% 더 높은 성능을 보였다.
@@ -388,11 +388,11 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5Njg1NTU5ODgsLTE3Mjk1MzY0NjAsNj
-QzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1
-NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLT
-ExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5
-Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLT
-E4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3
-MDYzMjVdfQ==
+eyJoaXN0b3J5IjpbNTQ2Mjg3NjA1LC0xOTY4NTU1OTg4LC0xNz
+I5NTM2NDYwLDY0MzA5MDc2LC0xNjQ5MjA2Nzk2LDg1MzEyNzE1
+NywtMjk2OTMyNTczLC0xNTI4MzEyNzY0LDEzMjE3NDI0OTksNT
+A1OTg3MzQyLC0xMTg3MzI0MzE3LDQ5ODk5NTA1MiwtMzUyNzY3
+Nzc0LDMzNDc2OTI3NCwxNzg5NzQ5OTc4LDk0NzE0NDUyLC0xMz
+kwNjc5MzU5LC0xODE1MjE5OTA2LDE4NTQ3OTg1MzMsMTgzMDc4
+NzI5M119
 -->
