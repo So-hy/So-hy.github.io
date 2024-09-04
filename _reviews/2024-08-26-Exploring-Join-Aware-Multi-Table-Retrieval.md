@@ -394,13 +394,30 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ![Screenshot 2024-09-04 at 3 07 50 PM](https://github.com/user-attachments/assets/3b34d602-5ab2-48d0-9f73-92c310255e2b){: .responsive-img .align-center}
 
 
+여기선 더 나은 테이블 검색 성능이 실제로 질문에 답을 찾는 데 얼마나 도움이 되는지 알아본다. 이 과정은 테이블 검색 후, 그 테이블을 사용해 SQL 쿼리를 생성하고, 최종적으로 그 쿼리의 정확도를 평가하는 것이다.
 
+  
+표 2에서는 우리가 상위 5개의 테이블을 LLM(예: GPT-3.5 Turbo)에 입력했을 때, 재랭킹을 적용한 우리의 방법이 기존 방법들보다 더 나은 성능을 보였다.
+
+•  연구팀은 LLM이 자체적으로 재랭킹을 할 수 있는지도 알아보았다. 그래서 상위 20개의 테이블을 LLM에 제공하는 경우와 비교했다.
+
+•  결과적으로, 우리 방법은 Spider에서 평균적으로 2.6%, Bird에서 3.3% 더 높은 실행 정확도를 보였다.
+
+•  상위 10개의 테이블을 제공했을 때도 비슷한 성능 향상이 있었다. 이 결과들은 우리의 재랭킹 메커니즘이 효과적임을 보여준다.
+
+•  **표 3의 결과**: 표 3에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용한 테이블을 얼마나 잘 선택했는지 평가했다.
+
+•  우리의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
+
+•  특히, 최상의 기준 모델(상위 20개 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
+
+•  이는 우리의 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMD
-IyNDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1
-NTk4OCwtMTcyOTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Ni
-w4NTMxMjcxNTcsLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMzIx
-NzQyNDk5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUwNT
-IsLTM1Mjc2Nzc3NCwzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5NDcx
-NDQ1Ml19
+eyJoaXN0b3J5IjpbMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC0xOD
+Q5Mzk2ODQ3LDEwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4NDYw
+ODE3LC0xOTY4NTU1OTg4LC0xNzI5NTM2NDYwLDY0MzA5MDc2LC
+0xNjQ5MjA2Nzk2LDg1MzEyNzE1NywtMjk2OTMyNTczLC0xNTI4
+MzEyNzY0LDEzMjE3NDI0OTksNTA1OTg3MzQyLC0xMTg3MzI0Mz
+E3LDQ5ODk5NTA1MiwtMzUyNzY3Nzc0LDMzNDc2OTI3NCwxNzg5
+NzQ5OTc4XX0=
 -->
