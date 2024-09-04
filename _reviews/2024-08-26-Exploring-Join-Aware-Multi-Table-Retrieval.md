@@ -407,15 +407,15 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 연구의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
 
-특히, 최상의 기준 모델(상위 20개 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
+특히, 최상의 기준 모델(Top-20 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
 
 •  이는 우리의 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LDE5ND
-kzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYx
-NTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OC
-wtMTcyOTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMx
-MjcxNTcsLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMzIxNzQyND
-k5LDUwNTk4NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUwNTIsLTM1
-Mjc2Nzc3NF19
+eyJoaXN0b3J5IjpbLTEzOTUwNzU4MSwtNDQ2NzQwMDgyLC04OT
+QyNzkzMjQsMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC0xODQ5Mzk2
+ODQ3LDEwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4NDYwODE3LC
+0xOTY4NTU1OTg4LC0xNzI5NTM2NDYwLDY0MzA5MDc2LC0xNjQ5
+MjA2Nzk2LDg1MzEyNzE1NywtMjk2OTMyNTczLC0xNTI4MzEyNz
+Y0LDEzMjE3NDI0OTksNTA1OTg3MzQyLC0xMTg3MzI0MzE3LDQ5
+ODk5NTA1Ml19
 -->
