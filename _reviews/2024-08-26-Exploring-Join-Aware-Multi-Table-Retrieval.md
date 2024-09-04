@@ -407,19 +407,19 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ![Screenshot 2024-09-04 at 3 55 53 PM](https://github.com/user-attachments/assets/abe3bb45-4d3b-4fbf-9c43-8317c32029dd){: .responsive-img .align-center}
 
 
-위의 ㅍ에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용한 테이블을 얼마나 잘 선택했는지 평가했다.
+위의 표에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용한 테이블을 얼마나 잘 선택했는지 평가했다.
 
-•  우리의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
+연구의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
 
 •  특히, 최상의 기준 모델(상위 20개 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
 
 •  이는 우리의 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODM2OTY0MzIyLDE5NDkzNjAyOTUsMTc2Mz
-k2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYz
-NDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MC
-w2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5Njkz
-MjU3MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4NzM0Mi
-wtMTE4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3
-NjkyNzRdfQ==
+eyJoaXN0b3J5IjpbLTIxOTM0MDQ3MSwxOTQ5MzYwMjk1LDE3Nj
+M5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2MzE2
+MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1MzY0Nj
+AsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5
+MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczND
+IsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0
+NzY5Mjc0XX0=
 -->
