@@ -370,8 +370,9 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 
 ### **4.2 Table Retrieval Performances**
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODE4MzQ4MiwtMTcyOTUzNjQ2MCw2ND
+eyJoaXN0b3J5IjpbLTg5MTY4ODIxNiwtMTcyOTUzNjQ2MCw2ND
 MwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3
 MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMT
 E4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3Njky
