@@ -304,7 +304,7 @@ $$\text{argmax} \sum_i r_i b_i + \sum_{q,i,k} r_{qik} d_{qik} + \sum_{i,j,k,l} \
 
 
 
-### **4.1 Experiment Settings**
+### **4.1 Experimental Settings**
 
   
 
@@ -363,12 +363,18 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
  - **JAR-D(X)**: 세밀한 쿼리-테이블 관련성만을 고려한 연구팀의 재랭킹 방법이다.
  - **JAR-F(X)**: 테이블-테이블 관련성까지 고려한 연구팀의 전체 재랭킹 메커니즘이다.
  - **JAR-G(X)**: 골드 키-외래 키 제약 조건을 사용한 JAR-F(X)와 동일한 접근법이다.
+
+
+![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a)
+
+
+4.2 Table Retrieval Performances
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mjk1MzY0NjAsNjQzMDkwNzYsLTE2ND
-kyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLTE1MjgzMTI3
-NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODczMjQzMTcsND
-k4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5Mjc0LDE3ODk3NDk5
-NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLTE4MTUyMTk5MDYsMT
-g1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3MDYzMjUsNDA0MzI2
-MTM1XX0=
+eyJoaXN0b3J5IjpbLTEzNzg4NjQ1MzUsLTE3Mjk1MzY0NjAsNj
+QzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1
+NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLT
+ExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5
+Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLT
+E4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3
+MDYzMjVdfQ==
 -->
