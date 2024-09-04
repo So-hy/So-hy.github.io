@@ -404,6 +404,7 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 상위 10개의 테이블을 제공했을 때도 비슷한 성능 향상이 있었다. 이 결과들은 재랭킹 메커니즘이 효과적임을 보여준다.
 
 
+
 표 3에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용한 테이블을 얼마나 잘 선택했는지 평가했다.
 
 •  우리의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
@@ -412,7 +413,7 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 •  이는 우리의 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3OTA5NzgzLDE5NDkzNjAyOTUsMTc2Mz
+eyJoaXN0b3J5IjpbOTIzMDA5NDEzLDE5NDkzNjAyOTUsMTc2Mz
 k2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYz
 NDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MC
 w2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5Njkz
