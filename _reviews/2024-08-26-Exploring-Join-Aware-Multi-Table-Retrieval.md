@@ -388,8 +388,12 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 
 
+### **4.3 End-to-end Performances**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwODI0MzkyNywyMDc2MzE2MzQ1LC00MT
+eyJoaXN0b3J5IjpbMTAyMjQ2MTUzOSwyMDc2MzE2MzQ1LC00MT
 g0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1MzY0NjAsNjQzMDkw
 NzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1NzMsLT
 E1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTExODcz
