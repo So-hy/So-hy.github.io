@@ -368,13 +368,14 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 ![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a)
 
 
-4.2 Table Retrieval Performances
+### **4.2 Table Retrieval Performances**
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzg4NjQ1MzUsLTE3Mjk1MzY0NjAsNj
-QzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1
-NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLT
-ExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5
-Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLT
-E4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3
-MDYzMjVdfQ==
+eyJoaXN0b3J5IjpbMTQxODE4MzQ4MiwtMTcyOTUzNjQ2MCw2ND
+MwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3
+MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMT
+E4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3Njky
+NzQsMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMT
+gxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcw
+NjMyNV19
 -->
