@@ -13,7 +13,7 @@ date: 2024-08-25
 따라서 이러한 문제를 해결하기 위해 쿼리와 데이터베이스에 대해 유용한 결합 관계를 검색 단계에서 발견하는 방법을 제안한다. 이 방법은 테이블-쿼리의 관련성뿐만 아니라 테이블-테이블의 관련성을 고려한 새로운 재랭킹(re-ranking) 방법을 사용한다. 논문에서 제안된 방법은 최신 테이블 검색 접근법보다 최대 9.3% 높은 F1 점수와 5.4% 높은 QA 정확도를 달성했다고 보고한다.
 
 
-![Screenshot 2024-09-04 at 2 47 09 PM](https://github.com/user-attachments/assets/ff838d4f-4fd3-42fe-a1b5-5c49b0e153b8)
+![Screenshot 2024-09-04 at 2 47 09 PM](https://github.com/user-attachments/assets/ff838d4f-4fd3-42fe-a1b5-5c49b0e153b8){: .responsive-img .align-center}
 
 
 ## Introduction
@@ -373,16 +373,26 @@ DTR 모델은 특정 데이터셋에 맞게 **미세 조정(fine-tuning)**될 �
 ### **4.2 Table Retrieval Performances**
 
 
-![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a)
+![Screenshot 2024-09-04 at 1 14 11 AM](https://github.com/user-attachments/assets/748ae1a2-2d8e-4096-8d01-a63d5ff9d51a){: .responsive-img .align-center}
+
+
+여기에서는 우리의 재랭킹 방법이 기존의 방법들보다 테이블을 더 잘 찾아내는지 평가했다.
+
+표 1에서, 검색 성능이 여러 값의  k 에 대해 어떻게 달라지는지 보여준다. 여기서  k 는 우리가 상위 몇 개의 테이블을 선택하는지를 나타낸다(예: 상위 2개, 5개, 10개 테이블).
+•	결과 요약:
+•	JAR-F라는 우리의 재랭킹 방법은 기존의 방법들(DTR과 Contriever)보다 더 좋은 성능을 보였다.
+•	예를 들어, Spider 데이터셋에서는 JAR-F(DTR)이 DTR보다 F1 점수에서 최대 5.6% 더 높은 성능을 보였고, JAR-F(Contriever)는 Contriever보다 최대 6.5% 더 높은 성능을 보였다.
+•	Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보다 F1 점수에서 최대 10.7% 더 높은 성능을, JAR-F(Contriever)는 Contriever보다 최대 7.9% 더 높은 성능을 보였다.
+•	그러나  k  값이 커질수록, 즉 더 많은 테이블을 선택할수록 성능 향상의 정도는 줄어들었다. 이는 이미 높은 성능을 보이는 상황에서 추가적인 개선이 더 어렵기 때문이다.
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0Mzg4OTM3NiwtMTcyOTUzNjQ2MCw2ND
-MwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3
-MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4NzM0MiwtMT
-E4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NCwzMzQ3Njky
-NzQsMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3OTM1OSwtMT
-gxNTIxOTkwNiwxODU0Nzk4NTMzLDE4MzA3ODcyOTMsMTkwMzcw
-NjMyNV19
+eyJoaXN0b3J5IjpbLTE5Njg1NTU5ODgsLTE3Mjk1MzY0NjAsNj
+QzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1
+NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLT
+ExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3NzQsMzM0NzY5
+Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2NzkzNTksLT
+E4MTUyMTk5MDYsMTg1NDc5ODUzMywxODMwNzg3MjkzLDE5MDM3
+MDYzMjVdfQ==
 -->
