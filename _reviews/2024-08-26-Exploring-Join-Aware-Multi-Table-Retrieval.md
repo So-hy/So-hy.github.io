@@ -409,9 +409,9 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 특히, 최상의 기준 모델(Top-20 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
 
-•  이는 우리의 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
+이는 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUwNzU4MSwtNDQ2NzQwMDgyLC04OT
+eyJoaXN0b3J5IjpbLTk0NzkzNDEzOSwtNDQ2NzQwMDgyLC04OT
 QyNzkzMjQsMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC0xODQ5Mzk2
 ODQ3LDEwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4NDYwODE3LC
 0xOTY4NTU1OTg4LC0xNzI5NTM2NDYwLDY0MzA5MDc2LC0xNjQ5
