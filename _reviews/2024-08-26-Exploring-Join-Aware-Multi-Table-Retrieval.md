@@ -403,7 +403,7 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ![Screenshot 2024-09-04 at 3 55 53 PM](https://github.com/user-attachments/assets/abe3bb45-4d3b-4fbf-9c43-8317c32029dd){: .responsive-img .align-center}
 
 
-위의 표에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용한 테이블을 얼마나 잘 선택했는지 평가했다.
+위의 표에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용할 테이블을 얼마나 잘 선택했는지 평가했다.
 
 연구의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
 
@@ -411,11 +411,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 이는 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0NzkzNDEzOSwtNDQ2NzQwMDgyLC04OT
-QyNzkzMjQsMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC0xODQ5Mzk2
-ODQ3LDEwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4NDYwODE3LC
-0xOTY4NTU1OTg4LC0xNzI5NTM2NDYwLDY0MzA5MDc2LC0xNjQ5
-MjA2Nzk2LDg1MzEyNzE1NywtMjk2OTMyNTczLC0xNTI4MzEyNz
-Y0LDEzMjE3NDI0OTksNTA1OTg3MzQyLC0xMTg3MzI0MzE3LDQ5
-ODk5NTA1Ml19
+eyJoaXN0b3J5IjpbMTk2NDcwNDMyOSwtOTQ3OTM0MTM5LC00ND
+Y3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LDE3NjM5NjYx
+MTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2MzE2MzQ1LC
+00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1MzY0NjAsNjQz
+MDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1Nz
+MsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTEx
+ODczMjQzMTddfQ==
 -->
