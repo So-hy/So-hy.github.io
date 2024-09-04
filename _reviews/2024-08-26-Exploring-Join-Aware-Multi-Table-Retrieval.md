@@ -384,7 +384,7 @@ JAR-F 재랭킹 방법은 기존의 방법들(DTR과 Contriever)보다 더 좋�
 
 Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보다 F1 점수에서 최대 10.7% 더 높은 성능을, JAR-F(Contriever)는 Contriever보다 최대 7.9% 더 높은 성능을 보였다.
 
-그러나  k  값이 커질수록, 즉 더 많은 테이블을 선택할수록 성능 향상의 정도는 줄어들었다. 이는 이미 높은 성능을 보이는 상황에서 추가적인 개선이 더 어렵기 때문이다.
+그러나  k 값이 커질수록, 즉 더 많은 테이블을 선택할수록 성능 향상의 정도는 줄어들었다. 이는 이미 높은 성능을 보이는 상황에서 추가적인 개선이 더 어렵기 때문이다.
 
 
 
@@ -392,11 +392,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA5NTA2NjA5MywxMDIyNDYxNTM5LDIwNz
-YzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUz
-NjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLT
-I5NjkzMjU3MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUwNTk4
-NzM0MiwtMTE4NzMyNDMxNyw0OTg5OTUwNTIsLTM1Mjc2Nzc3NC
-wzMzQ3NjkyNzQsMTc4OTc0OTk3OCw5NDcxNDQ1MiwtMTM5MDY3
-OTM1OV19
+eyJoaXN0b3J5IjpbLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMD
+c2MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1
+MzY0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC
+0yOTY5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5
+ODczNDIsLTExODczMjQzMTcsNDk4OTk1MDUyLC0zNTI3Njc3Nz
+QsMzM0NzY5Mjc0LDE3ODk3NDk5NzgsOTQ3MTQ0NTIsLTEzOTA2
+NzkzNTldfQ==
 -->
