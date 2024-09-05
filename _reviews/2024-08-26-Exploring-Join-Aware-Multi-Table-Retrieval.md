@@ -408,12 +408,14 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 
 **재랭킹 메커니즘을 적용한 경우**, 모든 데이터셋에서 기존 모델들보다 더 높은 성능을 보였다. 특히, **최고의 기준 모델(상위 20개의 테이블)**과 비교했을 때도, 재랭킹 메커니즘은 여전히 **Spider**에서 평균 **1.5%**, **Bird**에서 **0.85%**의 **F1 점수** 향상을 보였다. 이는 재랭킹 메커니즘이 **LLM이 올바른 테이블을 선택**할 수 있도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMjU3ODY1LC0xMDAxNTEwOTg0LDEzND
-U5Mzk2NTksLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOTQ3OTM0
-MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LD
-E3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2
-MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1Mz
-Y0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0y
-OTY5MzI1NzNdfQ==
+eyJoaXN0b3J5IjpbMTYyMDI0NDAwNSwtMTAwMTUxMDk4NCwxMz
+Q1OTM5NjU5LC0xNjY4NTk3MjMzLDE5NjQ3MDQzMjksLTk0Nzkz
+NDEzOSwtNDQ2NzQwMDgyLC04OTQyNzkzMjQsMTk0OTM2MDI5NS
+wxNzYzOTY2MTEyLC0xODQ5Mzk2ODQ3LDEwMjI0NjE1MzksMjA3
+NjMxNjM0NSwtNDE4NDYwODE3LC0xOTY4NTU1OTg4LC0xNzI5NT
+M2NDYwLDY0MzA5MDc2LC0xNjQ5MjA2Nzk2LDg1MzEyNzE1Nywt
+Mjk2OTMyNTczXX0=
 -->
