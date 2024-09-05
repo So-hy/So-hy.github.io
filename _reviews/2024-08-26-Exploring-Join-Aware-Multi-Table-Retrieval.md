@@ -397,6 +397,14 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 위 표는 종단간 실행 정확도(end-to-end execution accuracy)를 측정하는 표다. 이는 검색된 테이블을 바탕으로 생성된 SQL 쿼리가 실제로 실행되어 **정확한 답변을 도출하는지**를 평가한다. 즉, 최종적으로 생성된 SQL 쿼리가 데이터베이스에서 실행되었을 때 올바른 결과를 반환하는지를 나타낸다.
 
+**상위 5개의 테이블**을 LLM에 제공했을 때, **재랭킹을 적용한 방법**이 기존의 기준 모델들보다 성능이 뛰어났다.
+
+**LLM의 자체 재랭킹 능력**도 조사했는데, 20개의 테이블을 제공한 경우와 비교해도 재랭킹 방법이 더 나은 성능을 보였다.
+
+**Spider** 데이터셋에서 평균적으로 **2.6%**의 정확도 향상, **Bird** 데이터셋에서 **3.3%**의 향상을 보였다.
+
+**상위 10개의 테이블**을 제공했을 때도 비슷한 성능 향상을 보였다. 이는 상위 5개나 20개 테이블을 제공했을 때보다, **정밀도와 재현율 간의 균형을 잡는 상위 10개 테이블**이 적절함을 보여준다.
+
 
 ![Screenshot 2024-09-04 at 3 55 53 PM](https://github.com/user-attachments/assets/abe3bb45-4d3b-4fbf-9c43-8317c32029dd){: .responsive-img .align-center}
 
@@ -404,11 +412,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 **Table 3**는 **종단간 테이블 검색 성능(end-to-end retrieval performance)**을 측정하는 표다. 이는 **LLM이 적절한 테이블을 선택했는지**에 대한 성능을 평가한다. 테이블 검색 과정에서 얼마나 정확하게 관련된 테이블을 선택했는지를 보여주는 것이며, **정밀도(precision), 재현율(recall), F1 점수**를 사용해 평가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOT
-Q3OTM0MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYw
-Mjk1LDE3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOS
-wyMDc2MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3
-Mjk1MzY0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MT
-U3LC0yOTY5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1
-MDU5ODczNDJdfQ==
+eyJoaXN0b3J5IjpbMTM0NTkzOTY1OSwtMTY2ODU5NzIzMywxOT
+Y0NzA0MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5
+MzI0LDE5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0Ny
+wxMDIyNDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2
+ODU1NTk4OCwtMTcyOTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNj
+c5Niw4NTMxMjcxNTcsLTI5NjkzMjU3MywtMTUyODMxMjc2NCwx
+MzIxNzQyNDk5XX0=
 -->
