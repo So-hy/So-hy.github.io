@@ -412,9 +412,15 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 ![Screenshot 2024-09-05 at 10 47 53 AM](https://github.com/user-attachments/assets/30ae9db7-1f75-44bb-bbd0-e54f55440f6d){: .responsive-img .align-center}
 
-​⬤
+위 테이블은 ​해당 방법론이 더 많은 테이블을 검색해야할 때, 효과적으로 이를 처리하는 것을 보여준다.
+
+
+### **4.4 Discussion**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY1NDAzNDgwLC0xMDAxNTEwOTg0LDEzND
+eyJoaXN0b3J5IjpbMTQxNTEyOTY1LC0xMDAxNTEwOTg0LDEzND
 U5Mzk2NTksLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOTQ3OTM0
 MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LD
 E3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2
