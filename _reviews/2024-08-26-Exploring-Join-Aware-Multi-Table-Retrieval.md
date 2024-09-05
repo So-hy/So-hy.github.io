@@ -438,7 +438,7 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
   
 
-•  **테이블 4**에서는, **JAR-F**와 **JAR-D**의 검색 성능 차이를 통해, 테이블 간 관련성이 (1) 더 많은 테이블이 포함된 쿼리와 (2) Bird 데이터셋에서 더 큰 기여를 한다는 것을 보여준다.
+위의 **테이블 4**에서는, **JAR-F**와 **JAR-D**의 검색 성능 차이를 통해, 테이블 간 관련성이 (1) 더 많은 테이블이 포함된 쿼리와 (2) Bird 데이터셋에서 더 큰 기여를 한다는 것을 보여준다.
 
 •  연구팀의 초점은 여러 테이블을 포함하는 다운스트림 작업을 개선하는 것이며, 더 많은 테이블을 포함할수록 **테이블 간 관련성**이 가장 큰 혜택을 제공하는 것은 당연한 결과다.
 
@@ -446,11 +446,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 •  Bird 데이터셋에는 **혼동을 일으키는 테이블**(예: 비슷한 스키마를 가진 Client (client_id)와 Customers (CustomerID) 테이블)도 많다. 이러한 특징들은 현실 세계의 데이터와 유사하며, 테이블 간 관련성은 이와 같은 더 어려운 문제를 해결하는 데 효과적이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDkyMTAxNTEsLTMwMjk0MDI4NSwyMD
-cwNzI5MzQ5LDE0MTUxMjk2NSwtMTAwMTUxMDk4NCwxMzQ1OTM5
-NjU5LC0xNjY4NTk3MjMzLDE5NjQ3MDQzMjksLTk0NzkzNDEzOS
-wtNDQ2NzQwMDgyLC04OTQyNzkzMjQsMTk0OTM2MDI5NSwxNzYz
-OTY2MTEyLC0xODQ5Mzk2ODQ3LDEwMjI0NjE1MzksMjA3NjMxNj
-M0NSwtNDE4NDYwODE3LC0xOTY4NTU1OTg4LC0xNzI5NTM2NDYw
-LDY0MzA5MDc2XX0=
+eyJoaXN0b3J5IjpbMjYxMTk3OTU1LC0zMDI5NDAyODUsMjA3MD
+cyOTM0OSwxNDE1MTI5NjUsLTEwMDE1MTA5ODQsMTM0NTkzOTY1
+OSwtMTY2ODU5NzIzMywxOTY0NzA0MzI5LC05NDc5MzQxMzksLT
+Q0Njc0MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAyOTUsMTc2Mzk2
+NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYzND
+UsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MCw2
+NDMwOTA3Nl19
 -->
