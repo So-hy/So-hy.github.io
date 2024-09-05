@@ -440,12 +440,38 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 위의 **테이블 4**에서는, **JAR-F**와 **JAR-D**의 검색 성능 차이를 통해, 테이블 간 관련성이 (1) 더 많은 테이블이 포함된 쿼리와 (2) Bird 데이터셋에서 더 큰 기여를 한다는 것을 보여준다. 연구팀의 초점은 여러 테이블을 포함하는 다운스트림 작업을 개선하는 것이며, 더 많은 테이블을 포함할수록 **테이블 간 관련성**이 가장 큰 혜택을 제공하는 것은 당연한 결과다.
 
 또한, **Bird 데이터셋**의 쿼리들이 더 어렵고 현실적이라는 점을 발견했다. 이는 **여러 중간 테이블**(예: Disp 테이블, Figure 1 참조)을 포함하며, 이러한 테이블들은 사용자 질문과 직접적으로 관련이 적다. Bird 데이터셋에는 **혼동을 일으키는 테이블**(예: 비슷한 스키마를 가진 Client (client_id)와 Customers (CustomerID) 테이블)도 많다. 이러한 특징들은 현실 세계의 데이터와 유사하며, 테이블 간 관련성은 이와 같은 더 어려운 문제를 해결하는 데 효과적이다.
+
+
+
+## *5.*Conclusion**
+
+  
+
+이 논문은 테이블 검색이 오픈 도메인 질문 응답, 사실 확인, 그리고 테이블 정보를 활용하는 검색 증강 생성에서 매우 중요하다는 점을 강조한다. 기존 연구들은 주로 **단일 테이블 검색**에만 초점을 맞췄으나, 실제로는 여러 테이블이 조인되어야 충분한 정보를 제공할 수 있다. 논문에서 제안한 **재랭킹 방법**은 쿼리-테이블 관련성뿐만 아니라 **테이블 간 호환성**도 함께 고려하여 **최적의 테이블 세트**를 선택하는 방식이다. 실험 결과, 이 방법이 기존 모델들보다 더 나은 검색 성능과 질문 응답 작업에서의 종단간 성능을 보여주었다.
+
+  
+
+**7. 한계점 (Limitations)**
+
+  
+
+논문의 한계점으로는 다음이 언급된다:
+
+  
+
+1. **테이블 검색 문제는 아직 해결되지 않았다**: 복잡한 쿼리의 경우, 여러 테이블을 조인해야 할 필요가 있다.
+
+2. **MIP 기반 재랭킹 메커니즘**: 이 방식은 테이블 간 조인 관계를 고려하는 첫 단계이지만, **확장성 문제**나 데이터에 민감할 수 있다.
+
+3. **다른 테이블 연결 방식**: 현실에서는 키-외래 키 관계뿐만 아니라, **같은 컬럼의 값**을 여러 테이블에서 비교해야 하는 상황도 있을 수 있다.
+
+4. **미래 연구**: 더 확장 가능한 솔루션과 다양한 테이블 간 연결 방식을 고려하는 연구가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAzNDUxMTMzLC0zMDI5NDAyODUsMjA3MD
-cyOTM0OSwxNDE1MTI5NjUsLTEwMDE1MTA5ODQsMTM0NTkzOTY1
-OSwtMTY2ODU5NzIzMywxOTY0NzA0MzI5LC05NDc5MzQxMzksLT
-Q0Njc0MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAyOTUsMTc2Mzk2
-NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYzND
-UsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MCw2
-NDMwOTA3Nl19
+eyJoaXN0b3J5IjpbMTY5NTk3NTkxOCw4MDM0NTExMzMsLTMwMj
+k0MDI4NSwyMDcwNzI5MzQ5LDE0MTUxMjk2NSwtMTAwMTUxMDk4
+NCwxMzQ1OTM5NjU5LC0xNjY4NTk3MjMzLDE5NjQ3MDQzMjksLT
+k0NzkzNDEzOSwtNDQ2NzQwMDgyLC04OTQyNzkzMjQsMTk0OTM2
+MDI5NSwxNzYzOTY2MTEyLC0xODQ5Mzk2ODQ3LDEwMjI0NjE1Mz
+ksMjA3NjMxNjM0NSwtNDE4NDYwODE3LC0xOTY4NTU1OTg4LC0x
+NzI5NTM2NDYwXX0=
 -->
