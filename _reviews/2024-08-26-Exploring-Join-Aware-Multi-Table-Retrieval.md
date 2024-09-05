@@ -394,10 +394,8 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ![Screenshot 2024-09-04 at 3 07 50 PM](https://github.com/user-attachments/assets/3b34d602-5ab2-48d0-9f73-92c310255e2b){: .responsive-img .align-center}
 
 
-여기선 더 나은 테이블 검색 성능이 실제로 질문에 답을 찾는 데 얼마나 도움이 되는지 알아본다. 이 과정은 테이블 검색 후, 그 테이블을 사용해 SQL 쿼리를 생성하고, 최종적으로 그 쿼리의 정확도를 평가하는 것이다.
 
-  
-위의 표에서는 우리가 상위 5개의 테이블을 LLM(예: GPT-3.5 Turbo)에 입력했을 때, 재랭킹을 적용한 연구의 방법이 기존 방법들보다 더 나은 성능을 보여주는 것을 볼 수 있다.
+위 표는 종단간 실행 정확도(end-to-end execution accuracy)를 측정하는 표다. 이는 검색된 테이블을 바탕으로 생성된 SQL 쿼리가 실제로 실행되어 **정확한 답변을 도출하는지**를 평가한다. 즉, 최종적으로 생성된 SQL 쿼리가 데이터베이스에서 실행되었을 때 올바른 결과를 반환하는지를 나타낸다.
 
 
 ![Screenshot 2024-09-04 at 3 55 53 PM](https://github.com/user-attachments/assets/abe3bb45-4d3b-4fbf-9c43-8317c32029dd){: .responsive-img .align-center}
@@ -411,11 +409,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 이는 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NDcwNDMyOSwtOTQ3OTM0MTM5LC00ND
-Y3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LDE3NjM5NjYx
-MTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2MzE2MzQ1LC
-00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1MzY0NjAsNjQz
-MDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0yOTY5MzI1Nz
-MsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1MDU5ODczNDIsLTEx
-ODczMjQzMTddfQ==
+eyJoaXN0b3J5IjpbLTk2MTg4ODYxMSwxOTY0NzA0MzI5LC05ND
+c5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAy
+OTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LD
+IwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcy
+OTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNT
+csLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUw
+NTk4NzM0Ml19
 -->
