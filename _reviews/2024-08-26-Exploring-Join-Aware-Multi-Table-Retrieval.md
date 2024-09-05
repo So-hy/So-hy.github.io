@@ -429,7 +429,6 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 **2. 골드 키-외래 키 제약 조건을 사용한 완전한 재랭킹 (Full re-ranking with gold key foreign-key constraints)**
 
-  
 
 •  **테이블 1**과 **테이블 2**에서 확인할 수 있듯이, **골드 키-외래 키 제약 조건(gold key foreign-key constraints)**을 보완하여 완전한 재랭킹(JAR-G)을 수행하면, JAR-F보다 더 나은 성능을 보인다.
 
@@ -449,11 +448,11 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 •  Bird 데이터셋에는 **혼동을 일으키는 테이블**(예: 비슷한 스키마를 가진 Client (client_id)와 Customers (CustomerID) 테이블)도 많다. 이러한 특징들은 현실 세계의 데이터와 유사하며, 테이블 간 관련성은 이와 같은 더 어려운 문제를 해결하는 데 효과적이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3MDcyOTM0OSwxNDE1MTI5NjUsLTEwMD
-E1MTA5ODQsMTM0NTkzOTY1OSwtMTY2ODU5NzIzMywxOTY0NzA0
-MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LD
-E5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIy
-NDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NT
-k4OCwtMTcyOTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4
-NTMxMjcxNTddfQ==
+eyJoaXN0b3J5IjpbLTE0ODQyMDMwNDksMjA3MDcyOTM0OSwxND
+E1MTI5NjUsLTEwMDE1MTA5ODQsMTM0NTkzOTY1OSwtMTY2ODU5
+NzIzMywxOTY0NzA0MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4Mi
+wtODk0Mjc5MzI0LDE5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0
+OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MD
+gxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MCw2NDMwOTA3Niwt
+MTY0OTIwNjc5Nl19
 -->
