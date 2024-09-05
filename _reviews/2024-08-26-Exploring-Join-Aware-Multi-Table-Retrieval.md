@@ -402,13 +402,13 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 
 
-•  **Table 3**는 **종단간 테이블 검색 성능(end-to-end retrieval performance)**을 측정하는 표다. 이는 **LLM이 적절한 테이블을 선택했는지**에 대한 성능을 평가한다. 테이블 검색 과정에서 얼마나 정확하게 관련된 테이블을 선택했는지를 보여주는 것이며, **정밀도(precision), 재현율(recall), F1 점수**를 사용해 평가한다.
+**Table 3**는 **종단간 테이블 검색 성능(end-to-end retrieval performance)**을 측정하는 표다. 이는 **LLM이 적절한 테이블을 선택했는지**에 대한 성능을 평가한다. 테이블 검색 과정에서 얼마나 정확하게 관련된 테이블을 선택했는지를 보여주는 것이며, **정밀도(precision), 재현율(recall), F1 점수**를 사용해 평가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0OTU5ODU3NSwxOTY0NzA0MzI5LC05ND
-c5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAy
-OTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LD
-IwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcy
-OTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNT
-csLTI5NjkzMjU3MywtMTUyODMxMjc2NCwxMzIxNzQyNDk5LDUw
-NTk4NzM0Ml19
+eyJoaXN0b3J5IjpbLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOT
+Q3OTM0MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYw
+Mjk1LDE3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOS
+wyMDc2MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3
+Mjk1MzY0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MT
+U3LC0yOTY5MzI1NzMsLTE1MjgzMTI3NjQsMTMyMTc0MjQ5OSw1
+MDU5ODczNDJdfQ==
 -->
