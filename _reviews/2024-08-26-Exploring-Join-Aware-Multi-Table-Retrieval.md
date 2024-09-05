@@ -454,19 +454,17 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ## **6. Limitations**
 
   
-1. **테이블 검색 문제는 아직 완전히 해결되지 않았다**: 복잡한 쿼리의 경우, 여러 테이블을 조인해야 할 필요가 있다.
-
-2. **MIP 기반 재랭킹 메커니즘**: 이 방식은 테이블 간 조인 관계를 고려하는 첫 단계이지만, **확장성 문제**나 데이터에 민감할 수 있다.
+1. **테이블 검색 문제는 아직 완전히 해결되지 않았다**: 복잡한 쿼리의 경우, 여러 테이블을 조인해야 할 필요가 있다. **MIP 기반 재랭킹 메커니즘**은 테이블 간 조인 관계를 고려하는 첫 단계이지만, **확장성 문제**나 데이터에 민감할 수 있다.
 
 3. **다른 테이블 연결 방식**: 현실에서는 키-외래 키 관계뿐만 아니라, **같은 컬럼의 값**을 여러 테이블에서 비교해야 하는 상황도 있을 수 있다.
 
 4. **미래 연구**: 더 확장 가능한 솔루션과 다양한 테이블 간 연결 방식을 고려하는 연구가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwNTkxNDQzLDEzMTUzMzA4MCw4MDM0NT
-ExMzMsLTMwMjk0MDI4NSwyMDcwNzI5MzQ5LDE0MTUxMjk2NSwt
-MTAwMTUxMDk4NCwxMzQ1OTM5NjU5LC0xNjY4NTk3MjMzLDE5Nj
-Q3MDQzMjksLTk0NzkzNDEzOSwtNDQ2NzQwMDgyLC04OTQyNzkz
-MjQsMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC0xODQ5Mzk2ODQ3LD
-EwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4NDYwODE3LC0xOTY4
-NTU1OTg4XX0=
+eyJoaXN0b3J5IjpbLTEzNDk0OTQyNywxMzE1MzMwODAsODAzND
+UxMTMzLC0zMDI5NDAyODUsMjA3MDcyOTM0OSwxNDE1MTI5NjUs
+LTEwMDE1MTA5ODQsMTM0NTkzOTY1OSwtMTY2ODU5NzIzMywxOT
+Y0NzA0MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5
+MzI0LDE5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0Ny
+wxMDIyNDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2
+ODU1NTk4OF19
 -->
