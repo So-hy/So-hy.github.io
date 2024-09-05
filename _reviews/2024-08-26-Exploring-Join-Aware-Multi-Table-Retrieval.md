@@ -418,19 +418,12 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ### **4.4 Discussion**
 
 
-**4.4 논의 (Discussion)**
-
-  
-
 **1. 테이블 간 관련성 없이 재랭킹 (Re-ranking without table-table relevance)**
 
-  
 
-•  **테이블 1**에서 볼 수 있듯이, 세밀한 쿼리-테이블 관련성(fine-grained query-table relevance)을 사용한 재랭킹(JAR-D)은 이미 기존의 기준 모델들(DTR과 Contriever)을 능가하며, 세밀한 쿼리-테이블 관련성만으로도 상당한 효과를 발휘한다.
+**테이블 1**에서 볼 수 있듯이, 세밀한 쿼리-테이블 관련성(fine-grained query-table relevance)을 사용한 재랭킹(JAR-D)은 이미 기존의 기준 모델들(DTR과 Contriever)을 능가하며, 세밀한 쿼리-테이블 관련성만으로도 상당한 효과를 발휘한다. 그러나, 테이블 간 관련성(table-table relevance)을 추가로 고려한 재랭킹(JAR-F)은 JAR-D보다 더 나은 성능을 보여준다. 이는 **조인 호환성(join compatibility)**이 테이블 검색 성능을 향상시키는 데 중요한 역할을 한다는 것을 의미한다.
 
-•  그러나, 테이블 간 관련성(table-table relevance)을 추가로 고려한 재랭킹(JAR-F)은 JAR-D보다 더 나은 성능을 보여준다. 이는 **조인 호환성(join compatibility)**이 테이블 검색 성능을 향상시키는 데 중요한 역할을 한다는 것을 의미한다.
-
-•  결론적으로, **세밀한 쿼리-테이블 관련성**과 **테이블 간 관련성** 모두 더 나은 검색 성능을 위해 필수적이다.
+결론적으로, **세밀한 쿼리-테이블 관련성**과 **테이블 간 관련성** 모두 더 나은 검색 성능을 위해 필수적이다.
 
   
 
@@ -456,7 +449,7 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 •  Bird 데이터셋에는 **혼동을 일으키는 테이블**(예: 비슷한 스키마를 가진 Client (client_id)와 Customers (CustomerID) 테이블)도 많다. 이러한 특징들은 현실 세계의 데이터와 유사하며, 테이블 간 관련성은 이와 같은 더 어려운 문제를 해결하는 데 효과적이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM4NDU4MTU1NiwxNDE1MTI5NjUsLTEwMD
+eyJoaXN0b3J5IjpbMjA3MDcyOTM0OSwxNDE1MTI5NjUsLTEwMD
 E1MTA5ODQsMTM0NTkzOTY1OSwtMTY2ODU5NzIzMywxOTY0NzA0
 MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LD
 E5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIy
