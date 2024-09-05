@@ -405,12 +405,15 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 
 
 **Table 3**는 **종단간 테이블 검색 성능(end-to-end retrieval performance)**을 측정하는 표다. 이는 **LLM이 적절한 테이블을 선택했는지**에 대한 성능을 평가한다. 테이블 검색 과정에서 얼마나 정확하게 관련된 테이블을 선택했는지를 보여주는 것이며, **정밀도(precision), 재현율(recall), F1 점수**를 사용해 평가한다.
+
+
+**재랭킹 메커니즘을 적용한 경우**, 모든 데이터셋에서 기존 모델들보다 더 높은 성능을 보였다. 특히, **최고의 기준 모델(상위 20개의 테이블)**과 비교했을 때도, 재랭킹 메커니즘은 여전히 **Spider**에서 평균 **1.5%**, **Bird**에서 **0.85%**의 **F1 점수** 향상을 보였다. 이는 재랭킹 메커니즘이 **LLM이 올바른 테이블을 선택**할 수 있도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMDE1MTA5ODQsMTM0NTkzOTY1OSwtMT
-Y2ODU5NzIzMywxOTY0NzA0MzI5LC05NDc5MzQxMzksLTQ0Njc0
-MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAyOTUsMTc2Mzk2NjExMi
-wtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYzNDUsLTQx
-ODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcyOTUzNjQ2MCw2NDMwOT
-A3NiwtMTY0OTIwNjc5Niw4NTMxMjcxNTcsLTI5NjkzMjU3Mywt
-MTUyODMxMjc2NF19
+eyJoaXN0b3J5IjpbNjAyMjU3ODY1LC0xMDAxNTEwOTg0LDEzND
+U5Mzk2NTksLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOTQ3OTM0
+MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LD
+E3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2
+MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1Mz
+Y0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0y
+OTY5MzI1NzNdfQ==
 -->
