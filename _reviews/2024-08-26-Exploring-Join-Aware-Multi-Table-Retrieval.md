@@ -459,12 +459,14 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 2. **다른 테이블 연결 방식**: 현실에서는 키-외래 키 관계뿐만 아니라, **같은 컬럼의 값**을 여러 테이블에서 비교해야 하는 상황도 있을 수 있다. 즉, 두 테이블을 조인할 때 항상 외래 키와 기본 키를 사용하는 것이 아니라, **같은 이름의 컬럼이나 같은 유형의 데이터를 가진 컬럼**을 기준으로 두 테이블을 연결해야 하는 경우가 있을 수 있다는 것이다.
 
 따라서 저자들은 더 확장 가능한 솔루션과 다양한 테이블 간 연결 방식을 고려하는 연구가 필요하다고 제안한다.
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTc5NzMwMDgsLTIwMzU0NzgyMjcsMT
-MxNTMzMDgwLDgwMzQ1MTEzMywtMzAyOTQwMjg1LDIwNzA3Mjkz
-NDksMTQxNTEyOTY1LC0xMDAxNTEwOTg0LDEzNDU5Mzk2NTksLT
-E2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOTQ3OTM0MTM5LC00NDY3
-NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LDE3NjM5NjYxMT
-IsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2MzE2MzQ1LC00
-MTg0NjA4MTddfQ==
+eyJoaXN0b3J5IjpbLTU0OTUwMDk4MCwtMjAzNTQ3ODIyNywxMz
+E1MzMwODAsODAzNDUxMTMzLC0zMDI5NDAyODUsMjA3MDcyOTM0
+OSwxNDE1MTI5NjUsLTEwMDE1MTA5ODQsMTM0NTkzOTY1OSwtMT
+Y2ODU5NzIzMywxOTY0NzA0MzI5LC05NDc5MzQxMzksLTQ0Njc0
+MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAyOTUsMTc2Mzk2NjExMi
+wtMTg0OTM5Njg0NywxMDIyNDYxNTM5LDIwNzYzMTYzNDUsLTQx
+ODQ2MDgxN119
 -->
