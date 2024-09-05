@@ -456,15 +456,15 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
   
 1. **테이블 검색 문제는 아직 완전히 해결되지 않았다**: 복잡한 쿼리의 경우, 여러 테이블을 조인해야 할 필요가 있다. **MIP 기반 재랭킹 메커니즘**은 테이블 간 조인 관계를 고려하는 첫 단계이지만, **확장성 문제**나 데이터에 민감할 수 있다.
 
-2. **다른 테이블 연결 방식**: 현실에서는 키-외래 키 관계뿐만 아니라, **같은 컬럼의 값**을 여러 테이블에서 비교해야 하는 상황도 있을 수 있다.
+2. **다른 테이블 연결 방식**: 현실에서는 키-외래 키 관계뿐만 아니라, **같은 컬럼의 값**을 여러 테이블에서 비교해야 하는 상황도 있을 수 있다. 즉, 두 테이블을 조인할 때 항상 외래 키와 기본 키를 사용하는 것이 아니라, **같은 이름의 컬럼이나 같은 유형의 데이터를 가진 컬럼**을 기준으로 두 테이블을 연결해야 하는 경우가 있을 수 있다는 것이다.
 
 3. **미래 연구**: 더 확장 가능한 솔루션과 다양한 테이블 간 연결 방식을 고려하는 연구가 필요하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzU0NzgyMjcsMTMxNTMzMDgwLDgwMz
-Q1MTEzMywtMzAyOTQwMjg1LDIwNzA3MjkzNDksMTQxNTEyOTY1
-LC0xMDAxNTEwOTg0LDEzNDU5Mzk2NTksLTE2Njg1OTcyMzMsMT
-k2NDcwNDMyOSwtOTQ3OTM0MTM5LC00NDY3NDAwODIsLTg5NDI3
-OTMyNCwxOTQ5MzYwMjk1LDE3NjM5NjYxMTIsLTE4NDkzOTY4ND
-csMTAyMjQ2MTUzOSwyMDc2MzE2MzQ1LC00MTg0NjA4MTcsLTE5
-Njg1NTU5ODhdfQ==
+eyJoaXN0b3J5IjpbLTI4MjEwMzYzLC0yMDM1NDc4MjI3LDEzMT
+UzMzA4MCw4MDM0NTExMzMsLTMwMjk0MDI4NSwyMDcwNzI5MzQ5
+LDE0MTUxMjk2NSwtMTAwMTUxMDk4NCwxMzQ1OTM5NjU5LC0xNj
+Y4NTk3MjMzLDE5NjQ3MDQzMjksLTk0NzkzNDEzOSwtNDQ2NzQw
+MDgyLC04OTQyNzkzMjQsMTk0OTM2MDI5NSwxNzYzOTY2MTEyLC
+0xODQ5Mzk2ODQ3LDEwMjI0NjE1MzksMjA3NjMxNjM0NSwtNDE4
+NDYwODE3XX0=
 -->
