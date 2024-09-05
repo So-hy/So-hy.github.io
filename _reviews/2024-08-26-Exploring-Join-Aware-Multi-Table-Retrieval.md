@@ -418,13 +418,49 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ### **4.4 Discussion**
 
 
+**4.4 논의 (Discussion)**
 
+  
+
+**1. 테이블 간 관련성 없이 재랭킹 (Re-ranking without table-table relevance)**
+
+  
+
+•  **테이블 1**에서 볼 수 있듯이, 세밀한 쿼리-테이블 관련성(fine-grained query-table relevance)을 사용한 재랭킹(JAR-D)은 이미 기존의 기준 모델들(DTR과 Contriever)을 능가하며, 세밀한 쿼리-테이블 관련성만으로도 상당한 효과를 발휘한다.
+
+•  그러나, 테이블 간 관련성(table-table relevance)을 추가로 고려한 재랭킹(JAR-F)은 JAR-D보다 더 나은 성능을 보여준다. 이는 **조인 호환성(join compatibility)**이 테이블 검색 성능을 향상시키는 데 중요한 역할을 한다는 것을 의미한다.
+
+•  결론적으로, **세밀한 쿼리-테이블 관련성**과 **테이블 간 관련성** 모두 더 나은 검색 성능을 위해 필수적이다.
+
+  
+
+**2. 골드 키-외래 키 제약 조건을 사용한 완전한 재랭킹 (Full re-ranking with gold key foreign-key constraints)**
+
+  
+
+•  **테이블 1**과 **테이블 2**에서 확인할 수 있듯이, **골드 키-외래 키 제약 조건(gold key foreign-key constraints)**을 보완하여 완전한 재랭킹(JAR-G)을 수행하면, JAR-F보다 더 나은 성능을 보인다.
+
+•  이는 골드 조인 관계(gold join relationships)가 더 높은 품질의 호환성 점수(compatibility score)를 생성할 수 있기 때문이다. 이러한 더 나은 점수를 재랭킹 메커니즘이 효과적으로 활용할 수 있어, 최종 결과물이 향상된다.
+
+  
+
+**3. 다양한 데이터셋과 테이블 수에 따른 검색 성능 (Retrieval performances under different datasets and numbers of tables)**
+
+  
+
+•  **테이블 4**에서는, **JAR-F**와 **JAR-D**의 검색 성능 차이를 통해, 테이블 간 관련성이 (1) 더 많은 테이블이 포함된 쿼리와 (2) Bird 데이터셋에서 더 큰 기여를 한다는 것을 보여준다.
+
+•  연구팀의 초점은 여러 테이블을 포함하는 다운스트림 작업을 개선하는 것이며, 더 많은 테이블을 포함할수록 **테이블 간 관련성**이 가장 큰 혜택을 제공하는 것은 당연한 결과다.
+
+•  또한, **Bird 데이터셋**의 쿼리들이 더 어렵고 현실적이라는 점을 발견했다. 이는 **여러 중간 테이블**(예: Disp 테이블, Figure 1 참조)을 포함하며, 이러한 테이블들은 사용자 질문과 직접적으로 관련이 적다.
+
+•  Bird 데이터셋에는 **혼동을 일으키는 테이블**(예: 비슷한 스키마를 가진 Client (client_id)와 Customers (CustomerID) 테이블)도 많다. 이러한 특징들은 현실 세계의 데이터와 유사하며, 테이블 간 관련성은 이와 같은 더 어려운 문제를 해결하는 데 효과적이다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxNTEyOTY1LC0xMDAxNTEwOTg0LDEzND
-U5Mzk2NTksLTE2Njg1OTcyMzMsMTk2NDcwNDMyOSwtOTQ3OTM0
-MTM5LC00NDY3NDAwODIsLTg5NDI3OTMyNCwxOTQ5MzYwMjk1LD
-E3NjM5NjYxMTIsLTE4NDkzOTY4NDcsMTAyMjQ2MTUzOSwyMDc2
-MzE2MzQ1LC00MTg0NjA4MTcsLTE5Njg1NTU5ODgsLTE3Mjk1Mz
-Y0NjAsNjQzMDkwNzYsLTE2NDkyMDY3OTYsODUzMTI3MTU3LC0y
-OTY5MzI1NzNdfQ==
+eyJoaXN0b3J5IjpbMTM4NDU4MTU1NiwxNDE1MTI5NjUsLTEwMD
+E1MTA5ODQsMTM0NTkzOTY1OSwtMTY2ODU5NzIzMywxOTY0NzA0
+MzI5LC05NDc5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LD
+E5NDkzNjAyOTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIy
+NDYxNTM5LDIwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NT
+k4OCwtMTcyOTUzNjQ2MCw2NDMwOTA3NiwtMTY0OTIwNjc5Niw4
+NTMxMjcxNTddfQ==
 -->
