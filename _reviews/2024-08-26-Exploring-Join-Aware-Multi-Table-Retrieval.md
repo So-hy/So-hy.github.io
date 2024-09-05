@@ -401,15 +401,10 @@ Bird 데이터셋에서도 비슷한 결과를 보였다. JAR-F(DTR)은 DTR보�
 ![Screenshot 2024-09-04 at 3 55 53 PM](https://github.com/user-attachments/assets/abe3bb45-4d3b-4fbf-9c43-8317c32029dd){: .responsive-img .align-center}
 
 
-위의 표에서는 LLM이 최종 SQL 쿼리를 생성할 때 사용할 테이블을 얼마나 잘 선택했는지 평가했다.
 
-연구의 재랭킹 방법을 사용한 결과, 모든 데이터셋에서 기준 모델들보다 더 나은 성능을 보였다.
-
-특히, 최상의 기준 모델(Top-20 테이블을 제공한 경우)과 비교했을 때, 평균적으로 Spider에서 1.5%, Bird에서 0.85% 더 높은 F1 점수를 기록했다.
-
-이는 재랭킹 메커니즘이 LLM이 올바른 테이블을 선택하도록 도와, 최종적으로 질문에 더 정확하게 답할 수 있게 했다는 것을 의미한다.
+•  **Table 3**는 **종단간 테이블 검색 성능(end-to-end retrieval performance)**을 측정하는 표다. 이는 **LLM이 적절한 테이블을 선택했는지**에 대한 성능을 평가한다. 테이블 검색 과정에서 얼마나 정확하게 관련된 테이블을 선택했는지를 보여주는 것이며, **정밀도(precision), 재현율(recall), F1 점수**를 사용해 평가한다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk2MTg4ODYxMSwxOTY0NzA0MzI5LC05ND
+eyJoaXN0b3J5IjpbMTA0OTU5ODU3NSwxOTY0NzA0MzI5LC05ND
 c5MzQxMzksLTQ0Njc0MDA4MiwtODk0Mjc5MzI0LDE5NDkzNjAy
 OTUsMTc2Mzk2NjExMiwtMTg0OTM5Njg0NywxMDIyNDYxNTM5LD
 IwNzYzMTYzNDUsLTQxODQ2MDgxNywtMTk2ODU1NTk4OCwtMTcy
