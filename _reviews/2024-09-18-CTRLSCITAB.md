@@ -62,9 +62,9 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 
 ![스크린샷 2024-09-19 015118](https://github.com/user-attachments/assets/3782b176-85f7-4290-bf21-7e81a835921a)
 
-위의 테이블은 CTRLSciTab 데이터셋과 기존의 데이터셋들을 비교하여 보여준다. 과학적 추론을 
+위의 테이블은 CTRLSciTab 데이터셋과 기존의 데이터셋들을 비교하여 보여준다. 과학적 추론을 필요로 하는 데이터셋은 CTRLSciTab 이 유일하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNTIyMjc4Miw1MDMzNDYyNTMsLTExMD
+eyJoaXN0b3J5IjpbLTI0MzUzODc0Niw1MDMzNDYyNTMsLTExMD
 I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
 MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
 IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
