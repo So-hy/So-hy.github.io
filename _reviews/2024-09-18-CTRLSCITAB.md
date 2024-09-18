@@ -26,9 +26,11 @@ date: 2024-09-18
 ## **2. THE CTRLSCITAB DATASET**
 
 
-
+-   **CTRLSciTab 데이터 준비**: 과학 문헌에서 수집된 테이블-설명 쌍을 기반으로 한 데이터셋으로, 원본 논문에서 표와 연결된 문장을 추출하고 이를 과학적 추론에 필요한 도메인 특화 지식으로 구성함. 이 데이터셋에는 하이라이트된 셀이 포함되어 있어 사용자 선호를 반영하는 프롬프트 역할을 함.
+-   **데이터셋 구조**: 각 테이블은 평균 52개의 셀과 34개의 단어로 구성된 설명을 포함하며, 전체 셀 중 약 20%는 하이라이트된 셀로, 사용자 선호를 반영함. 또한, 각 테이블에는 평균 20개의 도메인 특화 지식 문장이 제공됨.
+-   **주요 목적**: CTRLSciTab은 기존의 테이블-텍스트 생성 작업에서 도메인 특화 지식과 과학적 추론을 추가해 보다 복잡한 설명 생성을 가능하게 함.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOT
-g2NDU5OCwtMzIyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgy
-OF19
+eyJoaXN0b3J5IjpbLTE3NDU0MzE0NzgsLTQ4ODMxNzQzMSwxMT
+MwMTcyODcsLTUxOTg2NDU5OCwtMzIyMTMxODkzLDQ4ODkwNzg4
+OCwtMjEyOTE0MTgyOF19
 -->
