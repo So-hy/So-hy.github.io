@@ -76,9 +76,9 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 마지막으로 **전문가 검증(Expert Verification)** 단계에서 도메인 특화 지식과 하이라이트된 셀의 정확성을 검토하고, 불필요한 정보를 제거하여 최종 데이터를 생성하였다.
 
 
-## **3. THE CTRLSCITAB DATASET**
+## **3. TASK DEFINITION**
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExMTYwMzg2NCw1MDMzNDYyNTMsLTExMD
+eyJoaXN0b3J5IjpbMTQ2NzYyNTc5Miw1MDMzNDYyNTMsLTExMD
 I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
 MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
 IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
