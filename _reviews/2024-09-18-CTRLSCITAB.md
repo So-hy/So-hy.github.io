@@ -46,7 +46,7 @@ CTRLSciTab은 주로 **과학 논문**에서 **숫자 추론**과 관련된 테�
 
 ### 3. **데이터 분석 (Data Analysis)**
 
-CTRLSciTab은 **8,967개의 테이블-설명 쌍**을 포함하며, 각 테이블은 평균 **52개의 셀**과 **34단어**로 이루어진 설명을 가지고 있다. 이 중 약 **20%의 셀**은 하이라이트되어 사용자 선호를 반영한다.
+CTRLSciTab은 **8,967개의 테이블-설명 쌍**을 포함하며, 각 테이블은 평균 **52개의 셀**과 **34단어**로 이루어진 설명을 가지고 있다. 이 중 약 **20%의 셀**은 하이라이트되어 사용자 선호를 반영한다.(제어된 생성)
 
 -   테이블당 평균 **20개의 도메인 특화 지식 문장**이 포함되어 있으며, 이를 통해 상식적 설명 생성을 지원한다.
 
@@ -64,7 +64,7 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 
 위의 테이블은 CTRLSciTab 데이터셋과 기존의 데이터셋들을 비교하여 보여준다. 과학적 추론을 필요로 하는 데이터셋은 CTRLSciTab 이 유일하다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzUzODc0Niw1MDMzNDYyNTMsLTExMD
+eyJoaXN0b3J5IjpbMTY2MjIyMzg2Myw1MDMzNDYyNTMsLTExMD
 I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
 MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
 IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
