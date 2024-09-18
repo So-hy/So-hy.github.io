@@ -57,10 +57,15 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 ### 4. **기존 데이터셋과의 차별점**
 
 -   기존 데이터셋(예: ToTTo)은 주로 컨텐츠 선택에 중점을 두었지만, 과학적 시나리오에 필요한 전문 지식과 논리적 추론을 충분히 반영하지 못했다.
--   CTRLSciTab은 이러한 한계를 극복하고자, **복잡한 과학적 추론**을 포함하는 테이블-텍스트 생성을 목표로 설계되었습니다. 이는 **대규모 언어 모델(LLM)**을 활용한 최근 연구의 성과로 연결됩니다.
+-   CTRLSciTab은 이러한 한계를 극복하고자, **복잡한 과학적 추론**을 포함하는 테이블-텍스트 생성을 목표로 설계되었다. 이는 **대규모 언어 모델(LLM)**을 활용한 최근 연구의 성과로 연결된다.
+
+
+![스크린샷 2024-09-19 015118](https://github.com/user-attachments/assets/3782b176-85f7-4290-bf21-7e81a835921a)
+
+위의 테이블은 CTRLSciTab 데이터셋과 기존의 데이터셋들을 비교하여 보여준다. 과학적 추론을 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTAzMzQ2MjUzLC0xMTAyOTk0ODgwLC0yNj
-Q4MTQ3MzUsLTE4ODU4MzkwNDAsNDU1MTQ0OTMsLTQ4ODMxNzQz
-MSwxMTMwMTcyODcsLTUxOTg2NDU5OCwtMzIyMTMxODkzLDQ4OD
-kwNzg4OCwtMjEyOTE0MTgyOF19
+eyJoaXN0b3J5IjpbMTIyNTIyMjc4Miw1MDMzNDYyNTMsLTExMD
+I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
+MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
+IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
 -->
