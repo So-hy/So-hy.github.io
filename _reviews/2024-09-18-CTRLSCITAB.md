@@ -21,7 +21,14 @@ date: 2024-09-18
 -   **새로운 방법 제안**: **과학적 추론**과 **사용자 선호**를 반영한 **제어된 테이블-텍스트 생성** 과제를 제안하며, 이를 위해 **CTRLSciTab** 데이터셋을 구축함.
     
 -   **모델 평가**: PLM 기반 모델들이 과학적 도메인에서 낮은 성능을 보였고, 이를 해결하기 위한 **새로운 벤치마크**를 제안함.
+
+
+## **2. THE CTRLSCITAB DATASET**
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDE3Mjg3LC01MTk4NjQ1OTgsLTMyMj
-EzMTg5Myw0ODg5MDc4ODgsLTIxMjkxNDE4MjhdfQ==
+eyJoaXN0b3J5IjpbLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOT
+g2NDU5OCwtMzIyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgy
+OF19
 -->
