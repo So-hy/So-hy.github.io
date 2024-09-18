@@ -35,11 +35,14 @@ CTRLSciTab은 주로 **과학 논문**에서 **숫자 추론**과 관련된 테�
 -   **중복 제거** 및 **엔티티 감지**를 통해 불필요한 정보는 배제하고, 테이블 설명과 일치하는 핵심 엔티티만을 유지한다.
 
 
+
 ### 2. **주석 과정 (Annotation Procedure)**
 
 자동으로 주석된 데이터에서 잘못된 하이라이트된 셀 등 잠재적 오류를 수정하기 위해, **컴퓨터 과학 전공 학생**들이 주석 데이터를 검증합니다. 이 과정에서 도메인 특화 지식을 정제하고 하이라이트된 셀을 확인하며, 불필요한 문장을 제거합니다.
 
 -   검증된 샘플 중 두 명의 주석자 간 **66.7%의 일치율**을 기록했으며, 도메인 특화 지식에 대한 일치율은 **70.6%**를 기록했습니다. 이는 과학적 추론에서 **도메인 지식**의 중요성을 강조합니다.
+
+
 
 ### 3. **데이터 분석 (Data Analysis)**
 
@@ -49,12 +52,14 @@ CTRLSciTab은 **8,967개의 테이블-설명 쌍**을 포함하며, 각 테이�
 
 CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content selection)**과 **표면 실현(surface realization)** 방식을 도입했습니다. 전통적인 생성 시스템은 **무엇을 말할지**(컨텐츠 선택)와 **어떻게 말할지**(표면 실현)를 구분했지만, CTRLSciTab은 이를 통합하여 **과학적 추론**과 **사용자 선호**를 모두 반영하는 방식으로 발전시켰습니다.
 
+
+
 ### 4. **기존 데이터셋과의 차별점**
 
 -   기존 데이터셋(예: ToTTo)은 주로 컨텐츠 선택에 중점을 두었지만, 과학적 시나리오에 필요한 전문 지식과 논리적 추론을 충분히 반영하지 못했습니다.
 -   CTRLSciTab은 이러한 한계를 극복하고자, **복잡한 과학적 추론**을 포함하는 테이블-텍스트 생성을 목표로 설계되었습니다. 이는 **대규모 언어 모델(LLM)**을 활용한 최근 연구의 성과로 연결됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODUxODAwOTk1LC00ODgzMTc0MzEsMTEzMD
-E3Mjg3LC01MTk4NjQ1OTgsLTMyMjEzMTg5Myw0ODg5MDc4ODgs
-LTIxMjkxNDE4MjhdfQ==
+eyJoaXN0b3J5IjpbNDU1MTQ0OTMsLTQ4ODMxNzQzMSwxMTMwMT
+cyODcsLTUxOTg2NDU5OCwtMzIyMTMxODkzLDQ4ODkwNzg4OCwt
+MjEyOTE0MTgyOF19
 -->
