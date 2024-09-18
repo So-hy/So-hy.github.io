@@ -73,10 +73,10 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 
 그 후, 추출된 테이블에서 하이라이트된 셀을 설명과 연결하는 과정이 이루어잔다. 이때 **엔티티 감지(Entity Detection)**를 통해 중요한 엔티티가 감지되고 강조다.
 
-마지막으로 **전문가 검증(Expert Verification)** 단계에서 도메인 특화 지식과 하이라이트된 셀의 정확성을 검토하고, 불필요한 정보를 제거하여 최종 데이터를 생성합니다.
+마지막으로 **전문가 검증(Expert Verification)** 단계에서 도메인 특화 지식과 하이라이트된 셀의 정확성을 검토하고, 불필요한 정보를 제거하여 최종 데이터를 생성하였다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTMwNjAzNDIsNTAzMzQ2MjUzLC0xMT
-AyOTk0ODgwLC0yNjQ4MTQ3MzUsLTE4ODU4MzkwNDAsNDU1MTQ0
-OTMsLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOTg2NDU5OCwtMz
-IyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgyOF19
+eyJoaXN0b3J5IjpbMjc5MDE3MTUzLDUwMzM0NjI1MywtMTEwMj
+k5NDg4MCwtMjY0ODE0NzM1LC0xODg1ODM5MDQwLDQ1NTE0NDkz
+LC00ODgzMTc0MzEsMTEzMDE3Mjg3LC01MTk4NjQ1OTgsLTMyMj
+EzMTg5Myw0ODg5MDc4ODgsLTIxMjkxNDE4MjhdfQ==
 -->
