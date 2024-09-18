@@ -77,9 +77,41 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 
 
 ## **3. TASK DEFINITION**
+
+
+### 1. **작업 목표(Task Objective)**:
+
+-   이 작업의 목표는 **유창하고 정확한 자연어 설명**을 생성하는 것입니다. 여기서 중요한 것은, 설명이 **테이블 데이터와 일관성**을 유지하면서, **도메인 특화 지식(domain-specific knowledge)**을 포함하고, **사용자 선호(user preferences)**에 맞춰져야 한다는 점입니다.
+-   즉, 단순한 데이터 설명이 아니라, **특정한 도메인에 맞는** 정보와 **사용자의 관심사**를 반영한 설명을 생성하는 것을 목표로 합니다.
+
+### 2. **입력(Input)**:
+
+입력은 세 가지로 구성됩니다:
+
+1.  **구조화된 데이터(Structured Data, T)**:
+    -   **T**는 **선형화된 테이블(linearized table)**로 표현됩니다. 선형화된 테이블이란, 테이블 데이터를 한 줄로 나열한 형태를 의미합니다.
+    -   테이블의 각 데이터 **ti**는 속성-값 쌍(attribute-value pair)으로 이루어져 있으며, 이 속성과 값은 **문자열(Strings)**, **숫자(Numbers)**, **구문(Phrases)**, **문장(Sentences)**일 수 있습니다. 예를 들어, 테이블의 하나의 행이 "연도: 2021" 또는 "매출: 1,000억 원"과 같은 형태로 나열될 수 있습니다.
+2.  **하이라이트된 셀(Highlighted Cells, H)**:
+    -   **H**는 테이블에서 강조된 셀을 나타냅니다. 이 셀들은 사용자 선호를 반영하며, 사용자가 보고자 하는 중요한 정보로 간주됩니다.
+    -   **H** 역시 **선형화된 테이블의 데이터**와 유사하게 다뤄집니다. 즉, 테이블 내 특정 셀이 강조된 정보를 담고 있으며, 이 정보는 설명 생성 시 우선적으로 다뤄지게 됩니다.
+3.  **도메인 특화 지식(Domain-specific Knowledge, B)**:
+    -   **B**는 테이블과 관련된 **도메인 특화 지식**을 나타내며, 테이블 데이터를 보완하는 문장들의 집합입니다.
+    -   예를 들어, 특정 과학 분야나 특정 연구 결과와 관련된 추가적인 배경 지식 또는 설명들이 여기에 포함될 수 있습니다. 이는 **과학적 추론**을 포함한 설명을 생성하는 데 중요한 역할을 합니다.
+
+### 3. **출력(Output)**:
+
+-   최종 출력은 **분석적인 설명(analytical description)**으로, **사용자 선호**에 맞춰져야 하고, **도메인 특화 지식**을 통합해야 합니다.
+-   이 설명은 단순히 테이블 데이터를 나열하는 것이 아니라, 테이블의 데이터를 분석적으로 설명하고, 사용자가 중점을 두는 정보(하이라이트된 셀)를 반영한 자연어 문장을 생성하는 것이 목표입니다.
+
+### 4. **수학적 표현**:
+
+-   **T = {t1, t2, ..., tn}**: 선형화된 테이블 데이터로, 각 **ti**는 속성-값 쌍을 의미합니다.
+-   **H = {h1, h2, ..., hn}**: 하이라이트된 셀로, 사용자 선호를 반영하는 데이터입니다.
+-   **B = {b1, b2, ..., bm}**: 도메인 특화 지식으로, 테이블 데이터를 보완하는 설명 문장들입니다.
+-   최종적으로, 이들 요소를 바탕으로 **R**이라는 분석적 설명을 생성합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ2NzYyNTc5Miw1MDMzNDYyNTMsLTExMD
-I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
-MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
-IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
+eyJoaXN0b3J5IjpbLTE1OTQxMTk1NDEsNTAzMzQ2MjUzLC0xMT
+AyOTk0ODgwLC0yNjQ4MTQ3MzUsLTE4ODU4MzkwNDAsNDU1MTQ0
+OTMsLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOTg2NDU5OCwtMz
+IyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgyOF19
 -->
