@@ -63,9 +63,20 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 ![스크린샷 2024-09-19 015118](https://github.com/user-attachments/assets/3782b176-85f7-4290-bf21-7e81a835921a)
 
 위의 테이블은 CTRLSciTab 데이터셋과 기존의 데이터셋들을 비교하여 보여준다. 과학적 추론을 필요로 하는 데이터셋은 CTRLSciTab 이 유일하다.
+
+
+![스크린샷 2024-09-19 015156](https://github.com/user-attachments/assets/1e9c7a2c-aa78-42d5-ad92-687cf7a9e397)
+
+위 그림은 CTRLSciTab의 데이터셋 구축 과정을 도식화하여 보여준다.
+
+먼저 arXiv.org의 PDF 문서를 파싱하여, 테이블과 관련된 도메인 특화 지식을 추출한다. 여기서 **내용 일치(Content Matching)** 과정과 **중복 제거(Deduplication)** 과정이 이루어진다.
+
+그 후, 추출된 테이블에서 하이라이트된 셀을 설명과 연결하는 과정이 이루어잔다. 이때 **엔티티 감지(Entity Detection)**를 통해 중요한 엔티티가 감지되고 강조다.
+
+마지막으로 **전문가 검증(Expert Verification)** 단계에서 도메인 특화 지식과 하이라이트된 셀의 정확성을 검토하고, 불필요한 정보를 제거하여 최종 데이터를 생성합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MjIyMzg2Myw1MDMzNDYyNTMsLTExMD
-I5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgzOTA0MCw0NTUxNDQ5
-MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNTE5ODY0NTk4LC0zMj
-IxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQxODI4XX0=
+eyJoaXN0b3J5IjpbLTE3MTMwNjAzNDIsNTAzMzQ2MjUzLC0xMT
+AyOTk0ODgwLC0yNjQ4MTQ3MzUsLTE4ODU4MzkwNDAsNDU1MTQ0
+OTMsLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOTg2NDU5OCwtMz
+IyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgyOF19
 -->
