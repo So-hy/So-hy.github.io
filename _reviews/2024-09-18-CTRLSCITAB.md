@@ -48,7 +48,7 @@ CTRLSciTab은 주로 **과학 논문**에서 **숫자 추론**과 관련된 테�
 
 CTRLSciTab은 **8,967개의 테이블-설명 쌍**을 포함하며, 각 테이블은 평균 **52개의 셀**과 **34단어**로 이루어진 설명을 가지고 있다. 이 중 약 **20%의 셀**은 하이라이트되어 사용자 선호를 반영한다.
 
--   테이블당 평균 **20개의 도메인 특화 지식 문장**이 포함되어 있으며, 이를 통해 상식적 설명 생성을 지원합니다.
+-   테이블당 평균 **20개의 도메인 특화 지식 문장**이 포함되어 있으며, 이를 통해 상식적 설명 생성을 지원한다.
 
 CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content selection)**과 **표면 실현(surface realization)** 방식을 도입했습니다. 전통적인 생성 시스템은 **무엇을 말할지**(컨텐츠 선택)와 **어떻게 말할지**(표면 실현)를 구분했지만, CTRLSciTab은 이를 통합하여 **과학적 추론**과 **사용자 선호**를 모두 반영하는 방식으로 발전시켰습니다.
 
@@ -59,8 +59,8 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 -   기존 데이터셋(예: ToTTo)은 주로 컨텐츠 선택에 중점을 두었지만, 과학적 시나리오에 필요한 전문 지식과 논리적 추론을 충분히 반영하지 못했습니다.
 -   CTRLSciTab은 이러한 한계를 극복하고자, **복잡한 과학적 추론**을 포함하는 테이블-텍스트 생성을 목표로 설계되었습니다. 이는 **대규모 언어 모델(LLM)**을 활용한 최근 연구의 성과로 연결됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzMyNjkxMDI3LC0yNjQ4MTQ3MzUsLTE4OD
-U4MzkwNDAsNDU1MTQ0OTMsLTQ4ODMxNzQzMSwxMTMwMTcyODcs
-LTUxOTg2NDU5OCwtMzIyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOT
-E0MTgyOF19
+eyJoaXN0b3J5IjpbMTk5MzE2MjcyMCwtMjY0ODE0NzM1LC0xOD
+g1ODM5MDQwLDQ1NTE0NDkzLC00ODgzMTc0MzEsMTEzMDE3Mjg3
+LC01MTk4NjQ1OTgsLTMyMjEzMTg5Myw0ODg5MDc4ODgsLTIxMj
+kxNDE4MjhdfQ==
 -->
