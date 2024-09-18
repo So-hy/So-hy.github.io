@@ -34,6 +34,7 @@ CTRLSciTab은 주로 **과학 논문**에서 **숫자 추론**과 관련된 테�
 -   문서들은 XML 형식으로 변환되고, **그리디 알고리즘**을 사용하여 테이블과 문장(엔티티 참조 문장)을 일치시킨다.
 -   **중복 제거** 및 **엔티티 감지**를 통해 불필요한 정보는 배제하고, 테이블 설명과 일치하는 핵심 엔티티만을 유지한다.
 
+
 ### 2. **주석 과정 (Annotation Procedure)**
 
 자동으로 주석된 데이터에서 잘못된 하이라이트된 셀 등 잠재적 오류를 수정하기 위해, **컴퓨터 과학 전공 학생**들이 주석 데이터를 검증합니다. 이 과정에서 도메인 특화 지식을 정제하고 하이라이트된 셀을 확인하며, 불필요한 문장을 제거합니다.
@@ -53,7 +54,7 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 -   기존 데이터셋(예: ToTTo)은 주로 컨텐츠 선택에 중점을 두었지만, 과학적 시나리오에 필요한 전문 지식과 논리적 추론을 충분히 반영하지 못했습니다.
 -   CTRLSciTab은 이러한 한계를 극복하고자, **복잡한 과학적 추론**을 포함하는 테이블-텍스트 생성을 목표로 설계되었습니다. 이는 **대규모 언어 모델(LLM)**을 활용한 최근 연구의 성과로 연결됩니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NDY2MjgwMSwtNDg4MzE3NDMxLDExMz
-AxNzI4NywtNTE5ODY0NTk4LC0zMjIxMzE4OTMsNDg4OTA3ODg4
-LC0yMTI5MTQxODI4XX0=
+eyJoaXN0b3J5IjpbODUxODAwOTk1LC00ODgzMTc0MzEsMTEzMD
+E3Mjg3LC01MTk4NjQ1OTgsLTMyMjEzMTg5Myw0ODg5MDc4ODgs
+LTIxMjkxNDE4MjhdfQ==
 -->
