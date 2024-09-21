@@ -1,6 +1,6 @@
 ---
 layout: review_post
-title: "[Paper Review] TOWARDS CONTROLLED TABLE-TO-TEXT GENERATION WITH SCIENTIFIC REASONING
+title: "[Paper Review] TOWARDS CONTROLLED TABLE-TO-TEXT GENERATION WITH SCIENTIFIC REASONING"
 author: Zhixin Guo , Jianping Zhou , Jiexing Qi , Mingxuan Yan , Ziwei He , Xinbing Wang , Chenghu Zhou
 date: 2024-09-18
 ---
@@ -110,8 +110,9 @@ CTRLSciTab은 기존 데이터셋과 차별화된 **컨텐츠 선택(content sel
 -   **B = {b1, b2, ..., bm}**: 도메인 특화 지식으로, 테이블 데이터를 보완하는 설명 문장들입니다.
 -   최종적으로, 이들 요소를 바탕으로 **R**이라는 분석적 설명을 생성합니다.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTQxMTk1NDEsNTAzMzQ2MjUzLC0xMT
-AyOTk0ODgwLC0yNjQ4MTQ3MzUsLTE4ODU4MzkwNDAsNDU1MTQ0
-OTMsLTQ4ODMxNzQzMSwxMTMwMTcyODcsLTUxOTg2NDU5OCwtMz
-IyMTMxODkzLDQ4ODkwNzg4OCwtMjEyOTE0MTgyOF19
+eyJoaXN0b3J5IjpbMTc1MjYzNTkyMSwtMTU5NDExOTU0MSw1MD
+MzNDYyNTMsLTExMDI5OTQ4ODAsLTI2NDgxNDczNSwtMTg4NTgz
+OTA0MCw0NTUxNDQ5MywtNDg4MzE3NDMxLDExMzAxNzI4NywtNT
+E5ODY0NTk4LC0zMjIxMzE4OTMsNDg4OTA3ODg4LC0yMTI5MTQx
+ODI4XX0=
 -->
