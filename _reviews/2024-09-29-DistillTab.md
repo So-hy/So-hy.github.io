@@ -17,6 +17,14 @@ date: 2024-09-29
 
 4. **결과:** 증류된 CoT(Chain-of-Thought) 데이터를 사용해 소규모 모델을 미세 조정하는 것이 테이블 기반 추론 능력 향상에 효과적이며, 작은 모델로도 큰 모델에 준하는 성능을 달성할 수 있음을 입증했다.
 
+---
+
+
+## introduction
+
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcxMjQ5MTAyLDExODc0OTI5OTZdfQ==
+eyJoaXN0b3J5IjpbNjMxMzgzNDcxLDc3MTI0OTEwMiwxMTg3ND
+kyOTk2XX0=
 -->
